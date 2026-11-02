@@ -761,6 +761,77 @@ nav.brand-nav {
   gap: 1.5rem;
 }
 
+/* AI frame interpolation (RIFE) panel */
+.rife-source {
+  margin: 0.25rem 0 0.6rem;
+  font-size: 0.9rem;
+}
+
+.rife-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.rife-presets button {
+  flex: 1 1 10rem;
+  width: auto;
+  margin: 0;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+/* Speed | fps side by side, audio on its own row */
+.rife-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.5rem 0.75rem;
+  align-items: end;
+}
+
+.rife-grid .rife-audio {
+  grid-column: 1 / -1;
+}
+
+.rife-summary {
+  display: block;
+  margin: 0.75rem 0 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-left: 3px solid var(--pico-primary-background);
+  background: var(--pico-card-sectioning-background-color);
+  font-size: 0.85rem;
+}
+
+.rife-summary.warn {
+  border-left-color: #e5a50a;
+}
+
+/* Step headings atop each column: 1 Input → 2 Conversion Settings → 3 Output */
+.column-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  /* Pull the first card closer than the column's normal 1.5rem gap */
+  margin: 0 0 -0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  font-size: 1.1rem;
+}
+
+.column-step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 /* Render/cancel actions at the top of the output column */
 .output-actions {
   display: flex;

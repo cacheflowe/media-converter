@@ -3,7 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🐰 MediaBunny Media Toolkit</title>
+    <title>Media Converter — 100% In-Browser Video, Audio &amp; Image Toolkit</title>
+
+    <!-- Primary SEO Meta Tags -->
+    <meta name="title" content="Media Converter — 100% In-Browser Video, Audio &amp; Image Toolkit" />
+    <meta
+      name="description"
+      content="Free, private, 100% client-side media converter powered by WebCodecs and WebGPU. Transcode, trim, crop, resize, redact, AI-upscale, and batch-convert video, audio, and images directly in your browser with zero uploads."
+    />
+    <meta
+      name="keywords"
+      content="media converter, video converter, image converter, audio converter, WebCodecs, WebGPU, MediaBunny, in-browser video editor, client-side transcode, video trim, video crop, image redaction, AI image upscaler, Real-ESRGAN, HEIC converter, screen recorder, batch media converter"
+    />
+    <meta name="author" content="cacheflowe" />
+    <meta name="robots" content="index, follow" />
+    <meta name="application-name" content="Media Converter" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#13171f" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <link rel="canonical" href="https://cacheflowe.github.io/media-converter/" />
+
+    <!-- Emoji Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>"
+    />
+
+    <!-- Open Graph / Link Previews -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Media Converter" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://cacheflowe.github.io/media-converter/" />
+    <meta property="og:title" content="Media Converter — 100% In-Browser Video, Audio &amp; Image Toolkit" />
+    <meta
+      property="og:description"
+      content="Free, private, 100% client-side media converter powered by WebCodecs and WebGPU. Transcode, trim, crop, resize, redact, AI-upscale, and batch-convert video, audio, and images locally in your browser."
+    />
+
+    <!-- Twitter / X Link Previews -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://cacheflowe.github.io/media-converter/" />
+    <meta name="twitter:title" content="Media Converter — 100% In-Browser Video, Audio &amp; Image Toolkit" />
+    <meta
+      name="twitter:description"
+      content="Free, private, 100% client-side media converter powered by WebCodecs and WebGPU. Transcode, trim, crop, resize, redact, AI-upscale, and batch-convert video, audio, and images locally in your browser."
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Media Converter",
+        "url": "https://cacheflowe.github.io/media-converter/",
+        "description": "A 100% in-browser media converter for video, audio, and images. All decoding, transcoding, trimming, cropping, redaction, and AI upscaling runs locally via WebCodecs and WebGPU with zero server uploads.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Any (Web Browser)",
+        "browserRequirements": "Requires a modern browser with WebCodecs support",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Video transcoding (MP4, WebM, H.264, HEVC, VP9, VP8, AV1)",
+          "Video trimming, fast-copy clipping, spatial cropping, rotation, and speed/time-lapse resampling",
+          "Audio transcoding and trimming (MP3, M4A/AAC, Opus, WAV, FLAC) with waveform preview",
+          "Image cropping, resizing, format conversion (JPEG, PNG, WebP, AVIF, HEIC), and quantized Base64 PNG export",
+          "Image privacy redaction brush (blur, pixelate, solid fill)",
+          "In-browser AI image upscaling via Real-ESRGAN on WebGPU",
+          "Screen, window, and tab recording with system and microphone audio",
+          "Batch image and video conversion with single-click ZIP download"
+        ]
+      }
+    </script>
   </head>
   <body>
     <!-- The toolkit markup is rendered by src/main.ts from the shared template

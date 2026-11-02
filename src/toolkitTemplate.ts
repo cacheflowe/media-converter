@@ -135,11 +135,10 @@ export const TOOLKIT_MARKUP = /*html*/ `
 
       <!-- Loaded media: 3-column workflow (info | settings | output) -->
       <section id="loaded-file-section" style="display: none">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem">🎬 Source Media Workshop</h2>
-
         <div id="video-workspace" class="workshop-layout">
           <!-- Column 1: input / info -->
           <div class="workshop-sidebar">
+            <h3 class="column-heading"><span class="column-step">1</span>Input</h3>
             <!-- Live Video Preview & Seeking -->
             <article class="info-card">
               <header class="card-header">
@@ -214,6 +213,7 @@ None detected</pre
           </div>
           <!-- Column 2: conversion settings -->
           <div class="workshop-main">
+            <h3 class="column-heading"><span class="column-step">2</span>Conversion Settings</h3>
             <!-- Settings & Form Options Block -->
             <form id="conversion-form" class="settings-stack" style="margin-bottom: 0">
                 <details class="config-card" id="panel-processing">
@@ -365,6 +365,27 @@ None detected</pre
                 </details>
 
                 <!-- Box 2: Aspect and Dimension Resizing -->
+                <details class="config-card" id="panel-upscale">
+                  <summary class="card-header">✨ AI Upscale (2x)</summary>
+                  <div class="config-card-body">
+                  <fieldset>
+                    <label for="enable-upscale">
+                      <input type="checkbox" id="enable-upscale" name="enable-upscale" />
+                      Enable AI Upscale
+                    </label>
+                  </fieldset>
+                  <label for="upscale-model">Model</label>
+                  <select id="upscale-model" name="upscale-model">
+                    <option value="fast" selected>Fast — Real-ESRGAN general v3 (5 MB download)</option>
+                    <option value="quality">Quality — Real-ESRGAN x2plus (67 MB download, much slower)</option>
+                  </select>
+                  <small id="upscale-status" style="display: block; color: var(--pico-muted-color)"
+                    >Every frame is upscaled locally on your GPU, so expect this to run well below real time.
+                    Applied after crop and before resize.</small
+                  >
+                  </div>
+                </details>
+
                 <details class="config-card" id="panel-resize">
                   <summary class="card-header">📐 Resolution & Aspect Ratio Resize</summary>
                   <div class="config-card-body">
@@ -541,6 +562,63 @@ None detected</pre
                   </div>
                 </details>
 
+                <details class="config-card" id="panel-rife">
+                  <summary class="card-header">✨ AI Frame Interpolation (RIFE)</summary>
+                  <div class="config-card-body">
+                  <fieldset>
+                    <label for="enable-rife">
+                      <input type="checkbox" id="enable-rife" name="enable-rife" />
+                      Enable AI frame interpolation
+                    </label>
+                  </fieldset>
+                  <div id="rife-controls-group" style="display: none">
+                    <p class="rife-source">Source frame rate: <strong id="rife-source-fps">-</strong></p>
+                    <div class="rife-presets">
+                      <button type="button" class="outline secondary" id="rife-preset-smooth" title="Same speed, higher frame rate">Smoother</button>
+                      <button type="button" class="outline secondary" id="rife-preset-slowmo" title="Same frame rate, slowed down">Slow motion</button>
+                    </div>
+                    <div class="rife-grid">
+                      <div>
+                        <label for="rife-speed" style="font-size: 0.8rem">Playback speed:</label>
+                        <select id="rife-speed" name="rife-speed" style="margin-bottom: 0">
+                          <option value="1" selected>1× (normal)</option>
+                          <option value="0.75">0.75×</option>
+                          <option value="0.5">0.5×</option>
+                          <option value="0.25">0.25×</option>
+                          <option value="0.125">0.125×</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="rife-fps" style="font-size: 0.8rem">Output frame rate:</label>
+                        <select id="rife-fps" name="rife-fps" style="margin-bottom: 0">
+                          <option value="source">Source rate</option>
+                          <option value="24">24 FPS</option>
+                          <option value="30">30 FPS</option>
+                          <option value="48">48 FPS</option>
+                          <option value="50">50 FPS</option>
+                          <option value="60" selected>60 FPS</option>
+                          <option value="90">90 FPS</option>
+                          <option value="120">120 FPS</option>
+                        </select>
+                      </div>
+                      <div id="rife-audio-wrap" class="rife-audio">
+                        <label for="rife-audio" style="font-size: 0.8rem">Audio:</label>
+                        <select id="rife-audio" name="rife-audio" style="margin-bottom: 0">
+                          <option value="stretch" selected>Keep pitch</option>
+                          <option value="pitch">Pitch follows speed</option>
+                          <option value="remove">Remove</option>
+                        </select>
+                      </div>
+                    </div>
+                    <small id="rife-summary" class="rife-summary"></small>
+                    <small style="display: block; color: var(--pico-muted-color); font-size: 0.8rem">
+                      RIFE synthesizes in-between frames from motion on your GPU (21 MB model, downloaded once).
+                      It takes over frame timing, so the Speed &amp; Frame Rate panel is hidden while it's on.
+                    </small>
+                  </div>
+                  </div>
+                </details>
+
                 <details class="config-card" id="panel-resample">
                   <summary class="card-header">⏩ Speed & Frame Rate</summary>
                   <div class="config-card-body">
@@ -706,6 +784,7 @@ None detected</pre
           </div>
           <!-- Column 3: output / download -->
           <div class="workshop-output">
+            <h3 class="column-heading"><span class="column-step">3</span>Output</h3>
             <div class="output-actions">
               <button type="submit" form="conversion-form" id="convert-btn" class="contrast">
                 🚀 Convert & Process Video File
@@ -822,6 +901,7 @@ None detected</pre
         <div id="image-workspace" class="workshop-layout" style="display: none">
           <!-- Column 1: input / info -->
           <div class="workshop-sidebar">
+            <h3 class="column-heading"><span class="column-step">1</span>Input</h3>
             <article class="info-card">
               <header class="card-header">
                 Image Preview & Blur Paint Mask
@@ -879,6 +959,7 @@ None detected</pre
           </div>
           <!-- Column 2: image settings -->
           <div class="workshop-main">
+            <h3 class="column-heading"><span class="column-step">2</span>Conversion Settings</h3>
             <form id="image-form" class="settings-stack" style="margin-bottom: 0">
               <details class="config-card" id="panel-img-crop">
                   <summary class="card-header">✂️ Crop Region</summary>
@@ -914,6 +995,26 @@ None detected</pre
                   <button type="button" id="img-crop-square" class="secondary">Centered Square</button>
                 </div>
               
+                  </div>
+                </details>
+
+              <details class="config-card" id="panel-img-upscale">
+                  <summary class="card-header">✨ AI Upscale (2x)</summary>
+                  <div class="config-card-body">
+                  <fieldset>
+                  <label for="img-enable-upscale">
+                    <input type="checkbox" id="img-enable-upscale" />
+                    Enable AI Upscale
+                  </label>
+                </fieldset>
+                <label for="img-upscale-model">Model</label>
+                <select id="img-upscale-model">
+                  <option value="quality" selected>Quality — Real-ESRGAN x2plus (67 MB download)</option>
+                  <option value="fast">Fast — Real-ESRGAN general v3 (5 MB download)</option>
+                </select>
+                <small id="img-upscale-status" style="display: block; color: var(--pico-muted-color)"
+                  >Runs locally in your browser. The model downloads once on first use and is cached.</small
+                >
                   </div>
                 </details>
 
@@ -1099,6 +1200,7 @@ None detected</pre
           </div>
           <!-- Column 3: output / download -->
           <div class="workshop-output">
+            <h3 class="column-heading"><span class="column-step">3</span>Output</h3>
             <div class="output-actions">
               <button type="submit" form="image-form" id="image-process-btn" class="contrast">
                 🖼️ Process & Export Image
@@ -1176,6 +1278,7 @@ None detected</pre
         <div id="audio-workspace" class="workshop-layout" style="display: none">
           <!-- Column 1: input / info -->
           <div class="workshop-sidebar">
+            <h3 class="column-heading"><span class="column-step">1</span>Input</h3>
             <article class="info-card">
               <header class="card-header">
                 Original Audio Player
@@ -1210,6 +1313,7 @@ None detected</pre
 
           <!-- Column 2: audio settings -->
           <div class="workshop-main">
+            <h3 class="column-heading"><span class="column-step">2</span>Conversion Settings</h3>
             <form id="audio-form" class="settings-stack" style="margin-bottom: 0">
               <details class="config-card" id="panel-audio-trim">
                 <summary class="card-header">✂️ Time Crop & Trim</summary>
@@ -1292,6 +1396,7 @@ None detected</pre
 
           <!-- Column 3: output / download -->
           <div class="workshop-output">
+            <h3 class="column-heading"><span class="column-step">3</span>Output</h3>
             <div class="output-actions">
               <button type="submit" form="audio-form" id="audio-process-btn" class="contrast">🎵 Convert & Process Audio</button>
               <button type="button" id="audio-cancel-btn" class="secondary" style="display: none">🛑 Cancel Conversion</button>
@@ -1355,6 +1460,7 @@ None detected</pre
           <div class="workshop-layout">
             <!-- Column 1: input previews -->
             <div class="workshop-sidebar">
+              <h3 class="column-heading"><span class="column-step">1</span>Input</h3>
               <article class="info-card">
                 <header class="card-header">
                   Batch Input (<span id="batch-input-count">0</span>)
@@ -1367,6 +1473,7 @@ None detected</pre
             </div>
             <!-- Column 2: shared settings applied to every image -->
             <div class="workshop-main">
+              <h3 class="column-heading"><span class="column-step">2</span>Conversion Settings</h3>
               <details class="config-card" id="panel-batch-format" open>
                 <summary class="card-header">💾 Output Format & Quality</summary>
                 <div class="config-card-body">
@@ -1429,6 +1536,7 @@ None detected</pre
 
             <!-- Column 3: actions, results queue, and logs -->
             <div class="workshop-output">
+              <h3 class="column-heading"><span class="column-step">3</span>Output</h3>
               <div class="output-actions">
                 <button type="button" id="batch-process-btn" class="contrast">🖼️ Process All Images</button>
                 <button type="button" id="batch-download-all" class="secondary" style="display: none">
@@ -1462,6 +1570,7 @@ None detected</pre
           <div class="workshop-layout">
             <!-- Column 1: input previews -->
             <div class="workshop-sidebar">
+              <h3 class="column-heading"><span class="column-step">1</span>Input</h3>
               <article class="info-card">
                 <header class="card-header">
                   Batch Input (<span id="vbatch-input-count">0</span>)
@@ -1474,6 +1583,7 @@ None detected</pre
             </div>
             <!-- Column 2: shared settings applied to every video -->
             <div class="workshop-main settings-stack">
+              <h3 class="column-heading"><span class="column-step">2</span>Conversion Settings</h3>
               <details class="config-card" id="panel-vbatch-codec" open>
                 <summary class="card-header">💿 Output Format & Codec</summary>
                 <div class="config-card-body">
@@ -1553,6 +1663,7 @@ None detected</pre
 
             <!-- Column 3: actions, results queue, and logs -->
             <div class="workshop-output">
+              <h3 class="column-heading"><span class="column-step">3</span>Output</h3>
               <div class="output-actions">
                 <button type="button" id="vbatch-process-btn" class="contrast">🎬 Process All Videos</button>
                 <button type="button" id="vbatch-download-all" class="secondary" style="display: none">

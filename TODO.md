@@ -4,6 +4,11 @@ Working list of planned work. Loosely ordered; not all required for a first rele
 
 ## Planned
 
+- [ ] **Add social cropping.**
+    - [ ] Could crop fill/letterbox for various social media aspect ratios and specific resolutions (e.g., 1:1, 16:9, 4:5)
+    - [ ] If letterboxing, apply blurred copy in the background as an alternative to black bg color
+    - [ ] Think about other ways to enhance crops for social posts
+
 - [ ] **Audio batching.**
       Batch now covers images + video. Add audio batch (sequential conversions, shared
       format/bitrate settings) on the same `batchShared` engine.
@@ -21,13 +26,13 @@ Working list of planned work. Loosely ordered; not all required for a first rele
       - Empty/error states (unsupported file, decode failure) reviewed and friendly.
       - Reconsider the global `console` tee — make it opt-in or clearly scoped for a drop-in
         component on a third-party page.
-      - Tab `<title>`, favicon, and meta for the standalone site.
       - Version bump in `package.json`; decide hosting/deploy (see repo README discussion).
       - Progress UX: set `aria-busy="true"` on the output region while encoding, and show an
         indeterminate `<progress>` during init (before the first progress callback).
 
 ## Done
 
+- [x] Tab `<title>`, emoji favicon, SEO meta tags, Open Graph / Twitter link preview tags, and JSON-LD structured data for the standalone site (`index.html`, `component-demo.html`).
 - [x] Renamed the web component to `<media-converter>` (with a deprecated `<mediabunny-toolkit>` alias).
 - [x] Audio as a first-class media kind — audio workspace with player, metadata, trim, and transcode
       (MP3/M4A/Opus/WAV/FLAC), encodable-format filtering, and a size estimate (`src/audioWorkflow.ts`).

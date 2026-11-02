@@ -15,6 +15,7 @@
     "@picocss/pico": "^2.1.1",
     "heic-to": "^1.6.7",
     "mediabunny": "^1.65.0",
+    "onnxruntime-web": "1.30.0",
     "upng-js": "^2.1.0"
   },
   "devDependencies": {

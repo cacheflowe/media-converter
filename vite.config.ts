@@ -1,5 +1,21 @@
 import { defineConfig } from "vite";
 import { viteSingleFile } from "vite-plugin-singlefile";
+import { fileURLToPath } from "node:url";
+
+// onnxruntime-web's default entry references its ~27 MB .wasm via
+// new URL(..., import.meta.url), which Vite would copy/inline into every build.
+// Use the non-bundled entry instead; src/upscaler.ts points it at the CDN copy.
+const ortConfig = {
+  resolve: {
+    alias: [
+      {
+        find: /^onnxruntime-web\/webgpu$/,
+        replacement: fileURLToPath(new URL("./node_modules/onnxruntime-web/dist/ort.webgpu.min.mjs", import.meta.url)),
+      },
+    ],
+  },
+  optimizeDeps: { exclude: ["onnxruntime-web"] },
+};
 
 // Three build targets:
 //   npm run build            -> standalone static site (dist/), relative base
@@ -16,6 +32,7 @@ export default defineConfig(({ mode }) => {
 
   if (isPages) {
     return {
+      ...ortConfig,
       base: "./",
       plugins: [viteSingleFile()],
       build: {
@@ -29,6 +46,7 @@ export default defineConfig(({ mode }) => {
   }
 
   return {
+    ...ortConfig,
     base: "./",
     build: isComponent
       ? {

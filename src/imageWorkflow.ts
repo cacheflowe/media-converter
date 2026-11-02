@@ -1,6 +1,7 @@
 import UPNG from "upng-js";
 import { drawResizedHighQuality, decodeImageFile } from "./shared";
 import { createCropEditor } from "./cropEditor";
+import { getUpscaleBackend, OUTPUT_SCALE, upscaleCanvas, type UpscaleModelId } from "./upscaler";
 
 // Canvas drags in crop mode: move the box, or draw a new one. Corner resizing
 // is handled by the shared crop editor overlay.
@@ -66,6 +67,11 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
   const imgLockAspect = getElement<HTMLInputElement>("img-lock-aspect", "input#img-lock-aspect");
   const imgResizeStatus = getElement<HTMLElement>("img-resize-status", "small#img-resize-status");
 
+  // AI upscale controls
+  const imgEnableUpscale = getElement<HTMLInputElement>("img-enable-upscale", "input#img-enable-upscale");
+  const imgUpscaleModel = getElement<HTMLSelectElement>("img-upscale-model", "select#img-upscale-model");
+  const imgUpscaleStatus = getElement<HTMLElement>("img-upscale-status", "small#img-upscale-status");
+
   // Redaction/brush controls
   const imgEnableBlur = getElement<HTMLInputElement>("img-enable-blur", "input#img-enable-blur");
   const imgRedactionMode = getElement<HTMLSelectElement>("img-redaction-mode", "select#img-redaction-mode");
@@ -98,6 +104,7 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
 
   // Form and result section
   const imageForm = getElement<HTMLFormElement>("image-form", "form#image-form");
+  const imageProcessBtn = getElement<HTMLButtonElement>("image-process-btn", "button#image-process-btn");
   const imageResultSection = getElement<HTMLElement>("image-result-section", "section#image-result-section");
   const imageOutputPlaceholder = getElement<HTMLElement>("image-output-placeholder", "div#image-output-placeholder");
   const imageDownloadAnchor = getElement<HTMLAnchorElement>("image-download-anchor", "a#image-download-anchor");
@@ -315,14 +322,20 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
     imgCropY.value = "0";
     imgCropWidth.value = String(sourceImageWidth || 1);
     imgCropHeight.value = String(sourceImageHeight || 1);
-    imgOutWidth.value = imgCropWidth.value;
-    imgOutHeight.value = imgCropHeight.value;
+    syncImageOutputFromCrop();
+  }
+
+  /** Size entering the resize step: the crop, doubled when AI upscale is on. */
+  function getPreResizeSize() {
+    const crop = getNormalizedCrop();
+    const factor = imgEnableUpscale.checked ? OUTPUT_SCALE : 1;
+    return { width: crop.width * factor, height: crop.height * factor };
   }
 
   function syncImageOutputFromCrop() {
-    const crop = getNormalizedCrop();
-    imgOutWidth.value = String(crop.width);
-    imgOutHeight.value = String(crop.height);
+    const base = getPreResizeSize();
+    imgOutWidth.value = String(base.width);
+    imgOutHeight.value = String(base.height);
     updateResizeStatus();
   }
 
@@ -368,13 +381,15 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
   // (Enable Resize off = the crop size; on = whatever's in the Output Width/Height fields,
   // however they got there — typed directly or via a preset).
   function updateResizeStatus() {
-    const crop = getNormalizedCrop();
+    const base = getPreResizeSize();
     if (!imgEnableResize.checked) {
-      imgResizeStatus.textContent = `Resize is off — output will stay at the cropped size (${crop.width}×${crop.height}).`;
+      imgResizeStatus.textContent = imgEnableUpscale.checked
+        ? `Resize is off — output will be the AI-upscaled size (${base.width}×${base.height}).`
+        : `Resize is off — output will stay at the cropped size (${base.width}×${base.height}).`;
       return;
     }
-    const outW = Math.max(1, parseInt(imgOutWidth.value) || crop.width);
-    const outH = Math.max(1, parseInt(imgOutHeight.value) || crop.height);
+    const outW = Math.max(1, parseInt(imgOutWidth.value) || base.width);
+    const outH = Math.max(1, parseInt(imgOutHeight.value) || base.height);
     imgResizeStatus.textContent = `Resize is on — output will be scaled to ${outW}×${outH}.`;
   }
 
@@ -445,8 +460,8 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
     return "jpg";
   }
 
-  /** Applies crop, redaction mask, and resize (in that order) and returns the resulting canvas. */
-  function buildFinalCanvas(): HTMLCanvasElement {
+  /** Applies crop, redaction mask, AI upscale, and resize (in that order) and returns the resulting canvas. */
+  async function buildFinalCanvas(): Promise<HTMLCanvasElement> {
     if (!sourceImageBitmap) throw new Error("Please load an image first.");
 
     const crop = getNormalizedCrop();
@@ -513,13 +528,47 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
     }
 
     let finalCanvas = cropCanvas;
+    if (imgEnableUpscale.checked) {
+      const modelId = imgUpscaleModel.value as UpscaleModelId;
+      finalCanvas = await upscaleCanvas(cropCanvas, modelId, (message, fraction) => {
+        imgUpscaleStatus.textContent = message;
+        imageProcessBtn.textContent =
+          fraction === undefined ? message : `${message.replace(/….*$/, "…")} ${Math.round(fraction * 100)}%`;
+      });
+    }
+
     if (imgEnableResize.checked) {
-      const outW = Math.max(1, parseInt(imgOutWidth.value) || crop.width);
-      const outH = Math.max(1, parseInt(imgOutHeight.value) || crop.height);
-      finalCanvas = drawResizedHighQuality(cropCanvas, crop.width, crop.height, outW, outH);
+      const outW = Math.max(1, parseInt(imgOutWidth.value) || finalCanvas.width);
+      const outH = Math.max(1, parseInt(imgOutHeight.value) || finalCanvas.height);
+      finalCanvas = drawResizedHighQuality(finalCanvas, finalCanvas.width, finalCanvas.height, outW, outH);
     }
 
     return finalCanvas;
+  }
+
+  /** Disables the export controls while a (possibly long) AI upscale runs. */
+  async function runExclusive<T>(task: () => Promise<T>): Promise<T> {
+    const label = imageProcessBtn.textContent;
+    imageProcessBtn.disabled = true;
+    imageCopyBase64Btn.disabled = true;
+    imageProcessBtn.setAttribute("aria-busy", "true");
+    try {
+      return await task();
+    } finally {
+      imageProcessBtn.disabled = false;
+      imageCopyBase64Btn.disabled = false;
+      imageProcessBtn.removeAttribute("aria-busy");
+      imageProcessBtn.textContent = label;
+      if (imgEnableUpscale.checked) void updateUpscaleStatus();
+    }
+  }
+
+  async function updateUpscaleStatus() {
+    const backend = await getUpscaleBackend();
+    imgUpscaleStatus.textContent =
+      backend === "webgpu"
+        ? "Runs locally on your GPU (WebGPU). The model downloads once on first use and is cached."
+        : "⚠️ WebGPU isn't available in this browser, so upscaling will run on the CPU and be very slow.";
   }
 
   async function canvasToBlob(canvas: HTMLCanvasElement, mime: string, quality?: number) {
@@ -635,6 +684,13 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
 
   imgEnableResize.addEventListener("change", () => {
     syncImageOutputFromCrop();
+  });
+
+  imgEnableUpscale.addEventListener("change", () => {
+    // Keep typed resize targets; otherwise follow the new pre-resize size
+    if (imgEnableResize.checked) updateResizeStatus();
+    else syncImageOutputFromCrop();
+    if (imgEnableUpscale.checked) void updateUpscaleStatus();
   });
 
   imgScalePreset.addEventListener("change", () => {
@@ -766,7 +822,7 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
     }
 
     try {
-      const finalCanvas = buildFinalCanvas();
+      const finalCanvas = await runExclusive(buildFinalCanvas);
 
       const mime = imgOutFormat.value;
       const quality = mime === "image/png" ? undefined : parseFloat(imgQuality.value);
@@ -807,7 +863,7 @@ export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: 
 
     imageCopyBase64Status.textContent = "Quantizing…";
     try {
-      const finalCanvas = buildFinalCanvas();
+      const finalCanvas = await runExclusive(buildFinalCanvas);
       const ctx = finalCanvas.getContext("2d")!;
       const imageData = ctx.getImageData(0, 0, finalCanvas.width, finalCanvas.height);
       const colors = parseInt(imgBase64Colors.value, 10);

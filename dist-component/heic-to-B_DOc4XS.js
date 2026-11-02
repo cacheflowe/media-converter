@@ -1,4 +1,4 @@
-//#region node_modules/heic-to/dist/heic-to.js
+// node_modules/heic-to/dist/heic-to.js
 var e = (e, t, n) => new Promise((r, i) => {
 	var a = (e) => {
 		try {
@@ -44,7 +44,8 @@ var e = (e, t, n) => new Promise((r, i) => {
 	if (t == "bitmap") {
 		let t = yield r(yield e.arrayBuffer());
 		return createImageBitmap(t, o);
-	} else {
+	}
+	{
 		let r = yield e.arrayBuffer(), o;
 		try {
 			return o = yield i(r), yield new Promise((e, r) => o.toBlob((t) => {
@@ -55,5 +56,4 @@ var e = (e, t, n) => new Promise((r, i) => {
 		}
 	}
 });
-//#endregion
 export { o as heicTo };

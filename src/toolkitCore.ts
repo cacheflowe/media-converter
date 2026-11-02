@@ -24,6 +24,9 @@ import { createCropEditor } from "./cropEditor";
 import { createTimelapseProcess, type TimelapseFrameMode } from "./timelapse";
 import { createAudioSpeedProcess, type AudioSpeedMode } from "./audioStretch";
 import { createScreenCapture } from "./screenCapture";
+import { createFrameUpscaler, getUpscaleBackend, OUTPUT_SCALE, type UpscaleModelId } from "./upscaler";
+import { createUpscaleProcess, type UpscaleResizeTarget } from "./videoUpscale";
+import { createFrameInterpolator, createInterpolationProcess } from "./frameInterpolation";
 import {
   formatBytes,
   formatDuration,
@@ -174,6 +177,24 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   const preserveAspect = root.getElementById("preserve-aspect") as HTMLInputElement;
   const resizeFit = root.getElementById("resize-fit") as HTMLSelectElement;
 
+  // AI upscale
+  const enableUpscale = root.getElementById("enable-upscale") as HTMLInputElement;
+  const upscaleModel = root.getElementById("upscale-model") as HTMLSelectElement;
+  const upscaleStatus = root.getElementById("upscale-status") as HTMLElement;
+
+  // AI frame interpolation (RIFE)
+  const enableRife = root.getElementById("enable-rife") as HTMLInputElement;
+  const rifeControlsGroup = root.getElementById("rife-controls-group") as HTMLElement;
+  const rifeSourceFps = root.getElementById("rife-source-fps") as HTMLElement;
+  const rifeSpeed = root.getElementById("rife-speed") as HTMLSelectElement;
+  const rifeFps = root.getElementById("rife-fps") as HTMLSelectElement;
+  const rifeAudioWrap = root.getElementById("rife-audio-wrap") as HTMLElement;
+  const rifeAudio = root.getElementById("rife-audio") as HTMLSelectElement;
+  const rifeSummary = root.getElementById("rife-summary") as HTMLElement;
+  const rifePresetSmooth = root.getElementById("rife-preset-smooth") as HTMLButtonElement;
+  const rifePresetSlowmo = root.getElementById("rife-preset-slowmo") as HTMLButtonElement;
+  const panelResample = root.getElementById("panel-resample") as HTMLElement;
+
   // Format & Quality
   const outFormat = root.getElementById("out-format") as HTMLSelectElement;
   const outVcodec = root.getElementById("out-vcodec") as HTMLSelectElement;
@@ -186,6 +207,8 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   // Settings panels/options hidden when Fast Copy (no re-encode) is active
   const encodingPanels = [
     "panel-crop",
+    "panel-upscale",
+    "panel-rife",
     "panel-resize",
     "panel-codec",
     "panel-compression",
@@ -694,6 +717,9 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
 
       // Reveal controls block
       revealLoadedSection();
+      // A new source rate may suit a different RIFE preset the next time it's enabled
+      if (!enableRife.checked) delete enableRife.dataset.touched;
+      updateRifeUI();
       updateSizeEstimate();
     } catch (error: any) {
       console.error("An error occurred during video analysis profiling: ", error);
@@ -750,15 +776,20 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   });
 
   // --- Speed / Time-lapse ---
-  /** The active speed factor, or null when speed change is off (or 1×). */
+  /** The active speed factor, or null when speed change is off (or 1×). RIFE's speed wins when it's on. */
   function getSpeed(): number | null {
+    if (enableRife.checked) {
+      const v = parseFloat(rifeSpeed.value);
+      return v > 0 && v !== 1 ? v : null;
+    }
     if (!enableSpeed.checked) return null;
     const v = speedFactor.value === "custom" ? parseFloat(speedCustom.value) : parseFloat(speedFactor.value);
     return v > 0 && v !== 1 ? v : null;
   }
 
-  /** Output frame rate for a speed change: the resample target if on, else the source rate. */
+  /** Output frame rate for a speed change: RIFE's or the resample target if on, else the source rate. */
   function speedOutputFps() {
+    if (enableRife.checked) return rifeOutputFps();
     if (enableFps.checked) {
       const tf = parseInt(targetFps.value);
       if (tf > 0) return tf;
@@ -776,19 +807,109 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
     el.addEventListener(el === speedCustom ? "input" : "change", updateSpeedUI),
   );
 
+  /** Audio handling for a speed change, from whichever panel controls timing. */
+  function getSpeedAudioMode() {
+    return (enableRife.checked ? rifeAudio.value : speedAudio.value) as AudioSpeedMode | "remove";
+  }
+
+  // --- AI Frame Interpolation (RIFE) ---
+  // RIFE owns frame timing when on: a playback speed (1× = smoother, <1× = slow
+  // motion) and an output frame rate, judged against the detected source rate.
+  const formatFps = (fps: number) => `${Math.abs(fps - Math.round(fps)) < 0.01 ? Math.round(fps) : fps.toFixed(2)} fps`;
+
+  function rifeOutputFps() {
+    return rifeFps.value === "source" ? sourceFps || 30 : parseInt(rifeFps.value);
+  }
+
+  /** Pick the Smoother/Slow-motion defaults that make sense for this source. */
+  function applyRifePreset(kind: "smooth" | "slowmo") {
+    const src = sourceFps || 30;
+    if (kind === "smooth") {
+      rifeSpeed.value = "1";
+      rifeFps.value = src < 50 ? "60" : "120";
+    } else {
+      rifeSpeed.value = "0.5";
+      rifeFps.value = "source";
+    }
+    updateRifeUI();
+    updateSizeEstimate();
+  }
+
+  function updateRifeUI() {
+    const on = enableRife.checked && !fastCopyTag.checked;
+    rifeControlsGroup.style.display = enableRife.checked ? "block" : "none";
+    // RIFE replaces the speed/frame-rate panel while it's on
+    panelResample.style.display = on || fastCopyTag.checked ? "none" : "";
+    updateSpeedUI();
+
+    const src = sourceFps || 0;
+    rifeSourceFps.textContent = src ? formatFps(src) : "unknown (assuming 30 fps)";
+    const speed = parseFloat(rifeSpeed.value) || 1;
+    rifeAudioWrap.style.display = speed !== 1 ? "" : "none";
+
+    const outFps = rifeOutputFps();
+    // Source frames per second of output time, after slowing down
+    const effectiveSrcFps = (src || 30) * speed;
+    const ratio = outFps / effectiveSrcFps;
+    const newPerPair = Math.round(ratio) - 1;
+    let text = `${formatFps(src || 30)} source → ${speed === 1 ? "same speed" : `${speed}× speed`} at ${formatFps(outFps)}: `;
+    if (ratio <= 1.01) {
+      text += "no in-between frames are needed — RIFE won't add anything. Lower the speed or raise the frame rate.";
+      rifeSummary.classList.add("warn");
+    } else {
+      text +=
+        Math.abs(ratio - Math.round(ratio)) < 0.05
+          ? `RIFE adds ${newPerPair} new frame${newPerPair === 1 ? "" : "s"} between each source pair (${Math.round(ratio)}× frames).`
+          : `RIFE synthesizes ~${(ratio - 1).toFixed(1)} new frames per source frame (${ratio.toFixed(2)}× frames).`;
+      rifeSummary.classList.remove("warn");
+    }
+    if (sourceVideoDuration && speed !== 1) {
+      text += ` Length ${formatDuration(sourceVideoDuration)} → ${formatDuration(sourceVideoDuration / speed)}.`;
+    }
+    rifeSummary.textContent = text;
+  }
+
+  enableRife.addEventListener("change", () => {
+    // First time on: start from the preset that suits the source rate
+    if (enableRife.checked && !enableRife.dataset.touched) {
+      enableRife.dataset.touched = "1";
+      applyRifePreset((sourceFps || 30) >= 50 ? "slowmo" : "smooth");
+    }
+    updateRifeUI();
+  });
+  [rifeSpeed, rifeFps].forEach((el) => el.addEventListener("change", updateRifeUI));
+  rifePresetSmooth.addEventListener("click", () => applyRifePreset("smooth"));
+  rifePresetSlowmo.addEventListener("click", () => applyRifePreset("slowmo"));
+
   // --- Sizing Aspect Ratio Computations ---
   enableResize.addEventListener("change", () => {
     resizeControlsGroup.style.display = enableResize.checked ? "block" : "none";
   });
 
   // Resize operates on the cropped frame (Mediabunny crops before resizing), so
-  // aspect math and defaults follow the crop region when crop is enabled.
+  // aspect math and defaults follow the crop region when crop is enabled — and
+  // the AI-upscaled size when upscale is on (it runs between crop and resize).
   function resizeBaseSize() {
+    const k = enableUpscale.checked ? OUTPUT_SCALE : 1;
     if (enableCropVideo.checked && videoCrop.width && videoCrop.height) {
-      return { w: videoCrop.width, h: videoCrop.height };
+      return { w: videoCrop.width * k, h: videoCrop.height * k };
     }
-    return { w: sourceVideoWidth, h: sourceVideoHeight };
+    return { w: sourceVideoWidth * k, h: sourceVideoHeight * k };
   }
+
+  async function updateUpscaleUI() {
+    syncResizeToBase();
+    updateSizeEstimate();
+    if (!enableUpscale.checked) return;
+    const backend = await getUpscaleBackend();
+    upscaleStatus.textContent =
+      backend === "webgpu"
+        ? "Every frame is upscaled on your GPU, so expect well below real time. " +
+          "Applied after crop and before resize; the model downloads once and is cached."
+        : "⚠️ WebGPU isn't available in this browser, so every frame would be upscaled on the CPU — extremely slow.";
+  }
+
+  enableUpscale.addEventListener("change", updateUpscaleUI);
 
   // Encoders want even dimensions (Mediabunny also rounds resize sizes up to even)
   const roundEven = (n: number) => Math.max(2, Math.round(n / 2) * 2);
@@ -995,6 +1116,10 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       w = videoCrop.width;
       h = videoCrop.height;
     }
+    if (enableUpscale.checked) {
+      w *= OUTPUT_SCALE;
+      h *= OUTPUT_SCALE;
+    }
     if (enableResize.checked) {
       const rw = parseInt(resizeWidth.value);
       const rh = parseInt(resizeHeight.value);
@@ -1002,7 +1127,9 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       if (rh > 0) h = rh;
     }
     let fps = sourceFps || 30;
-    if (enableFps.checked) {
+    if (enableRife.checked) {
+      fps = rifeOutputFps();
+    } else if (enableFps.checked) {
       const tf = parseInt(targetFps.value);
       if (tf > 0) fps = tf;
     }
@@ -1051,6 +1178,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       audioModeCopy.checked = true;
       audioTranscodeControls.style.display = "none";
     }
+    updateRifeUI();
   }
   fastCopyTag.addEventListener("change", updateProcessingModeUI);
   updateProcessingModeUI();
@@ -1101,6 +1229,9 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       // 2. Setup Video Settings
       const videoConfig: ConversionVideoOptions = {};
       const wantsFastCopy = fastCopyTag.checked;
+      const wantsUpscale = !wantsFastCopy && enableUpscale.checked;
+      // With AI upscale, resizing happens after it (in the process hook), not in Mediabunny
+      let upscaleResize: UpscaleResizeTarget | null = null;
 
       if (wantsFastCopy) {
         console.log("⚡ Fast Copy trim mode enabled. Omitting size / quality alterations.");
@@ -1152,17 +1283,40 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
           );
         }
 
-        if (enableResize.checked) {
+        if (enableResize.checked && wantsUpscale) {
+          const rw = parseInt(resizeWidth.value);
+          const rh = parseInt(resizeHeight.value);
+          if (rw > 0 || rh > 0) {
+            upscaleResize = {
+              width: roundEven(rw > 0 ? rw : calculateAspectWidth(rh)),
+              height: roundEven(rh > 0 ? rh : calculateAspectHeight(rw)),
+              fit: resizeFit.value as "fill" | "contain" | "cover",
+            };
+            console.log(
+              `Resizing upscaled frames to ${upscaleResize.width}x${upscaleResize.height} (${upscaleResize.fit})`,
+            );
+          }
+        } else if (enableResize.checked) {
           if (resizeWidth.value) videoConfig.width = roundEven(parseInt(resizeWidth.value));
           if (resizeHeight.value) videoConfig.height = roundEven(parseInt(resizeHeight.value));
           videoConfig.fit = resizeFit.value as "fill" | "contain" | "cover";
           console.log(`Setting resize dimensions: ${videoConfig.width}x${videoConfig.height} (${videoConfig.fit})`);
         }
 
-        // Speed change / time-lapse retimes and resamples frames itself, so it
-        // replaces the frame-rate resampling modes below.
+        // RIFE and speed change / time-lapse retime and resample frames themselves,
+        // so they replace the frame-rate resampling modes below.
         const speed = getSpeed();
-        if (speed) {
+        if (enableRife.checked) {
+          const outFps = rifeOutputFps();
+          const interp = await createFrameInterpolator((message) => {
+            progressTitle.textContent = `✨ ${message}`;
+          });
+          videoConfig.process = createInterpolationProcess(interp, outFps, speed ?? 1);
+          console.log(
+            `✨ ${interp.label} frame interpolation: ${formatFps(sourceFps || 30)} source → ` +
+              `${speed ?? 1}× speed at ${formatFps(outFps)}.`,
+          );
+        } else if (speed) {
           const outFps = speedOutputFps();
           const frames = speedFrames.value as TimelapseFrameMode;
           videoConfig.process = createTimelapseProcess(speed, outFps, frames);
@@ -1288,7 +1442,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       if (audioModeMute.checked) {
         console.log("🔇 Mutex setting: Stripping entire audio stream from output.");
         audioConfig.discard = true;
-      } else if (!wantsFastCopy && getSpeed() && speedAudio.value === "remove") {
+      } else if (!wantsFastCopy && getSpeed() && getSpeedAudioMode() === "remove") {
         console.log("🔇 Speed change is on with audio set to Remove: dropping the audio track.");
         audioConfig.discard = true;
       } else if (audioModeCopy.checked) {
@@ -1369,7 +1523,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       // joining), either time-stretched (pitch kept) or resampled (pitch shifts).
       const audioSpeed = wantsFastCopy ? null : getSpeed();
       if (audioSpeed && !audioConfig.discard) {
-        const mode = speedAudio.value as AudioSpeedMode;
+        const mode = getSpeedAudioMode() as AudioSpeedMode;
         const speedProcess = createAudioSpeedProcess(audioSpeed, mode);
         const sectionProcess = audioConfig.process;
         audioConfig.process = async (sample) => {
@@ -1382,6 +1536,27 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
           return out;
         };
         console.log(`Audio ${mode === "stretch" ? "time-stretched (pitch kept)" : "resampled (pitch shifts)"} to ${audioSpeed}× speed.`);
+      }
+
+      // AI upscale wraps the finished video process chain, so it sees exactly the
+      // frames that will be encoded (after time-lapse, blending and section joins).
+      if (wantsUpscale) {
+        const modelId = upscaleModel.value as UpscaleModelId;
+        const upscaler = await createFrameUpscaler(modelId, (message) => {
+          progressTitle.textContent = `✨ ${message}`;
+        });
+        videoConfig.process = createUpscaleProcess(upscaler, videoConfig.process, upscaleResize);
+
+        // Tell the encoder the final frame size (crop is applied after rotation)
+        let frameW = videoConfig.crop?.width ?? sourceVideoWidth;
+        let frameH = videoConfig.crop?.height ?? sourceVideoHeight;
+        if (!videoConfig.crop && (rVal === 90 || rVal === 270)) [frameW, frameH] = [frameH, frameW];
+        videoConfig.processedWidth = upscaleResize?.width ?? frameW * OUTPUT_SCALE;
+        videoConfig.processedHeight = upscaleResize?.height ?? frameH * OUTPUT_SCALE;
+        console.log(
+          `✨ AI upscale (${upscaler.label}): ${frameW}x${frameH} → ${frameW * OUTPUT_SCALE}x${frameH * OUTPUT_SCALE}` +
+            (upscaleResize ? `, then resized to ${upscaleResize.width}x${upscaleResize.height}` : ""),
+        );
       }
 
       // Initialize the Conversion engine thread

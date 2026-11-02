@@ -11,7 +11,8 @@ Features:
   frame-rate resampling (frame-repeat or bidirectional blending), audio
   transcode/copy/strip, quality/bitrate control, fast-copy (no re-encode) trims.
 - **Image**: crop (drag handles), resize/scale presets, redaction brush
-  (blur / pixelate / solid), format + quality export (JPEG/PNG/WebP/AVIF).
+  (blur / pixelate / solid), format + quality export (JPEG/PNG/WebP/AVIF),
+  **AI upscale 2x** (Real-ESRGAN on WebGPU — see below).
 - Live side-by-side original/output comparison and a verbose diagnostics console.
 - Light/dark theme.
 
@@ -79,11 +80,69 @@ To preview the Pages build locally:
 npm run build:pages   # then open dist-pages/index.html
 ```
 
+## AI upscale
+
+The image and video workspaces can upscale 2x with Real-ESRGAN, run locally via
+[onnxruntime-web](https://onnxruntime.ai/docs/tutorials/web/) on **WebGPU**
+(falls back to a much slower CPU path when WebGPU is unavailable). Everything
+loads on first use, so it costs nothing until someone enables it:
+
+| Option | Model | Download |
+|---|---|---|
+| Quality | `RealESRGAN_x2plus` — [SceneWorks/real-esrgan-onnx](https://huggingface.co/SceneWorks/real-esrgan-onnx) | 67 MB |
+| Fast | `realesr-general-x4v3`, 4x → resampled to 2x — [xrds/realesrgan-x4v3-fixed](https://huggingface.co/xrds/realesrgan-x4v3-fixed) | 5 MB |
+
+- Model files are fetched from Hugging Face (pinned to a commit) and cached
+  with the Cache API, so they download once per browser.
+- ORT's ~27 MB WASM runtime is loaded from jsDelivr (pinned to the installed
+  `onnxruntime-web` version) rather than bundled — `vite.config.ts` aliases
+  `onnxruntime-web/webgpu` to the non-bundled entry so the builds stay small.
+- Images are processed in 256 px tiles with a 16 px overlap that's discarded,
+  so there are no seams; transparency is carried over separately.
+- Image pipeline order: crop → redaction → AI upscale → resize.
+- **Video**: every frame is upscaled in a Mediabunny `process` hook
+  ([src/videoUpscale.ts](src/videoUpscale.ts)) that wraps the rest of the frame
+  pipeline (time-lapse, frame blending, section joins). Mediabunny runs `process`
+  after its own resize, so with upscale on the resize is done in the hook instead,
+  keeping the order crop → AI upscale → resize. Expect well below real time — on
+  a desktop GPU a 640×800 frame takes ~0.4 s (Fast) or ~1.3 s (Quality).
+
+See [src/upscaler.ts](src/upscaler.ts).
+
+## AI frame interpolation (RIFE)
+
+The **✨ AI Frame Interpolation (RIFE)** panel synthesizes in-between frames
+with [RIFE](https://github.com/hzwer/Practical-RIFE) 4.9 (MIT). It shows the
+detected source frame rate and takes two settings — **playback speed** and
+**output frame rate** — with a live summary of how many frames RIFE will add:
+
+- **Smoother**: same speed, higher frame rate (e.g. 30 → 60 fps).
+- **Slow motion**: same frame rate, slowed down (e.g. 60 fps at 0.5×).
+
+Enabling it picks a sensible default for the source (Smoother below 50 fps,
+Slow motion at 50 fps and up). RIFE owns frame timing while it's on, so the
+Speed & Frame Rate panel is hidden; slow-motion audio reuses the same
+keep-pitch / pitch / remove handling as the speed change.
+
+- Model: `rife49_ensemble_True_scale_1_sim.onnx` from
+  [yuvraj108c/rife-onnx](https://huggingface.co/yuvraj108c/rife-onnx) (21 MB),
+  loaded and cached through the same shared runtime as AI upscale
+  ([src/onnxRuntime.ts](src/onnxRuntime.ts)).
+- Frames are padded to a multiple of 64 (edge-extended) and run whole — no tiling.
+  ~60 ms per synthesized 640×832 frame on a desktop GPU.
+- Hard scene cuts are detected (mean frame difference) and fall back to the
+  nearest real frame rather than morphing between shots.
+- Composes with AI upscale: interpolation runs first, then every output frame
+  is upscaled.
+
+See [src/frameInterpolation.ts](src/frameInterpolation.ts).
+
 ## Embedding the web component
 
 After `npm run build:component`, copy the contents of `dist-component/` to your
-site (`media-converter.js` plus the lazily loaded `heic-to-*.js` chunk, which is
-only fetched when a HEIC image is opened) and add:
+site (`media-converter.js` plus its lazily loaded chunks — `heic-to-*.js` is only
+fetched when a HEIC image is opened, `ort.webgpu.min-*.js` only when AI upscale
+or interpolation runs) and add:
 
 ```html
 <script type="module" src="/path/to/media-converter.js"></script>
