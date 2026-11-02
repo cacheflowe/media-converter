@@ -1,0 +1,1021 @@
+@import "@picocss/pico";
+
+:root {
+  --primary-color: #ff6b81;
+}
+
+/* Full-width standalone layout with a small gutter (no Pico .container clamp) */
+body {
+  padding: 0.5rem 1.5rem 2rem;
+}
+
+/* Custom Dropzone Styling */
+#dropzone {
+  border: 3px dashed var(--pico-muted-border-color);
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: var(--pico-card-background-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+#dropzone.dragging {
+  border-color: var(--pico-primary-background);
+  background-color: rgba(255, 107, 129, 0.05);
+  box-shadow: 0 0 15px rgba(255, 107, 129, 0.15);
+}
+
+#dropzone svg {
+  margin-bottom: 1rem;
+  color: var(--pico-muted-color);
+  transition: color 0.3s ease;
+}
+
+#dropzone.dragging svg {
+  color: var(--pico-primary-background);
+}
+
+/* Entry point: drop zone, with the smaller screen-capture strip beneath it */
+.entry-grid {
+  /* Capture the page text color here: Pico redefines --pico-color inside
+     [role="button"] (the drop zone) as the inverse, which hid its text */
+  --entry-text-color: var(--pico-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.entry-grid #dropzone {
+  margin-bottom: 0;
+  color: var(--entry-text-color);
+}
+
+/* Screen capture card: centered like the drop zone, but smaller and quieter */
+.capture-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  border: 2px dashed var(--pico-muted-border-color);
+  border-radius: 12px;
+  padding: 16px 20px;
+  background-color: var(--pico-card-background-color);
+  transition: all 0.3s ease;
+  /* Capped so it stays narrower than the drop zone on wide screens */
+  width: 100%;
+  max-width: 760px;
+  align-self: center;
+}
+
+.capture-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.capture-intro svg {
+  flex-shrink: 0;
+  color: var(--pico-muted-color);
+  transition: color 0.3s ease;
+}
+
+.capture-card h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.capture-card .capture-subtitle {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--pico-muted-color);
+}
+
+.capture-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem 1rem;
+}
+
+.capture-card button {
+  margin: 0;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+}
+
+.capture-card.is-recording {
+  border-color: #e5484d;
+  background-color: rgba(229, 72, 77, 0.05);
+  box-shadow: 0 0 15px rgba(229, 72, 77, 0.15);
+}
+
+.capture-card.is-recording .capture-intro svg {
+  color: #e5484d;
+  animation: capture-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes capture-pulse {
+  50% {
+    opacity: 0.45;
+  }
+}
+
+.capture-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem 1rem;
+  font-size: 0.85rem;
+}
+
+.capture-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+.capture-options input[type="checkbox"] {
+  margin: 0;
+}
+
+.capture-options select {
+  width: auto;
+  margin: 0;
+  padding: 0.25rem 2rem 0.25rem 0.6rem;
+  font-size: 0.85rem;
+  height: auto;
+}
+
+.capture-status {
+  font-size: 0.85rem;
+  color: var(--pico-muted-color);
+}
+
+.capture-status:empty {
+  display: none;
+}
+
+.capture-card.is-recording .capture-status {
+  color: #e5484d;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide standard file input but keep it accessible */
+#video-file-input {
+  display: none;
+}
+
+/* Video Preview Containers */
+.video-container {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Interactive crop overlay (src/cropEditor.ts), shared by the video and image
+   previews. Only the corner handles and the center move grip take pointer
+   input, so the media underneath (e.g. video controls) keeps working. */
+.crop-overlay {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.crop-box {
+  position: absolute;
+  box-sizing: border-box;
+  border: 2px solid var(--primary-color, #ff6b81);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.45); /* dims everything outside the box */
+  pointer-events: none;
+}
+
+.crop-handle,
+.crop-move {
+  position: absolute;
+  box-sizing: border-box;
+  background: var(--primary-color, #ff6b81);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+.crop-handle {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+/* Invisible, larger hit area around each grip for easier grabbing */
+.crop-handle::before,
+.crop-move::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+}
+
+.crop-move {
+  left: 50%;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin: -9px 0 0 -9px;
+  background: rgba(0, 0, 0, 0.35);
+  cursor: move;
+}
+
+.crop-overlay.is-passive .crop-handle,
+.crop-overlay.is-passive .crop-move {
+  display: none;
+}
+
+/* 100% loupe shown while dragging a crop corner */
+.crop-loupe {
+  position: fixed;
+  z-index: 1000;
+  width: 168px;
+  pointer-events: none;
+  border: 2px solid var(--primary-color, #ff6b81);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #111;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+
+.crop-overlay .crop-loupe canvas {
+  position: static; /* beat `.image-canvas-stage canvas` */
+  display: block;
+  width: 168px;
+  height: 168px;
+}
+
+.crop-loupe-label {
+  padding: 2px 6px;
+  font-family: monospace;
+  font-size: 0.7rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  white-space: pre;
+  line-height: 1.35;
+}
+
+/* Handles sit just inside the box corners so they stay grabbable when the crop
+   touches the frame edge (the overlay clips anything outside the media). */
+.crop-handle[data-handle="nw"] {
+  left: -2px;
+  top: -2px;
+  cursor: nwse-resize;
+}
+.crop-handle[data-handle="ne"] {
+  right: -2px;
+  top: -2px;
+  cursor: nesw-resize;
+}
+.crop-handle[data-handle="sw"] {
+  left: -2px;
+  bottom: -2px;
+  cursor: nesw-resize;
+}
+.crop-handle[data-handle="se"] {
+  right: -2px;
+  bottom: -2px;
+  cursor: nwse-resize;
+}
+
+/* Meta list style */
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.meta-item {
+  background: var(--pico-card-background-color);
+  border: 1px solid var(--pico-muted-border-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.meta-label {
+  font-weight: bold;
+  color: var(--pico-muted-color);
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Slider Section for Time Cropping */
+.slider-group {
+  margin-bottom: 1.5rem;
+}
+
+.slider-group label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* Monospace value chip used by trim readouts, quality tags, bitrate labels, etc. */
+.time-val {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 0.85rem;
+  background: var(--pico-code-background-color);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Emphasized variant (e.g. the subjective-quality tag) */
+.time-val-primary {
+  background: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+}
+
+/* Custom indicator showing visual selection in trim */
+.trim-visualizer {
+  position: relative;
+  height: 20px;
+  background-color: var(--pico-muted-border-color);
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  border: 1px solid var(--pico-muted-border-color);
+}
+
+.trim-selection {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: rgba(255, 107, 129, 0.35);
+  border-left: 2px solid var(--pico-primary-background);
+  border-right: 2px solid var(--pico-primary-background);
+  transition: all 0.1s ease;
+}
+
+/* Non-active trim sections (multi-section time crop) */
+.trim-ghost {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: rgba(255, 107, 129, 0.18);
+  border-left: 1px solid rgba(255, 107, 129, 0.6);
+  border-right: 1px solid rgba(255, 107, 129, 0.6);
+}
+
+.trim-sections-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.trim-section-list {
+  /* Capture the page text color here; Pico redefines --pico-color on buttons */
+  --trim-row-color: var(--pico-color);
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem 0;
+}
+
+.trim-section-row {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.35rem;
+  list-style: none;
+}
+
+.trim-section-row button {
+  margin: 0;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  border: 1px solid var(--pico-muted-border-color);
+  background: transparent;
+  color: var(--trim-row-color);
+}
+
+.trim-section-pick {
+  flex: 1;
+  text-align: left;
+  font-family: monospace;
+}
+
+.trim-section-row.active .trim-section-pick {
+  border-color: var(--pico-primary-background);
+  background: rgba(255, 107, 129, 0.15);
+}
+
+.trim-section-remove:disabled {
+  opacity: 0.35;
+}
+
+#trim-add-section {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+.trim-sections-help {
+  display: block;
+  color: var(--pico-muted-color);
+  font-size: 0.75rem;
+}
+
+/* Configuration Card Formatting.
+   `header.card-header` bleeds to the edges of a 1rem-padded card (.info-card /
+   .result-card); the collapsible <details> panels use `summary.card-header`
+   (styled separately below). */
+header.card-header {
+  margin: -1rem -1rem 1.5rem -1rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--pico-card-sectioning-background-color);
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  font-weight: bold;
+}
+
+/* Green "success" tint for processed-output headers */
+header.card-header.success {
+  background: rgba(46, 204, 113, 0.05);
+  color: rgb(46, 204, 113);
+}
+
+/* Sidebar info card (preview + attributes) */
+.info-card {
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+/* Processed-output preview card */
+.result-card {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgb(46, 204, 113);
+}
+
+/* Green result callout ("Success! …" / "… Ready") */
+.success-note {
+  display: block;
+  background: rgba(46, 204, 113, 0.1);
+  border: 1px solid rgb(46, 204, 113);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.success-note h3 {
+  color: rgb(46, 204, 113);
+  margin-bottom: 0.5rem;
+}
+
+/* Download link button + its size tag */
+.download-btn {
+  border: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.output-size {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  opacity: 0.85;
+}
+
+/* Collapsible settings panels (<details>) */
+details.config-card {
+  margin-bottom: 0;
+  padding: 0;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--pico-card-background-color);
+}
+
+details.config-card > summary.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 1rem 1.5rem;
+  background-color: var(--pico-card-sectioning-background-color);
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  transition: background-color 0.15s ease;
+}
+
+details.config-card > summary.card-header:hover {
+  background-color: var(--pico-muted-border-color);
+}
+
+details.config-card:not([open]) > summary.card-header {
+  border-bottom: none;
+}
+
+/* Hide the browser default disclosure marker, use our own chevron */
+details.config-card > summary.card-header::-webkit-details-marker {
+  display: none;
+}
+
+details.config-card > summary.card-header::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 2px solid currentColor;
+  border-left: 0;
+  border-top: 0;
+  transform: rotate(45deg);
+  opacity: 0.55;
+  transition: transform 0.2s ease;
+  background: none;
+}
+
+details.config-card[open] > summary.card-header::after {
+  transform: rotate(-135deg);
+}
+
+.config-card-body {
+  padding: 1.25rem 1.5rem;
+}
+
+/* Standard settings-panel spacing across all editing interfaces (video, image,
+   audio). Panels are direct children; this gives every workspace the same
+   vertical rhythm between sections. */
+.settings-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Audio waveform preview */
+.audio-waveform {
+  display: block;
+  width: 100%;
+  height: 90px;
+  margin-top: 0.75rem;
+  border-radius: 6px;
+  background: var(--pico-card-sectioning-background-color);
+  border: 1px solid var(--pico-muted-border-color);
+  color: var(--primary-color); /* read by canvas to color the peaks */
+  cursor: pointer;
+}
+
+/* Subjective-quality readout: tag + estimated bitrate on their own line */
+.quality-readout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start; /* chips hug their text instead of stretching the column */
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.quality-rate {
+  font-family: monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--pico-muted-color);
+}
+
+/* Estimated output size readout */
+.size-estimate {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--pico-muted-border-color);
+  font-size: 0.9rem;
+}
+
+.size-estimate strong {
+  font-family: monospace;
+  color: var(--pico-primary);
+}
+
+/* Real-time console detail */
+.log-section {
+  margin: 0;
+}
+
+.log-section pre {
+  max-height: 200px;
+  overflow-y: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  background-color: #1a1a1a;
+  color: #a6e22e;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  /* Inherit the page text color: Pico redefines --pico-color on buttons as the
+     inverse (white), which made the icon invisible in light mode */
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.2s;
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--pico-muted-border-color);
+}
+
+.theme-toggle-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+nav.brand-nav {
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  margin-bottom: 2rem;
+  padding: 0.5rem 0;
+}
+
+/* Highlight matching presets */
+.preset-badge {
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+/* Workshop 3-Column Workflow Layout: info | settings | output.
+   Uses container queries so the layout responds to the component's OWN width
+   (not the viewport) — essential when embedded in a narrow host column. */
+#loaded-file-section {
+  container-type: inline-size;
+}
+
+.workshop-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Medium width: two columns (info | settings), output drops to a full-width row */
+@container (min-width: 720px) and (max-width: 1099px) {
+  .workshop-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .workshop-output {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Wide: full three-column workflow */
+@container (min-width: 1100px) {
+  .workshop-layout {
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.15fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+.workshop-sidebar,
+.workshop-main,
+.workshop-output {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Render/cancel actions at the top of the output column */
+.output-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.output-actions button {
+  width: 100%;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0.8rem 2rem;
+}
+
+/* Batch mode: input thumbnails grid (column 1) */
+.batch-thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.4rem;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.batch-thumb {
+  aspect-ratio: 1;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--pico-muted-border-color);
+  background: var(--pico-card-sectioning-background-color);
+}
+
+#batch-queue {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.batch-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.batch-item-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.batch-item-status {
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: var(--pico-muted-color);
+}
+
+.batch-item[data-status="done"] .batch-item-status {
+  color: rgb(46, 204, 113);
+}
+
+.batch-item[data-status="error"] .batch-item-status {
+  color: #f92672;
+}
+
+.batch-item-dl {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+/* Empty-state shell where the processed media will appear */
+.output-shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 240px;
+  padding: 2rem;
+  border: 2px dashed var(--pico-muted-border-color);
+  border-radius: 12px;
+  color: var(--pico-muted-color);
+  text-align: center;
+}
+
+.output-shell svg {
+  opacity: 0.5;
+}
+
+.output-shell p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Neutralize the legacy top margins the output sections carried when they were
+   standalone page sections, now that they live inside the output column. */
+.workshop-output > section {
+  margin-top: 0 !important;
+}
+
+/* Custom Dual Range Slider Overlays */
+.range-slider-wrapper {
+  position: relative;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.range-slider-wrapper .trim-visualizer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15px; /* Centers the visual scrollbar tracking */
+  height: 10px;
+  background-color: var(--pico-muted-border-color);
+  border-radius: 5px;
+  z-index: 1;
+  margin: 0;
+  width: 100%;
+}
+
+.range-slider-wrapper .range-slider-input {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  background: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 40px !important;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Custom Thumbs on Webkit (Chrome, Safari, Opera, Edge) */
+.range-slider-wrapper .range-slider-input::-webkit-slider-thumb {
+  pointer-events: auto;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--pico-primary-background, #ff6b81);
+  border: 2.5px solid #ffffff;
+  box-shadow: 0 1.5px 5px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  transition: transform 0.12s ease;
+  margin-top: 0;
+}
+
+.range-slider-wrapper .range-slider-input::-webkit-slider-thumb:hover {
+  transform: scale(1.22);
+}
+
+/* Custom Thumbs on Firefox */
+.range-slider-wrapper .range-slider-input::-moz-range-thumb {
+  pointer-events: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--pico-primary-background, #ff6b81);
+  border: 2.5px solid #ffffff;
+  box-shadow: 0 1.5px 5px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+
+.range-slider-wrapper .range-slider-input::-moz-range-thumb:hover {
+  transform: scale(1.22);
+}
+
+/* Disable defaults runnable and scroll-range ticks to let visualizer draw completely */
+.range-slider-wrapper .range-slider-input::-webkit-slider-runnable-track {
+  background: transparent !important;
+  border: none !important;
+}
+.range-slider-wrapper .range-slider-input::-moz-range-track {
+  background: transparent !important;
+  border: none !important;
+}
+
+.image-canvas-stage {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  background:
+    linear-gradient(45deg, rgba(120, 120, 120, 0.18) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(120, 120, 120, 0.18) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(120, 120, 120, 0.18) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(120, 120, 120, 0.18) 75%);
+  background-size: 20px 20px;
+  background-position:
+    0 0,
+    0 10px,
+    10px -10px,
+    -10px 0;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.image-toolbar {
+  display: grid;
+  grid-template-columns: auto minmax(150px, 220px) 1fr;
+  gap: 0.65rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+/* Canvas tool picker (radios) shown beneath the image preview */
+.canvas-tool-picker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.canvas-tool-picker .canvas-tool-label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--pico-muted-color);
+}
+
+.canvas-tool-picker label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+.canvas-tool-picker label:has(input:disabled) {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.tool-badge {
+  justify-self: end;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.tool-badge-crop {
+  color: #fff;
+  background: rgba(255, 107, 129, 0.85);
+  border-color: rgba(255, 107, 129, 1);
+}
+
+.tool-badge-paint {
+  color: #fff;
+  background: rgba(46, 204, 113, 0.85);
+  border-color: rgba(46, 204, 113, 1);
+}
+
+@media (max-width: 640px) {
+  .image-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-badge {
+    justify-self: start;
+  }
+}
+
+.image-canvas-stage canvas {
+  position: absolute;
+  display: block;
+  /* Canvas must not be stretched via CSS - maintain natural dimensions */
+}
+
+#image-mask-canvas {
+  touch-action: none;
+}
+
+.image-canvas-stage.is-crop-mode {
+  cursor: move;
+}
+
+.image-canvas-stage.is-paint-mode {
+  cursor: crosshair;
+}

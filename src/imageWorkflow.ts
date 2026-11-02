@@ -1,0 +1,848 @@
+import UPNG from "upng-js";
+import { drawResizedHighQuality, decodeImageFile } from "./shared";
+import { createCropEditor } from "./cropEditor";
+
+// Canvas drags in crop mode: move the box, or draw a new one. Corner resizing
+// is handled by the shared crop editor overlay.
+type CropDragHandle = "move" | "new";
+
+type PreviewTransform = {
+  scale: number;
+  offsetX: number;
+  offsetY: number;
+  drawWidth: number;
+  drawHeight: number;
+};
+
+type CreateImageWorkflowOptions = {
+  /** Root to query into: `document` (standalone) or a `ShadowRoot` (component). */
+  root: Document | ShadowRoot;
+  formatBytes: (bytes: number, decimals?: number) => string;
+  revealLoadedSection: () => void;
+};
+
+const CROP_MIN_SIZE = 8;
+const BLUR_RADIUS_MIN = 1;
+const BLUR_RADIUS_DEFAULT = 4;
+const PIXELATE_MIN_SIZE = 4;
+
+export function createImageWorkflow({ root, formatBytes, revealLoadedSection }: CreateImageWorkflowOptions) {
+  /** Safely query DOM element (within the toolkit root) with error on missing element */
+  function getElement<T extends HTMLElement>(id: string, expectedType: string): T {
+    const el = root.getElementById(id);
+    if (!el) throw new Error(`DOM element not found: #${id} (expected ${expectedType})`);
+    return el as T;
+  }
+
+  // Canvas and rendering elements
+  const imageCanvasStage = getElement<HTMLDivElement>("image-canvas-stage", "div#image-canvas-stage");
+  const imagePreviewCanvas = getElement<HTMLCanvasElement>("image-preview-canvas", "canvas#image-preview-canvas");
+  const imageMaskCanvas = getElement<HTMLCanvasElement>("image-mask-canvas", "canvas#image-mask-canvas");
+
+  // Metadata display elements
+  const imgMetaName = getElement<HTMLSpanElement>("img-meta-name", "span#img-meta-name");
+  const imgMetaSize = getElement<HTMLSpanElement>("img-meta-size", "span#img-meta-size");
+  const imgMetaResolution = getElement<HTMLSpanElement>("img-meta-resolution", "span#img-meta-resolution");
+  const imgMetaAspect = getElement<HTMLSpanElement>("img-meta-aspect", "span#img-meta-aspect");
+  const imgMetaType = getElement<HTMLSpanElement>("img-meta-type", "span#img-meta-type");
+
+  // Crop and canvas tool controls
+  const imgEnableCrop = getElement<HTMLInputElement>("img-enable-crop", "input#img-enable-crop");
+  const imgToolCrop = getElement<HTMLInputElement>("img-tool-crop", "input#img-tool-crop");
+  const imgToolPaint = getElement<HTMLInputElement>("img-tool-paint", "input#img-tool-paint");
+  const imgCropX = getElement<HTMLInputElement>("img-crop-x", "input#img-crop-x");
+  const imgCropY = getElement<HTMLInputElement>("img-crop-y", "input#img-crop-y");
+  const imgCropWidth = getElement<HTMLInputElement>("img-crop-width", "input#img-crop-width");
+  const imgCropHeight = getElement<HTMLInputElement>("img-crop-height", "input#img-crop-height");
+  const imgCropFull = getElement<HTMLButtonElement>("img-crop-full", "button#img-crop-full");
+  const imgCropSquare = getElement<HTMLButtonElement>("img-crop-square", "button#img-crop-square");
+
+  // Resize controls
+  const imgEnableResize = getElement<HTMLInputElement>("img-enable-resize", "input#img-enable-resize");
+  const imgOutWidth = getElement<HTMLInputElement>("img-out-width", "input#img-out-width");
+  const imgOutHeight = getElement<HTMLInputElement>("img-out-height", "input#img-out-height");
+  const imgScalePreset = getElement<HTMLSelectElement>("img-scale-preset", "select#img-scale-preset");
+  const imgMaxDimPreset = getElement<HTMLSelectElement>("img-maxdim-preset", "select#img-maxdim-preset");
+  const imgLockAspect = getElement<HTMLInputElement>("img-lock-aspect", "input#img-lock-aspect");
+  const imgResizeStatus = getElement<HTMLElement>("img-resize-status", "small#img-resize-status");
+
+  // Redaction/brush controls
+  const imgEnableBlur = getElement<HTMLInputElement>("img-enable-blur", "input#img-enable-blur");
+  const imgRedactionMode = getElement<HTMLSelectElement>("img-redaction-mode", "select#img-redaction-mode");
+  const imgBrushSize = getElement<HTMLInputElement>("img-brush-size", "input#img-brush-size");
+  const imgBlurStrength = getElement<HTMLInputElement>("img-blur-strength", "input#img-blur-strength");
+  const imgEraseMode = getElement<HTMLInputElement>("img-erase-mode", "input#img-erase-mode");
+  const imgClearMask = getElement<HTMLButtonElement>("img-clear-mask", "button#img-clear-mask");
+
+  // Format and export controls
+  const imgOutFormat = getElement<HTMLSelectElement>("img-out-format", "select#img-out-format");
+  const imgQuality = getElement<HTMLInputElement>("img-quality", "input#img-quality");
+  const imgQualityLabel = getElement<HTMLElement>("img-quality-label", "span#img-quality-label");
+
+  // Lightweight base64 PNG controls
+  const imgBase64Colors = getElement<HTMLSelectElement>("img-base64-colors", "select#img-base64-colors");
+  const imageCopyBase64Btn = getElement<HTMLButtonElement>("image-copy-base64-btn", "button#image-copy-base64-btn");
+  const imageCopyBase64Status = getElement<HTMLElement>(
+    "image-copy-base64-status",
+    "small#image-copy-base64-status",
+  );
+  const imageBase64PreviewWrap = getElement<HTMLElement>(
+    "image-base64-preview-wrap",
+    "div#image-base64-preview-wrap",
+  );
+  const imageBase64Preview = getElement<HTMLImageElement>("image-base64-preview", "img#image-base64-preview");
+  const imageBase64Output = getElement<HTMLTextAreaElement>(
+    "image-base64-output",
+    "textarea#image-base64-output",
+  );
+
+  // Form and result section
+  const imageForm = getElement<HTMLFormElement>("image-form", "form#image-form");
+  const imageResultSection = getElement<HTMLElement>("image-result-section", "section#image-result-section");
+  const imageOutputPlaceholder = getElement<HTMLElement>("image-output-placeholder", "div#image-output-placeholder");
+  const imageDownloadAnchor = getElement<HTMLAnchorElement>("image-download-anchor", "a#image-download-anchor");
+  const imageOutputSizeTag = getElement<HTMLElement>("image-output-size-tag", "span#image-output-size-tag");
+  const imageOutputPreview = getElement<HTMLImageElement>("image-output-preview", "img#image-output-preview");
+
+  let currentFile: File | null = null;
+  let sourceImageBitmap: ImageBitmap | null = null;
+  let sourceImageMaskCanvas: HTMLCanvasElement | null = null;
+  let sourceImageMaskCtx: CanvasRenderingContext2D | null = null;
+  let sourceImageWidth = 0;
+  let sourceImageHeight = 0;
+  let currentImageObjectUrl: string | null = null;
+  let currentImageOutputUrl: string | null = null;
+  let isPaintingMask = false;
+  let lastMaskPoint: { x: number; y: number } | null = null;
+  let isActive = false;
+  let previewTransform: PreviewTransform = {
+    scale: 1,
+    offsetX: 0,
+    offsetY: 0,
+    drawWidth: 0,
+    drawHeight: 0,
+  };
+  let activeCropDrag: {
+    handle: CropDragHandle;
+    startPoint: { x: number; y: number };
+    startCrop: { x: number; y: number; width: number; height: number };
+  } | null = null;
+
+  // Corner handles, move grip and 100% loupe (shared with the video workspace)
+  const cropEditor = createCropEditor({
+    container: imageCanvasStage,
+    getSourceSize: () => ({ width: sourceImageWidth, height: sourceImageHeight }),
+    getCrop: () => getNormalizedCrop(),
+    setCrop: (c) => {
+      clampCropAndSync(c);
+      syncImageOutputFromCrop();
+      cropEditor.render();
+    },
+    getLoupeSource: () => sourceImageBitmap,
+    minSize: CROP_MIN_SIZE,
+  });
+
+  function revokeImageUrls() {
+    if (currentImageObjectUrl) {
+      URL.revokeObjectURL(currentImageObjectUrl);
+      currentImageObjectUrl = null;
+    }
+    if (currentImageOutputUrl) {
+      URL.revokeObjectURL(currentImageOutputUrl);
+      currentImageOutputUrl = null;
+    }
+  }
+
+  function clampInt(val: number, min: number, max: number) {
+    return Math.min(max, Math.max(min, Math.round(val)));
+  }
+
+  function getNormalizedCrop() {
+    if (!sourceImageWidth || !sourceImageHeight) {
+      return { x: 0, y: 0, width: 1, height: 1 };
+    }
+
+    if (!imgEnableCrop.checked) {
+      return { x: 0, y: 0, width: sourceImageWidth, height: sourceImageHeight };
+    }
+
+    const x = clampInt(parseInt(imgCropX.value) || 0, 0, sourceImageWidth - 1);
+    const y = clampInt(parseInt(imgCropY.value) || 0, 0, sourceImageHeight - 1);
+    const width = clampInt(parseInt(imgCropWidth.value) || sourceImageWidth, 1, sourceImageWidth - x);
+    const height = clampInt(parseInt(imgCropHeight.value) || sourceImageHeight, 1, sourceImageHeight - y);
+
+    imgCropX.value = String(x);
+    imgCropY.value = String(y);
+    imgCropWidth.value = String(width);
+    imgCropHeight.value = String(height);
+
+    return { x, y, width, height };
+  }
+
+  function resizeImageCanvases(width: number, height: number) {
+    imagePreviewCanvas.width = width;
+    imagePreviewCanvas.height = height;
+    imageMaskCanvas.width = width;
+    imageMaskCanvas.height = height;
+  }
+
+  function getPreviewCropRect() {
+    const crop = getNormalizedCrop();
+    const { offsetX, offsetY, scale } = previewTransform;
+    return {
+      x: offsetX + crop.x * scale,
+      y: offsetY + crop.y * scale,
+      width: crop.width * scale,
+      height: crop.height * scale,
+    };
+  }
+
+  function getStagePoint(clientX: number, clientY: number) {
+    const rect = imageCanvasStage.getBoundingClientRect();
+    return {
+      x: clientX - rect.left,
+      y: clientY - rect.top,
+    };
+  }
+
+  function clampCropAndSync(crop: { x: number; y: number; width: number; height: number }) {
+    const x = clampInt(crop.x, 0, Math.max(0, sourceImageWidth - 1));
+    const y = clampInt(crop.y, 0, Math.max(0, sourceImageHeight - 1));
+    const width = clampInt(crop.width, 1, Math.max(1, sourceImageWidth - x));
+    const height = clampInt(crop.height, 1, Math.max(1, sourceImageHeight - y));
+    imgCropX.value = String(x);
+    imgCropY.value = String(y);
+    imgCropWidth.value = String(width);
+    imgCropHeight.value = String(height);
+  }
+
+  function getCropHandleAtPoint(stageX: number, stageY: number): CropDragHandle | null {
+    const crop = getPreviewCropRect();
+    if (stageX >= crop.x && stageX <= crop.x + crop.width && stageY >= crop.y && stageY <= crop.y + crop.height) {
+      return "move";
+    }
+
+    const { offsetX, offsetY, drawWidth, drawHeight } = previewTransform;
+    if (stageX >= offsetX && stageX <= offsetX + drawWidth && stageY >= offsetY && stageY <= offsetY + drawHeight) {
+      return "new";
+    }
+
+    return null;
+  }
+
+  function renderMaskPreview() {
+    const mctx = imageMaskCanvas.getContext("2d")!;
+    mctx.clearRect(0, 0, imageMaskCanvas.width, imageMaskCanvas.height);
+    if (!sourceImageMaskCanvas || !imgEnableBlur.checked) return;
+
+    // Mask canvas is same size as preview, draw the full masked region
+    mctx.drawImage(sourceImageMaskCanvas, 0, 0, imageMaskCanvas.width, imageMaskCanvas.height);
+  }
+
+  function renderImageWorkspace() {
+    if (!sourceImageBitmap) return;
+    const stageRect = imageCanvasStage.getBoundingClientRect();
+    const containerWidth = Math.max(1, Math.floor(stageRect.width));
+    if (containerWidth <= 1) return;
+    const scale = containerWidth / sourceImageWidth;
+    const drawWidth = containerWidth;
+    const drawHeight = Math.max(1, Math.floor(sourceImageHeight * scale));
+
+    // Keep stage tightly fitted to the rendered image to avoid letterboxing
+    // (the crop overlay maps its percentages onto the stage).
+    imageCanvasStage.style.minHeight = "0";
+    imageCanvasStage.style.height = `${drawHeight}px`;
+
+    previewTransform = { scale, offsetX: 0, offsetY: 0, drawWidth, drawHeight };
+
+    resizeImageCanvases(drawWidth, drawHeight);
+    imagePreviewCanvas.style.left = "0px";
+    imagePreviewCanvas.style.top = "0px";
+    imageMaskCanvas.style.left = "0px";
+    imageMaskCanvas.style.top = "0px";
+
+    // Draw image at full canvas resolution
+    const pctx = imagePreviewCanvas.getContext("2d")!;
+    pctx.clearRect(0, 0, drawWidth, drawHeight);
+    pctx.drawImage(sourceImageBitmap, 0, 0, drawWidth, drawHeight);
+
+    // The crop box is a DOM overlay (shared crop editor), shown when cropping is enabled
+    cropEditor.setVisible(imgEnableCrop.checked);
+
+    renderMaskPreview();
+  }
+
+  function clearImageMask() {
+    if (!sourceImageMaskCtx || !sourceImageMaskCanvas) return;
+    sourceImageMaskCtx.clearRect(0, 0, sourceImageMaskCanvas.width, sourceImageMaskCanvas.height);
+    renderMaskPreview();
+  }
+
+  function toSourcePoint(clientX: number, clientY: number) {
+    const stagePoint = getStagePoint(clientX, clientY);
+    const x = stagePoint.x;
+    const y = stagePoint.y;
+    const { offsetX, offsetY, scale, drawWidth, drawHeight } = previewTransform;
+
+    if (x < offsetX || y < offsetY || x > offsetX + drawWidth || y > offsetY + drawHeight) {
+      return null;
+    }
+
+    const sx = clampInt((x - offsetX) / scale, 0, sourceImageWidth - 1);
+    const sy = clampInt((y - offsetY) / scale, 0, sourceImageHeight - 1);
+    return { x: sx, y: sy };
+  }
+
+  function paintMaskStroke(from: { x: number; y: number }, to: { x: number; y: number }) {
+    if (!sourceImageMaskCtx) return;
+    const brush = parseInt(imgBrushSize.value) || 40;
+    sourceImageMaskCtx.save();
+    sourceImageMaskCtx.lineCap = "round";
+    sourceImageMaskCtx.lineJoin = "round";
+    sourceImageMaskCtx.lineWidth = Math.max(2, brush / Math.max(0.1, previewTransform.scale));
+    sourceImageMaskCtx.globalCompositeOperation = imgEraseMode.checked ? "destination-out" : "source-over";
+    sourceImageMaskCtx.strokeStyle = "rgba(255, 72, 72, 0.82)";
+    sourceImageMaskCtx.beginPath();
+    sourceImageMaskCtx.moveTo(from.x, from.y);
+    sourceImageMaskCtx.lineTo(to.x, to.y);
+    sourceImageMaskCtx.stroke();
+    sourceImageMaskCtx.restore();
+    renderMaskPreview();
+  }
+
+  function resetImageCropToFull() {
+    imgCropX.value = "0";
+    imgCropY.value = "0";
+    imgCropWidth.value = String(sourceImageWidth || 1);
+    imgCropHeight.value = String(sourceImageHeight || 1);
+    imgOutWidth.value = imgCropWidth.value;
+    imgOutHeight.value = imgCropHeight.value;
+  }
+
+  function syncImageOutputFromCrop() {
+    const crop = getNormalizedCrop();
+    imgOutWidth.value = String(crop.width);
+    imgOutHeight.value = String(crop.height);
+    updateResizeStatus();
+  }
+
+  function getCanvasTool(): "crop" | "paint" | null {
+    if (imgToolCrop.checked) return "crop";
+    if (imgToolPaint.checked) return "paint";
+    return null;
+  }
+
+  function updateImageToolMode() {
+    const tool = getCanvasTool();
+    imageCanvasStage.classList.toggle("is-crop-mode", tool === "crop");
+    imageCanvasStage.classList.toggle("is-paint-mode", tool === "paint");
+    // Crop handles only respond while the crop tool is active
+    cropEditor.setInteractive(tool === "crop");
+  }
+
+  // A tool radio is only selectable when its corresponding feature is enabled.
+  // Keeps the active tool valid, switching or clearing it as features toggle.
+  function updateToolAvailability() {
+    const cropOn = imgEnableCrop.checked;
+    const paintOn = imgEnableBlur.checked;
+    imgToolCrop.disabled = !cropOn;
+    imgToolPaint.disabled = !paintOn;
+
+    if (imgToolCrop.checked && !cropOn) {
+      imgToolCrop.checked = false;
+      if (paintOn) imgToolPaint.checked = true;
+    }
+    if (imgToolPaint.checked && !paintOn) {
+      imgToolPaint.checked = false;
+      if (cropOn) imgToolCrop.checked = true;
+    }
+    if (!imgToolCrop.checked && !imgToolPaint.checked) {
+      if (cropOn) imgToolCrop.checked = true;
+      else if (paintOn) imgToolPaint.checked = true;
+    }
+
+    updateImageToolMode();
+  }
+
+  // Surfaces the actual output size that will be used, since it can come from three places
+  // (Enable Resize off = the crop size; on = whatever's in the Output Width/Height fields,
+  // however they got there — typed directly or via a preset).
+  function updateResizeStatus() {
+    const crop = getNormalizedCrop();
+    if (!imgEnableResize.checked) {
+      imgResizeStatus.textContent = `Resize is off — output will stay at the cropped size (${crop.width}×${crop.height}).`;
+      return;
+    }
+    const outW = Math.max(1, parseInt(imgOutWidth.value) || crop.width);
+    const outH = Math.max(1, parseInt(imgOutHeight.value) || crop.height);
+    imgResizeStatus.textContent = `Resize is on — output will be scaled to ${outW}×${outH}.`;
+  }
+
+  function updateQualityLabel() {
+    const q = parseFloat(imgQuality.value).toFixed(2);
+    imgQualityLabel.textContent = imgOutFormat.value === "image/png" ? "Lossless" : q;
+    imgQuality.disabled = imgOutFormat.value === "image/png";
+  }
+
+  function applyScalePreset(scale: number) {
+    if (!Number.isFinite(scale) || scale <= 0) return;
+    const crop = getNormalizedCrop();
+    const outW = Math.max(1, Math.round(crop.width * scale));
+    const outH = Math.max(1, Math.round(crop.height * scale));
+    imgEnableResize.checked = true;
+    imgOutWidth.value = String(outW);
+    imgOutHeight.value = String(outH);
+    updateResizeStatus();
+  }
+
+  function applyMaxDimensionPreset(maxDimension: number) {
+    if (!Number.isFinite(maxDimension) || maxDimension <= 0) return;
+    const crop = getNormalizedCrop();
+    const longest = Math.max(crop.width, crop.height);
+    const factor = longest > 0 ? maxDimension / longest : 1;
+    const outW = Math.max(1, Math.round(crop.width * factor));
+    const outH = Math.max(1, Math.round(crop.height * factor));
+    imgEnableResize.checked = true;
+    imgOutWidth.value = String(outW);
+    imgOutHeight.value = String(outH);
+    updateResizeStatus();
+  }
+
+  function applyCropDrag(sourcePoint: { x: number; y: number }) {
+    if (!activeCropDrag) return;
+
+    const { handle, startPoint, startCrop } = activeCropDrag;
+    const deltaX = sourcePoint.x - startPoint.x;
+    const deltaY = sourcePoint.y - startPoint.y;
+
+    if (handle === "move") {
+      clampCropAndSync({
+        x: startCrop.x + deltaX,
+        y: startCrop.y + deltaY,
+        width: startCrop.width,
+        height: startCrop.height,
+      });
+      return;
+    }
+
+    // "new": draw a fresh box from the drag start to the pointer
+    const x1 = Math.min(startPoint.x, sourcePoint.x);
+    const y1 = Math.min(startPoint.y, sourcePoint.y);
+    const x2 = Math.max(startPoint.x, sourcePoint.x);
+    const y2 = Math.max(startPoint.y, sourcePoint.y);
+    clampCropAndSync({
+      x: x1,
+      y: y1,
+      width: Math.max(CROP_MIN_SIZE, x2 - x1),
+      height: Math.max(CROP_MIN_SIZE, y2 - y1),
+    });
+  }
+
+  function mapImageMimeToExt(mime: string) {
+    if (mime === "image/png") return "png";
+    if (mime === "image/webp") return "webp";
+    if (mime === "image/avif") return "avif";
+    return "jpg";
+  }
+
+  /** Applies crop, redaction mask, and resize (in that order) and returns the resulting canvas. */
+  function buildFinalCanvas(): HTMLCanvasElement {
+    if (!sourceImageBitmap) throw new Error("Please load an image first.");
+
+    const crop = getNormalizedCrop();
+    const cropCanvas = document.createElement("canvas");
+    cropCanvas.width = crop.width;
+    cropCanvas.height = crop.height;
+    const cropCtx = cropCanvas.getContext("2d")!;
+    cropCtx.drawImage(sourceImageBitmap, crop.x, crop.y, crop.width, crop.height, 0, 0, crop.width, crop.height);
+
+    if (imgEnableBlur.checked && sourceImageMaskCanvas && sourceImageMaskCtx) {
+      const effectStrength = Math.max(BLUR_RADIUS_MIN, parseInt(imgBlurStrength.value) || BLUR_RADIUS_DEFAULT);
+      const maskCropCanvas = document.createElement("canvas");
+      maskCropCanvas.width = crop.width;
+      maskCropCanvas.height = crop.height;
+      const maskCropCtx = maskCropCanvas.getContext("2d")!;
+      maskCropCtx.drawImage(
+        sourceImageMaskCanvas,
+        crop.x,
+        crop.y,
+        crop.width,
+        crop.height,
+        0,
+        0,
+        crop.width,
+        crop.height,
+      );
+
+      const effectCanvas = document.createElement("canvas");
+      effectCanvas.width = crop.width;
+      effectCanvas.height = crop.height;
+      const effectCtx = effectCanvas.getContext("2d")!;
+
+      if (imgRedactionMode.value === "pixelate") {
+        const pixelSize = Math.max(PIXELATE_MIN_SIZE, effectStrength);
+        const downscaleWidth = Math.max(1, Math.round(crop.width / pixelSize));
+        const downscaleHeight = Math.max(1, Math.round(crop.height / pixelSize));
+        const tempCanvas = document.createElement("canvas");
+        tempCanvas.width = downscaleWidth;
+        tempCanvas.height = downscaleHeight;
+        const tempCtx = tempCanvas.getContext("2d")!;
+        tempCtx.imageSmoothingEnabled = false;
+        tempCtx.drawImage(cropCanvas, 0, 0, downscaleWidth, downscaleHeight);
+        effectCtx.imageSmoothingEnabled = false;
+        effectCtx.drawImage(tempCanvas, 0, 0, downscaleWidth, downscaleHeight, 0, 0, crop.width, crop.height);
+      } else if (imgRedactionMode.value === "black") {
+        effectCtx.fillStyle = "#000000";
+        effectCtx.fillRect(0, 0, crop.width, crop.height);
+      } else {
+        effectCtx.filter = `blur(${effectStrength}px)`;
+        effectCtx.drawImage(cropCanvas, 0, 0);
+        effectCtx.filter = "none";
+      }
+
+      const maskedEffectCanvas = document.createElement("canvas");
+      maskedEffectCanvas.width = crop.width;
+      maskedEffectCanvas.height = crop.height;
+      const maskedEffectCtx = maskedEffectCanvas.getContext("2d")!;
+      maskedEffectCtx.drawImage(effectCanvas, 0, 0);
+      maskedEffectCtx.globalCompositeOperation = "destination-in";
+      maskedEffectCtx.drawImage(maskCropCanvas, 0, 0);
+      maskedEffectCtx.globalCompositeOperation = "source-over";
+
+      cropCtx.drawImage(maskedEffectCanvas, 0, 0);
+    }
+
+    let finalCanvas = cropCanvas;
+    if (imgEnableResize.checked) {
+      const outW = Math.max(1, parseInt(imgOutWidth.value) || crop.width);
+      const outH = Math.max(1, parseInt(imgOutHeight.value) || crop.height);
+      finalCanvas = drawResizedHighQuality(cropCanvas, crop.width, crop.height, outW, outH);
+    }
+
+    return finalCanvas;
+  }
+
+  async function canvasToBlob(canvas: HTMLCanvasElement, mime: string, quality?: number) {
+    return await new Promise<Blob>((resolve, reject) => {
+      canvas.toBlob(
+        (blob) => {
+          if (!blob) {
+            reject(new Error("Could not encode output image."));
+            return;
+          }
+          resolve(blob);
+        },
+        mime,
+        quality,
+      );
+    });
+  }
+
+  function resetLoadedState() {
+    if (sourceImageBitmap) {
+      sourceImageBitmap.close();
+      sourceImageBitmap = null;
+    }
+    sourceImageMaskCanvas = null;
+    sourceImageMaskCtx = null;
+    sourceImageWidth = 0;
+    sourceImageHeight = 0;
+    currentFile = null;
+    isPaintingMask = false;
+    lastMaskPoint = null;
+    activeCropDrag = null;
+    revokeImageUrls();
+  }
+
+  async function load(file: File) {
+    resetLoadedState();
+    currentFile = file;
+    imageResultSection.style.display = "none";
+    imageOutputPlaceholder.style.display = "";
+    imageBase64PreviewWrap.style.display = "none";
+    imageCopyBase64Status.textContent = "";
+    currentImageObjectUrl = URL.createObjectURL(file);
+
+    sourceImageBitmap = await decodeImageFile(file);
+    sourceImageWidth = sourceImageBitmap.width;
+    sourceImageHeight = sourceImageBitmap.height;
+
+    sourceImageMaskCanvas = document.createElement("canvas");
+    sourceImageMaskCanvas.width = sourceImageWidth;
+    sourceImageMaskCanvas.height = sourceImageHeight;
+    sourceImageMaskCtx = sourceImageMaskCanvas.getContext("2d");
+
+    imgMetaName.textContent = file.name;
+    imgMetaSize.textContent = formatBytes(file.size);
+    imgMetaResolution.textContent = `${sourceImageWidth}x${sourceImageHeight}`;
+    imgMetaAspect.textContent = `${(sourceImageWidth / sourceImageHeight).toFixed(2)}:1`;
+    imgMetaType.textContent = file.type || "image/*";
+
+    imageOutputPreview.src = "";
+
+    resetImageCropToFull();
+    clearImageMask();
+    updateToolAvailability();
+    updateQualityLabel();
+    updateResizeStatus();
+
+    revealLoadedSection();
+    renderImageWorkspace();
+    requestAnimationFrame(() => {
+      renderImageWorkspace();
+    });
+    console.log(`Loaded image file: "${file.name}" (${sourceImageWidth}x${sourceImageHeight})`);
+  }
+
+  function setActive(active: boolean) {
+    isActive = active;
+    updateImageToolMode();
+  }
+
+  [imgCropX, imgCropY, imgCropWidth, imgCropHeight].forEach((el) => {
+    el.addEventListener("input", () => {
+      getNormalizedCrop();
+      syncImageOutputFromCrop();
+      renderImageWorkspace();
+    });
+  });
+
+  imgEnableCrop.addEventListener("change", () => {
+    updateToolAvailability();
+    syncImageOutputFromCrop();
+    renderImageWorkspace();
+  });
+
+  imgToolCrop.addEventListener("change", updateImageToolMode);
+  imgToolPaint.addEventListener("change", updateImageToolMode);
+
+  imgCropFull.addEventListener("click", () => {
+    resetImageCropToFull();
+    renderImageWorkspace();
+  });
+
+  imgCropSquare.addEventListener("click", () => {
+    const size = Math.min(sourceImageWidth, sourceImageHeight);
+    const x = Math.floor((sourceImageWidth - size) / 2);
+    const y = Math.floor((sourceImageHeight - size) / 2);
+    imgCropX.value = String(x);
+    imgCropY.value = String(y);
+    imgCropWidth.value = String(size);
+    imgCropHeight.value = String(size);
+    syncImageOutputFromCrop();
+    renderImageWorkspace();
+  });
+
+  imgEnableResize.addEventListener("change", () => {
+    syncImageOutputFromCrop();
+  });
+
+  imgScalePreset.addEventListener("change", () => {
+    const value = parseFloat(imgScalePreset.value);
+    if (!Number.isNaN(value)) {
+      applyScalePreset(value);
+    }
+  });
+
+  imgMaxDimPreset.addEventListener("change", () => {
+    const value = parseInt(imgMaxDimPreset.value);
+    if (!Number.isNaN(value)) {
+      applyMaxDimensionPreset(value);
+    }
+  });
+
+  imgOutWidth.addEventListener("input", () => {
+    imgEnableResize.checked = true;
+    if (imgLockAspect.checked) {
+      const crop = getNormalizedCrop();
+      const outW = parseInt(imgOutWidth.value) || crop.width;
+      const ratio = crop.width / crop.height;
+      imgOutHeight.value = String(Math.max(1, Math.round(outW / ratio)));
+    }
+    updateResizeStatus();
+  });
+
+  imgOutHeight.addEventListener("input", () => {
+    imgEnableResize.checked = true;
+    if (imgLockAspect.checked) {
+      const crop = getNormalizedCrop();
+      const outH = parseInt(imgOutHeight.value) || crop.height;
+      const ratio = crop.width / crop.height;
+      imgOutWidth.value = String(Math.max(1, Math.round(outH * ratio)));
+    }
+    updateResizeStatus();
+  });
+
+  imgEnableBlur.addEventListener("change", () => {
+    updateToolAvailability();
+    renderMaskPreview();
+  });
+
+  imgClearMask.addEventListener("click", () => {
+    clearImageMask();
+  });
+
+  imgOutFormat.addEventListener("change", () => {
+    updateQualityLabel();
+  });
+
+  imgQuality.addEventListener("input", () => {
+    updateQualityLabel();
+  });
+
+  imageMaskCanvas.addEventListener("pointerdown", (e) => {
+    if (!sourceImageBitmap) return;
+    const point = toSourcePoint(e.clientX, e.clientY);
+    if (!point) return;
+
+    const tool = getCanvasTool();
+    if (tool === "crop") {
+      if (!imgEnableCrop.checked) return;
+      const stagePoint = getStagePoint(e.clientX, e.clientY);
+      const handle = getCropHandleAtPoint(stagePoint.x, stagePoint.y);
+      if (!handle) return;
+      activeCropDrag = {
+        handle,
+        startPoint: point,
+        startCrop: getNormalizedCrop(),
+      };
+    } else if (tool === "paint") {
+      if (!imgEnableBlur.checked) return;
+      isPaintingMask = true;
+      lastMaskPoint = point;
+      paintMaskStroke(point, point);
+    } else {
+      return;
+    }
+
+    imageMaskCanvas.setPointerCapture(e.pointerId);
+  });
+
+  imageMaskCanvas.addEventListener("pointermove", (e) => {
+    const point = toSourcePoint(e.clientX, e.clientY);
+    if (!point) return;
+
+    if (activeCropDrag) {
+      applyCropDrag(point);
+      syncImageOutputFromCrop();
+      renderImageWorkspace();
+      return;
+    }
+
+    if (!isPaintingMask || !lastMaskPoint) return;
+    paintMaskStroke(lastMaskPoint, point);
+    lastMaskPoint = point;
+  });
+
+  const stopMaskPaint = () => {
+    isPaintingMask = false;
+    lastMaskPoint = null;
+    activeCropDrag = null;
+  };
+
+  // Unified pointer event cleanup handler
+  const handlePointerEnd = (e?: PointerEvent) => {
+    if (e?.pointerId !== undefined) {
+      imageMaskCanvas.releasePointerCapture(e.pointerId);
+    }
+    stopMaskPaint();
+  };
+
+  imageMaskCanvas.addEventListener("pointerup", handlePointerEnd);
+  imageMaskCanvas.addEventListener("pointercancel", handlePointerEnd);
+  imageMaskCanvas.addEventListener("pointerleave", stopMaskPaint);
+
+  window.addEventListener("resize", () => {
+    if (isActive) {
+      renderImageWorkspace();
+    }
+  });
+
+  imageForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (!currentFile || !sourceImageBitmap) {
+      alert("Please load an image first.");
+      return;
+    }
+
+    try {
+      const finalCanvas = buildFinalCanvas();
+
+      const mime = imgOutFormat.value;
+      const quality = mime === "image/png" ? undefined : parseFloat(imgQuality.value);
+      let blob: Blob;
+      try {
+        blob = await canvasToBlob(finalCanvas, mime, quality);
+      } catch {
+        console.warn(`Primary output format ${mime} was unsupported. Falling back to JPEG.`);
+        blob = await canvasToBlob(finalCanvas, "image/jpeg", 0.9);
+      }
+
+      if (currentImageOutputUrl) URL.revokeObjectURL(currentImageOutputUrl);
+      currentImageOutputUrl = URL.createObjectURL(blob);
+
+      const ext = mapImageMimeToExt(blob.type || mime);
+      const dotIndex = currentFile.name.lastIndexOf(".");
+      const base = dotIndex > 0 ? currentFile.name.slice(0, dotIndex) : currentFile.name;
+
+      imageDownloadAnchor.href = currentImageOutputUrl;
+      imageDownloadAnchor.download = `${base}_web_export.${ext}`;
+      imageOutputSizeTag.textContent = `Size: ${formatBytes(blob.size)}`;
+      imageOutputPreview.src = currentImageOutputUrl;
+      imageOutputPlaceholder.style.display = "none";
+      imageResultSection.style.display = "block";
+      imageResultSection.scrollIntoView({ behavior: "smooth" });
+      console.log(`Image processing complete. Output: ${formatBytes(blob.size)} (${ext.toUpperCase()})`);
+    } catch (error: any) {
+      console.error("Image processing failed:", error);
+      alert(`Image processing failed: ${error.message || error}`);
+    }
+  });
+
+  imageCopyBase64Btn.addEventListener("click", async () => {
+    if (!currentFile || !sourceImageBitmap) {
+      alert("Please load an image first.");
+      return;
+    }
+
+    imageCopyBase64Status.textContent = "Quantizing…";
+    try {
+      const finalCanvas = buildFinalCanvas();
+      const ctx = finalCanvas.getContext("2d")!;
+      const imageData = ctx.getImageData(0, 0, finalCanvas.width, finalCanvas.height);
+      const colors = parseInt(imgBase64Colors.value, 10);
+
+      const pngBuffer = UPNG.encode([imageData.data.buffer], finalCanvas.width, finalCanvas.height, colors);
+      const blob = new Blob([pngBuffer], { type: "image/png" });
+      const dataUri: string = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result as string);
+        reader.onerror = () => reject(reader.error);
+        reader.readAsDataURL(blob);
+      });
+
+      await navigator.clipboard.writeText(dataUri);
+
+      imageBase64Preview.src = dataUri;
+      imageBase64Output.value = dataUri;
+      imageBase64PreviewWrap.style.display = "block";
+
+      imageCopyBase64Status.textContent =
+        `Copied base64 PNG string to clipboard — ${colors} colors, ${formatBytes(blob.size)} PNG ` +
+        `(${finalCanvas.width}×${finalCanvas.height}).`;
+      console.log(`Copied lightweight base64 PNG to clipboard: ${formatBytes(blob.size)}, ${colors} colors.`);
+    } catch (error: any) {
+      console.error("Base64 PNG conversion failed:", error);
+      imageCopyBase64Status.textContent = `Failed: ${error.message || error}`;
+    }
+  });
+
+  updateQualityLabel();
+  updateToolAvailability();
+
+  return {
+    load,
+    dispose: resetLoadedState,
+    setActive,
+  };
+}
