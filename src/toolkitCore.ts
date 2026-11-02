@@ -134,6 +134,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   const themeIconSun = root.getElementById("theme-icon-sun") as any;
 
   const dropzone = root.getElementById("dropzone") as HTMLDivElement;
+  const dropzoneStatus = root.getElementById("dropzone-status") as HTMLParagraphElement;
   const videoFileInput = root.getElementById("video-file-input") as HTMLInputElement;
 
   const loadedFileSection = root.getElementById("loaded-file-section") as HTMLElement;
@@ -358,17 +359,40 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   videoBatchWorkflow = createVideoBatchWorkflow({ root });
 
   // Screen recordings load into the video workspace like a dropped file
-  createScreenCapture({ root, onRecorded: (file) => handleFileLoad(file) });
+  // (bypasses the isLoading guard so a finished recording is never dropped)
+  createScreenCapture({ root, onRecorded: (file) => withLoadingIndicator([file], () => handleFileLoad(file)) });
+
+  // --- Loading indicator ---
+  // Parsing a large file can take a while (duration/packet scans), so show
+  // feedback in the drop zone and ignore new files until it's done.
+  let isLoading = false;
+
+  async function withLoadingIndicator(files: File[], load: () => Promise<void>) {
+    isLoading = true;
+    dropzoneStatus.textContent =
+      files.length > 1 ? `Loading ${files.length} files…` : `Loading ${files[0].name} (${formatBytes(files[0].size)})…`;
+    dropzone.classList.add("loading");
+    // Let the indicator paint before parsing starts
+    await new Promise((resolve) => requestAnimationFrame(() => setTimeout(resolve)));
+    try {
+      await load();
+    } finally {
+      dropzone.classList.remove("loading");
+      isLoading = false;
+    }
+  }
 
   // --- Drag & Drop Operations ---
-  dropzone.addEventListener("click", () => videoFileInput.click());
+  dropzone.addEventListener("click", () => {
+    if (!isLoading) videoFileInput.click();
+  });
 
   ["dragenter", "dragover"].forEach((eventName) => {
     dropzone.addEventListener(
       eventName,
       (e) => {
         e.preventDefault();
-        dropzone.classList.add("dragging");
+        if (!isLoading) dropzone.classList.add("dragging");
       },
       false,
     );
@@ -416,8 +440,13 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   // Route one or many files. Multiple images → batch mode; otherwise load the
   // first file into its single-file workspace.
   function handleFiles(files: File[]) {
+    if (isLoading || files.length === 0) return;
+    return withLoadingIndicator(files, () => routeFiles(files));
+  }
+
+  async function routeFiles(files: File[]) {
     if (files.length <= 1) {
-      handleFileLoad(files[0]);
+      await handleFileLoad(files[0]);
       return;
     }
     const images = files.filter((f) => detectMediaKind(f) === "image");
@@ -449,7 +478,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       }
     } else {
       // Not a multi-file batch of one type — just load the first file
-      handleFileLoad(files[0]);
+      await handleFileLoad(files[0]);
     }
   }
 

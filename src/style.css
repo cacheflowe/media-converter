@@ -37,6 +37,32 @@ body {
   color: var(--pico-primary-background);
 }
 
+/* Loading: swap the prompt text for a spinner + filename while the file is parsed */
+#dropzone-status {
+  display: none;
+  margin: 0;
+  font-weight: 600;
+}
+
+#dropzone.loading {
+  cursor: progress;
+  border-color: var(--pico-primary-background);
+}
+
+#dropzone.loading svg {
+  color: var(--pico-primary-background);
+}
+
+#dropzone.loading #dropzone-status {
+  display: block;
+}
+
+#dropzone.loading h3,
+#dropzone.loading .dropzone-hint,
+#dropzone.loading small {
+  display: none;
+}
+
 /* Entry point: drop zone, with the smaller screen-capture strip beneath it */
 .entry-grid {
   /* Capture the page text color here: Pico redefines --pico-color inside

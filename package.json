@@ -14,13 +14,13 @@
   "dependencies": {
     "@picocss/pico": "^2.1.1",
     "heic-to": "^1.6.7",
-    "mediabunny": "^1.49.0",
+    "mediabunny": "^1.65.0",
     "upng-js": "^2.1.0"
   },
   "devDependencies": {
     "@types/upng-js": "^2.1.5",
-    "typescript": "^6.0.3",
-    "vite": "^8.1.0",
-    "vite-plugin-singlefile": "^2.3.3"
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vite-plugin-singlefile": "^2.3.4"
   }
 }

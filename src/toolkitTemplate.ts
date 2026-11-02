@@ -69,7 +69,8 @@ export const TOOLKIT_MARKUP = /*html*/ `
           />
         </svg>
         <h3>Drag & Drop media file here</h3>
-        <p style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--pico-muted-color)">
+        <p id="dropzone-status" aria-busy="true"></p>
+        <p class="dropzone-hint" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--pico-muted-color)">
           or click to select a file from your device
         </p>
         <small style="font-size: 0.8rem; opacity: 0.7"
