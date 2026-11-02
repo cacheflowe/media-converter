@@ -53,6 +53,14 @@ body {
   color: var(--entry-text-color);
 }
 
+/* Drop zone and capture card share one centered, capped column */
+.entry-grid #dropzone,
+.entry-grid .capture-card {
+  width: 100%;
+  max-width: 760px;
+  align-self: center;
+}
+
 /* Screen capture card: centered like the drop zone, but smaller and quieter */
 .capture-card {
   display: flex;
@@ -65,10 +73,6 @@ body {
   padding: 16px 20px;
   background-color: var(--pico-card-background-color);
   transition: all 0.3s ease;
-  /* Capped so it stays narrower than the drop zone on wide screens */
-  width: 100%;
-  max-width: 760px;
-  align-self: center;
 }
 
 .capture-intro {
@@ -668,6 +672,16 @@ nav.brand-nav {
   border-bottom: 1px solid var(--pico-muted-border-color);
   margin-bottom: 2rem;
   padding: 0.5rem 0;
+}
+
+/* Clicking the title returns to the home screen */
+.home-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-link:hover code {
+  color: var(--pico-primary);
 }
 
 /* Highlight matching presets */

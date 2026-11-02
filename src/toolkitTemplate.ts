@@ -5,7 +5,9 @@ export const TOOLKIT_MARKUP = /*html*/ `
 <nav class="brand-nav">
       <ul>
         <li>
-          <strong><code>&lt;media-converter&gt;</code></strong>
+          <a href="#" id="home-link" class="home-link" title="Back to start"
+            ><strong><code>&lt;media-converter&gt;</code></strong></a
+          >
         </li>
       </ul>
       <ul>

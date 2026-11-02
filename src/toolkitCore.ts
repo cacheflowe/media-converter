@@ -1452,4 +1452,40 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       await currentActiveConversion.cancel();
     }
   });
+
+  // --- Home: clicking the title unloads everything and returns to the entry screen ---
+  const homeLink = root.getElementById("home-link") as HTMLAnchorElement;
+
+  function goHome() {
+    if (currentActiveConversion) void currentActiveConversion.cancel();
+    imageWorkflow?.setActive(false);
+    audioWorkflow?.setActive(false);
+    imageWorkflow?.dispose();
+    audioWorkflow?.dispose();
+    imageBatchWorkflow?.dispose();
+    videoBatchWorkflow?.dispose();
+    if (currentSourceInput) {
+      currentSourceInput.dispose();
+      currentSourceInput = null;
+    }
+    currentFile = null;
+
+    previewVideo.pause();
+    if (previewVideo.src) URL.revokeObjectURL(previewVideo.src);
+    previewVideo.removeAttribute("src");
+    if (outputVideo.src) URL.revokeObjectURL(outputVideo.src);
+    outputVideo.removeAttribute("src");
+    resultSection.style.display = "none";
+    imageResultSection.style.display = "none";
+
+    // Allow re-selecting the same file(s) to fire "change" again
+    videoFileInput.value = "";
+    loadedFileSection.style.display = "none";
+    themeElement.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  homeLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    goHome();
+  });
 }
