@@ -381,9 +381,9 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   imageBatchWorkflow = createImageBatchWorkflow({ root });
   videoBatchWorkflow = createVideoBatchWorkflow({ root });
 
-  // Screen recordings load into the video workspace like a dropped file
-  // (bypasses the isLoading guard so a finished recording is never dropped)
-  createScreenCapture({ root, onRecorded: (file) => withLoadingIndicator([file], () => handleFileLoad(file)) });
+  // Screen recordings (video) and screenshots (PNG) load like a dropped file
+  // (bypasses the isLoading guard so a finished capture is never dropped)
+  createScreenCapture({ root, onCaptured: (file) => withLoadingIndicator([file], () => handleFileLoad(file)) });
 
   // --- Loading indicator ---
   // Parsing a large file can take a while (duration/packet scans), so show

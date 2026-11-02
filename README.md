@@ -13,6 +13,9 @@ Features:
 - **Image**: crop (drag handles), resize/scale presets, redaction brush
   (blur / pixelate / solid), format + quality export (JPEG/PNG/WebP/AVIF),
   **AI upscale 2x** (Real-ESRGAN on WebGPU — see below).
+- **Screen capture**: record a screen, window, or tab to MP4 (with tab/system
+  audio and mic), or grab a single-frame **screenshot** (optionally after a 3–5 s
+  delay) as a PNG that opens straight in the image workspace.
 - Live side-by-side original/output comparison and a verbose diagnostics console.
 - Light/dark theme.
 

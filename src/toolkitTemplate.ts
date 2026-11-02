@@ -99,8 +99,8 @@ export const TOOLKIT_MARKUP = /*html*/ `
           <circle cx="12" cy="10.125" r="2.25" fill="currentColor" stroke="none" />
         </svg>
           <div>
-            <h3>Or record your screen</h3>
-            <p class="capture-subtitle">Capture a screen, window, or tab, then edit it below</p>
+            <h3>Or capture your screen</h3>
+            <p class="capture-subtitle">Record or screenshot a screen, window, or tab, then edit it below</p>
           </div>
         </div>
         <div class="capture-actions">
@@ -128,6 +128,14 @@ export const TOOLKIT_MARKUP = /*html*/ `
         </div>
         <button type="button" id="capture-start" class="secondary">🎥 Start Recording</button>
         <button type="button" id="capture-stop" class="contrast" style="display: none">⏹ Stop Recording</button>
+        <div id="capture-shot" class="capture-shot">
+          <button type="button" id="capture-screenshot" class="secondary outline">📸 Screenshot</button>
+          <select id="capture-shot-delay" aria-label="Screenshot delay" title="Wait before grabbing, e.g. to open a menu">
+            <option value="0" selected>Now</option>
+            <option value="3">In 3 s</option>
+            <option value="5">In 5 s</option>
+          </select>
+        </div>
         </div>
         <div id="capture-status" class="capture-status" aria-live="polite"></div>
       </div>

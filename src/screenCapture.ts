@@ -1,6 +1,7 @@
 // Screen capture: records a screen, window or tab (via getDisplayMedia) straight
 // into a seekable MP4 with Mediabunny's MediaStream sources, then hands the
-// result to the video workspace like a dropped file.
+// result to the video workspace like a dropped file. Screenshots grab a single
+// frame instead and land in the image workspace as a PNG.
 //
 // Mediabunny is used instead of MediaRecorder because MediaRecorder's WebM has
 // no duration or seek index, which breaks scrubbing and trimming the preview.
@@ -99,11 +100,49 @@ function createRecordingIndicator() {
 
 type ScreenCaptureOptions = {
   root: Document | ShadowRoot;
-  /** Called with the finished recording. */
-  onRecorded: (file: File) => void | Promise<void>;
+  /** Called with the finished recording (video) or screenshot (PNG). */
+  onCaptured: (file: File) => void | Promise<void>;
 };
 
-export function createScreenCapture({ root, onRecorded }: ScreenCaptureOptions) {
+/** Grabs the current frame of a live video track as a canvas. */
+async function grabFrame(track: MediaStreamTrack): Promise<HTMLCanvasElement> {
+  const canvas = document.createElement("canvas");
+  const ctx = canvas.getContext("2d")!;
+  // ImageCapture reads straight from the track, so it works even if this tab is
+  // in the background (Chrome stops painting hidden <video> elements)
+  const ImageCaptureCtor = (window as any).ImageCapture;
+  if (ImageCaptureCtor) {
+    try {
+      const bitmap: ImageBitmap = await new ImageCaptureCtor(track).grabFrame();
+      canvas.width = bitmap.width;
+      canvas.height = bitmap.height;
+      ctx.drawImage(bitmap, 0, 0);
+      bitmap.close();
+      return canvas;
+    } catch {
+      // fall back to a <video> element below
+    }
+  }
+  const video = document.createElement("video");
+  video.muted = true;
+  video.playsInline = true;
+  video.srcObject = new MediaStream([track]);
+  await video.play();
+  if ("requestVideoFrameCallback" in video) {
+    await new Promise((resolve) => (video as any).requestVideoFrameCallback(resolve));
+  }
+  canvas.width = video.videoWidth;
+  canvas.height = video.videoHeight;
+  ctx.drawImage(video, 0, 0);
+  video.pause();
+  video.srcObject = null;
+  return canvas;
+}
+
+const timestamp = () => new Date().toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-");
+const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) {
   const get = <T extends HTMLElement>(id: string) => root.getElementById(id) as T;
   const bar = get<HTMLElement>("screen-capture-bar");
   const startBtn = get<HTMLButtonElement>("capture-start");
@@ -114,6 +153,9 @@ export function createScreenCapture({ root, onRecorded }: ScreenCaptureOptions) 
   const qualitySelect = get<HTMLSelectElement>("capture-quality");
   const options = get<HTMLElement>("capture-options");
   const status = get<HTMLElement>("capture-status");
+  const shotWrap = get<HTMLElement>("capture-shot");
+  const shotBtn = get<HTMLButtonElement>("capture-screenshot");
+  const shotDelay = get<HTMLSelectElement>("capture-shot-delay");
 
   if (!navigator.mediaDevices?.getDisplayMedia) {
     // e.g. mobile browsers
@@ -141,7 +183,55 @@ export function createScreenCapture({ root, onRecorded }: ScreenCaptureOptions) 
     startBtn.style.display = recording ? "none" : "";
     options.style.display = recording ? "none" : "";
     stopBtn.style.display = recording ? "" : "none";
+    shotWrap.style.display = recording ? "none" : "";
     bar.classList.toggle("is-recording", recording);
+  }
+
+  /** Shows a status message with a download link for the captured file. */
+  function offerDownload(file: File, message: string) {
+    if (lastUrl) URL.revokeObjectURL(lastUrl);
+    lastUrl = URL.createObjectURL(file);
+    const link = document.createElement("a");
+    link.href = lastUrl;
+    link.download = file.name;
+    link.textContent = file.type.startsWith("image/") ? "Download screenshot" : "Download recording";
+    status.replaceChildren(message, link);
+  }
+
+  async function screenshot() {
+    if (session) return;
+    const delay = parseInt(shotDelay.value) || 0;
+    let stream: MediaStream | null = null;
+    shotBtn.disabled = startBtn.disabled = true;
+    try {
+      stream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: false });
+      const track = stream.getVideoTracks()[0];
+      for (let s = delay; s > 0; s--) {
+        status.textContent = `📸 Capturing in ${s}…`;
+        await wait(1000);
+      }
+      // Let the browser's share picker finish fading out of the first frames
+      if (!delay) await wait(300);
+      const canvas = await grabFrame(track);
+      const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, "image/png"));
+      if (!blob) throw new Error("Could not encode the screenshot.");
+      const file = new File([blob], `screenshot_${timestamp()}.png`, { type: "image/png" });
+      offerDownload(file, `Screenshot ${canvas.width}×${canvas.height} (${formatBytes(file.size)}) — loaded below for editing. `);
+      console.log(`Screenshot captured: ${file.name}, ${canvas.width}x${canvas.height}, ${formatBytes(file.size)}.`);
+      stream.getTracks().forEach((t) => t.stop());
+      stream = null;
+      await onCaptured(file);
+    } catch (err: any) {
+      if (err?.name === "NotAllowedError") {
+        status.textContent = "Screenshot was cancelled.";
+      } else {
+        console.error("Screenshot failed:", err);
+        status.textContent = `Screenshot failed: ${err?.message || err}`;
+      }
+    } finally {
+      stream?.getTracks().forEach((t) => t.stop());
+      shotBtn.disabled = startBtn.disabled = false;
+    }
   }
 
   /** One audio track from the shared tab/system audio and/or the microphone (mixed if both). */
@@ -280,20 +370,14 @@ export function createScreenCapture({ root, onRecorded }: ScreenCaptureOptions) 
       status.textContent = "Recording was empty.";
       return;
     }
-    const stamp = new Date().toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-");
-    const file = new File([buffer], `screen-capture_${stamp}.${s.ext}`, { type: s.mime });
+    const file = new File([buffer], `screen-capture_${timestamp()}.${s.ext}`, { type: s.mime });
     // Offer the raw recording directly; it's also loaded below for editing
-    if (lastUrl) URL.revokeObjectURL(lastUrl);
-    lastUrl = URL.createObjectURL(file);
-    const link = document.createElement("a");
-    link.href = lastUrl;
-    link.download = file.name;
-    link.textContent = "Download recording";
-    status.replaceChildren(`Recorded ${formatBytes(file.size)} — loaded below for editing. `, link);
+    offerDownload(file, `Recorded ${formatBytes(file.size)} — loaded below for editing. `);
     console.log(`Screen capture finished: ${file.name}, ${formatBytes(file.size)}.`);
-    await onRecorded(file);
+    await onCaptured(file);
   }
 
   startBtn.addEventListener("click", () => void start());
   stopBtn.addEventListener("click", () => void stop());
+  shotBtn.addEventListener("click", () => void screenshot());
 }

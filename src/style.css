@@ -176,12 +176,20 @@ body {
   margin: 0;
 }
 
-.capture-options select {
+.capture-options select,
+.capture-shot select {
   width: auto;
   margin: 0;
   padding: 0.25rem 2rem 0.25rem 0.6rem;
   font-size: 0.85rem;
   height: auto;
+}
+
+/* Screenshot button + its delay picker, kept together when the row wraps */
+.capture-shot {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .capture-status {
