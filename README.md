@@ -1,23 +1,36 @@
 # Media Converter
 
-A **100% in-browser** media converter for video and images. Nothing is uploaded
-to a server — all decoding, transcoding, resizing, cropping, and redaction runs
-locally in the browser via [MediaBunny](https://github.com/Vanilagy/mediabunny)
-on top of the native **WebCodecs** API.
+A **100% in-browser** media converter for video, audio, and images. Nothing is
+uploaded to a server — all decoding, transcoding, editing, and even the AI
+upscaling and frame interpolation run locally in the browser, via
+[MediaBunny](https://github.com/Vanilagy/mediabunny) on top of the native
+**WebCodecs** API and [onnxruntime-web](https://onnxruntime.ai/) on **WebGPU**.
+
+**Live:** https://cacheflowe.github.io/media-converter/
 
 Features:
 
-- **Video**: transcode (MP4/WebM, H.264/HEVC/VP9/VP8/AV1), trim, resize, rotate,
-  frame-rate resampling (frame-repeat or bidirectional blending), audio
-  transcode/copy/strip, quality/bitrate control, fast-copy (no re-encode) trims.
-- **Image**: crop (drag handles), resize/scale presets, redaction brush
-  (blur / pixelate / solid), format + quality export (JPEG/PNG/WebP/AVIF),
-  **AI upscale 2x** (Real-ESRGAN on WebGPU — see below).
+- **Video**: transcode (MP4/WebM, H.264/HEVC/VP9/VP8/AV1), quality/bitrate control,
+  trim (multiple sections joined into one clip), crop, resize, rotate, speed change /
+  time-lapse (skip or motion-blur frames, pitch-preserving audio), frame-rate
+  resampling (repeat or blend), audio transcode/copy/strip, and fast-copy (no
+  re-encode) trims.
+- **AI for video**: 2x upscaling (Real-ESRGAN) and **RIFE** frame interpolation for
+  smoother frame rates or slow motion — see below.
+- **Image**: crop (drag handles + loupe), resize/scale presets, redaction brush
+  (blur / pixelate / solid), **AI upscale 2x**, format + quality export
+  (JPEG/PNG/WebP/AVIF), and a "lightweight Base64 PNG" (palette-quantized) copy.
+  HEIC/HEIF photos are decoded on demand.
+- **Audio**: waveform with trim, transcode to MP3/M4A/Opus/WAV/FLAC.
+- **Batch**: drop several images or several videos to convert them with shared
+  settings and download everything as one ZIP.
 - **Screen capture**: record a screen, window, or tab to MP4 (with tab/system
   audio and mic), or grab a single-frame **screenshot** (optionally after a 3–5 s
   delay) as a PNG that opens straight in the image workspace.
-- Live side-by-side original/output comparison and a verbose diagnostics console.
-- Light/dark theme.
+- **Input**: drag & drop, file picker, or paste an image from the clipboard.
+- Live output-size estimate, original/output comparison, a diagnostics console,
+  and a light/dark theme. Click the `<media-converter>` title to return to the
+  start screen.
 
 ## Three ways to ship it
 
@@ -36,8 +49,17 @@ The exact same UI and logic build into **three targets** from one shared codebas
 | File | Role |
 |---|---|
 | `src/toolkitTemplate.ts` | The UI markup (one shared HTML string). **Edit the UI here.** |
-| `src/toolkitCore.ts` | All behavior: `mountToolkit(root, { themeElement })`, scoped to whatever root it's given (a `Document` or a `ShadowRoot`). |
-| `src/imageWorkflow.ts` | Image crop/redact/export workflow (also root-scoped). |
+| `src/toolkitCore.ts` | Core behavior and the video workspace: `mountToolkit(root, { themeElement })`, scoped to whatever root it's given (a `Document` or a `ShadowRoot`). |
+| `src/imageWorkflow.ts` | Image crop / redact / AI upscale / export workflow (also root-scoped). |
+| `src/audioWorkflow.ts` | Audio workspace: waveform, trim, transcode. |
+| `src/imageBatchWorkflow.ts`, `src/videoBatchWorkflow.ts`, `src/batchShared.ts` | Batch modes on a shared queue / thumbnail / ZIP engine (`src/zip.ts`). |
+| `src/screenCapture.ts` | Screen recording (Mediabunny MediaStream sources → MP4) and screenshots. |
+| `src/trimController.ts`, `src/cropEditor.ts` | Trim and crop editors shared by the video, audio, and image workspaces. |
+| `src/timelapse.ts`, `src/audioStretch.ts` | Speed change / time-lapse video process hook and pitch-preserving audio stretch. |
+| `src/onnxRuntime.ts` | Shared ML runtime: lazy onnxruntime-web, WebGPU detection, model download + Cache API, session reuse. |
+| `src/upscaler.ts`, `src/videoUpscale.ts` | Real-ESRGAN tiling upscaler, and its video process hook. |
+| `src/frameInterpolation.ts` | RIFE interpolator and its video process hook. |
+| `src/shared.ts` | Formatters, quality maps, codec/format helpers, image decoding (incl. HEIC). |
 | `src/style.css` | Styles (imports Pico CSS). |
 | `src/main.ts` | **Standalone entry** — injects the markup into the page, mounts on `document`. |
 | `src/component.ts` | **Web-component entry** — defines `<media-converter>`, mounts inside a shadow root with Pico's `:root` tokens rescoped to `:host`. |
@@ -157,8 +179,9 @@ That's it. The component:
 
 - Is **style-isolated in both directions** via shadow DOM — the host page's CSS
   can't leak in, and Pico can't leak out.
-- Bundles everything (MediaBunny, Pico, all CSS) into the one JS file — no extra
-  assets, no build step on the host side.
+- Bundles MediaBunny, Pico, and all CSS into `media-converter.js`; the HEIC
+  decoder and ML runtime are separate chunks fetched only when used. No build
+  step on the host side.
 - Is **responsive to its own width** (CSS container queries), so it lays out
   correctly even inside a narrow host column.
 - Accepts an optional initial theme: `<media-converter theme="light">`
@@ -175,12 +198,27 @@ deliberately clashing host page to demonstrate the isolation.
 
 ## Layout
 
-Once media is loaded, the UI is a three-column workflow that collapses
-gracefully as the component narrows:
+Once media is loaded, the UI is a three-column workflow with numbered headings,
+collapsing gracefully as the component narrows:
 
-**Column 1 — Input / Info** (preview + metadata) → **Column 2 — Settings**
-(conversion controls) → **Column 3 — Output** (render button, size estimate,
-progress, download, and the collapsible diagnostics console).
+**1 Input** (preview + metadata) → **2 Conversion Settings** (collapsible
+panels) → **3 Output** (render button, size estimate, progress, download, and
+the collapsible diagnostics console).
+
+## Browser support & network use
+
+- **WebCodecs** is required for video/audio work. Current Chromium browsers
+  (Chrome, Edge) have the most complete codec support; Safari and Firefox work
+  with the codecs they expose (the codec menus only list what the browser can
+  encode).
+- **WebGPU** powers AI upscale and RIFE. Without it they fall back to the CPU and
+  are very slow (the UI warns about this).
+- **Screen capture** needs `getDisplayMedia` (desktop browsers); the panel hides
+  itself where it's unavailable.
+- **Network**: your media never leaves the browser. The only requests beyond the
+  page itself are on-demand downloads — the onnxruntime-web WASM runtime from
+  jsDelivr and the AI models from Hugging Face (both pinned, and models are
+  cached after the first use).
 
 ---
 
