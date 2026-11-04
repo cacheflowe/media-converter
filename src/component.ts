@@ -17,7 +17,6 @@ const baseCss = `
 :host { display: block; }
 .mb-app {
   font-family: var(--pico-font-family, system-ui, sans-serif);
-  font-size: var(--pico-font-size, 100%);
   line-height: var(--pico-line-height, 1.5);
   color: var(--pico-color);
   background-color: var(--pico-background-color);
