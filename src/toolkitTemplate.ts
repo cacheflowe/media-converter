@@ -127,6 +127,7 @@ export const TOOLKIT_MARKUP = /*html*/ `
           </select>
         </div>
         <button type="button" id="capture-start" class="secondary">🎥 Start Recording</button>
+        <button type="button" id="capture-audio" class="secondary outline" title="Record tab/system audio (and mic if checked) to the audio editor">🎧 Record Audio</button>
         <button type="button" id="capture-stop" class="contrast" style="display: none">⏹ Stop Recording</button>
         <div id="capture-shot" class="capture-shot">
           <button type="button" id="capture-screenshot" class="secondary outline">📸 Screenshot</button>

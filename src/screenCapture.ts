@@ -1,7 +1,8 @@
 // Screen capture: records a screen, window or tab (via getDisplayMedia) straight
 // into a seekable MP4 with Mediabunny's MediaStream sources, then hands the
 // result to the video workspace like a dropped file. Screenshots grab a single
-// frame instead and land in the image workspace as a PNG.
+// frame instead and land in the image workspace as a PNG. "Record Audio" captures
+// only tab/system audio (and optionally the mic) to a WAV for the audio workspace.
 //
 // Mediabunny is used instead of MediaRecorder because MediaRecorder's WebM has
 // no duration or seek index, which breaks scrubbing and trimming the preview.
@@ -13,6 +14,7 @@ import {
   BufferTarget,
   Mp4OutputFormat,
   WebMOutputFormat,
+  WavOutputFormat,
   MediaStreamVideoTrackSource,
   MediaStreamAudioTrackSource,
   getFirstEncodableVideoCodec,
@@ -139,6 +141,17 @@ async function grabFrame(track: MediaStreamTrack): Promise<HTMLCanvasElement> {
   return canvas;
 }
 
+/**
+ * Chrome applies echo cancellation, noise suppression and auto gain to shared
+ * audio by default, which makes music and system sounds sound muffled/"tunnel-y".
+ * Turn it all off to capture the audio as the app outputs it.
+ */
+const RAW_AUDIO: MediaTrackConstraints = {
+  echoCancellation: false,
+  noiseSuppression: false,
+  autoGainControl: false,
+};
+
 const timestamp = () => new Date().toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-");
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -146,6 +159,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
   const get = <T extends HTMLElement>(id: string) => root.getElementById(id) as T;
   const bar = get<HTMLElement>("screen-capture-bar");
   const startBtn = get<HTMLButtonElement>("capture-start");
+  const audioBtn = get<HTMLButtonElement>("capture-audio");
   const stopBtn = get<HTMLButtonElement>("capture-stop");
   const systemAudio = get<HTMLInputElement>("capture-system-audio");
   const mic = get<HTMLInputElement>("capture-mic");
@@ -172,6 +186,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     timer: number;
     ext: string;
     mime: string;
+    prefix: string;
   } | null = null;
   let stopping = false;
   let lastUrl: string | null = null;
@@ -181,6 +196,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
 
   function setRecordingUI(recording: boolean) {
     startBtn.style.display = recording ? "none" : "";
+    audioBtn.style.display = recording ? "none" : "";
     options.style.display = recording ? "none" : "";
     stopBtn.style.display = recording ? "" : "none";
     shotWrap.style.display = recording ? "none" : "";
@@ -202,7 +218,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     if (session) return;
     const delay = parseInt(shotDelay.value) || 0;
     let stream: MediaStream | null = null;
-    shotBtn.disabled = startBtn.disabled = true;
+    shotBtn.disabled = startBtn.disabled = audioBtn.disabled = true;
     try {
       stream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: false });
       const track = stream.getVideoTracks()[0];
@@ -230,7 +246,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       }
     } finally {
       stream?.getTracks().forEach((t) => t.stop());
-      shotBtn.disabled = startBtn.disabled = false;
+      shotBtn.disabled = startBtn.disabled = audioBtn.disabled = false;
     }
   }
 
@@ -250,7 +266,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     try {
       const display = await navigator.mediaDevices.getDisplayMedia({
         video: { frameRate: { ideal: fps } },
-        audio: systemAudio.checked,
+        audio: systemAudio.checked && RAW_AUDIO,
       });
       streams.push(display);
       if (mic.checked) {
@@ -324,6 +340,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
         startedAt,
         ext: isMp4 ? "mp4" : "webm",
         mime: isMp4 ? "video/mp4" : "video/webm",
+        prefix: "screen-capture",
         timer: window.setInterval(() => {
           status.textContent = `● Recording ${formatDuration((performance.now() - startedAt) / 1000).replace(/\.\d+$/, "")}`;
         }, 250),
@@ -344,6 +361,84 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       } else {
         console.error("Screen capture failed:", err);
         status.textContent = `Screen capture failed: ${err?.message || err}`;
+      }
+    }
+  }
+
+  /**
+   * Records tab/system audio (plus the mic, if checked) to a WAV and loads it in
+   * the audio workspace. getDisplayMedia always needs a video track, so the
+   * share is requested as usual and the video is simply never encoded.
+   */
+  async function startAudio() {
+    if (session) return;
+    const streams: MediaStream[] = [];
+    try {
+      const display = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: RAW_AUDIO });
+      streams.push(display);
+      if (!display.getAudioTracks().length && !mic.checked) {
+        throw new Error('No audio was shared. In the picker, choose a tab or entire screen and enable "Share audio".');
+      }
+      if (mic.checked) {
+        try {
+          streams.push(await navigator.mediaDevices.getUserMedia({ audio: true }));
+        } catch (err) {
+          console.warn("Microphone unavailable; recording without it:", err);
+        }
+      }
+
+      const audioTracks = streams.flatMap((s) => s.getAudioTracks());
+      const { track: audioTrack, audioContext } = combineAudio(audioTracks);
+      if (!audioTrack) throw new Error("No audio source is available.");
+
+      // Lossless WAV is best for editing; fall back to a compressed codec
+      const audioCodec = await getFirstEncodableAudioCodec(["pcm-s16", "opus", "aac"]);
+      if (!audioCodec) throw new Error("This browser can't encode audio.");
+      const isWav = audioCodec === "pcm-s16";
+      const isOpus = audioCodec === "opus";
+      const format = isWav ? new WavOutputFormat() : isOpus ? new WebMOutputFormat() : new Mp4OutputFormat({ fastStart: "in-memory" });
+      const target = new BufferTarget();
+      const output = new Output({ format, target });
+      const audioSource = new MediaStreamAudioTrackSource(audioTrack as MediaStreamAudioTrack, {
+        codec: audioCodec,
+        bitrate: 192_000,
+      });
+      output.addAudioTrack(audioSource);
+      audioSource.errorPromise.catch((err) => {
+        console.error("Audio capture error:", err);
+        status.textContent = `Recording error: ${err?.message || err}`;
+        void stop();
+      });
+
+      await output.start();
+      const startedAt = performance.now();
+      session = {
+        output,
+        target,
+        streams,
+        audioContext,
+        startedAt,
+        ext: format.fileExtension.replace(/^\./, ""),
+        mime: isWav ? "audio/wav" : isOpus ? "audio/webm" : "audio/mp4",
+        prefix: "audio-capture",
+        timer: window.setInterval(() => {
+          status.textContent = `● Recording audio ${formatDuration((performance.now() - startedAt) / 1000).replace(/\.\d+$/, "")}`;
+        }, 250),
+      };
+      status.textContent = "● Recording audio 0:00";
+      setRecordingUI(true);
+      indicator.start(startedAt);
+      console.log(`Audio capture started: ${audioCodec}${audioTracks.length > 1 ? ", mixed sources" : ""}.`);
+
+      // The browser's own "Stop sharing" button ends the shared tracks
+      display.getTracks().forEach((t) => t.addEventListener("ended", () => void stop()));
+    } catch (err: any) {
+      streams.forEach((s) => s.getTracks().forEach((t) => t.stop()));
+      if (err?.name === "NotAllowedError") {
+        status.textContent = "Audio capture was cancelled.";
+      } else {
+        console.error("Audio capture failed:", err);
+        status.textContent = `Audio capture failed: ${err?.message || err}`;
       }
     }
   }
@@ -370,7 +465,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       status.textContent = "Recording was empty.";
       return;
     }
-    const file = new File([buffer], `screen-capture_${timestamp()}.${s.ext}`, { type: s.mime });
+    const file = new File([buffer], `${s.prefix}_${timestamp()}.${s.ext}`, { type: s.mime });
     // Offer the raw recording directly; it's also loaded below for editing
     offerDownload(file, `Recorded ${formatBytes(file.size)} — loaded below for editing. `);
     console.log(`Screen capture finished: ${file.name}, ${formatBytes(file.size)}.`);
@@ -378,6 +473,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
   }
 
   startBtn.addEventListener("click", () => void start());
+  audioBtn.addEventListener("click", () => void startAudio());
   stopBtn.addEventListener("click", () => void stop());
   shotBtn.addEventListener("click", () => void screenshot());
 }

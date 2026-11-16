@@ -26,7 +26,9 @@ Features:
   settings and download everything as one ZIP.
 - **Screen capture**: record a screen, window, or tab to MP4 (with tab/system
   audio and mic), or grab a single-frame **screenshot** (optionally after a 3–5 s
-  delay) as a PNG that opens straight in the image workspace.
+  delay) as a PNG that opens straight in the image workspace, or **record
+  audio only** (tab/system audio and/or mic) to a WAV that opens in the audio
+  editor.
 - **Input**: drag & drop, file picker, or paste an image from the clipboard.
 - Live output-size estimate, original/output comparison, a diagnostics console,
   and a light/dark theme. Click the `<media-converter>` title to return to the
