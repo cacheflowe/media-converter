@@ -107,6 +107,18 @@ export const TOOLKIT_MARKUP = /*html*/ `
         <div id="capture-options" class="capture-options">
           <label><input type="checkbox" id="capture-system-audio" checked /> Tab / system audio</label>
           <label><input type="checkbox" id="capture-mic" /> Microphone</label>
+          <label title="Picture-in-picture: your webcam in a corner of the screen recording"><input type="checkbox" id="capture-cam" /> Webcam</label>
+          <select id="capture-cam-corner" aria-label="Webcam position" disabled>
+            <option value="bottom-right" selected>Bottom right</option>
+            <option value="bottom-left">Bottom left</option>
+            <option value="top-right">Top right</option>
+            <option value="top-left">Top left</option>
+          </select>
+          <select id="capture-cam-size" aria-label="Webcam size" disabled>
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+          </select>
           <select id="capture-fps" aria-label="Capture frame rate">
             <option value="30" selected>30 fps</option>
             <option value="60">60 fps</option>

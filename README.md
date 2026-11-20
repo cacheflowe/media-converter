@@ -25,7 +25,8 @@ Features:
 - **Batch**: drop several images or several videos to convert them with shared
   settings and download everything as one ZIP.
 - **Screen capture**: record a screen, window, or tab to MP4 (with tab/system
-  audio and mic), or grab a single-frame **screenshot** (optionally after a 3–5 s
+  audio and mic, and an optional **webcam picture-in-picture** in any corner),
+  or grab a single-frame **screenshot** (optionally after a 3–5 s
   delay) as a PNG that opens straight in the image workspace, or **record
   audio only** (tab/system audio and/or mic) to a WAV that opens in the audio
   editor.

@@ -1,6 +1,6 @@
 import { n as e, r as t, t as n } from "./rolldown-runtime-DfEuXgQw.js";
 // src/style.css?inline
-var r = ":host,:root{--pico-font-family-emoji:\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";--pico-font-family-sans-serif:system-ui,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,Arial,\"Helvetica Neue\",sans-serif,var(--pico-font-family-emoji);--pico-font-family-monospace:ui-monospace,SFMono-Regular,\"SF Mono\",Menlo,Consolas,\"Liberation Mono\",monospace,var(--pico-font-family-emoji);--pico-font-family:var(--pico-font-family-sans-serif);--pico-line-height:1.5;--pico-font-weight:400;--pico-font-size:100%;--pico-text-underline-offset:.1rem;--pico-border-radius:.25rem;--pico-border-width:.0625rem;--pico-outline-width:.125rem;--pico-transition:.2s ease-in-out;--pico-spacing:1rem;--pico-typography-spacing-vertical:1rem;--pico-block-spacing-vertical:var(--pico-spacing);--pico-block-spacing-horizontal:var(--pico-spacing);--pico-grid-column-gap:var(--pico-spacing);--pico-grid-row-gap:var(--pico-spacing);--pico-form-element-spacing-vertical:.75rem;--pico-form-element-spacing-horizontal:1rem;--pico-group-box-shadow:0 0 0 #0000;--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-primary-focus);--pico-group-box-shadow-focus-with-input:0 0 0 .0625rem var(--pico-form-element-border-color);--pico-modal-overlay-backdrop-filter:blur(.375rem);--pico-nav-element-spacing-vertical:1rem;--pico-nav-element-spacing-horizontal:.5rem;--pico-nav-link-spacing-vertical:.5rem;--pico-nav-link-spacing-horizontal:.5rem;--pico-nav-breadcrumb-divider:\">\";--pico-icon-checkbox:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-minus:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-chevron:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-date:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-time:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolyline points='12 6 12 12 16 14'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-search:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-close:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-loading:url(\"data:image/svg+xml,%3Csvg fill='none' height='24' width='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' %3E%3Cstyle%3E g %7B animation: rotate 2s linear infinite; transform-origin: center center; %7D circle %7B stroke-dasharray: 75,100; stroke-dashoffset: -5; animation: dash 1.5s ease-in-out infinite; stroke-linecap: round; %7D @keyframes rotate %7B 0%25 %7B transform: rotate(0deg); %7D 100%25 %7B transform: rotate(360deg); %7D %7D @keyframes dash %7B 0%25 %7B stroke-dasharray: 1,100; stroke-dashoffset: 0; %7D 50%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -17.5; %7D 100%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -62; %7D %7D %3C/style%3E%3Cg%3E%3Ccircle cx='12' cy='12' r='10' fill='none' stroke='rgb(136, 145, 164)' stroke-width='4' /%3E%3C/g%3E%3C/svg%3E\")}@media (width>=576px){:host,:root{--pico-font-size:106.25%}}@media (width>=768px){:host,:root{--pico-font-size:112.5%}}@media (width>=1024px){:host,:root{--pico-font-size:118.75%}}@media (width>=1280px){:host,:root{--pico-font-size:125%}}@media (width>=1536px){:host,:root{--pico-font-size:131.25%}}a,a.contrast,a.secondary{--pico-text-decoration:underline}small{--pico-font-size:.875em}h1,h2,h3,h4,h5,h6{--pico-font-weight:700}h1{--pico-font-size:2rem;--pico-line-height:1.125;--pico-typography-spacing-top:3rem}h2{--pico-font-size:1.75rem;--pico-line-height:1.15;--pico-typography-spacing-top:2.625rem}h3{--pico-font-size:1.5rem;--pico-line-height:1.175;--pico-typography-spacing-top:2.25rem}h4{--pico-font-size:1.25rem;--pico-line-height:1.2;--pico-typography-spacing-top:1.874rem}h5{--pico-font-size:1.125rem;--pico-line-height:1.225;--pico-typography-spacing-top:1.6875rem}h6{--pico-font-size:1rem;--pico-line-height:1.25;--pico-typography-spacing-top:1.5rem}tfoot td,tfoot th,thead td,thead th{--pico-font-weight:600;--pico-border-width:.1875rem}code,kbd,pre,samp{--pico-font-family:var(--pico-font-family-monospace)}kbd{--pico-font-weight:bolder}:where(select,textarea),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-outline-width:.0625rem}[type=search]{--pico-border-radius:5rem}[type=checkbox],[type=radio]{--pico-border-width:.125rem}[type=checkbox][role=switch]{--pico-border-width:.1875rem}details.dropdown summary:not([role=button]){--pico-outline-width:.0625rem}nav details.dropdown summary:focus-visible{--pico-outline-width:.125rem}[role=search]{--pico-border-radius:5rem}:is([role=group]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus),[role=search]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is([role=group]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus),[role=search]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=submit],[role=search] button{--pico-form-element-spacing-horizontal:2rem}details summary[role=button]:not(.outline):after,[aria-busy=true]:not(input,select,textarea):is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)invert()}:host(:not([data-theme=dark])),:root:not([data-theme=dark]),[data-theme=light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--pico-background-color:#fff;--pico-color:#373c44;--pico-text-selection-color:#029ae840;--pico-muted-color:#646b79;--pico-muted-border-color:#e7eaf0;--pico-primary:#0172ad;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#0172ad80;--pico-primary-hover:#015887;--pico-primary-hover-background:#02659a;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#029ae880;--pico-primary-inverse:#fff;--pico-secondary:#5d6b89;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#5d6b8980;--pico-secondary-hover:#48536b;--pico-secondary-hover-background:#48536b;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#5d6b8940;--pico-secondary-inverse:#fff;--pico-contrast:#181c25;--pico-contrast-background:#181c25;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#181c2580;--pico-contrast-hover:#000;--pico-contrast-hover-background:#000;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-secondary-hover);--pico-contrast-focus:#5d6b8940;--pico-contrast-inverse:#fff;--pico-box-shadow:.0145rem .029rem .174rem #8191b504,.0335rem .067rem .402rem #8191b506,.0625rem .125rem .75rem #8191b508,.1125rem .225rem 1.35rem #8191b509,.2085rem .417rem 2.502rem #8191b50b,.5rem 1rem 6rem #8191b50f,0 0 0 .0625rem #8191b504;--pico-h1-color:#2d3138;--pico-h2-color:#373c44;--pico-h3-color:#424751;--pico-h4-color:#4d535e;--pico-h5-color:#5c6370;--pico-h6-color:#646b79;--pico-mark-background-color:#fde7c0;--pico-mark-color:#0f1114;--pico-ins-color:#1d6a54;--pico-del-color:#883935;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#f3f5f7;--pico-code-color:#646b79;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#fbfcfc;--pico-form-element-selected-background-color:#dfe3eb;--pico-form-element-border-color:#cfd5e2;--pico-form-element-color:#23262c;--pico-form-element-placeholder-color:var(--pico-muted-color);--pico-form-element-active-background-color:#fff;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#b86a6b;--pico-form-element-invalid-active-border-color:#c84f48;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#4c9b8a;--pico-form-element-valid-active-border-color:#279977;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#bfc7d9;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#dfe3eb;--pico-range-active-border-color:#bfc7d9;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:var(--pico-background-color);--pico-card-border-color:var(--pico-muted-border-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#fbfcfc;--pico-dropdown-background-color:#fff;--pico-dropdown-border-color:#eff1f4;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#eff1f4;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#e8eaedbf;--pico-progress-background-color:#dfe3eb;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(76, 154.5, 137.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(200.25, 79.25, 72.25)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme=dark])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme=dark]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),[data-theme=light] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}@media only screen and (prefers-color-scheme:dark){:host(:not([data-theme])),:root:not([data-theme]){--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}:host(:not([data-theme])) details summary[role=button].contrast:not(.outline):after,:root:not([data-theme]) details summary[role=button].contrast:not(.outline):after,:host(:not([data-theme])) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before,:root:not([data-theme]) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}}[data-theme=dark]{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}[data-theme=dark] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}[data-theme=dark] details summary[role=button].contrast:not(.outline):after,[data-theme=dark] [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}[type=checkbox],[type=radio],[type=range],progress{accent-color:var(--pico-primary)}*,:after,:before{box-sizing:border-box;background-repeat:no-repeat}:after,:before{-webkit-text-decoration:inherit;text-decoration:inherit;vertical-align:inherit}:where(:host),:where(:root){-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family);text-underline-offset:var(--pico-text-underline-offset);text-rendering:optimizelegibility;overflow-wrap:break-word;tab-size:4}body{width:100%;margin:0}main{display:block}body>footer,body>header,body>main{padding-block:var(--pico-block-spacing-vertical)}section{margin-bottom:var(--pico-block-spacing-vertical)}.container,.container-fluid{width:100%;padding-right:var(--pico-spacing);padding-left:var(--pico-spacing);margin-left:auto;margin-right:auto}@media (width>=576px){.container{max-width:510px;padding-left:0;padding-right:0}}@media (width>=768px){.container{max-width:700px}}@media (width>=1024px){.container{max-width:950px}}@media (width>=1280px){.container{max-width:1200px}}@media (width>=1536px){.container{max-width:1450px}}.grid{grid-column-gap:var(--pico-grid-column-gap);grid-row-gap:var(--pico-grid-row-gap);grid-template-columns:1fr;display:grid}@media (width>=768px){.grid{grid-template-columns:repeat(auto-fit,minmax(0%,1fr))}}.grid>*{min-width:0}.overflow-auto{overflow:auto}b,strong{font-weight:bolder}sub,sup{vertical-align:baseline;font-size:.75em;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}address,blockquote,dl,ol,p,pre,table,ul{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-style:normal;font-weight:var(--pico-font-weight)}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family)}h1{--pico-color:var(--pico-h1-color)}h2{--pico-color:var(--pico-h2-color)}h3{--pico-color:var(--pico-h3-color)}h4{--pico-color:var(--pico-h4-color)}h5{--pico-color:var(--pico-h5-color)}h6{--pico-color:var(--pico-h6-color)}:where(article,address,blockquote,dl,figure,form,ol,p,pre,table,ul)~:is(h1,h2,h3,h4,h5,h6){margin-top:var(--pico-typography-spacing-top)}p,hgroup{margin-bottom:var(--pico-typography-spacing-vertical)}hgroup>*{margin-top:0;margin-bottom:0}hgroup>:not(:first-child):last-child{--pico-color:var(--pico-muted-color);--pico-font-weight:unset;font-size:1rem}:where(ol,ul) li{margin-bottom:calc(var(--pico-typography-spacing-vertical) * .25)}:where(dl,ol,ul) :where(dl,ol,ul){margin:0;margin-top:calc(var(--pico-typography-spacing-vertical) * .25)}ul li{list-style:square}mark{background-color:var(--pico-mark-background-color);color:var(--pico-mark-color);vertical-align:baseline;padding:.125rem .25rem}blockquote{margin:var(--pico-typography-spacing-vertical) 0;padding:var(--pico-spacing);border-right:none;border-left:.25rem solid var(--pico-blockquote-border-color);border-inline-start:.25rem solid var(--pico-blockquote-border-color);border-inline-end:none;display:block}blockquote footer{margin-top:calc(var(--pico-typography-spacing-vertical) * .5);color:var(--pico-blockquote-footer-color)}abbr[title]{cursor:help;border-bottom:1px dotted;text-decoration:none}ins{color:var(--pico-ins-color);text-decoration:none}del{color:var(--pico-del-color)}::selection{background-color:var(--pico-text-selection-color)}:where(a:not([role=button])),[role=link]{--pico-color:var(--pico-primary);--pico-background-color:transparent;--pico-underline:var(--pico-primary-underline);background-color:var(--pico-background-color);color:var(--pico-color);-webkit-text-decoration:var(--pico-text-decoration);-webkit-text-decoration:var(--pico-text-decoration);text-decoration:var(--pico-text-decoration);-webkit-text-decoration-color:var(--pico-underline);text-decoration-color:var(--pico-underline);text-underline-offset:.125em;transition:background-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);outline:0}:where(a:not([role=button])):is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-primary-hover);--pico-underline:var(--pico-primary-hover-underline);--pico-text-decoration:underline}:where(a:not([role=button])):focus-visible,[role=link]:focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}:where(a:not([role=button])).secondary,[role=link].secondary{--pico-color:var(--pico-secondary);--pico-underline:var(--pico-secondary-underline)}:where(a:not([role=button])).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-underline:var(--pico-secondary-hover-underline)}:where(a:not([role=button])).contrast,[role=link].contrast{--pico-color:var(--pico-contrast);--pico-underline:var(--pico-contrast-underline)}:where(a:not([role=button])).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-underline:var(--pico-contrast-hover-underline)}a[role=button]{display:inline-block}button{text-transform:none;margin:0;font-family:inherit;overflow:visible}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[role=button],[type=button],[type=reset],[type=submit],button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[type=file]::file-selector-button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[role=button]:is(:hover,:active,:focus),[role=button][aria-current]:not([aria-current=false]),[type=button]:is(:hover,:active,:focus),[type=button][aria-current]:not([aria-current=false]),[type=reset]:is(:hover,:active,:focus),[type=reset][aria-current]:not([aria-current=false]),[type=submit]:is(:hover,:active,:focus),[type=submit][aria-current]:not([aria-current=false]),button:is(:hover,:active,:focus),button[aria-current]:not([aria-current=false]){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[role=button]:focus,[role=button][aria-current]:not([aria-current=false]):focus,[type=button]:focus,[type=button][aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus,[type=submit]:focus,[type=submit][aria-current]:not([aria-current=false]):focus,button:focus,button[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=button],[type=reset],[type=submit]{margin-bottom:var(--pico-spacing)}:is(button,[type=submit],[type=button],[role=button]).secondary,[type=reset]{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}[type=file]::file-selector-button{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}:is(button,[type=submit],[type=button],[role=button]).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}:is(button,[type=submit],[type=button],[role=button]).secondary:focus,:is(button,[type=submit],[type=button],[role=button]).secondary[aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is(button,[type=submit],[type=button],[role=button]).contrast{--pico-background-color:var(--pico-contrast-background);--pico-border-color:var(--pico-contrast-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-contrast-hover-background);--pico-border-color:var(--pico-contrast-hover-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:focus,:is(button,[type=submit],[type=button],[role=button]).contrast[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}:is(button,[type=submit],[type=button],[role=button]).outline,[type=reset].outline{--pico-background-color:transparent;--pico-color:var(--pico-primary);--pico-border-color:var(--pico-primary)}:is(button,[type=submit],[type=button],[role=button]).outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:transparent;--pico-color:var(--pico-primary-hover);--pico-border-color:var(--pico-primary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary,[type=reset].outline{--pico-color:var(--pico-secondary);--pico-border-color:var(--pico-secondary)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-border-color:var(--pico-secondary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast{--pico-color:var(--pico-contrast);--pico-border-color:var(--pico-contrast)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-border-color:var(--pico-contrast-hover)}:where(button,[type=submit],[type=reset],[type=button],[role=button])[disabled],:where(fieldset[disabled]) :is(button,[type=submit],[type=button],[type=reset],[role=button]){opacity:.5;pointer-events:none}:where(table){border-collapse:collapse;border-spacing:0;text-indent:0;width:100%}td,th{padding:calc(var(--pico-spacing)/ 2) var(--pico-spacing);border-bottom:var(--pico-border-width) solid var(--pico-table-border-color);background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);text-align:left;text-align:start}tfoot td,tfoot th{border-top:var(--pico-border-width) solid var(--pico-table-border-color);border-bottom:0}table.striped tbody tr:nth-child(odd) td,table.striped tbody tr:nth-child(odd) th{background-color:var(--pico-table-row-stripped-background-color)}:where(audio,canvas,iframe,img,svg,video){vertical-align:middle}audio,video{display:inline-block}audio:not([controls]){height:0;display:none}:where(iframe){border-style:none}img{border-style:none;max-width:100%;height:auto}:where(svg:not([fill])){fill:currentColor}svg:not(:host),svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-size:.875em;font-family:var(--pico-font-family)}pre code,pre samp{font-size:inherit;font-family:inherit}pre{-ms-overflow-style:scrollbar;overflow:auto}code,kbd,pre,samp{border-radius:var(--pico-border-radius);background:var(--pico-code-background-color);color:var(--pico-code-color);font-weight:var(--pico-font-weight);line-height:initial}code,kbd,samp{padding:.375rem;display:inline-block}pre{margin-bottom:var(--pico-spacing);display:block;overflow-x:auto}pre>code,pre>samp{padding:var(--pico-spacing);line-height:var(--pico-line-height);background:0 0;display:block}kbd{background-color:var(--pico-code-kbd-background-color);color:var(--pico-code-kbd-color);vertical-align:baseline}figure{margin:0;padding:0;display:block}figure figcaption{padding:calc(var(--pico-spacing) * .5) 0;color:var(--pico-muted-color)}hr{height:0;margin:var(--pico-typography-spacing-vertical) 0;border:0;border-top:1px solid var(--pico-muted-border-color);color:inherit}[hidden],template{display:none!important}canvas{display:inline-block}input,optgroup,select,textarea{font-size:1rem;line-height:var(--pico-line-height);letter-spacing:inherit;margin:0;font-family:inherit}input{overflow:visible}select{text-transform:none}legend{max-width:100%;color:inherit;white-space:normal;padding:0}textarea{overflow:auto}[type=checkbox],[type=radio]{padding:0}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:0}:-moz-ui-invalid{box-shadow:none}::-ms-expand{display:none}[type=file],[type=range]{border-width:0;padding:0}input:not([type=checkbox],[type=radio],[type=range]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2)}fieldset{width:100%;margin:0;margin-bottom:var(--pico-spacing);border:0;padding:0}fieldset legend,label{margin-bottom:calc(var(--pico-spacing) * .375);color:var(--pico-color);font-weight:var(--pico-form-label-font-weight,var(--pico-font-weight));display:block}fieldset legend{margin-bottom:calc(var(--pico-spacing) * .5)}button[type=submit],input:not([type=checkbox],[type=radio]),select,textarea{width:100%}input:not([type=checkbox],[type=radio],[type=range],[type=file]),select,textarea{appearance:none;padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal)}input,select,textarea{--pico-background-color:var(--pico-form-element-background-color);--pico-border-color:var(--pico-form-element-border-color);--pico-color:var(--pico-form-element-color);--pico-box-shadow:none;border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[readonly]):is(:active,:focus){--pico-background-color:var(--pico-form-element-active-background-color)}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[role=switch],[readonly]):is(:active,:focus){--pico-border-color:var(--pico-form-element-active-border-color)}:where(select,textarea):not([readonly]):focus,input:not([type=submit],[type=button],[type=reset],[type=range],[type=file],[readonly]):focus{--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}:where(fieldset[disabled]) :is(input:not([type=submit],[type=button],[type=reset]),select,textarea),input:not([type=submit],[type=button],[type=reset])[disabled],label[aria-disabled=true],select[disabled],textarea[disabled]{opacity:var(--pico-form-element-disabled-opacity);pointer-events:none}label[aria-disabled=true] input[disabled]{opacity:1}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid]{padding-left:var(--pico-form-element-spacing-horizontal);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important;padding-inline-start:var(--pico-form-element-spacing-horizontal)!important;padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=false]:not(select){background-image:var(--pico-icon-valid)}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=true]:not(select){background-image:var(--pico-icon-invalid)}:where(input,select,textarea)[aria-invalid=false]{--pico-border-color:var(--pico-form-element-valid-border-color)}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus){--pico-border-color:var(--pico-form-element-valid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-valid-focus-color)!important}:where(input,select,textarea)[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus){--pico-border-color:var(--pico-form-element-invalid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-invalid-focus-color)!important}[dir=rtl] :where(input,select,textarea):not([type=checkbox],[type=radio]):is([aria-invalid],[aria-invalid=true],[aria-invalid=false]){background-position:.75rem}input::placeholder,select:invalid,textarea::placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}textarea::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input:not([type=checkbox],[type=radio]),select,textarea{margin-bottom:var(--pico-spacing)}select::-ms-expand{background-color:#0000;border:0}select:not([multiple],[size]){padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem);padding-left:var(--pico-form-element-spacing-horizontal);background-image:var(--pico-icon-chevron);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-inline-start:var(--pico-form-element-spacing-horizontal);padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)}select[multiple] option:checked{background:var(--pico-form-element-selected-background-color);color:var(--pico-form-element-color)}[dir=rtl] select:not([multiple],[size]){background-position:.75rem}textarea{resize:vertical;display:block}textarea[aria-invalid]{--pico-icon-height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);background-position:right .75rem top!important;background-size:1rem var(--pico-icon-height)!important}:where(input,select,textarea,fieldset,.grid)+small{width:100%;margin-top:calc(var(--pico-spacing) * -.75);margin-bottom:var(--pico-spacing);color:var(--pico-muted-color);display:block}:where(input,select,textarea,fieldset,.grid)[aria-invalid=false]+small{color:var(--pico-ins-color)}:where(input,select,textarea,fieldset,.grid)[aria-invalid=true]+small{color:var(--pico-del-color)}label>:where(input,select,textarea){margin-top:calc(var(--pico-spacing) * .25)}label:has([type=checkbox],[type=radio]){cursor:pointer;width:fit-content}[type=checkbox],[type=radio]{appearance:none;margin-top:-.125em;border-width:var(--pico-border-width);vertical-align:middle;cursor:pointer;width:1.25em;height:1.25em;margin-inline-end:.5em}[type=checkbox]::-ms-check{display:none}[type=radio]::-ms-check{display:none}[type=checkbox]:checked,[type=checkbox]:checked:active,[type=checkbox]:checked:focus,[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-checkbox);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=checkbox]~label,[type=radio]~label{cursor:pointer;margin-bottom:0;display:inline-block}[type=checkbox]~label:not(:last-of-type),[type=radio]~label:not(:last-of-type){margin-inline-end:1em}[type=checkbox]:indeterminate{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-minus);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=radio]{border-radius:50%}[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-inverse);background-image:none;border-width:.35em}[type=checkbox][role=switch]{--pico-background-color:var(--pico-switch-background-color);--pico-color:var(--pico-switch-color);border:var(--pico-border-width) solid var(--pico-border-color);background-color:var(--pico-background-color);border-radius:1.25em;width:2.25em;height:1.25em;line-height:1.25em}[type=checkbox][role=switch]:not([aria-invalid]){--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:before{aspect-ratio:1;background-color:var(--pico-color);height:100%;box-shadow:var(--pico-switch-thumb-box-shadow);content:\"\";border-radius:50%;transition:margin .1s ease-in-out;display:block}[type=checkbox][role=switch]:focus{--pico-background-color:var(--pico-switch-background-color);--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:checked{--pico-background-color:var(--pico-switch-checked-background-color);--pico-border-color:var(--pico-switch-checked-background-color);background-image:none}[type=checkbox][role=switch]:checked:before{margin-inline-start:1em}[type=checkbox][role=switch][disabled]{--pico-background-color:var(--pico-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus{--pico-background-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true]{--pico-background-color:var(--pico-form-element-invalid-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus,[type=radio][aria-invalid=false]:checked,[type=radio][aria-invalid=false]:checked:active,[type=radio][aria-invalid=false]:checked:focus{--pico-border-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true],[type=radio]:checked:active[aria-invalid=true],[type=radio]:checked:focus[aria-invalid=true],[type=radio]:checked[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}[type=color]::-webkit-color-swatch-wrapper{padding:0}[type=color]::-moz-focus-inner{padding:0}[type=color]::-webkit-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}[type=color]::-moz-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}input:not([type=checkbox],[type=radio],[type=range],[type=file]):is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){--pico-icon-position:.75rem;--pico-icon-width:1rem;padding-right:calc(var(--pico-icon-width) + var(--pico-icon-position));background-image:var(--pico-icon-date);background-position:center right var(--pico-icon-position);background-size:var(--pico-icon-width) auto;background-repeat:no-repeat}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=time]{background-image:var(--pico-icon-time)}[type=date]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=datetime-local]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=month]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=time]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=week]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}@-moz-document url-prefix(){[type=date],[type=datetime-local],[type=month],[type=time],[type=week]{padding-right:var(--pico-form-element-spacing-horizontal)!important;background-image:none!important}}[dir=rtl] :is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){text-align:right}[type=file]{--pico-color:var(--pico-muted-color);margin-left:calc(var(--pico-outline-width) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) 0;padding-left:var(--pico-outline-width);background:0 0;border:0;border-radius:0}[type=file]::file-selector-button{margin-right:calc(var(--pico-spacing)/ 2);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal)}[type=file]:is(:hover,:active,:focus)::file-selector-button{--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border)}[type=file]:focus::file-selector-button{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=range]{appearance:none;background:0 0;width:100%;height:1.25rem}[type=range]::-webkit-slider-runnable-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-webkit-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-moz-range-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-moz-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-ms-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-ms-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-webkit-slider-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-webkit-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-moz-range-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-moz-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-ms-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-ms-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]:active,[type=range]:focus-within{--pico-range-border-color:var(--pico-range-active-border-color);--pico-range-thumb-color:var(--pico-range-thumb-active-color)}[type=range]:active::-webkit-slider-thumb{transform:scale(1.25)}[type=range]:active::-moz-range-thumb{transform:scale(1.25)}[type=range]:active::-ms-thumb{transform:scale(1.25)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-image:var(--pico-icon-search);background-position:center left calc(var(--pico-form-element-spacing-horizontal) + .125rem);background-repeat:no-repeat;background-size:1rem;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:1.125rem,right .75rem center;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)!important}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=false]{background-image:var(--pico-icon-search),var(--pico-icon-valid)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=true]{background-image:var(--pico-icon-search),var(--pico-icon-invalid)}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-position:right 1.125rem center}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:right 1.125rem center,.75rem}details{margin-bottom:var(--pico-spacing);display:block}details summary{cursor:pointer;transition:color var(--pico-transition);line-height:1rem;list-style-type:none}details summary:not([role]){color:var(--pico-accordion-close-summary-color)}details summary::-webkit-details-marker{display:none}details summary::marker{display:none}details summary::-moz-list-bullet{list-style-type:none}details summary:after{width:1rem;height:1rem;float:right;background-image:var(--pico-icon-chevron);content:\"\";transition:transform var(--pico-transition);background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:calc(var(--pico-spacing,1rem) * .5);display:block;transform:rotate(-90deg)}details summary:focus{outline:0}details summary:focus:not([role]){color:var(--pico-accordion-active-summary-color)}details summary:focus-visible:not([role]){outline:var(--pico-outline-width) solid var(--pico-primary-focus);outline-offset:calc(var(--pico-spacing,1rem) * .5);color:var(--pico-primary)}details summary[role=button]{text-align:left;width:100%}details summary[role=button]:after{height:calc(1rem * var(--pico-line-height,1.5))}details[open]>summary{margin-bottom:var(--pico-spacing)}details[open]>summary:not([role]):not(:focus){color:var(--pico-accordion-open-summary-color)}details[open]>summary:after{transform:rotate(0)}[dir=rtl] details summary{text-align:right}[dir=rtl] details summary:after{float:left;background-position:0}article{margin-bottom:var(--pico-block-spacing-vertical);padding:var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);border-radius:var(--pico-border-radius);background:var(--pico-card-background-color);box-shadow:var(--pico-card-box-shadow)}article>footer,article>header{margin-right:calc(var(--pico-block-spacing-horizontal) * -1);margin-left:calc(var(--pico-block-spacing-horizontal) * -1);padding:calc(var(--pico-block-spacing-vertical) * .66) var(--pico-block-spacing-horizontal);background-color:var(--pico-card-sectioning-background-color)}article>header{margin-top:calc(var(--pico-block-spacing-vertical) * -1);margin-bottom:var(--pico-block-spacing-vertical);border-bottom:var(--pico-border-width) solid var(--pico-card-border-color);border-top-right-radius:var(--pico-border-radius);border-top-left-radius:var(--pico-border-radius)}article>footer{margin-top:var(--pico-block-spacing-vertical);margin-bottom:calc(var(--pico-block-spacing-vertical) * -1);border-top:var(--pico-border-width) solid var(--pico-card-border-color);border-bottom-right-radius:var(--pico-border-radius);border-bottom-left-radius:var(--pico-border-radius)}details.dropdown{border-bottom:none;position:relative}details.dropdown>a:after,details.dropdown>button:after,details.dropdown>summary:after{width:1rem;height:calc(1rem * var(--pico-line-height,1.5));float:right;background-image:var(--pico-icon-chevron);content:\"\";background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:.25rem;display:block;transform:rotate(0)translate(.2rem)}nav details.dropdown{margin-bottom:0}details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-form-element-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-form-element-background-color);color:var(--pico-form-element-placeholder-color);line-height:inherit;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition)}details.dropdown>summary:not([role]):active,details.dropdown>summary:not([role]):focus{border-color:var(--pico-form-element-active-border-color);background-color:var(--pico-form-element-active-background-color)}details.dropdown>summary:not([role]):focus{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}details.dropdown>summary:not([role]):focus-visible{outline:0}details.dropdown>summary:not([role])[aria-invalid=false]{--pico-form-element-border-color:var(--pico-form-element-valid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-valid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-valid-focus-color)}details.dropdown>summary:not([role])[aria-invalid=true]{--pico-form-element-border-color:var(--pico-form-element-invalid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-invalid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-invalid-focus-color)}nav details.dropdown{margin:calc(var(--pico-nav-element-spacing-vertical) * -1) 0;display:inline}nav details.dropdown>summary:after{transform:rotate(0)translate(0)}nav details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-nav-link-spacing-vertical) * 2);padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav details.dropdown>summary:not([role]):focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}details.dropdown>summary+ul{z-index:99;width:100%;min-width:fit-content;margin:0;margin-top:var(--pico-outline-width);border:var(--pico-border-width) solid var(--pico-dropdown-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-dropdown-background-color);box-shadow:var(--pico-dropdown-box-shadow);color:var(--pico-dropdown-color);white-space:nowrap;opacity:0;transition:opacity var(--pico-transition),transform 0s ease-in-out 1s;flex-direction:column;padding:0;display:flex;position:absolute;left:0}details.dropdown>summary+ul[dir=rtl]{left:auto;right:0}details.dropdown>summary+ul li{width:100%;padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);margin-bottom:0;list-style:none}details.dropdown>summary+ul li:first-of-type{margin-top:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li:last-of-type{margin-bottom:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li a{margin:calc(var(--pico-form-element-spacing-vertical) * -.5) calc(var(--pico-form-element-spacing-horizontal) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);color:var(--pico-dropdown-color);text-overflow:ellipsis;border-radius:0;text-decoration:none;display:block;overflow:hidden}details.dropdown>summary+ul li a:active,details.dropdown>summary+ul li a:focus,details.dropdown>summary+ul li a:focus-visible,details.dropdown>summary+ul li a:hover,details.dropdown>summary+ul li a[aria-current]:not([aria-current=false]){background-color:var(--pico-dropdown-hover-background-color)}details.dropdown>summary+ul li label{width:100%}details.dropdown>summary+ul li:has(label):hover{background-color:var(--pico-dropdown-hover-background-color)}details.dropdown[open]>summary{margin-bottom:0}details.dropdown[open]>summary+ul{opacity:1;transition:opacity var(--pico-transition),transform 0s ease-in-out 0s;transform:scaleY(1)}details.dropdown[open]>summary:before{z-index:1;content:\"\";cursor:default;background:0 0;width:100vw;height:100vh;display:block;position:fixed;inset:0}label>details.dropdown{margin-top:calc(var(--pico-spacing) * .25)}[role=group],[role=search]{width:100%;margin-bottom:var(--pico-spacing);border-radius:var(--pico-border-radius);box-shadow:var(--pico-group-box-shadow,0 0 0 transparent);vertical-align:middle;transition:box-shadow var(--pico-transition);display:inline-flex;position:relative}[role=group] input:not([type=checkbox],[type=radio]),[role=group] select,[role=group]>*,[role=search] input:not([type=checkbox],[type=radio]),[role=search] select,[role=search]>*{flex:auto;margin-bottom:0;position:relative}[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=group]>:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child),[role=search]>:not(:first-child){border-top-left-radius:0;border-bottom-left-radius:0;margin-left:0}[role=group] input:not([type=checkbox],[type=radio]):not(:last-child),[role=group] select:not(:last-child),[role=group]>:not(:last-child),[role=search] input:not([type=checkbox],[type=radio]):not(:last-child),[role=search] select:not(:last-child),[role=search]>:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0}[role=group] input:not([type=checkbox],[type=radio]):focus,[role=group] select:focus,[role=group]>:focus,[role=search] input:not([type=checkbox],[type=radio]):focus,[role=search] select:focus,[role=search]>:focus{z-index:2}[role=group] [role=button]:not(:first-child),[role=group] [type=button]:not(:first-child),[role=group] [type=reset]:not(:first-child),[role=group] [type=submit]:not(:first-child),[role=group] button:not(:first-child),[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=search] [role=button]:not(:first-child),[role=search] [type=button]:not(:first-child),[role=search] [type=reset]:not(:first-child),[role=search] [type=submit]:not(:first-child),[role=search] button:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child){margin-left:calc(var(--pico-border-width) * -1)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=reset],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=reset],[role=search] [type=submit],[role=search] button{width:auto}@supports selector(:has(*)){:is([role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus),[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-button)}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}:is([role=group]:has(input:not([type=submit],[type=button]):focus,select:focus),[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-input)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group] [role=button]:focus,[role=group] [type=button]:focus,[role=group] [type=reset]:focus,[role=group] [type=submit]:focus,[role=group] button:focus,[role=search] [role=button]:focus,[role=search] [type=button]:focus,[role=search] [type=reset]:focus,[role=search] [type=submit]:focus,[role=search] button:focus{box-shadow:none}}[role=search]>:first-child{border-top-left-radius:5rem;border-bottom-left-radius:5rem}[role=search]>:last-child{border-top-right-radius:5rem;border-bottom-right-radius:5rem}[aria-busy=true]:not(input,select,textarea,html,form){white-space:nowrap}[aria-busy=true]:not(input,select,textarea,html,form):before{background-image:var(--pico-icon-loading);content:\"\";vertical-align:-.125em;background-repeat:no-repeat;background-size:1em;width:1em;height:1em;display:inline-block}[aria-busy=true]:not(input,select,textarea,html,form):not(:empty):before{margin-inline-end:calc(var(--pico-spacing) * .5)}[aria-busy=true]:not(input,select,textarea,html,form):empty{text-align:center}[role=button][aria-busy=true],[type=button][aria-busy=true],[type=reset][aria-busy=true],[type=submit][aria-busy=true],a[aria-busy=true],button[aria-busy=true]{pointer-events:none}:host,:root{--pico-scrollbar-width:0px}dialog{z-index:999;width:inherit;min-width:100%;height:inherit;min-height:100%;-webkit-backdrop-filter:var(--pico-modal-overlay-backdrop-filter);backdrop-filter:var(--pico-modal-overlay-backdrop-filter);background-color:var(--pico-modal-overlay-background-color);color:var(--pico-color);border:0;justify-content:center;align-items:center;padding:0;display:flex;position:fixed;inset:0}dialog>article{width:100%;max-height:calc(100vh - var(--pico-spacing) * 2);margin:var(--pico-spacing);overflow:auto}@media (width>=576px){dialog>article{max-width:510px}}@media (width>=768px){dialog>article{max-width:700px}}dialog>article>header>*{margin-bottom:0}dialog>article>header .close,dialog>article>header :is(a,button)[rel=prev]{margin:0;margin-left:var(--pico-spacing);float:right;padding:0}dialog>article>footer{text-align:right}dialog>article>footer [role=button],dialog>article>footer button{margin-bottom:0}dialog>article>footer [role=button]:not(:first-of-type),dialog>article>footer button:not(:first-of-type){margin-left:calc(var(--pico-spacing) * .5)}dialog>article .close,dialog>article :is(a,button)[rel=prev]{width:1rem;height:1rem;margin-top:calc(var(--pico-spacing) * -1);margin-bottom:var(--pico-spacing);background-image:var(--pico-icon-close);opacity:.5;transition:opacity var(--pico-transition);background-color:#0000;background-position:50%;background-repeat:no-repeat;background-size:auto 1rem;border:none;margin-left:auto;display:block}dialog>article .close:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),dialog>article :is(a,button)[rel=prev]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){opacity:1}dialog:not([open]),dialog[open=false]{display:none}.modal-is-open{padding-right:var(--pico-scrollbar-width,0);pointer-events:none;touch-action:none;overflow:hidden}.modal-is-open dialog{pointer-events:auto;touch-action:auto}:where(.modal-is-opening,.modal-is-closing) dialog,:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-duration:.2s;animation-timing-function:ease-in-out;animation-fill-mode:both}:where(.modal-is-opening,.modal-is-closing) dialog{animation-name:modal-overlay;animation-duration:.8s}:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-name:modal;animation-delay:.2s}.modal-is-closing dialog,.modal-is-closing dialog>article{animation-direction:reverse;animation-delay:0s}@keyframes modal-overlay{0%{-webkit-backdrop-filter:none;backdrop-filter:none;background-color:#0000}}@keyframes modal{0%{opacity:0;transform:translateY(-100%)}}:where(nav li):before{float:left;content:\"​\"}nav,nav ul{display:flex}nav{justify-content:space-between;overflow:visible}nav ol,nav ul{align-items:center;margin-bottom:0;padding:0;list-style:none}nav ol:first-of-type,nav ul:first-of-type{margin-left:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav ol:last-of-type,nav ul:last-of-type{margin-right:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav li{padding:var(--pico-nav-element-spacing-vertical) var(--pico-nav-element-spacing-horizontal);margin:0;display:inline-block}nav li :where(a,[role=link]){margin:calc(var(--pico-nav-link-spacing-vertical) * -1) calc(var(--pico-nav-link-spacing-horizontal) * -1);padding:var(--pico-nav-link-spacing-vertical) var(--pico-nav-link-spacing-horizontal);border-radius:var(--pico-border-radius);display:inline-block}nav li :where(a,[role=link]):not(:hover){text-decoration:none}nav li [role=button],nav li [type=button],nav li button,nav li input:not([type=checkbox],[type=radio],[type=range],[type=file]),nav li select{height:auto;margin-right:inherit;margin-bottom:0;margin-left:inherit;padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb]{justify-content:start;align-items:center}nav[aria-label=breadcrumb] ul li:not(:first-child){margin-inline-start:var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb] ul li a{margin:calc(var(--pico-nav-link-spacing-vertical) * -1) 0;margin-inline-start:calc(var(--pico-nav-link-spacing-horizontal) * -1)}nav[aria-label=breadcrumb] ul li:not(:last-child):after{width:calc(var(--pico-nav-link-spacing-horizontal) * 4);margin:0 calc(var(--pico-nav-link-spacing-horizontal) * -1);content:var(--pico-nav-breadcrumb-divider);color:var(--pico-muted-color);text-align:center;white-space:nowrap;text-decoration:none;display:inline-block;position:absolute}nav[aria-label=breadcrumb] a[aria-current]:not([aria-current=false]){color:inherit;pointer-events:none;background-color:#0000;text-decoration:none}aside li,aside nav,aside ol,aside ul{display:block}aside li{padding:calc(var(--pico-nav-element-spacing-vertical) * .5) var(--pico-nav-element-spacing-horizontal)}aside li a{display:block}aside li [role=button]{margin:inherit}[dir=rtl] nav[aria-label=breadcrumb] ul li:not(:last-child) :after{content:\"\\\\\"}progress{vertical-align:baseline;appearance:none;width:100%;height:.5rem;margin-bottom:calc(var(--pico-spacing) * .5);border-radius:var(--pico-border-radius);background-color:var(--pico-progress-background-color);color:var(--pico-progress-color);border:0;display:inline-block;overflow:hidden}progress::-webkit-progress-bar{border-radius:var(--pico-border-radius);background:0 0}progress[value]::-webkit-progress-value{background-color:var(--pico-progress-color);-webkit-transition:inline-size var(--pico-transition);transition:inline-size var(--pico-transition)}progress::-moz-progress-bar{background-color:var(--pico-progress-color)}@media (prefers-reduced-motion:no-preference){progress:indeterminate{background:var(--pico-progress-background-color) linear-gradient(to right,var(--pico-progress-color) 30%,var(--pico-progress-background-color) 30%) top left/150% 150% no-repeat;animation:1s linear infinite progress-indeterminate}progress:indeterminate[value]::-webkit-progress-value{background-color:#0000}progress:indeterminate::-moz-progress-bar{background-color:#0000}[dir=rtl] progress:indeterminate{animation-direction:reverse}}@keyframes progress-indeterminate{0%{background-position:200% 0}to{background-position:-200% 0}}[data-tooltip]{position:relative}[data-tooltip]:not(a,button,input,[role=button]){cursor:help;border-bottom:1px dotted;text-decoration:none}[data-tooltip]:after,[data-tooltip]:before,[data-tooltip][data-placement=top]:after,[data-tooltip][data-placement=top]:before{z-index:99;border-radius:var(--pico-border-radius);background:var(--pico-tooltip-background-color);content:attr(data-tooltip);color:var(--pico-tooltip-color);font-style:normal;font-weight:var(--pico-font-weight);text-overflow:ellipsis;white-space:nowrap;opacity:0;pointer-events:none;padding:.25rem .5rem;font-size:.875rem;text-decoration:none;display:block;position:absolute;bottom:100%;left:50%;overflow:hidden;transform:translate(-50%,-.25rem)}[data-tooltip]:after,[data-tooltip][data-placement=top]:after{content:\"\";color:var(--pico-tooltip-background-color);background-color:#0000;border-top:.3rem solid;border-left:.3rem solid #0000;border-right:.3rem solid #0000;border-radius:0;padding:0;transform:translate(-50%)}[data-tooltip][data-placement=bottom]:after,[data-tooltip][data-placement=bottom]:before{top:100%;bottom:auto;transform:translate(-50%,.25rem)}[data-tooltip][data-placement=bottom]:after{border:.3rem solid #0000;border-bottom-color:currentColor;transform:translate(-50%,-.3rem)}[data-tooltip][data-placement=left]:after,[data-tooltip][data-placement=left]:before{inset:50% 100% auto auto;transform:translate(-.25rem,-50%)}[data-tooltip][data-placement=left]:after{border:.3rem solid #0000;border-left-color:currentColor;transform:translate(.3rem,-50%)}[data-tooltip][data-placement=right]:after,[data-tooltip][data-placement=right]:before{inset:50% auto auto 100%;transform:translate(.25rem,-50%)}[data-tooltip][data-placement=right]:after{border:.3rem solid #0000;border-right-color:currentColor;transform:translate(-.3rem,-50%)}[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{opacity:1}@media (hover:hover) and (pointer:fine){[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{--pico-tooltip-slide-to:translate(-50%, -.25rem);opacity:0;animation-name:tooltip-slide;animation-duration:.2s;animation-fill-mode:forwards;transform:translate(-50%,.75rem)}[data-tooltip]:focus:after,[data-tooltip]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, 0rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.25rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:focus:before,[data-tooltip][data-placement=bottom]:hover:after,[data-tooltip][data-placement=bottom]:hover:before{--pico-tooltip-slide-to:translate(-50%, .25rem);animation-name:tooltip-slide;transform:translate(-50%,-.75rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, -.3rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.5rem)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:focus:before,[data-tooltip][data-placement=left]:hover:after,[data-tooltip][data-placement=left]:hover:before{--pico-tooltip-slide-to:translate(-.25rem, -50%);animation-name:tooltip-slide;transform:translate(.75rem,-50%)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:hover:after{--pico-tooltip-caret-slide-to:translate(.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(.05rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:focus:before,[data-tooltip][data-placement=right]:hover:after,[data-tooltip][data-placement=right]:hover:before{--pico-tooltip-slide-to:translate(.25rem, -50%);animation-name:tooltip-slide;transform:translate(-.75rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:hover:after{--pico-tooltip-caret-slide-to:translate(-.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(-.05rem,-50%)}}@keyframes tooltip-slide{to{transform:var(--pico-tooltip-slide-to);opacity:1}}@keyframes tooltip-caret-slide{50%{opacity:0}to{transform:var(--pico-tooltip-caret-slide-to);opacity:1}}[aria-controls]{cursor:pointer}[aria-disabled=true],[disabled]{cursor:not-allowed}[aria-hidden=false][hidden]{display:initial}[aria-hidden=false][hidden]:not(:focus){clip:rect(0,0,0,0);position:absolute}[tabindex],a,area,button,input,label,select,summary,textarea{-ms-touch-action:manipulation}[dir=rtl]{direction:rtl}@media (prefers-reduced-motion:reduce){:not([aria-busy=true]),:not([aria-busy=true]):after,:not([aria-busy=true]):before{background-attachment:initial!important;scroll-behavior:auto!important;transition-duration:0s!important;transition-delay:0s!important;animation-duration:1ms!important;animation-iteration-count:1!important;animation-delay:-1ms!important}}:root{--primary-color:#ff6b81}body{padding:.5rem 1.5rem 2rem}#dropzone{border:3px dashed var(--pico-muted-border-color);text-align:center;background-color:var(--pico-card-background-color);cursor:pointer;border-radius:12px;margin-bottom:2rem;padding:40px 20px;transition:all .3s}#dropzone.dragging{border-color:var(--pico-primary-background);background-color:#ff6b810d;box-shadow:0 0 15px #ff6b8126}#dropzone svg{color:var(--pico-muted-color);margin-bottom:1rem;transition:color .3s}#dropzone.dragging svg{color:var(--pico-primary-background)}#dropzone-status{margin:0;font-weight:600;display:none}#dropzone.loading{cursor:progress;border-color:var(--pico-primary-background)}#dropzone.loading svg{color:var(--pico-primary-background)}#dropzone.loading #dropzone-status{display:block}#dropzone.loading h3,#dropzone.loading .dropzone-hint,#dropzone.loading small{display:none}.entry-grid{--entry-text-color:var(--pico-color);flex-direction:column;gap:.75rem;margin-bottom:2rem;display:flex}.entry-grid #dropzone{color:var(--entry-text-color);margin-bottom:0}.entry-grid #dropzone,.entry-grid .capture-card{align-self:center;width:100%;max-width:760px}.capture-card{text-align:center;border:2px dashed var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;flex-direction:column;align-items:center;gap:.75rem;padding:16px 20px;transition:all .3s;display:flex}.capture-intro{flex-direction:column;align-items:center;gap:.35rem;display:flex}.capture-intro svg{color:var(--pico-muted-color);flex-shrink:0;transition:color .3s}.capture-card h3{margin:0;font-size:1rem}.capture-card .capture-subtitle{color:var(--pico-muted-color);margin:0;font-size:.8rem}.capture-actions{flex-wrap:wrap;justify-content:center;align-items:center;gap:.6rem 1rem;display:flex}.capture-card button{margin:0;padding:.4rem 1rem;font-size:.9rem}.capture-card.is-recording{background-color:#e5484d0d;border-color:#e5484d;box-shadow:0 0 15px #e5484d26}.capture-card.is-recording .capture-intro svg{color:#e5484d;animation:1.4s ease-in-out infinite capture-pulse}@keyframes capture-pulse{50%{opacity:.45}}.capture-options{flex-wrap:wrap;justify-content:center;align-items:center;gap:.4rem 1rem;font-size:.85rem;display:flex}.capture-options label{align-items:center;gap:.35rem;margin:0;display:inline-flex}.capture-options input[type=checkbox]{margin:0}.capture-options select,.capture-shot select{width:auto;height:auto;margin:0;padding:.25rem 2rem .25rem .6rem;font-size:.85rem}.capture-shot{align-items:center;gap:.4rem;display:inline-flex}.capture-status{color:var(--pico-muted-color);font-size:.85rem}.capture-status:empty{display:none}.capture-card.is-recording .capture-status{color:#e5484d;font-variant-numeric:tabular-nums;font-weight:600}#video-file-input{display:none}.video-container{border-radius:8px;width:100%;display:block;position:relative;overflow:hidden;box-shadow:0 4px 12px #00000040}.video-container video{width:100%;height:auto;display:block}.crop-overlay{z-index:2;pointer-events:none;position:absolute;inset:0;overflow:hidden}.crop-box{box-sizing:border-box;border:2px solid var(--primary-color,#ff6b81);pointer-events:none;position:absolute;box-shadow:0 0 0 9999px #00000073}.crop-handle,.crop-move{box-sizing:border-box;background:var(--primary-color,#ff6b81);pointer-events:auto;touch-action:none;border:2px solid #fff;border-radius:50%;position:absolute}.crop-handle{border-radius:3px;width:16px;height:16px}.crop-handle:before,.crop-move:before{content:\"\";position:absolute;inset:-8px}.crop-move{cursor:move;background:#00000059;width:18px;height:18px;margin:-9px 0 0 -9px;top:50%;left:50%}.crop-overlay.is-passive .crop-handle,.crop-overlay.is-passive .crop-move{display:none}.crop-loupe{z-index:1000;pointer-events:none;border:2px solid var(--primary-color,#ff6b81);background:#111;border-radius:6px;width:168px;position:fixed;overflow:hidden;box-shadow:0 6px 18px #00000073}.crop-overlay .crop-loupe canvas{width:168px;height:168px;display:block;position:static}.crop-loupe-label{color:#fff;white-space:pre;background:#000000bf;padding:2px 6px;font-family:monospace;font-size:.7rem;line-height:1.35}.crop-handle[data-handle=nw]{cursor:nwse-resize;top:-2px;left:-2px}.crop-handle[data-handle=ne]{cursor:nesw-resize;top:-2px;right:-2px}.crop-handle[data-handle=sw]{cursor:nesw-resize;bottom:-2px;left:-2px}.crop-handle[data-handle=se]{cursor:nwse-resize;bottom:-2px;right:-2px}.meta-grid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.75rem;margin-bottom:1.5rem;display:grid}.meta-item{background:var(--pico-card-background-color);border:1px solid var(--pico-muted-border-color);border-radius:6px;padding:.5rem .75rem;font-size:.85rem}.meta-label{color:var(--pico-muted-color);text-transform:uppercase;letter-spacing:.5px;font-size:.75rem;font-weight:700;display:block}.slider-group{margin-bottom:1.5rem}.slider-group label{justify-content:space-between;align-items:center;font-weight:500;display:flex}.time-val{background:var(--pico-code-background-color);border-radius:4px;padding:2px 6px;font-family:monospace;font-size:.85rem;display:inline-block}.time-val-primary{background:var(--pico-primary-background);color:var(--pico-primary-inverse)}.trim-visualizer{background-color:var(--pico-muted-border-color);border:1px solid var(--pico-muted-border-color);border-radius:10px;height:20px;margin:1.5rem 0;position:relative;overflow:hidden}.trim-selection{border-left:2px solid var(--pico-primary-background);border-right:2px solid var(--pico-primary-background);background-color:#ff6b8159;height:100%;transition:all .1s;position:absolute;top:0}.trim-ghost{background-color:#ff6b812e;border-left:1px solid #ff6b8199;border-right:1px solid #ff6b8199;height:100%;position:absolute;top:0}.trim-sections-header{justify-content:space-between;align-items:center;margin-bottom:.5rem;font-size:.85rem;display:flex}.trim-section-list{--trim-row-color:var(--pico-color);margin:0 0 .75rem;padding:0;list-style:none}.trim-section-row{gap:.4rem;margin-bottom:.35rem;list-style:none;display:flex}.trim-section-row button{border:1px solid var(--pico-muted-border-color);color:var(--trim-row-color);background:0 0;margin:0;padding:.3rem .6rem;font-size:.8rem}.trim-section-pick{text-align:left;flex:1;font-family:monospace}.trim-section-row.active .trim-section-pick{border-color:var(--pico-primary-background);background:#ff6b8126}.trim-section-remove:disabled{opacity:.35}#trim-add-section{width:100%;margin-bottom:.5rem;padding:.4rem .75rem;font-size:.9rem}.trim-sections-help{color:var(--pico-muted-color);font-size:.75rem;display:block}header.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);margin:-1rem -1rem 1.5rem;padding:1rem 1.5rem;font-weight:700}header.card-header.success{color:#2ecc71;background:#2ecc710d}.info-card{margin-bottom:0;padding:1rem}.result-card{border:1px solid #2ecc71;margin-bottom:2rem;padding:1rem}.success-note{background:#2ecc711a;border:1px solid #2ecc71;border-radius:8px;margin-bottom:2rem;padding:1.5rem;display:block}.success-note h3{color:#2ecc71;margin-bottom:.5rem}.download-btn{border:none;align-items:center;gap:8px;font-weight:700;display:inline-flex}.output-size{opacity:.85;margin-left:1rem;font-size:.9rem;font-weight:700}details.config-card{border:1px solid var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;margin-bottom:0;padding:0;overflow:hidden}details.config-card>summary.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);cursor:pointer;justify-content:space-between;align-items:center;gap:.75rem;margin:0;padding:1rem 1.5rem;font-weight:700;list-style:none;transition:background-color .15s;display:flex}details.config-card>summary.card-header:hover{background-color:var(--pico-muted-border-color)}details.config-card:not([open])>summary.card-header{border-bottom:none}details.config-card>summary.card-header::-webkit-details-marker{display:none}details.config-card>summary.card-header:after{content:\"\";opacity:.55;background:0 0;border:2px solid;border-top:0;border-left:0;flex:none;width:.5rem;height:.5rem;transition:transform .2s;transform:rotate(45deg)}details.config-card[open]>summary.card-header:after{transform:rotate(-135deg)}.config-card-body{padding:1.25rem 1.5rem}.settings-stack{flex-direction:column;gap:1.5rem;display:flex}.audio-waveform{background:var(--pico-card-sectioning-background-color);border:1px solid var(--pico-muted-border-color);width:100%;height:90px;color:var(--primary-color);cursor:pointer;border-radius:6px;margin-top:.75rem;display:block}.quality-readout{grid-template-columns:1fr 1fr;place-items:center start;gap:.5rem;margin-bottom:.75rem;display:grid}.quality-rate{color:var(--pico-muted-color);font-family:monospace;font-size:.85rem;font-weight:600}.size-estimate{border-top:1px dashed var(--pico-muted-border-color);margin-top:1rem;padding-top:.75rem;font-size:.9rem}.size-estimate strong{color:var(--pico-primary);font-family:monospace}.log-section{margin:0}.log-section pre{color:#a6e22e;background-color:#1a1a1a;border-radius:6px;max-height:200px;margin:0;padding:10px;font-family:Courier New,Courier,monospace;font-size:.8rem;overflow-y:auto}.theme-toggle-btn{cursor:pointer;color:inherit;background:0 0;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;padding:.5rem;transition:background-color .2s;display:inline-flex}.theme-toggle-btn:hover{background-color:var(--pico-muted-border-color)}.theme-toggle-btn svg{width:20px;height:20px}nav.brand-nav{grid-template-columns:1fr auto 1fr;align-items:center;padding:.5rem 0;display:grid}nav.brand-nav>ul{margin:0}nav.brand-nav>ul:first-child{grid-column:2}nav.brand-nav>ul:last-child{grid-column:3;justify-self:end}.home-link{color:inherit;text-decoration:none}.home-link:hover code{color:var(--pico-primary)}.preset-badge{background:var(--pico-primary-background);color:var(--pico-primary-inverse);vertical-align:middle;border-radius:4px;margin-left:.5rem;padding:2px 6px;font-size:.75rem}#loaded-file-section{container-type:inline-size}.workshop-layout{grid-template-columns:minmax(0,1fr);gap:1.5rem;margin-top:1.5rem;display:grid}@container (width>=720px) and (width<=1099px){.workshop-layout{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.workshop-output{grid-column:1/-1}}@container (width>=1100px){.workshop-layout{grid-template-columns:minmax(0,.95fr) minmax(0,1.15fr) minmax(0,1fr);align-items:start}}.workshop-sidebar,.workshop-main,.workshop-output{flex-direction:column;gap:1.5rem;display:flex}.rife-source{margin:.25rem 0 .6rem;font-size:.9rem}.rife-presets{flex-wrap:wrap;gap:.5rem;margin-bottom:.75rem;display:flex}.rife-presets button{flex:10rem;width:auto;margin:0;padding:.3rem .8rem;font-size:.85rem}.rife-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end;gap:.5rem .75rem;display:grid}.rife-grid .rife-audio{grid-column:1/-1}.rife-summary{border-left:3px solid var(--pico-primary-background);background:var(--pico-card-sectioning-background-color);margin:.75rem 0 .5rem;padding:.5rem .75rem;font-size:.85rem;display:block}.rife-summary.warn{border-left-color:#e5a50a}.column-heading{border-bottom:1px solid var(--pico-muted-border-color);align-items:center;gap:.6rem;margin:0 0 -.75rem;padding-bottom:.5rem;font-size:1.1rem;display:flex}.column-step{background:var(--pico-primary-background);width:1.6rem;height:1.6rem;color:var(--pico-primary-inverse);border-radius:50%;justify-content:center;align-items:center;font-size:.85rem;font-weight:700;display:inline-flex}.output-actions{flex-direction:column;gap:.5rem;display:flex}.output-actions button{width:100%;margin:0;padding:.8rem 2rem;font-size:1.1rem;font-weight:700}.batch-thumbs{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.4rem;max-height:40vh;display:grid;overflow-y:auto}.batch-thumb{aspect-ratio:1;object-fit:cover;border:1px solid var(--pico-muted-border-color);background:var(--pico-card-sectioning-background-color);border-radius:4px;width:100%}#batch-queue{flex-direction:column;gap:.5rem;max-height:60vh;display:flex;overflow-y:auto}.batch-item{border:1px solid var(--pico-muted-border-color);border-radius:6px;grid-template-columns:1fr auto auto;align-items:center;gap:.75rem;padding:.5rem .75rem;font-size:.85rem;display:grid}.batch-item-name{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.batch-item-status{color:var(--pico-muted-color);font-family:monospace;font-size:.78rem}.batch-item[data-status=done] .batch-item-status{color:#2ecc71}.batch-item[data-status=error] .batch-item-status{color:#f92672}.batch-item-dl{font-size:.78rem;font-weight:600}.output-shell{border:2px dashed var(--pico-muted-border-color);min-height:240px;color:var(--pico-muted-color);text-align:center;border-radius:12px;flex-direction:column;justify-content:center;align-items:center;gap:.75rem;padding:2rem;display:flex}.output-shell svg{opacity:.5}.output-shell p{margin:0;font-size:.9rem}.workshop-output>section{margin-top:0!important}.range-slider-wrapper{align-items:center;height:40px;margin-top:.5rem;margin-bottom:.75rem;display:flex;position:relative}.range-slider-wrapper .trim-visualizer{background-color:var(--pico-muted-border-color);z-index:1;border-radius:5px;width:100%;height:10px;margin:0;position:absolute;top:15px;left:0;right:0}.range-slider-wrapper .range-slider-input{pointer-events:none;appearance:none;width:100%;position:absolute;height:40px!important;box-shadow:none!important;background:0 0!important;border:none!important;margin:0!important;padding:0!important}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb{pointer-events:auto;appearance:none;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;margin-top:0;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-moz-range-thumb{pointer-events:auto;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-moz-range-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-webkit-slider-runnable-track{background:0 0!important;border:none!important}.range-slider-wrapper .range-slider-input::-moz-range-track{background:0 0!important;border:none!important}.image-canvas-stage{border:1px solid var(--pico-muted-border-color);cursor:crosshair;background-color:#0000;background-image:linear-gradient(45deg,#7878782e 25%,#0000 25%),linear-gradient(-45deg,#7878782e 25%,#0000 25%),linear-gradient(45deg,#0000 75%,#7878782e 75%),linear-gradient(-45deg,#0000 75%,#7878782e 75%);background-position:0 0,0 10px,10px -10px,-10px 0;background-repeat:repeat,repeat,repeat,repeat;background-size:20px 20px;background-attachment:scroll,scroll,scroll,scroll;background-origin:padding-box,padding-box,padding-box,padding-box;background-clip:border-box,border-box,border-box,border-box;border-radius:8px;width:100%;min-height:320px;position:relative;overflow:hidden}.image-toolbar{grid-template-columns:auto minmax(150px,220px) 1fr;align-items:center;gap:.65rem;margin-bottom:.75rem;display:grid}.canvas-tool-picker{flex-wrap:wrap;align-items:center;gap:.5rem 1.25rem;margin-top:.75rem;display:flex}.canvas-tool-picker .canvas-tool-label{text-transform:uppercase;letter-spacing:.5px;color:var(--pico-muted-color);font-size:.75rem;font-weight:700}.canvas-tool-picker label{cursor:pointer;align-items:center;gap:.4rem;margin:0;display:inline-flex}.canvas-tool-picker label:has(input:disabled){opacity:.45;cursor:not-allowed}.tool-badge{border:1px solid #0000;border-radius:999px;justify-self:end;padding:.3rem .55rem;font-size:.8rem;font-weight:600}.tool-badge-crop{color:#fff;background:#ff6b81d9;border-color:#ff6b81}.tool-badge-paint{color:#fff;background:#2ecc71d9;border-color:#2ecc71}@media (width<=640px){.image-toolbar{grid-template-columns:1fr}.tool-badge{justify-self:start}}.image-canvas-stage canvas{display:block;position:absolute}#image-mask-canvas{touch-action:none}.image-canvas-stage.is-crop-mode{cursor:move}.image-canvas-stage.is-paint-mode{cursor:crosshair}", i = "\n<nav class=\"brand-nav\">\n      <ul>\n        <li>\n          <a href=\"#\" id=\"home-link\" class=\"home-link\" title=\"Back to start\"\n            ><strong><code>&lt;media-converter&gt;</code></strong></a\n          >\n        </li>\n      </ul>\n      <ul>\n        <li>\n          <button id=\"theme-toggle\" class=\"theme-toggle-btn\" aria-label=\"Toggle theme\">\n            <!-- Moon Icon (Dark Mode active, click to light) -->\n            <svg\n              id=\"theme-icon-moon\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              fill=\"none\"\n              viewBox=\"0 0 24 24\"\n              stroke-width=\"2\"\n              stroke=\"currentColor\"\n            >\n              <path\n                stroke-linecap=\"round\"\n                stroke-linejoin=\"round\"\n                d=\"M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z\"\n              />\n            </svg>\n            <!-- Sun Icon (Light Mode active, click to dark, hidden by default in JS) -->\n            <svg\n              id=\"theme-icon-sun\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              fill=\"none\"\n              viewBox=\"0 0 24 24\"\n              stroke-width=\"2\"\n              stroke=\"currentColor\"\n              style=\"display: none\"\n            >\n              <path\n                stroke-linecap=\"round\"\n                stroke-linejoin=\"round\"\n                d=\"M12 3v2.25M12 18.75V21M3 12h2.25M18.75 12H21M5.636 5.636l1.591 1.591M18.364 5.636l-1.591 1.591M5.636 18.364l1.591-1.591M18.364 18.364l-1.591-1.591M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0z\"\n              />\n            </svg>\n          </button>\n        </li>\n      </ul>\n    </nav>\n\n    <main>\n      <!-- Step 1: drop a file or record the screen -->\n      <div class=\"entry-grid\">\n      <div id=\"dropzone\" role=\"button\" tabindex=\"0\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"48\"\n          height=\"48\"\n          fill=\"none\"\n          viewBox=\"0 0 24 24\"\n          stroke=\"currentColor\"\n          stroke-width=\"1.5\"\n        >\n          <path\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n            d=\"M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z\"\n          />\n        </svg>\n        <h3>Drag & Drop media file here</h3>\n        <p id=\"dropzone-status\" aria-busy=\"true\"></p>\n        <p class=\"dropzone-hint\" style=\"margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--pico-muted-color)\">\n          or click to select a file from your device\n        </p>\n        <small style=\"font-size: 0.8rem; opacity: 0.7\"\n          >Supports video (MP4, WebM, MOV), images (PNG, JPG, WebP, AVIF), and audio (MP3, WAV, M4A, FLAC, OGG)</small\n        >\n        <input type=\"file\" id=\"video-file-input\" accept=\"video/*,image/*,audio/*,.heic,.heif\" multiple />\n      </div>\n\n      <!-- Screen capture: record a screen/window/tab straight into the video workspace -->\n      <div id=\"screen-capture-bar\" class=\"capture-card\">\n        <div class=\"capture-intro\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"32\"\n          height=\"32\"\n          fill=\"none\"\n          viewBox=\"0 0 24 24\"\n          stroke=\"currentColor\"\n          stroke-width=\"1.5\"\n        >\n          <path\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n            d=\"M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25M3.75 15V5.25A2.25 2.25 0 016 3h12a2.25 2.25 0 012.25 2.25V15A2.25 2.25 0 0118 17.25H6A2.25 2.25 0 013.75 15z\"\n          />\n          <circle cx=\"12\" cy=\"10.125\" r=\"2.25\" fill=\"currentColor\" stroke=\"none\" />\n        </svg>\n          <div>\n            <h3>Or capture your screen</h3>\n            <p class=\"capture-subtitle\">Record or screenshot a screen, window, or tab, then edit it below</p>\n          </div>\n        </div>\n        <div class=\"capture-actions\">\n        <div id=\"capture-options\" class=\"capture-options\">\n          <label><input type=\"checkbox\" id=\"capture-system-audio\" checked /> Tab / system audio</label>\n          <label><input type=\"checkbox\" id=\"capture-mic\" /> Microphone</label>\n          <select id=\"capture-fps\" aria-label=\"Capture frame rate\">\n            <option value=\"30\" selected>30 fps</option>\n            <option value=\"60\">60 fps</option>\n          </select>\n          <select id=\"capture-quality\" aria-label=\"Capture quality\" title=\"Video bitrate. Quality presets scale with the captured resolution; fixed rates don't.\">\n            <optgroup label=\"Scales with resolution\">\n              <option value=\"low\">Low quality</option>\n              <option value=\"medium\">Medium quality</option>\n              <option value=\"high\" selected>High quality</option>\n              <option value=\"very-high\">Very high quality</option>\n            </optgroup>\n            <optgroup label=\"Fixed bitrate\">\n              <option value=\"2\">2 Mbps</option>\n              <option value=\"5\">5 Mbps</option>\n              <option value=\"10\">10 Mbps</option>\n              <option value=\"20\">20 Mbps</option>\n            </optgroup>\n          </select>\n        </div>\n        <button type=\"button\" id=\"capture-start\" class=\"secondary\">🎥 Start Recording</button>\n        <button type=\"button\" id=\"capture-audio\" class=\"secondary outline\" title=\"Record tab/system audio (and mic if checked) to the audio editor\">🎧 Record Audio</button>\n        <button type=\"button\" id=\"capture-stop\" class=\"contrast\" style=\"display: none\">⏹ Stop Recording</button>\n        <div id=\"capture-shot\" class=\"capture-shot\">\n          <button type=\"button\" id=\"capture-screenshot\" class=\"secondary outline\">📸 Screenshot</button>\n          <select id=\"capture-shot-delay\" aria-label=\"Screenshot delay\" title=\"Wait before grabbing, e.g. to open a menu\">\n            <option value=\"0\" selected>Now</option>\n            <option value=\"3\">In 3 s</option>\n            <option value=\"5\">In 5 s</option>\n          </select>\n        </div>\n        </div>\n        <div id=\"capture-status\" class=\"capture-status\" aria-live=\"polite\"></div>\n      </div>\n      </div>\n\n      <!-- Loaded media: 3-column workflow (info | settings | output) -->\n      <section id=\"loaded-file-section\" style=\"display: none\">\n        <div id=\"video-workspace\" class=\"workshop-layout\">\n          <!-- Column 1: input / info -->\n          <div class=\"workshop-sidebar\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n            <!-- Live Video Preview & Seeking -->\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Original Video Player\n              </header>\n              <div class=\"video-container\">\n                <video id=\"preview-video\" controls muted playsinline></video>\n                <!-- crop overlay is injected by src/cropEditor.ts -->\n              </div>\n              <small style=\"display: block; text-align: center; margin-top: 0.5rem; color: var(--pico-muted-color)\">\n                💡 Use player's controls or sliders to scrub frames for cutouts\n              </small>\n            </article>\n\n            <!-- Source Video Properties -->\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Attributes & Metadata\n              </header>\n\n              <div class=\"meta-grid\">\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Name</span>\n                  <span id=\"meta-name\" style=\"word-break: break-all; font-weight: 500\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Size</span>\n                  <span id=\"meta-size\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Duration</span>\n                  <span id=\"meta-duration\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Resolution</span>\n                  <span id=\"meta-resolution\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Aspect Ratio</span>\n                  <span id=\"meta-aspect\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Video Codec</span>\n                  <span id=\"meta-vcodec\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Original FPS</span>\n                  <span id=\"meta-fps\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Audio Tracks</span>\n                  <span id=\"meta-atrack\">-</span>\n                </div>\n              </div>\n\n              <div\n                style=\"\n                  background-color: var(--pico-card-sectioning-background-color);\n                  border: 1px solid var(--pico-muted-border-color);\n                  border-radius: 6px;\n                  padding: 0.75rem;\n                \"\n              >\n                <strong style=\"font-size: 0.85rem; display: block; margin-bottom: 0.25rem\"\n                  >📝 Embedded Metadata Tags</strong\n                >\n                <pre id=\"meta-tags\" style=\"margin: 0; font-size: 0.8rem; max-height: 120px; overflow-y: auto\">\nNone detected</pre\n                >\n              </div>\n            </article>\n          </div>\n          <!-- Column 2: conversion settings -->\n          <div class=\"workshop-main\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n            <!-- Settings & Form Options Block -->\n            <form id=\"conversion-form\" class=\"settings-stack\" style=\"margin-bottom: 0\">\n                <details class=\"config-card\" id=\"panel-processing\">\n                  <summary class=\"card-header\">⚡ Processing Mode</summary>\n                  <div class=\"config-card-body\">\n                    <fieldset style=\"margin-bottom: 0\">\n                      <label for=\"fast-copy-tag\">\n                        <input type=\"checkbox\" id=\"fast-copy-tag\" name=\"fast-copy-tag\" />\n                        ⚡ Fast Copy Mode (Only Trim, No Re-encoding)\n                      </label>\n                      <span\n                        class=\"help-text\"\n                        style=\"font-size: 0.8rem; color: var(--pico-muted-color); display: block; margin-top: 0.25rem; margin-left: 1.5rem\"\n                      >\n                        Copies streams without re-encoding — instant, lossless trims\n                      </span>\n                    </fieldset>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-trim\">\n                  <summary class=\"card-header\">✂️ Time Crop & Trim</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-trim\">\n                      <input type=\"checkbox\" id=\"enable-trim\" name=\"enable-trim\" />\n                      Enable Trimming / Time Crop\n                    </label>\n                  </fieldset>\n\n                  <div id=\"trim-controls-group\" style=\"display: none; padding-top: 0.5rem\">\n                    <div class=\"slider-group\" style=\"margin-bottom: 0.5rem\">\n                      <div\n                        style=\"\n                          display: flex;\n                          justify-content: space-between;\n                          align-items: center;\n                          margin-bottom: 0.5rem;\n                        \"\n                      >\n                        <span style=\"font-weight: 500; font-size: 0.9rem\">Cut / Clip Window Range:</span>\n                        <span class=\"time-val\">\n                          <span id=\"trim-start-val\" style=\"font-weight: bold; color: var(--primary-color)\">0.00s</span>\n                          to\n                          <span id=\"trim-end-val\" style=\"font-weight: bold; color: var(--primary-color)\">10.00s</span>\n                        </span>\n                      </div>\n\n                      <div class=\"range-slider-wrapper\">\n                        <div class=\"trim-visualizer\">\n                          <div class=\"trim-selection\" id=\"trim-selection-bar\"></div>\n                        </div>\n                        <input\n                          type=\"range\"\n                          id=\"trim-start\"\n                          class=\"range-slider-input\"\n                          name=\"trim-start\"\n                          min=\"0\"\n                          max=\"100\"\n                          step=\"0.01\"\n                          value=\"0\"\n                          style=\"z-index: 3\"\n                        />\n                        <input\n                          type=\"range\"\n                          id=\"trim-end\"\n                          class=\"range-slider-input\"\n                          name=\"trim-end\"\n                          min=\"0\"\n                          max=\"100\"\n                          step=\"0.01\"\n                          value=\"100\"\n                          style=\"z-index: 2\"\n                        />\n                      </div>\n\n                      <small\n                        style=\"\n                          display: block;\n                          color: var(--pico-muted-color);\n                          text-align: center;\n                          margin-top: 0.25rem;\n                          font-size: 0.75rem;\n                        \"\n                      >\n                        💡 Drag the left/right handles above to set your trimming window. Hold\n                        <kbd>Shift</kbd> while dragging for frame-by-frame precision.\n                      </small>\n                    </div>\n\n                    <div class=\"trim-sections\">\n                      <div class=\"trim-sections-header\">\n                        <span style=\"font-weight: 500; font-size: 0.9rem\">Sections</span>\n                        <span>Output length: <span class=\"time-val\" id=\"trim-total\">0.00s</span></span>\n                      </div>\n                      <ol id=\"trim-section-list\" class=\"trim-section-list\"></ol>\n                      <button type=\"button\" id=\"trim-add-section\" class=\"secondary outline\">+ Add Section</button>\n                      <small class=\"trim-sections-help\">\n                        Click a section to edit it with the handles. Multiple sections are joined in time order;\n                        new sections start at the player's current position.\n                      </small>\n                    </div>\n                  </div>\n                \n                  </div>\n                </details>\n\n                <!-- Spatial crop / framing -->\n                <details class=\"config-card\" id=\"panel-crop\">\n                  <summary class=\"card-header\">🔲 Crop / Frame</summary>\n                  <div class=\"config-card-body\">\n                    <fieldset>\n                      <label for=\"enable-crop-video\">\n                        <input type=\"checkbox\" id=\"enable-crop-video\" name=\"enable-crop-video\" />\n                        Enable Frame Cropping\n                      </label>\n                    </fieldset>\n\n                    <div id=\"crop-controls-group\" style=\"display: none; padding-top: 0.5rem\">\n                      <small style=\"display: block; color: var(--pico-muted-color); margin-bottom: 0.75rem; font-size: 0.75rem\">\n                        💡 Drag the box or its corners on the preview to set the crop region.\n                      </small>\n                      <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                        <div>\n                          <label for=\"crop-x\">X</label>\n                          <input type=\"number\" id=\"crop-x\" min=\"0\" value=\"0\" />\n                        </div>\n                        <div>\n                          <label for=\"crop-y\">Y</label>\n                          <input type=\"number\" id=\"crop-y\" min=\"0\" value=\"0\" />\n                        </div>\n                      </div>\n                      <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                        <div>\n                          <label for=\"crop-w\">Width</label>\n                          <input type=\"number\" id=\"crop-w\" min=\"1\" value=\"1\" />\n                        </div>\n                        <div>\n                          <label for=\"crop-h\">Height</label>\n                          <input type=\"number\" id=\"crop-h\" min=\"1\" value=\"1\" />\n                        </div>\n                      </div>\n                      <div class=\"grid\" style=\"margin-bottom: 0\">\n                        <button type=\"button\" id=\"crop-full\" class=\"secondary\">Use Full Frame</button>\n                        <button type=\"button\" id=\"crop-square\" class=\"secondary\">Centered Square</button>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <!-- Box 2: Aspect and Dimension Resizing -->\n                <details class=\"config-card\" id=\"panel-upscale\">\n                  <summary class=\"card-header\">✨ AI Upscale (2x)</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-upscale\">\n                      <input type=\"checkbox\" id=\"enable-upscale\" name=\"enable-upscale\" />\n                      Enable AI Upscale\n                    </label>\n                  </fieldset>\n                  <label for=\"upscale-model\">Model</label>\n                  <select id=\"upscale-model\" name=\"upscale-model\">\n                    <option value=\"fast\" selected>Fast — Real-ESRGAN general v3 (5 MB download)</option>\n                    <option value=\"quality\">Quality — Real-ESRGAN x2plus (67 MB download, much slower)</option>\n                  </select>\n                  <small id=\"upscale-status\" style=\"display: block; color: var(--pico-muted-color)\"\n                    >Every frame is upscaled locally on your GPU, so expect this to run well below real time.\n                    Applied after crop and before resize.</small\n                  >\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-resize\">\n                  <summary class=\"card-header\">📐 Resolution & Aspect Ratio Resize</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-resize\">\n                      <input type=\"checkbox\" id=\"enable-resize\" name=\"enable-resize\" />\n                      Enable Video Resizing\n                    </label>\n                  </fieldset>\n\n                  <div id=\"resize-controls-group\" style=\"display: none; padding-top: 0.5rem\">\n                    <fieldset>\n                      <label for=\"resize-preset\">Preset Dimensions</label>\n                      <select id=\"resize-preset\" name=\"resize-preset\">\n                        <option value=\"custom\" selected>Custom Size</option>\n                        <option value=\"1920\">1080p Full HD (Max 1920px)</option>\n                        <option value=\"1280\">720p HD (Max 1280px)</option>\n                        <option value=\"854\">480p SD (Max 854px)</option>\n                        <option value=\"640\">360p (Max 640px)</option>\n                        <option value=\"square-1080\">Square 1:1 HD (1080x1080)</option>\n                        <option value=\"square-720\">Square 1:1 Standard (720x720)</option>\n                      </select>\n                    </fieldset>\n\n                    <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                      <div>\n                        <label for=\"resize-width\">Width (px)</label>\n                        <input\n                          type=\"number\"\n                          id=\"resize-width\"\n                          name=\"resize-width\"\n                          min=\"16\"\n                          placeholder=\"Original Width\"\n                        />\n                      </div>\n                      <div>\n                        <label for=\"resize-height\">Height (px)</label>\n                        <input\n                          type=\"number\"\n                          id=\"resize-height\"\n                          name=\"resize-height\"\n                          min=\"16\"\n                          placeholder=\"Original Height\"\n                        />\n                      </div>\n                    </div>\n\n                    <div class=\"grid\" style=\"align-items: center; margin-top: 0.5rem\">\n                      <div>\n                        <label for=\"preserve-aspect\">\n                          <input type=\"checkbox\" id=\"preserve-aspect\" name=\"preserve-aspect\" checked />\n                          Lock Aspect Ratio\n                        </label>\n                      </div>\n                      <div>\n                        <label for=\"resize-fit\">Fit Mode</label>\n                        <select id=\"resize-fit\" name=\"resize-fit\">\n                          <option value=\"fill\">Fill (Stretch)</option>\n                          <option value=\"contain\" selected>Contain (Letterbox)</option>\n                          <option value=\"cover\">Cover (Crop)</option>\n                        </select>\n                      </div>\n                    </div>\n                  </div>\n                \n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-codec\">\n                  <summary class=\"card-header\">💿 Output Format & Codec</summary>\n                  <div class=\"config-card-body\">\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"out-format\">Output Format / Container</label>\n                        <select id=\"out-format\" name=\"out-format\">\n                          <option value=\"mp4\" selected>MP4 (.mp4) - Most Compatible</option>\n                          <option value=\"webm\">WebM (.webm) - Modern Open-Source</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"out-vcodec\">Video Encoder Codec</label>\n                        <select id=\"out-vcodec\" name=\"out-vcodec\">\n                          <option value=\"avc\" selected>H.264 / AVC (High compatibility)</option>\n                          <option value=\"hevc\">H.265 / HEVC (High compression)</option>\n                        </select>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-compression\">\n                  <summary class=\"card-header\">🗜️ Compression & Quality</summary>\n                  <div class=\"config-card-body\">\n                    <div class=\"slider-group\" style=\"margin-bottom: 0\">\n                      <label for=\"out-quality\" style=\"display: block; margin-bottom: 0.5rem\">\n                        Video Compression (Subjective Quality):\n                      </label>\n                      <div class=\"quality-readout\">\n                        <span>\n                          <span class=\"time-val time-val-primary\" id=\"out-quality-val\">Medium</span>\n                          <span id=\"out-quality-rate\" class=\"quality-rate\">~3.5 Mbps</span>\n                        </span>\n                        <span\n                          id=\"quality-help\"\n                          style=\"font-size: 0.8rem; display: block; color: var(--pico-muted-color); margin-top: 0.25rem\"\n                        >\n                          Balanced bitrate and visual fidelity for typical social/web sharing.\n                        </span>\n                      </div>\n                      <input type=\"range\" id=\"out-quality\" name=\"out-quality\" min=\"1\" max=\"5\" value=\"3\" step=\"1\" />\n\n                      <!-- Custom Bitrate Override Option -->\n                      <div\n                        style=\"\n                          margin-top: 1rem;\n                          border-top: 1px dashed var(--pico-muted-border-color);\n                          padding-top: 0.75rem;\n                        \"\n                      >\n                        <label for=\"use-custom-bitrate\">\n                          <input type=\"checkbox\" id=\"use-custom-bitrate\" name=\"use-custom-bitrate\" />\n                          🔧 Use Explicit Target Bitrate Override\n                        </label>\n                        <div id=\"custom-bitrate-group\" style=\"display: none; margin-top: 0.6rem\">\n                          <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n                            <div>\n                              <label for=\"custom-bitrate\" style=\"font-size: 0.8rem\">Target Bitrate (bps):</label>\n                              <input\n                                type=\"number\"\n                                id=\"custom-bitrate\"\n                                name=\"custom-bitrate\"\n                                placeholder=\"e.g. 3500000\"\n                                min=\"100000\"\n                                step=\"50000\"\n                                value=\"3500000\"\n                                style=\"margin-bottom: 0\"\n                              />\n                            </div>\n                            <div style=\"display: flex; align-items: flex-end; padding-top: 1.4rem\">\n                              <span class=\"time-val\" id=\"custom-bitrate-mbps-label\" style=\"font-weight: bold; padding: 8px 12px\">3.50 Mbps</span>\n                            </div>\n                          </div>\n                          <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.25rem\">\n                            💡 Provide standard bits per second (e.g. 5,000,000 is 5.0 Mbps, 800,000 is 800 kbps).\n                          </small>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-rotation\">\n                  <summary class=\"card-header\">🔄 Rotation</summary>\n                  <div class=\"config-card-body\">\n                    <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n                      <div>\n                        <label for=\"rotate-correction\">Rotation Correction</label>\n                        <select id=\"rotate-correction\" name=\"rotate-correction\">\n                          <option value=\"0\" selected>0° (Keep natural state)</option>\n                          <option value=\"90\">90° Clockwise</option>\n                          <option value=\"180\">180° Half-flip</option>\n                          <option value=\"270\">270° Counter-Clockwise</option>\n                        </select>\n                      </div>\n                      <div>\n                        <fieldset style=\"margin-bottom: 0; padding-top: 1.25rem\">\n                          <label for=\"allow-rot-metadata\">\n                            <input type=\"checkbox\" id=\"allow-rot-metadata\" name=\"allow-rot-metadata\" checked />\n                            Allow Rotation Metadata\n                          </label>\n                        </fieldset>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-rife\">\n                  <summary class=\"card-header\">✨ AI Frame Interpolation (RIFE)</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-rife\">\n                      <input type=\"checkbox\" id=\"enable-rife\" name=\"enable-rife\" />\n                      Enable AI frame interpolation\n                    </label>\n                  </fieldset>\n                  <div id=\"rife-controls-group\" style=\"display: none\">\n                    <p class=\"rife-source\">Source frame rate: <strong id=\"rife-source-fps\">-</strong></p>\n                    <div class=\"rife-presets\">\n                      <button type=\"button\" class=\"outline secondary\" id=\"rife-preset-smooth\" title=\"Same speed, higher frame rate\">Smoother</button>\n                      <button type=\"button\" class=\"outline secondary\" id=\"rife-preset-slowmo\" title=\"Same frame rate, slowed down\">Slow motion</button>\n                    </div>\n                    <div class=\"rife-grid\">\n                      <div>\n                        <label for=\"rife-speed\" style=\"font-size: 0.8rem\">Playback speed:</label>\n                        <select id=\"rife-speed\" name=\"rife-speed\" style=\"margin-bottom: 0\">\n                          <option value=\"1\" selected>1× (normal)</option>\n                          <option value=\"0.75\">0.75×</option>\n                          <option value=\"0.5\">0.5×</option>\n                          <option value=\"0.25\">0.25×</option>\n                          <option value=\"0.125\">0.125×</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"rife-fps\" style=\"font-size: 0.8rem\">Output frame rate:</label>\n                        <select id=\"rife-fps\" name=\"rife-fps\" style=\"margin-bottom: 0\">\n                          <option value=\"source\">Source rate</option>\n                          <option value=\"24\">24 FPS</option>\n                          <option value=\"30\">30 FPS</option>\n                          <option value=\"48\">48 FPS</option>\n                          <option value=\"50\">50 FPS</option>\n                          <option value=\"60\" selected>60 FPS</option>\n                          <option value=\"90\">90 FPS</option>\n                          <option value=\"120\">120 FPS</option>\n                        </select>\n                      </div>\n                      <div id=\"rife-audio-wrap\" class=\"rife-audio\">\n                        <label for=\"rife-audio\" style=\"font-size: 0.8rem\">Audio:</label>\n                        <select id=\"rife-audio\" name=\"rife-audio\" style=\"margin-bottom: 0\">\n                          <option value=\"stretch\" selected>Keep pitch</option>\n                          <option value=\"pitch\">Pitch follows speed</option>\n                          <option value=\"remove\">Remove</option>\n                        </select>\n                      </div>\n                    </div>\n                    <small id=\"rife-summary\" class=\"rife-summary\"></small>\n                    <small style=\"display: block; color: var(--pico-muted-color); font-size: 0.8rem\">\n                      RIFE synthesizes in-between frames from motion on your GPU (21 MB model, downloaded once).\n                      It takes over frame timing, so the Speed &amp; Frame Rate panel is hidden while it's on.\n                    </small>\n                  </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-resample\">\n                  <summary class=\"card-header\">⏩ Speed & Frame Rate</summary>\n                  <div class=\"config-card-body\">\n                    <label for=\"enable-speed\">\n                      <input type=\"checkbox\" id=\"enable-speed\" name=\"enable-speed\" />\n                      ⏩ Change Speed / Time-lapse\n                    </label>\n                    <div id=\"speed-controls-group\" style=\"display: none; margin: 0.6rem 0 1rem\">\n                      <div class=\"grid\" style=\"align-items: end; margin-bottom: 0\">\n                        <div>\n                          <label for=\"speed-factor\" style=\"font-size: 0.8rem\">Speed:</label>\n                          <select id=\"speed-factor\" name=\"speed-factor\" style=\"margin-bottom: 0\">\n                            <option value=\"0.5\">0.5× (slow motion)</option>\n                            <option value=\"2\">2×</option>\n                            <option value=\"4\" selected>4×</option>\n                            <option value=\"8\">8×</option>\n                            <option value=\"16\">16×</option>\n                            <option value=\"32\">32×</option>\n                            <option value=\"64\">64×</option>\n                            <option value=\"custom\">Custom…</option>\n                          </select>\n                        </div>\n                        <div id=\"speed-custom-wrap\" style=\"display: none\">\n                          <label for=\"speed-custom\" style=\"font-size: 0.8rem\">Custom speed (×):</label>\n                          <input type=\"number\" id=\"speed-custom\" min=\"0.1\" max=\"1000\" step=\"0.1\" value=\"10\" style=\"margin-bottom: 0\" />\n                        </div>\n                        <div>\n                          <label for=\"speed-frames\" style=\"font-size: 0.8rem\">Frames:</label>\n                          <select id=\"speed-frames\" name=\"speed-frames\" style=\"margin-bottom: 0\">\n                            <option value=\"skip\" selected>Skip (sharp)</option>\n                            <option value=\"blend\">Blend (motion blur)</option>\n                          </select>\n                        </div>\n                        <div>\n                          <label for=\"speed-audio\" style=\"font-size: 0.8rem\">Audio:</label>\n                          <select id=\"speed-audio\" name=\"speed-audio\" style=\"margin-bottom: 0\">\n                            <option value=\"stretch\" selected>Keep pitch</option>\n                            <option value=\"pitch\">Pitch follows speed</option>\n                            <option value=\"remove\">Remove</option>\n                          </select>\n                        </div>\n                      </div>\n                      <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.8rem\">\n                        Output length: <span class=\"time-val\" id=\"speed-output-length\">-</span><br />\n                        <strong>Keep pitch</strong> time-stretches the audio so voices and music stay in tune;\n                        <strong>Pitch follows speed</strong> plays it faster like a tape. The audio panel's Mute still\n                        wins, and audio is re-encoded. The output frame rate is the source rate, or the target below\n                        when resampling is on. <strong>Blend</strong> averages all the source frames that land in\n                        each output frame.\n                      </small>\n                    </div>\n\n                    <label for=\"enable-fps\">\n                      <input type=\"checkbox\" id=\"enable-fps\" name=\"enable-fps\" />\n                      ⏱️ Resample / Normalize Frame Rate (FPS)\n                    </label>\n                    <div id=\"fps-controls-group\" style=\"display: none; margin-top: 0.6rem\">\n                      <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n                        <div>\n                          <label for=\"target-fps\" style=\"font-size: 0.8rem\">Target Frame Rate (FPS):</label>\n                          <select id=\"target-fps\" name=\"target-fps\" style=\"margin-bottom: 0\">\n                            <option value=\"15\">15 FPS (Classic / Low bandwidth)</option>\n                            <option value=\"24\">24 FPS (Cinematic standard)</option>\n                            <option value=\"25\">25 FPS (PAL standard)</option>\n                            <option value=\"30\" selected>30 FPS (Standard smooth NTSC)</option>\n                            <option value=\"50\">50 FPS (PAL high-framerate)</option>\n                            <option value=\"60\">60 FPS (Ultra smooth / gaming standard)</option>\n                          </select>\n                        </div>\n                        <div id=\"fps-mode-wrap\">\n                          <label for=\"fps-mode\" style=\"font-size: 0.8rem\">Resampling Mode:</label>\n                          <select id=\"fps-mode\" name=\"fps-mode\" style=\"margin-bottom: 0\">\n                            <option value=\"duplicate\" selected>Frame Repeating (Fast / Standard)</option>\n                            <option value=\"blend\">Traditional Bidirectional Blending (Smooth)</option>\n                          </select>\n                        </div>\n                      </div>\n                      <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.8rem\">\n                        💡 <strong>Bidirectional Blending</strong> uses hardware-accelerated 2D canvas interpolation to\n                        blend adjacent source frames dynamically, making video playback look cinematic and ultra-smooth\n                        on higher frame rates.\n                      </small>\n                    </div>\n                  </div>\n                </details>\n\n                <!-- Box 4: Audio Track Handling -->\n                <details class=\"config-card\" id=\"panel-audio\">\n                  <summary class=\"card-header\">🔊 Audio Stream Handlers</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <legend style=\"font-weight: 500; font-size: 0.95rem; margin-bottom: 0.5rem\">\n                      Audio Mode Select\n                    </legend>\n                    <label for=\"audio-mode-copy\">\n                      <input type=\"radio\" id=\"audio-mode-copy\" name=\"audio-mode\" value=\"copy\" checked />\n                      ⚡ Retain Original Audio Stream (Raw Copy)\n                    </label>\n                    <label for=\"audio-mode-transcode\">\n                      <input type=\"radio\" id=\"audio-mode-transcode\" name=\"audio-mode\" value=\"transcode\" />\n                      ⚙️ Transcode / Convert Audio\n                    </label>\n                    <label for=\"audio-mode-mute\">\n                      <input type=\"radio\" id=\"audio-mode-mute\" name=\"audio-mode\" value=\"mute\" />\n                      🔇 Strip Audio Track (Mute Video)\n                    </label>\n                  </fieldset>\n\n                  <div\n                    id=\"audio-transcode-controls\"\n                    style=\"\n                      display: none;\n                      border-top: 1px solid var(--pico-muted-border-color);\n                      padding-top: 1rem;\n                      margin-top: 0.5rem;\n                    \"\n                  >\n                    <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                      <div>\n                        <label for=\"audio-codec\">Audio Codec</label>\n                        <select id=\"audio-codec\" name=\"audio-codec\">\n                          <option value=\"aac\" selected>AAC (Highly compatible)</option>\n                          <option value=\"opus\">Opus (High quality, lower bitrate)</option>\n                          <option value=\"mp3\">MP3</option>\n                          <option value=\"flac\">FLAC (Lossless)</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"audio-bitrate\">Bitrate</label>\n                        <select id=\"audio-bitrate\" name=\"audio-bitrate\">\n                          <option value=\"64000\">64 kbps (Mobile optimization)</option>\n                          <option value=\"128000\" selected>128 kbps (Balanced)</option>\n                          <option value=\"192000\">192 kbps (High Fidelity)</option>\n                          <option value=\"320000\">320 kbps (Premium)</option>\n                        </select>\n                      </div>\n                    </div>\n\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"audio-channels\">Channels</label>\n                        <select id=\"audio-channels\" name=\"audio-channels\">\n                          <option value=\"0\" selected>Original Channels</option>\n                          <option value=\"1\">1 (Mono)</option>\n                          <option value=\"2\">2 (Stereo)</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"audio-samplerate\">Sample Rate</label>\n                        <select id=\"audio-samplerate\" name=\"audio-samplerate\">\n                          <option value=\"0\" selected>Original Sample Rate</option>\n                          <option value=\"44100\">44,100 Hz</option>\n                          <option value=\"48000\">48,000 Hz</option>\n                          <option value=\"32000\">32,000 Hz</option>\n                        </select>\n                      </div>\n                    </div>\n                  </div>\n                \n                  </div>\n                </details>\n            </form>\n          </div>\n          <!-- Column 3: output / download -->\n          <div class=\"workshop-output\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n            <div class=\"output-actions\">\n              <button type=\"submit\" form=\"conversion-form\" id=\"convert-btn\" class=\"contrast\">\n                🚀 Convert & Process Video File\n              </button>\n              <button type=\"button\" id=\"cancel-btn\" class=\"secondary\" style=\"display: none\">🛑 Cancel Conversion</button>\n              <div class=\"size-estimate\">\n                Estimated output: <strong id=\"size-estimate\">—</strong>\n                <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.15rem\">\n                  Rough estimate (bitrate × duration; accounts for crop, trim, resize & frame rate).\n                </small>\n              </div>\n            </div>\n\n            <div id=\"output-placeholder\" class=\"output-shell\">\n              <svg\n                xmlns=\"http://www.w3.org/2000/svg\"\n                width=\"40\"\n                height=\"40\"\n                fill=\"none\"\n                viewBox=\"0 0 24 24\"\n                stroke=\"currentColor\"\n                stroke-width=\"1.3\"\n              >\n                <path\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                  d=\"M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z\"\n                />\n              </svg>\n              <p>Your processed video will appear here</p>\n            </div>\n\n            <section id=\"progress-section\" style=\"display: none; margin-top: 2rem\">\n        <article>\n          <h4 style=\"margin-bottom: 0.5rem; display: flex; justify-content: space-between\">\n            <span id=\"progress-title\">🐰 Processing Video Sample...</span>\n            <strong id=\"progress-percentage\">0%</strong>\n          </h4>\n          <progress id=\"conversion-progress\" value=\"0\" max=\"100\"></progress>\n          <div\n            style=\"display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--pico-muted-color)\"\n          >\n            <span id=\"progress-time-processed\">Processed Time: 0s / 0s</span>\n            <span id=\"progress-speed\">Processing speed: Normal</span>\n          </div>\n        </article>\n      </section>\n            <section id=\"result-section\" style=\"display: none; margin-top: 2rem\">\n        <!-- Processed output shown first; the original already lives in the input column -->\n        <article class=\"result-card\">\n          <header class=\"card-header success\">Processed Output</header>\n          <div class=\"video-container\">\n            <video id=\"output-video\" controls autoplay></video>\n          </div>\n        </article>\n\n        <ins class=\"success-note\">\n          <h3>🎉 Success! Conversion Completed Successfully</h3>\n          <p style=\"margin-bottom: 1rem; font-size: 0.95rem\">\n            Your media has been processed on-the-fly and packaged directly in your browser. No server uploads occurred.\n          </p>\n\n          <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n            <div>\n              <a\n                href=\"#\"\n                id=\"download-anchor\"\n                download=\"mediabunny_result.mp4\"\n                class=\"button download-btn\"\n              >\n                <svg\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                  width=\"20\"\n                  height=\"20\"\n                  fill=\"none\"\n                  viewBox=\"0 0 24 24\"\n                  stroke=\"currentColor\"\n                  stroke-width=\"2.5\"\n                >\n                  <path\n                    stroke-linecap=\"round\"\n                    stroke-linejoin=\"round\"\n                    d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3\"\n                  />\n                </svg>\n                <span>Download Processed Video</span>\n              </a>\n              <span id=\"output-size-tag\" class=\"output-size\"\n                >-</span\n              >\n            </div>\n          </div>\n        </ins>\n      </section>\n\n            <details class=\"config-card log-section\">\n              <summary class=\"card-header\">🔍 System Console & Transcoding logs (verbose)</summary>\n              <div class=\"config-card-body\">\n                <div style=\"position: relative\">\n                  <button\n                    id=\"clear-console-btn\"\n                    class=\"outline secondary\"\n                    style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\"\n                  >\n                    Clear Log\n                  </button>\n                  <pre id=\"log-console\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                </div>\n              </div>\n            </details>\n          </div>\n        </div>\n\n        <div id=\"image-workspace\" class=\"workshop-layout\" style=\"display: none\">\n          <!-- Column 1: input / info -->\n          <div class=\"workshop-sidebar\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Image Preview & Blur Paint Mask\n              </header>\n              <div class=\"image-canvas-stage\" id=\"image-canvas-stage\">\n                <canvas id=\"image-preview-canvas\"></canvas>\n                <canvas id=\"image-mask-canvas\"></canvas>\n              </div>\n              <div class=\"canvas-tool-picker\" role=\"radiogroup\" aria-label=\"Canvas Tool\">\n                <span class=\"canvas-tool-label\">Canvas Tool</span>\n                <div>\n                  <label>\n                    <input type=\"radio\" name=\"img-canvas-tool\" value=\"crop\" id=\"img-tool-crop\" checked />\n                    ✂️ Crop\n                  </label>\n                  <label>\n                    <input type=\"radio\" name=\"img-canvas-tool\" value=\"paint\" id=\"img-tool-paint\" />\n                    🙈 Redaction\n                  </label>\n                </div>\n              </div>\n              <small style=\"display: block; text-align: center; margin-top: 0.5rem; color: var(--pico-muted-color)\">\n                Enable Crop or Redaction to activate a tool. Drag crop corners directly on the preview, or paint\n                redactions over sensitive areas.\n              </small>\n            </article>\n\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Image Attributes\n              </header>\n              <div class=\"meta-grid\">\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Name</span>\n                  <span id=\"img-meta-name\" style=\"word-break: break-all; font-weight: 500\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Size</span>\n                  <span id=\"img-meta-size\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Original Size</span>\n                  <span id=\"img-meta-resolution\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Aspect Ratio</span>\n                  <span id=\"img-meta-aspect\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Detected Type</span>\n                  <span id=\"img-meta-type\">-</span>\n                </div>\n              </div>\n            </article>\n          </div>\n          <!-- Column 2: image settings -->\n          <div class=\"workshop-main\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n            <form id=\"image-form\" class=\"settings-stack\" style=\"margin-bottom: 0\">\n              <details class=\"config-card\" id=\"panel-img-crop\">\n                  <summary class=\"card-header\">✂️ Crop Region</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-crop\">\n                    <input type=\"checkbox\" id=\"img-enable-crop\" checked />\n                    Enable Crop\n                  </label>\n                </fieldset>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-crop-x\">X</label>\n                    <input type=\"number\" id=\"img-crop-x\" min=\"0\" value=\"0\" />\n                  </div>\n                  <div>\n                    <label for=\"img-crop-y\">Y</label>\n                    <input type=\"number\" id=\"img-crop-y\" min=\"0\" value=\"0\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-crop-width\">Crop Width</label>\n                    <input type=\"number\" id=\"img-crop-width\" min=\"1\" value=\"1\" />\n                  </div>\n                  <div>\n                    <label for=\"img-crop-height\">Crop Height</label>\n                    <input type=\"number\" id=\"img-crop-height\" min=\"1\" value=\"1\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0\">\n                  <button type=\"button\" id=\"img-crop-full\" class=\"secondary\">Use Full Image</button>\n                  <button type=\"button\" id=\"img-crop-square\" class=\"secondary\">Centered Square</button>\n                </div>\n              \n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-upscale\">\n                  <summary class=\"card-header\">✨ AI Upscale (2x)</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-upscale\">\n                    <input type=\"checkbox\" id=\"img-enable-upscale\" />\n                    Enable AI Upscale\n                  </label>\n                </fieldset>\n                <label for=\"img-upscale-model\">Model</label>\n                <select id=\"img-upscale-model\">\n                  <option value=\"quality\" selected>Quality — Real-ESRGAN x2plus (67 MB download)</option>\n                  <option value=\"fast\">Fast — Real-ESRGAN general v3 (5 MB download)</option>\n                </select>\n                <small id=\"img-upscale-status\" style=\"display: block; color: var(--pico-muted-color)\"\n                  >Runs locally in your browser. The model downloads once on first use and is cached.</small\n                >\n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-resize\">\n                  <summary class=\"card-header\">📐 Output Resize</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-resize\">\n                    <input type=\"checkbox\" id=\"img-enable-resize\" />\n                    Enable Resize\n                  </label>\n                </fieldset>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-out-width\">Output Width</label>\n                    <input type=\"number\" id=\"img-out-width\" min=\"1\" value=\"1\" />\n                  </div>\n                  <div>\n                    <label for=\"img-out-height\">Output Height</label>\n                    <input type=\"number\" id=\"img-out-height\" min=\"1\" value=\"1\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-scale-preset\">Scale Preset</label>\n                    <select id=\"img-scale-preset\">\n                      <option value=\"\" selected>Select scale...</option>\n                      <option value=\"0.25\">25% (0.25x)</option>\n                      <option value=\"0.5\">50% (0.5x)</option>\n                      <option value=\"0.75\">75% (0.75x)</option>\n                      <option value=\"1\">100% (1x)</option>\n                      <option value=\"1.25\">125% (1.25x)</option>\n                      <option value=\"1.5\">150% (1.5x)</option>\n                      <option value=\"2\">200% (2x)</option>\n                      <option value=\"3\">300% (3x)</option>\n                      <option value=\"4\">400% (4x)</option>\n                    </select>\n                  </div>\n                  <div>\n                    <label for=\"img-maxdim-preset\">Max Dimension Preset</label>\n                    <select id=\"img-maxdim-preset\">\n                      <option value=\"\" selected>Fit longest side to...</option>\n                      <option value=\"256\">256 px (2^8)</option>\n                      <option value=\"512\">512 px (2^9)</option>\n                      <option value=\"720\">720 px</option>\n                      <option value=\"1024\">1024 px (2^10)</option>\n                      <option value=\"1080\">1080 px</option>\n                      <option value=\"1280\">1280 px</option>\n                      <option value=\"1920\">1920 px</option>\n                      <option value=\"2048\">2048 px (2^11)</option>\n                      <option value=\"2560\">2560 px</option>\n                      <option value=\"3840\">3840 px</option>\n                      <option value=\"4096\">4096 px (2^12)</option>\n                    </select>\n                  </div>\n                </div>\n                <fieldset>\n                  <label for=\"img-lock-aspect\">\n                    <input type=\"checkbox\" id=\"img-lock-aspect\" checked />\n                    Lock Aspect Ratio\n                  </label>\n                </fieldset>\n                <small id=\"img-resize-status\" style=\"display: block; color: var(--pico-muted-color)\"></small>\n\n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-redact\">\n                  <summary class=\"card-header\">🙈 Redaction Brush</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-blur\">\n                    <input type=\"checkbox\" id=\"img-enable-blur\" checked />\n                    Enable Redaction Mask Painting\n                  </label>\n                </fieldset>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-redaction-mode\">Redaction Effect</label>\n                    <select id=\"img-redaction-mode\">\n                      <option value=\"blur\" selected>Blur</option>\n                      <option value=\"pixelate\">Pixelate</option>\n                      <option value=\"black\">Solid Black</option>\n                    </select>\n                  </div>\n                  <div>\n                    <label for=\"img-brush-size\">Brush Size (px)</label>\n                    <input type=\"range\" id=\"img-brush-size\" min=\"8\" max=\"180\" value=\"40\" step=\"1\" />\n                  </div>\n                  <div>\n                    <label for=\"img-blur-strength\">Effect Strength</label>\n                    <input type=\"range\" id=\"img-blur-strength\" min=\"2\" max=\"100\" value=\"4\" step=\"0.25\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0\">\n                  <label for=\"img-erase-mode\" style=\"align-self: center; margin-bottom: 0\">\n                    <input type=\"checkbox\" id=\"img-erase-mode\" />\n                    Erase Mask Mode\n                  </label>\n                  <button type=\"button\" id=\"img-clear-mask\" class=\"secondary\">Clear Blur Mask</button>\n                </div>\n              \n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-format\">\n                  <summary class=\"card-header\">💾 Format & Compression</summary>\n                  <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-out-format\">Output Format</label>\n                    <select id=\"img-out-format\">\n                      <option value=\"image/jpeg\" selected>JPEG (.jpg)</option>\n                      <option value=\"image/png\">PNG (.png, lossless)</option>\n                      <option value=\"image/webp\">WebP (.webp)</option>\n                      <option value=\"image/avif\">AVIF (.avif)</option>\n                    </select>\n                  </div>\n                  <div>\n                    <label for=\"img-quality\">Compression Quality</label>\n                    <input type=\"range\" id=\"img-quality\" min=\"0.1\" max=\"1\" value=\"0.86\" step=\"0.01\" />\n                    <small id=\"img-quality-label\">0.86</small>\n                  </div>\n                </div>\n\n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-base64\">\n                  <summary class=\"card-header\">📋 Lightweight Base64 PNG</summary>\n                  <div class=\"config-card-body\">\n                  <p style=\"margin-top: 0; font-size: 0.85rem; color: var(--pico-muted-color)\">\n                    Quantizes the current crop/redaction/resize result to an indexed-color PNG and copies\n                    the base64 data URI to your clipboard — paste it directly into markdown\n                    (<code>![](data:image/png;base64,...)</code>) or an &lt;img src&gt; attribute.\n                  </p>\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-base64-colors\">Palette Size (quantization)</label>\n                    <select id=\"img-base64-colors\">\n                      <option value=\"4\">4 colors (2-bit, tiniest)</option>\n                      <option value=\"8\">8 colors</option>\n                      <option value=\"16\">16 colors (4-bit)</option>\n                      <option value=\"32\">32 colors</option>\n                      <option value=\"64\" selected>64 colors (default)</option>\n                      <option value=\"128\">128 colors</option>\n                      <option value=\"256\">256 colors (8-bit, best quality)</option>\n                    </select>\n                  </div>\n                </div>\n\n                  <button type=\"button\" id=\"image-copy-base64-btn\" class=\"secondary\" style=\"width: 100%\">\n                    📋 Convert & Copy to Clipboard\n                  </button>\n                  <small id=\"image-copy-base64-status\" style=\"display: block; margin-top: 0.4rem\"></small>\n\n                  <div id=\"image-base64-preview-wrap\" style=\"display: none; margin-top: 0.75rem\">\n                    <img\n                      id=\"image-base64-preview\"\n                      alt=\"Quantized PNG preview\"\n                      style=\"\n                        max-width: 100%;\n                        display: block;\n                        margin: 0 auto;\n                        border: 1px solid var(--pico-muted-border-color);\n                        border-radius: 4px;\n                        background: repeating-conic-gradient(#8883 0% 25%, transparent 0% 50%) 50% / 20px 20px;\n                      \"\n                    />\n                    <label for=\"image-base64-output\" style=\"margin-top: 0.6rem\">Base64 data URI</label>\n                    <textarea\n                      id=\"image-base64-output\"\n                      readonly\n                      rows=\"4\"\n                      style=\"font-family: ui-monospace, Consolas, monospace; font-size: 0.7rem; resize: vertical\"\n                    ></textarea>\n                  </div>\n\n                  </div>\n                </details>\n\n            </form>\n          </div>\n          <!-- Column 3: output / download -->\n          <div class=\"workshop-output\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n            <div class=\"output-actions\">\n              <button type=\"submit\" form=\"image-form\" id=\"image-process-btn\" class=\"contrast\">\n                🖼️ Process & Export Image\n              </button>\n            </div>\n\n            <div id=\"image-output-placeholder\" class=\"output-shell\">\n              <svg\n                xmlns=\"http://www.w3.org/2000/svg\"\n                width=\"40\"\n                height=\"40\"\n                fill=\"none\"\n                viewBox=\"0 0 24 24\"\n                stroke=\"currentColor\"\n                stroke-width=\"1.3\"\n              >\n                <path\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                  d=\"M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"\n                />\n              </svg>\n              <p>Your processed image will appear here</p>\n            </div>\n\n            <section id=\"image-result-section\" style=\"display: none; margin-top: 2rem\">\n        <!-- Processed image shown first; the original already lives in the input column -->\n        <article class=\"result-card\">\n          <header class=\"card-header success\">Processed Image</header>\n          <img id=\"image-output-preview\" alt=\"Processed image\" style=\"width: 100%; height: auto; display: block\" />\n        </article>\n\n        <ins class=\"success-note\">\n          <h3>🎉 Image Ready</h3>\n          <p style=\"margin-bottom: 1rem; font-size: 0.95rem\">\n            Your image was cropped, redacted, scaled, and re-encoded directly in browser memory.\n          </p>\n          <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n            <div>\n              <a\n                href=\"#\"\n                id=\"image-download-anchor\"\n                download=\"processed-image.jpg\"\n                class=\"button download-btn\"\n              >\n                Download Processed Image\n              </a>\n              <span\n                id=\"image-output-size-tag\" class=\"output-size\"\n                >-</span\n              >\n            </div>\n          </div>\n        </ins>\n      </section>\n\n            <details class=\"config-card log-section\">\n              <summary class=\"card-header\">🔍 System Console & Transcoding logs (verbose)</summary>\n              <div class=\"config-card-body\">\n                <div style=\"position: relative\">\n                  <button\n                    id=\"clear-console-btn-img\"\n                    class=\"outline secondary\"\n                    style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\"\n                  >\n                    Clear Log\n                  </button>\n                  <pre id=\"log-console-img\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                </div>\n              </div>\n            </details>\n          </div>\n        </div>\n\n        <div id=\"audio-workspace\" class=\"workshop-layout\" style=\"display: none\">\n          <!-- Column 1: input / info -->\n          <div class=\"workshop-sidebar\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Original Audio Player\n              </header>\n              <audio id=\"audio-preview\" controls style=\"width: 100%; display: block\"></audio>\n              <canvas id=\"audio-waveform\" class=\"audio-waveform\"></canvas>\n              <small style=\"display: block; text-align: center; margin-top: 0.5rem; color: var(--pico-muted-color)\">\n                💡 Play to preview, click the waveform to seek; enable trimming below to clip a time range.\n              </small>\n            </article>\n\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Audio Attributes\n              </header>\n              <div class=\"meta-grid\">\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Name</span>\n                  <span id=\"audio-meta-name\" style=\"word-break: break-all; font-weight: 500\">-</span>\n                </div>\n                <div class=\"meta-item\"><span class=\"meta-label\">File Size</span><span id=\"audio-meta-size\">-</span></div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Duration</span><span id=\"audio-meta-duration\">-</span></div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Codec</span><span id=\"audio-meta-codec\">-</span></div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Sample Rate</span><span id=\"audio-meta-samplerate\">-</span>\n                </div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Channels</span><span id=\"audio-meta-channels\">-</span></div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Bitrate</span><span id=\"audio-meta-bitrate\">-</span></div>\n              </div>\n            </article>\n          </div>\n\n          <!-- Column 2: audio settings -->\n          <div class=\"workshop-main\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n            <form id=\"audio-form\" class=\"settings-stack\" style=\"margin-bottom: 0\">\n              <details class=\"config-card\" id=\"panel-audio-trim\">\n                <summary class=\"card-header\">✂️ Time Crop & Trim</summary>\n                <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"audio-enable-trim\">\n                      <input type=\"checkbox\" id=\"audio-enable-trim\" />\n                      Enable Trimming / Time Crop\n                    </label>\n                  </fieldset>\n                  <div id=\"audio-trim-controls\" style=\"display: none; padding-top: 0.5rem\">\n                    <div class=\"slider-group\" style=\"margin-bottom: 0.5rem\">\n                      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem\">\n                        <span style=\"font-weight: 500; font-size: 0.9rem\">Cut / Clip Window Range:</span>\n                        <span class=\"time-val\">\n                          <span id=\"audio-trim-start-val\" style=\"font-weight: bold; color: var(--primary-color)\">0.00s</span>\n                          to\n                          <span id=\"audio-trim-end-val\" style=\"font-weight: bold; color: var(--primary-color)\">0.00s</span>\n                        </span>\n                      </div>\n                      <div class=\"range-slider-wrapper\">\n                        <div class=\"trim-visualizer\"><div class=\"trim-selection\" id=\"audio-trim-selection-bar\"></div></div>\n                        <input type=\"range\" id=\"audio-trim-start\" class=\"range-slider-input\" min=\"0\" max=\"100\" step=\"0.01\" value=\"0\" style=\"z-index: 3\" />\n                        <input type=\"range\" id=\"audio-trim-end\" class=\"range-slider-input\" min=\"0\" max=\"100\" step=\"0.01\" value=\"100\" style=\"z-index: 2\" />\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-audio-output\">\n                <summary class=\"card-header\">🎧 Output Format & Encoding</summary>\n                <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                    <div>\n                      <label for=\"audio-out-format\">Output Format</label>\n                      <select id=\"audio-out-format\" name=\"audio-out-format\">\n                        <option value=\"mp3\" selected>MP3 (.mp3)</option>\n                        <option value=\"m4a\">M4A / AAC (.m4a)</option>\n                        <option value=\"opus\">Opus (.ogg)</option>\n                        <option value=\"wav\">WAV (.wav, lossless)</option>\n                        <option value=\"flac\">FLAC (.flac, lossless)</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"audio-out-bitrate\">Bitrate</label>\n                      <select id=\"audio-out-bitrate\" name=\"audio-out-bitrate\">\n                        <option value=\"96000\">96 kbps</option>\n                        <option value=\"128000\">128 kbps</option>\n                        <option value=\"192000\" selected>192 kbps</option>\n                        <option value=\"256000\">256 kbps</option>\n                        <option value=\"320000\">320 kbps</option>\n                      </select>\n                    </div>\n                  </div>\n                  <div class=\"grid\" style=\"margin-bottom: 0\">\n                    <div>\n                      <label for=\"audio-out-samplerate\">Sample Rate</label>\n                      <select id=\"audio-out-samplerate\" name=\"audio-out-samplerate\">\n                        <option value=\"0\" selected>Original</option>\n                        <option value=\"48000\">48,000 Hz</option>\n                        <option value=\"44100\">44,100 Hz</option>\n                        <option value=\"32000\">32,000 Hz</option>\n                        <option value=\"22050\">22,050 Hz</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"audio-out-channels\">Channels</label>\n                      <select id=\"audio-out-channels\" name=\"audio-out-channels\">\n                        <option value=\"0\" selected>Original</option>\n                        <option value=\"1\">1 (Mono)</option>\n                        <option value=\"2\">2 (Stereo)</option>\n                      </select>\n                    </div>\n                  </div>\n                </div>\n              </details>\n            </form>\n          </div>\n\n          <!-- Column 3: output / download -->\n          <div class=\"workshop-output\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n            <div class=\"output-actions\">\n              <button type=\"submit\" form=\"audio-form\" id=\"audio-process-btn\" class=\"contrast\">🎵 Convert & Process Audio</button>\n              <button type=\"button\" id=\"audio-cancel-btn\" class=\"secondary\" style=\"display: none\">🛑 Cancel Conversion</button>\n              <div class=\"size-estimate\">\n                Estimated output: <strong id=\"audio-size-estimate\">—</strong>\n                <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.15rem\">\n                  Rough estimate (bitrate × duration; trim-aware).\n                </small>\n              </div>\n            </div>\n\n            <div id=\"audio-output-placeholder\" class=\"output-shell\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"1.3\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z\" />\n              </svg>\n              <p>Your processed audio will appear here</p>\n            </div>\n\n            <section id=\"audio-progress-section\" style=\"display: none\">\n              <article>\n                <h4 style=\"margin-bottom: 0.5rem; display: flex; justify-content: space-between\">\n                  <span id=\"audio-progress-title\">🎵 Processing audio...</span>\n                  <strong id=\"audio-progress-pct\">0%</strong>\n                </h4>\n                <progress id=\"audio-progress\" value=\"0\" max=\"100\"></progress>\n              </article>\n            </section>\n\n            <section id=\"audio-result-section\" style=\"display: none\">\n              <article class=\"result-card\">\n                <header class=\"card-header success\">Processed Audio</header>\n                <audio id=\"audio-output-preview\" controls style=\"width: 100%; display: block\"></audio>\n              </article>\n              <ins class=\"success-note\">\n                <h3>🎉 Audio Ready</h3>\n                <p style=\"margin-bottom: 1rem; font-size: 0.95rem\">\n                  Processed directly in your browser. No server uploads occurred.\n                </p>\n                <a href=\"#\" id=\"audio-download-anchor\" download=\"audio_web_export.mp3\" class=\"button download-btn\">\n                  Download Processed Audio\n                </a>\n                <span id=\"audio-output-size-tag\" class=\"output-size\">-</span>\n              </ins>\n            </section>\n\n            <details class=\"config-card log-section\">\n              <summary class=\"card-header\">🔍 System Console & Transcoding logs (verbose)</summary>\n              <div class=\"config-card-body\">\n                <div style=\"position: relative\">\n                  <button id=\"clear-console-btn-audio\" class=\"outline secondary\" style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\">\n                    Clear Log\n                  </button>\n                  <pre id=\"log-console-audio\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                </div>\n              </div>\n            </details>\n          </div>\n        </div>\n\n        <div id=\"batch-workspace\" style=\"display: none\">\n          <div class=\"workshop-layout\">\n            <!-- Column 1: input previews -->\n            <div class=\"workshop-sidebar\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Input (<span id=\"batch-input-count\">0</span>)\n                </header>\n                <div id=\"batch-thumbs\" class=\"batch-thumbs\"></div>\n                <small style=\"display: block; margin-top: 0.75rem; color: var(--pico-muted-color)\">\n                  Total input size: <strong id=\"batch-total-size\">-</strong>\n                </small>\n              </article>\n            </div>\n            <!-- Column 2: shared settings applied to every image -->\n            <div class=\"workshop-main\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n              <details class=\"config-card\" id=\"panel-batch-format\" open>\n                <summary class=\"card-header\">💾 Output Format & Quality</summary>\n                <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                    <div>\n                      <label for=\"batch-out-format\">Output Format</label>\n                      <select id=\"batch-out-format\">\n                        <option value=\"image/jpeg\" selected>JPEG (.jpg)</option>\n                        <option value=\"image/png\">PNG (.png, lossless)</option>\n                        <option value=\"image/webp\">WebP (.webp)</option>\n                        <option value=\"image/avif\">AVIF (.avif)</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"batch-quality\">Compression Quality</label>\n                      <input type=\"range\" id=\"batch-quality\" min=\"0.1\" max=\"1\" value=\"0.86\" step=\"0.01\" />\n                      <small id=\"batch-quality-label\">0.86</small>\n                    </div>\n                  </div>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-batch-resize\" open>\n                <summary class=\"card-header\">📐 Resize</summary>\n                <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"batch-enable-resize\">\n                      <input type=\"checkbox\" id=\"batch-enable-resize\" />\n                      Enable Resize (applied to all)\n                    </label>\n                  </fieldset>\n                  <div id=\"batch-resize-controls\" style=\"display: none\">\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"batch-maxdim-preset\">Max Dimension Preset</label>\n                        <select id=\"batch-maxdim-preset\">\n                          <option value=\"\" selected>Choose a preset…</option>\n                          <option value=\"512\">512 px</option>\n                          <option value=\"1024\">1024 px</option>\n                          <option value=\"1280\">1280 px</option>\n                          <option value=\"1920\">1920 px</option>\n                          <option value=\"2560\">2560 px</option>\n                          <option value=\"3840\">3840 px</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"batch-maxdim\">Max Dimension (px)</label>\n                        <input type=\"number\" id=\"batch-maxdim\" min=\"1\" placeholder=\"e.g. 1920\" />\n                      </div>\n                    </div>\n                    <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.75rem\">\n                      💡 Caps the longest side to this value (downscale only — never enlarged; aspect ratio preserved).\n                      Pick a preset or type an exact size.\n                    </small>\n                  </div>\n                </div>\n              </details>\n\n            </div>\n\n            <!-- Column 3: actions, results queue, and logs -->\n            <div class=\"workshop-output\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n              <div class=\"output-actions\">\n                <button type=\"button\" id=\"batch-process-btn\" class=\"contrast\">🖼️ Process All Images</button>\n                <button type=\"button\" id=\"batch-download-all\" class=\"secondary\" style=\"display: none\">\n                  ⬇️ Download All (.zip)\n                </button>\n              </div>\n\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Queue (<span id=\"batch-count\">0</span>)\n                </header>\n                <div id=\"batch-queue\"></div>\n              </article>\n\n              <details class=\"config-card log-section\">\n                <summary class=\"card-header\">🔍 System Console & logs (verbose)</summary>\n                <div class=\"config-card-body\">\n                  <div style=\"position: relative\">\n                    <button id=\"clear-console-btn-batch\" class=\"outline secondary\" style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\">\n                      Clear Log\n                    </button>\n                    <pre id=\"log-console-batch\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                  </div>\n                </div>\n              </details>\n            </div>\n          </div>\n        </div>\n\n        <div id=\"video-batch-workspace\" style=\"display: none\">\n          <div class=\"workshop-layout\">\n            <!-- Column 1: input previews -->\n            <div class=\"workshop-sidebar\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Input (<span id=\"vbatch-input-count\">0</span>)\n                </header>\n                <div id=\"vbatch-thumbs\" class=\"batch-thumbs\"></div>\n                <small style=\"display: block; margin-top: 0.75rem; color: var(--pico-muted-color)\">\n                  Total input size: <strong id=\"vbatch-total-size\">-</strong>\n                </small>\n              </article>\n            </div>\n            <!-- Column 2: shared settings applied to every video -->\n            <div class=\"workshop-main settings-stack\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n              <details class=\"config-card\" id=\"panel-vbatch-codec\" open>\n                <summary class=\"card-header\">💿 Output Format & Codec</summary>\n                <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0\">\n                    <div>\n                      <label for=\"vbatch-out-format\">Output Format</label>\n                      <select id=\"vbatch-out-format\">\n                        <option value=\"mp4\" selected>MP4 (.mp4)</option>\n                        <option value=\"webm\">WebM (.webm)</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"vbatch-out-codec\">Video Codec</label>\n                      <select id=\"vbatch-out-codec\">\n                        <option value=\"avc\" selected>H.264 / AVC (High compatibility)</option>\n                        <option value=\"hevc\">H.265 / HEVC (High compression)</option>\n                      </select>\n                    </div>\n                  </div>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-vbatch-compress\" open>\n                <summary class=\"card-header\">🗜️ Compression & Audio</summary>\n                <div class=\"config-card-body\">\n                  <label for=\"vbatch-quality\" style=\"display: block; margin-bottom: 0.5rem\">\n                    Video Compression (Subjective Quality):\n                  </label>\n                  <div class=\"quality-readout\">\n                    <span class=\"time-val time-val-primary\" id=\"vbatch-quality-val\">Medium</span>\n                    <span id=\"vbatch-quality-rate\" class=\"quality-rate\">~3.5 Mbps</span>\n                  </div>\n                  <input type=\"range\" id=\"vbatch-quality\" min=\"1\" max=\"5\" value=\"3\" step=\"1\" />\n                  <fieldset style=\"margin-top: 1rem; margin-bottom: 0\">\n                    <label for=\"vbatch-mute\">\n                      <input type=\"checkbox\" id=\"vbatch-mute\" />\n                      🔇 Remove audio track\n                    </label>\n                  </fieldset>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-vbatch-resize\" open>\n                <summary class=\"card-header\">📐 Resize</summary>\n                <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"vbatch-enable-resize\">\n                      <input type=\"checkbox\" id=\"vbatch-enable-resize\" />\n                      Enable Resize (applied to all)\n                    </label>\n                  </fieldset>\n                  <div id=\"vbatch-resize-controls\" style=\"display: none\">\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"vbatch-maxdim-preset\">Max Dimension Preset</label>\n                        <select id=\"vbatch-maxdim-preset\">\n                          <option value=\"\" selected>Choose a preset…</option>\n                          <option value=\"480\">480 px</option>\n                          <option value=\"720\">720 px</option>\n                          <option value=\"1080\">1080 px</option>\n                          <option value=\"1280\">1280 px</option>\n                          <option value=\"1920\">1920 px</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"vbatch-maxdim\">Max Dimension (px)</label>\n                        <input type=\"number\" id=\"vbatch-maxdim\" min=\"1\" placeholder=\"e.g. 1080\" />\n                      </div>\n                    </div>\n                    <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.75rem\">\n                      💡 Caps the longest side (downscale only — never enlarged; aspect ratio preserved).\n                    </small>\n                  </div>\n                </div>\n              </details>\n            </div>\n\n            <!-- Column 3: actions, results queue, and logs -->\n            <div class=\"workshop-output\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n              <div class=\"output-actions\">\n                <button type=\"button\" id=\"vbatch-process-btn\" class=\"contrast\">🎬 Process All Videos</button>\n                <button type=\"button\" id=\"vbatch-download-all\" class=\"secondary\" style=\"display: none\">\n                  ⬇️ Download All (.zip)\n                </button>\n              </div>\n\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Queue (<span id=\"vbatch-count\">0</span>)\n                </header>\n                <div id=\"vbatch-queue\"></div>\n              </article>\n\n              <details class=\"config-card log-section\">\n                <summary class=\"card-header\">🔍 System Console & logs (verbose)</summary>\n                <div class=\"config-card-body\">\n                  <div style=\"position: relative\">\n                    <button id=\"clear-console-btn-vbatch\" class=\"outline secondary\" style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\">\n                      Clear Log\n                    </button>\n                    <pre id=\"log-console-vbatch\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                  </div>\n                </div>\n              </details>\n            </div>\n          </div>\n        </div>\n      </section>\n    </main>\n\n    <footer\n      style=\"\n        margin-top: 4rem;\n        padding: 1.5rem 0;\n        border-top: 1px solid var(--pico-muted-border-color);\n        text-align: center;\n        font-size: 0.85rem;\n        color: var(--pico-muted-color);\n      \"\n    >\n      <p>Powered by <strong>WebCodecs</strong> & <strong>MediaBunny</strong>. Built by Cacheflowe 👋</p>\n    </footer>\n";
+var r = ":host,:root{--pico-font-family-emoji:\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";--pico-font-family-sans-serif:system-ui,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,Arial,\"Helvetica Neue\",sans-serif,var(--pico-font-family-emoji);--pico-font-family-monospace:ui-monospace,SFMono-Regular,\"SF Mono\",Menlo,Consolas,\"Liberation Mono\",monospace,var(--pico-font-family-emoji);--pico-font-family:var(--pico-font-family-sans-serif);--pico-line-height:1.5;--pico-font-weight:400;--pico-font-size:100%;--pico-text-underline-offset:.1rem;--pico-border-radius:.25rem;--pico-border-width:.0625rem;--pico-outline-width:.125rem;--pico-transition:.2s ease-in-out;--pico-spacing:1rem;--pico-typography-spacing-vertical:1rem;--pico-block-spacing-vertical:var(--pico-spacing);--pico-block-spacing-horizontal:var(--pico-spacing);--pico-grid-column-gap:var(--pico-spacing);--pico-grid-row-gap:var(--pico-spacing);--pico-form-element-spacing-vertical:.75rem;--pico-form-element-spacing-horizontal:1rem;--pico-group-box-shadow:0 0 0 #0000;--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-primary-focus);--pico-group-box-shadow-focus-with-input:0 0 0 .0625rem var(--pico-form-element-border-color);--pico-modal-overlay-backdrop-filter:blur(.375rem);--pico-nav-element-spacing-vertical:1rem;--pico-nav-element-spacing-horizontal:.5rem;--pico-nav-link-spacing-vertical:.5rem;--pico-nav-link-spacing-horizontal:.5rem;--pico-nav-breadcrumb-divider:\">\";--pico-icon-checkbox:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-minus:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-chevron:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-date:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-time:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolyline points='12 6 12 12 16 14'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-search:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-close:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-loading:url(\"data:image/svg+xml,%3Csvg fill='none' height='24' width='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' %3E%3Cstyle%3E g %7B animation: rotate 2s linear infinite; transform-origin: center center; %7D circle %7B stroke-dasharray: 75,100; stroke-dashoffset: -5; animation: dash 1.5s ease-in-out infinite; stroke-linecap: round; %7D @keyframes rotate %7B 0%25 %7B transform: rotate(0deg); %7D 100%25 %7B transform: rotate(360deg); %7D %7D @keyframes dash %7B 0%25 %7B stroke-dasharray: 1,100; stroke-dashoffset: 0; %7D 50%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -17.5; %7D 100%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -62; %7D %7D %3C/style%3E%3Cg%3E%3Ccircle cx='12' cy='12' r='10' fill='none' stroke='rgb(136, 145, 164)' stroke-width='4' /%3E%3C/g%3E%3C/svg%3E\")}@media (width>=576px){:host,:root{--pico-font-size:106.25%}}@media (width>=768px){:host,:root{--pico-font-size:112.5%}}@media (width>=1024px){:host,:root{--pico-font-size:118.75%}}@media (width>=1280px){:host,:root{--pico-font-size:125%}}@media (width>=1536px){:host,:root{--pico-font-size:131.25%}}a,a.contrast,a.secondary{--pico-text-decoration:underline}small{--pico-font-size:.875em}h1,h2,h3,h4,h5,h6{--pico-font-weight:700}h1{--pico-font-size:2rem;--pico-line-height:1.125;--pico-typography-spacing-top:3rem}h2{--pico-font-size:1.75rem;--pico-line-height:1.15;--pico-typography-spacing-top:2.625rem}h3{--pico-font-size:1.5rem;--pico-line-height:1.175;--pico-typography-spacing-top:2.25rem}h4{--pico-font-size:1.25rem;--pico-line-height:1.2;--pico-typography-spacing-top:1.874rem}h5{--pico-font-size:1.125rem;--pico-line-height:1.225;--pico-typography-spacing-top:1.6875rem}h6{--pico-font-size:1rem;--pico-line-height:1.25;--pico-typography-spacing-top:1.5rem}tfoot td,tfoot th,thead td,thead th{--pico-font-weight:600;--pico-border-width:.1875rem}code,kbd,pre,samp{--pico-font-family:var(--pico-font-family-monospace)}kbd{--pico-font-weight:bolder}:where(select,textarea),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-outline-width:.0625rem}[type=search]{--pico-border-radius:5rem}[type=checkbox],[type=radio]{--pico-border-width:.125rem}[type=checkbox][role=switch]{--pico-border-width:.1875rem}details.dropdown summary:not([role=button]){--pico-outline-width:.0625rem}nav details.dropdown summary:focus-visible{--pico-outline-width:.125rem}[role=search]{--pico-border-radius:5rem}:is([role=group]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus),[role=search]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is([role=group]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus),[role=search]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=submit],[role=search] button{--pico-form-element-spacing-horizontal:2rem}details summary[role=button]:not(.outline):after,[aria-busy=true]:not(input,select,textarea):is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)invert()}:host(:not([data-theme=dark])),:root:not([data-theme=dark]),[data-theme=light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--pico-background-color:#fff;--pico-color:#373c44;--pico-text-selection-color:#029ae840;--pico-muted-color:#646b79;--pico-muted-border-color:#e7eaf0;--pico-primary:#0172ad;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#0172ad80;--pico-primary-hover:#015887;--pico-primary-hover-background:#02659a;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#029ae880;--pico-primary-inverse:#fff;--pico-secondary:#5d6b89;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#5d6b8980;--pico-secondary-hover:#48536b;--pico-secondary-hover-background:#48536b;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#5d6b8940;--pico-secondary-inverse:#fff;--pico-contrast:#181c25;--pico-contrast-background:#181c25;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#181c2580;--pico-contrast-hover:#000;--pico-contrast-hover-background:#000;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-secondary-hover);--pico-contrast-focus:#5d6b8940;--pico-contrast-inverse:#fff;--pico-box-shadow:.0145rem .029rem .174rem #8191b504,.0335rem .067rem .402rem #8191b506,.0625rem .125rem .75rem #8191b508,.1125rem .225rem 1.35rem #8191b509,.2085rem .417rem 2.502rem #8191b50b,.5rem 1rem 6rem #8191b50f,0 0 0 .0625rem #8191b504;--pico-h1-color:#2d3138;--pico-h2-color:#373c44;--pico-h3-color:#424751;--pico-h4-color:#4d535e;--pico-h5-color:#5c6370;--pico-h6-color:#646b79;--pico-mark-background-color:#fde7c0;--pico-mark-color:#0f1114;--pico-ins-color:#1d6a54;--pico-del-color:#883935;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#f3f5f7;--pico-code-color:#646b79;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#fbfcfc;--pico-form-element-selected-background-color:#dfe3eb;--pico-form-element-border-color:#cfd5e2;--pico-form-element-color:#23262c;--pico-form-element-placeholder-color:var(--pico-muted-color);--pico-form-element-active-background-color:#fff;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#b86a6b;--pico-form-element-invalid-active-border-color:#c84f48;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#4c9b8a;--pico-form-element-valid-active-border-color:#279977;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#bfc7d9;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#dfe3eb;--pico-range-active-border-color:#bfc7d9;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:var(--pico-background-color);--pico-card-border-color:var(--pico-muted-border-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#fbfcfc;--pico-dropdown-background-color:#fff;--pico-dropdown-border-color:#eff1f4;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#eff1f4;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#e8eaedbf;--pico-progress-background-color:#dfe3eb;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(76, 154.5, 137.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(200.25, 79.25, 72.25)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme=dark])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme=dark]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),[data-theme=light] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}@media only screen and (prefers-color-scheme:dark){:host(:not([data-theme])),:root:not([data-theme]){--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}:host(:not([data-theme])) details summary[role=button].contrast:not(.outline):after,:root:not([data-theme]) details summary[role=button].contrast:not(.outline):after,:host(:not([data-theme])) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before,:root:not([data-theme]) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}}[data-theme=dark]{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}[data-theme=dark] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}[data-theme=dark] details summary[role=button].contrast:not(.outline):after,[data-theme=dark] [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}[type=checkbox],[type=radio],[type=range],progress{accent-color:var(--pico-primary)}*,:after,:before{box-sizing:border-box;background-repeat:no-repeat}:after,:before{-webkit-text-decoration:inherit;text-decoration:inherit;vertical-align:inherit}:where(:host),:where(:root){-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family);text-underline-offset:var(--pico-text-underline-offset);text-rendering:optimizelegibility;overflow-wrap:break-word;tab-size:4}body{width:100%;margin:0}main{display:block}body>footer,body>header,body>main{padding-block:var(--pico-block-spacing-vertical)}section{margin-bottom:var(--pico-block-spacing-vertical)}.container,.container-fluid{width:100%;padding-right:var(--pico-spacing);padding-left:var(--pico-spacing);margin-left:auto;margin-right:auto}@media (width>=576px){.container{max-width:510px;padding-left:0;padding-right:0}}@media (width>=768px){.container{max-width:700px}}@media (width>=1024px){.container{max-width:950px}}@media (width>=1280px){.container{max-width:1200px}}@media (width>=1536px){.container{max-width:1450px}}.grid{grid-column-gap:var(--pico-grid-column-gap);grid-row-gap:var(--pico-grid-row-gap);grid-template-columns:1fr;display:grid}@media (width>=768px){.grid{grid-template-columns:repeat(auto-fit,minmax(0%,1fr))}}.grid>*{min-width:0}.overflow-auto{overflow:auto}b,strong{font-weight:bolder}sub,sup{vertical-align:baseline;font-size:.75em;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}address,blockquote,dl,ol,p,pre,table,ul{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-style:normal;font-weight:var(--pico-font-weight)}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family)}h1{--pico-color:var(--pico-h1-color)}h2{--pico-color:var(--pico-h2-color)}h3{--pico-color:var(--pico-h3-color)}h4{--pico-color:var(--pico-h4-color)}h5{--pico-color:var(--pico-h5-color)}h6{--pico-color:var(--pico-h6-color)}:where(article,address,blockquote,dl,figure,form,ol,p,pre,table,ul)~:is(h1,h2,h3,h4,h5,h6){margin-top:var(--pico-typography-spacing-top)}p,hgroup{margin-bottom:var(--pico-typography-spacing-vertical)}hgroup>*{margin-top:0;margin-bottom:0}hgroup>:not(:first-child):last-child{--pico-color:var(--pico-muted-color);--pico-font-weight:unset;font-size:1rem}:where(ol,ul) li{margin-bottom:calc(var(--pico-typography-spacing-vertical) * .25)}:where(dl,ol,ul) :where(dl,ol,ul){margin:0;margin-top:calc(var(--pico-typography-spacing-vertical) * .25)}ul li{list-style:square}mark{background-color:var(--pico-mark-background-color);color:var(--pico-mark-color);vertical-align:baseline;padding:.125rem .25rem}blockquote{margin:var(--pico-typography-spacing-vertical) 0;padding:var(--pico-spacing);border-right:none;border-left:.25rem solid var(--pico-blockquote-border-color);border-inline-start:.25rem solid var(--pico-blockquote-border-color);border-inline-end:none;display:block}blockquote footer{margin-top:calc(var(--pico-typography-spacing-vertical) * .5);color:var(--pico-blockquote-footer-color)}abbr[title]{cursor:help;border-bottom:1px dotted;text-decoration:none}ins{color:var(--pico-ins-color);text-decoration:none}del{color:var(--pico-del-color)}::selection{background-color:var(--pico-text-selection-color)}:where(a:not([role=button])),[role=link]{--pico-color:var(--pico-primary);--pico-background-color:transparent;--pico-underline:var(--pico-primary-underline);background-color:var(--pico-background-color);color:var(--pico-color);-webkit-text-decoration:var(--pico-text-decoration);-webkit-text-decoration:var(--pico-text-decoration);text-decoration:var(--pico-text-decoration);-webkit-text-decoration-color:var(--pico-underline);text-decoration-color:var(--pico-underline);text-underline-offset:.125em;transition:background-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);outline:0}:where(a:not([role=button])):is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-primary-hover);--pico-underline:var(--pico-primary-hover-underline);--pico-text-decoration:underline}:where(a:not([role=button])):focus-visible,[role=link]:focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}:where(a:not([role=button])).secondary,[role=link].secondary{--pico-color:var(--pico-secondary);--pico-underline:var(--pico-secondary-underline)}:where(a:not([role=button])).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-underline:var(--pico-secondary-hover-underline)}:where(a:not([role=button])).contrast,[role=link].contrast{--pico-color:var(--pico-contrast);--pico-underline:var(--pico-contrast-underline)}:where(a:not([role=button])).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-underline:var(--pico-contrast-hover-underline)}a[role=button]{display:inline-block}button{text-transform:none;margin:0;font-family:inherit;overflow:visible}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[role=button],[type=button],[type=reset],[type=submit],button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[type=file]::file-selector-button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[role=button]:is(:hover,:active,:focus),[role=button][aria-current]:not([aria-current=false]),[type=button]:is(:hover,:active,:focus),[type=button][aria-current]:not([aria-current=false]),[type=reset]:is(:hover,:active,:focus),[type=reset][aria-current]:not([aria-current=false]),[type=submit]:is(:hover,:active,:focus),[type=submit][aria-current]:not([aria-current=false]),button:is(:hover,:active,:focus),button[aria-current]:not([aria-current=false]){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[role=button]:focus,[role=button][aria-current]:not([aria-current=false]):focus,[type=button]:focus,[type=button][aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus,[type=submit]:focus,[type=submit][aria-current]:not([aria-current=false]):focus,button:focus,button[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=button],[type=reset],[type=submit]{margin-bottom:var(--pico-spacing)}:is(button,[type=submit],[type=button],[role=button]).secondary,[type=reset]{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}[type=file]::file-selector-button{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}:is(button,[type=submit],[type=button],[role=button]).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}:is(button,[type=submit],[type=button],[role=button]).secondary:focus,:is(button,[type=submit],[type=button],[role=button]).secondary[aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is(button,[type=submit],[type=button],[role=button]).contrast{--pico-background-color:var(--pico-contrast-background);--pico-border-color:var(--pico-contrast-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-contrast-hover-background);--pico-border-color:var(--pico-contrast-hover-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:focus,:is(button,[type=submit],[type=button],[role=button]).contrast[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}:is(button,[type=submit],[type=button],[role=button]).outline,[type=reset].outline{--pico-background-color:transparent;--pico-color:var(--pico-primary);--pico-border-color:var(--pico-primary)}:is(button,[type=submit],[type=button],[role=button]).outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:transparent;--pico-color:var(--pico-primary-hover);--pico-border-color:var(--pico-primary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary,[type=reset].outline{--pico-color:var(--pico-secondary);--pico-border-color:var(--pico-secondary)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-border-color:var(--pico-secondary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast{--pico-color:var(--pico-contrast);--pico-border-color:var(--pico-contrast)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-border-color:var(--pico-contrast-hover)}:where(button,[type=submit],[type=reset],[type=button],[role=button])[disabled],:where(fieldset[disabled]) :is(button,[type=submit],[type=button],[type=reset],[role=button]){opacity:.5;pointer-events:none}:where(table){border-collapse:collapse;border-spacing:0;text-indent:0;width:100%}td,th{padding:calc(var(--pico-spacing)/ 2) var(--pico-spacing);border-bottom:var(--pico-border-width) solid var(--pico-table-border-color);background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);text-align:left;text-align:start}tfoot td,tfoot th{border-top:var(--pico-border-width) solid var(--pico-table-border-color);border-bottom:0}table.striped tbody tr:nth-child(odd) td,table.striped tbody tr:nth-child(odd) th{background-color:var(--pico-table-row-stripped-background-color)}:where(audio,canvas,iframe,img,svg,video){vertical-align:middle}audio,video{display:inline-block}audio:not([controls]){height:0;display:none}:where(iframe){border-style:none}img{border-style:none;max-width:100%;height:auto}:where(svg:not([fill])){fill:currentColor}svg:not(:host),svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-size:.875em;font-family:var(--pico-font-family)}pre code,pre samp{font-size:inherit;font-family:inherit}pre{-ms-overflow-style:scrollbar;overflow:auto}code,kbd,pre,samp{border-radius:var(--pico-border-radius);background:var(--pico-code-background-color);color:var(--pico-code-color);font-weight:var(--pico-font-weight);line-height:initial}code,kbd,samp{padding:.375rem;display:inline-block}pre{margin-bottom:var(--pico-spacing);display:block;overflow-x:auto}pre>code,pre>samp{padding:var(--pico-spacing);line-height:var(--pico-line-height);background:0 0;display:block}kbd{background-color:var(--pico-code-kbd-background-color);color:var(--pico-code-kbd-color);vertical-align:baseline}figure{margin:0;padding:0;display:block}figure figcaption{padding:calc(var(--pico-spacing) * .5) 0;color:var(--pico-muted-color)}hr{height:0;margin:var(--pico-typography-spacing-vertical) 0;border:0;border-top:1px solid var(--pico-muted-border-color);color:inherit}[hidden],template{display:none!important}canvas{display:inline-block}input,optgroup,select,textarea{font-size:1rem;line-height:var(--pico-line-height);letter-spacing:inherit;margin:0;font-family:inherit}input{overflow:visible}select{text-transform:none}legend{max-width:100%;color:inherit;white-space:normal;padding:0}textarea{overflow:auto}[type=checkbox],[type=radio]{padding:0}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:0}:-moz-ui-invalid{box-shadow:none}::-ms-expand{display:none}[type=file],[type=range]{border-width:0;padding:0}input:not([type=checkbox],[type=radio],[type=range]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2)}fieldset{width:100%;margin:0;margin-bottom:var(--pico-spacing);border:0;padding:0}fieldset legend,label{margin-bottom:calc(var(--pico-spacing) * .375);color:var(--pico-color);font-weight:var(--pico-form-label-font-weight,var(--pico-font-weight));display:block}fieldset legend{margin-bottom:calc(var(--pico-spacing) * .5)}button[type=submit],input:not([type=checkbox],[type=radio]),select,textarea{width:100%}input:not([type=checkbox],[type=radio],[type=range],[type=file]),select,textarea{appearance:none;padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal)}input,select,textarea{--pico-background-color:var(--pico-form-element-background-color);--pico-border-color:var(--pico-form-element-border-color);--pico-color:var(--pico-form-element-color);--pico-box-shadow:none;border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[readonly]):is(:active,:focus){--pico-background-color:var(--pico-form-element-active-background-color)}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[role=switch],[readonly]):is(:active,:focus){--pico-border-color:var(--pico-form-element-active-border-color)}:where(select,textarea):not([readonly]):focus,input:not([type=submit],[type=button],[type=reset],[type=range],[type=file],[readonly]):focus{--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}:where(fieldset[disabled]) :is(input:not([type=submit],[type=button],[type=reset]),select,textarea),input:not([type=submit],[type=button],[type=reset])[disabled],label[aria-disabled=true],select[disabled],textarea[disabled]{opacity:var(--pico-form-element-disabled-opacity);pointer-events:none}label[aria-disabled=true] input[disabled]{opacity:1}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid]{padding-left:var(--pico-form-element-spacing-horizontal);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important;padding-inline-start:var(--pico-form-element-spacing-horizontal)!important;padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=false]:not(select){background-image:var(--pico-icon-valid)}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=true]:not(select){background-image:var(--pico-icon-invalid)}:where(input,select,textarea)[aria-invalid=false]{--pico-border-color:var(--pico-form-element-valid-border-color)}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus){--pico-border-color:var(--pico-form-element-valid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-valid-focus-color)!important}:where(input,select,textarea)[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus){--pico-border-color:var(--pico-form-element-invalid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-invalid-focus-color)!important}[dir=rtl] :where(input,select,textarea):not([type=checkbox],[type=radio]):is([aria-invalid],[aria-invalid=true],[aria-invalid=false]){background-position:.75rem}input::placeholder,select:invalid,textarea::placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}textarea::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input:not([type=checkbox],[type=radio]),select,textarea{margin-bottom:var(--pico-spacing)}select::-ms-expand{background-color:#0000;border:0}select:not([multiple],[size]){padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem);padding-left:var(--pico-form-element-spacing-horizontal);background-image:var(--pico-icon-chevron);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-inline-start:var(--pico-form-element-spacing-horizontal);padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)}select[multiple] option:checked{background:var(--pico-form-element-selected-background-color);color:var(--pico-form-element-color)}[dir=rtl] select:not([multiple],[size]){background-position:.75rem}textarea{resize:vertical;display:block}textarea[aria-invalid]{--pico-icon-height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);background-position:right .75rem top!important;background-size:1rem var(--pico-icon-height)!important}:where(input,select,textarea,fieldset,.grid)+small{width:100%;margin-top:calc(var(--pico-spacing) * -.75);margin-bottom:var(--pico-spacing);color:var(--pico-muted-color);display:block}:where(input,select,textarea,fieldset,.grid)[aria-invalid=false]+small{color:var(--pico-ins-color)}:where(input,select,textarea,fieldset,.grid)[aria-invalid=true]+small{color:var(--pico-del-color)}label>:where(input,select,textarea){margin-top:calc(var(--pico-spacing) * .25)}label:has([type=checkbox],[type=radio]){cursor:pointer;width:fit-content}[type=checkbox],[type=radio]{appearance:none;margin-top:-.125em;border-width:var(--pico-border-width);vertical-align:middle;cursor:pointer;width:1.25em;height:1.25em;margin-inline-end:.5em}[type=checkbox]::-ms-check{display:none}[type=radio]::-ms-check{display:none}[type=checkbox]:checked,[type=checkbox]:checked:active,[type=checkbox]:checked:focus,[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-checkbox);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=checkbox]~label,[type=radio]~label{cursor:pointer;margin-bottom:0;display:inline-block}[type=checkbox]~label:not(:last-of-type),[type=radio]~label:not(:last-of-type){margin-inline-end:1em}[type=checkbox]:indeterminate{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-minus);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=radio]{border-radius:50%}[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-inverse);background-image:none;border-width:.35em}[type=checkbox][role=switch]{--pico-background-color:var(--pico-switch-background-color);--pico-color:var(--pico-switch-color);border:var(--pico-border-width) solid var(--pico-border-color);background-color:var(--pico-background-color);border-radius:1.25em;width:2.25em;height:1.25em;line-height:1.25em}[type=checkbox][role=switch]:not([aria-invalid]){--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:before{aspect-ratio:1;background-color:var(--pico-color);height:100%;box-shadow:var(--pico-switch-thumb-box-shadow);content:\"\";border-radius:50%;transition:margin .1s ease-in-out;display:block}[type=checkbox][role=switch]:focus{--pico-background-color:var(--pico-switch-background-color);--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:checked{--pico-background-color:var(--pico-switch-checked-background-color);--pico-border-color:var(--pico-switch-checked-background-color);background-image:none}[type=checkbox][role=switch]:checked:before{margin-inline-start:1em}[type=checkbox][role=switch][disabled]{--pico-background-color:var(--pico-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus{--pico-background-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true]{--pico-background-color:var(--pico-form-element-invalid-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus,[type=radio][aria-invalid=false]:checked,[type=radio][aria-invalid=false]:checked:active,[type=radio][aria-invalid=false]:checked:focus{--pico-border-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true],[type=radio]:checked:active[aria-invalid=true],[type=radio]:checked:focus[aria-invalid=true],[type=radio]:checked[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}[type=color]::-webkit-color-swatch-wrapper{padding:0}[type=color]::-moz-focus-inner{padding:0}[type=color]::-webkit-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}[type=color]::-moz-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}input:not([type=checkbox],[type=radio],[type=range],[type=file]):is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){--pico-icon-position:.75rem;--pico-icon-width:1rem;padding-right:calc(var(--pico-icon-width) + var(--pico-icon-position));background-image:var(--pico-icon-date);background-position:center right var(--pico-icon-position);background-size:var(--pico-icon-width) auto;background-repeat:no-repeat}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=time]{background-image:var(--pico-icon-time)}[type=date]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=datetime-local]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=month]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=time]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=week]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}@-moz-document url-prefix(){[type=date],[type=datetime-local],[type=month],[type=time],[type=week]{padding-right:var(--pico-form-element-spacing-horizontal)!important;background-image:none!important}}[dir=rtl] :is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){text-align:right}[type=file]{--pico-color:var(--pico-muted-color);margin-left:calc(var(--pico-outline-width) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) 0;padding-left:var(--pico-outline-width);background:0 0;border:0;border-radius:0}[type=file]::file-selector-button{margin-right:calc(var(--pico-spacing)/ 2);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal)}[type=file]:is(:hover,:active,:focus)::file-selector-button{--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border)}[type=file]:focus::file-selector-button{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=range]{appearance:none;background:0 0;width:100%;height:1.25rem}[type=range]::-webkit-slider-runnable-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-webkit-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-moz-range-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-moz-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-ms-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-ms-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-webkit-slider-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-webkit-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-moz-range-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-moz-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-ms-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-ms-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]:active,[type=range]:focus-within{--pico-range-border-color:var(--pico-range-active-border-color);--pico-range-thumb-color:var(--pico-range-thumb-active-color)}[type=range]:active::-webkit-slider-thumb{transform:scale(1.25)}[type=range]:active::-moz-range-thumb{transform:scale(1.25)}[type=range]:active::-ms-thumb{transform:scale(1.25)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-image:var(--pico-icon-search);background-position:center left calc(var(--pico-form-element-spacing-horizontal) + .125rem);background-repeat:no-repeat;background-size:1rem;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:1.125rem,right .75rem center;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)!important}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=false]{background-image:var(--pico-icon-search),var(--pico-icon-valid)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=true]{background-image:var(--pico-icon-search),var(--pico-icon-invalid)}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-position:right 1.125rem center}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:right 1.125rem center,.75rem}details{margin-bottom:var(--pico-spacing);display:block}details summary{cursor:pointer;transition:color var(--pico-transition);line-height:1rem;list-style-type:none}details summary:not([role]){color:var(--pico-accordion-close-summary-color)}details summary::-webkit-details-marker{display:none}details summary::marker{display:none}details summary::-moz-list-bullet{list-style-type:none}details summary:after{width:1rem;height:1rem;float:right;background-image:var(--pico-icon-chevron);content:\"\";transition:transform var(--pico-transition);background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:calc(var(--pico-spacing,1rem) * .5);display:block;transform:rotate(-90deg)}details summary:focus{outline:0}details summary:focus:not([role]){color:var(--pico-accordion-active-summary-color)}details summary:focus-visible:not([role]){outline:var(--pico-outline-width) solid var(--pico-primary-focus);outline-offset:calc(var(--pico-spacing,1rem) * .5);color:var(--pico-primary)}details summary[role=button]{text-align:left;width:100%}details summary[role=button]:after{height:calc(1rem * var(--pico-line-height,1.5))}details[open]>summary{margin-bottom:var(--pico-spacing)}details[open]>summary:not([role]):not(:focus){color:var(--pico-accordion-open-summary-color)}details[open]>summary:after{transform:rotate(0)}[dir=rtl] details summary{text-align:right}[dir=rtl] details summary:after{float:left;background-position:0}article{margin-bottom:var(--pico-block-spacing-vertical);padding:var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);border-radius:var(--pico-border-radius);background:var(--pico-card-background-color);box-shadow:var(--pico-card-box-shadow)}article>footer,article>header{margin-right:calc(var(--pico-block-spacing-horizontal) * -1);margin-left:calc(var(--pico-block-spacing-horizontal) * -1);padding:calc(var(--pico-block-spacing-vertical) * .66) var(--pico-block-spacing-horizontal);background-color:var(--pico-card-sectioning-background-color)}article>header{margin-top:calc(var(--pico-block-spacing-vertical) * -1);margin-bottom:var(--pico-block-spacing-vertical);border-bottom:var(--pico-border-width) solid var(--pico-card-border-color);border-top-right-radius:var(--pico-border-radius);border-top-left-radius:var(--pico-border-radius)}article>footer{margin-top:var(--pico-block-spacing-vertical);margin-bottom:calc(var(--pico-block-spacing-vertical) * -1);border-top:var(--pico-border-width) solid var(--pico-card-border-color);border-bottom-right-radius:var(--pico-border-radius);border-bottom-left-radius:var(--pico-border-radius)}details.dropdown{border-bottom:none;position:relative}details.dropdown>a:after,details.dropdown>button:after,details.dropdown>summary:after{width:1rem;height:calc(1rem * var(--pico-line-height,1.5));float:right;background-image:var(--pico-icon-chevron);content:\"\";background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:.25rem;display:block;transform:rotate(0)translate(.2rem)}nav details.dropdown{margin-bottom:0}details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-form-element-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-form-element-background-color);color:var(--pico-form-element-placeholder-color);line-height:inherit;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition)}details.dropdown>summary:not([role]):active,details.dropdown>summary:not([role]):focus{border-color:var(--pico-form-element-active-border-color);background-color:var(--pico-form-element-active-background-color)}details.dropdown>summary:not([role]):focus{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}details.dropdown>summary:not([role]):focus-visible{outline:0}details.dropdown>summary:not([role])[aria-invalid=false]{--pico-form-element-border-color:var(--pico-form-element-valid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-valid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-valid-focus-color)}details.dropdown>summary:not([role])[aria-invalid=true]{--pico-form-element-border-color:var(--pico-form-element-invalid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-invalid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-invalid-focus-color)}nav details.dropdown{margin:calc(var(--pico-nav-element-spacing-vertical) * -1) 0;display:inline}nav details.dropdown>summary:after{transform:rotate(0)translate(0)}nav details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-nav-link-spacing-vertical) * 2);padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav details.dropdown>summary:not([role]):focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}details.dropdown>summary+ul{z-index:99;width:100%;min-width:fit-content;margin:0;margin-top:var(--pico-outline-width);border:var(--pico-border-width) solid var(--pico-dropdown-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-dropdown-background-color);box-shadow:var(--pico-dropdown-box-shadow);color:var(--pico-dropdown-color);white-space:nowrap;opacity:0;transition:opacity var(--pico-transition),transform 0s ease-in-out 1s;flex-direction:column;padding:0;display:flex;position:absolute;left:0}details.dropdown>summary+ul[dir=rtl]{left:auto;right:0}details.dropdown>summary+ul li{width:100%;padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);margin-bottom:0;list-style:none}details.dropdown>summary+ul li:first-of-type{margin-top:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li:last-of-type{margin-bottom:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li a{margin:calc(var(--pico-form-element-spacing-vertical) * -.5) calc(var(--pico-form-element-spacing-horizontal) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);color:var(--pico-dropdown-color);text-overflow:ellipsis;border-radius:0;text-decoration:none;display:block;overflow:hidden}details.dropdown>summary+ul li a:active,details.dropdown>summary+ul li a:focus,details.dropdown>summary+ul li a:focus-visible,details.dropdown>summary+ul li a:hover,details.dropdown>summary+ul li a[aria-current]:not([aria-current=false]){background-color:var(--pico-dropdown-hover-background-color)}details.dropdown>summary+ul li label{width:100%}details.dropdown>summary+ul li:has(label):hover{background-color:var(--pico-dropdown-hover-background-color)}details.dropdown[open]>summary{margin-bottom:0}details.dropdown[open]>summary+ul{opacity:1;transition:opacity var(--pico-transition),transform 0s ease-in-out 0s;transform:scaleY(1)}details.dropdown[open]>summary:before{z-index:1;content:\"\";cursor:default;background:0 0;width:100vw;height:100vh;display:block;position:fixed;inset:0}label>details.dropdown{margin-top:calc(var(--pico-spacing) * .25)}[role=group],[role=search]{width:100%;margin-bottom:var(--pico-spacing);border-radius:var(--pico-border-radius);box-shadow:var(--pico-group-box-shadow,0 0 0 transparent);vertical-align:middle;transition:box-shadow var(--pico-transition);display:inline-flex;position:relative}[role=group] input:not([type=checkbox],[type=radio]),[role=group] select,[role=group]>*,[role=search] input:not([type=checkbox],[type=radio]),[role=search] select,[role=search]>*{flex:auto;margin-bottom:0;position:relative}[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=group]>:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child),[role=search]>:not(:first-child){border-top-left-radius:0;border-bottom-left-radius:0;margin-left:0}[role=group] input:not([type=checkbox],[type=radio]):not(:last-child),[role=group] select:not(:last-child),[role=group]>:not(:last-child),[role=search] input:not([type=checkbox],[type=radio]):not(:last-child),[role=search] select:not(:last-child),[role=search]>:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0}[role=group] input:not([type=checkbox],[type=radio]):focus,[role=group] select:focus,[role=group]>:focus,[role=search] input:not([type=checkbox],[type=radio]):focus,[role=search] select:focus,[role=search]>:focus{z-index:2}[role=group] [role=button]:not(:first-child),[role=group] [type=button]:not(:first-child),[role=group] [type=reset]:not(:first-child),[role=group] [type=submit]:not(:first-child),[role=group] button:not(:first-child),[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=search] [role=button]:not(:first-child),[role=search] [type=button]:not(:first-child),[role=search] [type=reset]:not(:first-child),[role=search] [type=submit]:not(:first-child),[role=search] button:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child){margin-left:calc(var(--pico-border-width) * -1)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=reset],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=reset],[role=search] [type=submit],[role=search] button{width:auto}@supports selector(:has(*)){:is([role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus),[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-button)}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}:is([role=group]:has(input:not([type=submit],[type=button]):focus,select:focus),[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-input)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group] [role=button]:focus,[role=group] [type=button]:focus,[role=group] [type=reset]:focus,[role=group] [type=submit]:focus,[role=group] button:focus,[role=search] [role=button]:focus,[role=search] [type=button]:focus,[role=search] [type=reset]:focus,[role=search] [type=submit]:focus,[role=search] button:focus{box-shadow:none}}[role=search]>:first-child{border-top-left-radius:5rem;border-bottom-left-radius:5rem}[role=search]>:last-child{border-top-right-radius:5rem;border-bottom-right-radius:5rem}[aria-busy=true]:not(input,select,textarea,html,form){white-space:nowrap}[aria-busy=true]:not(input,select,textarea,html,form):before{background-image:var(--pico-icon-loading);content:\"\";vertical-align:-.125em;background-repeat:no-repeat;background-size:1em;width:1em;height:1em;display:inline-block}[aria-busy=true]:not(input,select,textarea,html,form):not(:empty):before{margin-inline-end:calc(var(--pico-spacing) * .5)}[aria-busy=true]:not(input,select,textarea,html,form):empty{text-align:center}[role=button][aria-busy=true],[type=button][aria-busy=true],[type=reset][aria-busy=true],[type=submit][aria-busy=true],a[aria-busy=true],button[aria-busy=true]{pointer-events:none}:host,:root{--pico-scrollbar-width:0px}dialog{z-index:999;width:inherit;min-width:100%;height:inherit;min-height:100%;-webkit-backdrop-filter:var(--pico-modal-overlay-backdrop-filter);backdrop-filter:var(--pico-modal-overlay-backdrop-filter);background-color:var(--pico-modal-overlay-background-color);color:var(--pico-color);border:0;justify-content:center;align-items:center;padding:0;display:flex;position:fixed;inset:0}dialog>article{width:100%;max-height:calc(100vh - var(--pico-spacing) * 2);margin:var(--pico-spacing);overflow:auto}@media (width>=576px){dialog>article{max-width:510px}}@media (width>=768px){dialog>article{max-width:700px}}dialog>article>header>*{margin-bottom:0}dialog>article>header .close,dialog>article>header :is(a,button)[rel=prev]{margin:0;margin-left:var(--pico-spacing);float:right;padding:0}dialog>article>footer{text-align:right}dialog>article>footer [role=button],dialog>article>footer button{margin-bottom:0}dialog>article>footer [role=button]:not(:first-of-type),dialog>article>footer button:not(:first-of-type){margin-left:calc(var(--pico-spacing) * .5)}dialog>article .close,dialog>article :is(a,button)[rel=prev]{width:1rem;height:1rem;margin-top:calc(var(--pico-spacing) * -1);margin-bottom:var(--pico-spacing);background-image:var(--pico-icon-close);opacity:.5;transition:opacity var(--pico-transition);background-color:#0000;background-position:50%;background-repeat:no-repeat;background-size:auto 1rem;border:none;margin-left:auto;display:block}dialog>article .close:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),dialog>article :is(a,button)[rel=prev]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){opacity:1}dialog:not([open]),dialog[open=false]{display:none}.modal-is-open{padding-right:var(--pico-scrollbar-width,0);pointer-events:none;touch-action:none;overflow:hidden}.modal-is-open dialog{pointer-events:auto;touch-action:auto}:where(.modal-is-opening,.modal-is-closing) dialog,:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-duration:.2s;animation-timing-function:ease-in-out;animation-fill-mode:both}:where(.modal-is-opening,.modal-is-closing) dialog{animation-name:modal-overlay;animation-duration:.8s}:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-name:modal;animation-delay:.2s}.modal-is-closing dialog,.modal-is-closing dialog>article{animation-direction:reverse;animation-delay:0s}@keyframes modal-overlay{0%{-webkit-backdrop-filter:none;backdrop-filter:none;background-color:#0000}}@keyframes modal{0%{opacity:0;transform:translateY(-100%)}}:where(nav li):before{float:left;content:\"​\"}nav,nav ul{display:flex}nav{justify-content:space-between;overflow:visible}nav ol,nav ul{align-items:center;margin-bottom:0;padding:0;list-style:none}nav ol:first-of-type,nav ul:first-of-type{margin-left:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav ol:last-of-type,nav ul:last-of-type{margin-right:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav li{padding:var(--pico-nav-element-spacing-vertical) var(--pico-nav-element-spacing-horizontal);margin:0;display:inline-block}nav li :where(a,[role=link]){margin:calc(var(--pico-nav-link-spacing-vertical) * -1) calc(var(--pico-nav-link-spacing-horizontal) * -1);padding:var(--pico-nav-link-spacing-vertical) var(--pico-nav-link-spacing-horizontal);border-radius:var(--pico-border-radius);display:inline-block}nav li :where(a,[role=link]):not(:hover){text-decoration:none}nav li [role=button],nav li [type=button],nav li button,nav li input:not([type=checkbox],[type=radio],[type=range],[type=file]),nav li select{height:auto;margin-right:inherit;margin-bottom:0;margin-left:inherit;padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb]{justify-content:start;align-items:center}nav[aria-label=breadcrumb] ul li:not(:first-child){margin-inline-start:var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb] ul li a{margin:calc(var(--pico-nav-link-spacing-vertical) * -1) 0;margin-inline-start:calc(var(--pico-nav-link-spacing-horizontal) * -1)}nav[aria-label=breadcrumb] ul li:not(:last-child):after{width:calc(var(--pico-nav-link-spacing-horizontal) * 4);margin:0 calc(var(--pico-nav-link-spacing-horizontal) * -1);content:var(--pico-nav-breadcrumb-divider);color:var(--pico-muted-color);text-align:center;white-space:nowrap;text-decoration:none;display:inline-block;position:absolute}nav[aria-label=breadcrumb] a[aria-current]:not([aria-current=false]){color:inherit;pointer-events:none;background-color:#0000;text-decoration:none}aside li,aside nav,aside ol,aside ul{display:block}aside li{padding:calc(var(--pico-nav-element-spacing-vertical) * .5) var(--pico-nav-element-spacing-horizontal)}aside li a{display:block}aside li [role=button]{margin:inherit}[dir=rtl] nav[aria-label=breadcrumb] ul li:not(:last-child) :after{content:\"\\\\\"}progress{vertical-align:baseline;appearance:none;width:100%;height:.5rem;margin-bottom:calc(var(--pico-spacing) * .5);border-radius:var(--pico-border-radius);background-color:var(--pico-progress-background-color);color:var(--pico-progress-color);border:0;display:inline-block;overflow:hidden}progress::-webkit-progress-bar{border-radius:var(--pico-border-radius);background:0 0}progress[value]::-webkit-progress-value{background-color:var(--pico-progress-color);-webkit-transition:inline-size var(--pico-transition);transition:inline-size var(--pico-transition)}progress::-moz-progress-bar{background-color:var(--pico-progress-color)}@media (prefers-reduced-motion:no-preference){progress:indeterminate{background:var(--pico-progress-background-color) linear-gradient(to right,var(--pico-progress-color) 30%,var(--pico-progress-background-color) 30%) top left/150% 150% no-repeat;animation:1s linear infinite progress-indeterminate}progress:indeterminate[value]::-webkit-progress-value{background-color:#0000}progress:indeterminate::-moz-progress-bar{background-color:#0000}[dir=rtl] progress:indeterminate{animation-direction:reverse}}@keyframes progress-indeterminate{0%{background-position:200% 0}to{background-position:-200% 0}}[data-tooltip]{position:relative}[data-tooltip]:not(a,button,input,[role=button]){cursor:help;border-bottom:1px dotted;text-decoration:none}[data-tooltip]:after,[data-tooltip]:before,[data-tooltip][data-placement=top]:after,[data-tooltip][data-placement=top]:before{z-index:99;border-radius:var(--pico-border-radius);background:var(--pico-tooltip-background-color);content:attr(data-tooltip);color:var(--pico-tooltip-color);font-style:normal;font-weight:var(--pico-font-weight);text-overflow:ellipsis;white-space:nowrap;opacity:0;pointer-events:none;padding:.25rem .5rem;font-size:.875rem;text-decoration:none;display:block;position:absolute;bottom:100%;left:50%;overflow:hidden;transform:translate(-50%,-.25rem)}[data-tooltip]:after,[data-tooltip][data-placement=top]:after{content:\"\";color:var(--pico-tooltip-background-color);background-color:#0000;border-top:.3rem solid;border-left:.3rem solid #0000;border-right:.3rem solid #0000;border-radius:0;padding:0;transform:translate(-50%)}[data-tooltip][data-placement=bottom]:after,[data-tooltip][data-placement=bottom]:before{top:100%;bottom:auto;transform:translate(-50%,.25rem)}[data-tooltip][data-placement=bottom]:after{border:.3rem solid #0000;border-bottom-color:currentColor;transform:translate(-50%,-.3rem)}[data-tooltip][data-placement=left]:after,[data-tooltip][data-placement=left]:before{inset:50% 100% auto auto;transform:translate(-.25rem,-50%)}[data-tooltip][data-placement=left]:after{border:.3rem solid #0000;border-left-color:currentColor;transform:translate(.3rem,-50%)}[data-tooltip][data-placement=right]:after,[data-tooltip][data-placement=right]:before{inset:50% auto auto 100%;transform:translate(.25rem,-50%)}[data-tooltip][data-placement=right]:after{border:.3rem solid #0000;border-right-color:currentColor;transform:translate(-.3rem,-50%)}[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{opacity:1}@media (hover:hover) and (pointer:fine){[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{--pico-tooltip-slide-to:translate(-50%, -.25rem);opacity:0;animation-name:tooltip-slide;animation-duration:.2s;animation-fill-mode:forwards;transform:translate(-50%,.75rem)}[data-tooltip]:focus:after,[data-tooltip]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, 0rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.25rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:focus:before,[data-tooltip][data-placement=bottom]:hover:after,[data-tooltip][data-placement=bottom]:hover:before{--pico-tooltip-slide-to:translate(-50%, .25rem);animation-name:tooltip-slide;transform:translate(-50%,-.75rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, -.3rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.5rem)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:focus:before,[data-tooltip][data-placement=left]:hover:after,[data-tooltip][data-placement=left]:hover:before{--pico-tooltip-slide-to:translate(-.25rem, -50%);animation-name:tooltip-slide;transform:translate(.75rem,-50%)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:hover:after{--pico-tooltip-caret-slide-to:translate(.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(.05rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:focus:before,[data-tooltip][data-placement=right]:hover:after,[data-tooltip][data-placement=right]:hover:before{--pico-tooltip-slide-to:translate(.25rem, -50%);animation-name:tooltip-slide;transform:translate(-.75rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:hover:after{--pico-tooltip-caret-slide-to:translate(-.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(-.05rem,-50%)}}@keyframes tooltip-slide{to{transform:var(--pico-tooltip-slide-to);opacity:1}}@keyframes tooltip-caret-slide{50%{opacity:0}to{transform:var(--pico-tooltip-caret-slide-to);opacity:1}}[aria-controls]{cursor:pointer}[aria-disabled=true],[disabled]{cursor:not-allowed}[aria-hidden=false][hidden]{display:initial}[aria-hidden=false][hidden]:not(:focus){clip:rect(0,0,0,0);position:absolute}[tabindex],a,area,button,input,label,select,summary,textarea{-ms-touch-action:manipulation}[dir=rtl]{direction:rtl}@media (prefers-reduced-motion:reduce){:not([aria-busy=true]),:not([aria-busy=true]):after,:not([aria-busy=true]):before{background-attachment:initial!important;scroll-behavior:auto!important;transition-duration:0s!important;transition-delay:0s!important;animation-duration:1ms!important;animation-iteration-count:1!important;animation-delay:-1ms!important}}:root{--primary-color:#ff6b81}body{padding:.5rem 1.5rem 2rem}#dropzone{border:3px dashed var(--pico-muted-border-color);text-align:center;background-color:var(--pico-card-background-color);cursor:pointer;border-radius:12px;margin-bottom:2rem;padding:40px 20px;transition:all .3s}#dropzone.dragging{border-color:var(--pico-primary-background);background-color:#ff6b810d;box-shadow:0 0 15px #ff6b8126}#dropzone svg{color:var(--pico-muted-color);margin-bottom:1rem;transition:color .3s}#dropzone.dragging svg{color:var(--pico-primary-background)}#dropzone-status{margin:0;font-weight:600;display:none}#dropzone.loading{cursor:progress;border-color:var(--pico-primary-background)}#dropzone.loading svg{color:var(--pico-primary-background)}#dropzone.loading #dropzone-status{display:block}#dropzone.loading h3,#dropzone.loading .dropzone-hint,#dropzone.loading small{display:none}.entry-grid{--entry-text-color:var(--pico-color);flex-direction:column;gap:.75rem;margin-bottom:2rem;display:flex}.entry-grid #dropzone{color:var(--entry-text-color);margin-bottom:0}.entry-grid #dropzone,.entry-grid .capture-card{align-self:center;width:100%;max-width:760px}.capture-card{text-align:center;border:2px dashed var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;flex-direction:column;align-items:center;gap:.75rem;padding:16px 20px;transition:all .3s;display:flex}.capture-intro{flex-direction:column;align-items:center;gap:.35rem;display:flex}.capture-intro svg{color:var(--pico-muted-color);flex-shrink:0;transition:color .3s}.capture-card h3{margin:0;font-size:1rem}.capture-card .capture-subtitle{color:var(--pico-muted-color);margin:0;font-size:.8rem}.capture-actions{flex-wrap:wrap;justify-content:center;align-items:center;gap:.6rem 1rem;display:flex}.capture-card button{margin:0;padding:.4rem 1rem;font-size:.9rem}.capture-card.is-recording{background-color:#e5484d0d;border-color:#e5484d;box-shadow:0 0 15px #e5484d26}.capture-card.is-recording .capture-intro svg{color:#e5484d;animation:1.4s ease-in-out infinite capture-pulse}@keyframes capture-pulse{50%{opacity:.45}}.capture-options{flex-wrap:wrap;justify-content:center;align-items:center;gap:.4rem 1rem;font-size:.85rem;display:flex}.capture-options label{align-items:center;gap:.35rem;margin:0;display:inline-flex}.capture-options input[type=checkbox]{margin:0}.capture-options select,.capture-shot select{width:auto;height:auto;margin:0;padding:.25rem 2rem .25rem .6rem;font-size:.85rem}.capture-shot{align-items:center;gap:.4rem;display:inline-flex}.capture-status{color:var(--pico-muted-color);font-size:.85rem}.capture-status:empty{display:none}.capture-card.is-recording .capture-status{color:#e5484d;font-variant-numeric:tabular-nums;font-weight:600}#video-file-input{display:none}.video-container{border-radius:8px;width:100%;display:block;position:relative;overflow:hidden;box-shadow:0 4px 12px #00000040}.video-container video{width:100%;height:auto;display:block}.crop-overlay{z-index:2;pointer-events:none;position:absolute;inset:0;overflow:hidden}.crop-box{box-sizing:border-box;border:2px solid var(--primary-color,#ff6b81);pointer-events:none;position:absolute;box-shadow:0 0 0 9999px #00000073}.crop-handle,.crop-move{box-sizing:border-box;background:var(--primary-color,#ff6b81);pointer-events:auto;touch-action:none;border:2px solid #fff;border-radius:50%;position:absolute}.crop-handle{border-radius:3px;width:16px;height:16px}.crop-handle:before,.crop-move:before{content:\"\";position:absolute;inset:-8px}.crop-move{cursor:move;background:#00000059;width:18px;height:18px;margin:-9px 0 0 -9px;top:50%;left:50%}.crop-overlay.is-passive .crop-handle,.crop-overlay.is-passive .crop-move{display:none}.crop-loupe{z-index:1000;pointer-events:none;border:2px solid var(--primary-color,#ff6b81);background:#111;border-radius:6px;width:168px;position:fixed;overflow:hidden;box-shadow:0 6px 18px #00000073}.crop-overlay .crop-loupe canvas{width:168px;height:168px;display:block;position:static}.crop-loupe-label{color:#fff;white-space:pre;background:#000000bf;padding:2px 6px;font-family:monospace;font-size:.7rem;line-height:1.35}.crop-handle[data-handle=nw]{cursor:nwse-resize;top:-2px;left:-2px}.crop-handle[data-handle=ne]{cursor:nesw-resize;top:-2px;right:-2px}.crop-handle[data-handle=sw]{cursor:nesw-resize;bottom:-2px;left:-2px}.crop-handle[data-handle=se]{cursor:nwse-resize;bottom:-2px;right:-2px}.meta-grid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.75rem;margin-bottom:1.5rem;display:grid}.meta-item{background:var(--pico-card-background-color);border:1px solid var(--pico-muted-border-color);border-radius:6px;padding:.5rem .75rem;font-size:.85rem}.meta-label{color:var(--pico-muted-color);text-transform:uppercase;letter-spacing:.5px;font-size:.75rem;font-weight:700;display:block}.slider-group{margin-bottom:1.5rem}.slider-group label{justify-content:space-between;align-items:center;font-weight:500;display:flex}.time-val{background:var(--pico-code-background-color);border-radius:4px;padding:2px 6px;font-family:monospace;font-size:.85rem;display:inline-block}.time-val-primary{background:var(--pico-primary-background);color:var(--pico-primary-inverse)}.trim-visualizer{background-color:var(--pico-muted-border-color);border:1px solid var(--pico-muted-border-color);border-radius:10px;height:20px;margin:1.5rem 0;position:relative;overflow:hidden}.trim-selection{border-left:2px solid var(--pico-primary-background);border-right:2px solid var(--pico-primary-background);background-color:#ff6b8159;height:100%;transition:all .1s;position:absolute;top:0}.trim-ghost{background-color:#ff6b812e;border-left:1px solid #ff6b8199;border-right:1px solid #ff6b8199;height:100%;position:absolute;top:0}.trim-sections-header{justify-content:space-between;align-items:center;margin-bottom:.5rem;font-size:.85rem;display:flex}.trim-section-list{--trim-row-color:var(--pico-color);margin:0 0 .75rem;padding:0;list-style:none}.trim-section-row{gap:.4rem;margin-bottom:.35rem;list-style:none;display:flex}.trim-section-row button{border:1px solid var(--pico-muted-border-color);color:var(--trim-row-color);background:0 0;margin:0;padding:.3rem .6rem;font-size:.8rem}.trim-section-pick{text-align:left;flex:1;font-family:monospace}.trim-section-row.active .trim-section-pick{border-color:var(--pico-primary-background);background:#ff6b8126}.trim-section-remove:disabled{opacity:.35}#trim-add-section{width:100%;margin-bottom:.5rem;padding:.4rem .75rem;font-size:.9rem}.trim-sections-help{color:var(--pico-muted-color);font-size:.75rem;display:block}header.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);margin:-1rem -1rem 1.5rem;padding:1rem 1.5rem;font-weight:700}header.card-header.success{color:#2ecc71;background:#2ecc710d}.info-card{margin-bottom:0;padding:1rem}.result-card{border:1px solid #2ecc71;margin-bottom:2rem;padding:1rem}.success-note{background:#2ecc711a;border:1px solid #2ecc71;border-radius:8px;margin-bottom:2rem;padding:1.5rem;display:block}.success-note h3{color:#2ecc71;margin-bottom:.5rem}.download-btn{border:none;align-items:center;gap:8px;font-weight:700;display:inline-flex}.output-size{opacity:.85;margin-left:1rem;font-size:.9rem;font-weight:700}details.config-card{border:1px solid var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;margin-bottom:0;padding:0;overflow:hidden}details.config-card>summary.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);cursor:pointer;justify-content:space-between;align-items:center;gap:.75rem;margin:0;padding:1rem 1.5rem;font-weight:700;list-style:none;transition:background-color .15s;display:flex}details.config-card>summary.card-header:hover{background-color:var(--pico-muted-border-color)}details.config-card:not([open])>summary.card-header{border-bottom:none}details.config-card>summary.card-header::-webkit-details-marker{display:none}details.config-card>summary.card-header:after{content:\"\";opacity:.55;background:0 0;border:2px solid;border-top:0;border-left:0;flex:none;width:.5rem;height:.5rem;transition:transform .2s;transform:rotate(45deg)}details.config-card[open]>summary.card-header:after{transform:rotate(-135deg)}.config-card-body{padding:1.25rem 1.5rem}.settings-stack{flex-direction:column;gap:1.5rem;display:flex}.audio-waveform{background:var(--pico-card-sectioning-background-color);border:1px solid var(--pico-muted-border-color);width:100%;height:90px;color:var(--primary-color);cursor:pointer;border-radius:6px;margin-top:.75rem;display:block}.quality-readout{grid-template-columns:1fr 1fr;place-items:center start;gap:.5rem;margin-bottom:.75rem;display:grid}.quality-rate{color:var(--pico-muted-color);font-family:monospace;font-size:.85rem;font-weight:600}.size-estimate{border-top:1px dashed var(--pico-muted-border-color);margin-top:1rem;padding-top:.75rem;font-size:.9rem}.size-estimate strong{color:var(--pico-primary);font-family:monospace}.log-section{margin:0}.log-section pre{color:#a6e22e;background-color:#1a1a1a;border-radius:6px;max-height:200px;margin:0;padding:10px;font-family:Courier New,Courier,monospace;font-size:.8rem;overflow-y:auto}.theme-toggle-btn{cursor:pointer;color:inherit;background:0 0;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;padding:.5rem;transition:background-color .2s;display:inline-flex}.theme-toggle-btn:hover{background-color:var(--pico-muted-border-color)}.theme-toggle-btn svg{width:20px;height:20px}nav.brand-nav{grid-template-columns:1fr auto 1fr;align-items:center;padding:.5rem 0;display:grid}nav.brand-nav>ul{margin:0}nav.brand-nav>ul:first-child{grid-column:2}nav.brand-nav>ul:last-child{grid-column:3;justify-self:end}.home-link{color:inherit;text-decoration:none}.home-link:hover code{color:var(--pico-primary)}.preset-badge{background:var(--pico-primary-background);color:var(--pico-primary-inverse);vertical-align:middle;border-radius:4px;margin-left:.5rem;padding:2px 6px;font-size:.75rem}#loaded-file-section{container-type:inline-size}.workshop-layout{grid-template-columns:minmax(0,1fr);gap:1.5rem;margin-top:1.5rem;display:grid}@container (width>=720px) and (width<=1099px){.workshop-layout{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.workshop-output{grid-column:1/-1}}@container (width>=1100px){.workshop-layout{grid-template-columns:minmax(0,.95fr) minmax(0,1.15fr) minmax(0,1fr);align-items:start}}.workshop-sidebar,.workshop-main,.workshop-output{flex-direction:column;gap:1.5rem;display:flex}.rife-source{margin:.25rem 0 .6rem;font-size:.9rem}.rife-presets{flex-wrap:wrap;gap:.5rem;margin-bottom:.75rem;display:flex}.rife-presets button{flex:10rem;width:auto;margin:0;padding:.3rem .8rem;font-size:.85rem}.rife-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end;gap:.5rem .75rem;display:grid}.rife-grid .rife-audio{grid-column:1/-1}.rife-summary{border-left:3px solid var(--pico-primary-background);background:var(--pico-card-sectioning-background-color);margin:.75rem 0 .5rem;padding:.5rem .75rem;font-size:.85rem;display:block}.rife-summary.warn{border-left-color:#e5a50a}.column-heading{border-bottom:1px solid var(--pico-muted-border-color);align-items:center;gap:.6rem;margin:0 0 -.75rem;padding-bottom:.5rem;font-size:1.1rem;display:flex}.column-step{background:var(--pico-primary-background);width:1.6rem;height:1.6rem;color:var(--pico-primary-inverse);border-radius:50%;justify-content:center;align-items:center;font-size:.85rem;font-weight:700;display:inline-flex}.output-actions{flex-direction:column;gap:.5rem;display:flex}.output-actions button{width:100%;margin:0;padding:.8rem 2rem;font-size:1.1rem;font-weight:700}.batch-thumbs{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.4rem;max-height:40vh;display:grid;overflow-y:auto}.batch-thumb{aspect-ratio:1;object-fit:cover;border:1px solid var(--pico-muted-border-color);background:var(--pico-card-sectioning-background-color);border-radius:4px;width:100%}#batch-queue{flex-direction:column;gap:.5rem;max-height:60vh;display:flex;overflow-y:auto}.batch-item{border:1px solid var(--pico-muted-border-color);border-radius:6px;grid-template-columns:1fr auto auto;align-items:center;gap:.75rem;padding:.5rem .75rem;font-size:.85rem;display:grid}.batch-item-name{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.batch-item-status{color:var(--pico-muted-color);font-family:monospace;font-size:.78rem}.batch-item[data-status=done] .batch-item-status{color:#2ecc71}.batch-item[data-status=error] .batch-item-status{color:#f92672}.batch-item-dl{font-size:.78rem;font-weight:600}.output-shell{border:2px dashed var(--pico-muted-border-color);min-height:240px;color:var(--pico-muted-color);text-align:center;border-radius:12px;flex-direction:column;justify-content:center;align-items:center;gap:.75rem;padding:2rem;display:flex}.output-shell svg{opacity:.5}.output-shell p{margin:0;font-size:.9rem}.workshop-output>section{margin-top:0!important}.range-slider-wrapper{align-items:center;height:40px;margin-top:.5rem;margin-bottom:.75rem;display:flex;position:relative}.range-slider-wrapper .trim-visualizer{background-color:var(--pico-muted-border-color);z-index:1;border-radius:5px;width:100%;height:10px;margin:0;position:absolute;top:15px;left:0;right:0}.range-slider-wrapper .range-slider-input{pointer-events:none;appearance:none;width:100%;position:absolute;height:40px!important;box-shadow:none!important;background:0 0!important;border:none!important;margin:0!important;padding:0!important}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb{pointer-events:auto;appearance:none;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;margin-top:0;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-moz-range-thumb{pointer-events:auto;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-moz-range-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-webkit-slider-runnable-track{background:0 0!important;border:none!important}.range-slider-wrapper .range-slider-input::-moz-range-track{background:0 0!important;border:none!important}.image-canvas-stage{border:1px solid var(--pico-muted-border-color);cursor:crosshair;background-color:#0000;background-image:linear-gradient(45deg,#7878782e 25%,#0000 25%),linear-gradient(-45deg,#7878782e 25%,#0000 25%),linear-gradient(45deg,#0000 75%,#7878782e 75%),linear-gradient(-45deg,#0000 75%,#7878782e 75%);background-position:0 0,0 10px,10px -10px,-10px 0;background-repeat:repeat,repeat,repeat,repeat;background-size:20px 20px;background-attachment:scroll,scroll,scroll,scroll;background-origin:padding-box,padding-box,padding-box,padding-box;background-clip:border-box,border-box,border-box,border-box;border-radius:8px;width:100%;min-height:320px;position:relative;overflow:hidden}.image-toolbar{grid-template-columns:auto minmax(150px,220px) 1fr;align-items:center;gap:.65rem;margin-bottom:.75rem;display:grid}.canvas-tool-picker{flex-wrap:wrap;align-items:center;gap:.5rem 1.25rem;margin-top:.75rem;display:flex}.canvas-tool-picker .canvas-tool-label{text-transform:uppercase;letter-spacing:.5px;color:var(--pico-muted-color);font-size:.75rem;font-weight:700}.canvas-tool-picker label{cursor:pointer;align-items:center;gap:.4rem;margin:0;display:inline-flex}.canvas-tool-picker label:has(input:disabled){opacity:.45;cursor:not-allowed}.tool-badge{border:1px solid #0000;border-radius:999px;justify-self:end;padding:.3rem .55rem;font-size:.8rem;font-weight:600}.tool-badge-crop{color:#fff;background:#ff6b81d9;border-color:#ff6b81}.tool-badge-paint{color:#fff;background:#2ecc71d9;border-color:#2ecc71}@media (width<=640px){.image-toolbar{grid-template-columns:1fr}.tool-badge{justify-self:start}}.image-canvas-stage canvas{display:block;position:absolute}#image-mask-canvas{touch-action:none}.image-canvas-stage.is-crop-mode{cursor:move}.image-canvas-stage.is-paint-mode{cursor:crosshair}", i = "\n<nav class=\"brand-nav\">\n      <ul>\n        <li>\n          <a href=\"#\" id=\"home-link\" class=\"home-link\" title=\"Back to start\"\n            ><strong><code>&lt;media-converter&gt;</code></strong></a\n          >\n        </li>\n      </ul>\n      <ul>\n        <li>\n          <button id=\"theme-toggle\" class=\"theme-toggle-btn\" aria-label=\"Toggle theme\">\n            <!-- Moon Icon (Dark Mode active, click to light) -->\n            <svg\n              id=\"theme-icon-moon\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              fill=\"none\"\n              viewBox=\"0 0 24 24\"\n              stroke-width=\"2\"\n              stroke=\"currentColor\"\n            >\n              <path\n                stroke-linecap=\"round\"\n                stroke-linejoin=\"round\"\n                d=\"M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z\"\n              />\n            </svg>\n            <!-- Sun Icon (Light Mode active, click to dark, hidden by default in JS) -->\n            <svg\n              id=\"theme-icon-sun\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              fill=\"none\"\n              viewBox=\"0 0 24 24\"\n              stroke-width=\"2\"\n              stroke=\"currentColor\"\n              style=\"display: none\"\n            >\n              <path\n                stroke-linecap=\"round\"\n                stroke-linejoin=\"round\"\n                d=\"M12 3v2.25M12 18.75V21M3 12h2.25M18.75 12H21M5.636 5.636l1.591 1.591M18.364 5.636l-1.591 1.591M5.636 18.364l1.591-1.591M18.364 18.364l-1.591-1.591M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0z\"\n              />\n            </svg>\n          </button>\n        </li>\n      </ul>\n    </nav>\n\n    <main>\n      <!-- Step 1: drop a file or record the screen -->\n      <div class=\"entry-grid\">\n      <div id=\"dropzone\" role=\"button\" tabindex=\"0\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"48\"\n          height=\"48\"\n          fill=\"none\"\n          viewBox=\"0 0 24 24\"\n          stroke=\"currentColor\"\n          stroke-width=\"1.5\"\n        >\n          <path\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n            d=\"M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z\"\n          />\n        </svg>\n        <h3>Drag & Drop media file here</h3>\n        <p id=\"dropzone-status\" aria-busy=\"true\"></p>\n        <p class=\"dropzone-hint\" style=\"margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--pico-muted-color)\">\n          or click to select a file from your device\n        </p>\n        <small style=\"font-size: 0.8rem; opacity: 0.7\"\n          >Supports video (MP4, WebM, MOV), images (PNG, JPG, WebP, AVIF), and audio (MP3, WAV, M4A, FLAC, OGG)</small\n        >\n        <input type=\"file\" id=\"video-file-input\" accept=\"video/*,image/*,audio/*,.heic,.heif\" multiple />\n      </div>\n\n      <!-- Screen capture: record a screen/window/tab straight into the video workspace -->\n      <div id=\"screen-capture-bar\" class=\"capture-card\">\n        <div class=\"capture-intro\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"32\"\n          height=\"32\"\n          fill=\"none\"\n          viewBox=\"0 0 24 24\"\n          stroke=\"currentColor\"\n          stroke-width=\"1.5\"\n        >\n          <path\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n            d=\"M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25M3.75 15V5.25A2.25 2.25 0 016 3h12a2.25 2.25 0 012.25 2.25V15A2.25 2.25 0 0118 17.25H6A2.25 2.25 0 013.75 15z\"\n          />\n          <circle cx=\"12\" cy=\"10.125\" r=\"2.25\" fill=\"currentColor\" stroke=\"none\" />\n        </svg>\n          <div>\n            <h3>Or capture your screen</h3>\n            <p class=\"capture-subtitle\">Record or screenshot a screen, window, or tab, then edit it below</p>\n          </div>\n        </div>\n        <div class=\"capture-actions\">\n        <div id=\"capture-options\" class=\"capture-options\">\n          <label><input type=\"checkbox\" id=\"capture-system-audio\" checked /> Tab / system audio</label>\n          <label><input type=\"checkbox\" id=\"capture-mic\" /> Microphone</label>\n          <label title=\"Picture-in-picture: your webcam in a corner of the screen recording\"><input type=\"checkbox\" id=\"capture-cam\" /> Webcam</label>\n          <select id=\"capture-cam-corner\" aria-label=\"Webcam position\" disabled>\n            <option value=\"bottom-right\" selected>Bottom right</option>\n            <option value=\"bottom-left\">Bottom left</option>\n            <option value=\"top-right\">Top right</option>\n            <option value=\"top-left\">Top left</option>\n          </select>\n          <select id=\"capture-cam-size\" aria-label=\"Webcam size\" disabled>\n            <option value=\"small\">Small</option>\n            <option value=\"medium\" selected>Medium</option>\n            <option value=\"large\">Large</option>\n          </select>\n          <select id=\"capture-fps\" aria-label=\"Capture frame rate\">\n            <option value=\"30\" selected>30 fps</option>\n            <option value=\"60\">60 fps</option>\n          </select>\n          <select id=\"capture-quality\" aria-label=\"Capture quality\" title=\"Video bitrate. Quality presets scale with the captured resolution; fixed rates don't.\">\n            <optgroup label=\"Scales with resolution\">\n              <option value=\"low\">Low quality</option>\n              <option value=\"medium\">Medium quality</option>\n              <option value=\"high\" selected>High quality</option>\n              <option value=\"very-high\">Very high quality</option>\n            </optgroup>\n            <optgroup label=\"Fixed bitrate\">\n              <option value=\"2\">2 Mbps</option>\n              <option value=\"5\">5 Mbps</option>\n              <option value=\"10\">10 Mbps</option>\n              <option value=\"20\">20 Mbps</option>\n            </optgroup>\n          </select>\n        </div>\n        <button type=\"button\" id=\"capture-start\" class=\"secondary\">🎥 Start Recording</button>\n        <button type=\"button\" id=\"capture-audio\" class=\"secondary outline\" title=\"Record tab/system audio (and mic if checked) to the audio editor\">🎧 Record Audio</button>\n        <button type=\"button\" id=\"capture-stop\" class=\"contrast\" style=\"display: none\">⏹ Stop Recording</button>\n        <div id=\"capture-shot\" class=\"capture-shot\">\n          <button type=\"button\" id=\"capture-screenshot\" class=\"secondary outline\">📸 Screenshot</button>\n          <select id=\"capture-shot-delay\" aria-label=\"Screenshot delay\" title=\"Wait before grabbing, e.g. to open a menu\">\n            <option value=\"0\" selected>Now</option>\n            <option value=\"3\">In 3 s</option>\n            <option value=\"5\">In 5 s</option>\n          </select>\n        </div>\n        </div>\n        <div id=\"capture-status\" class=\"capture-status\" aria-live=\"polite\"></div>\n      </div>\n      </div>\n\n      <!-- Loaded media: 3-column workflow (info | settings | output) -->\n      <section id=\"loaded-file-section\" style=\"display: none\">\n        <div id=\"video-workspace\" class=\"workshop-layout\">\n          <!-- Column 1: input / info -->\n          <div class=\"workshop-sidebar\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n            <!-- Live Video Preview & Seeking -->\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Original Video Player\n              </header>\n              <div class=\"video-container\">\n                <video id=\"preview-video\" controls muted playsinline></video>\n                <!-- crop overlay is injected by src/cropEditor.ts -->\n              </div>\n              <small style=\"display: block; text-align: center; margin-top: 0.5rem; color: var(--pico-muted-color)\">\n                💡 Use player's controls or sliders to scrub frames for cutouts\n              </small>\n            </article>\n\n            <!-- Source Video Properties -->\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Attributes & Metadata\n              </header>\n\n              <div class=\"meta-grid\">\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Name</span>\n                  <span id=\"meta-name\" style=\"word-break: break-all; font-weight: 500\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Size</span>\n                  <span id=\"meta-size\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Duration</span>\n                  <span id=\"meta-duration\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Resolution</span>\n                  <span id=\"meta-resolution\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Aspect Ratio</span>\n                  <span id=\"meta-aspect\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Video Codec</span>\n                  <span id=\"meta-vcodec\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Original FPS</span>\n                  <span id=\"meta-fps\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Audio Tracks</span>\n                  <span id=\"meta-atrack\">-</span>\n                </div>\n              </div>\n\n              <div\n                style=\"\n                  background-color: var(--pico-card-sectioning-background-color);\n                  border: 1px solid var(--pico-muted-border-color);\n                  border-radius: 6px;\n                  padding: 0.75rem;\n                \"\n              >\n                <strong style=\"font-size: 0.85rem; display: block; margin-bottom: 0.25rem\"\n                  >📝 Embedded Metadata Tags</strong\n                >\n                <pre id=\"meta-tags\" style=\"margin: 0; font-size: 0.8rem; max-height: 120px; overflow-y: auto\">\nNone detected</pre\n                >\n              </div>\n            </article>\n          </div>\n          <!-- Column 2: conversion settings -->\n          <div class=\"workshop-main\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n            <!-- Settings & Form Options Block -->\n            <form id=\"conversion-form\" class=\"settings-stack\" style=\"margin-bottom: 0\">\n                <details class=\"config-card\" id=\"panel-processing\">\n                  <summary class=\"card-header\">⚡ Processing Mode</summary>\n                  <div class=\"config-card-body\">\n                    <fieldset style=\"margin-bottom: 0\">\n                      <label for=\"fast-copy-tag\">\n                        <input type=\"checkbox\" id=\"fast-copy-tag\" name=\"fast-copy-tag\" />\n                        ⚡ Fast Copy Mode (Only Trim, No Re-encoding)\n                      </label>\n                      <span\n                        class=\"help-text\"\n                        style=\"font-size: 0.8rem; color: var(--pico-muted-color); display: block; margin-top: 0.25rem; margin-left: 1.5rem\"\n                      >\n                        Copies streams without re-encoding — instant, lossless trims\n                      </span>\n                    </fieldset>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-trim\">\n                  <summary class=\"card-header\">✂️ Time Crop & Trim</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-trim\">\n                      <input type=\"checkbox\" id=\"enable-trim\" name=\"enable-trim\" />\n                      Enable Trimming / Time Crop\n                    </label>\n                  </fieldset>\n\n                  <div id=\"trim-controls-group\" style=\"display: none; padding-top: 0.5rem\">\n                    <div class=\"slider-group\" style=\"margin-bottom: 0.5rem\">\n                      <div\n                        style=\"\n                          display: flex;\n                          justify-content: space-between;\n                          align-items: center;\n                          margin-bottom: 0.5rem;\n                        \"\n                      >\n                        <span style=\"font-weight: 500; font-size: 0.9rem\">Cut / Clip Window Range:</span>\n                        <span class=\"time-val\">\n                          <span id=\"trim-start-val\" style=\"font-weight: bold; color: var(--primary-color)\">0.00s</span>\n                          to\n                          <span id=\"trim-end-val\" style=\"font-weight: bold; color: var(--primary-color)\">10.00s</span>\n                        </span>\n                      </div>\n\n                      <div class=\"range-slider-wrapper\">\n                        <div class=\"trim-visualizer\">\n                          <div class=\"trim-selection\" id=\"trim-selection-bar\"></div>\n                        </div>\n                        <input\n                          type=\"range\"\n                          id=\"trim-start\"\n                          class=\"range-slider-input\"\n                          name=\"trim-start\"\n                          min=\"0\"\n                          max=\"100\"\n                          step=\"0.01\"\n                          value=\"0\"\n                          style=\"z-index: 3\"\n                        />\n                        <input\n                          type=\"range\"\n                          id=\"trim-end\"\n                          class=\"range-slider-input\"\n                          name=\"trim-end\"\n                          min=\"0\"\n                          max=\"100\"\n                          step=\"0.01\"\n                          value=\"100\"\n                          style=\"z-index: 2\"\n                        />\n                      </div>\n\n                      <small\n                        style=\"\n                          display: block;\n                          color: var(--pico-muted-color);\n                          text-align: center;\n                          margin-top: 0.25rem;\n                          font-size: 0.75rem;\n                        \"\n                      >\n                        💡 Drag the left/right handles above to set your trimming window. Hold\n                        <kbd>Shift</kbd> while dragging for frame-by-frame precision.\n                      </small>\n                    </div>\n\n                    <div class=\"trim-sections\">\n                      <div class=\"trim-sections-header\">\n                        <span style=\"font-weight: 500; font-size: 0.9rem\">Sections</span>\n                        <span>Output length: <span class=\"time-val\" id=\"trim-total\">0.00s</span></span>\n                      </div>\n                      <ol id=\"trim-section-list\" class=\"trim-section-list\"></ol>\n                      <button type=\"button\" id=\"trim-add-section\" class=\"secondary outline\">+ Add Section</button>\n                      <small class=\"trim-sections-help\">\n                        Click a section to edit it with the handles. Multiple sections are joined in time order;\n                        new sections start at the player's current position.\n                      </small>\n                    </div>\n                  </div>\n                \n                  </div>\n                </details>\n\n                <!-- Spatial crop / framing -->\n                <details class=\"config-card\" id=\"panel-crop\">\n                  <summary class=\"card-header\">🔲 Crop / Frame</summary>\n                  <div class=\"config-card-body\">\n                    <fieldset>\n                      <label for=\"enable-crop-video\">\n                        <input type=\"checkbox\" id=\"enable-crop-video\" name=\"enable-crop-video\" />\n                        Enable Frame Cropping\n                      </label>\n                    </fieldset>\n\n                    <div id=\"crop-controls-group\" style=\"display: none; padding-top: 0.5rem\">\n                      <small style=\"display: block; color: var(--pico-muted-color); margin-bottom: 0.75rem; font-size: 0.75rem\">\n                        💡 Drag the box or its corners on the preview to set the crop region.\n                      </small>\n                      <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                        <div>\n                          <label for=\"crop-x\">X</label>\n                          <input type=\"number\" id=\"crop-x\" min=\"0\" value=\"0\" />\n                        </div>\n                        <div>\n                          <label for=\"crop-y\">Y</label>\n                          <input type=\"number\" id=\"crop-y\" min=\"0\" value=\"0\" />\n                        </div>\n                      </div>\n                      <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                        <div>\n                          <label for=\"crop-w\">Width</label>\n                          <input type=\"number\" id=\"crop-w\" min=\"1\" value=\"1\" />\n                        </div>\n                        <div>\n                          <label for=\"crop-h\">Height</label>\n                          <input type=\"number\" id=\"crop-h\" min=\"1\" value=\"1\" />\n                        </div>\n                      </div>\n                      <div class=\"grid\" style=\"margin-bottom: 0\">\n                        <button type=\"button\" id=\"crop-full\" class=\"secondary\">Use Full Frame</button>\n                        <button type=\"button\" id=\"crop-square\" class=\"secondary\">Centered Square</button>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <!-- Box 2: Aspect and Dimension Resizing -->\n                <details class=\"config-card\" id=\"panel-upscale\">\n                  <summary class=\"card-header\">✨ AI Upscale (2x)</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-upscale\">\n                      <input type=\"checkbox\" id=\"enable-upscale\" name=\"enable-upscale\" />\n                      Enable AI Upscale\n                    </label>\n                  </fieldset>\n                  <label for=\"upscale-model\">Model</label>\n                  <select id=\"upscale-model\" name=\"upscale-model\">\n                    <option value=\"fast\" selected>Fast — Real-ESRGAN general v3 (5 MB download)</option>\n                    <option value=\"quality\">Quality — Real-ESRGAN x2plus (67 MB download, much slower)</option>\n                  </select>\n                  <small id=\"upscale-status\" style=\"display: block; color: var(--pico-muted-color)\"\n                    >Every frame is upscaled locally on your GPU, so expect this to run well below real time.\n                    Applied after crop and before resize.</small\n                  >\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-resize\">\n                  <summary class=\"card-header\">📐 Resolution & Aspect Ratio Resize</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-resize\">\n                      <input type=\"checkbox\" id=\"enable-resize\" name=\"enable-resize\" />\n                      Enable Video Resizing\n                    </label>\n                  </fieldset>\n\n                  <div id=\"resize-controls-group\" style=\"display: none; padding-top: 0.5rem\">\n                    <fieldset>\n                      <label for=\"resize-preset\">Preset Dimensions</label>\n                      <select id=\"resize-preset\" name=\"resize-preset\">\n                        <option value=\"custom\" selected>Custom Size</option>\n                        <option value=\"1920\">1080p Full HD (Max 1920px)</option>\n                        <option value=\"1280\">720p HD (Max 1280px)</option>\n                        <option value=\"854\">480p SD (Max 854px)</option>\n                        <option value=\"640\">360p (Max 640px)</option>\n                        <option value=\"square-1080\">Square 1:1 HD (1080x1080)</option>\n                        <option value=\"square-720\">Square 1:1 Standard (720x720)</option>\n                      </select>\n                    </fieldset>\n\n                    <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                      <div>\n                        <label for=\"resize-width\">Width (px)</label>\n                        <input\n                          type=\"number\"\n                          id=\"resize-width\"\n                          name=\"resize-width\"\n                          min=\"16\"\n                          placeholder=\"Original Width\"\n                        />\n                      </div>\n                      <div>\n                        <label for=\"resize-height\">Height (px)</label>\n                        <input\n                          type=\"number\"\n                          id=\"resize-height\"\n                          name=\"resize-height\"\n                          min=\"16\"\n                          placeholder=\"Original Height\"\n                        />\n                      </div>\n                    </div>\n\n                    <div class=\"grid\" style=\"align-items: center; margin-top: 0.5rem\">\n                      <div>\n                        <label for=\"preserve-aspect\">\n                          <input type=\"checkbox\" id=\"preserve-aspect\" name=\"preserve-aspect\" checked />\n                          Lock Aspect Ratio\n                        </label>\n                      </div>\n                      <div>\n                        <label for=\"resize-fit\">Fit Mode</label>\n                        <select id=\"resize-fit\" name=\"resize-fit\">\n                          <option value=\"fill\">Fill (Stretch)</option>\n                          <option value=\"contain\" selected>Contain (Letterbox)</option>\n                          <option value=\"cover\">Cover (Crop)</option>\n                        </select>\n                      </div>\n                    </div>\n                  </div>\n                \n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-codec\">\n                  <summary class=\"card-header\">💿 Output Format & Codec</summary>\n                  <div class=\"config-card-body\">\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"out-format\">Output Format / Container</label>\n                        <select id=\"out-format\" name=\"out-format\">\n                          <option value=\"mp4\" selected>MP4 (.mp4) - Most Compatible</option>\n                          <option value=\"webm\">WebM (.webm) - Modern Open-Source</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"out-vcodec\">Video Encoder Codec</label>\n                        <select id=\"out-vcodec\" name=\"out-vcodec\">\n                          <option value=\"avc\" selected>H.264 / AVC (High compatibility)</option>\n                          <option value=\"hevc\">H.265 / HEVC (High compression)</option>\n                        </select>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-compression\">\n                  <summary class=\"card-header\">🗜️ Compression & Quality</summary>\n                  <div class=\"config-card-body\">\n                    <div class=\"slider-group\" style=\"margin-bottom: 0\">\n                      <label for=\"out-quality\" style=\"display: block; margin-bottom: 0.5rem\">\n                        Video Compression (Subjective Quality):\n                      </label>\n                      <div class=\"quality-readout\">\n                        <span>\n                          <span class=\"time-val time-val-primary\" id=\"out-quality-val\">Medium</span>\n                          <span id=\"out-quality-rate\" class=\"quality-rate\">~3.5 Mbps</span>\n                        </span>\n                        <span\n                          id=\"quality-help\"\n                          style=\"font-size: 0.8rem; display: block; color: var(--pico-muted-color); margin-top: 0.25rem\"\n                        >\n                          Balanced bitrate and visual fidelity for typical social/web sharing.\n                        </span>\n                      </div>\n                      <input type=\"range\" id=\"out-quality\" name=\"out-quality\" min=\"1\" max=\"5\" value=\"3\" step=\"1\" />\n\n                      <!-- Custom Bitrate Override Option -->\n                      <div\n                        style=\"\n                          margin-top: 1rem;\n                          border-top: 1px dashed var(--pico-muted-border-color);\n                          padding-top: 0.75rem;\n                        \"\n                      >\n                        <label for=\"use-custom-bitrate\">\n                          <input type=\"checkbox\" id=\"use-custom-bitrate\" name=\"use-custom-bitrate\" />\n                          🔧 Use Explicit Target Bitrate Override\n                        </label>\n                        <div id=\"custom-bitrate-group\" style=\"display: none; margin-top: 0.6rem\">\n                          <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n                            <div>\n                              <label for=\"custom-bitrate\" style=\"font-size: 0.8rem\">Target Bitrate (bps):</label>\n                              <input\n                                type=\"number\"\n                                id=\"custom-bitrate\"\n                                name=\"custom-bitrate\"\n                                placeholder=\"e.g. 3500000\"\n                                min=\"100000\"\n                                step=\"50000\"\n                                value=\"3500000\"\n                                style=\"margin-bottom: 0\"\n                              />\n                            </div>\n                            <div style=\"display: flex; align-items: flex-end; padding-top: 1.4rem\">\n                              <span class=\"time-val\" id=\"custom-bitrate-mbps-label\" style=\"font-weight: bold; padding: 8px 12px\">3.50 Mbps</span>\n                            </div>\n                          </div>\n                          <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.25rem\">\n                            💡 Provide standard bits per second (e.g. 5,000,000 is 5.0 Mbps, 800,000 is 800 kbps).\n                          </small>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-rotation\">\n                  <summary class=\"card-header\">🔄 Rotation</summary>\n                  <div class=\"config-card-body\">\n                    <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n                      <div>\n                        <label for=\"rotate-correction\">Rotation Correction</label>\n                        <select id=\"rotate-correction\" name=\"rotate-correction\">\n                          <option value=\"0\" selected>0° (Keep natural state)</option>\n                          <option value=\"90\">90° Clockwise</option>\n                          <option value=\"180\">180° Half-flip</option>\n                          <option value=\"270\">270° Counter-Clockwise</option>\n                        </select>\n                      </div>\n                      <div>\n                        <fieldset style=\"margin-bottom: 0; padding-top: 1.25rem\">\n                          <label for=\"allow-rot-metadata\">\n                            <input type=\"checkbox\" id=\"allow-rot-metadata\" name=\"allow-rot-metadata\" checked />\n                            Allow Rotation Metadata\n                          </label>\n                        </fieldset>\n                      </div>\n                    </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-rife\">\n                  <summary class=\"card-header\">✨ AI Frame Interpolation (RIFE)</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"enable-rife\">\n                      <input type=\"checkbox\" id=\"enable-rife\" name=\"enable-rife\" />\n                      Enable AI frame interpolation\n                    </label>\n                  </fieldset>\n                  <div id=\"rife-controls-group\" style=\"display: none\">\n                    <p class=\"rife-source\">Source frame rate: <strong id=\"rife-source-fps\">-</strong></p>\n                    <div class=\"rife-presets\">\n                      <button type=\"button\" class=\"outline secondary\" id=\"rife-preset-smooth\" title=\"Same speed, higher frame rate\">Smoother</button>\n                      <button type=\"button\" class=\"outline secondary\" id=\"rife-preset-slowmo\" title=\"Same frame rate, slowed down\">Slow motion</button>\n                    </div>\n                    <div class=\"rife-grid\">\n                      <div>\n                        <label for=\"rife-speed\" style=\"font-size: 0.8rem\">Playback speed:</label>\n                        <select id=\"rife-speed\" name=\"rife-speed\" style=\"margin-bottom: 0\">\n                          <option value=\"1\" selected>1× (normal)</option>\n                          <option value=\"0.75\">0.75×</option>\n                          <option value=\"0.5\">0.5×</option>\n                          <option value=\"0.25\">0.25×</option>\n                          <option value=\"0.125\">0.125×</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"rife-fps\" style=\"font-size: 0.8rem\">Output frame rate:</label>\n                        <select id=\"rife-fps\" name=\"rife-fps\" style=\"margin-bottom: 0\">\n                          <option value=\"source\">Source rate</option>\n                          <option value=\"24\">24 FPS</option>\n                          <option value=\"30\">30 FPS</option>\n                          <option value=\"48\">48 FPS</option>\n                          <option value=\"50\">50 FPS</option>\n                          <option value=\"60\" selected>60 FPS</option>\n                          <option value=\"90\">90 FPS</option>\n                          <option value=\"120\">120 FPS</option>\n                        </select>\n                      </div>\n                      <div id=\"rife-audio-wrap\" class=\"rife-audio\">\n                        <label for=\"rife-audio\" style=\"font-size: 0.8rem\">Audio:</label>\n                        <select id=\"rife-audio\" name=\"rife-audio\" style=\"margin-bottom: 0\">\n                          <option value=\"stretch\" selected>Keep pitch</option>\n                          <option value=\"pitch\">Pitch follows speed</option>\n                          <option value=\"remove\">Remove</option>\n                        </select>\n                      </div>\n                    </div>\n                    <small id=\"rife-summary\" class=\"rife-summary\"></small>\n                    <small style=\"display: block; color: var(--pico-muted-color); font-size: 0.8rem\">\n                      RIFE synthesizes in-between frames from motion on your GPU (21 MB model, downloaded once).\n                      It takes over frame timing, so the Speed &amp; Frame Rate panel is hidden while it's on.\n                    </small>\n                  </div>\n                  </div>\n                </details>\n\n                <details class=\"config-card\" id=\"panel-resample\">\n                  <summary class=\"card-header\">⏩ Speed & Frame Rate</summary>\n                  <div class=\"config-card-body\">\n                    <label for=\"enable-speed\">\n                      <input type=\"checkbox\" id=\"enable-speed\" name=\"enable-speed\" />\n                      ⏩ Change Speed / Time-lapse\n                    </label>\n                    <div id=\"speed-controls-group\" style=\"display: none; margin: 0.6rem 0 1rem\">\n                      <div class=\"grid\" style=\"align-items: end; margin-bottom: 0\">\n                        <div>\n                          <label for=\"speed-factor\" style=\"font-size: 0.8rem\">Speed:</label>\n                          <select id=\"speed-factor\" name=\"speed-factor\" style=\"margin-bottom: 0\">\n                            <option value=\"0.5\">0.5× (slow motion)</option>\n                            <option value=\"2\">2×</option>\n                            <option value=\"4\" selected>4×</option>\n                            <option value=\"8\">8×</option>\n                            <option value=\"16\">16×</option>\n                            <option value=\"32\">32×</option>\n                            <option value=\"64\">64×</option>\n                            <option value=\"custom\">Custom…</option>\n                          </select>\n                        </div>\n                        <div id=\"speed-custom-wrap\" style=\"display: none\">\n                          <label for=\"speed-custom\" style=\"font-size: 0.8rem\">Custom speed (×):</label>\n                          <input type=\"number\" id=\"speed-custom\" min=\"0.1\" max=\"1000\" step=\"0.1\" value=\"10\" style=\"margin-bottom: 0\" />\n                        </div>\n                        <div>\n                          <label for=\"speed-frames\" style=\"font-size: 0.8rem\">Frames:</label>\n                          <select id=\"speed-frames\" name=\"speed-frames\" style=\"margin-bottom: 0\">\n                            <option value=\"skip\" selected>Skip (sharp)</option>\n                            <option value=\"blend\">Blend (motion blur)</option>\n                          </select>\n                        </div>\n                        <div>\n                          <label for=\"speed-audio\" style=\"font-size: 0.8rem\">Audio:</label>\n                          <select id=\"speed-audio\" name=\"speed-audio\" style=\"margin-bottom: 0\">\n                            <option value=\"stretch\" selected>Keep pitch</option>\n                            <option value=\"pitch\">Pitch follows speed</option>\n                            <option value=\"remove\">Remove</option>\n                          </select>\n                        </div>\n                      </div>\n                      <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.8rem\">\n                        Output length: <span class=\"time-val\" id=\"speed-output-length\">-</span><br />\n                        <strong>Keep pitch</strong> time-stretches the audio so voices and music stay in tune;\n                        <strong>Pitch follows speed</strong> plays it faster like a tape. The audio panel's Mute still\n                        wins, and audio is re-encoded. The output frame rate is the source rate, or the target below\n                        when resampling is on. <strong>Blend</strong> averages all the source frames that land in\n                        each output frame.\n                      </small>\n                    </div>\n\n                    <label for=\"enable-fps\">\n                      <input type=\"checkbox\" id=\"enable-fps\" name=\"enable-fps\" />\n                      ⏱️ Resample / Normalize Frame Rate (FPS)\n                    </label>\n                    <div id=\"fps-controls-group\" style=\"display: none; margin-top: 0.6rem\">\n                      <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n                        <div>\n                          <label for=\"target-fps\" style=\"font-size: 0.8rem\">Target Frame Rate (FPS):</label>\n                          <select id=\"target-fps\" name=\"target-fps\" style=\"margin-bottom: 0\">\n                            <option value=\"15\">15 FPS (Classic / Low bandwidth)</option>\n                            <option value=\"24\">24 FPS (Cinematic standard)</option>\n                            <option value=\"25\">25 FPS (PAL standard)</option>\n                            <option value=\"30\" selected>30 FPS (Standard smooth NTSC)</option>\n                            <option value=\"50\">50 FPS (PAL high-framerate)</option>\n                            <option value=\"60\">60 FPS (Ultra smooth / gaming standard)</option>\n                          </select>\n                        </div>\n                        <div id=\"fps-mode-wrap\">\n                          <label for=\"fps-mode\" style=\"font-size: 0.8rem\">Resampling Mode:</label>\n                          <select id=\"fps-mode\" name=\"fps-mode\" style=\"margin-bottom: 0\">\n                            <option value=\"duplicate\" selected>Frame Repeating (Fast / Standard)</option>\n                            <option value=\"blend\">Traditional Bidirectional Blending (Smooth)</option>\n                          </select>\n                        </div>\n                      </div>\n                      <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.8rem\">\n                        💡 <strong>Bidirectional Blending</strong> uses hardware-accelerated 2D canvas interpolation to\n                        blend adjacent source frames dynamically, making video playback look cinematic and ultra-smooth\n                        on higher frame rates.\n                      </small>\n                    </div>\n                  </div>\n                </details>\n\n                <!-- Box 4: Audio Track Handling -->\n                <details class=\"config-card\" id=\"panel-audio\">\n                  <summary class=\"card-header\">🔊 Audio Stream Handlers</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                    <legend style=\"font-weight: 500; font-size: 0.95rem; margin-bottom: 0.5rem\">\n                      Audio Mode Select\n                    </legend>\n                    <label for=\"audio-mode-copy\">\n                      <input type=\"radio\" id=\"audio-mode-copy\" name=\"audio-mode\" value=\"copy\" checked />\n                      ⚡ Retain Original Audio Stream (Raw Copy)\n                    </label>\n                    <label for=\"audio-mode-transcode\">\n                      <input type=\"radio\" id=\"audio-mode-transcode\" name=\"audio-mode\" value=\"transcode\" />\n                      ⚙️ Transcode / Convert Audio\n                    </label>\n                    <label for=\"audio-mode-mute\">\n                      <input type=\"radio\" id=\"audio-mode-mute\" name=\"audio-mode\" value=\"mute\" />\n                      🔇 Strip Audio Track (Mute Video)\n                    </label>\n                  </fieldset>\n\n                  <div\n                    id=\"audio-transcode-controls\"\n                    style=\"\n                      display: none;\n                      border-top: 1px solid var(--pico-muted-border-color);\n                      padding-top: 1rem;\n                      margin-top: 0.5rem;\n                    \"\n                  >\n                    <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                      <div>\n                        <label for=\"audio-codec\">Audio Codec</label>\n                        <select id=\"audio-codec\" name=\"audio-codec\">\n                          <option value=\"aac\" selected>AAC (Highly compatible)</option>\n                          <option value=\"opus\">Opus (High quality, lower bitrate)</option>\n                          <option value=\"mp3\">MP3</option>\n                          <option value=\"flac\">FLAC (Lossless)</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"audio-bitrate\">Bitrate</label>\n                        <select id=\"audio-bitrate\" name=\"audio-bitrate\">\n                          <option value=\"64000\">64 kbps (Mobile optimization)</option>\n                          <option value=\"128000\" selected>128 kbps (Balanced)</option>\n                          <option value=\"192000\">192 kbps (High Fidelity)</option>\n                          <option value=\"320000\">320 kbps (Premium)</option>\n                        </select>\n                      </div>\n                    </div>\n\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"audio-channels\">Channels</label>\n                        <select id=\"audio-channels\" name=\"audio-channels\">\n                          <option value=\"0\" selected>Original Channels</option>\n                          <option value=\"1\">1 (Mono)</option>\n                          <option value=\"2\">2 (Stereo)</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"audio-samplerate\">Sample Rate</label>\n                        <select id=\"audio-samplerate\" name=\"audio-samplerate\">\n                          <option value=\"0\" selected>Original Sample Rate</option>\n                          <option value=\"44100\">44,100 Hz</option>\n                          <option value=\"48000\">48,000 Hz</option>\n                          <option value=\"32000\">32,000 Hz</option>\n                        </select>\n                      </div>\n                    </div>\n                  </div>\n                \n                  </div>\n                </details>\n            </form>\n          </div>\n          <!-- Column 3: output / download -->\n          <div class=\"workshop-output\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n            <div class=\"output-actions\">\n              <button type=\"submit\" form=\"conversion-form\" id=\"convert-btn\" class=\"contrast\">\n                🚀 Convert & Process Video File\n              </button>\n              <button type=\"button\" id=\"cancel-btn\" class=\"secondary\" style=\"display: none\">🛑 Cancel Conversion</button>\n              <div class=\"size-estimate\">\n                Estimated output: <strong id=\"size-estimate\">—</strong>\n                <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.15rem\">\n                  Rough estimate (bitrate × duration; accounts for crop, trim, resize & frame rate).\n                </small>\n              </div>\n            </div>\n\n            <div id=\"output-placeholder\" class=\"output-shell\">\n              <svg\n                xmlns=\"http://www.w3.org/2000/svg\"\n                width=\"40\"\n                height=\"40\"\n                fill=\"none\"\n                viewBox=\"0 0 24 24\"\n                stroke=\"currentColor\"\n                stroke-width=\"1.3\"\n              >\n                <path\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                  d=\"M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z\"\n                />\n              </svg>\n              <p>Your processed video will appear here</p>\n            </div>\n\n            <section id=\"progress-section\" style=\"display: none; margin-top: 2rem\">\n        <article>\n          <h4 style=\"margin-bottom: 0.5rem; display: flex; justify-content: space-between\">\n            <span id=\"progress-title\">🐰 Processing Video Sample...</span>\n            <strong id=\"progress-percentage\">0%</strong>\n          </h4>\n          <progress id=\"conversion-progress\" value=\"0\" max=\"100\"></progress>\n          <div\n            style=\"display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--pico-muted-color)\"\n          >\n            <span id=\"progress-time-processed\">Processed Time: 0s / 0s</span>\n            <span id=\"progress-speed\">Processing speed: Normal</span>\n          </div>\n        </article>\n      </section>\n            <section id=\"result-section\" style=\"display: none; margin-top: 2rem\">\n        <!-- Processed output shown first; the original already lives in the input column -->\n        <article class=\"result-card\">\n          <header class=\"card-header success\">Processed Output</header>\n          <div class=\"video-container\">\n            <video id=\"output-video\" controls autoplay></video>\n          </div>\n        </article>\n\n        <ins class=\"success-note\">\n          <h3>🎉 Success! Conversion Completed Successfully</h3>\n          <p style=\"margin-bottom: 1rem; font-size: 0.95rem\">\n            Your media has been processed on-the-fly and packaged directly in your browser. No server uploads occurred.\n          </p>\n\n          <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n            <div>\n              <a\n                href=\"#\"\n                id=\"download-anchor\"\n                download=\"mediabunny_result.mp4\"\n                class=\"button download-btn\"\n              >\n                <svg\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                  width=\"20\"\n                  height=\"20\"\n                  fill=\"none\"\n                  viewBox=\"0 0 24 24\"\n                  stroke=\"currentColor\"\n                  stroke-width=\"2.5\"\n                >\n                  <path\n                    stroke-linecap=\"round\"\n                    stroke-linejoin=\"round\"\n                    d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3\"\n                  />\n                </svg>\n                <span>Download Processed Video</span>\n              </a>\n              <span id=\"output-size-tag\" class=\"output-size\"\n                >-</span\n              >\n            </div>\n          </div>\n        </ins>\n      </section>\n\n            <details class=\"config-card log-section\">\n              <summary class=\"card-header\">🔍 System Console & Transcoding logs (verbose)</summary>\n              <div class=\"config-card-body\">\n                <div style=\"position: relative\">\n                  <button\n                    id=\"clear-console-btn\"\n                    class=\"outline secondary\"\n                    style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\"\n                  >\n                    Clear Log\n                  </button>\n                  <pre id=\"log-console\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                </div>\n              </div>\n            </details>\n          </div>\n        </div>\n\n        <div id=\"image-workspace\" class=\"workshop-layout\" style=\"display: none\">\n          <!-- Column 1: input / info -->\n          <div class=\"workshop-sidebar\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Image Preview & Blur Paint Mask\n              </header>\n              <div class=\"image-canvas-stage\" id=\"image-canvas-stage\">\n                <canvas id=\"image-preview-canvas\"></canvas>\n                <canvas id=\"image-mask-canvas\"></canvas>\n              </div>\n              <div class=\"canvas-tool-picker\" role=\"radiogroup\" aria-label=\"Canvas Tool\">\n                <span class=\"canvas-tool-label\">Canvas Tool</span>\n                <div>\n                  <label>\n                    <input type=\"radio\" name=\"img-canvas-tool\" value=\"crop\" id=\"img-tool-crop\" checked />\n                    ✂️ Crop\n                  </label>\n                  <label>\n                    <input type=\"radio\" name=\"img-canvas-tool\" value=\"paint\" id=\"img-tool-paint\" />\n                    🙈 Redaction\n                  </label>\n                </div>\n              </div>\n              <small style=\"display: block; text-align: center; margin-top: 0.5rem; color: var(--pico-muted-color)\">\n                Enable Crop or Redaction to activate a tool. Drag crop corners directly on the preview, or paint\n                redactions over sensitive areas.\n              </small>\n            </article>\n\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Image Attributes\n              </header>\n              <div class=\"meta-grid\">\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Name</span>\n                  <span id=\"img-meta-name\" style=\"word-break: break-all; font-weight: 500\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Size</span>\n                  <span id=\"img-meta-size\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Original Size</span>\n                  <span id=\"img-meta-resolution\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Aspect Ratio</span>\n                  <span id=\"img-meta-aspect\">-</span>\n                </div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Detected Type</span>\n                  <span id=\"img-meta-type\">-</span>\n                </div>\n              </div>\n            </article>\n          </div>\n          <!-- Column 2: image settings -->\n          <div class=\"workshop-main\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n            <form id=\"image-form\" class=\"settings-stack\" style=\"margin-bottom: 0\">\n              <details class=\"config-card\" id=\"panel-img-crop\">\n                  <summary class=\"card-header\">✂️ Crop Region</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-crop\">\n                    <input type=\"checkbox\" id=\"img-enable-crop\" checked />\n                    Enable Crop\n                  </label>\n                </fieldset>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-crop-x\">X</label>\n                    <input type=\"number\" id=\"img-crop-x\" min=\"0\" value=\"0\" />\n                  </div>\n                  <div>\n                    <label for=\"img-crop-y\">Y</label>\n                    <input type=\"number\" id=\"img-crop-y\" min=\"0\" value=\"0\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-crop-width\">Crop Width</label>\n                    <input type=\"number\" id=\"img-crop-width\" min=\"1\" value=\"1\" />\n                  </div>\n                  <div>\n                    <label for=\"img-crop-height\">Crop Height</label>\n                    <input type=\"number\" id=\"img-crop-height\" min=\"1\" value=\"1\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0\">\n                  <button type=\"button\" id=\"img-crop-full\" class=\"secondary\">Use Full Image</button>\n                  <button type=\"button\" id=\"img-crop-square\" class=\"secondary\">Centered Square</button>\n                </div>\n              \n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-upscale\">\n                  <summary class=\"card-header\">✨ AI Upscale (2x)</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-upscale\">\n                    <input type=\"checkbox\" id=\"img-enable-upscale\" />\n                    Enable AI Upscale\n                  </label>\n                </fieldset>\n                <label for=\"img-upscale-model\">Model</label>\n                <select id=\"img-upscale-model\">\n                  <option value=\"quality\" selected>Quality — Real-ESRGAN x2plus (67 MB download)</option>\n                  <option value=\"fast\">Fast — Real-ESRGAN general v3 (5 MB download)</option>\n                </select>\n                <small id=\"img-upscale-status\" style=\"display: block; color: var(--pico-muted-color)\"\n                  >Runs locally in your browser. The model downloads once on first use and is cached.</small\n                >\n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-resize\">\n                  <summary class=\"card-header\">📐 Output Resize</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-resize\">\n                    <input type=\"checkbox\" id=\"img-enable-resize\" />\n                    Enable Resize\n                  </label>\n                </fieldset>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-out-width\">Output Width</label>\n                    <input type=\"number\" id=\"img-out-width\" min=\"1\" value=\"1\" />\n                  </div>\n                  <div>\n                    <label for=\"img-out-height\">Output Height</label>\n                    <input type=\"number\" id=\"img-out-height\" min=\"1\" value=\"1\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-scale-preset\">Scale Preset</label>\n                    <select id=\"img-scale-preset\">\n                      <option value=\"\" selected>Select scale...</option>\n                      <option value=\"0.25\">25% (0.25x)</option>\n                      <option value=\"0.5\">50% (0.5x)</option>\n                      <option value=\"0.75\">75% (0.75x)</option>\n                      <option value=\"1\">100% (1x)</option>\n                      <option value=\"1.25\">125% (1.25x)</option>\n                      <option value=\"1.5\">150% (1.5x)</option>\n                      <option value=\"2\">200% (2x)</option>\n                      <option value=\"3\">300% (3x)</option>\n                      <option value=\"4\">400% (4x)</option>\n                    </select>\n                  </div>\n                  <div>\n                    <label for=\"img-maxdim-preset\">Max Dimension Preset</label>\n                    <select id=\"img-maxdim-preset\">\n                      <option value=\"\" selected>Fit longest side to...</option>\n                      <option value=\"256\">256 px (2^8)</option>\n                      <option value=\"512\">512 px (2^9)</option>\n                      <option value=\"720\">720 px</option>\n                      <option value=\"1024\">1024 px (2^10)</option>\n                      <option value=\"1080\">1080 px</option>\n                      <option value=\"1280\">1280 px</option>\n                      <option value=\"1920\">1920 px</option>\n                      <option value=\"2048\">2048 px (2^11)</option>\n                      <option value=\"2560\">2560 px</option>\n                      <option value=\"3840\">3840 px</option>\n                      <option value=\"4096\">4096 px (2^12)</option>\n                    </select>\n                  </div>\n                </div>\n                <fieldset>\n                  <label for=\"img-lock-aspect\">\n                    <input type=\"checkbox\" id=\"img-lock-aspect\" checked />\n                    Lock Aspect Ratio\n                  </label>\n                </fieldset>\n                <small id=\"img-resize-status\" style=\"display: block; color: var(--pico-muted-color)\"></small>\n\n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-redact\">\n                  <summary class=\"card-header\">🙈 Redaction Brush</summary>\n                  <div class=\"config-card-body\">\n                  <fieldset>\n                  <label for=\"img-enable-blur\">\n                    <input type=\"checkbox\" id=\"img-enable-blur\" checked />\n                    Enable Redaction Mask Painting\n                  </label>\n                </fieldset>\n                <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-redaction-mode\">Redaction Effect</label>\n                    <select id=\"img-redaction-mode\">\n                      <option value=\"blur\" selected>Blur</option>\n                      <option value=\"pixelate\">Pixelate</option>\n                      <option value=\"black\">Solid Black</option>\n                    </select>\n                  </div>\n                  <div>\n                    <label for=\"img-brush-size\">Brush Size (px)</label>\n                    <input type=\"range\" id=\"img-brush-size\" min=\"8\" max=\"180\" value=\"40\" step=\"1\" />\n                  </div>\n                  <div>\n                    <label for=\"img-blur-strength\">Effect Strength</label>\n                    <input type=\"range\" id=\"img-blur-strength\" min=\"2\" max=\"100\" value=\"4\" step=\"0.25\" />\n                  </div>\n                </div>\n                <div class=\"grid\" style=\"margin-bottom: 0\">\n                  <label for=\"img-erase-mode\" style=\"align-self: center; margin-bottom: 0\">\n                    <input type=\"checkbox\" id=\"img-erase-mode\" />\n                    Erase Mask Mode\n                  </label>\n                  <button type=\"button\" id=\"img-clear-mask\" class=\"secondary\">Clear Blur Mask</button>\n                </div>\n              \n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-format\">\n                  <summary class=\"card-header\">💾 Format & Compression</summary>\n                  <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-out-format\">Output Format</label>\n                    <select id=\"img-out-format\">\n                      <option value=\"image/jpeg\" selected>JPEG (.jpg)</option>\n                      <option value=\"image/png\">PNG (.png, lossless)</option>\n                      <option value=\"image/webp\">WebP (.webp)</option>\n                      <option value=\"image/avif\">AVIF (.avif)</option>\n                    </select>\n                  </div>\n                  <div>\n                    <label for=\"img-quality\">Compression Quality</label>\n                    <input type=\"range\" id=\"img-quality\" min=\"0.1\" max=\"1\" value=\"0.86\" step=\"0.01\" />\n                    <small id=\"img-quality-label\">0.86</small>\n                  </div>\n                </div>\n\n                  </div>\n                </details>\n\n              <details class=\"config-card\" id=\"panel-img-base64\">\n                  <summary class=\"card-header\">📋 Lightweight Base64 PNG</summary>\n                  <div class=\"config-card-body\">\n                  <p style=\"margin-top: 0; font-size: 0.85rem; color: var(--pico-muted-color)\">\n                    Quantizes the current crop/redaction/resize result to an indexed-color PNG and copies\n                    the base64 data URI to your clipboard — paste it directly into markdown\n                    (<code>![](data:image/png;base64,...)</code>) or an &lt;img src&gt; attribute.\n                  </p>\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                  <div>\n                    <label for=\"img-base64-colors\">Palette Size (quantization)</label>\n                    <select id=\"img-base64-colors\">\n                      <option value=\"4\">4 colors (2-bit, tiniest)</option>\n                      <option value=\"8\">8 colors</option>\n                      <option value=\"16\">16 colors (4-bit)</option>\n                      <option value=\"32\">32 colors</option>\n                      <option value=\"64\" selected>64 colors (default)</option>\n                      <option value=\"128\">128 colors</option>\n                      <option value=\"256\">256 colors (8-bit, best quality)</option>\n                    </select>\n                  </div>\n                </div>\n\n                  <button type=\"button\" id=\"image-copy-base64-btn\" class=\"secondary\" style=\"width: 100%\">\n                    📋 Convert & Copy to Clipboard\n                  </button>\n                  <small id=\"image-copy-base64-status\" style=\"display: block; margin-top: 0.4rem\"></small>\n\n                  <div id=\"image-base64-preview-wrap\" style=\"display: none; margin-top: 0.75rem\">\n                    <img\n                      id=\"image-base64-preview\"\n                      alt=\"Quantized PNG preview\"\n                      style=\"\n                        max-width: 100%;\n                        display: block;\n                        margin: 0 auto;\n                        border: 1px solid var(--pico-muted-border-color);\n                        border-radius: 4px;\n                        background: repeating-conic-gradient(#8883 0% 25%, transparent 0% 50%) 50% / 20px 20px;\n                      \"\n                    />\n                    <label for=\"image-base64-output\" style=\"margin-top: 0.6rem\">Base64 data URI</label>\n                    <textarea\n                      id=\"image-base64-output\"\n                      readonly\n                      rows=\"4\"\n                      style=\"font-family: ui-monospace, Consolas, monospace; font-size: 0.7rem; resize: vertical\"\n                    ></textarea>\n                  </div>\n\n                  </div>\n                </details>\n\n            </form>\n          </div>\n          <!-- Column 3: output / download -->\n          <div class=\"workshop-output\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n            <div class=\"output-actions\">\n              <button type=\"submit\" form=\"image-form\" id=\"image-process-btn\" class=\"contrast\">\n                🖼️ Process & Export Image\n              </button>\n            </div>\n\n            <div id=\"image-output-placeholder\" class=\"output-shell\">\n              <svg\n                xmlns=\"http://www.w3.org/2000/svg\"\n                width=\"40\"\n                height=\"40\"\n                fill=\"none\"\n                viewBox=\"0 0 24 24\"\n                stroke=\"currentColor\"\n                stroke-width=\"1.3\"\n              >\n                <path\n                  stroke-linecap=\"round\"\n                  stroke-linejoin=\"round\"\n                  d=\"M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"\n                />\n              </svg>\n              <p>Your processed image will appear here</p>\n            </div>\n\n            <section id=\"image-result-section\" style=\"display: none; margin-top: 2rem\">\n        <!-- Processed image shown first; the original already lives in the input column -->\n        <article class=\"result-card\">\n          <header class=\"card-header success\">Processed Image</header>\n          <img id=\"image-output-preview\" alt=\"Processed image\" style=\"width: 100%; height: auto; display: block\" />\n        </article>\n\n        <ins class=\"success-note\">\n          <h3>🎉 Image Ready</h3>\n          <p style=\"margin-bottom: 1rem; font-size: 0.95rem\">\n            Your image was cropped, redacted, scaled, and re-encoded directly in browser memory.\n          </p>\n          <div class=\"grid\" style=\"align-items: center; margin-bottom: 0\">\n            <div>\n              <a\n                href=\"#\"\n                id=\"image-download-anchor\"\n                download=\"processed-image.jpg\"\n                class=\"button download-btn\"\n              >\n                Download Processed Image\n              </a>\n              <span\n                id=\"image-output-size-tag\" class=\"output-size\"\n                >-</span\n              >\n            </div>\n          </div>\n        </ins>\n      </section>\n\n            <details class=\"config-card log-section\">\n              <summary class=\"card-header\">🔍 System Console & Transcoding logs (verbose)</summary>\n              <div class=\"config-card-body\">\n                <div style=\"position: relative\">\n                  <button\n                    id=\"clear-console-btn-img\"\n                    class=\"outline secondary\"\n                    style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\"\n                  >\n                    Clear Log\n                  </button>\n                  <pre id=\"log-console-img\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                </div>\n              </div>\n            </details>\n          </div>\n        </div>\n\n        <div id=\"audio-workspace\" class=\"workshop-layout\" style=\"display: none\">\n          <!-- Column 1: input / info -->\n          <div class=\"workshop-sidebar\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Original Audio Player\n              </header>\n              <audio id=\"audio-preview\" controls style=\"width: 100%; display: block\"></audio>\n              <canvas id=\"audio-waveform\" class=\"audio-waveform\"></canvas>\n              <small style=\"display: block; text-align: center; margin-top: 0.5rem; color: var(--pico-muted-color)\">\n                💡 Play to preview, click the waveform to seek; enable trimming below to clip a time range.\n              </small>\n            </article>\n\n            <article class=\"info-card\">\n              <header class=\"card-header\">\n                Audio Attributes\n              </header>\n              <div class=\"meta-grid\">\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">File Name</span>\n                  <span id=\"audio-meta-name\" style=\"word-break: break-all; font-weight: 500\">-</span>\n                </div>\n                <div class=\"meta-item\"><span class=\"meta-label\">File Size</span><span id=\"audio-meta-size\">-</span></div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Duration</span><span id=\"audio-meta-duration\">-</span></div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Codec</span><span id=\"audio-meta-codec\">-</span></div>\n                <div class=\"meta-item\">\n                  <span class=\"meta-label\">Sample Rate</span><span id=\"audio-meta-samplerate\">-</span>\n                </div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Channels</span><span id=\"audio-meta-channels\">-</span></div>\n                <div class=\"meta-item\"><span class=\"meta-label\">Bitrate</span><span id=\"audio-meta-bitrate\">-</span></div>\n              </div>\n            </article>\n          </div>\n\n          <!-- Column 2: audio settings -->\n          <div class=\"workshop-main\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n            <form id=\"audio-form\" class=\"settings-stack\" style=\"margin-bottom: 0\">\n              <details class=\"config-card\" id=\"panel-audio-trim\">\n                <summary class=\"card-header\">✂️ Time Crop & Trim</summary>\n                <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"audio-enable-trim\">\n                      <input type=\"checkbox\" id=\"audio-enable-trim\" />\n                      Enable Trimming / Time Crop\n                    </label>\n                  </fieldset>\n                  <div id=\"audio-trim-controls\" style=\"display: none; padding-top: 0.5rem\">\n                    <div class=\"slider-group\" style=\"margin-bottom: 0.5rem\">\n                      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem\">\n                        <span style=\"font-weight: 500; font-size: 0.9rem\">Cut / Clip Window Range:</span>\n                        <span class=\"time-val\">\n                          <span id=\"audio-trim-start-val\" style=\"font-weight: bold; color: var(--primary-color)\">0.00s</span>\n                          to\n                          <span id=\"audio-trim-end-val\" style=\"font-weight: bold; color: var(--primary-color)\">0.00s</span>\n                        </span>\n                      </div>\n                      <div class=\"range-slider-wrapper\">\n                        <div class=\"trim-visualizer\"><div class=\"trim-selection\" id=\"audio-trim-selection-bar\"></div></div>\n                        <input type=\"range\" id=\"audio-trim-start\" class=\"range-slider-input\" min=\"0\" max=\"100\" step=\"0.01\" value=\"0\" style=\"z-index: 3\" />\n                        <input type=\"range\" id=\"audio-trim-end\" class=\"range-slider-input\" min=\"0\" max=\"100\" step=\"0.01\" value=\"100\" style=\"z-index: 2\" />\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-audio-output\">\n                <summary class=\"card-header\">🎧 Output Format & Encoding</summary>\n                <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                    <div>\n                      <label for=\"audio-out-format\">Output Format</label>\n                      <select id=\"audio-out-format\" name=\"audio-out-format\">\n                        <option value=\"mp3\" selected>MP3 (.mp3)</option>\n                        <option value=\"m4a\">M4A / AAC (.m4a)</option>\n                        <option value=\"opus\">Opus (.ogg)</option>\n                        <option value=\"wav\">WAV (.wav, lossless)</option>\n                        <option value=\"flac\">FLAC (.flac, lossless)</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"audio-out-bitrate\">Bitrate</label>\n                      <select id=\"audio-out-bitrate\" name=\"audio-out-bitrate\">\n                        <option value=\"96000\">96 kbps</option>\n                        <option value=\"128000\">128 kbps</option>\n                        <option value=\"192000\" selected>192 kbps</option>\n                        <option value=\"256000\">256 kbps</option>\n                        <option value=\"320000\">320 kbps</option>\n                      </select>\n                    </div>\n                  </div>\n                  <div class=\"grid\" style=\"margin-bottom: 0\">\n                    <div>\n                      <label for=\"audio-out-samplerate\">Sample Rate</label>\n                      <select id=\"audio-out-samplerate\" name=\"audio-out-samplerate\">\n                        <option value=\"0\" selected>Original</option>\n                        <option value=\"48000\">48,000 Hz</option>\n                        <option value=\"44100\">44,100 Hz</option>\n                        <option value=\"32000\">32,000 Hz</option>\n                        <option value=\"22050\">22,050 Hz</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"audio-out-channels\">Channels</label>\n                      <select id=\"audio-out-channels\" name=\"audio-out-channels\">\n                        <option value=\"0\" selected>Original</option>\n                        <option value=\"1\">1 (Mono)</option>\n                        <option value=\"2\">2 (Stereo)</option>\n                      </select>\n                    </div>\n                  </div>\n                </div>\n              </details>\n            </form>\n          </div>\n\n          <!-- Column 3: output / download -->\n          <div class=\"workshop-output\">\n            <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n            <div class=\"output-actions\">\n              <button type=\"submit\" form=\"audio-form\" id=\"audio-process-btn\" class=\"contrast\">🎵 Convert & Process Audio</button>\n              <button type=\"button\" id=\"audio-cancel-btn\" class=\"secondary\" style=\"display: none\">🛑 Cancel Conversion</button>\n              <div class=\"size-estimate\">\n                Estimated output: <strong id=\"audio-size-estimate\">—</strong>\n                <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.15rem\">\n                  Rough estimate (bitrate × duration; trim-aware).\n                </small>\n              </div>\n            </div>\n\n            <div id=\"audio-output-placeholder\" class=\"output-shell\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"1.3\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z\" />\n              </svg>\n              <p>Your processed audio will appear here</p>\n            </div>\n\n            <section id=\"audio-progress-section\" style=\"display: none\">\n              <article>\n                <h4 style=\"margin-bottom: 0.5rem; display: flex; justify-content: space-between\">\n                  <span id=\"audio-progress-title\">🎵 Processing audio...</span>\n                  <strong id=\"audio-progress-pct\">0%</strong>\n                </h4>\n                <progress id=\"audio-progress\" value=\"0\" max=\"100\"></progress>\n              </article>\n            </section>\n\n            <section id=\"audio-result-section\" style=\"display: none\">\n              <article class=\"result-card\">\n                <header class=\"card-header success\">Processed Audio</header>\n                <audio id=\"audio-output-preview\" controls style=\"width: 100%; display: block\"></audio>\n              </article>\n              <ins class=\"success-note\">\n                <h3>🎉 Audio Ready</h3>\n                <p style=\"margin-bottom: 1rem; font-size: 0.95rem\">\n                  Processed directly in your browser. No server uploads occurred.\n                </p>\n                <a href=\"#\" id=\"audio-download-anchor\" download=\"audio_web_export.mp3\" class=\"button download-btn\">\n                  Download Processed Audio\n                </a>\n                <span id=\"audio-output-size-tag\" class=\"output-size\">-</span>\n              </ins>\n            </section>\n\n            <details class=\"config-card log-section\">\n              <summary class=\"card-header\">🔍 System Console & Transcoding logs (verbose)</summary>\n              <div class=\"config-card-body\">\n                <div style=\"position: relative\">\n                  <button id=\"clear-console-btn-audio\" class=\"outline secondary\" style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\">\n                    Clear Log\n                  </button>\n                  <pre id=\"log-console-audio\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                </div>\n              </div>\n            </details>\n          </div>\n        </div>\n\n        <div id=\"batch-workspace\" style=\"display: none\">\n          <div class=\"workshop-layout\">\n            <!-- Column 1: input previews -->\n            <div class=\"workshop-sidebar\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Input (<span id=\"batch-input-count\">0</span>)\n                </header>\n                <div id=\"batch-thumbs\" class=\"batch-thumbs\"></div>\n                <small style=\"display: block; margin-top: 0.75rem; color: var(--pico-muted-color)\">\n                  Total input size: <strong id=\"batch-total-size\">-</strong>\n                </small>\n              </article>\n            </div>\n            <!-- Column 2: shared settings applied to every image -->\n            <div class=\"workshop-main\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n              <details class=\"config-card\" id=\"panel-batch-format\" open>\n                <summary class=\"card-header\">💾 Output Format & Quality</summary>\n                <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0.5rem\">\n                    <div>\n                      <label for=\"batch-out-format\">Output Format</label>\n                      <select id=\"batch-out-format\">\n                        <option value=\"image/jpeg\" selected>JPEG (.jpg)</option>\n                        <option value=\"image/png\">PNG (.png, lossless)</option>\n                        <option value=\"image/webp\">WebP (.webp)</option>\n                        <option value=\"image/avif\">AVIF (.avif)</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"batch-quality\">Compression Quality</label>\n                      <input type=\"range\" id=\"batch-quality\" min=\"0.1\" max=\"1\" value=\"0.86\" step=\"0.01\" />\n                      <small id=\"batch-quality-label\">0.86</small>\n                    </div>\n                  </div>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-batch-resize\" open>\n                <summary class=\"card-header\">📐 Resize</summary>\n                <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"batch-enable-resize\">\n                      <input type=\"checkbox\" id=\"batch-enable-resize\" />\n                      Enable Resize (applied to all)\n                    </label>\n                  </fieldset>\n                  <div id=\"batch-resize-controls\" style=\"display: none\">\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"batch-maxdim-preset\">Max Dimension Preset</label>\n                        <select id=\"batch-maxdim-preset\">\n                          <option value=\"\" selected>Choose a preset…</option>\n                          <option value=\"512\">512 px</option>\n                          <option value=\"1024\">1024 px</option>\n                          <option value=\"1280\">1280 px</option>\n                          <option value=\"1920\">1920 px</option>\n                          <option value=\"2560\">2560 px</option>\n                          <option value=\"3840\">3840 px</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"batch-maxdim\">Max Dimension (px)</label>\n                        <input type=\"number\" id=\"batch-maxdim\" min=\"1\" placeholder=\"e.g. 1920\" />\n                      </div>\n                    </div>\n                    <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.75rem\">\n                      💡 Caps the longest side to this value (downscale only — never enlarged; aspect ratio preserved).\n                      Pick a preset or type an exact size.\n                    </small>\n                  </div>\n                </div>\n              </details>\n\n            </div>\n\n            <!-- Column 3: actions, results queue, and logs -->\n            <div class=\"workshop-output\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n              <div class=\"output-actions\">\n                <button type=\"button\" id=\"batch-process-btn\" class=\"contrast\">🖼️ Process All Images</button>\n                <button type=\"button\" id=\"batch-download-all\" class=\"secondary\" style=\"display: none\">\n                  ⬇️ Download All (.zip)\n                </button>\n              </div>\n\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Queue (<span id=\"batch-count\">0</span>)\n                </header>\n                <div id=\"batch-queue\"></div>\n              </article>\n\n              <details class=\"config-card log-section\">\n                <summary class=\"card-header\">🔍 System Console & logs (verbose)</summary>\n                <div class=\"config-card-body\">\n                  <div style=\"position: relative\">\n                    <button id=\"clear-console-btn-batch\" class=\"outline secondary\" style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\">\n                      Clear Log\n                    </button>\n                    <pre id=\"log-console-batch\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                  </div>\n                </div>\n              </details>\n            </div>\n          </div>\n        </div>\n\n        <div id=\"video-batch-workspace\" style=\"display: none\">\n          <div class=\"workshop-layout\">\n            <!-- Column 1: input previews -->\n            <div class=\"workshop-sidebar\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">1</span>Input</h3>\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Input (<span id=\"vbatch-input-count\">0</span>)\n                </header>\n                <div id=\"vbatch-thumbs\" class=\"batch-thumbs\"></div>\n                <small style=\"display: block; margin-top: 0.75rem; color: var(--pico-muted-color)\">\n                  Total input size: <strong id=\"vbatch-total-size\">-</strong>\n                </small>\n              </article>\n            </div>\n            <!-- Column 2: shared settings applied to every video -->\n            <div class=\"workshop-main settings-stack\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">2</span>Conversion Settings</h3>\n              <details class=\"config-card\" id=\"panel-vbatch-codec\" open>\n                <summary class=\"card-header\">💿 Output Format & Codec</summary>\n                <div class=\"config-card-body\">\n                  <div class=\"grid\" style=\"margin-bottom: 0\">\n                    <div>\n                      <label for=\"vbatch-out-format\">Output Format</label>\n                      <select id=\"vbatch-out-format\">\n                        <option value=\"mp4\" selected>MP4 (.mp4)</option>\n                        <option value=\"webm\">WebM (.webm)</option>\n                      </select>\n                    </div>\n                    <div>\n                      <label for=\"vbatch-out-codec\">Video Codec</label>\n                      <select id=\"vbatch-out-codec\">\n                        <option value=\"avc\" selected>H.264 / AVC (High compatibility)</option>\n                        <option value=\"hevc\">H.265 / HEVC (High compression)</option>\n                      </select>\n                    </div>\n                  </div>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-vbatch-compress\" open>\n                <summary class=\"card-header\">🗜️ Compression & Audio</summary>\n                <div class=\"config-card-body\">\n                  <label for=\"vbatch-quality\" style=\"display: block; margin-bottom: 0.5rem\">\n                    Video Compression (Subjective Quality):\n                  </label>\n                  <div class=\"quality-readout\">\n                    <span class=\"time-val time-val-primary\" id=\"vbatch-quality-val\">Medium</span>\n                    <span id=\"vbatch-quality-rate\" class=\"quality-rate\">~3.5 Mbps</span>\n                  </div>\n                  <input type=\"range\" id=\"vbatch-quality\" min=\"1\" max=\"5\" value=\"3\" step=\"1\" />\n                  <fieldset style=\"margin-top: 1rem; margin-bottom: 0\">\n                    <label for=\"vbatch-mute\">\n                      <input type=\"checkbox\" id=\"vbatch-mute\" />\n                      🔇 Remove audio track\n                    </label>\n                  </fieldset>\n                </div>\n              </details>\n\n              <details class=\"config-card\" id=\"panel-vbatch-resize\" open>\n                <summary class=\"card-header\">📐 Resize</summary>\n                <div class=\"config-card-body\">\n                  <fieldset>\n                    <label for=\"vbatch-enable-resize\">\n                      <input type=\"checkbox\" id=\"vbatch-enable-resize\" />\n                      Enable Resize (applied to all)\n                    </label>\n                  </fieldset>\n                  <div id=\"vbatch-resize-controls\" style=\"display: none\">\n                    <div class=\"grid\" style=\"margin-bottom: 0\">\n                      <div>\n                        <label for=\"vbatch-maxdim-preset\">Max Dimension Preset</label>\n                        <select id=\"vbatch-maxdim-preset\">\n                          <option value=\"\" selected>Choose a preset…</option>\n                          <option value=\"480\">480 px</option>\n                          <option value=\"720\">720 px</option>\n                          <option value=\"1080\">1080 px</option>\n                          <option value=\"1280\">1280 px</option>\n                          <option value=\"1920\">1920 px</option>\n                        </select>\n                      </div>\n                      <div>\n                        <label for=\"vbatch-maxdim\">Max Dimension (px)</label>\n                        <input type=\"number\" id=\"vbatch-maxdim\" min=\"1\" placeholder=\"e.g. 1080\" />\n                      </div>\n                    </div>\n                    <small style=\"display: block; color: var(--pico-muted-color); margin-top: 0.5rem; font-size: 0.75rem\">\n                      💡 Caps the longest side (downscale only — never enlarged; aspect ratio preserved).\n                    </small>\n                  </div>\n                </div>\n              </details>\n            </div>\n\n            <!-- Column 3: actions, results queue, and logs -->\n            <div class=\"workshop-output\">\n              <h3 class=\"column-heading\"><span class=\"column-step\">3</span>Output</h3>\n              <div class=\"output-actions\">\n                <button type=\"button\" id=\"vbatch-process-btn\" class=\"contrast\">🎬 Process All Videos</button>\n                <button type=\"button\" id=\"vbatch-download-all\" class=\"secondary\" style=\"display: none\">\n                  ⬇️ Download All (.zip)\n                </button>\n              </div>\n\n              <article class=\"info-card\">\n                <header class=\"card-header\">\n                  Batch Queue (<span id=\"vbatch-count\">0</span>)\n                </header>\n                <div id=\"vbatch-queue\"></div>\n              </article>\n\n              <details class=\"config-card log-section\">\n                <summary class=\"card-header\">🔍 System Console & logs (verbose)</summary>\n                <div class=\"config-card-body\">\n                  <div style=\"position: relative\">\n                    <button id=\"clear-console-btn-vbatch\" class=\"outline secondary\" style=\"position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 4px 10px; margin: 0; width: auto\">\n                      Clear Log\n                    </button>\n                    <pre id=\"log-console-vbatch\">System diagnostic logger initialized. Waiting for media file drop...</pre>\n                  </div>\n                </div>\n              </details>\n            </div>\n          </div>\n        </div>\n      </section>\n    </main>\n\n    <footer\n      style=\"\n        margin-top: 4rem;\n        padding: 1.5rem 0;\n        border-top: 1px solid var(--pico-muted-border-color);\n        text-align: center;\n        font-size: 0.85rem;\n        color: var(--pico-muted-color);\n      \"\n    >\n      <p>Powered by <strong>WebCodecs</strong> & <strong>MediaBunny</strong>. Built by Cacheflowe 👋</p>\n    </footer>\n";
 // node_modules/mediabunny/dist/modules/src/misc.js
 function a(e) {
 	if (!e) throw Error("Assertion failed.");
@@ -1194,7 +1194,7 @@ var tn = function* (e) {
 			let e = i & 16;
 			if ((r === 44 || r === 86 || r === 100 || r === 110 || r === 122 || r === 244) && e) D = 0, O = 0;
 			else {
-				let e = f + 1, t = p + 1, n = (2 - y) * t, r = Iu.find((e) => e.level >= o) ?? v(Iu), i = Math.min(Math.floor(r.maxDpbMbs / (e * n)), 16);
+				let e = f + 1, t = p + 1, n = (2 - y) * t, r = Lu.find((e) => e.level >= o) ?? v(Lu), i = Math.min(Math.floor(r.maxDpbMbs / (e * n)), 16);
 				D = i, O = i;
 			}
 		}
@@ -1557,8 +1557,8 @@ var Pn = (e, t) => {
 			o = !e && !n ? 3 : e && !n ? 2 : 1, t.skipBits(1);
 		} else o = 1;
 	} else o = 3, s = 1;
-	let c = t.readBits(16), l = t.readBits(16), u = (c + 1) * (l + 1), d = v(Ru).level;
-	for (let e of Ru) if (u <= e.maxPictureSize) {
+	let c = t.readBits(16), l = t.readBits(16), u = (c + 1) * (l + 1), d = v(zu).level;
+	for (let e of zu) if (u <= e.maxPictureSize) {
 		d = e.level;
 		break;
 	}
@@ -3763,7 +3763,7 @@ var Rr = class {
 	});
 }, hi = /* @__PURE__ */ new Map(), gi = /* @__PURE__ */ new Map(), _i = (e) => {
 	if (!e || typeof e != "object") throw TypeError("Encoding config must be an object.");
-	if (!Au.includes(e.codec)) throw TypeError(`Invalid video codec '${e.codec}'. Must be one of: ${Au.join(", ")}.`);
+	if (!ju.includes(e.codec)) throw TypeError(`Invalid video codec '${e.codec}'. Must be one of: ${ju.join(", ")}.`);
 	let t = e.bitrate;
 	if (e.quality === void 0 && t === void 0) throw TypeError("config.quality must be provided.");
 	if (e.quality !== void 0 && t !== void 0) throw TypeError("config.quality and config.bitrate cannot both be provided.");
@@ -3818,7 +3818,7 @@ var Rr = class {
 	if (n !== void 0 && !["constant", "variable"].includes(n)) throw TypeError("bitrateMode, when provided, must be 'constant' or 'variable'.");
 	if (t.latencyMode !== void 0 && !["quality", "realtime"].includes(t.latencyMode)) throw TypeError("latencyMode, when provided, must be 'quality' or 'realtime'.");
 	if (t.fullCodecString !== void 0 && typeof t.fullCodecString != "string") throw TypeError("fullCodecString, when provided, must be a string.");
-	if (t.fullCodecString !== void 0 && id(t.fullCodecString) !== e) throw TypeError(`fullCodecString, when provided, must be a string that matches the specified codec (${e}).`);
+	if (t.fullCodecString !== void 0 && ad(t.fullCodecString) !== e) throw TypeError(`fullCodecString, when provided, must be a string that matches the specified codec (${e}).`);
 	if (t.hardwareAcceleration !== void 0 && ![
 		"no-preference",
 		"prefer-hardware",
@@ -3828,7 +3828,7 @@ var Rr = class {
 	if (t.contentHint !== void 0 && typeof t.contentHint != "string") throw TypeError("contentHint, when provided, must be a string.");
 }, yi = (e) => {
 	let t = e.bitrateMode, n = e.quality._toVideoRateControl(e.codec, e.width, e.height, t), r = (t, n, r) => ({
-		codec: e.fullCodecString ?? Gu(e.codec, e.width, e.height, r, e.alpha === "keep"),
+		codec: e.fullCodecString ?? Ku(e.codec, e.width, e.height, r, e.alpha === "keep"),
 		width: e.width,
 		height: e.height,
 		displayWidth: e.squarePixelWidth,
@@ -3841,7 +3841,7 @@ var Rr = class {
 		hardwareAcceleration: e.hardwareAcceleration,
 		scalabilityMode: e.scalabilityMode,
 		contentHint: e.contentHint,
-		...ad(e.codec)
+		...od(e.codec)
 	}), i = [];
 	return n.quantizer !== null && i.push({
 		config: r(void 0, "quantizer", n.bitrate),
@@ -3852,9 +3852,9 @@ var Rr = class {
 	}), a(i.length > 0), i;
 }, bi = (e) => {
 	if (!e || typeof e != "object") throw TypeError("Encoding config must be an object.");
-	if (!Nu.includes(e.codec)) throw TypeError(`Invalid audio codec '${e.codec}'. Must be one of: ${Nu.join(", ")}.`);
+	if (!Pu.includes(e.codec)) throw TypeError(`Invalid audio codec '${e.codec}'. Must be one of: ${Pu.join(", ")}.`);
 	let t = e.bitrate;
-	if (e.quality === void 0 && t === void 0 && !(ju.includes(e.codec) || e.codec === "flac" || e.codec === "truehd")) throw TypeError("config.quality must be provided for compressed audio codecs.");
+	if (e.quality === void 0 && t === void 0 && !(Mu.includes(e.codec) || e.codec === "flac" || e.codec === "truehd")) throw TypeError("config.quality must be provided for compressed audio codecs.");
 	if (e.quality !== void 0 && t !== void 0) throw TypeError("config.quality and config.bitrate cannot both be provided.");
 	if (e.quality !== void 0 && !(e.quality instanceof Ci)) throw TypeError("config.quality, when provided, must be a Quality.");
 	if (t !== void 0 && !(t instanceof Ci) && (!Number.isInteger(t) || t <= 0)) throw TypeError("config.bitrate, when provided, must be a positive integer or a quality.");
@@ -3879,16 +3879,16 @@ var Rr = class {
 	let n = t.bitrateMode;
 	if (n !== void 0 && !["constant", "variable"].includes(n)) throw TypeError("bitrateMode, when provided, must be 'constant' or 'variable'.");
 	if (t.fullCodecString !== void 0 && typeof t.fullCodecString != "string") throw TypeError("fullCodecString, when provided, must be a string.");
-	if (t.fullCodecString !== void 0 && id(t.fullCodecString) !== e) throw TypeError(`fullCodecString, when provided, must be a string that matches the specified codec (${e}).`);
+	if (t.fullCodecString !== void 0 && ad(t.fullCodecString) !== e) throw TypeError(`fullCodecString, when provided, must be a string that matches the specified codec (${e}).`);
 }, Si = (e) => {
 	let t = e.bitrateMode;
 	return {
-		codec: e.fullCodecString ?? Xu(e.codec, e.numberOfChannels, e.sampleRate),
+		codec: e.fullCodecString ?? Zu(e.codec, e.numberOfChannels, e.sampleRate),
 		numberOfChannels: e.numberOfChannels,
 		sampleRate: e.sampleRate,
 		bitrate: e.quality?._toAudioBitrate(e.codec),
 		bitrateMode: e.quality?._bitrateMode ?? t,
-		...od(e.codec)
+		...sd(e.codec)
 	};
 }, Ci = class {
 	constructor(e) {
@@ -3933,7 +3933,7 @@ var Rr = class {
 		return this._bitrate === void 0 ? (a(this._quality !== void 0), Di(e, t, n, Ei(this._quality))) : this._bitrate;
 	}
 	_toAudioBitrate(e) {
-		if (ju.includes(e) || e === "flac" || e === "truehd") return;
+		if (Mu.includes(e) || e === "flac" || e === "truehd") return;
 		if (this._bitrate !== void 0) return this._bitrate;
 		if (this._quality === void 0) throw Error("This Quality defines neither a quality level nor a bitrate and therefore cannot be used for audio encoding.");
 		let t = Ei(this._quality), n = {
@@ -4025,7 +4025,7 @@ var Rr = class {
 	a(!1);
 }, ki = /* #__PURE__ */ new Ci("very-low"), Ai = /* #__PURE__ */ new Ci("low"), ji = /* #__PURE__ */ new Ci("medium"), Mi = /* #__PURE__ */ new Ci("high"), Ni = /* #__PURE__ */ new Ci("very-high"), Pi = async (e, t = {}) => {
 	let { width: n = 1280, height: r = 720, quality: i, bitrate: a, frameRate: o, ...s } = t;
-	if (!Au.includes(e)) return !1;
+	if (!ju.includes(e)) return !1;
 	if (!Number.isInteger(n) || n <= 0) throw TypeError("width must be a positive integer.");
 	if (!Number.isInteger(r) || r <= 0) throw TypeError("height must be a positive integer.");
 	if (i !== void 0 && !(i instanceof Ci)) throw TypeError("quality, when provided, must be a Quality.");
@@ -4082,7 +4082,7 @@ var Rr = class {
 	return hi.set(u, f), f;
 }, Fi = async (e, t = {}) => {
 	let { numberOfChannels: n = 2, sampleRate: r = 48e3, quality: i, bitrate: a, ...o } = t;
-	if (!Nu.includes(e)) return !1;
+	if (!Pu.includes(e)) return !1;
 	if (!Number.isInteger(n) || n <= 0) throw TypeError("numberOfChannels must be a positive integer.");
 	if (!Number.isInteger(r) || r <= 0) throw TypeError("sampleRate must be a positive integer.");
 	if (i !== void 0 && !(i instanceof Ci)) throw TypeError("quality, when provided, must be a Quality.");
@@ -4098,7 +4098,7 @@ var Rr = class {
 	}), c = JSON.stringify(s), l = gi.get(c);
 	if (l) return l;
 	let u = (async () => {
-		if (Ui.some((t) => t.supports(e, s)) || ju.includes(e)) return !0;
+		if (Ui.some((t) => t.supports(e, s)) || Mu.includes(e)) return !0;
 		if (typeof AudioEncoder > "u") return !1;
 		try {
 			return (await AudioEncoder.isConfigSupported(s)).supported === !0;
@@ -4110,7 +4110,7 @@ var Rr = class {
 }, Ii = (e, t) => {
 	if (e !== void 0) return e;
 	if (t !== void 0) return t instanceof Ci ? t : new Ci({ bitrate: t });
-}, Li = async (e = Nu, t) => {
+}, Li = async (e = Pu, t) => {
 	let n = await Promise.all(e.map((e) => Fi(e, t)));
 	return e.filter((e, t) => n[t]);
 }, Ri = async (e, t) => {
@@ -4526,9 +4526,9 @@ var Rr = class {
 			this.currentTrack = null;
 		}
 		let r = v(t.sampleTimingEntries), i = L(t.sampleToChunk, t.chunkOffsets.length - 1, (e) => e.startChunkIndex), o = t.sampleToChunk[i];
-		if (t.sampleCount = Math.min(t.sampleCount, r ? r.startIndex + r.count : 0, o ? o.startSampleIndex + (t.chunkOffsets.length - o.startChunkIndex) * o.samplesPerChunk : 0), Da(t.sampleTimingEntries, t.sampleCount), Da(t.sampleCompositionTimeOffsets, t.sampleCount), e.info?.type === "audio" && e.info.codec && ju.includes(e.info.codec) && t.sampleCompositionTimeOffsets.length === 0 && t.sampleTimingEntries.length > 0) {
+		if (t.sampleCount = Math.min(t.sampleCount, r ? r.startIndex + r.count : 0, o ? o.startSampleIndex + (t.chunkOffsets.length - o.startChunkIndex) * o.samplesPerChunk : 0), Da(t.sampleTimingEntries, t.sampleCount), Da(t.sampleCompositionTimeOffsets, t.sampleCount), e.info?.type === "audio" && e.info.codec && Mu.includes(e.info.codec) && t.sampleCompositionTimeOffsets.length === 0 && t.sampleTimingEntries.length > 0) {
 			a(e.info?.type === "audio");
-			let n = rd(e.info.codec), r = [], i = [];
+			let n = id(e.info.codec), r = [], i = [];
 			for (let a = 0; a < t.sampleToChunk.length; a++) {
 				let o = t.sampleToChunk[a], s = t.sampleToChunk[a + 1], c = Math.min(s ? s.startChunkIndex : Infinity, t.chunkOffsets.length) - o.startChunkIndex, l = i.length;
 				for (let a = 0; a < c; a++) {
@@ -4809,7 +4809,7 @@ var Rr = class {
 						if (t.info.type === "video") {
 							e.skip(24), t.info.width = Al(e), t.info.height = Al(e), t.info.squarePixelWidth = t.info.width, t.info.squarePixelHeight = t.info.height, e.skip(50), t.frmaCodecString = null, this.readContiguousBoxes(e.slice(e.filePos, r + i.totalSize - e.filePos));
 							let n = a === "encv" ? t.frmaCodecString : a;
-							t.frmaCodecString = null, n === "avc1" || n === "avc3" ? (t.info.codec = "avc", t.info.avcType = n === "avc1" ? 1 : 3) : n === "hvc1" || n === "hev1" ? t.info.codec = "hevc" : n === "vp08" ? t.info.codec = "vp8" : n === "vp09" ? t.info.codec = "vp9" : n === "av01" ? t.info.codec = "av1" : Hu.includes(a) ? (t.info.codec = "prores", t.info.proresFormat = a) : n === null ? K._warn("Unknown encrypted video codec due to missing frma box.") : K._warn(`Unsupported video codec (sample entry type '${i.name}').`);
+							t.frmaCodecString = null, n === "avc1" || n === "avc3" ? (t.info.codec = "avc", t.info.avcType = n === "avc1" ? 1 : 3) : n === "hvc1" || n === "hev1" ? t.info.codec = "hevc" : n === "vp08" ? t.info.codec = "vp8" : n === "vp09" ? t.info.codec = "vp9" : n === "av01" ? t.info.codec = "av1" : Uu.includes(a) ? (t.info.codec = "prores", t.info.proresFormat = a) : n === null ? K._warn("Unknown encrypted video codec due to missing frma box.") : K._warn(`Unsupported video codec (sample entry type '${i.name}').`);
 						} else {
 							e.skip(8);
 							let o = Al(e);
@@ -4820,13 +4820,13 @@ var Rr = class {
 							n === 0 && o > 0 && (o === 1 ? (e.skip(4), c = 8 * X(e), e.skip(8)) : o === 2 && (e.skip(4), l = Hl(e), s = X(e), e.skip(4), c = X(e), u = X(e), e.skip(8))), t.info.numberOfChannels = s, t.info.sampleRate = l, t.frmaCodecString = null, this.readContiguousBoxes(e.slice(e.filePos, r + i.totalSize - e.filePos));
 							let d = a === "enca" ? t.frmaCodecString : a;
 							if (t.frmaCodecString = null, d !== "mp4a") {
-								if (d === "opus") t.info.codec = "opus", t.info.sampleRate = ed;
+								if (d === "opus") t.info.codec = "opus", t.info.sampleRate = td;
 								else if (d === "flac") t.info.codec = "flac";
 								else if (d === "ulaw") t.info.codec = "ulaw";
 								else if (d === "alaw") t.info.codec = "alaw";
 								else if (d === "ac-3") t.info.codec = "ac3";
 								else if (d === "ec-3") t.info.codec = "eac3";
-								else if (Uu.includes(d)) t.info.codec = "dts", t.info.dtsFormat = d;
+								else if (Wu.includes(d)) t.info.codec = "dts", t.info.dtsFormat = d;
 								else if (d === "mlpa") t.info.codec = "truehd";
 								else if (d === "twos") c === 8 ? t.info.codec = "pcm-s8" : c === 16 ? t.info.codec = t.info.pcmLittleEndian ? "pcm-s16" : "pcm-s16be" : (K._warn(`Unsupported sample size ${c} for codec 'twos'.`), t.info.codec = null);
 								else if (d === "sowt") c === 8 ? t.info.codec = "pcm-s8" : c === 16 ? t.info.codec = "pcm-s16" : (K._warn(`Unsupported sample size ${c} for codec 'sowt'.`), t.info.codec = null);
@@ -5930,11 +5930,11 @@ var Rr = class {
 				this.internalTrack.info.proresCodecInfo = e && Vn(e.data);
 			}
 			if (!ie(this.internalTrack.info.colorSpace)) {
-				let e = Yu(this.internalTrack.info);
+				let e = Xu(this.internalTrack.info);
 				this.internalTrack.info.colorSpace.primaries ??= e.primaries, this.internalTrack.info.colorSpace.transfer ??= e.transfer, this.internalTrack.info.colorSpace.matrix ??= e.matrix, this.internalTrack.info.colorSpace.fullRange ??= e.fullRange;
 			}
 			let e = {
-				codec: Ju(this.internalTrack.info),
+				codec: Yu(this.internalTrack.info),
 				codedWidth: this.internalTrack.info.width,
 				codedHeight: this.internalTrack.info.height,
 				description: this.internalTrack.info.codecDescription ?? void 0,
@@ -5966,7 +5966,7 @@ var Rr = class {
 				this.internalTrack.info.dtsFormat = e && yr(e.data);
 			}
 			return {
-				codec: Zu(this.internalTrack.info),
+				codec: Qu(this.internalTrack.info),
 				numberOfChannels: this.internalTrack.info.numberOfChannels,
 				sampleRate: this.internalTrack.info.sampleRate,
 				description: this.internalTrack.info.codecDescription ?? void 0
@@ -6930,7 +6930,7 @@ var mo = [
 						else if (t === so.av1) this.currentTrack.info.codec = "av1";
 						else if (t === so.prores) {
 							let e = this.currentTrack.codecPrivate ? k.decode(this.currentTrack.codecPrivate) : "";
-							Hu.includes(e) && (this.currentTrack.info.codec = "prores", this.currentTrack.info.proresFormat = e);
+							Uu.includes(e) && (this.currentTrack.info.codec = "prores", this.currentTrack.info.proresFormat = e);
 						}
 						let e = this.currentTrack;
 						this.currentTrack.trackBacking = new yo(e), this.currentSegment.tracks.push(this.currentTrack), this.currentSegment.idToTrack.set(this.currentTrack.id, this.currentTrack);
@@ -6938,7 +6938,7 @@ var mo = [
 						t === so.aac ? (this.currentTrack.info.codec = "aac", this.currentTrack.info.aacCodecInfo = {
 							isMpeg2: this.currentTrack.codecId.includes("MPEG2"),
 							objectType: null
-						}, this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : this.currentTrack.codecId === so.mp3 ? this.currentTrack.info.codec = "mp3" : t === so.opus ? (this.currentTrack.info.codec = "opus", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate, this.currentTrack.info.sampleRate = ed) : t === so.vorbis ? (this.currentTrack.info.codec = "vorbis", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.flac ? (this.currentTrack.info.codec = "flac", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.ac3 ? (this.currentTrack.info.codec = "ac3", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.eac3 ? (this.currentTrack.info.codec = "eac3", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.dts ? (this.currentTrack.info.codec = "dts", this.currentTrack.codecId === "A_DTS/EXPRESS" ? this.currentTrack.info.dtsFormat = "dtse" : this.currentTrack.codecId === "A_DTS/LOSSLESS" && (this.currentTrack.info.dtsFormat = "dtsl")) : t === so.truehd ? this.currentTrack.info.codec = "truehd" : this.currentTrack.codecId === "A_PCM/INT/LIT" ? this.currentTrack.info.bitDepth === 8 ? this.currentTrack.info.codec = "pcm-u8" : this.currentTrack.info.bitDepth === 16 ? this.currentTrack.info.codec = "pcm-s16" : this.currentTrack.info.bitDepth === 24 ? this.currentTrack.info.codec = "pcm-s24" : this.currentTrack.info.bitDepth === 32 && (this.currentTrack.info.codec = "pcm-s32") : this.currentTrack.codecId === "A_PCM/INT/BIG" ? this.currentTrack.info.bitDepth === 8 ? this.currentTrack.info.codec = "pcm-u8" : this.currentTrack.info.bitDepth === 16 ? this.currentTrack.info.codec = "pcm-s16be" : this.currentTrack.info.bitDepth === 24 ? this.currentTrack.info.codec = "pcm-s24be" : this.currentTrack.info.bitDepth === 32 && (this.currentTrack.info.codec = "pcm-s32be") : this.currentTrack.codecId === "A_PCM/FLOAT/IEEE" && (this.currentTrack.info.bitDepth === 32 ? this.currentTrack.info.codec = "pcm-f32" : this.currentTrack.info.bitDepth === 64 && (this.currentTrack.info.codec = "pcm-f64"));
+						}, this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : this.currentTrack.codecId === so.mp3 ? this.currentTrack.info.codec = "mp3" : t === so.opus ? (this.currentTrack.info.codec = "opus", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate, this.currentTrack.info.sampleRate = td) : t === so.vorbis ? (this.currentTrack.info.codec = "vorbis", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.flac ? (this.currentTrack.info.codec = "flac", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.ac3 ? (this.currentTrack.info.codec = "ac3", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.eac3 ? (this.currentTrack.info.codec = "eac3", this.currentTrack.info.codecDescription = this.currentTrack.codecPrivate) : t === so.dts ? (this.currentTrack.info.codec = "dts", this.currentTrack.codecId === "A_DTS/EXPRESS" ? this.currentTrack.info.dtsFormat = "dtse" : this.currentTrack.codecId === "A_DTS/LOSSLESS" && (this.currentTrack.info.dtsFormat = "dtsl")) : t === so.truehd ? this.currentTrack.info.codec = "truehd" : this.currentTrack.codecId === "A_PCM/INT/LIT" ? this.currentTrack.info.bitDepth === 8 ? this.currentTrack.info.codec = "pcm-u8" : this.currentTrack.info.bitDepth === 16 ? this.currentTrack.info.codec = "pcm-s16" : this.currentTrack.info.bitDepth === 24 ? this.currentTrack.info.codec = "pcm-s24" : this.currentTrack.info.bitDepth === 32 && (this.currentTrack.info.codec = "pcm-s32") : this.currentTrack.codecId === "A_PCM/INT/BIG" ? this.currentTrack.info.bitDepth === 8 ? this.currentTrack.info.codec = "pcm-u8" : this.currentTrack.info.bitDepth === 16 ? this.currentTrack.info.codec = "pcm-s16be" : this.currentTrack.info.bitDepth === 24 ? this.currentTrack.info.codec = "pcm-s24be" : this.currentTrack.info.bitDepth === 32 && (this.currentTrack.info.codec = "pcm-s32be") : this.currentTrack.codecId === "A_PCM/FLOAT/IEEE" && (this.currentTrack.info.bitDepth === 32 ? this.currentTrack.info.codec = "pcm-f32" : this.currentTrack.info.bitDepth === 64 && (this.currentTrack.info.codec = "pcm-f64"));
 						let e = this.currentTrack;
 						this.currentTrack.trackBacking = new bo(e), this.currentSegment.tracks.push(this.currentTrack), this.currentSegment.idToTrack.set(this.currentTrack.id, this.currentTrack);
 					}
@@ -7202,7 +7202,7 @@ var mo = [
 					let r = this.getTrackDataInCluster(this.currentCluster, n);
 					if (!r) break;
 					let a = Ml(t), o = Y(t), c = o >> 1 & 3, l = !!(o & 128);
-					r.track.info?.type === "audio" && r.track.info.codec && !Fu.includes(r.track.info.codec) && (l = !0);
+					r.track.info?.type === "audio" && r.track.info.codec && !Iu.includes(r.track.info.codec) && (l = !0);
 					let u = J(t, t.remainingLength), d = r.track.decodingInstructions.length > 0;
 					r.blocks.push({
 						timestamp: a,
@@ -7744,11 +7744,11 @@ var mo = [
 				proresFormat: this.internalTrack.info.proresFormat
 			};
 			if (!ie(this.internalTrack.info.colorSpace)) {
-				let e = Yu(t);
+				let e = Xu(t);
 				this.internalTrack.info.colorSpace.primaries ??= e.primaries, this.internalTrack.info.colorSpace.transfer ??= e.transfer, this.internalTrack.info.colorSpace.matrix ??= e.matrix, this.internalTrack.info.colorSpace.fullRange ??= e.fullRange;
 			}
 			let n = {
-				codec: Ju(t),
+				codec: Yu(t),
 				codedWidth: this.internalTrack.info.width,
 				codedHeight: this.internalTrack.info.height,
 				description: this.internalTrack.info.codecDescription ?? void 0,
@@ -7780,7 +7780,7 @@ var mo = [
 				this.internalTrack.info.dtsFormat = e && yr(e.data);
 			}
 			return {
-				codec: Zu({
+				codec: Qu({
 					codec: this.internalTrack.info.codec,
 					codecDescription: this.internalTrack.info.codecDescription,
 					aacCodecInfo: this.internalTrack.info.aacCodecInfo,
@@ -8628,7 +8628,7 @@ var Io = (e) => {
 		if (!r) return;
 		t.codecInfo.codec = "opus", t.description = e.data, t.lastMetadataPacket = r;
 		let i = Hn(e.data);
-		t.numberOfChannels = i.outputChannelCount, t.sampleRate = ed, t.codecInfo.opusInfo = { preSkip: i.preSkip }, Yn(r.data.subarray(8), this.metadataTags);
+		t.numberOfChannels = i.outputChannelCount, t.sampleRate = td, t.codecInfo.opusInfo = { preSkip: i.preSkip }, Yn(r.data.subarray(8), this.metadataTags);
 	}
 	async readPacket(e, t) {
 		a(t < e.lacingValues.length);
@@ -8705,7 +8705,7 @@ var Io = (e) => {
 	}
 }, Ko = class {
 	constructor(e, t) {
-		this.bitstream = e, this.demuxer = t, this.encodedPacketToMetadata = /* @__PURE__ */ new WeakMap(), this.sequentialScanCache = [], this.sequentialScanMutex = new I(), this.firstTimestampInSamplesPromise = null, this.internalSampleRate = e.codecInfo.codec === "opus" ? ed : e.sampleRate;
+		this.bitstream = e, this.demuxer = t, this.encodedPacketToMetadata = /* @__PURE__ */ new WeakMap(), this.sequentialScanCache = [], this.sequentialScanMutex = new I(), this.firstTimestampInSamplesPromise = null, this.internalSampleRate = e.codecInfo.codec === "opus" ? td : e.sampleRate;
 	}
 	getType() {
 		return "audio";
@@ -10048,7 +10048,7 @@ var Xo = class extends qi {
 								throw Error("Unhandled.");
 							}
 							e.info.decoderConfig = {
-								codec: Ju({
+								codec: Yu({
 									width: e.info.width,
 									height: e.info.height,
 									codec: e.info.codec,
@@ -10095,7 +10095,7 @@ var Xo = class extends qi {
 								e.info.numberOfChannels = t.numberOfChannels, e.info.sampleRate = t.sampleRate, t.core && (e.info.dtsFormat = t.hasExtensions ? "dtsh" : "dtsc");
 							} else throw Error("Unhandled.");
 							e.info.decoderConfig = {
-								codec: Zu({
+								codec: Qu({
 									codec: e.info.codec,
 									codecDescription: null,
 									aacCodecInfo: e.info.aacCodecInfo,
@@ -12294,7 +12294,7 @@ var ic = class extends _t {
 					})));
 					s = await Promise.all(n.filter((e) => e.codec !== null).map((e) => e.track.getDecoderConfig().then((e) => e.codec)));
 				}
-				let c = e.attributes.get("video"), l = e.attributes.get("audio"), u = s.some((e) => Au.includes(id(e))), d = s.some((e) => Nu.includes(id(e)));
+				let c = e.attributes.get("video"), l = e.attributes.get("audio"), u = s.some((e) => ju.includes(ad(e))), d = s.some((e) => Pu.includes(ad(e)));
 				if (c !== null && !u) {
 					let e = o.find((e) => {
 						let t = e.attributes.get("group-id"), n = e.attributes.get("type");
@@ -12328,9 +12328,9 @@ var ic = class extends _t {
 				a(m !== null);
 				let h = e.attributes.getAsNumber("average-bandwidth"), g = e.attributes.get("name");
 				for (let n of s) {
-					let i = id(n);
+					let i = ad(n);
 					if (i !== null) {
-						if (Au.includes(i)) {
+						if (ju.includes(i)) {
 							if (f !== null) throw Error("Unsupported M3U8 file; multiple video codecs found in the CODECS attribute of a variant stream.");
 							f = n;
 							let i = e.attributes.get("video");
@@ -12391,7 +12391,7 @@ var ic = class extends _t {
 									}
 								});
 							}
-						} else if (Nu.includes(i)) {
+						} else if (Pu.includes(i)) {
 							if (p !== null) throw Error("Unsupported M3U8 file; multiple audio codecs found in the CODECS attribute of a variant stream.");
 							p = n;
 							let i = e.attributes.get("audio");
@@ -12605,7 +12605,7 @@ var ic = class extends _t {
 		return "video";
 	}
 	getCodec() {
-		return id(this.internalTrack.fullCodecString);
+		return ad(this.internalTrack.fullCodecString);
 	}
 	getCodedWidth() {
 		return this.delegate(() => this.backingVideoTrack.getCodedWidth());
@@ -12652,7 +12652,7 @@ var ic = class extends _t {
 		return "audio";
 	}
 	getCodec() {
-		return id(this.internalTrack.fullCodecString);
+		return ad(this.internalTrack.fullCodecString);
 	}
 	getNumberOfChannels() {
 		return this.internalTrack.info.numberOfChannels === null ? this.delegate(() => this.backingAudioTrack.getNumberOfChannels()) : this.internalTrack.info.numberOfChannels;
@@ -13653,7 +13653,7 @@ var ic = class extends _t {
 }, ol = class extends Qc {
 	constructor(e, t, n, r) {
 		super(e, t), this.decoder = null, this.customDecoder = null, this.customDecoderCallSerializer = new je(), this.customDecoderQueueSize = 0, this.currentTimestamp = null, this.expectedFirstTimestamp = null, this.timestampOffset = 0;
-		let i = n === "opus" && r.description ? Hn(T(r.description)).preSkip / ed : 0, a = (t) => {
+		let i = n === "opus" && r.description ? Hn(T(r.description)).preSkip / td : 0, a = (t) => {
 			let n = t.timestamp;
 			this.expectedFirstTimestamp !== null && this.currentTimestamp === null && (this.timestampOffset = this.expectedFirstTimestamp + i - n), n += this.timestampOffset, (this.currentTimestamp === null || Math.abs(n - this.currentTimestamp) >= t.duration) && (this.currentTimestamp = n);
 			let a = this.currentTimestamp;
@@ -13704,8 +13704,8 @@ var ic = class extends _t {
 	}
 }, sl = class extends Qc {
 	constructor(e, t, n) {
-		super(e, t), this.decoderConfig = n, this.currentTimestamp = null, a(ju.includes(n.codec)), this.codec = n.codec;
-		let { dataType: r, sampleSize: i, littleEndian: o } = rd(this.codec);
+		super(e, t), this.decoderConfig = n, this.currentTimestamp = null, a(Mu.includes(n.codec)), this.codec = n.codec;
+		let { dataType: r, sampleSize: i, littleEndian: o } = id(this.codec);
 		switch (this.inputSampleSize = i, i) {
 			case 1:
 				r === "unsigned" ? this.readInputValue = (e, t) => e.getUint8(t) - 128 : r === "signed" ? this.readInputValue = (e, t) => e.getInt8(t) : r === "ulaw" ? this.readInputValue = (e, t) => Ar(e.getUint8(t)) : r === "alaw" ? this.readInputValue = (e, t) => Mr(e.getUint8(t)) : a(!1);
@@ -13776,7 +13776,7 @@ var ic = class extends _t {
 	async _createDecoder(e, t) {
 		if (!await this._track.canDecode()) throw Error(typeof AudioDecoder > "u" ? He("AudioDecoder") : "This audio track cannot be decoded in this environment. Make sure to check decodability before using a track.");
 		let n = await this._track.getCodec(), r = await this._track.getDecoderConfig();
-		return a(n && r), ju.includes(r.codec) ? new sl(e, t, r) : new ol(e, t, n, r);
+		return a(n && r), Mu.includes(r.codec) ? new sl(e, t, r) : new ol(e, t, n, r);
 	}
 	_createPacketSink() {
 		return new Xc(this._track);
@@ -14114,7 +14114,7 @@ var ic = class extends _t {
 	}
 	async hasOnlyKeyPackets() {
 		let e = await this._backing.getCodec();
-		return await this._backing.getHasOnlyKeyPackets?.() ?? (e === null || !Fu.includes(e));
+		return await this._backing.getHasOnlyKeyPackets?.() ?? (e === null || !Iu.includes(e));
 	}
 	async getNumberOfChannels() {
 		return this._backing.getNumberOfChannels();
@@ -14138,14 +14138,14 @@ var ic = class extends _t {
 		let e = await this._backing.getCodec();
 		if (e === null) return null;
 		let t = await this._backing.getDecoderConfig();
-		return a(t), Qu(e, t);
+		return a(t), $u(e, t);
 	}
 	async canDecode() {
 		try {
 			let e = await this._backing.getDecoderConfig();
 			if (!e) return !1;
 			let t = await this._backing.getCodec();
-			return a(t !== null), Vi.some((n) => n.supports(t, e)) || ju.includes(e.codec) ? !0 : typeof AudioDecoder > "u" ? !1 : (await AudioDecoder.isConfigSupported(e)).supported === !0;
+			return a(t !== null), Vi.some((n) => n.supports(t, e)) || Mu.includes(e.codec) ? !0 : typeof AudioDecoder > "u" ? !1 : (await AudioDecoder.isConfigSupported(e)).supported === !0;
 		} catch (e) {
 			return K._error("Error during decodability check:", e), !1;
 		}
@@ -14753,7 +14753,7 @@ var Cl = class e extends _t {
 	}
 }, tu = class extends eu {
 	constructor(e) {
-		if (super(), !Au.includes(e)) throw TypeError(`Invalid video codec '${e}'. Must be one of: ${Au.join(", ")}.`);
+		if (super(), !ju.includes(e)) throw TypeError(`Invalid video codec '${e}'. Must be one of: ${ju.join(", ")}.`);
 		this._codec = e;
 	}
 }, nu = (e, t) => {
@@ -15005,7 +15005,7 @@ var Cl = class e extends _t {
 			t.copyTo(e), r.alpha = e;
 		}
 		let i = Gi.fromEncodedChunk(e, r), o = this.encoderConfig;
-		if (a(o), n?.decoderConfig && (n.decoderConfig.codec = Ju({
+		if (a(o), n?.decoderConfig && (n.decoderConfig.codec = Yu({
 			width: o.width,
 			height: o.height,
 			codec: this.encodingConfig.codec,
@@ -15225,6 +15225,23 @@ var Cl = class e extends _t {
 		return this._encoder.flushAndClose(e);
 	}
 }, du = class extends tu {
+	constructor(e, t) {
+		if (!(typeof HTMLCanvasElement < "u" && e instanceof HTMLCanvasElement) && !(typeof OffscreenCanvas < "u" && e instanceof OffscreenCanvas)) throw TypeError("canvas must be an HTMLCanvasElement or OffscreenCanvas.");
+		_i(t), super(t.codec), this._encoder = new iu(this, t), this._canvas = e;
+	}
+	add(e, t = 0, n) {
+		if (!Number.isFinite(e)) throw TypeError("timestamp must be a finite number.");
+		if (!Number.isFinite(t) || t < 0) throw TypeError("duration must be a non-negative number.");
+		let r = new Vr(this._canvas, {
+			timestamp: e,
+			duration: t
+		});
+		return this._encoder.add(r, !0, n);
+	}
+	_flushAndClose(e) {
+		return this._encoder.flushAndClose(e);
+	}
+}, fu = class extends tu {
 	get errorPromise() {
 		return this._errorPromiseAccessed = !0, this._promiseWithResolvers.promise;
 	}
@@ -15300,7 +15317,7 @@ var Cl = class e extends _t {
 			}
 			let c = new Vr(e, { timestamp: a + s });
 			this._encoder.add(c, !0).catch((e) => {
-				i = !0, this._abortController?.abort(), this._promiseWithResolvers.reject(e), this._workerTrackId !== null && Ou({
+				i = !0, this._abortController?.abort(), this._promiseWithResolvers.reject(e), this._workerTrackId !== null && ku({
 					type: "stopTrack",
 					trackId: this._workerTrackId
 				});
@@ -15311,14 +15328,14 @@ var Cl = class e extends _t {
 			e.readable.pipeTo(t, { signal: this._abortController.signal }).catch((e) => {
 				e instanceof DOMException && e.name === "AbortError" || this._promiseWithResolvers.reject(e);
 			});
-		} else if (await Du()) this._workerTrackId = Cu++, Ou({
+		} else if (await Ou()) this._workerTrackId = wu++, ku({
 			type: "videoTrack",
 			trackId: this._workerTrackId,
 			track: this._track
 		}), this._workerListener = (e) => {
 			let t = e.data;
 			t.type === "videoFrame" && t.trackId === this._workerTrackId ? l(t.videoFrame) : t.type === "error" && t.trackId === this._workerTrackId && this._promiseWithResolvers.reject(t.error);
-		}, wu.addEventListener("message", this._workerListener);
+		}, Tu.addEventListener("message", this._workerListener);
 		else if (e !== null) {
 			let e = document.createElement("video");
 			e.style.position = "fixed", e.style.left = "-10000px", e.style.top = "-10000px", e.style.width = "1px", e.style.height = "1px", e.style.opacity = "0", e.style.pointerEvents = "none", e.muted = !0, e.srcObject = new MediaStream([this._track]), document.body.appendChild(e), this._videoElement = e, e.addEventListener("loadeddata", () => {
@@ -15338,26 +15355,26 @@ var Cl = class e extends _t {
 	}
 	async _flushAndClose(e) {
 		try {
-			this._abortController &&= (this._abortController.abort(), null), this._timerHandle && mt(this._timerHandle), this._lastVideoFrame?.close(), this._videoElement &&= (this._videoElement.srcObject = null, this._videoElement.remove(), null), this._workerTrackId !== null && (a(this._workerListener), Ou({
+			this._abortController &&= (this._abortController.abort(), null), this._timerHandle && mt(this._timerHandle), this._lastVideoFrame?.close(), this._videoElement &&= (this._videoElement.srcObject = null, this._videoElement.remove(), null), this._workerTrackId !== null && (a(this._workerListener), ku({
 				type: "stopTrack",
 				trackId: this._workerTrackId
 			}), await new Promise((e) => {
 				let t = (n) => {
 					let r = n.data;
-					r.type === "trackStopped" && r.trackId === this._workerTrackId && (a(this._workerListener), wu.removeEventListener("message", this._workerListener), wu.removeEventListener("message", t), e());
+					r.type === "trackStopped" && r.trackId === this._workerTrackId && (a(this._workerListener), Tu.removeEventListener("message", this._workerListener), Tu.removeEventListener("message", t), e());
 				};
-				wu.addEventListener("message", t);
+				Tu.addEventListener("message", t);
 			}));
 		} finally {
 			await this._encoder.flushAndClose(e);
 		}
 	}
-}, fu = class extends eu {
+}, pu = class extends eu {
 	constructor(e) {
-		if (super(), !Nu.includes(e)) throw TypeError(`Invalid audio codec '${e}'. Must be one of: ${Nu.join(", ")}.`);
+		if (super(), !Pu.includes(e)) throw TypeError(`Invalid audio codec '${e}'. Must be one of: ${Pu.join(", ")}.`);
 		this._codec = e;
 	}
-}, pu = class extends fu {
+}, mu = class extends pu {
 	constructor(e) {
 		super(e);
 	}
@@ -15367,7 +15384,7 @@ var Cl = class e extends _t {
 		if (t !== void 0 && (!t || typeof t != "object")) throw TypeError("meta, when provided, must be an object.");
 		return this._ensureValidAdd(), this._connectedTrack.output._muxer.addEncodedAudioPacket(this._connectedTrack, e, t);
 	}
-}, mu = 2048, hu = class {
+}, hu = 2048, gu = class {
 	setError(e) {
 		this.errorSet ||= (this.error = e, !0);
 	}
@@ -15470,8 +15487,8 @@ var Cl = class e extends _t {
 		}), t && e.close();
 		let f = 0;
 		for (; f < r;) {
-			this.pcmScratchView ??= /* @__PURE__ */ new DataView(/* @__PURE__ */ new ArrayBuffer(mu * n * this.outputSampleSize));
-			let e = Math.min(mu - this.pcmScratchFrames, r - f), t = this.pcmScratchFrames * n, i = f * n;
+			this.pcmScratchView ??= /* @__PURE__ */ new DataView(/* @__PURE__ */ new ArrayBuffer(hu * n * this.outputSampleSize));
+			let e = Math.min(hu - this.pcmScratchFrames, r - f), t = this.pcmScratchFrames * n, i = f * n;
 			for (let r = 0; r < e * n; r++) this.writeOutputValue(this.pcmScratchView, (t + r) * this.outputSampleSize, d[i + r] * l);
 			this.pcmScratchFrames += e, f += e, this.pcmScratchFrames === 2048 && await this.emitPcmScratchPacket();
 		}
@@ -15500,7 +15517,7 @@ var Cl = class e extends _t {
 			}, this.customEncoder.onError = (e) => {
 				this.setError(e);
 			}, await this.customEncoder.init();
-			else if (ju.includes(this.encodingConfig.codec)) this.initPcmEncoder();
+			else if (Mu.includes(this.encodingConfig.codec)) this.initPcmEncoder();
 			else {
 				if (typeof AudioEncoder > "u") throw Error(He("AudioEncoder"));
 				let e;
@@ -15510,10 +15527,10 @@ var Cl = class e extends _t {
 					e = !1;
 				}
 				if (!e) throw Error(`This specific encoder configuration (${o.codec}, ${o.bitrate} bps, ${o.numberOfChannels} channels, ${o.sampleRate} Hz) is not supported in this environment. Consider using another codec or changing your audio parameters.`);
-				let i = await _u(this.encodingConfig.codec, o.codec) / o.sampleRate, a = 0, s = (/* @__PURE__ */ Error("Encoding error")).stack;
+				let i = await vu(this.encodingConfig.codec, o.codec) / o.sampleRate, a = 0, s = (/* @__PURE__ */ Error("Encoding error")).stack;
 				this.encoder = new AudioEncoder({
 					output: (e, t) => {
-						t?.decoderConfig && (yu(this.encodingConfig.codec, o, t.decoderConfig), this.encodingConfig.codec === "opus" && t.decoderConfig.description && (a = Hn(T(t.decoderConfig.description)).preSkip / ed));
+						t?.decoderConfig && (bu(this.encodingConfig.codec, o, t.decoderConfig), this.encodingConfig.codec === "opus" && t.decoderConfig.description && (a = Hn(T(t.decoderConfig.description)).preSkip / td));
 						let n = Gi.fromEncodedChunk(e);
 						n = n.clone({
 							timestamp: W(n.timestamp - i - a, o.sampleRate),
@@ -15525,14 +15542,14 @@ var Cl = class e extends _t {
 					error: (e) => {
 						e.stack = s, this.setError(e);
 					}
-				}), this.encoder.configure(o), this.encodingConfig.codec === "aac" && Ne() && vu(this.encoder, t, n, r);
+				}), this.encoder.configure(o), this.encodingConfig.codec === "aac" && Ne() && yu(this.encoder, t, n, r);
 			}
 			a(this.source._connectedTrack), this.muxer = this.source._connectedTrack.output._muxer, this.encoderInitialized = !0;
 		})();
 	}
 	initPcmEncoder() {
 		this.isPcmEncoder = !0;
-		let e = this.encodingConfig.codec, { dataType: t, sampleSize: n, littleEndian: r } = rd(e);
+		let e = this.encodingConfig.codec, { dataType: t, sampleSize: n, littleEndian: r } = id(e);
 		switch (this.outputSampleSize = n, n) {
 			case 1:
 				t === "unsigned" ? this.writeOutputValue = (e, t, n) => e.setUint8(t, ye(Math.round(n * 128) + 128, 0, 255)) : t === "signed" ? this.writeOutputValue = (e, t, n) => {
@@ -15574,14 +15591,14 @@ var Cl = class e extends _t {
 	checkForEncoderError() {
 		if (this.errorSet) throw this.error;
 	}
-}, gu = /* @__PURE__ */ new Map(), _u = (e, t) => {
-	let n = gu.get(t);
+}, _u = /* @__PURE__ */ new Map(), vu = (e, t) => {
+	let n = _u.get(t);
 	return n || (n = (async () => {
 		let n = 48e3, r = {
 			codec: t,
 			numberOfChannels: 1,
 			sampleRate: n,
-			...od(e)
+			...sd(e)
 		}, i = 4096, o = 2 * i, s = [], c = null, l = null, u = -Infinity, d = 0, f = null, p = new AudioEncoder({
 			output: (e, t) => {
 				t?.decoderConfig && (c ??= t.decoderConfig), s.push(e);
@@ -15604,7 +15621,7 @@ var Cl = class e extends _t {
 			}
 		});
 		try {
-			p.configure(r), e === "aac" && Ne() && vu(p, 1, n, 0);
+			p.configure(r), e === "aac" && Ne() && yu(p, 1, n, 0);
 			let t = new Float32Array(1 * o);
 			t[i] = 1;
 			let l = new AudioData({
@@ -15615,7 +15632,7 @@ var Cl = class e extends _t {
 				sampleRate: n,
 				timestamp: 0
 			});
-			p.encode(l), l.close(), await p.flush(), a(c), yu(e, r, c), m.configure(c);
+			p.encode(l), l.close(), await p.flush(), a(c), bu(e, r, c), m.configure(c);
 			for (let e of s) m.decode(e);
 			await m.flush();
 		} catch (e) {
@@ -15626,8 +15643,8 @@ var Cl = class e extends _t {
 		a(l !== null);
 		let h = Math.round(s[0].timestamp / 1e6 * n);
 		return l - i + h;
-	})(), gu.set(t, n), n.catch(() => gu.delete(t)), n);
-}, vu = (e, t, n, r) => {
+	})(), _u.set(t, n), n.catch(() => _u.delete(t)), n);
+}, yu = (e, t, n, r) => {
 	let i = 1024, a = new AudioData({
 		data: new Float32Array(t * i),
 		format: "f32-planar",
@@ -15637,7 +15654,7 @@ var Cl = class e extends _t {
 		timestamp: Math.round(1e6 * (r - i / n))
 	});
 	e.encode(a), a.close();
-}, yu = (e, t, n) => {
+}, bu = (e, t, n) => {
 	if (e === "aac") {
 		if (n.description && n.description.byteLength > 0 && T(n.description)[0] === 3) {
 			let { decoderSpecificInfo: e } = Yl(Dl.tempFromBytes(T(n.description)));
@@ -15650,9 +15667,9 @@ var Cl = class e extends _t {
 			outputSampleRate: n.sampleRate
 		}));
 	}
-}, bu = class extends fu {
+}, xu = class extends pu {
 	constructor(e) {
-		bi(e), super(e.codec), this._encoder = new hu(this, e);
+		bi(e), super(e.codec), this._encoder = new gu(this, e);
 	}
 	add(e) {
 		if (!(e instanceof oi)) throw TypeError("audioSample must be an AudioSample.");
@@ -15661,7 +15678,7 @@ var Cl = class e extends _t {
 	_flushAndClose(e) {
 		return this._encoder.flushAndClose(e);
 	}
-}, xu = class extends fu {
+}, Su = class extends pu {
 	get errorPromise() {
 		return this._errorPromiseAccessed = !0, this._promiseWithResolvers.promise;
 	}
@@ -15672,7 +15689,7 @@ var Cl = class e extends _t {
 		if (!(e instanceof MediaStreamTrack) || e.kind !== "audio") throw TypeError("track must be an audio MediaStreamTrack.");
 		if (bi(t), typeof n != "object" || !n) throw TypeError("options must be an object.");
 		if (n.timestampBase !== void 0 && n.timestampBase !== "synced-zero" && n.timestampBase !== "zero" && n.timestampBase !== "unix") throw TypeError("options.timestampBase, when provided, must be one of 'synced-zero', 'zero', or 'unix'.");
-		super(t.codec), this._abortController = null, this._audioContext = null, this._scriptProcessorNode = null, this._promiseWithResolvers = pe(), this._errorPromiseAccessed = !1, this._paused = !1, this._options = n, this._encoder = new hu(this, t), this._track = e;
+		super(t.codec), this._abortController = null, this._audioContext = null, this._scriptProcessorNode = null, this._promiseWithResolvers = pe(), this._errorPromiseAccessed = !1, this._paused = !1, this._options = n, this._encoder = new gu(this, t), this._track = e;
 	}
 	async _start() {
 		this._errorPromiseAccessed || K._warn("Make sure not to ignore the `errorPromise` field on MediaStreamAudioTrackSource, so that any internal errors get bubbled up properly."), this._abortController = new AbortController();
@@ -15739,7 +15756,7 @@ var Cl = class e extends _t {
 			await this._encoder.flushAndClose(e);
 		}
 	}
-}, Su = () => {
+}, Cu = () => {
 	let e = (e, t) => {
 		t ? self.postMessage(e, { transfer: t }) : self.postMessage(e);
 	};
@@ -15782,31 +15799,31 @@ var Cl = class e extends _t {
 			default: B(i);
 		}
 	});
-}, Cu = 0, wu = null, Tu = () => {
-	let e = new Blob([`(${Su.toString()})()`], { type: "application/javascript" }), t = URL.createObjectURL(e);
-	wu = new Worker(t);
-}, Eu = null, Du = async () => Eu === null ? (wu || Tu(), new Promise((e) => {
-	a(wu);
+}, wu = 0, Tu = null, Eu = () => {
+	let e = new Blob([`(${Cu.toString()})()`], { type: "application/javascript" }), t = URL.createObjectURL(e);
+	Tu = new Worker(t);
+}, Du = null, Ou = async () => Du === null ? (Tu || Eu(), new Promise((e) => {
+	a(Tu);
 	let t = (n) => {
 		let r = n.data;
-		r.type === "support" && (Eu = r.supported, wu.removeEventListener("message", t), e(r.supported));
+		r.type === "support" && (Du = r.supported, Tu.removeEventListener("message", t), e(r.supported));
 	};
-	wu.addEventListener("message", t);
-})) : Eu, Ou = (e, t) => {
-	a(wu), t ? wu.postMessage(e, t) : wu.postMessage(e);
-}, ku = class extends eu {
+	Tu.addEventListener("message", t);
+})) : Du, ku = (e, t) => {
+	a(Tu), t ? Tu.postMessage(e, t) : Tu.postMessage(e);
+}, Au = class extends eu {
 	constructor(e) {
-		if (super(), !Pu.includes(e)) throw TypeError(`Invalid subtitle codec '${e}'. Must be one of: ${Pu.join(", ")}.`);
+		if (super(), !Fu.includes(e)) throw TypeError(`Invalid subtitle codec '${e}'. Must be one of: ${Fu.join(", ")}.`);
 		this._codec = e;
 	}
-}, Au = [
+}, ju = [
 	"avc",
 	"hevc",
 	"vp9",
 	"av1",
 	"vp8",
 	"prores"
-], ju = [
+], Mu = [
 	"pcm-s16",
 	"pcm-s16be",
 	"pcm-s24",
@@ -15821,7 +15838,7 @@ var Cl = class e extends _t {
 	"pcm-s8",
 	"ulaw",
 	"alaw"
-], Mu = [
+], Nu = [
 	"aac",
 	"opus",
 	"mp3",
@@ -15831,7 +15848,7 @@ var Cl = class e extends _t {
 	"eac3",
 	"dts",
 	"truehd"
-], Nu = [...Mu, ...ju], Pu = ["webvtt"], Fu = ["truehd"], Iu = [
+], Pu = [...Nu, ...Mu], Fu = ["webvtt"], Iu = ["truehd"], Lu = [
 	{
 		maxMacroblocks: 99,
 		maxBitrate: 64e3,
@@ -15946,7 +15963,7 @@ var Cl = class e extends _t {
 		maxDpbMbs: 696320,
 		level: 62
 	}
-], Lu = [
+], Ru = [
 	{
 		maxPictureSize: 36864,
 		maxBitrate: 128e3,
@@ -16073,7 +16090,7 @@ var Cl = class e extends _t {
 		tier: "H",
 		level: 186
 	}
-], Ru = [
+], zu = [
 	{
 		maxPictureSize: 36864,
 		maxBitrate: 2e5,
@@ -16144,7 +16161,7 @@ var Cl = class e extends _t {
 		maxBitrate: 48e7,
 		level: 62
 	}
-], zu = [
+], Bu = [
 	{
 		maxPictureSize: 147456,
 		maxBitrate: 15e5,
@@ -16289,19 +16306,19 @@ var Cl = class e extends _t {
 		tier: "H",
 		level: 19
 	}
-], Bu = ".01.01.01.01.00", Vu = ".0.110.01.01.01.0", Hu = [
+], Vu = ".01.01.01.01.00", Hu = ".0.110.01.01.01.0", Uu = [
 	"ap4x",
 	"ap4h",
 	"apch",
 	"apcn",
 	"apcs",
 	"apco"
-], Uu = [
+], Wu = [
 	"dtsc",
 	"dtsh",
 	"dtsl",
 	"dtse"
-], Wu = [
+], Gu = [
 	{
 		fourCc: "apco",
 		bitrate: 45e6,
@@ -16332,26 +16349,26 @@ var Cl = class e extends _t {
 		bitrate: 5e8,
 		alpha: !0
 	}
-], Gu = (e, t, n, r, i) => {
+], Ku = (e, t, n, r, i) => {
 	if (e === "avc") {
-		let e = Ne(), i = e ? 66 : 100, a = Math.ceil(t / 16) * Math.ceil(n / 16), o = Iu.find((e) => a <= e.maxMacroblocks && r <= e.maxBitrate) ?? v(Iu), s = o ? o.level : 0;
+		let e = Ne(), i = e ? 66 : 100, a = Math.ceil(t / 16) * Math.ceil(n / 16), o = Lu.find((e) => a <= e.maxMacroblocks && r <= e.maxBitrate) ?? v(Lu), s = o ? o.level : 0;
 		return `avc1.${i.toString(16).padStart(2, "0")}${e ? "40" : "00"}${s.toString(16).padStart(2, "0")}`;
 	}
 	if (e === "hevc") {
-		let e = t * n, i = Lu.find((t) => e <= t.maxPictureSize && r <= t.maxBitrate) ?? v(Lu);
+		let e = t * n, i = Ru.find((t) => e <= t.maxPictureSize && r <= t.maxBitrate) ?? v(Ru);
 		return `hev1.1.6.${i.tier}${i.level}.B0`;
 	}
 	if (e === "vp8") return "vp8";
 	if (e === "vp9") {
 		let e = t * n;
-		return `vp09.00.${(Ru.find((t) => e <= t.maxPictureSize && r <= t.maxBitrate) ?? v(Ru)).level.toString().padStart(2, "0")}.08`;
+		return `vp09.00.${(zu.find((t) => e <= t.maxPictureSize && r <= t.maxBitrate) ?? v(zu)).level.toString().padStart(2, "0")}.08`;
 	}
 	if (e === "av1") {
-		let e = t * n, i = zu.find((t) => e <= t.maxPictureSize && r <= t.maxBitrate) ?? v(zu);
+		let e = t * n, i = Bu.find((t) => e <= t.maxPictureSize && r <= t.maxBitrate) ?? v(Bu);
 		return `av01.0.${i.level.toString().padStart(2, "0")}${i.tier}.08`;
 	}
 	if (e === "prores") {
-		let e = (t * n / 2073600) ** .95, a = Wu.filter((e) => e.alpha === i), o = a[0].fourCc, s = Infinity;
+		let e = (t * n / 2073600) ** .95, a = Gu.filter((e) => e.alpha === i), o = a[0].fourCc, s = Infinity;
 		for (let { fourCc: t, bitrate: n } of a) {
 			let i = Math.abs(n * e - r);
 			i < s && (s = i, o = t);
@@ -16359,7 +16376,7 @@ var Cl = class e extends _t {
 		return o;
 	}
 	throw B(e), TypeError(`Unhandled codec '${String(e)}'.`);
-}, Ku = (e) => {
+}, qu = (e) => {
 	let t = e.split(".");
 	return [
 		1,
@@ -16375,7 +16392,7 @@ var Cl = class e extends _t {
 		1,
 		t[4] ? Number(t[4]) : 1
 	];
-}, qu = (e) => {
+}, Ju = (e) => {
 	let t = e.split("."), n = Number(t[1]), r = t[2], i = Number(r.slice(0, -1)), a = (n << 5) + i, o = +(r.slice(-1) === "H"), s = Number(t[3]), c = s === 8 ? 0 : 1, l = +(s === 12), u = t[4] ? Number(t[4]) : 0, d = t[5] ? Number(t[5][0]) : 1, f = t[5] ? Number(t[5][1]) : 1, p = t[5] ? Number(t[5][2]) : 0;
 	return [
 		129,
@@ -16383,7 +16400,7 @@ var Cl = class e extends _t {
 		(o << 7) + (c << 6) + (l << 5) + (u << 4) + (d << 3) + (f << 2) + p,
 		0
 	];
-}, Ju = (e) => {
+}, Yu = (e) => {
 	let { codec: t, codecDescription: n, colorSpace: r, avcCodecInfo: i, hevcCodecInfo: o, vp9CodecInfo: s, av1CodecInfo: c, proresFormat: l } = e;
 	if (t === "avc") {
 		if (a(e.avcType !== null), i) {
@@ -16418,20 +16435,20 @@ var Cl = class e extends _t {
 	if (t === "vp8") return "vp8";
 	if (t === "vp9") {
 		if (!s) {
-			let t = e.width * e.height, n = v(Ru).level;
-			for (let e of Ru) if (t <= e.maxPictureSize) {
+			let t = e.width * e.height, n = v(zu).level;
+			for (let e of zu) if (t <= e.maxPictureSize) {
 				n = e.level;
 				break;
 			}
 			return `vp09.00.${n.toString().padStart(2, "0")}.08`;
 		}
 		let t = s.profile.toString().padStart(2, "0"), n = s.level.toString().padStart(2, "0"), r = s.bitDepth.toString().padStart(2, "0"), i = s.chromaSubsampling.toString().padStart(2, "0"), a = s.colourPrimaries.toString().padStart(2, "0"), o = s.transferCharacteristics.toString().padStart(2, "0"), c = s.matrixCoefficients.toString().padStart(2, "0"), l = s.videoFullRangeFlag.toString().padStart(2, "0"), u = `vp09.${t}.${n}.${r}.${i}`;
-		return u += `.${a}.${o}.${c}.${l}`, u.endsWith(Bu) && (u = u.slice(0, -15)), u;
+		return u += `.${a}.${o}.${c}.${l}`, u.endsWith(Vu) && (u = u.slice(0, -15)), u;
 	}
 	if (t === "av1") {
 		if (!c) {
-			let t = e.width * e.height, n = v(Ru).level;
-			for (let e of Ru) if (t <= e.maxPictureSize) {
+			let t = e.width * e.height, n = v(zu).level;
+			for (let e of zu) if (t <= e.maxPictureSize) {
 				n = e.level;
 				break;
 			}
@@ -16440,11 +16457,11 @@ var Cl = class e extends _t {
 		let t = c.profile, n = c.level.toString().padStart(2, "0"), i = c.tier ? "H" : "M", a = c.bitDepth.toString().padStart(2, "0"), o = c.monochrome ? "1" : "0", s = 100 * c.chromaSubsamplingX + 10 * c.chromaSubsamplingY + 1 * (c.chromaSubsamplingX && c.chromaSubsamplingY ? c.chromaSamplePosition : 0), l, u, d, f;
 		Bn(c) ? (l = c.colourPrimaries, u = c.transferCharacteristics, d = c.matrixCoefficients, f = c.videoFullRangeFlag) : (l = r?.primaries ? ee[r.primaries] : 1, u = r?.transfer ? ne[r.transfer] : 1, d = r?.matrix ? N[r.matrix] : 1, f = +!!r?.fullRange);
 		let p = `av01.${t}.${n}${i}.${a}`;
-		return p += `.${o}.${s.toString().padStart(3, "0")}`, p += `.${l.toString().padStart(2, "0")}`, p += `.${u.toString().padStart(2, "0")}`, p += `.${d.toString().padStart(2, "0")}`, p += `.${f}`, p.endsWith(Vu) && (p = p.slice(0, -17)), p;
+		return p += `.${o}.${s.toString().padStart(3, "0")}`, p += `.${l.toString().padStart(2, "0")}`, p += `.${u.toString().padStart(2, "0")}`, p += `.${d.toString().padStart(2, "0")}`, p += `.${f}`, p.endsWith(Hu) && (p = p.slice(0, -17)), p;
 	}
 	if (t === "prores") return l ?? "apch";
 	throw t !== null && B(t), TypeError(`Unhandled codec '${t}'.`);
-}, Yu = (e) => {
+}, Xu = (e) => {
 	switch (e.codec) {
 		case "avc":
 			{
@@ -16504,7 +16521,7 @@ var Cl = class e extends _t {
 		matrix: void 0,
 		fullRange: void 0
 	};
-}, Xu = (e, t, n) => {
+}, Zu = (e, t, n) => {
 	if (e === "aac") return t >= 2 && n <= 24e3 ? "mp4a.40.29" : n <= 24e3 ? "mp4a.40.5" : "mp4a.40.2";
 	if (e === "mp3") return "mp3";
 	if (e === "opus") return "opus";
@@ -16514,9 +16531,9 @@ var Cl = class e extends _t {
 	if (e === "eac3") return "ec-3";
 	if (e === "dts") return "dtsc";
 	if (e === "truehd") return "mlpa";
-	if (ju.includes(e)) return e;
+	if (Mu.includes(e)) return e;
 	throw TypeError(`Unhandled codec '${e}'.`);
-}, Zu = (e) => {
+}, Qu = (e) => {
 	let { codec: t, codecDescription: n, aacCodecInfo: r, dtsFormat: i } = e;
 	if (t === "aac") {
 		if (!r) throw TypeError("AAC codec info must be provided.");
@@ -16534,9 +16551,9 @@ var Cl = class e extends _t {
 	if (t === "eac3") return "ec-3";
 	if (t === "dts") return i ?? "dtsc";
 	if (t === "truehd") return "mlpa";
-	if (t && ju.includes(t)) return t;
+	if (t && Mu.includes(t)) return t;
 	throw TypeError(`Unhandled codec '${t}'.`);
-}, Qu = (e, t) => {
+}, $u = (e, t) => {
 	switch (e) {
 		case "aac": {
 			if (!t.description) return 1024 / t.sampleRate;
@@ -16544,7 +16561,7 @@ var Cl = class e extends _t {
 			if (e.coreSampleRate === null) throw Error("Invalid AAC sampling frequency index.");
 			return e.frameLength / e.coreSampleRate;
 		}
-		case "opus": return td;
+		case "opus": return nd;
 		case "mp3": {
 			let { sampleRate: e, numberOfChannels: n } = t, r = e >= 32e3, i = r ? 1152 : 576, a = r ? 32e3 : 8e3, o = r ? 511 : 255, s = r ? n === 1 ? 17 : 32 : n === 1 ? 9 : 17, c = Math.floor(i / 8 * a / e) - 4 - s;
 			return (1 + Math.ceil(o / c)) * i / e;
@@ -16576,7 +16593,7 @@ var Cl = class e extends _t {
 		case "alaw": return 0;
 		default: B(e), a(!1);
 	}
-}, $u = (e, t) => {
+}, ed = (e, t) => {
 	switch (e) {
 		case "aac": return 1024;
 		case "opus": return .02 * t;
@@ -16600,11 +16617,11 @@ var Cl = class e extends _t {
 		case "pcm-u8":
 		case "pcm-s8":
 		case "ulaw":
-		case "alaw": return mu;
+		case "alaw": return hu;
 		default: B(e), a(!1);
 	}
-}, ed = 48e3, td = .4, nd = /^pcm-([usf])(\d+)(be)?$/, rd = (e) => {
-	if (a(ju.includes(e)), e === "ulaw") return {
+}, td = 48e3, nd = .4, rd = /^pcm-([usf])(\d+)(be)?$/, id = (e) => {
+	if (a(Mu.includes(e)), e === "ulaw") return {
 		dataType: "ulaw",
 		sampleSize: 1,
 		littleEndian: !0,
@@ -16616,7 +16633,7 @@ var Cl = class e extends _t {
 		littleEndian: !0,
 		silentValue: 213
 	};
-	let t = nd.exec(e);
+	let t = rd.exec(e);
 	a(t);
 	let n;
 	n = t[1] === "u" ? "unsigned" : t[1] === "s" ? "signed" : "float";
@@ -16627,7 +16644,7 @@ var Cl = class e extends _t {
 		littleEndian: i,
 		silentValue: e === "pcm-u8" ? 128 : 0
 	};
-}, id = (e) => e.startsWith("avc1") || e.startsWith("avc3") ? "avc" : e.startsWith("hev1") || e.startsWith("hvc1") ? "hevc" : e === "vp8" ? "vp8" : e.startsWith("vp09") ? "vp9" : e.startsWith("av01") ? "av1" : Hu.includes(e) ? "prores" : e === "mp3" || e === "mp4a.69" || e === "mp4a.6B" || e === "mp4a.6b" || e === "mp4a.40.34" ? "mp3" : e.startsWith("mp4a.40.") || e === "mp4a.67" ? "aac" : e === "opus" || e === "Opus" ? "opus" : e === "vorbis" ? "vorbis" : e === "flac" ? "flac" : e === "ac-3" || e === "ac3" ? "ac3" : e === "ec-3" || e === "eac3" ? "eac3" : Uu.includes(e) ? "dts" : e === "mlpa" ? "truehd" : e === "ulaw" ? "ulaw" : e === "alaw" ? "alaw" : nd.test(e) ? e : e === "webvtt" ? "webvtt" : null, ad = (e) => e === "avc" ? { avc: { format: "avc" } } : e === "hevc" ? { hevc: { format: "hevc" } } : {}, od = (e) => e === "aac" ? { aac: { format: "aac" } } : e === "opus" ? { opus: { format: "opus" } } : {}, sd = [
+}, ad = (e) => e.startsWith("avc1") || e.startsWith("avc3") ? "avc" : e.startsWith("hev1") || e.startsWith("hvc1") ? "hevc" : e === "vp8" ? "vp8" : e.startsWith("vp09") ? "vp9" : e.startsWith("av01") ? "av1" : Uu.includes(e) ? "prores" : e === "mp3" || e === "mp4a.69" || e === "mp4a.6B" || e === "mp4a.6b" || e === "mp4a.40.34" ? "mp3" : e.startsWith("mp4a.40.") || e === "mp4a.67" ? "aac" : e === "opus" || e === "Opus" ? "opus" : e === "vorbis" ? "vorbis" : e === "flac" ? "flac" : e === "ac-3" || e === "ac3" ? "ac3" : e === "ec-3" || e === "eac3" ? "eac3" : Wu.includes(e) ? "dts" : e === "mlpa" ? "truehd" : e === "ulaw" ? "ulaw" : e === "alaw" ? "alaw" : rd.test(e) ? e : e === "webvtt" ? "webvtt" : null, od = (e) => e === "avc" ? { avc: { format: "avc" } } : e === "hevc" ? { hevc: { format: "hevc" } } : {}, sd = (e) => e === "aac" ? { aac: { format: "aac" } } : e === "opus" ? { opus: { format: "opus" } } : {}, cd = [
 	"avc1",
 	"avc3",
 	"hev1",
@@ -16635,14 +16652,14 @@ var Cl = class e extends _t {
 	"vp8",
 	"vp09",
 	"av01",
-	...Hu
-], cd = /^(avc1|avc3)\.[0-9a-fA-F]{6}$/, ld = /^(hev1|hvc1)\.(?:[ABC]?\d+)\.[0-9a-fA-F]{1,8}\.[LH]\d+(?:\.[0-9a-fA-F]{1,2}){0,6}$/, ud = /^vp09(?:\.\d{2}){3}(?:(?:\.\d{2}){5})?$/, dd = /^av01\.\d\.\d{2}[MH]\.\d{2}(?:\.\d\.\d{3}\.\d{2}\.\d{2}\.\d{2}\.\d)?$/, fd = (e, t) => {
+	...Uu
+], ld = /^(avc1|avc3)\.[0-9a-fA-F]{6}$/, ud = /^(hev1|hvc1)\.(?:[ABC]?\d+)\.[0-9a-fA-F]{1,8}\.[LH]\d+(?:\.[0-9a-fA-F]{1,2}){0,6}$/, dd = /^vp09(?:\.\d{2}){3}(?:(?:\.\d{2}){5})?$/, fd = /^av01\.\d\.\d{2}[MH]\.\d{2}(?:\.\d\.\d{3}\.\d{2}\.\d{2}\.\d{2}\.\d)?$/, pd = (e, t) => {
 	if (!e) throw TypeError("Video chunk metadata must be provided.");
 	if (typeof e != "object") throw TypeError("Video chunk metadata must be an object.");
 	if (!e.decoderConfig) throw TypeError("Video chunk metadata must include a decoder configuration.");
 	if (typeof e.decoderConfig != "object") throw TypeError("Video chunk metadata decoder configuration must be an object.");
 	if (typeof e.decoderConfig.codec != "string") throw TypeError("Video chunk metadata decoder configuration must specify a codec string.");
-	if (!sd.some((t) => e.decoderConfig.codec.startsWith(t))) throw TypeError("Video chunk metadata decoder configuration codec string must be a valid video codec string as specified in the Mediabunny Codec Registry.");
+	if (!cd.some((t) => e.decoderConfig.codec.startsWith(t))) throw TypeError("Video chunk metadata decoder configuration codec string must be a valid video codec string as specified in the Mediabunny Codec Registry.");
 	if (!Number.isInteger(e.decoderConfig.codedWidth) || e.decoderConfig.codedWidth <= 0) throw TypeError("Video chunk metadata decoder configuration must specify a valid codedWidth (positive integer).");
 	if (!Number.isInteger(e.decoderConfig.codedHeight) || e.decoderConfig.codedHeight <= 0) throw TypeError("Video chunk metadata decoder configuration must specify a valid codedHeight (positive integer).");
 	if (e.decoderConfig.displayAspectWidth !== void 0 && (!Number.isInteger(e.decoderConfig.displayAspectWidth) || e.decoderConfig.displayAspectWidth <= 0)) throw TypeError("Video chunk metadata decoder configuration displayAspectWidth, when defined, must be a positive integer.");
@@ -16661,18 +16678,18 @@ var Cl = class e extends _t {
 		if (t.fullRange != null && typeof t.fullRange != "boolean") throw TypeError("Video chunk metadata decoder configuration colorSpace fullRange, when defined, must be a boolean.");
 	}
 	if (e.decoderConfig.codec.startsWith("avc1") || e.decoderConfig.codec.startsWith("avc3")) {
-		if (!cd.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for AVC must be a valid AVC codec string as specified in Section 3.4 of RFC 6381.");
+		if (!ld.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for AVC must be a valid AVC codec string as specified in Section 3.4 of RFC 6381.");
 	} else if (e.decoderConfig.codec.startsWith("hev1") || e.decoderConfig.codec.startsWith("hvc1")) {
-		if (!ld.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for HEVC must be a valid HEVC codec string as specified in Section E.3 of ISO 14496-15.");
+		if (!ud.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for HEVC must be a valid HEVC codec string as specified in Section E.3 of ISO 14496-15.");
 	} else if (e.decoderConfig.codec.startsWith("vp8")) {
 		if (e.decoderConfig.codec !== "vp8") throw TypeError("Video chunk metadata decoder configuration codec string for VP8 must be \"vp8\".");
 	} else if (e.decoderConfig.codec.startsWith("vp09")) {
-		if (!ud.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for VP9 must be a valid VP9 codec string as specified in Section \"Codecs Parameter String\" of https://www.webmproject.org/vp9/mp4/.");
+		if (!dd.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for VP9 must be a valid VP9 codec string as specified in Section \"Codecs Parameter String\" of https://www.webmproject.org/vp9/mp4/.");
 	} else if (e.decoderConfig.codec.startsWith("av01")) {
-		if (!dd.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for AV1 must be a valid AV1 codec string as specified in Section \"Codecs Parameter String\" of https://aomediacodec.github.io/av1-isobmff/.");
-	} else if (Hu.some((t) => e.decoderConfig.codec.startsWith(t)) && !Hu.some((t) => e.decoderConfig.codec === t)) throw TypeError(`Video chunk metadata decoder configuration codec string for ProRes must be one of the valid ProRes four-character codes: ${Hu.join(", ")}.`);
-	if (t !== null && id(e.decoderConfig.codec) !== t) throw TypeError(`Video chunk metadata decoder configuration codec string '${e.decoderConfig.codec}' does not fit to the track codec '${t}'.`);
-}, pd = [
+		if (!fd.test(e.decoderConfig.codec)) throw TypeError("Video chunk metadata decoder configuration codec string for AV1 must be a valid AV1 codec string as specified in Section \"Codecs Parameter String\" of https://aomediacodec.github.io/av1-isobmff/.");
+	} else if (Uu.some((t) => e.decoderConfig.codec.startsWith(t)) && !Uu.some((t) => e.decoderConfig.codec === t)) throw TypeError(`Video chunk metadata decoder configuration codec string for ProRes must be one of the valid ProRes four-character codes: ${Uu.join(", ")}.`);
+	if (t !== null && ad(e.decoderConfig.codec) !== t) throw TypeError(`Video chunk metadata decoder configuration codec string '${e.decoderConfig.codec}' does not fit to the track codec '${t}'.`);
+}, md = [
 	"mp4a",
 	"mp3",
 	"opus",
@@ -16685,13 +16702,13 @@ var Cl = class e extends _t {
 	"ec-3",
 	"dts",
 	"mlpa"
-], md = (e, t) => {
+], hd = (e, t) => {
 	if (!e) throw TypeError("Audio chunk metadata must be provided.");
 	if (typeof e != "object") throw TypeError("Audio chunk metadata must be an object.");
 	if (!e.decoderConfig) throw TypeError("Audio chunk metadata must include a decoder configuration.");
 	if (typeof e.decoderConfig != "object") throw TypeError("Audio chunk metadata decoder configuration must be an object.");
 	if (typeof e.decoderConfig.codec != "string") throw TypeError("Audio chunk metadata decoder configuration must specify a codec string.");
-	if (!pd.some((t) => e.decoderConfig.codec.startsWith(t))) throw TypeError("Audio chunk metadata decoder configuration codec string must be a valid audio codec string as specified in the Mediabunny Codec Registry.");
+	if (!md.some((t) => e.decoderConfig.codec.startsWith(t))) throw TypeError("Audio chunk metadata decoder configuration codec string must be a valid audio codec string as specified in the Mediabunny Codec Registry.");
 	if (!Number.isInteger(e.decoderConfig.sampleRate) || e.decoderConfig.sampleRate <= 0) throw TypeError("Audio chunk metadata decoder configuration must specify a valid sampleRate (positive integer).");
 	if (!Number.isInteger(e.decoderConfig.numberOfChannels) || e.decoderConfig.numberOfChannels <= 0) throw TypeError("Audio chunk metadata decoder configuration must specify a valid numberOfChannels (positive integer).");
 	if (e.decoderConfig.description !== void 0 && !F(e.decoderConfig.description)) throw TypeError("Audio chunk metadata decoder configuration description, when defined, must be an ArrayBuffer or an ArrayBuffer view.");
@@ -16720,18 +16737,18 @@ var Cl = class e extends _t {
 	} else if (e.decoderConfig.codec.startsWith("ec-3") || e.decoderConfig.codec.startsWith("eac3")) {
 		if (e.decoderConfig.codec !== "ec-3") throw TypeError("Audio chunk metadata decoder configuration codec string for EC-3 must be \"ec-3\".");
 	} else if (e.decoderConfig.codec.startsWith("dts")) {
-		if (!Uu.includes(e.decoderConfig.codec)) throw TypeError(`Audio chunk metadata decoder configuration codec string for DTS must be one of the following four-character codes: ${Uu.join(", ")}.`);
+		if (!Wu.includes(e.decoderConfig.codec)) throw TypeError(`Audio chunk metadata decoder configuration codec string for DTS must be one of the following four-character codes: ${Wu.join(", ")}.`);
 	} else if (e.decoderConfig.codec.startsWith("mlpa")) {
 		if (e.decoderConfig.codec !== "mlpa") throw TypeError("Audio chunk metadata decoder configuration codec string for TrueHD must be \"mlpa\".");
-	} else if ((e.decoderConfig.codec.startsWith("pcm") || e.decoderConfig.codec.startsWith("ulaw") || e.decoderConfig.codec.startsWith("alaw")) && !ju.includes(e.decoderConfig.codec)) throw TypeError(`Audio chunk metadata decoder configuration codec string for PCM must be one of the supported PCM codecs (${ju.join(", ")}).`);
-	if (t !== null && id(e.decoderConfig.codec) !== t) throw TypeError(`Audio chunk metadata decoder configuration codec string '${e.decoderConfig.codec}' does not fit to the track codec '${t}'.`);
-}, hd = (e) => {
+	} else if ((e.decoderConfig.codec.startsWith("pcm") || e.decoderConfig.codec.startsWith("ulaw") || e.decoderConfig.codec.startsWith("alaw")) && !Mu.includes(e.decoderConfig.codec)) throw TypeError(`Audio chunk metadata decoder configuration codec string for PCM must be one of the supported PCM codecs (${Mu.join(", ")}).`);
+	if (t !== null && ad(e.decoderConfig.codec) !== t) throw TypeError(`Audio chunk metadata decoder configuration codec string '${e.decoderConfig.codec}' does not fit to the track codec '${t}'.`);
+}, gd = (e) => {
 	if (!e) throw TypeError("Subtitle metadata must be provided.");
 	if (typeof e != "object") throw TypeError("Subtitle metadata must be an object.");
 	if (!e.config) throw TypeError("Subtitle metadata must include a config object.");
 	if (typeof e.config != "object") throw TypeError("Subtitle metadata config must be an object.");
 	if (typeof e.config.description != "string") throw TypeError("Subtitle metadata config description must be a string.");
-}, gd = class {
+}, _d = class {
 	constructor(e) {
 		this.mutex = new I(), this.trackTimestampInfo = /* @__PURE__ */ new WeakMap(), this.output = e;
 	}
@@ -16749,20 +16766,20 @@ var Cl = class e extends _t {
 			}, this.trackTimestampInfo.set(e, r);
 		}
 	}
-}, _d = /* #__PURE__ */ new Uint8Array([
+}, vd = /* #__PURE__ */ new Uint8Array([
 	102,
 	76,
 	97,
 	67
-]), vd = 38, yd = 34, bd = class extends gd {
+]), yd = 38, bd = 34, xd = class extends _d {
 	constructor(e, t) {
 		super(e), this.metadataWritten = !1, this.blockSizes = [], this.frameSizes = [], this.sampleRate = null, this.channels = null, this.bitsPerSample = null, this.format = t;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
-		this.writer = await this.output._getRootWriter(!!this.format._options.appendOnly), this.writer.write(_d);
+		this.writer = await this.output._getRootWriter(!!this.format._options.appendOnly), this.writer.write(vd);
 		let t = this.output.tracks[0];
-		a(t?.isAudioTrack()), t.metadata.decoderConfig && (md({ decoderConfig: t.metadata.decoderConfig }, t.source._codec), this.applyDecoderConfig(t.metadata.decoderConfig)), e();
+		a(t?.isAudioTrack()), t.metadata.decoderConfig && (hd({ decoderConfig: t.metadata.decoderConfig }, t.source._codec), this.applyDecoderConfig(t.metadata.decoderConfig)), e();
 	}
 	applyDecoderConfig(e) {
 		a(e.description), this.sampleRate = e.sampleRate, this.channels = e.numberOfChannels;
@@ -16781,7 +16798,7 @@ var Cl = class e extends _t {
 	writeHeader({ bitsPerSample: e, minimumBlockSize: t, maximumBlockSize: n, minimumFrameSize: r, maximumFrameSize: i, sampleRate: o, channels: s, totalSamples: c }) {
 		a(this.writer.getPos() === 4);
 		let l = !wt(this.output._metadataTags), u = new Dt(/* @__PURE__ */ new Uint8Array(4));
-		u.writeBits(1, Number(!l)), u.writeBits(7, Jn.STREAMINFO), u.writeBits(24, yd), this.writer.write(u.bytes);
+		u.writeBits(1, Number(!l)), u.writeBits(7, Jn.STREAMINFO), u.writeBits(24, bd), this.writer.write(u.bytes);
 		let d = new Dt(/* @__PURE__ */ new Uint8Array(18));
 		if (d.writeBits(16, t), d.writeBits(16, n), d.writeBits(24, r), d.writeBits(24, i), d.writeBits(20, o), d.writeBits(3, s - 1), d.writeBits(5, e - 1), c >= 2 ** 32) throw Error("This muxer only supports writing up to 2 ** 32 samples");
 		d.writeBits(4, 0), d.writeBits(32, c), this.writer.write(d.bytes), this.writer.write(/* @__PURE__ */ new Uint8Array(16));
@@ -16793,7 +16810,7 @@ var Cl = class e extends _t {
 		o.writeBits(1, 0), o.writeBits(7, Jn.PICTURE), o.writeBits(24, t), this.writer.write(o.bytes), this.writer.write(n);
 	}
 	writeVorbisCommentAndPictureBlock() {
-		if (this.format._options.appendOnly || this.writer.seek(vd + _d.byteLength), wt(this.output._metadataTags)) {
+		if (this.format._options.appendOnly || this.writer.seek(yd + vd.byteLength), wt(this.output._metadataTags)) {
 			this.metadataWritten = !0;
 			return;
 		}
@@ -16811,7 +16828,7 @@ var Cl = class e extends _t {
 	async addEncodedAudioPacket(e, t, n) {
 		let r = await this.mutex.acquire();
 		try {
-			this.validateTimestamp(e, t.timestamp, t.type === "key"), this.sampleRate === null && (md(n, e.source._codec), a(n), a(n.decoderConfig), this.applyDecoderConfig(n.decoderConfig)), this.metadataWritten || this.writeVorbisCommentAndPictureBlock();
+			this.validateTimestamp(e, t.timestamp, t.type === "key"), this.sampleRate === null && (hd(n, e.source._codec), a(n), a(n.decoderConfig), this.applyDecoderConfig(n.decoderConfig)), this.metadataWritten || this.writeVorbisCommentAndPictureBlock();
 			let r = Dl.tempFromBytes(t.data);
 			r.skip(2);
 			let i = rs(new Dt(J(r, 2)).readBits(4));
@@ -16847,7 +16864,7 @@ var Cl = class e extends _t {
 		}
 		e();
 	}
-}, xd = class {
+}, Sd = class {
 	constructor(e) {
 		this.writer = e, this.helper = /* @__PURE__ */ new Uint8Array(8), this.helperView = new DataView(this.helper.buffer), this.offsets = /* @__PURE__ */ new WeakMap();
 	}
@@ -16890,156 +16907,156 @@ var Cl = class e extends _t {
 			return t;
 		}
 	}
-}, Sd = /* #__PURE__ */ new Uint8Array(8), Cd = /* #__PURE__ */ new DataView(Sd.buffer), wd = (e) => [(e % 256 + 256) % 256], Z = (e) => (Cd.setUint16(0, e, !1), [Sd[0], Sd[1]]), Td = (e) => (Cd.setInt16(0, e, !1), [Sd[0], Sd[1]]), Ed = (e) => (Cd.setUint32(0, e, !1), [
-	Sd[1],
-	Sd[2],
-	Sd[3]
-]), Q = (e) => (Cd.setUint32(0, e, !1), [
-	Sd[0],
-	Sd[1],
-	Sd[2],
-	Sd[3]
-]), Dd = (e) => (Cd.setInt32(0, e, !1), [
-	Sd[0],
-	Sd[1],
-	Sd[2],
-	Sd[3]
-]), Od = (e) => (Cd.setUint32(0, Math.floor(e / 2 ** 32), !1), Cd.setUint32(4, e, !1), [
-	Sd[0],
-	Sd[1],
-	Sd[2],
-	Sd[3],
-	Sd[4],
-	Sd[5],
-	Sd[6],
-	Sd[7]
-]), kd = (e) => (Cd.setInt32(0, Math.floor(e / 2 ** 32), !1), Cd.setUint32(4, e, !1), [
-	Sd[0],
-	Sd[1],
-	Sd[2],
-	Sd[3],
-	Sd[4],
-	Sd[5],
-	Sd[6],
-	Sd[7]
-]), Ad = (e) => (Cd.setInt16(0, 256 * e, !1), [Sd[0], Sd[1]]), jd = (e) => (Cd.setInt32(0, 2 ** 16 * e, !1), [
-	Sd[0],
-	Sd[1],
-	Sd[2],
-	Sd[3]
-]), Md = (e) => (Cd.setInt32(0, 2 ** 30 * e, !1), [
-	Sd[0],
-	Sd[1],
-	Sd[2],
-	Sd[3]
-]), Nd = (e, t) => {
+}, Cd = /* #__PURE__ */ new Uint8Array(8), wd = /* #__PURE__ */ new DataView(Cd.buffer), Td = (e) => [(e % 256 + 256) % 256], Z = (e) => (wd.setUint16(0, e, !1), [Cd[0], Cd[1]]), Ed = (e) => (wd.setInt16(0, e, !1), [Cd[0], Cd[1]]), Dd = (e) => (wd.setUint32(0, e, !1), [
+	Cd[1],
+	Cd[2],
+	Cd[3]
+]), Q = (e) => (wd.setUint32(0, e, !1), [
+	Cd[0],
+	Cd[1],
+	Cd[2],
+	Cd[3]
+]), Od = (e) => (wd.setInt32(0, e, !1), [
+	Cd[0],
+	Cd[1],
+	Cd[2],
+	Cd[3]
+]), kd = (e) => (wd.setUint32(0, Math.floor(e / 2 ** 32), !1), wd.setUint32(4, e, !1), [
+	Cd[0],
+	Cd[1],
+	Cd[2],
+	Cd[3],
+	Cd[4],
+	Cd[5],
+	Cd[6],
+	Cd[7]
+]), Ad = (e) => (wd.setInt32(0, Math.floor(e / 2 ** 32), !1), wd.setUint32(4, e, !1), [
+	Cd[0],
+	Cd[1],
+	Cd[2],
+	Cd[3],
+	Cd[4],
+	Cd[5],
+	Cd[6],
+	Cd[7]
+]), jd = (e) => (wd.setInt16(0, 256 * e, !1), [Cd[0], Cd[1]]), Md = (e) => (wd.setInt32(0, 2 ** 16 * e, !1), [
+	Cd[0],
+	Cd[1],
+	Cd[2],
+	Cd[3]
+]), Nd = (e) => (wd.setInt32(0, 2 ** 30 * e, !1), [
+	Cd[0],
+	Cd[1],
+	Cd[2],
+	Cd[3]
+]), Pd = (e, t) => {
 	let n = [], r = e;
 	do {
 		let e = r & 127;
 		r >>= 7, n.length > 0 && (e |= 128), n.push(e), t !== void 0 && t--;
 	} while (r > 0 || t);
 	return n.reverse();
-}, Pd = (e, t = !1) => {
+}, Fd = (e, t = !1) => {
 	let n = Array(e.length).fill(null).map((t, n) => e.charCodeAt(n));
 	return t && n.push(0), n;
-}, Fd = (e) => [
-	jd(e[0]),
-	jd(e[1]),
-	Md(e[2]),
-	jd(e[3]),
-	jd(e[4]),
-	Md(e[5]),
-	jd(e[6]),
-	jd(e[7]),
-	Md(e[8])
+}, Id = (e) => [
+	Md(e[0]),
+	Md(e[1]),
+	Nd(e[2]),
+	Md(e[3]),
+	Md(e[4]),
+	Nd(e[5]),
+	Md(e[6]),
+	Md(e[7]),
+	Nd(e[8])
 ], $ = (e, t, n) => ({
 	type: e,
 	contents: t && new Uint8Array(t.flat(10)),
 	children: n
-}), Id = (e, t, n, r, i) => $(e, [
-	wd(t),
-	Ed(n),
+}), Ld = (e, t, n, r, i) => $(e, [
+	Td(t),
+	Dd(n),
 	r ?? []
-], i), Ld = (e) => e.isQuickTime ? $("ftyp", [
-	Pd("qt  "),
+], i), Rd = (e) => e.isQuickTime ? $("ftyp", [
+	Fd("qt  "),
 	Q(512),
-	Pd("qt  ")
+	Fd("qt  ")
 ]) : e.fragmented ? e.cmaf ? $("ftyp", [
-	Pd("iso5"),
+	Fd("iso5"),
 	Q(512),
-	Pd("iso5"),
-	Pd("iso6"),
-	Pd("mp41"),
-	Pd("cmfc"),
-	Pd("dash")
+	Fd("iso5"),
+	Fd("iso6"),
+	Fd("mp41"),
+	Fd("cmfc"),
+	Fd("dash")
 ]) : $("ftyp", [
-	Pd("iso5"),
+	Fd("iso5"),
 	Q(512),
-	Pd("iso5"),
-	Pd("iso6"),
-	Pd("mp41")
+	Fd("iso5"),
+	Fd("iso6"),
+	Fd("mp41")
 ]) : $("ftyp", [
-	Pd("isom"),
+	Fd("isom"),
 	Q(512),
-	Pd("isom"),
-	e.holdsAvc ? Pd("avc1") : [],
-	Pd("mp41")
-]), Rd = () => $("styp", [
-	Pd("iso5"),
+	Fd("isom"),
+	e.holdsAvc ? Fd("avc1") : [],
+	Fd("mp41")
+]), zd = () => $("styp", [
+	Fd("iso5"),
 	Q(0),
-	Pd("iso5"),
-	Pd("iso6"),
-	Pd("mp41"),
-	Pd("cmfc"),
-	Pd("dash")
-]), zd = (e, t) => {
+	Fd("iso5"),
+	Fd("iso6"),
+	Fd("mp41"),
+	Fd("cmfc"),
+	Fd("dash")
+]), Bd = (e, t) => {
 	let n = Math.max(0, e.minWrittenTimestamp), r = Math.max(0, e.maxWrittenEndTimestamp - n);
-	return Number.isFinite(r) || (r = 0), Id("sidx", 1, 0, [
+	return Number.isFinite(r) || (r = 0), Ld("sidx", 1, 0, [
 		Q(1),
-		Q(xp),
-		Od(wp(n, xp)),
-		Od(0),
+		Q(Sp),
+		kd(Tp(n, Sp)),
+		kd(0),
 		Z(0),
 		Z(1),
 		Q(t & 2147483647),
-		Q(wp(r, xp)),
+		Q(Tp(r, Sp)),
 		Q(0)
 	]);
-}, Bd = (e) => ({
+}, Vd = (e) => ({
 	type: "mdat",
 	largeSize: e
-}), Vd = (e) => ({
+}), Hd = (e) => ({
 	type: "free",
 	size: e
-}), Hd = (e) => $("moov", void 0, [
-	Ud(e.creationTime, e.trackDatas),
-	...e.trackDatas.map((t) => Wd(t, e.creationTime)),
-	e.isFragmented ? If(e.trackDatas) : null,
-	Zf(e)
-]), Ud = (e, t) => {
-	let n = Math.max(0, ...t.map((e) => Math.max(0, wp(Tp(e), xp) + wp(e.startTimestampOffset ?? 0, xp)))), r = Math.max(0, ...t.map((e) => e.track.id)) + 1, i = !y(e) || !y(n), a = i ? Od : Q;
-	return Id("mvhd", +i, 0, [
+}), Ud = (e) => $("moov", void 0, [
+	Wd(e.creationTime, e.trackDatas),
+	...e.trackDatas.map((t) => Gd(t, e.creationTime)),
+	e.isFragmented ? Lf(e.trackDatas) : null,
+	Qf(e)
+]), Wd = (e, t) => {
+	let n = Math.max(0, ...t.map((e) => Math.max(0, Tp(Ep(e), Sp) + Tp(e.startTimestampOffset ?? 0, Sp)))), r = Math.max(0, ...t.map((e) => e.track.id)) + 1, i = !y(e) || !y(n), a = i ? kd : Q;
+	return Ld("mvhd", +i, 0, [
 		a(e),
 		a(e),
-		Q(xp),
+		Q(Sp),
 		a(n),
+		Md(1),
 		jd(1),
-		Ad(1),
 		Array(10).fill(0),
-		Fd(l),
+		Id(l),
 		Array(24).fill(0),
 		Q(r)
 	]);
-}, Wd = (e, t) => {
-	let n = Cp(e), r = e.startTimestampOffset !== null && e.startTimestampOffset !== 0;
+}, Gd = (e, t) => {
+	let n = wp(e), r = e.startTimestampOffset !== null && e.startTimestampOffset !== 0;
 	return $("trak", void 0, [
-		Gd(e, t),
-		r ? Kd(e) : null,
-		qd(e, t),
+		Kd(e, t),
+		r ? qd(e) : null,
+		Jd(e, t),
 		n.name === void 0 ? null : $("udta", void 0, [$("name", [...A.encode(n.name)])])
 	]);
-}, Gd = (e, t) => {
-	let n = Math.max(0, wp(Tp(e), xp) + wp(e.startTimestampOffset ?? 0, xp)), r = !y(t) || !y(n), i = r ? Od : Q, a;
+}, Kd = (e, t) => {
+	let n = Math.max(0, Tp(Ep(e), Sp) + Tp(e.startTimestampOffset ?? 0, Sp)), r = !y(t) || !y(n), i = r ? kd : Q, a;
 	if (e.type === "video" && e.track.metadata.transformationMatrix) a = e.track.metadata.transformationMatrix;
 	else if (e.type === "video") {
 		let { rotation: t, flip: n } = e.track.metadata;
@@ -17048,7 +17065,7 @@ var Cl = class e extends _t {
 	let o = 2;
 	e.track.metadata.disposition?.default !== !1 && (o |= 1);
 	let s = e.type === "video" ? 0 : e.type === "audio" ? 1 : e.type === "subtitle" ? 2 : B(e);
-	return Id("tkhd", +r, o, [
+	return Ld("tkhd", +r, o, [
 		i(t),
 		i(t),
 		Q(e.track.id),
@@ -17057,99 +17074,99 @@ var Cl = class e extends _t {
 		Array(8).fill(0),
 		Z(0),
 		Z(s),
-		Ad(+(e.type === "audio")),
+		jd(+(e.type === "audio")),
 		Z(0),
-		Fd(a),
-		jd(e.type === "video" ? e.info.width : 0),
-		jd(e.type === "video" ? e.info.height : 0)
+		Id(a),
+		Md(e.type === "video" ? e.info.width : 0),
+		Md(e.type === "video" ? e.info.height : 0)
 	]);
-}, Kd = (e) => {
+}, qd = (e) => {
 	let t = e.startTimestampOffset;
 	if (a(t !== null), t > 0) {
-		let n = wp(t, xp), r = wp(Tp(e), xp), i = !y(n) || !y(r), a = i ? Od : Q, o = i ? kd : Dd;
-		return $("edts", void 0, [Id("elst", +!!i, 0, [
+		let n = Tp(t, Sp), r = Tp(Ep(e), Sp), i = !y(n) || !y(r), a = i ? kd : Q, o = i ? Ad : Od;
+		return $("edts", void 0, [Ld("elst", +!!i, 0, [
 			Q(2),
 			a(n),
 			o(-1),
-			jd(1),
+			Md(1),
 			a(r),
 			o(0),
-			jd(1)
+			Md(1)
 		])]);
 	}
 	{
-		let n = wp(-t, e.timescale), r = Math.max(0, wp(Tp(e), xp) + wp(t, xp)), i = !b(n) || !y(r), a = i ? Od : Q, o = i ? kd : Dd;
-		return $("edts", void 0, [Id("elst", +!!i, 0, [
+		let n = Tp(-t, e.timescale), r = Math.max(0, Tp(Ep(e), Sp) + Tp(t, Sp)), i = !b(n) || !y(r), a = i ? kd : Q, o = i ? Ad : Od;
+		return $("edts", void 0, [Ld("elst", +!!i, 0, [
 			Q(1),
 			a(r),
 			o(n),
-			jd(1)
+			Md(1)
 		])]);
 	}
-}, qd = (e, t) => $("mdia", void 0, [
-	Jd(e, t),
-	Zd(!0, Yd[e.type], Xd[e.type]),
-	Qd(e)
-]), Jd = (e, t) => {
-	let n = wp(Tp(e), e.timescale), r = !y(t) || !y(n), i = r ? Od : Q;
-	return Id("mdhd", +r, 0, [
+}, Jd = (e, t) => $("mdia", void 0, [
+	Yd(e, t),
+	Qd(!0, Xd[e.type], Zd[e.type]),
+	$d(e)
+]), Yd = (e, t) => {
+	let n = Tp(Ep(e), e.timescale), r = !y(t) || !y(n), i = r ? kd : Q;
+	return Ld("mdhd", +r, 0, [
 		i(t),
 		i(t),
 		Q(e.timescale),
 		i(n),
-		Z(fp(e.track.metadata.languageCode ?? "und")),
+		Z(pp(e.track.metadata.languageCode ?? "und")),
 		Z(0)
 	]);
-}, Yd = {
+}, Xd = {
 	video: "vide",
 	audio: "soun",
 	subtitle: "text"
-}, Xd = {
+}, Zd = {
 	video: "MediabunnyVideoHandler",
 	audio: "MediabunnySoundHandler",
 	subtitle: "MediabunnyTextHandler"
-}, Zd = (e, t, n, r = "\0\0\0\0") => Id("hdlr", 0, 0, [
-	e ? Pd("mhlr") : Q(0),
-	Pd(t),
-	Pd(r),
+}, Qd = (e, t, n, r = "\0\0\0\0") => Ld("hdlr", 0, 0, [
+	e ? Fd("mhlr") : Q(0),
+	Fd(t),
+	Fd(r),
 	Q(0),
 	Q(0),
-	Pd(n, !0)
-]), Qd = (e) => $("minf", void 0, [
-	$d[e.type](),
-	ef(),
-	rf(e)
-]), $d = {
-	video: () => Id("vmhd", 0, 1, [
+	Fd(n, !0)
+]), $d = (e) => $("minf", void 0, [
+	ef[e.type](),
+	tf(),
+	af(e)
+]), ef = {
+	video: () => Ld("vmhd", 0, 1, [
 		Z(0),
 		Z(0),
 		Z(0),
 		Z(0)
 	]),
-	audio: () => Id("smhd", 0, 0, [Z(0), Z(0)]),
-	subtitle: () => Id("nmhd", 0, 0)
-}, ef = () => $("dinf", void 0, [tf()]), tf = () => Id("dref", 0, 0, [Q(1)], [nf()]), nf = () => Id("url ", 0, 1), rf = (e) => {
+	audio: () => Ld("smhd", 0, 0, [Z(0), Z(0)]),
+	subtitle: () => Ld("nmhd", 0, 0)
+}, tf = () => $("dinf", void 0, [nf()]), nf = () => Ld("dref", 0, 0, [Q(1)], [rf()]), rf = () => Ld("url ", 0, 1), af = (e) => {
 	let t = e.compositionTimeOffsetTable.length > 1 || e.compositionTimeOffsetTable.some((e) => e.sampleCompositionTimeOffset !== 0);
 	return $("stbl", void 0, [
-		af(e),
-		Of(e),
-		t ? Nf(e) : null,
+		of(e),
+		kf(e),
 		t ? Pf(e) : null,
-		Af(e),
+		t ? Ff(e) : null,
 		jf(e),
 		Mf(e),
-		kf(e),
-		...Ff(e.samples, !1)
+		Nf(e),
+		Af(e),
+		...If(e.samples, !1)
 	]);
-}, af = (e) => {
+}, of = (e) => {
 	let t;
-	if (e.type === "video") t = of(op(e.track.source._codec, e.info.decoderConfig.codec), e);
+	if (e.type === "video") t = sf(sp(e.track.source._codec, e.info.decoderConfig.codec), e);
 	else if (e.type === "audio") {
-		let n = cp(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime);
-		a(n), t = mf(n, e);
-	} else e.type === "subtitle" && (t = Ef(up[e.track.source._codec], e));
-	return a(t), Id("stsd", 0, 0, [Q(1)], [t]);
-}, of = (e, t) => $(e, [
+		let n = lp(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime);
+		a(n), t = hf(n, e);
+	} else e.type === "subtitle" && (t = Df(dp[e.track.source._codec], e));
+	return a(t), Ld("stsd", 0, 0, [Q(1)], [t]);
+}, sf = (e, t) => $(e, [
 	[
 		,
 		,
@@ -17168,45 +17185,45 @@ var Cl = class e extends _t {
 	Q(4718592),
 	Q(0),
 	Z(1),
-	wd(Qt.length),
-	Pd(Qt),
+	Td(Qt.length),
+	Fd(Qt),
 	Array(31 - Qt.length).fill(0),
 	Z(t.info.hasAlphaChannel ? 32 : 24),
-	Td(65535)
+	Ed(65535)
 ], [
-	sp[t.track.source._codec]?.(t) ?? null,
-	cf(t),
-	ae(t.info.decoderConfig.colorSpace) ? null : lf(t),
-	sf(t)
-]), sf = (e) => e.avgBitrate === 0 && e.maxBitrate === 0 ? null : $("btrt", [
+	cp[t.track.source._codec]?.(t) ?? null,
+	lf(t),
+	ae(t.info.decoderConfig.colorSpace) ? null : uf(t),
+	cf(t)
+]), cf = (e) => e.avgBitrate === 0 && e.maxBitrate === 0 ? null : $("btrt", [
 	Q(0),
 	Q(e.maxBitrate),
 	Q(e.avgBitrate)
-]), cf = (e) => e.info.pixelAspectRatio.num === e.info.pixelAspectRatio.den ? null : $("pasp", [Q(e.info.pixelAspectRatio.num), Q(e.info.pixelAspectRatio.den)]), lf = (e) => {
+]), lf = (e) => e.info.pixelAspectRatio.num === e.info.pixelAspectRatio.den ? null : $("pasp", [Q(e.info.pixelAspectRatio.num), Q(e.info.pixelAspectRatio.den)]), uf = (e) => {
 	let t = e.info.decoderConfig.colorSpace;
 	return $("colr", [
-		Pd(e.muxer.isQuickTime ? "nclc" : "nclx"),
+		Fd(e.muxer.isQuickTime ? "nclc" : "nclx"),
 		Z(t?.primaries == null ? 2 : ee[t.primaries]),
 		Z(t?.transfer == null ? 2 : ne[t.transfer]),
 		Z(t?.matrix == null ? 2 : N[t.matrix]),
-		e.muxer.isQuickTime ? [] : wd(!!t?.fullRange << 7)
+		e.muxer.isQuickTime ? [] : Td(!!t?.fullRange << 7)
 	]);
-}, uf = (e) => e.info.decoderConfig && $("avcC", [...T(e.info.decoderConfig.description)]), df = (e) => e.info.decoderConfig && $("hvcC", [...T(e.info.decoderConfig.description)]), ff = (e) => {
+}, df = (e) => e.info.decoderConfig && $("avcC", [...T(e.info.decoderConfig.description)]), ff = (e) => e.info.decoderConfig && $("hvcC", [...T(e.info.decoderConfig.description)]), pf = (e) => {
 	if (!e.info.decoderConfig) return null;
 	let t = e.info.decoderConfig, n = t.codec.split("."), r = Number(n[1]), i = Number(n[2]), a = Number(n[3]), o = n[4] ? Number(n[4]) : 1, s = n[8] ? Number(n[8]) : Number(t.colorSpace?.fullRange ?? 0), c = (a << 4) + (o << 1) + s, l = n[5] ? Number(n[5]) : t.colorSpace?.primaries ? ee[t.colorSpace.primaries] : 1, u = n[6] ? Number(n[6]) : t.colorSpace?.transfer ? ne[t.colorSpace.transfer] : 1, d = n[7] ? Number(n[7]) : t.colorSpace?.matrix ? N[t.colorSpace.matrix] : 1;
-	return Id("vpcC", 1, 0, [
-		wd(r),
-		wd(i),
-		wd(c),
-		wd(l),
-		wd(u),
-		wd(d),
+	return Ld("vpcC", 1, 0, [
+		Td(r),
+		Td(i),
+		Td(c),
+		Td(l),
+		Td(u),
+		Td(d),
 		Z(0)
 	]);
-}, pf = (e) => $("av1C", qu(e.info.decoderConfig.codec)), mf = (e, t) => {
-	let n = 0, r, i = 16, a = ju.includes(t.track.source._codec);
+}, mf = (e) => $("av1C", Ju(e.info.decoderConfig.codec)), hf = (e, t) => {
+	let n = 0, r, i = 16, a = Mu.includes(t.track.source._codec);
 	if (a) {
-		let e = t.track.source._codec, { sampleSize: r } = rd(e);
+		let e = t.track.source._codec, { sampleSize: r } = id(e);
 		i = 8 * r, i > 16 && (n = 1);
 	}
 	if (t.muxer.isQuickTime && t.track.source._codec !== "truehd" && (n = 1), n === 0) r = [
@@ -17245,7 +17262,7 @@ var Cl = class e extends _t {
 			Q(0),
 			Z(t.info.numberOfChannels),
 			Z(Math.min(i, 16)),
-			Td(e),
+			Ed(e),
 			Z(0),
 			Z(t.info.sampleRate < 2 ** 16 ? t.info.sampleRate : 0),
 			Z(0),
@@ -17261,8 +17278,8 @@ var Cl = class e extends _t {
 			Q(2)
 		];
 	}
-	return $(e, r, [lp(t.track.source._codec, t.muxer.isQuickTime)?.(t) ?? null, sf(t)]);
-}, hf = (e) => {
+	return $(e, r, [up(t.track.source._codec, t.muxer.isQuickTime)?.(t) ?? null, cf(t)]);
+}, gf = (e) => {
 	let t;
 	switch (e.track.source._codec) {
 		case "aac":
@@ -17277,9 +17294,9 @@ var Cl = class e extends _t {
 		default: throw Error(`Unhandled audio codec: ${e.track.source._codec}`);
 	}
 	let n = [
-		...wd(t),
-		...wd(21),
-		...Ed(0),
+		...Td(t),
+		...Td(21),
+		...Dd(0),
 		...Q(e.maxBitrate),
 		...Q(e.avgBitrate)
 	];
@@ -17287,33 +17304,33 @@ var Cl = class e extends _t {
 		let t = T(e.info.decoderConfig.description);
 		n = [
 			...n,
-			...wd(5),
-			...Nd(t.byteLength),
+			...Td(5),
+			...Pd(t.byteLength),
 			...t
 		];
 	}
 	return n = [
 		...Z(1),
-		...wd(0),
-		...wd(4),
-		...Nd(n.length),
+		...Td(0),
+		...Td(4),
+		...Pd(n.length),
 		...n,
-		...wd(6),
-		...wd(1),
-		...wd(2)
+		...Td(6),
+		...Td(1),
+		...Td(2)
 	], n = [
-		...wd(3),
-		...Nd(n.length),
+		...Td(3),
+		...Pd(n.length),
 		...n
-	], Id("esds", 0, 0, n);
-}, gf = (e) => $("wave", void 0, [
-	_f(e),
+	], Ld("esds", 0, 0, n);
+}, _f = (e) => $("wave", void 0, [
 	vf(e),
+	yf(e),
 	$("\0\0\0\0")
-]), _f = (e) => $("frma", [Pd(cp(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime))]), vf = (e) => {
-	let { littleEndian: t } = rd(e.track.source._codec);
+]), vf = (e) => $("frma", [Fd(lp(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime))]), yf = (e) => {
+	let { littleEndian: t } = id(e.track.source._codec);
 	return $("enda", [Z(+t)]);
-}, yf = (e) => {
+}, bf = (e) => {
 	let t = e.info.numberOfChannels, n = 312, r = e.info.sampleRate, i = 0, o = 0, s = /* @__PURE__ */ new Uint8Array(), c = e.info.decoderConfig?.description;
 	if (c) {
 		a(c.byteLength >= 18);
@@ -17321,27 +17338,27 @@ var Cl = class e extends _t {
 		t = e.outputChannelCount, n = e.preSkip, r = e.inputSampleRate, i = e.outputGain, o = e.channelMappingFamily, e.channelMappingTable && (s = e.channelMappingTable);
 	}
 	return $("dOps", [
-		wd(0),
-		wd(t),
+		Td(0),
+		Td(t),
 		Z(n),
 		Q(r),
-		Td(i),
-		wd(o),
+		Ed(i),
+		Td(o),
 		...s
 	]);
-}, bf = (e) => {
-	let t = e.info.decoderConfig?.description;
-	return a(t), Id("dfLa", 0, 0, [...T(t).subarray(4)]);
 }, xf = (e) => {
-	let { littleEndian: t, sampleSize: n } = rd(e.track.source._codec);
-	return Id("pcmC", 0, 0, [wd(+t), wd(8 * n)]);
+	let t = e.info.decoderConfig?.description;
+	return a(t), Ld("dfLa", 0, 0, [...T(t).subarray(4)]);
 }, Sf = (e) => {
+	let { littleEndian: t, sampleSize: n } = id(e.track.source._codec);
+	return Ld("pcmC", 0, 0, [Td(+t), Td(8 * n)]);
+}, Cf = (e) => {
 	a(e.info.primingPacket);
 	let t = Qn(e.info.primingPacket.data);
 	if (!t) throw Error("Couldn't extract AC-3 frame info from the audio packet. Ensure the packets contain valid AC-3 sync frames (as specified in ETSI TS 102 366).");
 	let n = /* @__PURE__ */ new Uint8Array(3), r = new Dt(n);
 	return r.writeBits(2, t.fscod), r.writeBits(5, t.bsid), r.writeBits(3, t.bsmod), r.writeBits(3, t.acmod), r.writeBits(1, t.lfeon), r.writeBits(5, t.bitRateCode), r.writeBits(5, 0), $("dac3", [...n]);
-}, Cf = (e) => {
+}, wf = (e) => {
 	a(e.info.primingPacket);
 	let t = nr(e.info.primingPacket.data);
 	if (!t) throw Error("Couldn't extract E-AC-3 frame info from the audio packet. Ensure the packets contain valid E-AC-3 sync frames (as specified in ETSI TS 102 366).");
@@ -17351,12 +17368,12 @@ var Cl = class e extends _t {
 	o.writeBits(13, t.dataRate), o.writeBits(3, t.substreams.length - 1);
 	for (let e of t.substreams) o.writeBits(2, e.fscod), o.writeBits(5, e.bsid), o.writeBits(1, 0), o.writeBits(1, 0), o.writeBits(3, e.bsmod), o.writeBits(3, e.acmod), o.writeBits(1, e.lfeon), o.writeBits(3, 0), o.writeBits(4, e.numDepSub), e.numDepSub > 0 ? o.writeBits(9, e.chanLoc) : o.writeBits(1, 0);
 	return $("dec3", [...i]);
-}, wf = (e) => {
+}, Tf = (e) => {
 	a(e.info.primingPacket);
 	let t = vr(e.info.primingPacket.data);
 	if (!t) throw Error("Couldn't extract DTS frame info from the audio packet. Ensure the packets contain valid DTS frames as specified in ETSI TS 102 114.");
 	return $("ddts", [...Cr(t)]);
-}, Tf = (e) => {
+}, Ef = (e) => {
 	a(e.info.primingPacket);
 	let t = e.info.primingPacket.data;
 	if (qn("truehd", t) !== "key") throw Error("Couldn't extract TrueHD stream info from the audio packet. Ensure the first packet is an access unit carrying a major sync.");
@@ -17366,32 +17383,32 @@ var Cl = class e extends _t {
 		Z(i << 1),
 		Q(0)
 	]);
-}, Ef = (e, t) => $(e, [[
+}, Df = (e, t) => $(e, [[
 	,
 	,
 	,
 	,
 	,
 	,
-].fill(0), Z(1)], [dp[t.track.source._codec](t), sf(t)]), Df = (e) => $("vttC", [...A.encode(e.info.config.description)]), Of = (e) => Id("stts", 0, 0, [Q(e.timeToSampleTable.length), e.timeToSampleTable.map((e) => [Q(e.sampleCount), Q(e.sampleDelta)])]), kf = (e) => {
+].fill(0), Z(1)], [fp[t.track.source._codec](t), cf(t)]), Of = (e) => $("vttC", [...A.encode(e.info.config.description)]), kf = (e) => Ld("stts", 0, 0, [Q(e.timeToSampleTable.length), e.timeToSampleTable.map((e) => [Q(e.sampleCount), Q(e.sampleDelta)])]), Af = (e) => {
 	if (e.samples.every((e) => e.type === "key")) return null;
 	let t = [...e.samples.entries()].filter(([, e]) => e.type === "key");
-	return Id("stss", 0, 0, [Q(t.length), t.map(([e]) => Q(e + 1))]);
-}, Af = (e) => Id("stsc", 0, 0, [Q(e.compactlyCodedChunkTable.length), e.compactlyCodedChunkTable.map((e) => [
+	return Ld("stss", 0, 0, [Q(t.length), t.map(([e]) => Q(e + 1))]);
+}, jf = (e) => Ld("stsc", 0, 0, [Q(e.compactlyCodedChunkTable.length), e.compactlyCodedChunkTable.map((e) => [
 	Q(e.firstChunk),
 	Q(e.samplesPerChunk),
 	Q(1)
-])]), jf = (e) => {
+])]), Mf = (e) => {
 	if (e.type === "audio" && e.info.requiresPcmTransformation) {
-		let { sampleSize: t } = rd(e.track.source._codec);
-		return Id("stsz", 0, 0, [Q(t * e.info.numberOfChannels), Q(e.samples.reduce((t, n) => t + wp(n.duration, e.timescale), 0))]);
+		let { sampleSize: t } = id(e.track.source._codec);
+		return Ld("stsz", 0, 0, [Q(t * e.info.numberOfChannels), Q(e.samples.reduce((t, n) => t + Tp(n.duration, e.timescale), 0))]);
 	}
-	return Id("stsz", 0, 0, [
+	return Ld("stsz", 0, 0, [
 		Q(0),
 		Q(e.samples.length),
 		e.samples.map((e) => Q(e.size))
 	]);
-}, Mf = (e) => e.finalizedChunks.length > 0 && v(e.finalizedChunks).offset >= 2 ** 32 ? Id("co64", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => Od(e.offset))]) : Id("stco", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => Q(e.offset))]), Nf = (e) => Id("ctts", 1, 0, [Q(e.compositionTimeOffsetTable.length), e.compositionTimeOffsetTable.map((e) => [Q(e.sampleCount), Dd(e.sampleCompositionTimeOffset)])]), Pf = (e) => {
+}, Nf = (e) => e.finalizedChunks.length > 0 && v(e.finalizedChunks).offset >= 2 ** 32 ? Ld("co64", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => kd(e.offset))]) : Ld("stco", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => Q(e.offset))]), Pf = (e) => Ld("ctts", 1, 0, [Q(e.compositionTimeOffsetTable.length), e.compositionTimeOffsetTable.map((e) => [Q(e.sampleCount), Od(e.sampleCompositionTimeOffset)])]), Ff = (e) => {
 	if (a(e.compositionTimeOffsetTable.length > 0), e.samples.length === 0) return null;
 	let t = Infinity, n = -Infinity, r = Infinity, i = -Infinity;
 	for (let r = 0; r < e.compositionTimeOffsetTable.length; r++) {
@@ -17400,17 +17417,17 @@ var Cl = class e extends _t {
 	}
 	for (let t = 0; t < e.samples.length; t++) {
 		let n = e.samples[t];
-		r = Math.min(r, wp(n.timestamp, e.timescale)), i = Math.max(i, wp(n.timestamp + n.duration, e.timescale));
+		r = Math.min(r, Tp(n.timestamp, e.timescale)), i = Math.max(i, Tp(n.timestamp + n.duration, e.timescale));
 	}
 	let o = Math.max(-t, 0);
-	return i >= 2 ** 31 ? null : Id("cslg", 0, 0, [
-		Dd(o),
-		Dd(t),
-		Dd(n),
-		Dd(r),
-		Dd(i)
+	return i >= 2 ** 31 ? null : Ld("cslg", 0, 0, [
+		Od(o),
+		Od(t),
+		Od(n),
+		Od(r),
+		Od(i)
 	]);
-}, Ff = (e, t) => {
+}, If = (e, t) => {
 	let n = [];
 	for (let t of e) if (n.length === 0) n.push({
 		sampleCount: 1,
@@ -17426,49 +17443,49 @@ var Cl = class e extends _t {
 	let r = n.filter((e) => e.prerollSamples !== 0);
 	if (r.length === 0) return [];
 	let i = t ? 65537 : 1;
-	return [Id("sgpd", 1, 0, [
-		Pd("roll"),
+	return [Ld("sgpd", 1, 0, [
+		Fd("roll"),
 		Q(2),
 		Q(r.length),
-		...r.map((e) => Td(e.prerollSamples))
-	]), Id("sbgp", 0, 0, [
-		Pd("roll"),
+		...r.map((e) => Ed(e.prerollSamples))
+	]), Ld("sbgp", 0, 0, [
+		Fd("roll"),
 		Q(n.length),
 		...n.map((e) => [Q(e.sampleCount), Q(e.prerollSamples === 0 ? 0 : i++)])
 	])];
-}, If = (e) => $("mvex", void 0, e.map(Lf)), Lf = (e) => Id("trex", 0, 0, [
+}, Lf = (e) => $("mvex", void 0, e.map(Rf)), Rf = (e) => Ld("trex", 0, 0, [
 	Q(e.track.id),
 	Q(1),
 	Q(0),
 	Q(0),
 	Q(0)
-]), Rf = (e, t) => $("moof", void 0, [zf(e), ...t.map(Vf)]), zf = (e) => Id("mfhd", 0, 0, [Q(e)]), Bf = (e) => {
+]), zf = (e, t) => $("moof", void 0, [Bf(e), ...t.map(Hf)]), Bf = (e) => Ld("mfhd", 0, 0, [Q(e)]), Vf = (e) => {
 	let t = 0, n = 0, r = e.type === "delta";
 	return n |= +r, t |= r ? 1 : 2, t << 24 | n << 16;
-}, Vf = (e) => $("traf", void 0, [
-	Hf(e),
+}, Hf = (e) => $("traf", void 0, [
 	Uf(e),
 	Wf(e),
-	...Ff(e.currentChunk.samples, !0)
-]), Hf = (e) => {
+	Gf(e),
+	...If(e.currentChunk.samples, !0)
+]), Uf = (e) => {
 	a(e.currentChunk);
 	let t = 0;
 	t |= 8, t |= 16, t |= 32, t |= 131072;
 	let n = e.currentChunk.samples[1] ?? e.currentChunk.samples[0], r = {
 		duration: n.timescaleUnitsToNextSample,
 		size: n.size,
-		flags: Bf(n)
+		flags: Vf(n)
 	};
-	return Id("tfhd", 0, t, [
+	return Ld("tfhd", 0, t, [
 		Q(e.track.id),
 		Q(r.duration),
 		Q(r.size),
 		Q(r.flags)
 	]);
-}, Uf = (e) => (a(e.currentChunk), Id("tfdt", 1, 0, [Od(wp(e.currentChunk.startTimestamp, e.timescale))])), Wf = (e) => {
+}, Wf = (e) => (a(e.currentChunk), Ld("tfdt", 1, 0, [kd(Tp(e.currentChunk.startTimestamp, e.timescale))])), Gf = (e) => {
 	a(e.currentChunk);
-	let t = e.currentChunk.samples.map((e) => e.timescaleUnitsToNextSample), n = e.currentChunk.samples.map((e) => e.size), r = e.currentChunk.samples.map(Bf), i = e.currentChunk.samples.map((t) => wp(t.timestamp - t.decodeTimestamp, e.timescale)), o = new Set(t), s = new Set(n), c = new Set(r), l = new Set(i), u = c.size === 2 && r[0] !== r[1], d = o.size > 1, f = s.size > 1, p = !u && c.size > 1, m = l.size > 1 || [...l].some((e) => e !== 0), h = 0;
-	return h |= 1, h |= 4 * u, h |= 256 * d, h |= 512 * f, h |= 1024 * p, h |= 2048 * m, Id("trun", 1, h, [
+	let t = e.currentChunk.samples.map((e) => e.timescaleUnitsToNextSample), n = e.currentChunk.samples.map((e) => e.size), r = e.currentChunk.samples.map(Vf), i = e.currentChunk.samples.map((t) => Tp(t.timestamp - t.decodeTimestamp, e.timescale)), o = new Set(t), s = new Set(n), c = new Set(r), l = new Set(i), u = c.size === 2 && r[0] !== r[1], d = o.size > 1, f = s.size > 1, p = !u && c.size > 1, m = l.size > 1 || [...l].some((e) => e !== 0), h = 0;
+	return h |= 1, h |= 4 * u, h |= 256 * d, h |= 512 * f, h |= 1024 * p, h |= 2048 * m, Ld("trun", 1, h, [
 		Q(e.currentChunk.samples.length),
 		Q(e.currentChunk.offset - e.currentChunk.moofOffset || 0),
 		u ? Q(r[0]) : [],
@@ -17476,73 +17493,73 @@ var Cl = class e extends _t {
 			d ? Q(t[a]) : [],
 			f ? Q(n[a]) : [],
 			p ? Q(r[a]) : [],
-			m ? Dd(i[a]) : []
+			m ? Od(i[a]) : []
 		])
 	]);
-}, Gf = (e) => $("mfra", void 0, [...e.map(Kf), qf()]), Kf = (e) => {
+}, Kf = (e) => $("mfra", void 0, [...e.map(qf), Jf()]), qf = (e) => {
 	let t = [];
 	for (let n of e.finalizedChunks) {
 		let r = n.samples.findIndex((e) => e.type === "key");
 		if (r === -1) continue;
 		let i = n.samples[r];
 		t.push([
-			Od(wp(i.timestamp, e.timescale)),
-			Od(n.moofOffset),
+			kd(Tp(i.timestamp, e.timescale)),
+			kd(n.moofOffset),
 			Q(n.trafIndex + 1),
 			Q(1),
 			Q(r + 1)
 		]);
 	}
-	return Id("tfra", 1, 0, [
+	return Ld("tfra", 1, 0, [
 		Q(e.track.id),
 		Q(63),
 		Q(t.length),
 		t
 	]);
-}, qf = () => Id("mfro", 0, 0, [Q(0)]), Jf = () => $("vtte"), Yf = (e, t, n, r, i) => $("vttc", void 0, [
-	i === null ? null : $("vsid", [Dd(i)]),
+}, Jf = () => Ld("mfro", 0, 0, [Q(0)]), Yf = () => $("vtte"), Xf = (e, t, n, r, i) => $("vttc", void 0, [
+	i === null ? null : $("vsid", [Od(i)]),
 	n === null ? null : $("iden", [...A.encode(n)]),
 	t === null ? null : $("ctim", [...A.encode(Or(t))]),
 	r === null ? null : $("sttg", [...A.encode(r)]),
 	$("payl", [...A.encode(e)])
-]), Xf = (e) => $("vtta", [...A.encode(e)]), Zf = (e) => {
+]), Zf = (e) => $("vtta", [...A.encode(e)]), Qf = (e) => {
 	let t = [], n = e.format._options.metadataFormat ?? "auto", r = e.output._metadataTags;
 	if (n === "mdir" || n === "auto" && !e.isQuickTime) {
-		let e = rp(r);
-		e && t.push(e);
-	} else if (n === "mdta") {
 		let e = ip(r);
 		e && t.push(e);
-	} else (n === "udta" || n === "auto" && e.isQuickTime) && Qf(t, e.output._metadataTags);
+	} else if (n === "mdta") {
+		let e = ap(r);
+		e && t.push(e);
+	} else (n === "udta" || n === "auto" && e.isQuickTime) && $f(t, e.output._metadataTags);
 	return t.length === 0 ? null : $("udta", void 0, t);
-}, Qf = (e, t) => {
+}, $f = (e, t) => {
 	for (let { key: n, value: r } of qe(t)) switch (n) {
 		case "title":
-			e.push($f("©nam", r));
+			e.push(ep("©nam", r));
 			break;
 		case "description":
-			e.push($f("©des", r));
+			e.push(ep("©des", r));
 			break;
 		case "artist":
-			e.push($f("©ART", r));
+			e.push(ep("©ART", r));
 			break;
 		case "album":
-			e.push($f("©alb", r));
+			e.push(ep("©alb", r));
 			break;
 		case "albumArtist":
-			e.push($f("albr", r));
+			e.push(ep("albr", r));
 			break;
 		case "genre":
-			e.push($f("©gen", r));
+			e.push(ep("©gen", r));
 			break;
 		case "date":
-			e.push($f("©day", r.toISOString().slice(0, 10)));
+			e.push(ep("©day", r.toISOString().slice(0, 10)));
 			break;
 		case "comment":
-			e.push($f("©cmt", r));
+			e.push(ep("©cmt", r));
 			break;
 		case "lyrics":
-			e.push($f("©lyr", r));
+			e.push(ep("©lyr", r));
 			break;
 		case "raw": break;
 		case "creationTime": break;
@@ -17556,66 +17573,66 @@ var Cl = class e extends _t {
 	}
 	if (t.raw) for (let n in t.raw) {
 		let r = t.raw[n];
-		r == null || n.length !== 4 || e.some((e) => e.type === n) || (typeof r == "string" ? e.push($f(n, r)) : r instanceof Uint8Array && e.push($(n, Array.from(r))));
+		r == null || n.length !== 4 || e.some((e) => e.type === n) || (typeof r == "string" ? e.push(ep(n, r)) : r instanceof Uint8Array && e.push($(n, Array.from(r))));
 	}
-}, $f = (e, t) => {
+}, ep = (e, t) => {
 	let n = A.encode(t);
 	return $(e, [
 		Z(n.length),
-		Z(fp("und")),
+		Z(pp("und")),
 		Array.from(n)
 	]);
-}, ep = {
+}, tp = {
 	"image/jpeg": 13,
 	"image/png": 14,
 	"image/bmp": 27
-}, tp = /* @__PURE__ */ new Set([
+}, np = /* @__PURE__ */ new Set([
 	"HMMT",
 	"loci",
 	"chpl"
-]), np = (e, t) => {
+]), rp = (e, t) => {
 	let n = [];
 	for (let { key: r, value: i } of qe(e)) switch (r) {
 		case "title":
 			n.push({
 				key: t ? "title" : "©nam",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "description":
 			n.push({
 				key: t ? "description" : "©des",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "artist":
 			n.push({
 				key: t ? "artist" : "©ART",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "album":
 			n.push({
 				key: t ? "album" : "©alb",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "albumArtist":
 			n.push({
 				key: t ? "album_artist" : "aART",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "comment":
 			n.push({
 				key: t ? "comment" : "©cmt",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "genre":
 			n.push({
 				key: t ? "genre" : "©gen",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "beatsPerMinute":
@@ -17631,20 +17648,20 @@ var Cl = class e extends _t {
 		case "lyrics":
 			n.push({
 				key: t ? "lyrics" : "©lyr",
-				value: ap(i)
+				value: op(i)
 			});
 			break;
 		case "date":
 			n.push({
 				key: t ? "date" : "©day",
-				value: ap(i.toISOString().slice(0, 10))
+				value: op(i.toISOString().slice(0, 10))
 			});
 			break;
 		case "images":
 			for (let e of i) e.kind === "coverFront" && n.push({
 				key: "covr",
 				value: $("data", [
-					Q(ep[e.mimeType] ?? 0),
+					Q(tp[e.mimeType] ?? 0),
 					Q(0),
 					Array.from(e.data)
 				])
@@ -17655,7 +17672,7 @@ var Cl = class e extends _t {
 				let t = e.tracksTotal === void 0 ? i.toString() : `${i}/${e.tracksTotal}`;
 				n.push({
 					key: "track",
-					value: ap(t)
+					value: op(t)
 				});
 			} else n.push({
 				key: "trkn",
@@ -17690,9 +17707,9 @@ var Cl = class e extends _t {
 	}
 	if (e.raw) for (let r in e.raw) {
 		let i = e.raw[r];
-		i == null || !t && (r.length !== 4 || tp.has(r)) || n.some((e) => e.key === r) || (typeof i == "string" ? n.push({
+		i == null || !t && (r.length !== 4 || np.has(r)) || n.some((e) => e.key === r) || (typeof i == "string" ? n.push({
 			key: r,
-			value: ap(i)
+			value: op(i)
 		}) : i instanceof Uint8Array ? n.push({
 			key: r,
 			value: $("data", [
@@ -17703,28 +17720,28 @@ var Cl = class e extends _t {
 		}) : i instanceof xt && n.push({
 			key: r,
 			value: $("data", [
-				Q(ep[i.mimeType] ?? 0),
+				Q(tp[i.mimeType] ?? 0),
 				Q(0),
 				Array.from(i.data)
 			])
 		}));
 	}
 	return n;
-}, rp = (e) => {
-	let t = np(e, !1);
-	return t.length === 0 ? null : Id("meta", 0, 0, void 0, [Zd(!1, "mdir", "", "appl"), $("ilst", void 0, t.map((e) => $(e.key, void 0, [e.value])))]);
 }, ip = (e) => {
-	let t = np(e, !0);
+	let t = rp(e, !1);
+	return t.length === 0 ? null : Ld("meta", 0, 0, void 0, [Qd(!1, "mdir", "", "appl"), $("ilst", void 0, t.map((e) => $(e.key, void 0, [e.value])))]);
+}, ap = (e) => {
+	let t = rp(e, !0);
 	return t.length === 0 ? null : $("meta", void 0, [
-		Zd(!1, "mdta", ""),
-		Id("keys", 0, 0, [Q(t.length)], t.map((e) => $("mdta", [...A.encode(e.key)]))),
+		Qd(!1, "mdta", ""),
+		Ld("keys", 0, 0, [Q(t.length)], t.map((e) => $("mdta", [...A.encode(e.key)]))),
 		$("ilst", void 0, t.map((e, t) => $(String.fromCharCode(...Q(t + 1)), void 0, [e.value])))
 	]);
-}, ap = (e) => $("data", [
+}, op = (e) => $("data", [
 	Q(1),
 	Q(0),
 	...A.encode(e)
-]), op = (e, t) => {
+]), sp = (e, t) => {
 	switch (e) {
 		case "avc": return t.startsWith("avc3") ? "avc3" : "avc1";
 		case "hevc": return "hvc1";
@@ -17733,14 +17750,14 @@ var Cl = class e extends _t {
 		case "av1": return "av01";
 		case "prores": return t;
 	}
-}, sp = {
-	avc: uf,
-	hevc: df,
-	vp8: ff,
-	vp9: ff,
-	av1: pf,
+}, cp = {
+	avc: df,
+	hevc: ff,
+	vp8: pf,
+	vp9: pf,
+	av1: mf,
 	prores: null
-}, cp = (e, t, n) => {
+}, lp = (e, t, n) => {
 	switch (e) {
 		case "aac": return "mp4a";
 		case "mp3": return "mp4a";
@@ -17780,47 +17797,47 @@ var Cl = class e extends _t {
 		case "pcm-f64": return "fpcm";
 		case "pcm-f64be": return "fpcm";
 	}
-}, lp = (e, t) => {
+}, up = (e, t) => {
 	switch (e) {
-		case "aac": return hf;
-		case "mp3": return hf;
-		case "opus": return yf;
-		case "vorbis": return hf;
-		case "flac": return bf;
-		case "ac3": return Sf;
-		case "eac3": return Cf;
-		case "dts": return wf;
-		case "truehd": return Tf;
+		case "aac": return gf;
+		case "mp3": return gf;
+		case "opus": return bf;
+		case "vorbis": return gf;
+		case "flac": return xf;
+		case "ac3": return Cf;
+		case "eac3": return wf;
+		case "dts": return Tf;
+		case "truehd": return Ef;
 	}
 	if (t) switch (e) {
-		case "pcm-s24": return gf;
-		case "pcm-s24be": return gf;
-		case "pcm-s32": return gf;
-		case "pcm-s32be": return gf;
-		case "pcm-f32": return gf;
-		case "pcm-f32be": return gf;
-		case "pcm-f64": return gf;
-		case "pcm-f64be": return gf;
+		case "pcm-s24": return _f;
+		case "pcm-s24be": return _f;
+		case "pcm-s32": return _f;
+		case "pcm-s32be": return _f;
+		case "pcm-f32": return _f;
+		case "pcm-f32be": return _f;
+		case "pcm-f64": return _f;
+		case "pcm-f64be": return _f;
 	}
 	else switch (e) {
-		case "pcm-s16": return xf;
-		case "pcm-s16be": return xf;
-		case "pcm-s24": return xf;
-		case "pcm-s24be": return xf;
-		case "pcm-s32": return xf;
-		case "pcm-s32be": return xf;
-		case "pcm-f32": return xf;
-		case "pcm-f32be": return xf;
-		case "pcm-f64": return xf;
-		case "pcm-f64be": return xf;
+		case "pcm-s16": return Sf;
+		case "pcm-s16be": return Sf;
+		case "pcm-s24": return Sf;
+		case "pcm-s24be": return Sf;
+		case "pcm-s32": return Sf;
+		case "pcm-s32be": return Sf;
+		case "pcm-f32": return Sf;
+		case "pcm-f32be": return Sf;
+		case "pcm-f64": return Sf;
+		case "pcm-f64be": return Sf;
 	}
 	return null;
-}, up = { webvtt: "wvtt" }, dp = { webvtt: Df }, fp = (e) => {
+}, dp = { webvtt: "wvtt" }, fp = { webvtt: Of }, pp = (e) => {
 	a(e.length === 3);
 	let t = 0;
 	for (let n = 0; n < 3; n++) t <<= 5, t += e.charCodeAt(n) - 96;
 	return t;
-}, pp = class {
+}, mp = class {
 	constructor(e, t) {
 		if (this.finalized = !1, this.started = !1, this.pos = 0, this.trackedWrites = null, this.trackedStart = -1, this.trackedEnd = -1, e._writerAcquired) throw Error("Can't have multiple Writers for the same Target.");
 		this.target = e, e._setMonotonicity(t), e._writerAcquired = !0;
@@ -17870,7 +17887,7 @@ var Cl = class e extends _t {
 		};
 		return this.trackedWrites = null, e;
 	}
-}, mp = class extends _t {
+}, hp = class extends _t {
 	constructor() {
 		super(...arguments), this._writerAcquired = !1, this._monotonicity = null, this.onwrite = null;
 	}
@@ -17885,18 +17902,18 @@ var Cl = class e extends _t {
 	}
 	slice(e) {
 		if (!Number.isInteger(e) || e < 0) throw TypeError("offset must be a non-negative integer.");
-		return new yp(this, e);
+		return new bp(this, e);
 	}
-}, hp = 2 ** 16, gp = 2 ** 32, _p = class extends mp {
+}, gp = 2 ** 16, _p = 2 ** 32, vp = class extends hp {
 	constructor(e = {}) {
 		if (super(), this.buffer = null, this._maxPos = 0, !e || typeof e != "object") throw TypeError("BufferTarget options, when provided, must be an object.");
 		if (e.onFinalize !== void 0 && typeof e.onFinalize != "function") throw TypeError("options.onFinalize, when provided, must be a function.");
 		if (this._options = e, this._supportsResize = "resize" in /* @__PURE__ */ new ArrayBuffer(0), this._supportsResize) try {
-			this._buffer = new ArrayBuffer(hp, { maxByteLength: gp });
+			this._buffer = new ArrayBuffer(gp, { maxByteLength: _p });
 		} catch {
-			this._buffer = new ArrayBuffer(hp), this._supportsResize = !1;
+			this._buffer = new ArrayBuffer(gp), this._supportsResize = !1;
 		}
-		else this._buffer = new ArrayBuffer(hp);
+		else this._buffer = new ArrayBuffer(gp);
 		this._bytes = new Uint8Array(this._buffer);
 	}
 	_ensureSize(e) {
@@ -17904,7 +17921,7 @@ var Cl = class e extends _t {
 		let t = this._buffer.byteLength;
 		for (; t < e;) t *= 2;
 		if (t !== this._buffer.byteLength) {
-			if (t > gp) throw Error(`ArrayBuffer exceeded maximum size of ${gp} bytes. Please consider using another target.`);
+			if (t > _p) throw Error(`ArrayBuffer exceeded maximum size of ${_p} bytes. Please consider using another target.`);
 			if (this._supportsResize) this._buffer.resize(t);
 			else {
 				let e = new ArrayBuffer(t), n = new Uint8Array(e);
@@ -17924,7 +17941,7 @@ var Cl = class e extends _t {
 	_getSlice(e, t) {
 		return a(this._bytes), this._bytes.slice(e, t);
 	}
-}, vp = class extends mp {
+}, yp = class extends hp {
 	_start() {}
 	_write(e, t) {
 		this._dispatchWrite(t, t + e.byteLength);
@@ -17934,7 +17951,7 @@ var Cl = class e extends _t {
 		this._emit("finalized");
 	}
 	async _close() {}
-}, yp = class extends mp {
+}, bp = class extends hp {
 	constructor(e, t) {
 		super(), this._baseTarget = e, this._offset = t;
 	}
@@ -17952,18 +17969,18 @@ var Cl = class e extends _t {
 	_setMonotonicity(e) {
 		super._setMonotonicity(e), this._baseTarget._setMonotonicity(e);
 	}
-}, bp = class {
+}, xp = class {
 	constructor(e, t) {
 		if (this.rootPath = e, this.getTarget = t, typeof e != "string") throw TypeError("rootPath must be a string.");
 		if (typeof t != "function") throw TypeError("getTarget must be a function.");
 	}
-}, xp = 57600, Sp = .5, Cp = (e) => {
+}, Sp = 57600, Cp = .5, wp = (e) => {
 	let t = {}, n = e.track;
 	return n.metadata.name !== void 0 && (t.name = n.metadata.name), t;
-}, wp = (e, t, n = !0) => {
+}, Tp = (e, t, n = !0) => {
 	let r = e * t;
 	return n ? Math.round(r) : r;
-}, Tp = (e) => {
+}, Ep = (e) => {
 	if (e.samples.length === 0) return 0;
 	let t = Infinity, n = -Infinity;
 	for (let r = 0; r < e.samples.length; r++) {
@@ -17971,22 +17988,22 @@ var Cl = class e extends _t {
 		i.timestamp < t && (t = i.timestamp), i.timestamp + i.duration > n && (n = i.timestamp + i.duration);
 	}
 	return t === Infinity ? 0 : n - t;
-}, Ep = class extends gd {
+}, Dp = class extends _d {
 	constructor(e, t) {
-		super(e), this.writer = null, this.boxWriter = null, this.initWriter = null, this.initBoxWriter = null, this.auxTarget = new _p(), this.auxWriter = new pp(this.auxTarget, !1), this.auxBoxWriter = new xd(this.auxWriter), this.mdat = null, this.ftypSize = null, this.trackDatas = [], this.allTracksKnown = pe(), this.finalizedChunks = [], this.wroteFragmentedHeader = !1, this.nextFragmentNumber = 1, this.maxWrittenTimestamp = -Infinity, this.minWrittenTimestamp = Infinity, this.maxWrittenEndTimestamp = -Infinity, this.segmentHeaderSize = null, this.format = t, this.formatOptions = { ...t._options }, this.isQuickTime = t instanceof Up, this.isCmaf = t instanceof Hp, this.minimumFragmentDuration = this.formatOptions.minimumFragmentDuration ?? (t instanceof Hp ? Infinity : 1), this.auxWriter.start();
+		super(e), this.writer = null, this.boxWriter = null, this.initWriter = null, this.initBoxWriter = null, this.auxTarget = new vp(), this.auxWriter = new mp(this.auxTarget, !1), this.auxBoxWriter = new Sd(this.auxWriter), this.mdat = null, this.ftypSize = null, this.trackDatas = [], this.allTracksKnown = pe(), this.finalizedChunks = [], this.wroteFragmentedHeader = !1, this.nextFragmentNumber = 1, this.maxWrittenTimestamp = -Infinity, this.minWrittenTimestamp = Infinity, this.maxWrittenEndTimestamp = -Infinity, this.segmentHeaderSize = null, this.format = t, this.formatOptions = { ...t._options }, this.isQuickTime = t instanceof Wp, this.isCmaf = t instanceof Up, this.minimumFragmentDuration = this.formatOptions.minimumFragmentDuration ?? (t instanceof Up ? Infinity : 1), this.auxWriter.start();
 	}
 	async start() {
 		let e = await this.mutex.acquire(), t = this.output._metadataTags.creationTime === void 0 ? /* @__PURE__ */ new Date() : this.output._metadataTags.creationTime;
 		if (this.creationTime = t ? Math.floor(t.getTime() / 1e3) + Ji : 0, t && this.creationTime <= 0) throw Error("creationTime must be after 1904-01-01T00:00:00Z for MP4/QuickTime files.");
-		if (this.isCmaf ? (this.fastStart = "fragmented", this.isFragmented = !0) : (this.writer = await this.output._getRootWriter((e) => this.formatOptions.fastStart === void 0 ? e instanceof _p : this.formatOptions.fastStart === "fragmented"), this.boxWriter = new xd(this.writer), this.fastStart = this.formatOptions.fastStart ?? (this.writer.target instanceof _p && "in-memory"), this.isFragmented = this.fastStart === "fragmented"), this.isCmaf) {
+		if (this.isCmaf ? (this.fastStart = "fragmented", this.isFragmented = !0) : (this.writer = await this.output._getRootWriter((e) => this.formatOptions.fastStart === void 0 ? e instanceof vp : this.formatOptions.fastStart === "fragmented"), this.boxWriter = new Sd(this.writer), this.fastStart = this.formatOptions.fastStart ?? (this.writer.target instanceof vp && "in-memory"), this.isFragmented = this.fastStart === "fragmented"), this.isCmaf) {
 			if (!this.output._hasInitTarget()) throw Error("CMAF outputs require the initTarget field in OutputOptions to be set; the init segment will be written to it.");
-			let e = new pp(await this.output._getInitTarget(), !0);
-			e.start(), this.initWriter = e, this.initBoxWriter = new xd(e);
+			let e = new mp(await this.output._getInitTarget(), !0);
+			e.start(), this.initWriter = e, this.initBoxWriter = new Sd(e);
 		}
 		let n = this.output.tracks.some((e) => e.isVideoTrack() && e.source._codec === "avc");
 		{
 			let e = this.initBoxWriter ?? this.boxWriter;
-			if (a(e), this.formatOptions.onFtyp && e.writer.startTrackingWrites(), e.writeBox(Ld({
+			if (a(e), this.formatOptions.onFtyp && e.writer.startTrackingWrites(), e.writeBox(Rd({
 				isQuickTime: this.isQuickTime,
 				holdsAvc: n,
 				fragmented: this.isFragmented,
@@ -18002,7 +18019,7 @@ var Cl = class e extends _t {
 				if (e.metadata.maximumPacketCount === void 0) throw Error("All tracks must specify maximumPacketCount in their metadata when using fastStart: 'reserve'.");
 				if (e.metadata.maximumPacketCount > 2 ** 32 - 1) throw Error(`Track #${e.id} has a maximumPacketCount of ${e.metadata.maximumPacketCount}, which exceeds the maximum of ${2 ** 32 - 1} packets per track that a non-fragmented file can hold.`);
 			}
-			else this.isFragmented || (a(this.writer), a(this.boxWriter), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = Bd(!0), this.boxWriter.writeBox(this.mdat));
+			else this.isFragmented || (a(this.writer), a(this.boxWriter), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = Vd(!0), this.boxWriter.writeBox(this.mdat));
 		}
 		await this.writer?.flush();
 		for (let e of this.output.tracks) e.isVideoTrack() && e.metadata.decoderConfig ? this.getVideoTrackData(e, e.metadata.primingPacket ?? null, { decoderConfig: e.metadata.decoderConfig }) : e.isAudioTrack() && e.metadata.decoderConfig && this.getAudioTrackData(e, e.metadata.primingPacket ?? null, { decoderConfig: e.metadata.decoderConfig });
@@ -18025,7 +18042,7 @@ var Cl = class e extends _t {
 	getVideoTrackData(e, t, n) {
 		let r = this.trackDatas.find((t) => t.track === e);
 		if (r) return r;
-		fd(n, e.source._codec), a(n), a(n.decoderConfig);
+		pd(n, e.source._codec), a(n), a(n.decoderConfig);
 		let i = { ...n.decoderConfig };
 		a(i.codedWidth !== void 0), a(i.codedHeight !== void 0);
 		let o = !1;
@@ -18079,7 +18096,7 @@ var Cl = class e extends _t {
 	getAudioTrackData(e, t, n) {
 		let r = this.trackDatas.find((t) => t.track === e);
 		if (r) return r;
-		md(n, e.source._codec), a(n), a(n.decoderConfig);
+		hd(n, e.source._codec), a(n), a(n.decoderConfig);
 		let i = { ...n.decoderConfig }, o = !1;
 		if (e.source._codec === "aac" && !i.description) {
 			if (!t) throw Error("No AAC description provided; you must therefore provide a priming packet.");
@@ -18106,7 +18123,7 @@ var Cl = class e extends _t {
 				numberOfChannels: n.decoderConfig.numberOfChannels,
 				sampleRate: n.decoderConfig.sampleRate,
 				decoderConfig: i,
-				requiresPcmTransformation: !this.isFragmented && ju.includes(e.source._codec),
+				requiresPcmTransformation: !this.isFragmented && Mu.includes(e.source._codec),
 				expectedNextPcmPacketTimestamp: null,
 				requiresAdtsStripping: o,
 				primingPacket: t,
@@ -18137,7 +18154,7 @@ var Cl = class e extends _t {
 	getSubtitleTrackData(e, t) {
 		let n = this.trackDatas.find((t) => t.track === e);
 		if (n) return n;
-		hd(t), a(t), a(t.config);
+		gd(t), a(t), a(t.config);
 		let r = {
 			muxer: this,
 			track: e,
@@ -18194,7 +18211,7 @@ var Cl = class e extends _t {
 			this.validateTimestamp(r.track, t.timestamp, t.type === "key");
 			let o = t.timestamp, s = t.duration;
 			if (r.info.requiresPcmTransformation) {
-				let e = rd(r.info.decoderConfig.codec).sampleSize * r.info.numberOfChannels;
+				let e = id(r.info.decoderConfig.codec).sampleSize * r.info.numberOfChannels;
 				if (s = i.byteLength / e / r.info.sampleRate, r.info.expectedNextPcmPacketTimestamp !== null) {
 					let e = o - r.info.expectedNextPcmPacketTimestamp;
 					if (e < .01) o = r.info.expectedNextPcmPacketTimestamp;
@@ -18209,7 +18226,7 @@ var Cl = class e extends _t {
 			if (e.source._codec === "aac" || e.source._codec === "vorbis") l = -Math.min(1, c.packetCount);
 			else if (e.source._codec === "mp3") l = -Math.min(2, c.packetCount);
 			else if (e.source._codec === "opus") {
-				let e = Math.round(td * ed);
+				let e = Math.round(nd * td);
 				l = -c.audioSampleDurationHistory.length;
 				let t = Wn(i);
 				for (c.accumulatedAudioSamples += t.durationInSamples, c.audioSampleDurationHistory.push(t.durationInSamples); c.accumulatedAudioSamples - c.audioSampleDurationHistory[0] >= e;) c.accumulatedAudioSamples -= c.audioSampleDurationHistory.shift(), a(c.audioSampleDurationHistory.length > 0);
@@ -18222,9 +18239,9 @@ var Cl = class e extends _t {
 		}
 	}
 	async padWithSilence(e, t, n) {
-		let r = wp(n, e.timescale);
+		let r = Tp(n, e.timescale);
 		if (n = r / e.timescale, r > 0) {
-			let { sampleSize: i, silentValue: a } = rd(e.info.decoderConfig.codec), o = r * e.info.numberOfChannels, s = new Uint8Array(i * o).fill(a), c = this.createSampleForTrack(e, new Uint8Array(s.buffer), t, n, "key", 0);
+			let { sampleSize: i, silentValue: a } = id(e.info.decoderConfig.codec), o = r * e.info.numberOfChannels, s = new Uint8Array(i * o).fill(a), c = this.createSampleForTrack(e, new Uint8Array(s.buffer), t, n, "key", 0);
 			await this.registerSample(e, c);
 		}
 		return n;
@@ -18247,7 +18264,7 @@ var Cl = class e extends _t {
 			if (t < o) break;
 			if (e.lastCueEndTimestamp < i) {
 				this.auxWriter.seek(0);
-				let t = Jf();
+				let t = Yf();
 				this.auxBoxWriter.writeBox(t);
 				let n = this.auxTarget._getSlice(0, this.auxWriter.getPos()), r = this.createSampleForTrack(e, n, e.lastCueEndTimestamp, i - e.lastCueEndTimestamp, "key", 0);
 				await this.registerSample(e, r), e.lastCueEndTimestamp = i;
@@ -18259,10 +18276,10 @@ var Cl = class e extends _t {
 				Tr.lastIndex = 0;
 				let r = Tr.test(n.text), a = n.timestamp + n.duration, s = e.cueToSourceId.get(n);
 				if (s === void 0 && o < a && (s = e.nextSourceId++, e.cueToSourceId.set(n, s)), n.notes) {
-					let e = Xf(n.notes);
+					let e = Zf(n.notes);
 					this.auxBoxWriter.writeBox(e);
 				}
-				let c = Yf(n.text, r ? i : null, n.identifier ?? null, n.settings ?? null, s ?? null);
+				let c = Xf(n.text, r ? i : null, n.identifier ?? null, n.settings ?? null, s ?? null);
 				this.auxBoxWriter.writeBox(c), a === o && e.cueQueue.splice(t--, 1);
 			}
 			let s = this.auxTarget._getSlice(0, this.auxWriter.getPos()), c = this.createSampleForTrack(e, s, i, o - i, "key", 0);
@@ -18277,7 +18294,7 @@ var Cl = class e extends _t {
 			data: t,
 			size: t.byteLength,
 			type: i,
-			timescaleUnitsToNextSample: wp(r, e.timescale),
+			timescaleUnitsToNextSample: Tp(r, e.timescale),
 			prerollSamples: a
 		};
 	}
@@ -18287,7 +18304,7 @@ var Cl = class e extends _t {
 			a(!this.isFragmented), e.startTimestampOffset ??= e.timestampProcessingQueue[0].timestamp;
 			let t = 0;
 			for (let n = 0; n < e.timestampProcessingQueue.length; n++) {
-				let r = e.timestampProcessingQueue[n], i = wp(r.duration, e.timescale);
+				let r = e.timestampProcessingQueue[n], i = Tp(r.duration, e.timescale);
 				t += i;
 			}
 			if (e.timeToSampleTable.length === 0) e.timeToSampleTable.push({
@@ -18306,10 +18323,10 @@ var Cl = class e extends _t {
 		for (let t = 0; t < e.timestampProcessingQueue.length; t++) {
 			let r = e.timestampProcessingQueue[t];
 			r.decodeTimestamp = n[t];
-			let i = wp(r.timestamp - r.decodeTimestamp, e.timescale), o = wp(r.duration, e.timescale);
+			let i = Tp(r.timestamp - r.decodeTimestamp, e.timescale), o = Tp(r.duration, e.timescale);
 			if (e.lastTimescaleUnits !== null) {
 				a(e.lastSample);
-				let t = wp(r.decodeTimestamp, e.timescale, !1), n = Math.round(t - e.lastTimescaleUnits);
+				let t = Tp(r.decodeTimestamp, e.timescale, !1), n = Math.round(t - e.lastTimescaleUnits);
 				if (a(n >= 0), e.lastTimescaleUnits += n, e.lastSample.timescaleUnitsToNextSample = n, !this.isFragmented) {
 					let t = v(e.timeToSampleTable);
 					if (a(t), t.sampleCount === 1) {
@@ -18330,7 +18347,7 @@ var Cl = class e extends _t {
 						sampleCompositionTimeOffset: i
 					});
 				}
-			} else e.lastTimescaleUnits = wp(r.decodeTimestamp, e.timescale, !1), this.isFragmented || (e.timeToSampleTable.push({
+			} else e.lastTimescaleUnits = Tp(r.decodeTimestamp, e.timescale, !1), this.isFragmented || (e.timeToSampleTable.push({
 				sampleCount: 1,
 				sampleDelta: o
 			}), e.compositionTimeOffsetTable.push({
@@ -18341,7 +18358,7 @@ var Cl = class e extends _t {
 		}
 		if (e.timestampProcessingQueue.length = 0, a(e.lastSample), a(e.lastTimescaleUnits !== null), t !== void 0 && e.lastSample.timescaleUnitsToNextSample === 0) {
 			a(t.type === "key");
-			let n = wp(t.timestamp, e.timescale, !1), r = Math.round(n - e.lastTimescaleUnits);
+			let n = Tp(t.timestamp, e.timescale, !1), r = Math.round(n - e.lastTimescaleUnits);
 			e.lastSample.timescaleUnitsToNextSample = r;
 		}
 	}
@@ -18365,11 +18382,11 @@ var Cl = class e extends _t {
 					return r ? r.type === "key" : n.closed;
 				});
 				r >= this.minimumFragmentDuration && i && t.timestamp > this.maxWrittenTimestamp && (n = !0, await this.finalizeFragment());
-			} else n = r >= Sp;
+			} else n = r >= Cp;
 		}
 		if (n) {
 			if (!this.isFragmented) {
-				let e = this.trackDatas.filter((e) => e.currentChunk && t.timestamp - e.currentChunk.startTimestamp >= Sp).sort((e, t) => e.currentChunk.startTimestamp - t.currentChunk.startTimestamp);
+				let e = this.trackDatas.filter((e) => e.currentChunk && t.timestamp - e.currentChunk.startTimestamp >= Cp).sort((e, t) => e.currentChunk.startTimestamp - t.currentChunk.startTimestamp);
 				for (let t of e) await this.finalizeCurrentChunk(t);
 			}
 			e.currentChunk = {
@@ -18387,7 +18404,7 @@ var Cl = class e extends _t {
 		let t = e.currentChunk;
 		a(t), e.currentChunk = null, e.finalizedChunks.push(t), this.finalizedChunks.push(t);
 		let n = t.samples.length;
-		if (e.type === "audio" && e.info.requiresPcmTransformation && (n = t.samples.reduce((t, n) => t + wp(n.duration, e.timescale), 0)), (e.compactlyCodedChunkTable.length === 0 || v(e.compactlyCodedChunkTable).samplesPerChunk !== n) && e.compactlyCodedChunkTable.push({
+		if (e.type === "audio" && e.info.requiresPcmTransformation && (n = t.samples.reduce((t, n) => t + Tp(n.duration, e.timescale), 0)), (e.compactlyCodedChunkTable.length === 0 || v(e.compactlyCodedChunkTable).samplesPerChunk !== n) && e.compactlyCodedChunkTable.push({
 			firstChunk: e.finalizedChunks.length,
 			samplesPerChunk: n
 		}), this.fastStart === "in-memory") t.offset = 0;
@@ -18417,14 +18434,14 @@ var Cl = class e extends _t {
 			this.wroteFragmentedHeader = !0;
 			let e = this.initBoxWriter ?? this.boxWriter;
 			a(e), this.formatOptions.onMoov && e.writer.startTrackingWrites(), this.ensureOneEnabledTrack();
-			let t = Hd(this);
+			let t = Ud(this);
 			if (e.writeBox(t), this.formatOptions.onMoov) {
 				let { data: t, start: n } = e.writer.stopTrackingWrites();
 				this.formatOptions.onMoov(t, n);
 			}
 			if (this.isCmaf) {
-				a(this.initWriter), await this.initWriter.flush(), await this.initWriter.finalize(), this.writer = await this.output._getRootWriter(!0), this.boxWriter = new xd(this.writer);
-				let e = this.boxWriter.measureBox(Rd()), t = this.boxWriter.measureBox(zd(this, 0));
+				a(this.initWriter), await this.initWriter.flush(), await this.initWriter.finalize(), this.writer = await this.output._getRootWriter(!0), this.boxWriter = new Sd(this.writer);
+				let e = this.boxWriter.measureBox(zd()), t = this.boxWriter.measureBox(Bd(this, 0));
 				this.segmentHeaderSize = e + t, this.writer.seek(this.segmentHeaderSize);
 			}
 		}
@@ -18434,7 +18451,7 @@ var Cl = class e extends _t {
 			e && await this.writer.flush();
 			return;
 		}
-		let n = this.nextFragmentNumber++, r = Rf(n, t), i = this.writer.getPos(), o = i + this.boxWriter.measureBox(r), s = o + 8, c = Infinity;
+		let n = this.nextFragmentNumber++, r = zf(n, t), i = this.writer.getPos(), o = i + this.boxWriter.measureBox(r), s = o + 8, c = Infinity;
 		for (let e = 0; e < t.length; e++) {
 			let n = t[e];
 			a(n.currentChunk), a(n.startTimestampOffset !== null), n.currentChunk.offset = s, n.currentChunk.moofOffset = i, n.currentChunk.trafIndex = e, n.currentChunk.startTimestamp -= n.startTimestampOffset;
@@ -18444,13 +18461,13 @@ var Cl = class e extends _t {
 		let l = s - o, u = l >= 2 ** 32;
 		if (u) for (let e of t) e.currentChunk.offset += 8;
 		this.formatOptions.onMoof && this.writer.startTrackingWrites();
-		let d = Rf(n, t);
+		let d = zf(n, t);
 		if (this.boxWriter.writeBox(d), this.formatOptions.onMoof) {
 			let { data: e, start: t } = this.writer.stopTrackingWrites();
 			this.formatOptions.onMoof(e, t, c);
 		}
 		a(this.writer.getPos() === o), this.formatOptions.onMdat && this.writer.startTrackingWrites();
-		let f = Bd(u);
+		let f = Vd(u);
 		f.size = l, this.boxWriter.writeBox(f), this.writer.seek(o + (u ? 16 : 8));
 		for (let e of t) for (let t of e.currentChunk.samples) this.writer.write(t.data), t.data = null;
 		if (this.formatOptions.onMdat) {
@@ -18462,8 +18479,8 @@ var Cl = class e extends _t {
 	}
 	async createFastStartReserveMdat() {
 		a(this.writer), a(this.boxWriter), this.ensureOneEnabledTrack();
-		let e = Hd(this), t = this.boxWriter.measureBox(e) + this.computeSampleTableSizeUpperBound() + 4096;
-		a(this.ftypSize !== null), this.writer.seek(this.ftypSize + t), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = Bd(!0), this.boxWriter.writeBox(this.mdat);
+		let e = Ud(this), t = this.boxWriter.measureBox(e) + this.computeSampleTableSizeUpperBound() + 4096;
+		a(this.ftypSize !== null), this.writer.seek(this.ftypSize + t), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = Vd(!0), this.boxWriter.writeBox(this.mdat);
 	}
 	computeSampleTableSizeUpperBound() {
 		a(this.fastStart === "reserve");
@@ -18513,7 +18530,7 @@ var Cl = class e extends _t {
 			let e = this.trackDatas.filter((e) => e.currentChunk).sort((e, t) => e.currentChunk.startTimestamp - t.currentChunk.startTimestamp);
 			for (let t of e) await this.finalizeCurrentChunk(t);
 			for (let e of this.trackDatas) {
-				let t = Tp(e);
+				let t = Ep(e);
 				if (t > 0) {
 					let n = 0;
 					for (let t of e.samples) n += t.size;
@@ -18532,10 +18549,10 @@ var Cl = class e extends _t {
 			}
 		}
 		if (a(this.writer), a(this.boxWriter), this.fastStart === "in-memory") {
-			this.mdat = Bd(!1);
+			this.mdat = Vd(!1);
 			let e;
 			for (let t = 0; t < 2; t++) {
-				let t = Hd(this), n = this.boxWriter.measureBox(t);
+				let t = Ud(this), n = this.boxWriter.measureBox(t);
 				e = this.boxWriter.measureBox(this.mdat);
 				let r = this.writer.getPos() + n + e;
 				for (let t of this.finalizedChunks) {
@@ -18546,7 +18563,7 @@ var Cl = class e extends _t {
 				e >= 2 ** 32 && (this.mdat.largeSize = !0);
 			}
 			this.formatOptions.onMoov && this.writer.startTrackingWrites();
-			let t = Hd(this);
+			let t = Ud(this);
 			if (this.boxWriter.writeBox(t), this.formatOptions.onMoov) {
 				let { data: e, start: t } = this.writer.stopTrackingWrites();
 				this.formatOptions.onMoov(e, t);
@@ -18560,9 +18577,9 @@ var Cl = class e extends _t {
 		} else if (this.isFragmented) {
 			if (this.isCmaf) {
 				let e = this.segmentHeaderSize === null ? 0 : this.writer.getPos() - this.segmentHeaderSize;
-				this.writer.seek(0), this.boxWriter.writeBox(Rd()), this.boxWriter.writeBox(zd(this, e));
+				this.writer.seek(0), this.boxWriter.writeBox(zd()), this.boxWriter.writeBox(Bd(this, e));
 			} else {
-				let e = this.writer.getPos(), t = Gf(this.trackDatas);
+				let e = this.writer.getPos(), t = Kf(this.trackDatas);
 				this.boxWriter.writeBox(t);
 				let n = this.writer.getPos() - e;
 				this.writer.seek(this.writer.getPos() - 4), this.boxWriter.writeU32(n);
@@ -18576,12 +18593,12 @@ var Cl = class e extends _t {
 				let { data: e, start: t } = this.writer.stopTrackingWrites();
 				this.formatOptions.onMdat(e, t);
 			}
-			let n = Hd(this);
+			let n = Ud(this);
 			if (this.fastStart === "reserve") {
 				a(this.ftypSize !== null);
 				let e = this.boxWriter.offsets.get(this.mdat) - this.ftypSize, t = this.boxWriter.measureBox(n);
 				if (t + 8 > e) throw Error(`The moov box (${t} bytes) plus a free box (8 bytes) exceed the space reserved for them (${e} bytes) with fastStart: 'reserve'. This is a bug; please report it.`);
-				this.writer.seek(this.ftypSize), this.formatOptions.onMoov && this.writer.startTrackingWrites(), this.boxWriter.writeBox(n), this.boxWriter.writeBox(Vd(e - t));
+				this.writer.seek(this.ftypSize), this.formatOptions.onMoov && this.writer.startTrackingWrites(), this.boxWriter.writeBox(n), this.boxWriter.writeBox(Hd(e - t));
 			} else this.formatOptions.onMoov && this.writer.startTrackingWrites(), this.boxWriter.writeBox(n);
 			if (this.formatOptions.onMoov) {
 				let { data: e, start: t } = this.writer.stopTrackingWrites();
@@ -18590,11 +18607,11 @@ var Cl = class e extends _t {
 		}
 		e();
 	}
-}, Dp = -(2 ** 15), Op = 2 ** 15 - 1, kp = 6, Ap = 5, jp = {
+}, Op = -(2 ** 15), kp = 2 ** 15 - 1, Ap = 6, jp = 5, Mp = {
 	video: 1,
 	audio: 2,
 	subtitle: 17
-}, Mp = class extends gd {
+}, Np = class extends _d {
 	constructor(e, t) {
 		super(e), this.trackDatas = [], this.allTracksKnown = pe(), this.segment = null, this.segmentInfo = null, this.seekHead = null, this.tracksElement = null, this.tagsElement = null, this.attachmentsElement = null, this.segmentDuration = null, this.cues = null, this.currentClusterBlocks = [], this.currentClusterStartMsTimestamp = null, this.currentClusterMaxMsTimestamp = null, this.startTimestamp = Infinity, this.endTimestamp = -Infinity, this.warnedAboutTooNegativeTimestamp = !1, this.format = t;
 	}
@@ -18627,7 +18644,7 @@ var Cl = class e extends _t {
 				},
 				{
 					id: q.DocType,
-					data: this.format instanceof Gp ? "webm" : "matroska"
+					data: this.format instanceof Kp ? "webm" : "matroska"
 				},
 				{
 					id: q.DocTypeVersion,
@@ -18781,7 +18798,7 @@ var Cl = class e extends _t {
 			a(n), t.type === "audio" && t.track.source._codec === "dts" && (t.info.decoderConfig.codec === "dtse" ? n = "A_DTS/EXPRESS" : t.info.decoderConfig.codec === "dtsl" && (n = "A_DTS/LOSSLESS"));
 			let r = 0;
 			if (t.type === "audio") {
-				let e = Qu(t.track.source._codec, t.info.decoderConfig);
+				let e = $u(t.track.source._codec, t.info.decoderConfig);
 				r = Math.round(1e9 * e);
 			}
 			e.data.push({
@@ -18797,7 +18814,7 @@ var Cl = class e extends _t {
 					},
 					{
 						id: q.TrackType,
-						data: jp[t.type]
+						data: Mp[t.type]
 					},
 					t.track.metadata.disposition?.default === !1 ? {
 						id: q.FlagDefault,
@@ -18942,7 +18959,7 @@ var Cl = class e extends _t {
 		return r.push(_), r;
 	}
 	audioSpecificTrackInfo(e) {
-		let t = ju.includes(e.track.source._codec) ? rd(e.track.source._codec) : null;
+		let t = Mu.includes(e.track.source._codec) ? id(e.track.source._codec) : null;
 		return [{
 			id: q.Audio,
 			data: [
@@ -19116,7 +19133,7 @@ var Cl = class e extends _t {
 		this.createTracks(), this.maybeCreateTags(), this.maybeCreateAttachments(), this.maybeCreateSeekHead(!1);
 		let e = {
 			id: q.Segment,
-			size: this.format._options.appendOnly ? -1 : kp,
+			size: this.format._options.appendOnly ? -1 : Ap,
 			data: [
 				this.seekHead,
 				this.segmentInfo,
@@ -19147,7 +19164,7 @@ var Cl = class e extends _t {
 		await this.allTracksKnown.promise;
 		let e = this.trackDatas.map((e) => e.type === "video" || e.type === "audio" ? e.info.decoderConfig.codec : { webvtt: "wvtt" }[e.track.source._codec]);
 		return lo({
-			isWebM: this.format instanceof Gp,
+			isWebM: this.format instanceof Kp,
 			hasVideo: this.trackDatas.some((e) => e.type === "video"),
 			hasAudio: this.trackDatas.some((e) => e.type === "audio"),
 			codecStrings: e
@@ -19156,7 +19173,7 @@ var Cl = class e extends _t {
 	getVideoTrackData(e, t, n) {
 		let r = this.trackDatas.find((t) => t.track === e);
 		if (r) return r;
-		fd(n, e.source._codec), a(n), a(n.decoderConfig), a(n.decoderConfig.codedWidth !== void 0), a(n.decoderConfig.codedHeight !== void 0);
+		pd(n, e.source._codec), a(n), a(n.decoderConfig), a(n.decoderConfig.codedWidth !== void 0), a(n.decoderConfig.codedHeight !== void 0);
 		let i = n.decoderConfig.displayAspectWidth, o = n.decoderConfig.displayAspectHeight, s = i === void 0 || o === void 0 ? null : it({
 			num: i,
 			den: o
@@ -19175,12 +19192,12 @@ var Cl = class e extends _t {
 			codecPrivate: n.decoderConfig.description ?? null,
 			closed: !1
 		};
-		return e.source._codec === "vp9" ? c.codecPrivate = new Uint8Array(Ku(c.info.decoderConfig.codec)) : e.source._codec === "av1" ? c.codecPrivate = new Uint8Array(qu(c.info.decoderConfig.codec)) : e.source._codec === "prores" && (c.codecPrivate = A.encode(n.decoderConfig.codec)), this.trackDatas.push(c), this.trackDatas.sort((e, t) => e.track.id - t.track.id), this.allTracksAreKnown() && this.allTracksKnown.resolve(), c;
+		return e.source._codec === "vp9" ? c.codecPrivate = new Uint8Array(qu(c.info.decoderConfig.codec)) : e.source._codec === "av1" ? c.codecPrivate = new Uint8Array(Ju(c.info.decoderConfig.codec)) : e.source._codec === "prores" && (c.codecPrivate = A.encode(n.decoderConfig.codec)), this.trackDatas.push(c), this.trackDatas.sort((e, t) => e.track.id - t.track.id), this.allTracksAreKnown() && this.allTracksKnown.resolve(), c;
 	}
 	getAudioTrackData(e, t, n) {
 		let r = this.trackDatas.find((t) => t.track === e);
 		if (r) return r;
-		md(n, e.source._codec), a(n), a(n.decoderConfig);
+		hd(n, e.source._codec), a(n), a(n.decoderConfig);
 		let i = { ...n.decoderConfig }, o = !1;
 		if (e.source._codec === "aac" && !i.description) {
 			if (!t) throw Error("No AAC description provided; you must therefore provide a priming packet.");
@@ -19214,7 +19231,7 @@ var Cl = class e extends _t {
 	getSubtitleTrackData(e, t) {
 		let n = this.trackDatas.find((t) => t.track === e);
 		if (n) return n;
-		hd(t), a(t), a(t.config);
+		gd(t), a(t), a(t.config);
 		let r = {
 			track: e,
 			type: "subtitle",
@@ -19327,11 +19344,11 @@ var Cl = class e extends _t {
 		else {
 			a(this.currentClusterMaxMsTimestamp !== null);
 			let e = n - this.currentClusterStartMsTimestamp;
-			i = r && n > this.currentClusterMaxMsTimestamp && e >= 1e3 * (this.format._options.minimumClusterDuration ?? 1) || e > Op;
+			i = r && n > this.currentClusterMaxMsTimestamp && e >= 1e3 * (this.format._options.minimumClusterDuration ?? 1) || e > kp;
 		}
-		if (i && this.startNewCluster(n), n - this.currentClusterStartMsTimestamp < Dp) {
+		if (i && this.startNewCluster(n), n - this.currentClusterStartMsTimestamp < Op) {
 			if (!this.warnedAboutTooNegativeTimestamp) {
-				let e = this.format instanceof Gp ? "WebM" : "Matroska";
+				let e = this.format instanceof Kp ? "WebM" : "Matroska";
 				K._warn(`Packets had to be discarded because their timestamp is too negative to represent in ${e}.`), this.warnedAboutTooNegativeTimestamp = !0;
 			}
 		} else this.currentClusterBlocks.push({
@@ -19354,7 +19371,7 @@ var Cl = class e extends _t {
 		for (let t of this.currentClusterBlocks) r.set(t, this.createBlockElement(t, e, n.get(t.trackData) === t));
 		let i = {
 			id: q.Cluster,
-			size: this.format._options.appendOnly ? -1 : Ap,
+			size: this.format._options.appendOnly ? -1 : jp,
 			data: [{
 				id: q.Timestamp,
 				data: e
@@ -19442,13 +19459,13 @@ var Cl = class e extends _t {
 		for (let e of this.trackDatas) e.closed = !0;
 		if (this.segment || this.createSegment(), await this.interleaveChunks(!0), this.currentClusterStartMsTimestamp !== null && this.writeCurrentCluster(), a(this.cues), this.ebmlWriter.writeEBML(this.cues), !this.format._options.appendOnly) {
 			let e = this.writer.getPos() - this.segmentDataOffset;
-			this.writer.seek(this.ebmlWriter.offsets.get(this.segment) + 4), this.ebmlWriter.writeVarInt(e, kp);
+			this.writer.seek(this.ebmlWriter.offsets.get(this.segment) + 4), this.ebmlWriter.writeVarInt(e, Ap);
 			let t = this.startTimestamp === Infinity ? 0 : this.endTimestamp;
 			this.segmentDuration.data = new Ia(t), this.writer.seek(this.ebmlWriter.offsets.get(this.segmentDuration)), this.ebmlWriter.writeEBML(this.segmentDuration), a(this.seekHead), this.writer.seek(this.ebmlWriter.offsets.get(this.seekHead)), this.maybeCreateSeekHead(!0), this.ebmlWriter.writeEBML(this.seekHead);
 		}
 		e();
 	}
-}, Np = class {
+}, Pp = class {
 	constructor(e) {
 		this.writer = e, this.helper = /* @__PURE__ */ new Uint8Array(8), this.helperView = new DataView(this.helper.buffer), this.crc = 0;
 	}
@@ -19491,13 +19508,13 @@ var Cl = class e extends _t {
 		let d = zt[s + o], f = Ht(r, e.layer, 1e3 * d, e.sampleRate, 0);
 		this.writer.write(new Uint8Array(t + f - this.writer.getPos()));
 	}
-}, Pp = class extends gd {
+}, Fp = class extends _d {
 	constructor(e, t) {
 		super(e), this.xingFrameData = null, this.frameCount = 0, this.frameBitrate = null, this.hasVariableBitrate = !1, this.framePositions = [], this.xingFramePos = null, this.format = t, this.writeXingHeader = t._options.xingHeader !== !1;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
-		this.writer = await this.output._getRootWriter(!this.writeXingHeader), this.mp3Writer = new Np(this.writer), wt(this.output._metadataTags) || new ko(this.writer).writeId3V2Tag(this.output._metadataTags), e();
+		this.writer = await this.output._getRootWriter(!this.writeXingHeader), this.mp3Writer = new Pp(this.writer), wt(this.output._metadataTags) || new ko(this.writer).writeId3V2Tag(this.output._metadataTags), e();
 	}
 	async getMimeType() {
 		return "audio/mpeg";
@@ -19623,7 +19640,7 @@ var Cl = class e extends _t {
 		}
 		e();
 	}
-}, Fp = 8192, Ip = class extends gd {
+}, Ip = 8192, Lp = class extends _d {
 	constructor(e, t) {
 		super(e), this.trackDatas = [], this.bosPagesWritten = !1, this.allTracksKnown = pe(), this.pageBytes = new Uint8Array(zo), this.pageView = new DataView(this.pageBytes.buffer), this.format = t;
 	}
@@ -19646,11 +19663,11 @@ var Cl = class e extends _t {
 		do
 			r = Math.floor(2 ** 32 * Math.random());
 		while (this.trackDatas.some((e) => e.serialNumber === r));
-		a(e.source._codec === "vorbis" || e.source._codec === "opus"), md(t, e.source._codec), a(t), a(t.decoderConfig);
+		a(e.source._codec === "vorbis" || e.source._codec === "opus"), hd(t, e.source._codec), a(t), a(t.decoderConfig);
 		let i = {
 			track: e,
 			serialNumber: r,
-			internalSampleRate: e.source._codec === "opus" ? ed : t.decoderConfig.sampleRate,
+			internalSampleRate: e.source._codec === "opus" ? td : t.decoderConfig.sampleRate,
 			codecInfo: {
 				codec: e.source._codec,
 				vorbisInfo: null,
@@ -19807,7 +19824,7 @@ var Cl = class e extends _t {
 			i -= 255;
 		}
 		let s = t.data.subarray(a);
-		e.currentPageData.push(s), e.currentPageSize += s.length, e.currentGranulePosition = r, (e.currentPageSize >= Fp || t.forcePageFlush) && this.writePage(e, n);
+		e.currentPageData.push(s), e.currentPageSize += s.length, e.currentGranulePosition = r, (e.currentPageSize >= Ip || t.forcePageFlush) && this.writePage(e, n);
 	}
 	writePage(e, t) {
 		this.pageView.setUint32(0, No, !0), this.pageView.setUint8(4, 0);
@@ -19835,7 +19852,7 @@ var Cl = class e extends _t {
 		for (let e of this.trackDatas) e.currentLacingValues.length > 0 && this.writePage(e, !0);
 		e();
 	}
-}, Lp = class {
+}, Rp = class {
 	constructor(e) {
 		this.writer = e, this.helper = /* @__PURE__ */ new Uint8Array(8), this.helperView = new DataView(this.helper.buffer);
 	}
@@ -19851,15 +19868,15 @@ var Cl = class e extends _t {
 	writeAscii(e) {
 		this.writer.write(A.encode(e));
 	}
-}, Rp = class extends gd {
+}, zp = class extends _d {
 	constructor(e, t) {
 		super(e), this.headerWritten = !1, this.dataSize = 0, this.sampleRate = null, this.sampleCount = 0, this.riffSizePos = null, this.dataSizePos = null, this.ds64RiffSizePos = null, this.ds64DataSizePos = null, this.ds64SampleCountPos = null, this.format = t, this.isRf64 = !!t._options.large;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
-		this.writer = await this.output._getRootWriter(!1), this.riffWriter = new Lp(this.writer);
+		this.writer = await this.output._getRootWriter(!1), this.riffWriter = new Rp(this.writer);
 		let t = this.output.tracks[0];
-		a(t?.isAudioTrack()), t.metadata.decoderConfig && (md({ decoderConfig: t.metadata.decoderConfig }, t.source._codec), this.writeHeader(t, t.metadata.decoderConfig), this.sampleRate = t.metadata.decoderConfig.sampleRate, this.headerWritten = !0), e();
+		a(t?.isAudioTrack()), t.metadata.decoderConfig && (hd({ decoderConfig: t.metadata.decoderConfig }, t.source._codec), this.writeHeader(t, t.metadata.decoderConfig), this.sampleRate = t.metadata.decoderConfig.sampleRate, this.headerWritten = !0), e();
 	}
 	async getMimeType() {
 		return "audio/wav";
@@ -19870,7 +19887,7 @@ var Cl = class e extends _t {
 	async addEncodedAudioPacket(e, t, n) {
 		let r = await this.mutex.acquire();
 		try {
-			if (this.headerWritten ||= (md(n, e.source._codec), a(n), a(n.decoderConfig), this.writeHeader(e, n.decoderConfig), this.sampleRate = n.decoderConfig.sampleRate, !0), this.validateTimestamp(e, t.timestamp, t.type === "key"), !this.isRf64 && this.writer.getPos() + t.data.byteLength >= 2 ** 32) throw Error("Adding more audio data would exceed the maximum RIFF size of 4 GiB. To write larger files, use RF64 by setting `large: true` in the WavOutputFormatOptions.");
+			if (this.headerWritten ||= (hd(n, e.source._codec), a(n), a(n.decoderConfig), this.writeHeader(e, n.decoderConfig), this.sampleRate = n.decoderConfig.sampleRate, !0), this.validateTimestamp(e, t.timestamp, t.type === "key"), !this.isRf64 && this.writer.getPos() + t.data.byteLength >= 2 ** 32) throw Error("Adding more audio data would exceed the maximum RIFF size of 4 GiB. To write larger files, use RF64 by setting `large: true` in the WavOutputFormatOptions.");
 			this.writer.write(t.data), this.dataSize += t.data.byteLength, this.sampleCount += Math.round(t.duration * this.sampleRate), await this.writer.flush();
 		} finally {
 			r();
@@ -19881,7 +19898,7 @@ var Cl = class e extends _t {
 	}
 	writeHeader(e, t) {
 		this.format._options.onHeader && this.writer.startTrackingWrites();
-		let n, r = e.source._codec, i = rd(r);
+		let n, r = e.source._codec, i = id(r);
 		n = i.dataType === "ulaw" ? Yo.MULAW : i.dataType === "alaw" ? Yo.ALAW : i.dataType === "float" ? Yo.IEEE_FLOAT : Yo.PCM;
 		let a = t.numberOfChannels, o = t.sampleRate, s = i.sampleSize * a;
 		if (this.riffWriter.writeAscii(this.isRf64 ? "RF64" : "RIFF"), this.isRf64 ? this.riffWriter.writeU32(4294967295) : (this.riffSizePos = this.writer.getPos(), this.riffWriter.writeU32(0)), this.riffWriter.writeAscii("WAVE"), this.isRf64 && (this.riffWriter.writeAscii("ds64"), this.riffWriter.writeU32(28), this.ds64RiffSizePos = this.writer.getPos(), this.riffWriter.writeU64(0), this.ds64DataSizePos = this.writer.getPos(), this.riffWriter.writeU64(0), this.ds64SampleCountPos = this.writer.getPos(), this.riffWriter.writeU64(0), this.riffWriter.writeU32(0)), this.riffWriter.writeAscii("fmt "), this.riffWriter.writeU32(16), this.riffWriter.writeU16(n), this.riffWriter.writeU16(a), this.riffWriter.writeU32(o), this.riffWriter.writeU32(o * s), this.riffWriter.writeU16(s), this.riffWriter.writeU16(8 * i.sampleSize), !wt(this.output._metadataTags)) {
@@ -19958,7 +19975,7 @@ var Cl = class e extends _t {
 		let t = this.writer.getPos();
 		this.isRf64 ? (a(this.ds64RiffSizePos !== null), this.writer.seek(this.ds64RiffSizePos), this.riffWriter.writeU64(t - 8), a(this.ds64DataSizePos !== null), this.writer.seek(this.ds64DataSizePos), this.riffWriter.writeU64(this.dataSize), a(this.ds64SampleCountPos !== null), this.writer.seek(this.ds64SampleCountPos), this.riffWriter.writeU64(this.sampleCount)) : (a(this.riffSizePos !== null), this.writer.seek(this.riffSizePos), this.riffWriter.writeU32(t - 8), a(this.dataSizePos !== null), this.writer.seek(this.dataSizePos), this.riffWriter.writeU32(this.dataSize)), e();
 	}
-}, zp = class {
+}, Bp = class {
 	get supportsVideoRotationMetadata() {
 		return this.supportsVideoTransformationMetadata;
 	}
@@ -19966,13 +19983,13 @@ var Cl = class e extends _t {
 		return !1;
 	}
 	getSupportedVideoCodecs() {
-		return this.getSupportedCodecs().filter((e) => Au.includes(e));
+		return this.getSupportedCodecs().filter((e) => ju.includes(e));
 	}
 	getSupportedAudioCodecs() {
-		return this.getSupportedCodecs().filter((e) => Nu.includes(e));
+		return this.getSupportedCodecs().filter((e) => Pu.includes(e));
 	}
 	getSupportedSubtitleCodecs() {
-		return this.getSupportedCodecs().filter((e) => Pu.includes(e));
+		return this.getSupportedCodecs().filter((e) => Fu.includes(e));
 	}
 	_codecUnsupportedHint(e) {
 		return "";
@@ -19980,7 +19997,7 @@ var Cl = class e extends _t {
 	_isFragmentedIsobmff() {
 		return !1;
 	}
-}, Bp = class extends zp {
+}, Vp = class extends Bp {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.fastStart !== void 0 && ![
@@ -20036,12 +20053,12 @@ var Cl = class e extends _t {
 		return this._options.fastStart === "reserve";
 	}
 	_createMuxer(e) {
-		return new Ep(e, this);
+		return new Dp(e, this);
 	}
 	_isFragmentedIsobmff() {
 		return this._options.fastStart === "fragmented";
 	}
-}, Vp = class extends Bp {
+}, Hp = class extends Vp {
 	constructor(e) {
 		super(e);
 	}
@@ -20056,8 +20073,8 @@ var Cl = class e extends _t {
 	}
 	getSupportedCodecs() {
 		return [
-			...Au,
-			...Mu,
+			...ju,
+			...Nu,
 			"pcm-s16",
 			"pcm-s16be",
 			"pcm-s24",
@@ -20068,13 +20085,13 @@ var Cl = class e extends _t {
 			"pcm-f32be",
 			"pcm-f64",
 			"pcm-f64be",
-			...Pu
+			...Fu
 		];
 	}
 	_codecUnsupportedHint(e) {
-		return new Up().getSupportedCodecs().includes(e) ? " Switching to MOV will grant support for this codec." : "";
+		return new Wp().getSupportedCodecs().includes(e) ? " Switching to MOV will grant support for this codec." : "";
 	}
-}, Hp = class extends Bp {
+}, Up = class extends Vp {
 	constructor(e) {
 		super(e);
 	}
@@ -20089,8 +20106,8 @@ var Cl = class e extends _t {
 	}
 	getSupportedCodecs() {
 		return [
-			...Au,
-			...Mu,
+			...ju,
+			...Nu,
 			"pcm-s16",
 			"pcm-s16be",
 			"pcm-s24",
@@ -20101,10 +20118,10 @@ var Cl = class e extends _t {
 			"pcm-f32be",
 			"pcm-f64",
 			"pcm-f64be",
-			...Pu
+			...Fu
 		];
 	}
-}, Up = class extends Bp {
+}, Wp = class extends Vp {
 	constructor(e) {
 		super(e);
 	}
@@ -20118,12 +20135,12 @@ var Cl = class e extends _t {
 		return "video/quicktime";
 	}
 	getSupportedCodecs() {
-		return [...Au, ...Nu];
+		return [...ju, ...Pu];
 	}
 	_codecUnsupportedHint(e) {
-		return new Vp().getSupportedCodecs().includes(e) ? " Switching to MP4 will grant support for this codec." : "";
+		return new Hp().getSupportedCodecs().includes(e) ? " Switching to MP4 will grant support for this codec." : "";
 	}
-}, Wp = class extends zp {
+}, Gp = class extends Bp {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.appendOnly !== void 0 && typeof e.appendOnly != "boolean") throw TypeError("options.appendOnly, when provided, must be a boolean.");
@@ -20134,7 +20151,7 @@ var Cl = class e extends _t {
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new Mp(e, this);
+		return new Np(e, this);
 	}
 	get _name() {
 		return "Matroska";
@@ -20167,16 +20184,16 @@ var Cl = class e extends _t {
 	}
 	getSupportedCodecs() {
 		return [
-			...Au,
-			...Mu,
-			...ju.filter((e) => ![
+			...ju,
+			...Nu,
+			...Mu.filter((e) => ![
 				"pcm-s8",
 				"pcm-f32be",
 				"pcm-f64be",
 				"ulaw",
 				"alaw"
 			].includes(e)),
-			...Pu
+			...Fu
 		];
 	}
 	get supportsVideoTransformationMetadata() {
@@ -20188,19 +20205,19 @@ var Cl = class e extends _t {
 	get negativeTimestampSupport() {
 		return "prefer-non-negative";
 	}
-}, Gp = class extends Wp {
+}, Kp = class extends Gp {
 	constructor(e) {
 		super(e);
 	}
 	getSupportedCodecs() {
 		return [
-			...Au.filter((e) => [
+			...ju.filter((e) => [
 				"vp8",
 				"vp9",
 				"av1"
 			].includes(e)),
-			...Nu.filter((e) => ["opus", "vorbis"].includes(e)),
-			...Pu
+			...Pu.filter((e) => ["opus", "vorbis"].includes(e)),
+			...Fu
 		];
 	}
 	get _name() {
@@ -20213,9 +20230,9 @@ var Cl = class e extends _t {
 		return "video/webm";
 	}
 	_codecUnsupportedHint(e) {
-		return new Wp().getSupportedCodecs().includes(e) ? " Switching to MKV will grant support for this codec." : "";
+		return new Gp().getSupportedCodecs().includes(e) ? " Switching to MKV will grant support for this codec." : "";
 	}
-}, Kp = class extends zp {
+}, qp = class extends Bp {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.xingHeader !== void 0 && typeof e.xingHeader != "boolean") throw TypeError("options.xingHeader, when provided, must be a boolean.");
@@ -20223,7 +20240,7 @@ var Cl = class e extends _t {
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new Pp(e, this);
+		return new Fp(e, this);
 	}
 	get _name() {
 		return "MP3";
@@ -20266,7 +20283,7 @@ var Cl = class e extends _t {
 	get negativeTimestampSupport() {
 		return null;
 	}
-}, qp = class extends zp {
+}, Jp = class extends Bp {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.large !== void 0 && typeof e.large != "boolean") throw TypeError("options.large, when provided, must be a boolean.");
@@ -20275,7 +20292,7 @@ var Cl = class e extends _t {
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new Rp(e, this);
+		return new zp(e, this);
 	}
 	get _name() {
 		return "WAVE";
@@ -20307,7 +20324,7 @@ var Cl = class e extends _t {
 		return "audio/wav";
 	}
 	getSupportedCodecs() {
-		return [...ju.filter((e) => [
+		return [...Mu.filter((e) => [
 			"pcm-s16",
 			"pcm-s24",
 			"pcm-s32",
@@ -20327,7 +20344,7 @@ var Cl = class e extends _t {
 	get negativeTimestampSupport() {
 		return null;
 	}
-}, Jp = class extends zp {
+}, Yp = class extends Bp {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.maximumPageDuration !== void 0 && (!$e(e.maximumPageDuration) || e.maximumPageDuration <= 0)) throw TypeError("options.maximumPageDuration, when provided, must be a positive number.");
@@ -20335,7 +20352,7 @@ var Cl = class e extends _t {
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new Ip(e, this);
+		return new Lp(e, this);
 	}
 	get _name() {
 		return "Ogg";
@@ -20368,7 +20385,7 @@ var Cl = class e extends _t {
 		return "application/ogg";
 	}
 	getSupportedCodecs() {
-		return [...Nu.filter((e) => ["vorbis", "opus"].includes(e))];
+		return [...Pu.filter((e) => ["vorbis", "opus"].includes(e))];
 	}
 	get supportsVideoTransformationMetadata() {
 		return !1;
@@ -20379,14 +20396,14 @@ var Cl = class e extends _t {
 	get negativeTimestampSupport() {
 		return "none";
 	}
-}, Yp = class extends zp {
+}, Xp = class extends Bp {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.appendOnly !== void 0 && typeof e.appendOnly != "boolean") throw TypeError("options.appendOnly, when provided, must be a boolean.");
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new bd(e, this);
+		return new xd(e, this);
 	}
 	get _name() {
 		return "FLAC";
@@ -20429,11 +20446,11 @@ var Cl = class e extends _t {
 	get negativeTimestampSupport() {
 		return null;
 	}
-}, Xp = [
+}, Zp = [
 	"video",
 	"audio",
 	"subtitle"
-], Zp = class e {
+], Qp = class e {
 	constructor(e, t, n, r, i) {
 		this.id = e, this.output = t, this.type = n, this.source = r, this.metadata = i;
 	}
@@ -20453,19 +20470,19 @@ var Cl = class e extends _t {
 		for (let e of n) if (this.type !== t.type && r.some((t) => e === t) || r.some((t) => e._pairedGroups.has(t))) return !0;
 		return !1;
 	}
-}, Qp = class extends Zp {
+}, $p = class extends Qp {
 	constructor(e, t, n, r) {
 		super(e, t, "video", n, r);
 	}
-}, $p = class extends Zp {
+}, em = class extends Qp {
 	constructor(e, t, n, r) {
 		super(e, t, "audio", n, r);
 	}
-}, em = class extends Zp {
+}, tm = class extends Qp {
 	constructor(e, t, n, r) {
 		super(e, t, "subtitle", n, r);
 	}
-}, tm = class e {
+}, nm = class e {
 	constructor() {
 		this._pairedGroups = /* @__PURE__ */ new Set();
 	}
@@ -20474,15 +20491,15 @@ var Cl = class e extends _t {
 		if (this === t) throw TypeError("Cannot pair a group with itself.");
 		this._pairedGroups.add(t), t._pairedGroups.add(this);
 	}
-}, nm = (e) => {
+}, rm = (e) => {
 	if (!e || typeof e != "object") throw TypeError("metadata must be an object.");
 	if (e.languageCode !== void 0 && !Oe(e.languageCode)) throw TypeError("metadata.languageCode, when provided, must be a three-letter, ISO 639-2/T language code.");
 	if (e.name !== void 0 && typeof e.name != "string") throw TypeError("metadata.name, when provided, must be a string.");
 	if (e.disposition !== void 0 && Et(e.disposition), e.maximumPacketCount !== void 0 && (!Number.isInteger(e.maximumPacketCount) || e.maximumPacketCount < 0)) throw TypeError("metadata.maximumPacketCount, when provided, must be a non-negative integer.");
 	if (e.bitrate !== void 0 && (!Number.isFinite(e.bitrate) || e.bitrate < 0)) throw TypeError("metadata.bitrate, when provided, must be a non-negative number.");
 	if (e.averageBitrate !== void 0 && (!Number.isFinite(e.averageBitrate) || e.averageBitrate < 0)) throw TypeError("metadata.averageBitrate, when provided, must be a non-negative number.");
-	if (e.group !== void 0 && !(e.group instanceof tm) && (!Array.isArray(e.group) || e.group.some((e) => !(e instanceof tm)))) throw TypeError("metadata.group, when provided, must be an OutputTrackGroup instance or an array of OutputTrackGroup instances.");
-}, rm = class extends _t {
+	if (e.group !== void 0 && !(e.group instanceof nm) && (!Array.isArray(e.group) || e.group.some((e) => !(e instanceof nm)))) throw TypeError("metadata.group, when provided, must be an OutputTrackGroup instance or an array of OutputTrackGroup instances.");
+}, im = class extends _t {
 	get target() {
 		let e = "Output.target cannot be used when using PathedTarget with an async callback. Use the 'target' event instead.";
 		if (this._rootTargetPromise) throw TypeError(e);
@@ -20491,23 +20508,23 @@ var Cl = class e extends _t {
 		return t;
 	}
 	constructor(e) {
-		if (super(), this.state = "pending", this.defaultTrackGroup = new tm(), this.tracks = [], this._onFinalize = null, this._unfinalizedTargets = /* @__PURE__ */ new Set(), this._rootWriterPromise = null, this._startPromise = null, this._cancelPromise = null, this._finalizePromise = null, this._mutex = new I(), this._metadataTags = {}, this._rootTarget = null, this._rootTargetPromise = null, this._firstMediaStreamTimestamp = null, !e || typeof e != "object") throw TypeError("options must be an object.");
-		if (!(e.format instanceof zp)) throw TypeError("options.format must be an OutputFormat.");
-		if (!(e.target instanceof mp || e.target instanceof bp)) throw TypeError("options.target must be a Target or a PathedTarget.");
-		if (e.target instanceof mp && this._rememberTarget(e.target), e.initTarget !== void 0 && !(e.initTarget instanceof mp) && typeof e.initTarget != "function") throw Error("options.initTarget, when provided, must be a Target or a function that returns or resolves to a Target.");
+		if (super(), this.state = "pending", this.defaultTrackGroup = new nm(), this.tracks = [], this._onFinalize = null, this._unfinalizedTargets = /* @__PURE__ */ new Set(), this._rootWriterPromise = null, this._startPromise = null, this._cancelPromise = null, this._finalizePromise = null, this._mutex = new I(), this._metadataTags = {}, this._rootTarget = null, this._rootTargetPromise = null, this._firstMediaStreamTimestamp = null, !e || typeof e != "object") throw TypeError("options must be an object.");
+		if (!(e.format instanceof Bp)) throw TypeError("options.format must be an OutputFormat.");
+		if (!(e.target instanceof hp || e.target instanceof xp)) throw TypeError("options.target must be a Target or a PathedTarget.");
+		if (e.target instanceof hp && this._rememberTarget(e.target), e.initTarget !== void 0 && !(e.initTarget instanceof hp) && typeof e.initTarget != "function") throw Error("options.initTarget, when provided, must be a Target or a function that returns or resolves to a Target.");
 		if (e.onFinalize !== void 0 && typeof e.onFinalize != "function") throw TypeError("options.onFinalize, when provided, must be a function.");
-		this.format = e.format, this._target = e.target, this._onFinalize = e.onFinalize ?? null, this._initTarget = e.initTarget ?? null, this._initTarget instanceof mp && this._rememberTarget(this._initTarget), this._muxer = e.format._createMuxer(this);
+		this.format = e.format, this._target = e.target, this._onFinalize = e.onFinalize ?? null, this._initTarget = e.initTarget ?? null, this._initTarget instanceof hp && this._rememberTarget(this._initTarget), this._muxer = e.format._createMuxer(this);
 	}
 	_getTargetValidated(e) {
-		a(this._target instanceof bp);
+		a(this._target instanceof xp);
 		let t = this._target.getTarget(e), n = (e) => {
-			if (!(e instanceof mp)) throw TypeError("getTarget must return a Target.");
+			if (!(e instanceof hp)) throw TypeError("getTarget must return a Target.");
 			return e;
 		};
 		return G(t) ? t.then(n) : n(t);
 	}
 	async _getTarget(e) {
-		a(this._target instanceof bp);
+		a(this._target instanceof xp);
 		let t = await this._getTargetValidated(e);
 		return this._emit("target", {
 			target: t,
@@ -20519,7 +20536,7 @@ var Cl = class e extends _t {
 		this._unfinalizedTargets.add(e), e.on("finalized", () => this._unfinalizedTargets.delete(e), { once: !0 });
 	}
 	async _getInitTarget() {
-		if (a(this._initTarget !== null), this._initTarget instanceof mp) return this._initTarget;
+		if (a(this._initTarget !== null), this._initTarget instanceof hp) return this._initTarget;
 		let e = await this._initTarget();
 		return this.state === "canceled" ? await e._close() : this._rememberTarget(e), e;
 	}
@@ -20529,7 +20546,7 @@ var Cl = class e extends _t {
 	_getRootTarget() {
 		if (this._rootTarget) return this._rootTarget;
 		if (this._rootTargetPromise) return this._rootTargetPromise;
-		if (this._target instanceof mp) return this._emit("target", {
+		if (this._target instanceof hp) return this._emit("target", {
 			target: this._target,
 			request: null,
 			isRoot: !0
@@ -20547,13 +20564,13 @@ var Cl = class e extends _t {
 	}
 	_getRootWriter(e) {
 		return this._rootWriterPromise ??= (async () => {
-			let t = await this._getRootTarget(), n = new pp(t, typeof e == "boolean" ? e : e(t));
+			let t = await this._getRootTarget(), n = new mp(t, typeof e == "boolean" ? e : e(t));
 			return n.start(), n;
 		})();
 	}
 	addVideoTrack(e, t = {}) {
 		if (!(e instanceof tu)) throw TypeError("source must be a VideoSource.");
-		if (nm(t), t.rotation !== void 0 && ![
+		if (rm(t), t.rotation !== void 0 && ![
 			0,
 			90,
 			180,
@@ -20564,27 +20581,27 @@ var Cl = class e extends _t {
 		if (t.frameRate !== void 0 && (!Number.isFinite(t.frameRate) || t.frameRate <= 0)) throw TypeError(`Invalid video frame rate: ${t.frameRate}. Must be a positive number.`);
 		if (t.hasOnlyKeyPackets !== void 0 && typeof t.hasOnlyKeyPackets != "boolean") throw TypeError("metadata.hasOnlyKeyPackets, when provided, must be a boolean.");
 		if (t.canBeTransparent !== void 0 && typeof t.canBeTransparent != "boolean") throw TypeError("metadata.canBeTransparent, when provided, must be a boolean.");
-		if (t.decoderConfig !== void 0 && fd({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
-			if (!(t.primingPacket instanceof Gi)) throw TypeError("metadata.primingPacket, when provided, must be an EncodedPacket.");
-			if (t.decoderConfig === void 0) throw TypeError("metadata.primingPacket can only be provided alongside metadata.decoderConfig.");
-		}
-		let n = { ...t };
-		return n.group ??= this.defaultTrackGroup, this._addTrack(new Qp(this.tracks.length + 1, this, e, n));
-	}
-	addAudioTrack(e, t = {}) {
-		if (!(e instanceof fu)) throw TypeError("source must be an AudioSource.");
-		if (nm(t), t.decoderConfig !== void 0 && md({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
+		if (t.decoderConfig !== void 0 && pd({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
 			if (!(t.primingPacket instanceof Gi)) throw TypeError("metadata.primingPacket, when provided, must be an EncodedPacket.");
 			if (t.decoderConfig === void 0) throw TypeError("metadata.primingPacket can only be provided alongside metadata.decoderConfig.");
 		}
 		let n = { ...t };
 		return n.group ??= this.defaultTrackGroup, this._addTrack(new $p(this.tracks.length + 1, this, e, n));
 	}
-	addSubtitleTrack(e, t = {}) {
-		if (!(e instanceof ku)) throw TypeError("source must be a SubtitleSource.");
-		nm(t);
+	addAudioTrack(e, t = {}) {
+		if (!(e instanceof pu)) throw TypeError("source must be an AudioSource.");
+		if (rm(t), t.decoderConfig !== void 0 && hd({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
+			if (!(t.primingPacket instanceof Gi)) throw TypeError("metadata.primingPacket, when provided, must be an EncodedPacket.");
+			if (t.decoderConfig === void 0) throw TypeError("metadata.primingPacket can only be provided alongside metadata.decoderConfig.");
+		}
 		let n = { ...t };
 		return n.group ??= this.defaultTrackGroup, this._addTrack(new em(this.tracks.length + 1, this, e, n));
+	}
+	addSubtitleTrack(e, t = {}) {
+		if (!(e instanceof Au)) throw TypeError("source must be a SubtitleSource.");
+		rm(t);
+		let n = { ...t };
+		return n.group ??= this.defaultTrackGroup, this._addTrack(new tm(this.tracks.length + 1, this, e, n));
 	}
 	setMetadataTags(e) {
 		if (Ct(e), this.state !== "pending") throw Error("Cannot set metadata tags after output has been started or canceled.");
@@ -20614,13 +20631,13 @@ var Cl = class e extends _t {
 	}
 	hasEnoughTracks() {
 		let e = this.format.getSupportedTrackCounts();
-		for (let t of Xp) if (this.tracks.reduce((e, n) => e + +(n.type === t), 0) < e[t].min) return !1;
+		for (let t of Zp) if (this.tracks.reduce((e, n) => e + +(n.type === t), 0) < e[t].min) return !1;
 		let t = e.total.min;
 		return !(this.tracks.length < t);
 	}
 	async start() {
 		let e = this.format.getSupportedTrackCounts();
-		for (let t of Xp) {
+		for (let t of Zp) {
 			let n = this.tracks.reduce((e, n) => e + +(n.type === t), 0), r = e[t].min;
 			if (n < r) throw Error(r === e[t].max ? `${this.format._name} requires exactly ${r} ${t} track${r === 1 ? "" : "s"}.` : `${this.format._name} requires at least ${r} ${t} track${r === 1 ? "" : "s"}.`);
 		}
@@ -20676,7 +20693,7 @@ var Cl = class e extends _t {
 			}
 		})();
 	}
-}, im = function(e, t, n) {
+}, am = function(e, t, n) {
 	if (t != null) {
 		if (typeof t != "object" && typeof t != "function") throw TypeError("Object expected.");
 		var r, i;
@@ -20702,7 +20719,7 @@ var Cl = class e extends _t {
 		});
 	} else n && e.stack.push({ async: !0 });
 	return t;
-}, am = (function(e) {
+}, om = (function(e) {
 	return function(t) {
 		function n(n) {
 			t.error = t.hasError ? new e(n, t.error, "An error was suppressed during disposal.") : n, t.hasError = !0;
@@ -20728,11 +20745,11 @@ var Cl = class e extends _t {
 })(typeof SuppressedError == "function" ? SuppressedError : function(e, t, n) {
 	var r = Error(n);
 	return r.name = "SuppressedError", r.error = e, r.suppressed = t, r;
-}), om = (e) => {
+}), sm = (e) => {
 	if (!e || typeof e != "object") throw TypeError("options.video, when provided, must be an object.");
 	if (e?.discard !== void 0 && typeof e.discard != "boolean") throw TypeError("options.video.discard, when provided, must be a boolean.");
 	if (e?.forceTranscode !== void 0 && typeof e.forceTranscode != "boolean") throw TypeError("options.video.forceTranscode, when provided, must be a boolean.");
-	if (e?.codec !== void 0 && !Au.includes(e.codec)) throw TypeError(`options.video.codec, when provided, must be one of: ${Au.join(", ")}.`);
+	if (e?.codec !== void 0 && !ju.includes(e.codec)) throw TypeError(`options.video.codec, when provided, must be one of: ${ju.join(", ")}.`);
 	let t = e?.bitrate;
 	if (e?.quality !== void 0 && !(e.quality instanceof Ci)) throw TypeError("options.video.quality, when provided, must be a Quality.");
 	if (e?.quality !== void 0 && t !== void 0) throw TypeError("options.video.quality and options.video.bitrate cannot both be provided.");
@@ -20765,13 +20782,13 @@ var Cl = class e extends _t {
 		"prefer-hardware",
 		"prefer-software"
 	].includes(e.hardwareAcceleration)) throw TypeError("options.video.hardwareAcceleration, when provided, must be 'no-preference', 'prefer-hardware' or 'prefer-software'.");
-	if (e?.group !== void 0 && !(e.group instanceof tm || Array.isArray(e.group) && e.group.every((e) => e instanceof tm))) throw TypeError("options.video.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
+	if (e?.group !== void 0 && !(e.group instanceof nm || Array.isArray(e.group) && e.group.every((e) => e instanceof nm))) throw TypeError("options.video.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
 	if (e?.maximumPacketCount !== void 0 && (!Number.isInteger(e.maximumPacketCount) || e.maximumPacketCount < 0)) throw TypeError("options.video.maximumPacketCount, when provided, must be a non-negative integer.");
-}, sm = (e) => {
+}, cm = (e) => {
 	if (!e || typeof e != "object") throw TypeError("options.audio, when provided, must be an object.");
 	if (e?.discard !== void 0 && typeof e.discard != "boolean") throw TypeError("options.audio.discard, when provided, must be a boolean.");
 	if (e?.forceTranscode !== void 0 && typeof e.forceTranscode != "boolean") throw TypeError("options.audio.forceTranscode, when provided, must be a boolean.");
-	if (e?.codec !== void 0 && !Nu.includes(e.codec)) throw TypeError(`options.audio.codec, when provided, must be one of: ${Nu.join(", ")}.`);
+	if (e?.codec !== void 0 && !Pu.includes(e.codec)) throw TypeError(`options.audio.codec, when provided, must be one of: ${Pu.join(", ")}.`);
 	let t = e?.bitrate;
 	if (e?.quality !== void 0 && !(e.quality instanceof Ci)) throw TypeError("options.audio.quality, when provided, must be a Quality.");
 	if (e?.quality !== void 0 && t !== void 0) throw TypeError("options.audio.quality and options.audio.bitrate cannot both be provided.");
@@ -20787,9 +20804,9 @@ var Cl = class e extends _t {
 	if (e?.process !== void 0 && typeof e.process != "function") throw TypeError("options.audio.process, when provided, must be a function.");
 	if (e?.processedNumberOfChannels !== void 0 && (!Number.isInteger(e.processedNumberOfChannels) || e.processedNumberOfChannels <= 0)) throw TypeError("options.audio.processedNumberOfChannels, when provided, must be a positive integer.");
 	if (e?.processedSampleRate !== void 0 && (!Number.isInteger(e.processedSampleRate) || e.processedSampleRate <= 0)) throw TypeError("options.audio.processedSampleRate, when provided, must be a positive integer.");
-	if (e?.group !== void 0 && !(e.group instanceof tm || Array.isArray(e.group) && e.group.every((e) => e instanceof tm))) throw TypeError("options.audio.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
+	if (e?.group !== void 0 && !(e.group instanceof nm || Array.isArray(e.group) && e.group.every((e) => e instanceof nm))) throw TypeError("options.audio.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
 	if (e?.maximumPacketCount !== void 0 && (!Number.isInteger(e.maximumPacketCount) || e.maximumPacketCount < 0)) throw TypeError("options.audio.maximumPacketCount, when provided, must be a non-negative integer.");
-}, cm = 2, lm = 48e3, um = 256, dm = class e {
+}, lm = 2, um = 48e3, dm = 256, fm = class e {
 	get state() {
 		return this._state;
 	}
@@ -20798,9 +20815,9 @@ var Cl = class e extends _t {
 		return await n._init(), n;
 	}
 	constructor(e) {
-		if (this._state = "idle", this._timestampOffset = 0, this._timestampOffsetAdjusted = !1, this._copyTimestampPossible = /* @__PURE__ */ new Map(), this._copyStartPackets = /* @__PURE__ */ new Map(), this._trackDurations = /* @__PURE__ */ new Map(), this._nextOutputTrackId = 0, this._outputTrackIds = [], this._outputOwnTrackGroups = [], this._trackPumps = [], this._composable = !1, this._executed = !1, this._executionUntil = Infinity, this._pauseRequested = !1, this._synchronizer = new mm(this), this._totalDuration = null, this._maxTimestamps = /* @__PURE__ */ new Map(), this.onProgress = void 0, this._computeProgress = !1, this._lastProgress = 0, this._lastProcessedTime = 0, this.isValid = !1, this.utilizedTracks = [], this.discardedTracks = [], !e || typeof e != "object") throw TypeError("options must be an object.");
+		if (this._state = "idle", this._timestampOffset = 0, this._timestampOffsetAdjusted = !1, this._copyTimestampPossible = /* @__PURE__ */ new Map(), this._copyStartPackets = /* @__PURE__ */ new Map(), this._trackDurations = /* @__PURE__ */ new Map(), this._nextOutputTrackId = 0, this._outputTrackIds = [], this._outputOwnTrackGroups = [], this._trackPumps = [], this._composable = !1, this._executed = !1, this._executionUntil = Infinity, this._pauseRequested = !1, this._synchronizer = new hm(this), this._totalDuration = null, this._maxTimestamps = /* @__PURE__ */ new Map(), this.onProgress = void 0, this._computeProgress = !1, this._lastProgress = 0, this._lastProcessedTime = 0, this.isValid = !1, this.utilizedTracks = [], this.discardedTracks = [], !e || typeof e != "object") throw TypeError("options must be an object.");
 		if (!(e.input instanceof Cl)) throw TypeError("options.input must be an Input.");
-		if (!(e.output instanceof rm)) throw TypeError("options.output must be an Output.");
+		if (!(e.output instanceof im)) throw TypeError("options.output must be an Output.");
 		if (e.tracks !== void 0 && e.tracks !== "all" && e.tracks !== "primary") throw TypeError("options.tracks, when provided, must be either 'all' or 'primary'.");
 		if (e.composable !== void 0 && typeof e.composable != "boolean") throw TypeError("options.composable, when provided, must be a boolean.");
 		if (e.copy !== void 0 && e.copy !== !1) {
@@ -20816,12 +20833,12 @@ var Cl = class e extends _t {
 			if (e.output.state !== "pending") throw TypeError("options.output must not have been started yet.");
 		} else if (e.output.tracks.length > 0 || Object.keys(e.output._metadataTags).length > 0 || e.output.state !== "pending") throw TypeError("options.output must be fresh: no tracks or metadata tags added and not started.");
 		if (e.video !== void 0 && typeof e.video != "function") {
-			if (Array.isArray(e.video)) for (let t of e.video) om(t);
-			else om(e.video);
+			if (Array.isArray(e.video)) for (let t of e.video) sm(t);
+			else sm(e.video);
 		}
 		if (e.audio !== void 0 && typeof e.audio != "function") {
-			if (Array.isArray(e.audio)) for (let t of e.audio) sm(t);
-			else sm(e.audio);
+			if (Array.isArray(e.audio)) for (let t of e.audio) cm(t);
+			else cm(e.audio);
 		}
 		if (e.trim !== void 0 && (!e.trim || typeof e.trim != "object")) throw TypeError("options.trim, when provided, must be an object.");
 		if (e.trim?.start !== void 0 && !Number.isFinite(e.trim.start)) throw TypeError("options.trim.start, when provided, must be a finite number.");
@@ -20841,8 +20858,8 @@ var Cl = class e extends _t {
 				if (this._options.video) {
 					if (typeof this._options.video == "function") {
 						let n = await this._options.video(e, i) ?? {};
-						if (Array.isArray(n)) for (let e of n) om(e);
-						else om(n);
+						if (Array.isArray(n)) for (let e of n) sm(e);
+						else sm(n);
 						t = Array.isArray(n) ? n : [n], i++;
 					} else t = Array.isArray(this._options.video) ? this._options.video : [this._options.video];
 				} else t = [{}];
@@ -20850,8 +20867,8 @@ var Cl = class e extends _t {
 				if (this._options.audio) {
 					if (typeof this._options.audio == "function") {
 						let n = await this._options.audio(e, o) ?? {};
-						if (Array.isArray(n)) for (let e of n) sm(e);
-						else sm(n);
+						if (Array.isArray(n)) for (let e of n) cm(e);
+						else cm(n);
 						t = Array.isArray(n) ? n : [n], o++;
 					} else t = Array.isArray(this._options.audio) ? this._options.audio : [this._options.audio];
 				} else t = [{}];
@@ -20940,7 +20957,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		if (e.pauseSignal !== void 0 && !(e.pauseSignal instanceof AbortSignal)) throw TypeError("options.pauseSignal, when provided, must be an AbortSignal.");
 		if (!this.isValid) throw Error("Cannot execute this conversion because its output configuration is invalid. Make sure to always check the isValid field before executing a conversion.\n" + this._getInvalidityExplanation().join(""));
 		if (this._state === "executing") throw Error("Cannot call execute() while a previous call to execute() is still running.");
-		if (this._state === "canceled") throw new fm();
+		if (this._state === "canceled") throw new pm();
 		if (this._state === "done") return;
 		if (this._composable && this.output.state === "pending") throw Error("A composable conversion requires the output to be started. Call start() on the output before executing the conversion.");
 		this._state = "executing", this._executionUntil = e.until ?? Infinity, this._pauseRequested = e.pauseSignal?.aborted ?? !1;
@@ -20969,7 +20986,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		} finally {
 			e.pauseSignal?.removeEventListener("abort", t);
 		}
-		if (this._state === "canceled") throw new fm();
+		if (this._state === "canceled") throw new pm();
 		let n = this._trackPumps.every((e) => e.done);
 		this._state = n ? "done" : "idle", n && (this._composable || await this.output.finalize(), this._computeProgress && this.onProgress?.(1, this._lastProcessedTime));
 	}
@@ -21072,12 +21089,12 @@ Tracks were discarded because your environment is not able to encode any of the 
 					hasError: !1
 				};
 				try {
-					let r = new rm({
-						format: new Vp(),
-						target: new vp()
+					let r = new im({
+						format: new Hp(),
+						target: new yp()
 					}), i = new uu(h);
 					r.addVideoTrack(i), await r.start();
-					let a = im(n, await new al(e, { hardwareAcceleration: t.hardwareAcceleration }).getSample(await e.getFirstTimestamp()), !1);
+					let a = am(n, await new al(e, { hardwareAcceleration: t.hardwareAcceleration }).getSample(await e.getFirstTimestamp()), !1);
 					if (a) try {
 						await i.add(a), a.close(), await r.finalize();
 					} catch (e) {
@@ -21087,7 +21104,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 				} catch (e) {
 					n.error = e, n.hasError = !0;
 				} finally {
-					am(n);
+					om(n);
 				}
 			}
 			t.frameRate && (h.transform.frameRate = t.frameRate), t.process && (h.transform.process = t.process), _ && (c = 0, l = !1, u = null, h.transform.width = b, h.transform.height = x, h.transform.fit = t.fit ?? "fill", h.transform.rotate = t.rotate, h.transform.flip = t.flip, h.transform.crop = g, h.transform.alpha = w);
@@ -21105,7 +21122,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 						hasError: !1
 					};
 					try {
-						let i = im(t, e, !1);
+						let i = am(t, e, !1);
 						if (this._state === "canceled") break;
 						let a = Math.max(this._startTimestamp, i.timestamp), o = Math.min(this._endTimestamp, i.timestamp + i.duration);
 						if (a >= o) continue;
@@ -21113,7 +21130,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 					} catch (e) {
 						t.error = e, t.hasError = !0;
 					} finally {
-						am(t);
+						om(t);
 					}
 				}
 				T.close(), this._closeTrack(n);
@@ -21156,10 +21173,10 @@ Tracks were discarded because your environment is not able to encode any of the 
 			});
 		}
 		let D = null;
-		!t.group && !this._composable && (D = new tm());
+		!t.group && !this._composable && (D = new nm());
 		let O = await e.getLanguageCode(), k = await e.getName(), A = await e.getDisposition(), j = T ? null : await e.getBitrate(), M = T ? null : await e.getAverageBitrate(), ee = w === "keep" && await e.canBeTransparent(), te = t.maximumPacketCount;
 		if (this.output.format.requiresMaximumPacketCount && te === void 0) {
-			let n = t.frameRate ?? (await e.computePacketStats(um)).averagePacketRate, r = T ? this._startTimestamp : E?.timestamp ?? this._startTimestamp;
+			let n = t.frameRate ?? (await e.computePacketStats(dm)).averagePacketRate, r = T ? this._startTimestamp : E?.timestamp ?? this._startTimestamp;
 			te = await this._estimateMaximumPacketCount(e, r, n);
 		}
 		this.output.addVideoTrack(i, {
@@ -21237,13 +21254,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 				sampleRate: t.process && t.processedSampleRate ? t.processedSampleRate : l,
 				quality: r
 			});
-			if (!f.some((e) => Mu.includes(e)) && d.some((e) => Mu.includes(e)) && (c !== cm || l !== lm)) {
+			if (!f.some((e) => Nu.includes(e)) && d.some((e) => Nu.includes(e)) && (c !== lm || l !== um)) {
 				let e = (await Li(d, {
-					numberOfChannels: cm,
-					sampleRate: lm,
+					numberOfChannels: lm,
+					sampleRate: um,
 					quality: r
-				})).find((e) => Mu.includes(e));
-				e && (u = e, c = cm, l = lm);
+				})).find((e) => Nu.includes(e));
+				e && (u = e, c = lm, l = um);
 			} else u = f[0] ?? null;
 			if (u === null) {
 				this.discardedTracks.push({
@@ -21266,7 +21283,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 			p.onEncodedSample = (e) => {
 				m = e.timestamp;
 			};
-			let h = new bu(p);
+			let h = new xu(p);
 			i = h, this._registerTrackPump(async (t) => {
 				let r = null, i = new cl(e);
 				for await (let e of i.samples(this._startTimestamp, this._endTimestamp)) {
@@ -21276,7 +21293,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 						hasError: !1
 					};
 					try {
-						let a = im(i, e, !1);
+						let a = am(i, e, !1);
 						if (this._state === "canceled") break;
 						let c = 0, l = a.numberOfFrames;
 						if (a.timestamp < this._startTimestamp && (c = Math.round((this._startTimestamp - a.timestamp) * a.sampleRate)), a.timestamp + a.duration > this._endTimestamp && (l = Math.round((this._endTimestamp - a.timestamp) * a.sampleRate)), c >= l) {
@@ -21291,7 +21308,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 								continue;
 							}
 						} else u = a;
-						let d = im(i, u, !1);
+						let d = am(i, u, !1);
 						if (d.setTimestamp(d.timestamp + this._timestampOffset), r === null && (r = this.output.format.supportsTimestampedMediaData ? 0 : Math.round(d.timestamp * s)), r > 0) {
 							let e = {
 								stack: [],
@@ -21301,7 +21318,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 							try {
 								let i = si(a.format), c = new Uint8Array(i * r * o);
 								(a.format === "u8" || a.format === "u8-planar") && c.fill(128);
-								let l = im(e, new oi({
+								let l = am(e, new oi({
 									data: c,
 									format: a.format,
 									numberOfChannels: o,
@@ -21312,20 +21329,20 @@ Tracks were discarded because your environment is not able to encode any of the 
 							} catch (t) {
 								e.error = t, e.hasError = !0;
 							} finally {
-								am(e);
+								om(e);
 							}
 						}
 						await this._registerAudioSample(t, d, h, n, () => m);
 					} catch (e) {
 						i.error = e, i.hasError = !0;
 					} finally {
-						am(i);
+						om(i);
 					}
 				}
 				h.close(), this._closeTrack(n);
 			});
 		} else {
-			let t = new pu(r);
+			let t = new mu(r);
 			i = t, this._registerTrackPump(async (r) => {
 				let i = new Xc(e), a = { decoderConfig: await e.getDecoderConfig() ?? void 0 }, o = null;
 				if (p) for await (let e of i.packets(p)) {
@@ -21343,11 +21360,11 @@ Tracks were discarded because your environment is not able to encode any of the 
 			});
 		}
 		let m = null;
-		!t.group && !this._composable && (m = new tm());
+		!t.group && !this._composable && (m = new nm());
 		let h = await e.getLanguageCode(), g = await e.getName(), _ = await e.getDisposition(), v = f ? null : await e.getBitrate(), y = f ? null : await e.getAverageBitrate(), b = t.maximumPacketCount;
 		if (this.output.format.requiresMaximumPacketCount && b === void 0) {
 			let t;
-			f ? (a(u), t = l / $u(u, l)) : t = (await e.computePacketStats(um)).averagePacketRate;
+			f ? (a(u), t = l / ed(u, l)) : t = (await e.computePacketStats(dm)).averagePacketRate;
 			let n = f ? this._startTimestamp : p?.timestamp ?? this._startTimestamp;
 			b = await this._estimateMaximumPacketCount(e, n, t);
 		}
@@ -21408,11 +21425,11 @@ Tracks were discarded because your environment is not able to encode any of the 
 		let e = Math.min(...this._maxTimestamps.values()), t = ye(e / this._totalDuration, 0, 1);
 		this._lastProcessedTime = e, t !== this._lastProgress && (this._lastProgress = t, this.onProgress?.(t, e));
 	}
-}, fm = class extends Error {
+}, pm = class extends Error {
 	constructor(e = "Conversion has been canceled.") {
 		super(e), this.name = "ConversionCanceledError";
 	}
-}, pm = 1, mm = class {
+}, mm = 1, hm = class {
 	constructor(e) {
 		this.maxTimestamps = /* @__PURE__ */ new Map(), this.resolvers = [], this.conversion = e;
 	}
@@ -21423,7 +21440,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		let n = this.maxTimestamps.get(e);
 		a(n !== void 0), this.maxTimestamps.set(e, Math.max(t, n));
 		let r = this.computeMinAndMaybeResolve();
-		return this.conversion._state === "canceled" || this.conversion._pauseRequested || t >= this.conversion._executionUntil ? !1 : t - r > pm;
+		return this.conversion._state === "canceled" || this.conversion._pauseRequested || t >= this.conversion._executionUntil ? !1 : t - r > mm;
 	}
 	wait(e) {
 		let { promise: t, resolve: n } = pe();
@@ -21444,11 +21461,11 @@ Tracks were discarded because your environment is not able to encode any of the 
 		for (let [, t] of this.maxTimestamps) e = Math.min(e, t);
 		for (let t = 0; t < this.resolvers.length; t++) {
 			let n = this.resolvers[t];
-			n.timestamp - e < pm && (n.resolve(), this.resolvers.splice(t, 1), t--);
+			n.timestamp - e < mm && (n.resolve(), this.resolvers.splice(t, 1), t--);
 		}
 		return e;
 	}
-}, hm = /* @__PURE__ */ n(((e) => {
+}, gm = /* @__PURE__ */ n(((e) => {
 	var t = typeof Uint8Array < "u" && typeof Uint16Array < "u" && typeof Int32Array < "u";
 	function n(e, t) {
 		return Object.prototype.hasOwnProperty.call(e, t);
@@ -21487,8 +21504,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 	e.setTyped = function(t) {
 		t ? (e.Buf8 = Uint8Array, e.Buf16 = Uint16Array, e.Buf32 = Int32Array, e.assign(e, r)) : (e.Buf8 = Array, e.Buf16 = Array, e.Buf32 = Array, e.assign(e, i));
 	}, e.setTyped(t);
-})), gm = /* @__PURE__ */ n(((e) => {
-	var t = hm(), n = 4, r = 0, i = 1, a = 2;
+})), _m = /* @__PURE__ */ n(((e) => {
+	var t = gm(), n = 4, r = 0, i = 1, a = 2;
 	function o(e) {
 		for (var t = e.length; --t >= 0;) e[t] = 0;
 	}
@@ -21752,7 +21769,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return e.pending_buf[e.d_buf + e.last_lit * 2] = t >>> 8 & 255, e.pending_buf[e.d_buf + e.last_lit * 2 + 1] = t & 255, e.pending_buf[e.l_buf + e.last_lit] = n & 255, e.last_lit++, t === 0 ? e.dyn_ltree[n * 2]++ : (e.matches++, t--, e.dyn_ltree[(ee[n] + p + 1) * 2]++, e.dyn_dtree[oe(t) * 2]++), e.last_lit === e.lit_bufsize - 1;
 	}
 	e._tr_init = ye, e._tr_stored_block = be, e._tr_flush_block = Se, e._tr_tally = W, e._tr_align = xe;
-})), _m = /* @__PURE__ */ n(((e, t) => {
+})), vm = /* @__PURE__ */ n(((e, t) => {
 	function n(e, t, n, r) {
 		for (var i = e & 65535, a = e >>> 16 & 65535, o = 0; n !== 0;) {
 			o = n > 2e3 ? 2e3 : n, n -= o;
@@ -21764,7 +21781,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return i | a << 16;
 	}
 	t.exports = n;
-})), vm = /* @__PURE__ */ n(((e, t) => {
+})), ym = /* @__PURE__ */ n(((e, t) => {
 	function n() {
 		for (var e, t = [], n = 0; n < 256; n++) {
 			e = n;
@@ -21781,7 +21798,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return e ^ -1;
 	}
 	t.exports = i;
-})), ym = /* @__PURE__ */ n(((e, t) => {
+})), bm = /* @__PURE__ */ n(((e, t) => {
 	t.exports = {
 		2: "need dictionary",
 		1: "stream end",
@@ -21793,8 +21810,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 		"-5": "buffer error",
 		"-6": "incompatible version"
 	};
-})), bm = /* @__PURE__ */ n(((e) => {
-	var t = hm(), n = gm(), r = _m(), i = vm(), a = ym(), o = 0, s = 1, c = 3, l = 4, u = 5, d = 0, f = 1, p = -2, m = -3, h = -5, g = -1, _ = 1, v = 2, y = 3, b = 4, x = 0, S = 2, C = 8, w = 9, T = 15, E = 8, D = 286, O = 30, k = 19, A = 2 * D + 1, j = 15, M = 3, ee = 258, te = ee + M + 1, ne = 32, re = 42, N = 69, P = 73, ie = 91, ae = 103, oe = 113, F = 666, I = 1, se = 2, ce = 3, le = 4, ue = 3;
+})), xm = /* @__PURE__ */ n(((e) => {
+	var t = gm(), n = _m(), r = vm(), i = ym(), a = bm(), o = 0, s = 1, c = 3, l = 4, u = 5, d = 0, f = 1, p = -2, m = -3, h = -5, g = -1, _ = 1, v = 2, y = 3, b = 4, x = 0, S = 2, C = 8, w = 9, T = 15, E = 8, D = 286, O = 30, k = 19, A = 2 * D + 1, j = 15, M = 3, ee = 258, te = ee + M + 1, ne = 32, re = 42, N = 69, P = 73, ie = 91, ae = 103, oe = 113, F = 666, I = 1, se = 2, ce = 3, le = 4, ue = 3;
 	function de(e, t) {
 		return e.msg = a[t], t;
 	}
@@ -22045,8 +22062,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return a.strstart += a.lookahead, a.block_start = a.strstart, a.insert = a.lookahead, a.lookahead = 0, a.match_length = a.prev_length = M - 1, a.match_available = 0, e.next_in = u, e.input = f, e.avail_in = l, a.wrap = c, d;
 	}
 	e.deflateInit = Ee, e.deflateInit2 = Te, e.deflateReset = Ce, e.deflateResetKeep = W, e.deflateSetHeader = we, e.deflate = De, e.deflateEnd = Oe, e.deflateSetDictionary = ke, e.deflateInfo = "pako deflate (from Nodeca project)";
-})), xm = /* @__PURE__ */ n(((e) => {
-	var t = hm(), n = !0, r = !0;
+})), Sm = /* @__PURE__ */ n(((e) => {
+	var t = gm(), n = !0, r = !0;
 	try {
 		String.fromCharCode.apply(null, [0]);
 	} catch {
@@ -22088,13 +22105,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 		for (t ||= e.length, t > e.length && (t = e.length), n = t - 1; n >= 0 && (e[n] & 192) == 128;) n--;
 		return n < 0 || n === 0 ? t : n + i[e[n]] > t ? n : t;
 	};
-})), Sm = /* @__PURE__ */ n(((e, t) => {
+})), Cm = /* @__PURE__ */ n(((e, t) => {
 	function n() {
 		this.input = null, this.next_in = 0, this.avail_in = 0, this.total_in = 0, this.output = null, this.next_out = 0, this.avail_out = 0, this.total_out = 0, this.msg = "", this.state = null, this.data_type = 2, this.adler = 0;
 	}
 	t.exports = n;
-})), Cm = /* @__PURE__ */ n(((e) => {
-	var t = bm(), n = hm(), r = xm(), i = ym(), a = Sm(), o = Object.prototype.toString, s = 0, c = 4, l = 0, u = 1, d = 2, f = -1, p = 0, m = 8;
+})), wm = /* @__PURE__ */ n(((e) => {
+	var t = xm(), n = gm(), r = Sm(), i = bm(), a = Cm(), o = Object.prototype.toString, s = 0, c = 4, l = 0, u = 1, d = 2, f = -1, p = 0, m = 8;
 	function h(e) {
 		if (!(this instanceof h)) return new h(e);
 		this.options = n.assign({
@@ -22142,7 +22159,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return t ||= {}, t.gzip = !0, g(e, t);
 	}
 	e.Deflate = h, e.deflate = g, e.deflateRaw = _, e.gzip = v;
-})), wm = /* @__PURE__ */ n(((e, t) => {
+})), Tm = /* @__PURE__ */ n(((e, t) => {
 	t.exports = function(e, t) {
 		var n = e.state, r = e.next_in, i, a, o, s, c, l, u, d, f, p, m, h, g, _, v, y, b, x, S, C, w, T = e.input, E;
 		i = r + (e.avail_in - 5), a = e.next_out, E = e.output, o = a - (t - e.avail_out), s = a + (e.avail_out - 257), c = n.dmax, l = n.wsize, u = n.whave, d = n.wnext, f = n.window, p = n.hold, m = n.bits, h = n.lencode, g = n.distcode, _ = (1 << n.lenbits) - 1, v = (1 << n.distbits) - 1;
@@ -22225,8 +22242,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 		} while (r < i && a < s);
 		x = m >> 3, r -= x, m -= x << 3, p &= (1 << m) - 1, e.next_in = r, e.next_out = a, e.avail_in = r < i ? 5 + (i - r) : 5 - (r - i), e.avail_out = a < s ? 257 + (s - a) : 257 - (a - s), n.hold = p, n.bits = m;
 	};
-})), Tm = /* @__PURE__ */ n(((e, t) => {
-	var n = hm(), r = 15, i = 852, a = 592, o = 0, s = 1, c = 2, l = [
+})), Em = /* @__PURE__ */ n(((e, t) => {
+	var n = gm(), r = 15, i = 852, a = 592, o = 0, s = 1, c = 2, l = [
 		3,
 		4,
 		5,
@@ -22387,8 +22404,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 		}
 		return k !== 0 && (h[te + k] = b - E << 24 | 4194304), v.bits = w, 0;
 	};
-})), Em = /* @__PURE__ */ n(((e) => {
-	var t = hm(), n = _m(), r = vm(), i = wm(), a = Tm(), o = 0, s = 1, c = 2, l = 4, u = 5, d = 6, f = 0, p = 1, m = 2, h = -2, g = -3, _ = -4, v = -5, y = 8, b = 1, x = 2, S = 3, C = 4, w = 5, T = 6, E = 7, D = 8, O = 9, k = 10, A = 11, j = 12, M = 13, ee = 14, te = 15, ne = 16, re = 17, N = 18, P = 19, ie = 20, ae = 21, oe = 22, F = 23, I = 24, se = 25, ce = 26, le = 27, ue = 28, de = 29, L = 30, fe = 31, pe = 32, me = 852, R = 592, z = 15;
+})), Dm = /* @__PURE__ */ n(((e) => {
+	var t = gm(), n = vm(), r = ym(), i = Tm(), a = Em(), o = 0, s = 1, c = 2, l = 4, u = 5, d = 6, f = 0, p = 1, m = 2, h = -2, g = -3, _ = -4, v = -5, y = 8, b = 1, x = 2, S = 3, C = 4, w = 5, T = 6, E = 7, D = 8, O = 9, k = 10, A = 11, j = 12, M = 13, ee = 14, te = 15, ne = 16, re = 17, N = 18, P = 19, ie = 20, ae = 21, oe = 22, F = 23, I = 24, se = 25, ce = 26, le = 27, ue = 28, de = 29, L = 30, fe = 31, pe = 32, me = 852, R = 592, z = 15;
 	function he(e) {
 		return (e >>> 24 & 255) + (e >>> 8 & 65280) + ((e & 65280) << 8) + ((e & 255) << 24);
 	}
@@ -22827,7 +22844,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return !e || !e.state || (i = e.state, i.wrap !== 0 && i.mode !== A) ? h : i.mode === A && (a = 1, a = n(a, t, r, 0), a !== i.check) ? g : (o = Se(e, t, r, r), o ? (i.mode = fe, _) : (i.havedict = 1, f));
 	}
 	e.inflateReset = _e, e.inflateReset2 = V, e.inflateResetKeep = B, e.inflateInit = H, e.inflateInit2 = ve, e.inflate = W, e.inflateEnd = Ce, e.inflateGetHeader = we, e.inflateSetDictionary = Te, e.inflateInfo = "pako inflate (from Nodeca project)";
-})), Dm = /* @__PURE__ */ n(((e, t) => {
+})), Om = /* @__PURE__ */ n(((e, t) => {
 	t.exports = {
 		Z_NO_FLUSH: 0,
 		Z_PARTIAL_FLUSH: 1,
@@ -22857,13 +22874,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 		Z_UNKNOWN: 2,
 		Z_DEFLATED: 8
 	};
-})), Om = /* @__PURE__ */ n(((e, t) => {
+})), km = /* @__PURE__ */ n(((e, t) => {
 	function n() {
 		this.text = 0, this.time = 0, this.xflags = 0, this.os = 0, this.extra = null, this.extra_len = 0, this.name = "", this.comment = "", this.hcrc = 0, this.done = !1;
 	}
 	t.exports = n;
-})), km = /* @__PURE__ */ n(((e) => {
-	var t = Em(), n = hm(), r = xm(), i = Dm(), a = ym(), o = Sm(), s = Om(), c = Object.prototype.toString;
+})), Am = /* @__PURE__ */ n(((e) => {
+	var t = Dm(), n = gm(), r = Sm(), i = Om(), a = bm(), o = Cm(), s = km(), c = Object.prototype.toString;
 	function l(e) {
 		if (!(this instanceof l)) return new l(e);
 		this.options = n.assign({
@@ -22899,13 +22916,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return t ||= {}, t.raw = !0, u(e, t);
 	}
 	e.Inflate = l, e.inflate = u, e.inflateRaw = d, e.ungzip = u;
-})), Am = /* @__PURE__ */ n(((e, t) => {
-	var n = hm().assign, r = Cm(), i = km(), a = Dm(), o = {};
+})), jm = /* @__PURE__ */ n(((e, t) => {
+	var n = gm().assign, r = wm(), i = Am(), a = Om(), o = {};
 	n(o, r, i, a), t.exports = o;
-})), jm = /* @__PURE__ */ t((/* @__PURE__ */ n(((t, n) => {
+})), Mm = /* @__PURE__ */ t((/* @__PURE__ */ n(((t, n) => {
 	(function() {
 		var t = {}, r;
-		typeof n == "object" ? n.exports = t : window.UPNG = t, r = typeof e == "function" ? Am() : window.pako, (function(e, t) {
+		typeof n == "object" ? n.exports = t : window.UPNG = t, r = typeof e == "function" ? jm() : window.pako, (function(e, t) {
 			e.toRGBA8 = function(t) {
 				var n = t.width, r = t.height;
 				if (t.tabs.acTL == null) return [e.toRGBA8.decodeImage(t.data, n, r, t).buffer];
@@ -23601,14 +23618,14 @@ Tracks were discarded because your environment is not able to encode any of the 
 		})(t, r);
 	})();
 })))(), 1);
-function Mm(e) {
+function Nm(e) {
 	return /^image\/hei[cf]/i.test(e.type) || /\.(heic|heif)$/i.test(e.name);
 }
-async function Nm(e) {
+async function Pm(e) {
 	try {
 		return await createImageBitmap(e);
 	} catch (t) {
-		if (!Mm(e)) throw t;
+		if (!Nm(e)) throw t;
 		console.log(`Decoding HEIC image "${e.name}" with libheif…`);
 		let { heicTo: n } = await import("./heic-to-B_DOc4XS.js");
 		return await n({
@@ -23617,7 +23634,7 @@ async function Nm(e) {
 		});
 	}
 }
-function Pm(e, t = 2) {
+function Fm(e, t = 2) {
 	if (e === 0) return "0 Bytes";
 	let n = 1024, r = t < 0 ? 0 : t, i = [
 		"Bytes",
@@ -23628,43 +23645,43 @@ function Pm(e, t = 2) {
 	], a = Math.floor(Math.log(e) / Math.log(n));
 	return parseFloat((e / n ** a).toFixed(r)) + " " + i[a];
 }
-function Fm(e) {
+function Im(e) {
 	if (isNaN(e) || !isFinite(e)) return "0:00";
 	let t = Math.floor(e / 60), n = Math.floor(e % 60), r = Math.floor(e % 1 * 100);
 	return `${t}:${n.toString().padStart(2, "0")}.${r.toString().padStart(2, "0")}`;
 }
-var Im = {
+var Lm = {
 	1: ki,
 	2: Ai,
 	3: ji,
 	4: Mi,
 	5: Ni
-}, Lm = {
+}, Rm = {
 	1: "Very Low",
 	2: "Low",
 	3: "Medium",
 	4: "High",
 	5: "Very High"
-}, Rm = {
+}, zm = {
 	1: "Prioritizes hyper-compression over quality. Ideal for lightweight previews.",
 	2: "Aggressive compression. Noticeable reduction in metadata and detail.",
 	3: "Balanced bitrate and visual fidelity for typical social/web sharing.",
 	4: "Excellent visual density. Great for standard professional distribution.",
 	5: "Preserves maximum fine detail and frames. Generates large files."
-}, zm = {
+}, Bm = {
 	1: "~600 kbps",
 	2: "~1.5 Mbps",
 	3: "~3.5 Mbps",
 	4: "~7.5 Mbps",
 	5: "~15 Mbps"
-}, Bm = {
+}, Vm = {
 	1: .6,
 	2: 1.5,
 	3: 3.5,
 	4: 7.5,
 	5: 15
 };
-function Vm(e, t, n, r, i) {
+function Hm(e, t, n, r, i) {
 	let a = e, o = t, s = n;
 	for (; o > r * 2 || s > i * 2;) {
 		let e = Math.max(r, Math.round(o / 2)), t = Math.max(i, Math.round(s / 2)), n = document.createElement("canvas");
@@ -23677,7 +23694,7 @@ function Vm(e, t, n, r, i) {
 	let l = c.getContext("2d");
 	return l.imageSmoothingEnabled = !0, l.imageSmoothingQuality = "high", l.drawImage(a, 0, 0, o, s, 0, 0, r, i), c;
 }
-function Hm(e, t) {
+function Um(e, t) {
 	let n = t === "mp4" ? [{
 		value: "avc",
 		label: "H.264 / AVC (High compatibility)"
@@ -23703,20 +23720,20 @@ function Hm(e, t) {
 		r.value = t.value, r.textContent = t.label, n === 0 && (r.selected = !0), e.appendChild(r);
 	});
 }
-function Um(e) {
+function Wm(e) {
 	return e === "webm" ? {
-		format: new Gp(),
+		format: new Kp(),
 		mime: "video/webm",
 		ext: "webm"
 	} : {
-		format: new Vp(),
+		format: new Hp(),
 		mime: "video/mp4",
 		ext: "mp4"
 	};
 }
 // src/cropEditor.ts
-var Wm = 168, Gm = 28;
-function Km(e) {
+var Gm = 168, Km = 28;
+function qm(e) {
 	let { container: t, getSourceSize: n, getCrop: r, setCrop: i, getLoupeSource: a } = e, o = e.minSize ?? 8, s = document.createElement("div");
 	s.className = "crop-overlay", s.style.display = "none";
 	let c = document.createElement("div");
@@ -23753,7 +23770,7 @@ function Km(e) {
 		if (!f) return;
 		let e = a(), { width: i, height: o } = n(), s = t.getBoundingClientRect();
 		if (!e || !i || !o || !s.width) return;
-		let c = window.devicePixelRatio || 1, l = Math.max(1, Math.ceil(s.width / i)), p = Wm;
+		let c = window.devicePixelRatio || 1, l = Math.max(1, Math.ceil(s.width / i)), p = Gm;
 		u.width !== p * c && (u.width = p * c, u.height = p * c);
 		let h = u.getContext("2d");
 		h.setTransform(c * l, 0, 0, c * l, 0, 0), h.imageSmoothingEnabled = !1;
@@ -23763,8 +23780,8 @@ function Km(e) {
 		D > T && O > E && h.drawImage(e, T * C, E * w, (D - T) * C, (O - E) * w, T - y, E - b, D - T, O - E), h.strokeStyle = "rgba(255, 107, 129, 0.95)", h.lineWidth = 1 / l, h.strokeRect(g.x - y, g.y - b, g.width, g.height), h.strokeStyle = "rgba(255, 255, 255, 0.6)", h.beginPath(), h.moveTo(_.x - y, 0), h.lineTo(_.x - y, v), h.moveTo(0, _.y - b), h.lineTo(v, _.y - b), h.stroke(), d.textContent = `corner ${_.x}, ${_.y} · ${l * 100}%\ncrop ${g.width}×${g.height}`;
 	}
 	function g(e, t, n) {
-		let r = Wm, i = l.offsetHeight || 204, a = e === "nw" || e === "sw", o = e === "nw" || e === "ne", s = a ? t - r - Gm : t + Gm, c = o ? n - i - Gm : n + Gm;
-		s < 8 && (s = t + Gm), s + r > window.innerWidth - 8 && (s = t - r - Gm), c < 8 && (c = n + Gm), c + i > window.innerHeight - 8 && (c = n - i - Gm), l.style.left = `${Math.max(8, s)}px`, l.style.top = `${Math.max(8, c)}px`;
+		let r = Gm, i = l.offsetHeight || 204, a = e === "nw" || e === "sw", o = e === "nw" || e === "ne", s = a ? t - r - Km : t + Km, c = o ? n - i - Km : n + Km;
+		s < 8 && (s = t + Km), s + r > window.innerWidth - 8 && (s = t - r - Km), c < 8 && (c = n + Km), c + i > window.innerHeight - 8 && (c = n - i - Km), l.style.left = `${Math.max(8, s)}px`, l.style.top = `${Math.max(8, c)}px`;
 	}
 	c.addEventListener("pointerdown", (e) => {
 		let t = e.target.dataset?.handle;
@@ -23815,23 +23832,23 @@ function Km(e) {
 	};
 }
 // src/onnxRuntime.ts
-var qm = "media-converter-models-v1", Jm = null, Ym = null, Xm = /* @__PURE__ */ new Map();
-function Zm() {
-	return Jm ??= import("./ort.webgpu.min-W6im_1t5.js").then((e) => (e.env.wasm.wasmPaths = `https://cdn.jsdelivr.net/npm/onnxruntime-web@${e.env.versions.web}/dist/`, e)), Jm;
-}
+var Jm = "media-converter-models-v1", Ym = null, Xm = null, Zm = /* @__PURE__ */ new Map();
 function Qm() {
-	return Ym ??= (async () => {
+	return Ym ??= import("./ort.webgpu.min-W6im_1t5.js").then((e) => (e.env.wasm.wasmPaths = `https://cdn.jsdelivr.net/npm/onnxruntime-web@${e.env.versions.web}/dist/`, e)), Ym;
+}
+function $m() {
+	return Xm ??= (async () => {
 		try {
 			let e = navigator.gpu;
 			if (e && await e.requestAdapter()) return "webgpu";
 		} catch {}
 		return "wasm";
-	})(), Ym;
+	})(), Xm;
 }
-async function $m(e, t) {
+async function eh(e, t) {
 	let n = null;
 	try {
-		n = await caches.open(qm);
+		n = await caches.open(Jm);
 		let t = await n.match(e.url);
 		if (t) return new Uint8Array(await t.arrayBuffer());
 	} catch {
@@ -23854,19 +23871,19 @@ async function $m(e, t) {
 	}
 	return c;
 }
-async function eh(e, t = () => {}) {
-	let n = Xm.get(e.url);
+async function th(e, t = () => {}) {
+	let n = Zm.get(e.url);
 	n || (n = (async () => {
-		let [n, r] = await Promise.all([Zm(), Qm()]), i = await $m(e, t);
+		let [n, r] = await Promise.all([Qm(), $m()]), i = await eh(e, t);
 		return t(`Initializing ${r === "webgpu" ? "WebGPU" : "CPU"} backend…`), n.InferenceSession.create(i, { executionProviders: [r] });
-	})(), n.catch(() => Xm.delete(e.url)), Xm.set(e.url, n));
-	let [r, i] = await Promise.all([Zm(), n]);
+	})(), n.catch(() => Zm.delete(e.url)), Zm.set(e.url, n));
+	let [r, i] = await Promise.all([Qm(), n]);
 	return {
 		ort: r,
 		session: i
 	};
 }
-var th = {
+var nh = {
 	quality: {
 		label: "Real-ESRGAN x2plus",
 		url: "https://huggingface.co/SceneWorks/real-esrgan-onnx/resolve/09f741bac80a246b407da3ee902bf5f3291b602f/real_esrgan_x2.onnx",
@@ -23881,9 +23898,9 @@ var th = {
 		scale: 4,
 		tileSize: 256
 	}
-}, nh = 16, rh = 64e6, ih = 16384, ah = Qm;
-async function oh(e, t = () => {}) {
-	let n = th[e], { ort: r, session: i } = await eh(n, t), a = i.inputNames[0], o = i.outputNames[0], s = document.createElement("canvas"), c = s.getContext("2d", { willReadFrequently: !0 }), l = document.createElement("canvas"), u = l.getContext("2d"), d = document.createElement("canvas"), f = d.getContext("2d"), p = document.createElement("canvas"), m = p.getContext("2d");
+}, rh = 16, ih = 64e6, ah = 16384, oh = $m;
+async function sh(e, t = () => {}) {
+	let n = nh[e], { ort: r, session: i } = await th(n, t), a = i.inputNames[0], o = i.outputNames[0], s = document.createElement("canvas"), c = s.getContext("2d", { willReadFrequently: !0 }), l = document.createElement("canvas"), u = l.getContext("2d"), d = document.createElement("canvas"), f = d.getContext("2d"), p = document.createElement("canvas"), m = p.getContext("2d");
 	async function h(e, t, h, g) {
 		let _ = t + t % 2, v = h + h % 2;
 		(s.width !== _ || s.height !== v) && (s.width = _, s.height = v), c.clearRect(0, 0, _, v), c.drawImage(e, 0, 0, t, h), _ > t && c.drawImage(s, t - 1, 0, 1, h, t, 0, 1, h), v > h && c.drawImage(s, 0, h - 1, _, 1, 0, h, _, 1);
@@ -23893,7 +23910,7 @@ async function oh(e, t = () => {}) {
 		for (let e = 0; e < C; e++) for (let t = 0; t < S; t++) {
 			let n = e * S + t;
 			g?.(`Upscaling… tile ${n + 1}/${w}`, n / w);
-			let s = t * b, c = e * b, l = Math.min(b, _ - s), d = Math.min(b, v - c), f = Math.max(0, s - nh), h = Math.max(0, c - nh), C = Math.min(_, s + l + nh) - f, T = Math.min(v, c + d + nh) - h, E = C * T, D = new Float32Array(3 * E);
+			let s = t * b, c = e * b, l = Math.min(b, _ - s), d = Math.min(b, v - c), f = Math.max(0, s - rh), h = Math.max(0, c - rh), C = Math.min(_, s + l + rh) - f, T = Math.min(v, c + d + rh) - h, E = C * T, D = new Float32Array(3 * E);
 			for (let e = 0; e < T; e++) {
 				let t = ((h + e) * _ + f) * 4, n = e * C;
 				for (let e = 0; e < C; e++, t += 4, n++) D[n] = y[t] / 255, D[E + n] = y[t + 1] / 255, D[2 * E + n] = y[t + 2] / 255;
@@ -23914,11 +23931,11 @@ async function oh(e, t = () => {}) {
 		upscale: h
 	};
 }
-async function sh(e, t, n = () => {}) {
+async function ch(e, t, n = () => {}) {
 	let r = e.width, i = e.height, a = r * 2, o = i * 2;
-	if (a > ih || o > ih || a * o > rh) throw Error(`Upscaled output (${a}×${o}) would be too large for the browser. Crop or downsize the image first.`);
-	let s = await oh(t, n), c = performance.now(), l = await s.upscale(e, r, i, n), u = e.getContext("2d").getImageData(0, 0, r, i).data;
-	if (ch(u)) {
+	if (a > ah || o > ah || a * o > ih) throw Error(`Upscaled output (${a}×${o}) would be too large for the browser. Crop or downsize the image first.`);
+	let s = await sh(t, n), c = performance.now(), l = await s.upscale(e, r, i, n), u = e.getContext("2d").getImageData(0, 0, r, i).data;
+	if (lh(u)) {
 		let t = document.createElement("canvas");
 		t.width = a, t.height = o;
 		let n = t.getContext("2d");
@@ -23929,13 +23946,13 @@ async function sh(e, t, n = () => {}) {
 	}
 	return console.log(`AI upscale (${s.label}): ${r}×${i} → ${a}×${o} in ${((performance.now() - c) / 1e3).toFixed(1)}s`), n("Upscale complete", 1), l;
 }
-function ch(e) {
+function lh(e) {
 	for (let t = 3; t < e.length; t += 4) if (e[t] < 255) return !0;
 	return !1;
 }
 // src/imageWorkflow.ts
-var lh = 8, uh = 1, dh = 4, fh = 4;
-function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
+var uh = 8, dh = 1, fh = 4, ph = 4;
+function mh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	function r(t, n) {
 		let r = e.getElementById(t);
 		if (!r) throw Error(`DOM element not found: #${t} (expected ${n})`);
@@ -23947,7 +23964,7 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		offsetY: 0,
 		drawWidth: 0,
 		drawHeight: 0
-	}, xe = null, Se = Km({
+	}, xe = null, Se = qm({
 		container: i,
 		getSourceSize: () => ({
 			width: B,
@@ -23958,7 +23975,7 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 			Oe(e), Le(), Se.render();
 		},
 		getLoupeSource: () => z,
-		minSize: lh
+		minSize: uh
 	});
 	function W() {
 		V &&= (URL.revokeObjectURL(V), null), ve &&= (URL.revokeObjectURL(ve), null);
@@ -24114,8 +24131,8 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		Oe({
 			x: o,
 			y: s,
-			width: Math.max(lh, c - o),
-			height: Math.max(lh, l - s)
+			width: Math.max(uh, c - o),
+			height: Math.max(uh, l - s)
 		});
 	}
 	function Ge(e) {
@@ -24127,13 +24144,13 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		t.width = e.width, t.height = e.height;
 		let n = t.getContext("2d");
 		if (n.drawImage(z, e.x, e.y, e.width, e.height, 0, 0, e.width, e.height), j.checked && he && ge) {
-			let r = Math.max(uh, parseInt(te.value) || dh), i = document.createElement("canvas");
+			let r = Math.max(dh, parseInt(te.value) || fh), i = document.createElement("canvas");
 			i.width = e.width, i.height = e.height, i.getContext("2d").drawImage(he, e.x, e.y, e.width, e.height, 0, 0, e.width, e.height);
 			let a = document.createElement("canvas");
 			a.width = e.width, a.height = e.height;
 			let o = a.getContext("2d");
 			if (M.value === "pixelate") {
-				let n = Math.max(fh, r), i = Math.max(1, Math.round(e.width / n)), a = Math.max(1, Math.round(e.height / n)), s = document.createElement("canvas");
+				let n = Math.max(ph, r), i = Math.max(1, Math.round(e.width / n)), a = Math.max(1, Math.round(e.height / n)), s = document.createElement("canvas");
 				s.width = i, s.height = a;
 				let c = s.getContext("2d");
 				c.imageSmoothingEnabled = !1, c.drawImage(t, 0, 0, i, a), o.imageSmoothingEnabled = !1, o.drawImage(s, 0, 0, i, a, 0, 0, e.width, e.height);
@@ -24146,13 +24163,13 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		let r = t;
 		if (O.checked) {
 			let e = k.value;
-			r = await sh(t, e, (e, t) => {
+			r = await ch(t, e, (e, t) => {
 				A.textContent = e, ue.textContent = t === void 0 ? e : `${e.replace(/….*$/, "…")} ${Math.round(t * 100)}%`;
 			});
 		}
 		if (x.checked) {
 			let e = Math.max(1, parseInt(S.value) || r.width), t = Math.max(1, parseInt(C.value) || r.height);
-			r = Vm(r, r.width, r.height, e, t);
+			r = Hm(r, r.width, r.height, e, t);
 		}
 		return r;
 	}
@@ -24166,7 +24183,7 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		}
 	}
 	async function Je() {
-		let e = await ah();
+		let e = await oh();
 		A.textContent = e === "webgpu" ? "Runs locally on your GPU (WebGPU). The model downloads once on first use and is cached." : "⚠️ WebGPU isn't available in this browser, so upscaling will run on the CPU and be very slow.";
 	}
 	async function Ye(e, t, n) {
@@ -24180,7 +24197,7 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		z &&= (z.close(), null), he = null, ge = null, B = 0, _e = 0, R = null, H = !1, U = null, xe = null, W();
 	}
 	async function Ze(e) {
-		Xe(), R = e, de.style.display = "none", L.style.display = "", I.style.display = "none", F.textContent = "", V = URL.createObjectURL(e), z = await Nm(e), B = z.width, _e = z.height, he = document.createElement("canvas"), he.width = B, he.height = _e, ge = he.getContext("2d"), s.textContent = e.name, c.textContent = t(e.size), l.textContent = `${B}x${_e}`, u.textContent = `${(B / _e).toFixed(2)}:1`, d.textContent = e.type || "image/*", me.src = "", Fe(), Me(), Be(), He(), Ve(), n(), je(), requestAnimationFrame(() => {
+		Xe(), R = e, de.style.display = "none", L.style.display = "", I.style.display = "none", F.textContent = "", V = URL.createObjectURL(e), z = await Pm(e), B = z.width, _e = z.height, he = document.createElement("canvas"), he.width = B, he.height = _e, ge = he.getContext("2d"), s.textContent = e.name, c.textContent = t(e.size), l.textContent = `${B}x${_e}`, u.textContent = `${(B / _e).toFixed(2)}:1`, d.textContent = e.type || "image/*", me.src = "", Fe(), Me(), Be(), He(), Ve(), n(), je(), requestAnimationFrame(() => {
 			je();
 		}), console.log(`Loaded image file: "${e.name}" (${B}x${_e})`);
 	}
@@ -24283,7 +24300,7 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		else {
 			F.textContent = "Quantizing…";
 			try {
-				let e = await qe(Ke), n = e.getContext("2d").getImageData(0, 0, e.width, e.height), r = parseInt(ae.value, 10), i = jm.default.encode([n.data.buffer], e.width, e.height, r), a = new Blob([i], { type: "image/png" }), o = await new Promise((e, t) => {
+				let e = await qe(Ke), n = e.getContext("2d").getImageData(0, 0, e.width, e.height), r = parseInt(ae.value, 10), i = Mm.default.encode([n.data.buffer], e.width, e.height, r), a = new Blob([i], { type: "image/png" }), o = await new Promise((e, t) => {
 					let n = new FileReader();
 					n.onload = () => e(n.result), n.onerror = () => t(n.error), n.readAsDataURL(a);
 				});
@@ -24299,8 +24316,8 @@ function ph({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	};
 }
 // src/trimController.ts
-var mh = .05;
-function hh(e) {
+var hh = .05;
+function gh(e) {
 	let t = e.map((e) => ({ ...e })).sort((e, t) => e.start - t.start), n = [];
 	for (let e of t) {
 		let t = n[n.length - 1];
@@ -24308,7 +24325,7 @@ function hh(e) {
 	}
 	return n;
 }
-function gh(e) {
+function _h(e) {
 	let { media: t, enable: n, controlsGroup: r, startInput: i, endInput: a, startLabel: o, endLabel: s, selectionBar: c, onChange: l } = e, { sectionList: u, addSectionButton: d, totalLabel: f } = e, p = 0, m = !1, h = [{
 		start: 0,
 		end: 0
@@ -24329,7 +24346,7 @@ function gh(e) {
 			let i = document.createElement("button");
 			i.type = "button", i.className = "trim-section-remove", i.textContent = "✕", i.title = "Remove section", i.disabled = h.length <= 1, i.addEventListener("click", () => T(e)), n.append(r, i), u.append(n);
 		}), f)) {
-			let e = hh(h).reduce((e, t) => e + (t.end - t.start), 0);
+			let e = gh(h).reduce((e, t) => e + (t.end - t.start), 0);
 			f.textContent = `${e.toFixed(2)}s`;
 		}
 	}
@@ -24349,7 +24366,7 @@ function gh(e) {
 		if (!p) return;
 		let e = t.currentTime;
 		for (let t of y()) e >= t.start && e < t.end && (e = t.end);
-		e > p - mh && (e = 0);
+		e > p - hh && (e = 0);
 		let n = Math.min(p, e + Math.max(1, p * .1)), r = {
 			start: e,
 			end: n
@@ -24364,11 +24381,11 @@ function gh(e) {
 	}), i.addEventListener("input", () => {
 		m = !0, t.pause();
 		let e = parseFloat(i.value), n = parseFloat(a.value);
-		e >= n && (e = Math.max(0, n - mh), i.value = String(e)), i.style.zIndex = "3", a.style.zIndex = "2", S(e, n), t.currentTime = e;
+		e >= n && (e = Math.max(0, n - hh), i.value = String(e)), i.style.zIndex = "3", a.style.zIndex = "2", S(e, n), t.currentTime = e;
 	}), a.addEventListener("input", () => {
 		m = !0, t.pause();
 		let e = parseFloat(i.value), n = parseFloat(a.value);
-		n <= e && (n = Math.min(p, e + mh), a.value = String(n)), i.style.zIndex = "2", a.style.zIndex = "3", S(e, n), t.currentTime = n;
+		n <= e && (n = Math.min(p, e + hh), a.value = String(n)), i.style.zIndex = "2", a.style.zIndex = "3", S(e, n), t.currentTime = n;
 	}), [i, a].forEach((e) => [
 		"change",
 		"mouseup",
@@ -24398,13 +24415,13 @@ function gh(e) {
 		t.addEventListener("pointerup", r), t.addEventListener("pointercancel", r);
 	}), t.addEventListener("timeupdate", () => {
 		if (!n.checked || m) return;
-		let e = hh(h), r = t.currentTime;
+		let e = gh(h), r = t.currentTime;
 		if (e.some((e) => r >= e.start && r < e.end)) return;
 		let i = e.find((e) => e.start > r);
 		i && !t.paused ? t.currentTime = i.start : (t.pause(), t.currentTime = e[0].start);
 	}), t.addEventListener("play", () => {
 		if (!n.checked) return;
-		let e = hh(h), r = t.currentTime;
+		let e = gh(h), r = t.currentTime;
 		e.some((e) => r >= e.start && r < e.end) || (t.currentTime = (e.find((e) => e.start > r) ?? e[0]).start);
 	}), {
 		setDuration(e) {
@@ -24418,48 +24435,48 @@ function gh(e) {
 			start: g.start,
 			end: g.end
 		} : null,
-		getRanges: () => n.checked ? hh(h) : null
+		getRanges: () => n.checked ? gh(h) : null
 	};
 }
 // src/audioWorkflow.ts
-var _h = {
+var vh = {
 	mp3: {
-		makeFormat: () => new Kp(),
+		makeFormat: () => new qp(),
 		codec: "mp3",
 		ext: "mp3",
 		mime: "audio/mpeg",
 		lossless: !1
 	},
 	m4a: {
-		makeFormat: () => new Vp(),
+		makeFormat: () => new Hp(),
 		codec: "aac",
 		ext: "m4a",
 		mime: "audio/mp4",
 		lossless: !1
 	},
 	opus: {
-		makeFormat: () => new Jp(),
+		makeFormat: () => new Yp(),
 		codec: "opus",
 		ext: "ogg",
 		mime: "audio/ogg",
 		lossless: !1
 	},
 	wav: {
-		makeFormat: () => new qp(),
+		makeFormat: () => new Jp(),
 		codec: "pcm-s16",
 		ext: "wav",
 		mime: "audio/wav",
 		lossless: !0
 	},
 	flac: {
-		makeFormat: () => new Yp(),
+		makeFormat: () => new Xp(),
 		codec: "flac",
 		ext: "flac",
 		mime: "audio/flac",
 		lossless: !0
 	}
 };
-function vh({ root: e, formatBytes: t, revealLoadedSection: n }) {
+function yh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	function r(t, n) {
 		let r = e.getElementById(t);
 		if (!r) throw Error(`DOM element not found: #${t} (expected ${n})`);
@@ -24470,7 +24487,7 @@ function vh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		oe &&= (URL.revokeObjectURL(oe), null), F &&= (URL.revokeObjectURL(F), null);
 	}
 	function ue() {
-		return _h[x.value] || _h.mp3;
+		return vh[x.value] || vh.mp3;
 	}
 	function de() {
 		if (!ie) {
@@ -24490,7 +24507,7 @@ function vh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	}
 	async function fe() {
 		for (let e of Array.from(x.options)) {
-			let t = _h[e.value];
+			let t = vh[e.value];
 			if (!t) continue;
 			let n = !1;
 			try {
@@ -24582,16 +24599,16 @@ function vh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 				return;
 			}
 			let i = await r.getCodec();
-			if (ie = await P.computeDuration(), l.textContent = String(i || "unknown").toUpperCase(), c.textContent = Fm(ie), u.textContent = r.sampleRate ? `${r.sampleRate.toLocaleString()} Hz` : "-", d.textContent = String(r.numberOfChannels || "-"), ie > 0) {
+			if (ie = await P.computeDuration(), l.textContent = String(i || "unknown").toUpperCase(), c.textContent = Im(ie), u.textContent = r.sampleRate ? `${r.sampleRate.toLocaleString()} Hz` : "-", d.textContent = String(r.numberOfChannels || "-"), ie > 0) {
 				let t = e.size * 8 / ie / 1e3;
 				f.textContent = `~${Math.round(t)} kbps`;
 			} else f.textContent = "-";
-			z.setDuration(ie), console.log(`Loaded audio: "${e.name}" — ${Fm(ie)}, ${r.sampleRate}Hz, ${r.numberOfChannels}ch.`), n(), L();
+			z.setDuration(ie), console.log(`Loaded audio: "${e.name}" — ${Im(ie)}, ${r.sampleRate}Hz, ${r.numberOfChannels}ch.`), n(), L();
 		} catch (e) {
 			console.error("Error analyzing audio file: ", e), alert(`Could not read audio metadata: ${e.message || e}`);
 		}
 	}
-	let z = gh({
+	let z = _h({
 		media: i,
 		enable: m,
 		controlsGroup: h,
@@ -24609,7 +24626,7 @@ function vh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		else {
 			T.style.display = "none", E.style.display = "inline-block", k.style.display = "block", ee.style.display = "none", O.style.display = "none", M.value = 0, j.textContent = "0%", A.textContent = "🎵 Initializing audio pipeline...";
 			try {
-				let e = ue(), n = new _p(), r = new rm({
+				let e = ue(), n = new vp(), r = new im({
 					format: e.makeFormat(),
 					target: n
 				}), i = {
@@ -24625,7 +24642,7 @@ function vh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 					start: parseFloat(g.value),
 					end: parseFloat(_.value)
 				} : void 0;
-				if (ae = await dm.init({
+				if (ae = await fm.init({
 					input: P,
 					output: r,
 					audio: i,
@@ -24663,7 +24680,7 @@ function vh({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	};
 }
 // src/zip.ts
-var yh = (() => {
+var bh = (() => {
 	let e = /* @__PURE__ */ new Uint32Array(256);
 	for (let t = 0; t < 256; t++) {
 		let n = t;
@@ -24672,71 +24689,71 @@ var yh = (() => {
 	}
 	return e;
 })();
-function bh(e) {
+function xh(e) {
 	let t = 4294967295;
-	for (let n = 0; n < e.length; n++) t = yh[(t ^ e[n]) & 255] ^ t >>> 8;
+	for (let n = 0; n < e.length; n++) t = bh[(t ^ e[n]) & 255] ^ t >>> 8;
 	return (t ^ 4294967295) >>> 0;
 }
-var xh = (e) => new Uint8Array([e & 255, e >>> 8 & 255]), Sh = (e) => new Uint8Array([
+var Sh = (e) => new Uint8Array([e & 255, e >>> 8 & 255]), Ch = (e) => new Uint8Array([
 	e & 255,
 	e >>> 8 & 255,
 	e >>> 16 & 255,
 	e >>> 24 & 255
 ]);
-function Ch(e) {
+function wh(e) {
 	let t = 0;
 	for (let n of e) t += n.length;
 	let n = new Uint8Array(t), r = 0;
 	for (let t of e) n.set(t, r), r += t.length;
 	return n;
 }
-function wh(e) {
+function Th(e) {
 	let t = new TextEncoder(), n = [], r = [], i = 0, a = 2048;
 	for (let o of e) {
-		let e = t.encode(o.name), s = bh(o.data), c = o.data.length, l = Ch([
-			Sh(67324752),
-			xh(20),
-			xh(a),
-			xh(0),
-			xh(0),
-			xh(33),
-			Sh(s),
-			Sh(c),
-			Sh(c),
-			xh(e.length),
-			xh(0),
+		let e = t.encode(o.name), s = xh(o.data), c = o.data.length, l = wh([
+			Ch(67324752),
+			Sh(20),
+			Sh(a),
+			Sh(0),
+			Sh(0),
+			Sh(33),
+			Ch(s),
+			Ch(c),
+			Ch(c),
+			Sh(e.length),
+			Sh(0),
 			e
 		]);
-		n.push(l, o.data), r.push(Ch([
-			Sh(33639248),
-			xh(20),
-			xh(20),
-			xh(a),
-			xh(0),
-			xh(0),
-			xh(33),
-			Sh(s),
-			Sh(c),
-			Sh(c),
-			xh(e.length),
-			xh(0),
-			xh(0),
-			xh(0),
-			xh(0),
+		n.push(l, o.data), r.push(wh([
+			Ch(33639248),
+			Sh(20),
+			Sh(20),
+			Sh(a),
 			Sh(0),
-			Sh(i),
+			Sh(0),
+			Sh(33),
+			Ch(s),
+			Ch(c),
+			Ch(c),
+			Sh(e.length),
+			Sh(0),
+			Sh(0),
+			Sh(0),
+			Sh(0),
+			Ch(0),
+			Ch(i),
 			e
 		])), i += l.length + c;
 	}
-	let o = Ch(r), s = Ch([
-		Sh(101010256),
-		xh(0),
-		xh(0),
-		xh(e.length),
-		xh(e.length),
-		Sh(o.length),
-		Sh(i),
-		xh(0)
+	let o = wh(r), s = wh([
+		Ch(101010256),
+		Sh(0),
+		Sh(0),
+		Sh(e.length),
+		Sh(e.length),
+		Ch(o.length),
+		Ch(i),
+		Sh(0)
 	]);
 	return new Blob([
 		...n,
@@ -24745,13 +24762,13 @@ function wh(e) {
 	], { type: "application/zip" });
 }
 // src/batchShared.ts
-function Th(e) {
+function Eh(e) {
 	let { elements: t, zipName: n, processButtonLabel: r, makeThumb: i, process: a } = e, o = [], s = [];
 	function c() {
 		o.forEach((e) => e.url && URL.revokeObjectURL(e.url)), s.forEach((e) => e.startsWith("blob:") && URL.revokeObjectURL(e)), s = [];
 	}
 	function l(e) {
-		return e.status === "pending" ? "Pending" : e.status === "processing" ? `Processing… ${Math.round(e.progress * 100)}%` : e.status === "error" ? `Error: ${e.error || "failed"}` : e.blob ? Pm(e.blob.size) : "Done";
+		return e.status === "pending" ? "Pending" : e.status === "processing" ? `Processing… ${Math.round(e.progress * 100)}%` : e.status === "error" ? `Error: ${e.error || "failed"}` : e.blob ? Fm(e.blob.size) : "Done";
 	}
 	function u() {
 		t.count.textContent = String(o.length), t.queue.innerHTML = "", o.forEach((e, n) => {
@@ -24771,7 +24788,7 @@ function Th(e) {
 		t.thumbs.innerHTML = "";
 		let n = 0;
 		for (let t of e) n += t.size;
-		t.inputCount.textContent = String(e.length), t.totalSize.textContent = Pm(n);
+		t.inputCount.textContent = String(e.length), t.totalSize.textContent = Fm(n);
 		for (let n of e) {
 			let e = document.createElement("img");
 			e.className = "batch-thumb", e.alt = n.name, e.title = n.name, t.thumbs.appendChild(e), i(n).then((t) => {
@@ -24814,8 +24831,8 @@ function Th(e) {
 						data: new Uint8Array(await n.blob.arrayBuffer())
 					});
 				}
-				let i = wh(r), a = URL.createObjectURL(i), o = document.createElement("a");
-				o.href = a, o.download = n, o.style.display = "none", document.body.appendChild(o), o.click(), o.remove(), setTimeout(() => URL.revokeObjectURL(a), 1e4), console.log(`📦 Zipped ${r.length} file(s) → ${Pm(i.size)}.`);
+				let i = Th(r), a = URL.createObjectURL(i), o = document.createElement("a");
+				o.href = a, o.download = n, o.style.display = "none", document.body.appendChild(o), o.click(), o.remove(), setTimeout(() => URL.revokeObjectURL(a), 1e4), console.log(`📦 Zipped ${r.length} file(s) → ${Fm(i.size)}.`);
 			} catch (e) {
 				console.error("Failed to build zip:", e), alert(`Could not build the zip: ${e?.message || e}`);
 			} finally {
@@ -24838,13 +24855,13 @@ function Th(e) {
 	};
 }
 // src/imageBatchWorkflow.ts
-var Eh = {
+var Dh = {
 	"image/jpeg": "jpg",
 	"image/png": "png",
 	"image/webp": "webp",
 	"image/avif": "avif"
 };
-function Dh({ root: e }) {
+function Oh({ root: e }) {
 	let t = (t) => e.getElementById(t), n = t("batch-out-format"), r = t("batch-quality"), i = t("batch-quality-label"), a = t("batch-enable-resize"), o = t("batch-resize-controls"), s = t("batch-maxdim-preset"), c = t("batch-maxdim");
 	function l() {
 		let e = n.value === "image/png";
@@ -24879,7 +24896,7 @@ function Dh({ root: e }) {
 	}), c.addEventListener("input", () => {
 		c.value !== s.value && (s.value = "");
 	}), l();
-	let p = Th({
+	let p = Eh({
 		elements: {
 			thumbs: t("batch-thumbs"),
 			inputCount: t("batch-input-count"),
@@ -24892,16 +24909,16 @@ function Dh({ root: e }) {
 		zipName: "media-converter-images.zip",
 		processButtonLabel: (e) => `🖼️ Process All Images (${e})`,
 		makeThumb: async (e) => {
-			if (!Mm(e)) return URL.createObjectURL(e);
-			let t = await Nm(e), n = Math.min(1, 320 / Math.max(t.width, t.height)), r = Vm(t, t.width, t.height, Math.max(1, Math.round(t.width * n)), Math.max(1, Math.round(t.height * n)));
+			if (!Nm(e)) return URL.createObjectURL(e);
+			let t = await Pm(e), n = Math.min(1, 320 / Math.max(t.width, t.height)), r = Hm(t, t.width, t.height, Math.max(1, Math.round(t.width * n)), Math.max(1, Math.round(t.height * n)));
 			t.close();
 			let i = await f(r, "image/jpeg", .85);
 			return URL.createObjectURL(i);
 		},
 		process: async (e) => {
-			let t = await Nm(e);
+			let t = await Pm(e);
 			try {
-				let { w: i, h: a } = d(t.width, t.height), o = Vm(t, t.width, t.height, i, a), s = n.value, c = s === "image/png" ? void 0 : parseFloat(r.value), l = Eh[s] || "jpg", p;
+				let { w: i, h: a } = d(t.width, t.height), o = Hm(t, t.width, t.height, i, a), s = n.value, c = s === "image/png" ? void 0 : parseFloat(r.value), l = Dh[s] || "jpg", p;
 				try {
 					p = await f(o, s, c);
 				} catch {
@@ -24924,7 +24941,7 @@ function Dh({ root: e }) {
 	};
 }
 // src/videoBatchWorkflow.ts
-function Oh(e) {
+function kh(e) {
 	return new Promise((t) => {
 		let n = document.createElement("video");
 		n.muted = !0, n.preload = "metadata", n.playsInline = !0;
@@ -24947,11 +24964,11 @@ function Oh(e) {
 		}), n.addEventListener("error", () => a(null)), setTimeout(() => a(null), 5e3), n.src = r;
 	});
 }
-function kh({ root: e }) {
+function Ah({ root: e }) {
 	let t = (t) => e.getElementById(t), n = t("vbatch-out-format"), r = t("vbatch-out-codec"), i = t("vbatch-quality"), a = t("vbatch-quality-val"), o = t("vbatch-quality-rate"), s = t("vbatch-mute"), c = t("vbatch-enable-resize"), l = t("vbatch-resize-controls"), u = t("vbatch-maxdim-preset"), d = t("vbatch-maxdim");
 	function f() {
 		let e = parseInt(i.value);
-		a.textContent = Lm[e] || "Medium", o.textContent = zm[e] || "";
+		a.textContent = Rm[e] || "Medium", o.textContent = Bm[e] || "";
 	}
 	function p() {
 		if (!c.checked) return null;
@@ -24969,14 +24986,14 @@ function kh({ root: e }) {
 			h: Math.max(2, Math.round(t * i) & -2)
 		};
 	}
-	n.addEventListener("change", () => Hm(r, n.value)), i.addEventListener("input", f), c.addEventListener("change", () => {
+	n.addEventListener("change", () => Um(r, n.value)), i.addEventListener("input", f), c.addEventListener("change", () => {
 		l.style.display = c.checked ? "block" : "none";
 	}), u.addEventListener("change", () => {
 		u.value && (d.value = u.value);
 	}), d.addEventListener("input", () => {
 		d.value !== u.value && (u.value = "");
 	}), f();
-	let h = Th({
+	let h = Eh({
 		elements: {
 			thumbs: t("vbatch-thumbs"),
 			inputCount: t("vbatch-input-count"),
@@ -24988,23 +25005,23 @@ function kh({ root: e }) {
 		},
 		zipName: "media-converter-videos.zip",
 		processButtonLabel: (e) => `🎬 Process All Videos (${e})`,
-		makeThumb: Oh,
+		makeThumb: kh,
 		process: async (e, t) => {
 			let a = new Cl({
 				formats: Gc,
 				source: new uc(e)
 			});
 			try {
-				let o = await a.getPrimaryVideoTrack(), c = o ? await o.getDisplayWidth() : 0, l = o ? await o.getDisplayHeight() : 0, u = Um(n.value), d = new rm({
+				let o = await a.getPrimaryVideoTrack(), c = o ? await o.getDisplayWidth() : 0, l = o ? await o.getDisplayHeight() : 0, u = Wm(n.value), d = new im({
 					format: u.format,
-					target: new _p()
+					target: new vp()
 				}), f = {
 					forceTranscode: !0,
 					codec: r.value,
-					bitrate: Im[parseInt(i.value)] || Im[3]
+					bitrate: Lm[parseInt(i.value)] || Lm[3]
 				}, h = m(c, l);
 				h && (f.width = h.w, f.height = h.h, f.fit = "contain");
-				let g = s.checked ? { discard: !0 } : { forceTranscode: !1 }, _ = await dm.init({
+				let g = s.checked ? { discard: !0 } : { forceTranscode: !1 }, _ = await fm.init({
 					input: a,
 					output: d,
 					video: f,
@@ -25031,7 +25048,7 @@ function kh({ root: e }) {
 	};
 }
 // src/timelapse.ts
-function Ah(e, t, n) {
+function jh(e, t, n) {
 	let r = 1 / t, i = r * .001, a = null, o = null, s = null, c = 0;
 	function l() {
 		let e = new Vr(o, {
@@ -25060,11 +25077,11 @@ function Ah(e, t, n) {
 	};
 }
 // src/audioStretch.ts
-var jh = .04, Mh = .012;
-function Nh(e, t) {
+var Mh = .04, Nh = .012;
+function Ph(e, t) {
 	let n = 0, r = 0, i = null, a = 0, o = [], s = /* @__PURE__ */ new Float32Array(), c = 0, l = 0, u = 0, d = 0, f = 0, p, m = 0, h = 0, g = [], _ = 0;
 	function v(t) {
-		n = t.sampleRate, r = t.numberOfChannels, o = Array.from({ length: r }, () => /* @__PURE__ */ new Float32Array()), u = Math.round(n * jh) & -2, d = u / 2, f = Math.round(n * Mh), p = new Float32Array(u);
+		n = t.sampleRate, r = t.numberOfChannels, o = Array.from({ length: r }, () => /* @__PURE__ */ new Float32Array()), u = Math.round(n * Mh) & -2, d = u / 2, f = Math.round(n * Nh), p = new Float32Array(u);
 		for (let e = 0; e < u; e++) p[e] = .5 - .5 * Math.cos(2 * Math.PI * e / u);
 		g = Array.from({ length: r }, () => new Float32Array(u)), i = t.timestamp / e;
 	}
@@ -25154,14 +25171,81 @@ function Nh(e, t) {
 	}
 	return (e) => (i === null && v(e), y(e), t === "stretch" ? C() : w());
 }
+// src/webcamCompositor.ts
+var Fh = {
+	small: .16,
+	medium: .22,
+	large: .3
+};
+function Ih(e) {
+	let t = window.MediaStreamTrackProcessor;
+	if (!t) throw Error("This browser can't composite a webcam into the recording.");
+	let n = new t({ track: e }).readable.getReader(), r = null, i = !1;
+	return (async () => {
+		for (;;) {
+			let { value: e, done: t } = await n.read();
+			if (t || !e) break;
+			if (i) {
+				e.close();
+				break;
+			}
+			r?.close(), r = e;
+		}
+	})().catch(() => {}), {
+		get latest() {
+			return r;
+		},
+		close() {
+			i = !0, n.cancel().catch(() => {}), r?.close(), r = null;
+		}
+	};
+}
+function Lh(e, t) {
+	let n = URL.createObjectURL(new Blob([`setInterval(() => postMessage(0), ${t})`], { type: "text/javascript" })), r = new Worker(n);
+	return r.onmessage = e, () => {
+		r.terminate(), URL.revokeObjectURL(n);
+	};
+}
+function Rh(e) {
+	let { canvas: t, source: n, fps: r, corner: i, size: a, onError: o } = e, s = t.getContext("2d"), c = Ih(e.screenTrack), l = Ih(e.webcamTrack), u = null, d = 0, f = 0, p = null;
+	function m() {
+		let e = c.latest;
+		if (!e) return !1;
+		let { width: n, height: r } = t;
+		s.fillStyle = "#000", s.fillRect(0, 0, n, r);
+		let o = e.displayWidth, u = e.displayHeight, d = Math.min(n / o, r / u);
+		s.drawImage(e, (n - o * d) / 2, (r - u * d) / 2, o * d, u * d);
+		let f = l.latest;
+		if (f) {
+			let e = Math.round(n * a), t = Math.round(e * f.displayHeight / f.displayWidth), o = Math.round(n * .02), c = i.endsWith("left") ? o : n - e - o, l = i.startsWith("top") ? o : r - t - o, u = Math.round(e * .06);
+			s.save(), s.shadowColor = "rgba(0, 0, 0, 0.45)", s.shadowBlur = Math.round(e * .06), s.beginPath(), s.roundRect(c, l, e, t, u), s.fillStyle = "#000", s.fill(), s.restore(), s.save(), s.beginPath(), s.roundRect(c, l, e, t, u), s.clip(), s.drawImage(f, c, l, e, t), s.restore(), s.beginPath(), s.roundRect(c, l, e, t, u), s.lineWidth = Math.max(2, Math.round(e * .012)), s.strokeStyle = "rgba(255, 255, 255, 0.85)", s.stroke();
+		}
+		return !0;
+	}
+	function h() {
+		if (p) return;
+		let e = (performance.now() - d) / 1e3, t = Math.floor(e * r);
+		f > t || (t - f > 1 && (f = t), m() && (p = n.add(f / r, 1 / r).catch(o).finally(() => {
+			p = null;
+		}), f++));
+	}
+	return {
+		start() {
+			d = performance.now(), u = Lh(h, Math.max(4, Math.floor(500 / r)));
+		},
+		async stop() {
+			u?.(), u = null, await p, c.close(), l.close();
+		}
+	};
+}
 // src/screenCapture.ts
-var Ph = {
+var zh = {
 	low: Ai,
 	medium: ji,
 	high: Mi,
 	"very-high": Ni
 };
-function Fh() {
+function Bh() {
 	let e = document.createElement("canvas");
 	e.width = e.height = 64;
 	let t = e.getContext("2d"), n = null, r = [], i = "", a = 0;
@@ -25176,7 +25260,7 @@ function Fh() {
 			let t = () => {
 				let t = performance.now();
 				o(t);
-				let n = Fm((t - e) / 1e3).replace(/\.\d+$/, "");
+				let n = Im((t - e) / 1e3).replace(/\.\d+$/, "");
 				document.title = `● ${n} · ${i}`;
 			};
 			t(), a = window.setInterval(t, 100);
@@ -25186,7 +25270,7 @@ function Fh() {
 		}
 	};
 }
-async function Ih(e) {
+async function Vh(e) {
 	let t = document.createElement("canvas"), n = t.getContext("2d"), r = window.ImageCapture;
 	if (r) try {
 		let i = await new r(e).grabFrame();
@@ -25195,49 +25279,54 @@ async function Ih(e) {
 	let i = document.createElement("video");
 	return i.muted = !0, i.playsInline = !0, i.srcObject = new MediaStream([e]), await i.play(), "requestVideoFrameCallback" in i && await new Promise((e) => i.requestVideoFrameCallback(e)), t.width = i.videoWidth, t.height = i.videoHeight, n.drawImage(i, 0, 0), i.pause(), i.srcObject = null, t;
 }
-var Lh = {
+var Hh = {
 	echoCancellation: !1,
 	noiseSuppression: !1,
 	autoGainControl: !1
-}, Rh = () => (/* @__PURE__ */ new Date()).toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-"), zh = (e) => new Promise((t) => setTimeout(t, e));
-function Bh({ root: e, onCaptured: t }) {
-	let n = (t) => e.getElementById(t), r = n("screen-capture-bar"), i = n("capture-start"), a = n("capture-audio"), o = n("capture-stop"), s = n("capture-system-audio"), c = n("capture-mic"), l = n("capture-fps"), u = n("capture-quality"), d = n("capture-options"), f = n("capture-status"), p = n("capture-shot"), m = n("capture-screenshot"), h = n("capture-shot-delay");
+}, Uh = {
+	echoCancellation: !0,
+	noiseSuppression: !0,
+	autoGainControl: !0,
+	voiceIsolation: !0
+}, Wh = () => (/* @__PURE__ */ new Date()).toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-"), Gh = (e) => new Promise((t) => setTimeout(t, e));
+function Kh({ root: e, onCaptured: t }) {
+	let n = (t) => e.getElementById(t), r = n("screen-capture-bar"), i = n("capture-start"), a = n("capture-audio"), o = n("capture-stop"), s = n("capture-system-audio"), c = n("capture-mic"), l = n("capture-cam"), u = n("capture-cam-corner"), d = n("capture-cam-size"), f = n("capture-fps"), p = n("capture-quality"), m = n("capture-options"), h = n("capture-status"), g = n("capture-shot"), _ = n("capture-screenshot"), v = n("capture-shot-delay");
 	if (!navigator.mediaDevices?.getDisplayMedia) {
 		r.style.display = "none";
 		return;
 	}
-	let g = null, _ = !1, v = null, y = Fh(), b = (e) => Math.max(2, Math.floor(e / 2) * 2);
-	function x(e) {
-		i.style.display = e ? "none" : "", a.style.display = e ? "none" : "", d.style.display = e ? "none" : "", o.style.display = e ? "" : "none", p.style.display = e ? "none" : "", r.classList.toggle("is-recording", e);
+	let y = null, b = !1, x = null, S = Bh(), C = (e) => Math.max(2, Math.floor(e / 2) * 2);
+	function w(e) {
+		i.style.display = e ? "none" : "", a.style.display = e ? "none" : "", m.style.display = e ? "none" : "", o.style.display = e ? "" : "none", g.style.display = e ? "none" : "", r.classList.toggle("is-recording", e);
 	}
-	function S(e, t) {
-		v && URL.revokeObjectURL(v), v = URL.createObjectURL(e);
+	function T(e, t) {
+		x && URL.revokeObjectURL(x), x = URL.createObjectURL(e);
 		let n = document.createElement("a");
-		n.href = v, n.download = e.name, n.textContent = e.type.startsWith("image/") ? "Download screenshot" : "Download recording", f.replaceChildren(t, n);
+		n.href = x, n.download = e.name, n.textContent = e.type.startsWith("image/") ? "Download screenshot" : "Download recording", h.replaceChildren(t, n);
 	}
-	async function C() {
-		if (g) return;
-		let e = parseInt(h.value) || 0, n = null;
-		m.disabled = i.disabled = a.disabled = !0;
+	async function E() {
+		if (y) return;
+		let e = parseInt(v.value) || 0, n = null;
+		_.disabled = i.disabled = a.disabled = !0;
 		try {
 			n = await navigator.mediaDevices.getDisplayMedia({
 				video: !0,
 				audio: !1
 			});
 			let r = n.getVideoTracks()[0];
-			for (let t = e; t > 0; t--) f.textContent = `📸 Capturing in ${t}…`, await zh(1e3);
-			e || await zh(300);
-			let i = await Ih(r), a = await new Promise((e) => i.toBlob(e, "image/png"));
+			for (let t = e; t > 0; t--) h.textContent = `📸 Capturing in ${t}…`, await Gh(1e3);
+			e || await Gh(300);
+			let i = await Vh(r), a = await new Promise((e) => i.toBlob(e, "image/png"));
 			if (!a) throw Error("Could not encode the screenshot.");
-			let o = new File([a], `screenshot_${Rh()}.png`, { type: "image/png" });
-			S(o, `Screenshot ${i.width}×${i.height} (${Pm(o.size)}) — loaded below for editing. `), console.log(`Screenshot captured: ${o.name}, ${i.width}x${i.height}, ${Pm(o.size)}.`), n.getTracks().forEach((e) => e.stop()), n = null, await t(o);
+			let o = new File([a], `screenshot_${Wh()}.png`, { type: "image/png" });
+			T(o, `Screenshot ${i.width}×${i.height} (${Fm(o.size)}) — loaded below for editing. `), console.log(`Screenshot captured: ${o.name}, ${i.width}x${i.height}, ${Fm(o.size)}.`), n.getTracks().forEach((e) => e.stop()), n = null, await t(o);
 		} catch (e) {
-			e?.name === "NotAllowedError" ? f.textContent = "Screenshot was cancelled." : (console.error("Screenshot failed:", e), f.textContent = `Screenshot failed: ${e?.message || e}`);
+			e?.name === "NotAllowedError" ? h.textContent = "Screenshot was cancelled." : (console.error("Screenshot failed:", e), h.textContent = `Screenshot failed: ${e?.message || e}`);
 		} finally {
-			n?.getTracks().forEach((e) => e.stop()), m.disabled = i.disabled = a.disabled = !1;
+			n?.getTracks().forEach((e) => e.stop()), _.disabled = i.disabled = a.disabled = !1;
 		}
 	}
-	function w(e) {
+	function D(e) {
 		if (e.length <= 1) return {
 			track: e[0] ?? null,
 			audioContext: null
@@ -25249,91 +25338,129 @@ function Bh({ root: e, onCaptured: t }) {
 			audioContext: t
 		};
 	}
-	async function T() {
-		if (g) return;
-		let e = parseInt(l.value) || 30, t = [];
+	async function O() {
+		if (y) return;
+		let e = parseInt(f.value) || 30, t = [];
 		try {
-			let n = await navigator.mediaDevices.getDisplayMedia({
+			let n = null;
+			if (l.checked) try {
+				let r = await navigator.mediaDevices.getUserMedia({
+					video: {
+						width: { ideal: 1280 },
+						height: { ideal: 720 },
+						frameRate: { ideal: e }
+					},
+					audio: !1
+				});
+				t.push(r), n = r.getVideoTracks()[0];
+			} catch (e) {
+				throw Error(`Webcam unavailable: ${e?.message || e}`);
+			}
+			let r = await navigator.mediaDevices.getDisplayMedia({
 				video: { frameRate: { ideal: e } },
-				audio: s.checked && Lh
+				audio: s.checked && Hh
 			});
-			if (t.push(n), c.checked) try {
-				t.push(await navigator.mediaDevices.getUserMedia({ audio: !0 }));
+			if (t.push(r), c.checked) try {
+				t.push(await navigator.mediaDevices.getUserMedia({ audio: Uh }));
 			} catch (e) {
 				console.warn("Microphone unavailable; recording without it:", e);
 			}
-			let r = n.getVideoTracks()[0], { width: i = 1920, height: a = 1080 } = r.getSettings(), o = b(i), l = b(a), d = await Ri([
+			let i = r.getVideoTracks()[0], { width: a = 1920, height: o = 1080 } = i.getSettings(), f = C(a), m = C(o), g = await Ri([
 				"avc",
 				"vp9",
 				"av1",
 				"vp8"
 			], {
-				width: o,
-				height: l
+				width: f,
+				height: m
 			});
-			if (!d) throw Error("This browser can't encode video at this size.");
-			let p = d === "avc" || d === "av1", m = p ? new Vp({ fastStart: "in-memory" }) : new Gp(), h = new _p(), _ = new rm({
-				format: m,
-				target: h
-			}), v = new du(r, {
-				codec: d,
-				bitrate: Ph[u.value] ?? (parseFloat(u.value) || 5) * 1e6,
-				contentHint: "detail",
-				sizeChangeBehavior: "contain",
-				...o !== i || l !== a ? { transform: {
-					width: o,
-					height: l,
-					fit: "contain"
-				} } : {}
-			}, { frameRate: e });
-			_.addVideoTrack(v, { frameRate: e });
-			let S = [v.errorPromise], C = t.flatMap((e) => e.getAudioTracks()), { track: T, audioContext: E } = w(C);
-			if (T) {
-				let e = await zi(p ? ["aac", "opus"] : ["opus"]);
+			if (!g) throw Error("This browser can't encode video at this size.");
+			let _ = g === "avc" || g === "av1", v = _ ? new Hp({ fastStart: "in-memory" }) : new Kp(), b = new vp(), x = new im({
+				format: v,
+				target: b
+			}), T = zh[p.value] ?? (parseFloat(p.value) || 5) * 1e6, E = [], O;
+			if (n) {
+				let t = document.createElement("canvas");
+				t.width = f, t.height = m;
+				let r = new du(t, {
+					codec: g,
+					bitrate: T,
+					contentHint: "detail"
+				});
+				x.addVideoTrack(r, { frameRate: e }), O = Rh({
+					canvas: t,
+					source: r,
+					screenTrack: i,
+					webcamTrack: n,
+					fps: e,
+					corner: u.value,
+					size: Fh[d.value] ?? Fh.medium,
+					onError: (e) => {
+						console.error("Screen capture error:", e), h.textContent = `Recording error: ${e?.message || e}`, A();
+					}
+				});
+			} else {
+				let t = new fu(i, {
+					codec: g,
+					bitrate: T,
+					contentHint: "detail",
+					sizeChangeBehavior: "contain",
+					...f !== a || m !== o ? { transform: {
+						width: f,
+						height: m,
+						fit: "contain"
+					} } : {}
+				}, { frameRate: e });
+				x.addVideoTrack(t, { frameRate: e }), E.push(t.errorPromise);
+			}
+			let k = t.flatMap((e) => e.getAudioTracks()), { track: j, audioContext: M } = D(k);
+			if (j) {
+				let e = await zi(_ ? ["aac", "opus"] : ["opus"]);
 				if (e) {
-					let t = new xu(T, {
+					let t = new Su(j, {
 						codec: e,
 						bitrate: 16e4
 					});
-					_.addAudioTrack(t), S.push(t.errorPromise);
+					x.addAudioTrack(t), E.push(t.errorPromise);
 				}
 			}
-			Promise.race(S).catch((e) => {
-				console.error("Screen capture error:", e), f.textContent = `Recording error: ${e?.message || e}`, D();
-			}), await _.start();
-			let O = performance.now();
-			g = {
-				output: _,
-				target: h,
+			Promise.race(E).catch((e) => {
+				console.error("Screen capture error:", e), h.textContent = `Recording error: ${e?.message || e}`, A();
+			}), await x.start();
+			let ee = performance.now();
+			y = {
+				output: x,
+				target: b,
 				streams: t,
-				audioContext: E,
-				startedAt: O,
-				ext: p ? "mp4" : "webm",
-				mime: p ? "video/mp4" : "video/webm",
+				audioContext: M,
+				startedAt: ee,
+				ext: _ ? "mp4" : "webm",
+				mime: _ ? "video/mp4" : "video/webm",
 				prefix: "screen-capture",
+				compositor: O,
 				timer: window.setInterval(() => {
-					f.textContent = `● Recording ${Fm((performance.now() - O) / 1e3).replace(/\.\d+$/, "")}`;
+					h.textContent = `● Recording ${Im((performance.now() - ee) / 1e3).replace(/\.\d+$/, "")}`;
 				}, 250)
-			}, f.textContent = "● Recording 0:00", x(!0), y.start(O), console.log(`Screen capture started: ${o}x${l} @ ${e} fps, ${d} (${u.selectedOptions[0]?.text})${T ? ` + ${C.length > 1 ? "mixed " : ""}audio` : ", no audio"}.`), r.addEventListener("ended", () => void D());
+			}, O?.start(), h.textContent = "● Recording 0:00", w(!0), S.start(ee), console.log(`Screen capture started: ${f}x${m} @ ${e} fps, ${g} (${p.selectedOptions[0]?.text})${n ? " + webcam" : ""}${j ? ` + ${k.length > 1 ? "mixed " : ""}audio` : ", no audio"}.`), i.addEventListener("ended", () => void A());
 		} catch (e) {
-			t.forEach((e) => e.getTracks().forEach((e) => e.stop())), e?.name === "NotAllowedError" ? f.textContent = "Screen capture was cancelled." : (console.error("Screen capture failed:", e), f.textContent = `Screen capture failed: ${e?.message || e}`);
+			t.forEach((e) => e.getTracks().forEach((e) => e.stop())), e?.name === "NotAllowedError" ? h.textContent = "Screen capture was cancelled." : (console.error("Screen capture failed:", e), h.textContent = `Screen capture failed: ${e?.message || e}`);
 		}
 	}
-	async function E() {
-		if (g) return;
+	async function k() {
+		if (y) return;
 		let e = [];
 		try {
 			let t = await navigator.mediaDevices.getDisplayMedia({
 				video: !0,
-				audio: Lh
+				audio: Hh
 			});
 			if (e.push(t), !t.getAudioTracks().length && !c.checked) throw Error("No audio was shared. In the picker, choose a tab or entire screen and enable \"Share audio\".");
 			if (c.checked) try {
-				e.push(await navigator.mediaDevices.getUserMedia({ audio: !0 }));
+				e.push(await navigator.mediaDevices.getUserMedia({ audio: Uh }));
 			} catch (e) {
 				console.warn("Microphone unavailable; recording without it:", e);
 			}
-			let n = e.flatMap((e) => e.getAudioTracks()), { track: r, audioContext: i } = w(n);
+			let n = e.flatMap((e) => e.getAudioTracks()), { track: r, audioContext: i } = D(n);
 			if (!r) throw Error("No audio source is available.");
 			let a = await zi([
 				"pcm-s16",
@@ -25341,56 +25468,58 @@ function Bh({ root: e, onCaptured: t }) {
 				"aac"
 			]);
 			if (!a) throw Error("This browser can't encode audio.");
-			let o = a === "pcm-s16", s = a === "opus", l = o ? new qp() : s ? new Gp() : new Vp({ fastStart: "in-memory" }), u = new _p(), d = new rm({
+			let o = a === "pcm-s16", s = a === "opus", l = o ? new Jp() : s ? new Kp() : new Hp({ fastStart: "in-memory" }), u = new vp(), d = new im({
 				format: l,
 				target: u
-			}), p = new xu(r, {
+			}), f = new Su(r, {
 				codec: a,
 				bitrate: 192e3
 			});
-			d.addAudioTrack(p), p.errorPromise.catch((e) => {
-				console.error("Audio capture error:", e), f.textContent = `Recording error: ${e?.message || e}`, D();
+			d.addAudioTrack(f), f.errorPromise.catch((e) => {
+				console.error("Audio capture error:", e), h.textContent = `Recording error: ${e?.message || e}`, A();
 			}), await d.start();
-			let m = performance.now();
-			g = {
+			let p = performance.now();
+			y = {
 				output: d,
 				target: u,
 				streams: e,
 				audioContext: i,
-				startedAt: m,
+				startedAt: p,
 				ext: l.fileExtension.replace(/^\./, ""),
 				mime: o ? "audio/wav" : s ? "audio/webm" : "audio/mp4",
 				prefix: "audio-capture",
 				timer: window.setInterval(() => {
-					f.textContent = `● Recording audio ${Fm((performance.now() - m) / 1e3).replace(/\.\d+$/, "")}`;
+					h.textContent = `● Recording audio ${Im((performance.now() - p) / 1e3).replace(/\.\d+$/, "")}`;
 				}, 250)
-			}, f.textContent = "● Recording audio 0:00", x(!0), y.start(m), console.log(`Audio capture started: ${a}${n.length > 1 ? ", mixed sources" : ""}.`), t.getTracks().forEach((e) => e.addEventListener("ended", () => void D()));
+			}, h.textContent = "● Recording audio 0:00", w(!0), S.start(p), console.log(`Audio capture started: ${a}${n.length > 1 ? ", mixed sources" : ""}.`), t.getTracks().forEach((e) => e.addEventListener("ended", () => void A()));
 		} catch (t) {
-			e.forEach((e) => e.getTracks().forEach((e) => e.stop())), t?.name === "NotAllowedError" ? f.textContent = "Audio capture was cancelled." : (console.error("Audio capture failed:", t), f.textContent = `Audio capture failed: ${t?.message || t}`);
+			e.forEach((e) => e.getTracks().forEach((e) => e.stop())), t?.name === "NotAllowedError" ? h.textContent = "Audio capture was cancelled." : (console.error("Audio capture failed:", t), h.textContent = `Audio capture failed: ${t?.message || t}`);
 		}
 	}
-	async function D() {
-		if (!g || _) return;
-		_ = !0;
-		let e = g;
-		clearInterval(e.timer), y.stop(), f.textContent = "Finishing recording…";
+	async function A() {
+		if (!y || b) return;
+		b = !0;
+		let e = y;
+		clearInterval(e.timer), S.stop(), h.textContent = "Finishing recording…";
 		try {
-			await e.output.finalize();
+			await e.compositor?.stop(), await e.output.finalize();
 		} finally {
-			e.streams.forEach((e) => e.getTracks().forEach((e) => e.stop())), e.audioContext?.close(), g = null, _ = !1, x(!1);
+			e.streams.forEach((e) => e.getTracks().forEach((e) => e.stop())), e.audioContext?.close(), y = null, b = !1, w(!1);
 		}
 		let n = e.target.buffer;
 		if (!n) {
-			f.textContent = "Recording was empty.";
+			h.textContent = "Recording was empty.";
 			return;
 		}
-		let r = new File([n], `${e.prefix}_${Rh()}.${e.ext}`, { type: e.mime });
-		S(r, `Recorded ${Pm(r.size)} — loaded below for editing. `), console.log(`Screen capture finished: ${r.name}, ${Pm(r.size)}.`), await t(r);
+		let r = new File([n], `${e.prefix}_${Wh()}.${e.ext}`, { type: e.mime });
+		T(r, `Recorded ${Fm(r.size)} — loaded below for editing. `), console.log(`Screen capture finished: ${r.name}, ${Fm(r.size)}.`), await t(r);
 	}
-	i.addEventListener("click", () => void T()), a.addEventListener("click", () => void E()), o.addEventListener("click", () => void D()), m.addEventListener("click", () => void C());
+	i.addEventListener("click", () => void O()), l.addEventListener("change", () => {
+		u.disabled = d.disabled = !l.checked;
+	}), a.addEventListener("click", () => void k()), o.addEventListener("click", () => void A()), _.addEventListener("click", () => void E());
 }
 // src/videoUpscale.ts
-function Vh(e, t, n) {
+function qh(e, t, n) {
 	let r = document.createElement("canvas"), i = r.getContext("2d");
 	n && (r.width = n.width, r.height = n.height);
 	function a(e, t) {
@@ -25420,22 +25549,22 @@ function Vh(e, t, n) {
 	};
 }
 // src/frameInterpolation.ts
-var Hh = {
+var Jh = {
 	label: "RIFE 4.9",
 	url: "https://huggingface.co/yuvraj108c/rife-onnx/resolve/64de7265b6a06637c2f2c6a92ecd1972326499fe/rife49_ensemble_True_scale_1_sim.onnx",
 	bytes: 21458882
-}, Uh = 64, Wh = .2;
-async function Gh(e = () => {}) {
-	let { ort: t, session: n } = await eh(Hh, e), r = document.createElement("canvas"), i = r.getContext("2d", { willReadFrequently: !0 }), a = document.createElement("canvas"), o = a.getContext("2d"), s = 0, c = 0, l = null, u = null;
+}, Yh = 64, Xh = .2;
+async function Zh(e = () => {}) {
+	let { ort: t, session: n } = await th(Jh, e), r = document.createElement("canvas"), i = r.getContext("2d", { willReadFrequently: !0 }), a = document.createElement("canvas"), o = a.getContext("2d"), s = 0, c = 0, l = null, u = null;
 	function d(e, t, n) {
-		let a = Math.ceil(t / Uh) * Uh, o = Math.ceil(n / Uh) * Uh;
+		let a = Math.ceil(t / Yh) * Yh, o = Math.ceil(n / Yh) * Yh;
 		(r.width !== a || r.height !== o) && (r.width = a, r.height = o), i.drawImage(e, 0, 0, t, n), a > t && i.drawImage(r, t - 1, 0, 1, n, t, 0, a - t, n), o > n && i.drawImage(r, 0, n - 1, a, 1, 0, n, a, o - n);
 		let s = i.getImageData(0, 0, a, o).data, c = a * o, l = new Float32Array(3 * c);
 		for (let e = 0, t = 0; e < c; e++, t += 4) l[e] = s[t] / 255, l[c + e] = s[t + 1] / 255, l[2 * c + e] = s[t + 2] / 255;
 		return l;
 	}
 	return {
-		label: Hh.label,
+		label: Jh.label,
 		push(e, t, n) {
 			(t !== s || n !== c) && (s = t, c = n, u = null), l = u, u = d(e, t, n);
 		},
@@ -25443,7 +25572,7 @@ async function Gh(e = () => {}) {
 			if (!l || !u) return !1;
 			let e = 0, t = 0;
 			for (let n = 0; n < u.length; n += 97, t++) e += Math.abs(u[n] - l[n]);
-			return e / t > Wh;
+			return e / t > Xh;
 		},
 		async interpolate(e) {
 			if (!l || !u) throw Error("Interpolation needs two frames.");
@@ -25462,7 +25591,7 @@ async function Gh(e = () => {}) {
 		}
 	};
 }
-function Kh(e, t, n = 1) {
+function Qh(e, t, n = 1) {
 	let r = 1 / t, i = r * .001, a = null, o = 0, s = 0, c = 0, l = (e, t) => {
 		let n = e.clone();
 		return n.setTimestamp(t), n.setDuration(r), n;
@@ -25484,8 +25613,8 @@ function Kh(e, t, n = 1) {
 	};
 }
 // src/toolkitCore.ts
-var qh = [], Jh = !1;
-function Yh(e) {
+var $h = [], eg = !1;
+function tg(e) {
 	if (typeof e != "object" || !e) return String(e);
 	try {
 		return JSON.stringify(e);
@@ -25493,19 +25622,19 @@ function Yh(e) {
 		return String(e);
 	}
 }
-function Xh() {
-	if (Jh) return;
-	Jh = !0;
+function ng() {
+	if (eg) return;
+	eg = !0;
 	let e = console.log, t = console.warn, n = console.error, r = (e, t, n) => {
-		if (n.apply(console, t), qh.length === 0) return;
-		let r = (/* @__PURE__ */ new Date()).toLocaleTimeString(), i = t.map(Yh).join(" ").replace(/</g, "&lt;").replace(/>/g, "&gt;"), a = "#a6e22e";
+		if (n.apply(console, t), $h.length === 0) return;
+		let r = (/* @__PURE__ */ new Date()).toLocaleTimeString(), i = t.map(tg).join(" ").replace(/</g, "&lt;").replace(/>/g, "&gt;"), a = "#a6e22e";
 		e === "warn" && (a = "#fd971f"), e === "error" && (a = "#f92672");
-		for (let e of qh) e.innerHTML += `<div style="color: ${a}">[${r}] ${i}</div>`, e.scrollTop = e.scrollHeight;
+		for (let e of $h) e.innerHTML += `<div style="color: ${a}">[${r}] ${i}</div>`, e.scrollTop = e.scrollHeight;
 	};
 	console.log = (...t) => r("log", t, e), console.warn = (...e) => r("warn", e, t), console.error = (...e) => r("error", e, n);
 }
-function Zh(e, { themeElement: t }) {
-	Xh();
+function rg(e, { themeElement: t }) {
+	ng();
 	let n = [
 		e.getElementById("log-console"),
 		e.getElementById("log-console-img"),
@@ -25513,7 +25642,7 @@ function Zh(e, { themeElement: t }) {
 		e.getElementById("log-console-batch"),
 		e.getElementById("log-console-vbatch")
 	].filter((e) => e != null);
-	n.forEach((e) => qh.push(e)), [
+	n.forEach((e) => $h.push(e)), [
 		e.getElementById("clear-console-btn"),
 		e.getElementById("clear-console-btn-img"),
 		e.getElementById("clear-console-btn-audio"),
@@ -25568,21 +25697,21 @@ function Zh(e, { themeElement: t }) {
 	function Ot() {
 		l.style.display = "block", l.scrollIntoView({ behavior: "smooth" });
 	}
-	K = ph({
+	K = mh({
 		root: e,
-		formatBytes: Pm,
+		formatBytes: Fm,
 		revealLoadedSection: Ot
-	}), xt = vh({
+	}), xt = yh({
 		root: e,
-		formatBytes: Pm,
+		formatBytes: Fm,
 		revealLoadedSection: Ot
-	}), St = Dh({ root: e }), Ct = kh({ root: e }), Bh({
+	}), St = Oh({ root: e }), Ct = Ah({ root: e }), Kh({
 		root: e,
 		onCaptured: (e) => At([e], () => Ft(e))
 	});
 	let kt = !1;
 	async function At(e, t) {
-		kt = !0, s.textContent = e.length > 1 ? `Loading ${e.length} files…` : `Loading ${e[0].name} (${Pm(e[0].size)})…`, o.classList.add("loading"), await new Promise((e) => requestAnimationFrame(() => setTimeout(e)));
+		kt = !0, s.textContent = e.length > 1 ? `Loading ${e.length} files…` : `Loading ${e[0].name} (${Fm(e[0].size)})…`, o.classList.add("loading"), await new Promise((e) => requestAnimationFrame(() => setTimeout(e)));
 		try {
 			await t();
 		} finally {
@@ -25667,9 +25796,9 @@ function Zh(e, { themeElement: t }) {
 		t ? (pt && t !== "video" && (pt.dispose(), pt = null), t === "video" ? await It(e) : t === "image" ? (Pt("image"), xt?.dispose(), await K?.load(e)) : (Pt("audio"), K?.dispose(), await xt?.load(e))) : alert("Unsupported file type. Please load a video, image, or audio file.");
 	}
 	async function It(e) {
-		ft = e, Pt("video"), console.log(`Loading video file: "${e.name}" (${Pm(e.size)})`), K?.dispose(), xt?.dispose(), ot.style.display = "none", lt.src && URL.revokeObjectURL(lt.src), lt.src = "";
+		ft = e, Pt("video"), console.log(`Loading video file: "${e.name}" (${Fm(e.size)})`), K?.dispose(), xt?.dispose(), ot.style.display = "none", lt.src && URL.revokeObjectURL(lt.src), lt.src = "";
 		let t = URL.createObjectURL(e);
-		h.src = t, g.textContent = e.name, _.textContent = Pm(e.size);
+		h.src = t, g.textContent = e.name, _.textContent = Fm(e.size);
 		try {
 			pt && pt.dispose(), pt = new Cl({
 				formats: Gc,
@@ -25690,7 +25819,7 @@ function Zh(e, { themeElement: t }) {
 				} catch (e) {
 					console.warn("Could not decode a frame to verify video dimensions:", e);
 				}
-				_t = await pt.computeDuration(), v.textContent = Fm(_t), y.textContent = gt ? `${mt}x${ht} (container says ${o}x${s})` : `${mt}x${ht}`, b.textContent = `${(mt / ht).toFixed(2)}:1`, x.textContent = String(e).toUpperCase();
+				_t = await pt.computeDuration(), v.textContent = Im(_t), y.textContent = gt ? `${mt}x${ht} (container says ${o}x${s})` : `${mt}x${ht}`, b.textContent = `${(mt / ht).toFixed(2)}:1`, x.textContent = String(e).toUpperCase();
 				try {
 					let e = await i.computePacketStats(300);
 					e && e.averagePacketRate ? (vt = e.averagePacketRate, S.textContent = `${e.averagePacketRate.toFixed(2)} fps`, console.log(`Computed original FPS estimate: ${e.averagePacketRate} fps from prefix stats.`)) : S.textContent = "Unknown";
@@ -25704,7 +25833,7 @@ function Zh(e, { themeElement: t }) {
 			} else console.warn("No video track detected inside this clip! Options might behave differently."), y.textContent = "Audio Only", b.textContent = "-", x.textContent = "-";
 			try {
 				let e = await pt.getMetadataTags(), t = {};
-				for (let [n, r] of Object.entries(e)) t[n] = r instanceof Uint8Array ? `[Binary Array: ${Pm(r.length)}]` : Array.isArray(r) ? `[Array of ${r.length} entries]` : r;
+				for (let [n, r] of Object.entries(e)) t[n] = r instanceof Uint8Array ? `[Binary Array: ${Fm(r.length)}]` : Array.isArray(r) ? `[Array of ${r.length} entries]` : r;
 				let n = Object.keys(t).length > 0 ? JSON.stringify(t, null, 2) : "No tags parsed from metadata container.";
 				w.textContent = n;
 			} catch {
@@ -25715,7 +25844,7 @@ function Zh(e, { themeElement: t }) {
 			console.error("An error occurred during video analysis profiling: ", e), alert(`Could not process video metadata: ${e.message || e}`);
 		}
 	}
-	let Lt = gh({
+	let Lt = _h({
 		media: h,
 		enable: E,
 		controlsGroup: D,
@@ -25789,7 +25918,7 @@ function Zh(e, { themeElement: t }) {
 		let n = parseFloat(le.value) || 1;
 		de.style.display = n === 1 ? "none" : "";
 		let r = Wt(), i = r / ((t || 30) * n), a = Math.round(i) - 1, o = `${Ut(t || 30)} source → ${n === 1 ? "same speed" : `${n}× speed`} at ${Ut(r)}: `;
-		i <= 1.01 ? (o += "no in-between frames are needed — RIFE won't add anything. Lower the speed or raise the frame rate.", fe.classList.add("warn")) : (o += Math.abs(i - Math.round(i)) < .05 ? `RIFE adds ${a} new frame${a === 1 ? "" : "s"} between each source pair (${Math.round(i)}× frames).` : `RIFE synthesizes ~${(i - 1).toFixed(1)} new frames per source frame (${i.toFixed(2)}× frames).`, fe.classList.remove("warn")), _t && n !== 1 && (o += ` Length ${Fm(_t)} → ${Fm(_t / n)}.`), fe.textContent = o;
+		i <= 1.01 ? (o += "no in-between frames are needed — RIFE won't add anything. Lower the speed or raise the frame rate.", fe.classList.add("warn")) : (o += Math.abs(i - Math.round(i)) < .05 ? `RIFE adds ${a} new frame${a === 1 ? "" : "s"} between each source pair (${Math.round(i)}× frames).` : `RIFE synthesizes ~${(i - 1).toFixed(1)} new frames per source frame (${i.toFixed(2)}× frames).`, fe.classList.remove("warn")), _t && n !== 1 && (o += ` Length ${Im(_t)} → ${Im(_t / n)}.`), fe.textContent = o;
 	}
 	I.addEventListener("change", () => {
 		I.checked && !I.dataset.touched && (I.dataset.touched = "1", Gt((vt || 30) >= 50 ? "slowmo" : "smooth")), Kt();
@@ -25808,7 +25937,7 @@ function Zh(e, { themeElement: t }) {
 	}
 	async function Jt() {
 		if ($t(), ln(), !ae.checked) return;
-		let e = await ah();
+		let e = await oh();
 		F.textContent = e === "webgpu" ? "Every frame is upscaled on your GPU, so expect well below real time. Applied after crop and before resize; the model downloads once and is cached." : "⚠️ WebGPU isn't available in this browser, so every frame would be upscaled on the CPU — extremely slow.";
 	}
 	ae.addEventListener("change", Jt);
@@ -25870,7 +25999,7 @@ function Zh(e, { themeElement: t }) {
 			height: tn(Math.max(8, Math.min(Math.round(e.height), n - i)))
 		};
 	}
-	let rn = Km({
+	let rn = qm({
 		container: h.parentElement,
 		getSourceSize: () => ({
 			width: mt,
@@ -25918,11 +26047,11 @@ function Zh(e, { themeElement: t }) {
 			height: e
 		});
 	}), z.addEventListener("change", () => {
-		Hm(he, z.value);
+		Um(he, z.value);
 	});
 	function sn() {
 		let e = parseInt(ge.value);
-		B.textContent = Lm[e] || "Medium", _e && (_e.textContent = zm[e] || ""), V.textContent = Rm[e] || "";
+		B.textContent = Rm[e] || "Medium", _e && (_e.textContent = Bm[e] || ""), V.textContent = zm[e] || "";
 	}
 	ge.addEventListener("input", sn), sn();
 	let cn = e.getElementById("size-estimate");
@@ -25950,17 +26079,17 @@ function Zh(e, { themeElement: t }) {
 			e > 0 && (i = e);
 		}
 		let a = zt();
-		a && (e /= a, i = Bt()), Be.textContent = Fm(e) + (a ? ` at ${a}×` : "");
+		a && (e /= a, i = Bt()), Be.textContent = Im(e) + (a ? ` at ${a}×` : "");
 		let o;
 		if (Ve.checked) o = parseInt(Ue.value) || 0;
 		else {
-			let e = Bm[parseInt(ge.value)] ?? 3.5, t = n && r ? n * r / 2073600 : 1, a = i / 30;
+			let e = Vm[parseInt(ge.value)] ?? 3.5, t = n && r ? n * r / 2073600 : 1, a = i / 30;
 			o = e * 1e6 * t * a;
 		}
 		let s = 0;
 		Ge.checked ? s = parseInt(Ye.value) || 0 : G.checked && yt && (s = 128e3);
 		let c = (o + s) * e / 8;
-		cn.textContent = "≈ " + Pm(c);
+		cn.textContent = "≈ " + Fm(c);
 	}
 	T.addEventListener("input", ln), T.addEventListener("change", ln);
 	function un() {
@@ -25977,7 +26106,7 @@ function Zh(e, { themeElement: t }) {
 		Tt(), Qe.style.display = "none", $e.style.display = "inline-block", et.style.display = "block", ot.style.display = "none", ut.style.display = "none", tt.textContent = "🐰 Initializing conversion pipeline...", nt.textContent = "0%", rt.value = 0, it.textContent = "Processed Time: 0s / 0s";
 		let t = performance.now();
 		try {
-			let e = z.value === "mp4", n = e ? new Vp() : new Gp(), r = new _p(), i = new rm({
+			let e = z.value === "mp4", n = e ? new Hp() : new Kp(), r = new vp(), i = new im({
 				format: n,
 				target: r
 			}), a = {}, o = ve.checked, s = !o && ae.checked, c = null;
@@ -25988,7 +26117,7 @@ function Zh(e, { themeElement: t }) {
 					!isNaN(e) && e > 1e3 ? (a.bitrate = e, console.log(`Using custom target video bitrate: ${(e / 1e6).toFixed(2)} Mbps (${e} bps)`)) : (a.bitrate = ji, console.log("Custom bitrate was invalid. Defaulting to Medium Preset Quality."));
 				} else {
 					let e = parseInt(ge.value);
-					a.bitrate = Im[e] || ji, console.log(`Using video quality preset level: ${e} (${Lm[e] || "Medium"})`);
+					a.bitrate = Lm[e] || ji, console.log(`Using video quality preset level: ${e} (${Rm[e] || "Medium"})`);
 				}
 				if (U.checked ? (a.crop = {
 					left: en.x,
@@ -26010,13 +26139,13 @@ function Zh(e, { themeElement: t }) {
 				} else ee.checked && (re.value && (a.width = Yt(parseInt(re.value))), N.value && (a.height = Yt(parseInt(N.value))), a.fit = ie.value, console.log(`Setting resize dimensions: ${a.width}x${a.height} (${a.fit})`));
 				let e = zt();
 				if (I.checked) {
-					let t = Wt(), n = await Gh((e) => {
+					let t = Wt(), n = await Zh((e) => {
 						tt.textContent = `✨ ${e}`;
 					});
-					a.process = Kh(n, t, e ?? 1), console.log(`✨ ${n.label} frame interpolation: ${Ut(vt || 30)} source → ${e ?? 1}× speed at ${Ut(t)}.`);
+					a.process = Qh(n, t, e ?? 1), console.log(`✨ ${n.label} frame interpolation: ${Ut(vt || 30)} source → ${e ?? 1}× speed at ${Ut(t)}.`);
 				} else if (e) {
 					let t = Bt(), n = Re.value;
-					a.process = Ah(e, t, n), console.log(`Time-lapse: ${e}× speed at ${t} FPS (${n} frames).`);
+					a.process = jh(e, t, n), console.log(`Time-lapse: ${e}× speed at ${t} FPS (${n} frames).`);
 				} else if (Oe.checked) {
 					let e = parseInt(Ae.value);
 					if (!isNaN(e) && e > 0) {
@@ -26083,7 +26212,7 @@ function Zh(e, { themeElement: t }) {
 			}
 			let m = o ? null : zt();
 			if (m && !u.discard) {
-				let e = Ht(), t = Nh(m, e), n = u.process;
+				let e = Ht(), t = Ph(m, e), n = u.process;
 				u.process = async (e) => {
 					if (!n) return t(e);
 					let r = await n(e);
@@ -26093,14 +26222,14 @@ function Zh(e, { themeElement: t }) {
 				}, console.log(`Audio ${e === "stretch" ? "time-stretched (pitch kept)" : "resampled (pitch shifts)"} to ${m}× speed.`);
 			}
 			if (s) {
-				let e = oe.value, t = await oh(e, (e) => {
+				let e = oe.value, t = await sh(e, (e) => {
 					tt.textContent = `✨ ${e}`;
 				});
-				a.process = Vh(t, a.process, c);
+				a.process = qh(t, a.process, c);
 				let n = a.crop?.width ?? mt, r = a.crop?.height ?? ht;
 				a.crop || l !== 90 && l !== 270 || ([n, r] = [r, n]), a.processedWidth = c?.width ?? n * 2, a.processedHeight = c?.height ?? r * 2, console.log(`✨ AI upscale (${t.label}): ${n}x${r} → ${n * 2}x${r * 2}` + (c ? `, then resized to ${c.width}x${c.height}` : ""));
 			}
-			if (bt = await dm.init({
+			if (bt = await fm.init({
 				input: pt,
 				output: i,
 				video: a,
@@ -26124,7 +26253,7 @@ function Zh(e, { themeElement: t }) {
 			let _ = e ? "video/mp4" : "video/webm", v = e ? "mp4" : "webm", y = new Blob([g], { type: _ }), b = URL.createObjectURL(y);
 			st.href = b;
 			let x = ft.name.lastIndexOf("."), S = x > 0 ? ft.name.slice(0, x) : ft.name;
-			st.download = `${S}_web_export.${v}`, ct.textContent = `Size: ${Pm(y.size)}`, lt.src = b, console.log(`🎉 Transcoding successfully finished! Outfile Size: ${Pm(y.size)}.`), ot.style.display = "block", ot.scrollIntoView({ behavior: "smooth" });
+			st.download = `${S}_web_export.${v}`, ct.textContent = `Size: ${Fm(y.size)}`, lt.src = b, console.log(`🎉 Transcoding successfully finished! Outfile Size: ${Fm(y.size)}.`), ot.style.display = "block", ot.scrollIntoView({ behavior: "smooth" });
 		} catch (e) {
 			e.name === "ConversionCanceledError" || e.message?.includes("canceled") ? console.warn("Transcoding canceled by the operator.") : (console.error("Transcoder failure: ", e), alert(`Conversion failure: ${e.message || e}`));
 		} finally {
@@ -26145,14 +26274,14 @@ function Zh(e, { themeElement: t }) {
 	});
 }
 // src/component.ts
-var Qh = r.replace(/:root\b/g, ":host"), $h = "\n:host { display: block; }\n.mb-app {\n  font-family: var(--pico-font-family, system-ui, sans-serif);\n  line-height: var(--pico-line-height, 1.5);\n  color: var(--pico-color);\n  background-color: var(--pico-background-color);\n  -webkit-font-smoothing: antialiased;\n  padding: 0.5rem 1.5rem 2rem;\n}\n", eg = class extends HTMLElement {
+var ig = r.replace(/:root\b/g, ":host"), ag = "\n:host { display: block; }\n.mb-app {\n  font-family: var(--pico-font-family, system-ui, sans-serif);\n  line-height: var(--pico-line-height, 1.5);\n  color: var(--pico-color);\n  background-color: var(--pico-background-color);\n  -webkit-font-smoothing: antialiased;\n  padding: 0.5rem 1.5rem 2rem;\n}\n", og = class extends HTMLElement {
 	connectedCallback() {
 		if (this.shadowRoot) return;
 		let e = this.attachShadow({ mode: "open" }), t = document.createElement("style");
-		t.textContent = Qh + $h, e.appendChild(t);
+		t.textContent = ig + ag, e.appendChild(t);
 		let n = document.createElement("div");
-		n.className = "mb-app", n.setAttribute("data-theme", this.getAttribute("theme") || "dark"), n.innerHTML = i, e.appendChild(n), Zh(e, { themeElement: n });
+		n.className = "mb-app", n.setAttribute("data-theme", this.getAttribute("theme") || "dark"), n.innerHTML = i, e.appendChild(n), rg(e, { themeElement: n });
 	}
 };
-customElements.get("media-converter") || customElements.define("media-converter", eg), customElements.get("mediabunny-toolkit") || customElements.define("mediabunny-toolkit", class extends eg {});
-export { eg as MediaConverter };
+customElements.get("media-converter") || customElements.define("media-converter", og), customElements.get("mediabunny-toolkit") || customElements.define("mediabunny-toolkit", class extends og {});
+export { og as MediaConverter };

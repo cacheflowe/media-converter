@@ -17,6 +17,7 @@ import {
   WavOutputFormat,
   MediaStreamVideoTrackSource,
   MediaStreamAudioTrackSource,
+  CanvasSource,
   getFirstEncodableVideoCodec,
   getFirstEncodableAudioCodec,
   QUALITY_LOW,
@@ -33,6 +34,8 @@ const QUALITY_PRESETS: Record<string, Quality> = {
   "very-high": QUALITY_VERY_HIGH,
 };
 import { formatBytes, formatDuration } from "./shared";
+import { createWebcamCompositor, WEBCAM_SIZES } from "./webcamCompositor";
+import type { WebcamCorner } from "./webcamCompositor";
 
 /**
  * Swaps the tab's favicon for a pulsing red "recording" dot while active, and
@@ -152,6 +155,19 @@ const RAW_AUDIO: MediaTrackConstraints = {
   autoGainControl: false,
 };
 
+/**
+ * The mic gets the opposite treatment: explicitly request every voice-cleanup
+ * feature (browsers default to these, but being explicit guards against a
+ * remembered/disabled state). `voiceIsolation` is a newer, Chrome-only
+ * constraint that's ignored where unsupported.
+ */
+const VOICE_AUDIO = {
+  echoCancellation: true,
+  noiseSuppression: true,
+  autoGainControl: true,
+  voiceIsolation: true,
+} as MediaTrackConstraints;
+
 const timestamp = () => new Date().toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-");
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -163,6 +179,9 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
   const stopBtn = get<HTMLButtonElement>("capture-stop");
   const systemAudio = get<HTMLInputElement>("capture-system-audio");
   const mic = get<HTMLInputElement>("capture-mic");
+  const cam = get<HTMLInputElement>("capture-cam");
+  const camCorner = get<HTMLSelectElement>("capture-cam-corner");
+  const camSize = get<HTMLSelectElement>("capture-cam-size");
   const fpsSelect = get<HTMLSelectElement>("capture-fps");
   const qualitySelect = get<HTMLSelectElement>("capture-quality");
   const options = get<HTMLElement>("capture-options");
@@ -187,6 +206,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     ext: string;
     mime: string;
     prefix: string;
+    compositor?: ReturnType<typeof createWebcamCompositor>;
   } | null = null;
   let stopping = false;
   let lastUrl: string | null = null;
@@ -264,6 +284,20 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     const fps = parseInt(fpsSelect.value) || 30;
     const streams: MediaStream[] = [];
     try {
+      // Ask for the webcam first so a denied/missing camera fails before the screen picker
+      let webcamTrack: MediaStreamTrack | null = null;
+      if (cam.checked) {
+        try {
+          const camStream = await navigator.mediaDevices.getUserMedia({
+            video: { width: { ideal: 1280 }, height: { ideal: 720 }, frameRate: { ideal: fps } },
+            audio: false,
+          });
+          streams.push(camStream);
+          webcamTrack = camStream.getVideoTracks()[0];
+        } catch (err: any) {
+          throw new Error(`Webcam unavailable: ${err?.message || err}`);
+        }
+      }
       const display = await navigator.mediaDevices.getDisplayMedia({
         video: { frameRate: { ideal: fps } },
         audio: systemAudio.checked && RAW_AUDIO,
@@ -271,7 +305,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       streams.push(display);
       if (mic.checked) {
         try {
-          streams.push(await navigator.mediaDevices.getUserMedia({ audio: true }));
+          streams.push(await navigator.mediaDevices.getUserMedia({ audio: VOICE_AUDIO }));
         } catch (err) {
           console.warn("Microphone unavailable; recording without it:", err);
         }
@@ -292,7 +326,31 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
 
       // A quality preset (scaled by resolution) or a fixed Mbps target
       const bitrate = QUALITY_PRESETS[qualitySelect.value] ?? (parseFloat(qualitySelect.value) || 5) * 1_000_000;
-      const videoSource = new MediaStreamVideoTrackSource(
+      const errorSources: Promise<void>[] = [];
+      let compositor: ReturnType<typeof createWebcamCompositor> | undefined;
+      if (webcamTrack) {
+        // Composite the screen and webcam onto a canvas and encode that instead
+        const canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        const canvasSource = new CanvasSource(canvas, { codec: videoCodec, bitrate, contentHint: "detail" });
+        output.addVideoTrack(canvasSource, { frameRate: fps });
+        compositor = createWebcamCompositor({
+          canvas,
+          source: canvasSource,
+          screenTrack: videoTrack,
+          webcamTrack,
+          fps,
+          corner: camCorner.value as WebcamCorner,
+          size: WEBCAM_SIZES[camSize.value] ?? WEBCAM_SIZES.medium,
+          onError: (err) => {
+            console.error("Screen capture error:", err);
+            status.textContent = `Recording error: ${(err as any)?.message || err}`;
+            void stop();
+          },
+        });
+      } else {
+        const videoSource = new MediaStreamVideoTrackSource(
           videoTrack as MediaStreamVideoTrack,
           {
             codec: videoCodec,
@@ -306,8 +364,9 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
           },
           { frameRate: fps },
         );
-      output.addVideoTrack(videoSource, { frameRate: fps });
-      const errorSources: Promise<void>[] = [videoSource.errorPromise];
+        output.addVideoTrack(videoSource, { frameRate: fps });
+        errorSources.push(videoSource.errorPromise);
+      }
 
       const audioTracks = streams.flatMap((s) => s.getAudioTracks());
       const { track: audioTrack, audioContext } = combineAudio(audioTracks);
@@ -341,15 +400,17 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
         ext: isMp4 ? "mp4" : "webm",
         mime: isMp4 ? "video/mp4" : "video/webm",
         prefix: "screen-capture",
+        compositor,
         timer: window.setInterval(() => {
           status.textContent = `● Recording ${formatDuration((performance.now() - startedAt) / 1000).replace(/\.\d+$/, "")}`;
         }, 250),
       };
+      compositor?.start();
       status.textContent = "● Recording 0:00";
       setRecordingUI(true);
       indicator.start(startedAt);
       console.log(
-        `Screen capture started: ${w}x${h} @ ${fps} fps, ${videoCodec} (${qualitySelect.selectedOptions[0]?.text})${audioTrack ? ` + ${audioTracks.length > 1 ? "mixed " : ""}audio` : ", no audio"}.`,
+        `Screen capture started: ${w}x${h} @ ${fps} fps, ${videoCodec} (${qualitySelect.selectedOptions[0]?.text})${webcamTrack ? " + webcam" : ""}${audioTrack ? ` + ${audioTracks.length > 1 ? "mixed " : ""}audio` : ", no audio"}.`,
       );
 
       // The browser's own "Stop sharing" button ends the video track
@@ -381,7 +442,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       }
       if (mic.checked) {
         try {
-          streams.push(await navigator.mediaDevices.getUserMedia({ audio: true }));
+          streams.push(await navigator.mediaDevices.getUserMedia({ audio: VOICE_AUDIO }));
         } catch (err) {
           console.warn("Microphone unavailable; recording without it:", err);
         }
@@ -451,6 +512,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     indicator.stop();
     status.textContent = "Finishing recording…";
     try {
+      await s.compositor?.stop();
       await s.output.finalize();
     } finally {
       s.streams.forEach((st) => st.getTracks().forEach((t) => t.stop()));
@@ -473,6 +535,9 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
   }
 
   startBtn.addEventListener("click", () => void start());
+  cam.addEventListener("change", () => {
+    camCorner.disabled = camSize.disabled = !cam.checked;
+  });
   audioBtn.addEventListener("click", () => void startAudio());
   stopBtn.addEventListener("click", () => void stop());
   shotBtn.addEventListener("click", () => void screenshot());
