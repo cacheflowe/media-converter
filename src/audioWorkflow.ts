@@ -17,6 +17,7 @@ import {
 } from "mediabunny";
 import { formatDuration } from "./shared";
 import { createTrimController } from "./trimController";
+import { bindEnhanceControls, setupVoiceEnhance } from "./voiceEnhance";
 
 type CreateAudioWorkflowOptions = {
   /** Root to query into: `document` (standalone) or a `ShadowRoot` (component). */
@@ -89,6 +90,7 @@ export function createAudioWorkflow({ root, formatBytes, revealLoadedSection }: 
   let currentInput: Input | null = null;
   let sourceDuration = 0;
   let currentConversion: Conversion | null = null;
+  let cancelRequested = false;
   let objectUrl: string | null = null;
   let outputUrl: string | null = null;
 
@@ -336,6 +338,10 @@ export function createAudioWorkflow({ root, formatBytes, revealLoadedSection }: 
 
   // --- Format / estimate ---
   outFormat.addEventListener("change", updateFormatUI);
+
+  // --- Voice enhancement ---
+  const enhanceControls = bindEnhanceControls(root, "audio");
+
   form.addEventListener("input", updateSizeEstimate);
   form.addEventListener("change", updateSizeEstimate);
 
@@ -349,6 +355,7 @@ export function createAudioWorkflow({ root, formatBytes, revealLoadedSection }: 
 
     processBtn.style.display = "none";
     cancelBtn.style.display = "inline-block";
+    cancelRequested = false;
     progressSection.style.display = "block";
     resultSection.style.display = "none";
     outputPlaceholder.style.display = "none";
@@ -375,6 +382,31 @@ export function createAudioWorkflow({ root, formatBytes, revealLoadedSection }: 
         enableTrim.checked && sourceDuration
           ? { start: parseFloat(trimStart.value), end: parseFloat(trimEnd.value) }
           : undefined;
+
+      const enhance = enhanceControls.getOptions();
+      if (enhance) {
+        const track = await currentInput.getPrimaryAudioTrack();
+        if (!track) throw new Error("No audio track found.");
+        const setup = await setupVoiceEnhance({
+          track,
+          options: enhance,
+          span: trim ?? null,
+          ranges: trim ? [trim] : [],
+          onStatus: (message) => (progressTitle.textContent = message),
+          isCancelled: () => cancelRequested,
+        });
+        if (setup.sampleRate) {
+          if (audioConfig.sampleRate && audioConfig.sampleRate !== setup.sampleRate) {
+            console.log(`🧠 AI noise reduction works at ${setup.sampleRate} Hz; overriding the ${audioConfig.sampleRate} Hz output setting.`);
+          }
+          audioConfig.sampleRate = setup.sampleRate;
+        }
+        audioConfig.process = setup.wrap(audioConfig.process);
+        console.log(
+          `🎙️ Voice enhance on${setup.denoised ? " (AI noise reduction)" : ""}${enhance.targetDb !== null ? `, loudness gain ${setup.gainDb >= 0 ? "+" : ""}${setup.gainDb.toFixed(1)} dB` : ""}.`,
+        );
+        progressTitle.textContent = "🎵 Initializing audio pipeline...";
+      }
 
       currentConversion = await Conversion.init({ input: currentInput, output, audio: audioConfig, trim });
 
@@ -427,6 +459,7 @@ export function createAudioWorkflow({ root, formatBytes, revealLoadedSection }: 
   });
 
   cancelBtn.addEventListener("click", async () => {
+    cancelRequested = true;
     if (currentConversion) {
       console.log("Requesting cancellation of audio conversion...");
       await currentConversion.cancel();

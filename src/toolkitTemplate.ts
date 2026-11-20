@@ -1,6 +1,60 @@
 // Shared UI markup — single source of truth for both the standalone site
 // (src/main.ts) and the web component (src/component.ts). Edit the markup here.
 
+/** "Enhance Voice" card, used by both the video and audio workspaces (IDs are `${prefix}-enhance-*`). */
+const enhanceVoiceCard = (prefix: string) => /*html*/ `
+<details class="config-card" id="panel-${prefix}-enhance">
+                <summary class="card-header">🎙️ Enhance Voice</summary>
+                <div class="config-card-body">
+                  <fieldset>
+                    <label for="${prefix}-enhance-enable">
+                      <input type="checkbox" id="${prefix}-enhance-enable" />
+                      Clean up and master a voiceover (re-encodes the audio)
+                    </label>
+                  </fieldset>
+                  <div id="${prefix}-enhance-controls" style="display: none; padding-top: 0.5rem">
+                    <fieldset>
+                      <label for="${prefix}-enhance-neural" title="Resemble Enhance's denoiser, run in your browser (ONNX). Removes background noise and room tone without generating new audio.">
+                        <input type="checkbox" id="${prefix}-enhance-neural" /> AI noise reduction (Resemble denoiser)
+                      </label>
+                      <select id="${prefix}-enhance-neural-mix" aria-label="AI noise reduction strength" disabled>
+                        <option value="1">Full strength</option>
+                        <option value="0.8" selected>Natural (80% wet)</option>
+                        <option value="0.6">Light (60% wet)</option>
+                      </select>
+                      <small style="color: var(--pico-muted-color)">
+                        Downloads a ~43 MB model on first use (then cached). Processes at 44.1 kHz and mixes to a
+                        centered mono voice. Takes seconds with a GPU (WebGPU), about 2× the clip length without.
+                      </small>
+                    </fieldset>
+                    <fieldset>
+                      <label for="${prefix}-enhance-lowcut" title="High-pass at 80 Hz: removes desk rumble and plosive thumps">
+                        <input type="checkbox" id="${prefix}-enhance-lowcut" checked /> Cut low rumble (80 Hz)
+                      </label>
+                      <label for="${prefix}-enhance-eq" title="Low shelf +2.5 dB at 150 Hz and high shelf +3 dB at 5 kHz">
+                        <input type="checkbox" id="${prefix}-enhance-eq" checked /> Warmth &amp; presence EQ
+                      </label>
+                      <label for="${prefix}-enhance-compress" title="Evens out quiet and loud syllables (3:1)">
+                        <input type="checkbox" id="${prefix}-enhance-compress" checked /> Compressor
+                      </label>
+                      <label for="${prefix}-enhance-gate" title="Gently lowers (up to 10 dB) very quiet noise between phrases">
+                        <input type="checkbox" id="${prefix}-enhance-gate" checked /> Gentle noise gate
+                      </label>
+                    </fieldset>
+                    <label for="${prefix}-enhance-loudness">Loudness (average)</label>
+                    <select id="${prefix}-enhance-loudness" name="${prefix}-enhance-loudness">
+                      <option value="-16">Podcast (about −16 dB)</option>
+                      <option value="-14">Loud / streaming (about −14 dB)</option>
+                      <option value="-20">Quiet (about −20 dB)</option>
+                      <option value="off" selected>Don't change the level</option>
+                    </select>
+                    <small style="color: var(--pico-muted-color)">
+                      Applied on conversion. Loudness is measured first, so this adds an extra pass.
+                    </small>
+                  </div>
+                </div>
+              </details>`;
+
 export const TOOLKIT_MARKUP = /*html*/ `
 <nav class="brand-nav">
       <ul>
@@ -137,6 +191,18 @@ export const TOOLKIT_MARKUP = /*html*/ `
               <option value="20">20 Mbps</option>
             </optgroup>
           </select>
+          <div class="capture-devices">
+            <div id="capture-mic-row" class="capture-device-row">
+              <span class="capture-device-label">🎤</span>
+              <select id="capture-mic-device" aria-label="Microphone"></select>
+              <div class="capture-meter" title="Microphone level"><span id="capture-mic-level"></span></div>
+            </div>
+            <div id="capture-cam-row" class="capture-device-row">
+              <span class="capture-device-label">📷</span>
+              <select id="capture-cam-device" aria-label="Webcam"></select>
+              <video id="capture-cam-preview" class="capture-cam-preview" muted playsinline></video>
+            </div>
+          </div>
         </div>
         <button type="button" id="capture-start" class="secondary">🎥 Start Recording</button>
         <button type="button" id="capture-audio" class="secondary outline" title="Record tab/system audio (and mic if checked) to the audio editor">🎧 Record Audio</button>
@@ -801,6 +867,8 @@ None detected</pre
                 
                   </div>
                 </details>
+
+                ${enhanceVoiceCard("video")}
             </form>
           </div>
           <!-- Column 3: output / download -->
@@ -1364,6 +1432,8 @@ None detected</pre
                   </div>
                 </div>
               </details>
+
+              ${enhanceVoiceCard("audio")}
 
               <details class="config-card" id="panel-audio-output">
                 <summary class="card-header">🎧 Output Format & Encoding</summary>

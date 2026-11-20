@@ -176,6 +176,48 @@ body {
   margin: 0;
 }
 
+/* Mic / webcam pickers with live previews, on their own full-width row */
+.capture-devices {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+}
+
+.capture-device-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.capture-device-row select {
+  max-width: 14rem;
+}
+
+.capture-meter {
+  width: 90px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--pico-muted-border-color);
+  overflow: hidden;
+}
+
+.capture-meter > span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: #30a46c;
+}
+
+.capture-cam-preview {
+  width: 112px;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  background: #000;
+  object-fit: cover;
+}
+
 .capture-options select,
 .capture-shot select {
   width: auto;

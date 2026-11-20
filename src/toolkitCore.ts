@@ -23,6 +23,7 @@ import { createTrimController } from "./trimController";
 import { createCropEditor } from "./cropEditor";
 import { createTimelapseProcess, type TimelapseFrameMode } from "./timelapse";
 import { createAudioSpeedProcess, type AudioSpeedMode } from "./audioStretch";
+import { bindEnhanceControls, setupVoiceEnhance } from "./voiceEnhance";
 import { createScreenCapture } from "./screenCapture";
 import { createFrameUpscaler, getUpscaleBackend, OUTPUT_SCALE, type UpscaleModelId } from "./upscaler";
 import { createUpscaleProcess, type UpscaleResizeTarget } from "./videoUpscale";
@@ -261,6 +262,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   const audioBitrate = root.getElementById("audio-bitrate") as HTMLSelectElement;
   const audioChannels = root.getElementById("audio-channels") as HTMLSelectElement;
   const audioSamplerate = root.getElementById("audio-samplerate") as HTMLSelectElement;
+  const voiceEnhance = bindEnhanceControls(root, "video");
 
   // Execution elements
   const convertBtn = root.getElementById("convert-btn") as HTMLButtonElement;
@@ -292,6 +294,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   let sourceFps: number = 0;
   let sourceHasAudio: boolean = false;
   let currentActiveConversion: Conversion | null = null;
+  let voiceCancelRequested = false;
 
   type MediaKind = "video" | "image" | "audio" | "batch" | "vbatch";
   let imageWorkflow: ReturnType<typeof createImageWorkflow> | null = null;
@@ -1174,6 +1177,8 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
     });
 
     if (audioTranscodeOption) audioTranscodeOption.style.display = on ? "none" : "";
+    // Enhancing the voice re-encodes the audio, so it's unavailable for a stream copy
+    if (voiceEnhance.panel) voiceEnhance.panel.style.display = on ? "none" : "";
     if (on && audioModeTranscode.checked) {
       audioModeCopy.checked = true;
       audioTranscodeControls.style.display = "none";
@@ -1538,6 +1543,35 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
         console.log(`Audio ${mode === "stretch" ? "time-stretched (pitch kept)" : "resampled (pitch shifts)"} to ${audioSpeed}× speed.`);
       }
 
+      // Voice enhancement runs last on the audio, after section joining and speed
+      // change. It needs the audio re-encoded, so it overrides a raw copy.
+      const enhance = !wantsFastCopy && !audioConfig.discard && sourceHasAudio ? voiceEnhance.getOptions() : null;
+      if (enhance) {
+        const track = await currentSourceInput.getPrimaryAudioTrack();
+        if (track) {
+          voiceCancelRequested = false;
+          const setup = await setupVoiceEnhance({
+            track,
+            options: enhance,
+            span: ranges ? { start: ranges[0].start, end: ranges[ranges.length - 1].end } : null,
+            ranges: ranges ?? [],
+            onStatus: (message) => (progressTitle.textContent = message),
+            isCancelled: () => voiceCancelRequested,
+          });
+          if (setup.sampleRate) {
+            if (audioConfig.sampleRate && audioConfig.sampleRate !== setup.sampleRate) {
+              console.log(`🧠 AI noise reduction works at ${setup.sampleRate} Hz; overriding the ${audioConfig.sampleRate} Hz output setting.`);
+            }
+            audioConfig.sampleRate = setup.sampleRate;
+          }
+          audioConfig.forceTranscode = true;
+          audioConfig.process = setup.wrap(audioConfig.process);
+          console.log(
+            `🎙️ Voice enhance on (audio is re-encoded)${setup.denoised ? " with AI noise reduction" : ""}${enhance.targetDb !== null ? `, loudness gain ${setup.gainDb >= 0 ? "+" : ""}${setup.gainDb.toFixed(1)} dB` : ""}.`,
+          );
+        }
+      }
+
       // AI upscale wraps the finished video process chain, so it sees exactly the
       // frames that will be encoded (after time-lapse, blending and section joins).
       if (wantsUpscale) {
@@ -1651,6 +1685,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
 
   // Cancellation hookup
   cancelBtn.addEventListener("click", async () => {
+    voiceCancelRequested = true;
     if (currentActiveConversion) {
       console.log("Requesting cancellation of active codec processors...");
       await currentActiveConversion.cancel();

@@ -34,6 +34,7 @@ const QUALITY_PRESETS: Record<string, Quality> = {
   "very-high": QUALITY_VERY_HIGH,
 };
 import { formatBytes, formatDuration } from "./shared";
+import { createDevicePicker, deviceConstraint, startLevelMeter } from "./capturePreview";
 import { createWebcamCompositor, WEBCAM_SIZES } from "./webcamCompositor";
 import type { WebcamCorner } from "./webcamCompositor";
 
@@ -189,6 +190,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
   const shotWrap = get<HTMLElement>("capture-shot");
   const shotBtn = get<HTMLButtonElement>("capture-screenshot");
   const shotDelay = get<HTMLSelectElement>("capture-shot-delay");
+  const devices = get<HTMLElement>("capture-options").querySelector(".capture-devices") as HTMLElement;
 
   if (!navigator.mediaDevices?.getDisplayMedia) {
     // e.g. mobile browsers
@@ -214,6 +216,51 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
 
   const even = (n: number) => Math.max(2, Math.floor(n / 2) * 2);
 
+  // Device pickers: choose the mic / webcam and preview them before recording
+  const camPreview = get<HTMLVideoElement>("capture-cam-preview");
+  const micLevel = get<HTMLElement>("capture-mic-level");
+  let stopMeter: (() => void) | null = null;
+  const micPicker = createDevicePicker({
+    kind: "audioinput",
+    checkbox: mic,
+    select: get<HTMLSelectElement>("capture-mic-device"),
+    wrap: get<HTMLElement>("capture-mic-row"),
+    constraints: (deviceId) => ({ audio: { ...VOICE_AUDIO, deviceId } }),
+    onStream: (stream) => {
+      stopMeter?.();
+      stopMeter = stream ? startLevelMeter(stream, micLevel) : null;
+    },
+    onError: (message) => (status.textContent = message),
+    storageKey: "media-converter.mic-device",
+  });
+  const camPicker = createDevicePicker({
+    kind: "videoinput",
+    checkbox: cam,
+    select: get<HTMLSelectElement>("capture-cam-device"),
+    wrap: get<HTMLElement>("capture-cam-row"),
+    constraints: (deviceId) => ({ video: { deviceId, width: { ideal: 640 }, height: { ideal: 360 } }, audio: false }),
+    onStream: (stream) => {
+      camPreview.srcObject = stream;
+      if (stream) void camPreview.play().catch(() => {});
+    },
+    onError: (message) => (status.textContent = message),
+    storageKey: "media-converter.cam-device",
+  });
+  const updateDevicesRow = () => (devices.style.display = mic.checked || cam.checked ? "" : "none");
+  mic.addEventListener("change", updateDevicesRow);
+  cam.addEventListener("change", updateDevicesRow);
+  updateDevicesRow();
+
+  /** The preview streams are released while recording, since cameras often can't be opened twice. */
+  const releasePreviews = () => {
+    micPicker.release();
+    camPicker.release();
+  };
+  const resumePreviews = () => {
+    micPicker.resume();
+    camPicker.resume();
+  };
+
   function setRecordingUI(recording: boolean) {
     startBtn.style.display = recording ? "none" : "";
     audioBtn.style.display = recording ? "none" : "";
@@ -221,6 +268,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     stopBtn.style.display = recording ? "" : "none";
     shotWrap.style.display = recording ? "none" : "";
     bar.classList.toggle("is-recording", recording);
+    if (!recording) resumePreviews();
   }
 
   /** Shows a status message with a download link for the captured file. */
@@ -283,13 +331,19 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
     if (session) return;
     const fps = parseInt(fpsSelect.value) || 30;
     const streams: MediaStream[] = [];
+    releasePreviews();
     try {
       // Ask for the webcam first so a denied/missing camera fails before the screen picker
       let webcamTrack: MediaStreamTrack | null = null;
       if (cam.checked) {
         try {
           const camStream = await navigator.mediaDevices.getUserMedia({
-            video: { width: { ideal: 1280 }, height: { ideal: 720 }, frameRate: { ideal: fps } },
+            video: {
+              deviceId: deviceConstraint(camPicker.deviceId()),
+              width: { ideal: 1280 },
+              height: { ideal: 720 },
+              frameRate: { ideal: fps },
+            },
             audio: false,
           });
           streams.push(camStream);
@@ -305,7 +359,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       streams.push(display);
       if (mic.checked) {
         try {
-          streams.push(await navigator.mediaDevices.getUserMedia({ audio: VOICE_AUDIO }));
+          streams.push(await navigator.mediaDevices.getUserMedia({ audio: { ...VOICE_AUDIO, deviceId: deviceConstraint(micPicker.deviceId()) } }));
         } catch (err) {
           console.warn("Microphone unavailable; recording without it:", err);
         }
@@ -417,6 +471,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       videoTrack.addEventListener("ended", () => void stop());
     } catch (err: any) {
       streams.forEach((s) => s.getTracks().forEach((t) => t.stop()));
+      resumePreviews();
       if (err?.name === "NotAllowedError") {
         status.textContent = "Screen capture was cancelled.";
       } else {
@@ -434,6 +489,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
   async function startAudio() {
     if (session) return;
     const streams: MediaStream[] = [];
+    releasePreviews();
     try {
       const display = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: RAW_AUDIO });
       streams.push(display);
@@ -442,7 +498,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       }
       if (mic.checked) {
         try {
-          streams.push(await navigator.mediaDevices.getUserMedia({ audio: VOICE_AUDIO }));
+          streams.push(await navigator.mediaDevices.getUserMedia({ audio: { ...VOICE_AUDIO, deviceId: deviceConstraint(micPicker.deviceId()) } }));
         } catch (err) {
           console.warn("Microphone unavailable; recording without it:", err);
         }
@@ -495,6 +551,7 @@ export function createScreenCapture({ root, onCaptured }: ScreenCaptureOptions) 
       display.getTracks().forEach((t) => t.addEventListener("ended", () => void stop()));
     } catch (err: any) {
       streams.forEach((s) => s.getTracks().forEach((t) => t.stop()));
+      resumePreviews();
       if (err?.name === "NotAllowedError") {
         status.textContent = "Audio capture was cancelled.";
       } else {

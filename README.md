@@ -13,7 +13,8 @@ Features:
 - **Video**: transcode (MP4/WebM, H.264/HEVC/VP9/VP8/AV1), quality/bitrate control,
   trim (multiple sections joined into one clip), crop, resize, rotate, speed change /
   time-lapse (skip or motion-blur frames, pitch-preserving audio), frame-rate
-  resampling (repeat or blend), audio transcode/copy/strip, and fast-copy (no
+  resampling (repeat or blend), audio transcode/copy/strip, **Enhance Voice**
+  (same pass as in the Audio workspace), and fast-copy (no
   re-encode) trims.
 - **AI for video**: 2x upscaling (Real-ESRGAN) and **RIFE** frame interpolation for
   smoother frame rates or slow motion — see below.
@@ -21,11 +22,15 @@ Features:
   (blur / pixelate / solid), **AI upscale 2x**, format + quality export
   (JPEG/PNG/WebP/AVIF), and a "lightweight Base64 PNG" (palette-quantized) copy.
   HEIC/HEIF photos are decoded on demand.
-- **Audio**: waveform with trim, transcode to MP3/M4A/Opus/WAV/FLAC.
+- **Audio**: waveform with trim, transcode to MP3/M4A/Opus/WAV/FLAC, and an
+  optional **Enhance Voice** pass for voiceovers (AI noise reduction with the
+  Resemble denoiser, low-cut, warmth/presence EQ, compressor, gentle noise gate,
+  loudness normalization).
 - **Batch**: drop several images or several videos to convert them with shared
   settings and download everything as one ZIP.
 - **Screen capture**: record a screen, window, or tab to MP4 (with tab/system
-  audio and mic, and an optional **webcam picture-in-picture** in any corner),
+  audio and mic, and an optional **webcam picture-in-picture** in any corner;
+  pick the mic and webcam with a live level meter and preview first),
   or grab a single-frame **screenshot** (optionally after a 3–5 s
   delay) as a PNG that opens straight in the image workspace, or **record
   audio only** (tab/system audio and/or mic) to a WAV that opens in the audio
@@ -55,6 +60,8 @@ The exact same UI and logic build into **three targets** from one shared codebas
 | `src/toolkitCore.ts` | Core behavior and the video workspace: `mountToolkit(root, { themeElement })`, scoped to whatever root it's given (a `Document` or a `ShadowRoot`). |
 | `src/imageWorkflow.ts` | Image crop / redact / AI upscale / export workflow (also root-scoped). |
 | `src/audioWorkflow.ts` | Audio workspace: waveform, trim, transcode. |
+| `src/voiceEnhance.ts` | Streaming voice-mastering chain (EQ, compressor, gate, loudness) used by the audio and video workspaces. |
+| `src/neuralDenoise.ts` | AI noise reduction: Resemble denoiser (ONNX) with a JS STFT/ISTFT, run as a pre-pass. |
 | `src/imageBatchWorkflow.ts`, `src/videoBatchWorkflow.ts`, `src/batchShared.ts` | Batch modes on a shared queue / thumbnail / ZIP engine (`src/zip.ts`). |
 | `src/screenCapture.ts` | Screen recording (Mediabunny MediaStream sources → MP4) and screenshots. |
 | `src/trimController.ts`, `src/cropEditor.ts` | Trim and crop editors shared by the video, audio, and image workspaces. |
@@ -221,7 +228,9 @@ the collapsible diagnostics console).
 - **Network**: your media never leaves the browser. The only requests beyond the
   page itself are on-demand downloads — the onnxruntime-web WASM runtime from
   jsDelivr and the AI models from Hugging Face (both pinned, and models are
-  cached after the first use).
+  cached after the first use). The one exception is the voice-denoise model
+  ([skeskinen/resemble-denoise-onnx-inference](https://github.com/skeskinen/resemble-denoise-onnx-inference),
+  MIT, ~43 MB), which comes from GitHub, pinned to a commit.
 
 ---
 
