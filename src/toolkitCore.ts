@@ -24,6 +24,9 @@ import { createCropEditor } from "./cropEditor";
 import { createTimelapseProcess, type TimelapseFrameMode } from "./timelapse";
 import { createAudioSpeedProcess, type AudioSpeedMode } from "./audioStretch";
 import { bindEnhanceControls, setupVoiceEnhance } from "./voiceEnhance";
+import { createSectionAudioProcess, createSectionMapper } from "./sectionJoin";
+import { extractAudio } from "./audioExtract";
+import { AUDIO_FORMATS, markSupportedAudioFormats } from "./audioFormats";
 import { createScreenCapture } from "./screenCapture";
 import { createFrameUpscaler, getUpscaleBackend, OUTPUT_SCALE, type UpscaleModelId } from "./upscaler";
 import { createUpscaleProcess, type UpscaleResizeTarget } from "./videoUpscale";
@@ -1490,18 +1493,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
         }
         // Map a timestamp (relative to the trim start) to its place in the joined
         // output, or null when it falls in a gap between sections.
-        const base = ranges[0].start;
-        const offsets: number[] = [];
-        let acc = 0;
-        for (const r of ranges) {
-          offsets.push(acc);
-          acc += r.end - r.start;
-        }
-        const mapTime = (t: number) => {
-          const abs = t + base;
-          const i = ranges.findIndex((r) => abs >= r.start && abs < r.end);
-          return i === -1 ? null : abs - ranges[i].start + offsets[i];
-        };
+        const mapTime = createSectionMapper(ranges);
 
         const innerVideoProcess = videoConfig.process;
         videoConfig.process = (sample) => {
@@ -1511,15 +1503,8 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
           return innerVideoProcess ? innerVideoProcess(sample) : sample;
         };
 
-        // Audio is kept per sample (a few ms of granularity), judged by its midpoint
         if (!audioConfig.discard) {
-          audioConfig.process = (sample) => {
-            const t = mapTime(sample.timestamp + sample.duration / 2);
-            if (t === null) return null;
-            const out = sample.clone();
-            out.setTimestamp(Math.max(0, t - sample.duration / 2));
-            return out;
-          };
+          audioConfig.process = createSectionAudioProcess(mapTime);
           if (audioModeCopy.checked) console.log("Audio will be re-encoded to join sections.");
         }
       }
@@ -1691,6 +1676,95 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
       await currentActiveConversion.cancel();
     }
   });
+
+  // --- Extract Audio: the video's audio track as a download or into the audio editor ---
+  const extractFormat = root.getElementById("extract-format") as HTMLSelectElement;
+  const extractBitrate = root.getElementById("extract-bitrate") as HTMLSelectElement;
+  const extractExportBtn = root.getElementById("extract-export-btn") as HTMLButtonElement;
+  const extractEditBtn = root.getElementById("extract-edit-btn") as HTMLButtonElement;
+  const extractStatus = root.getElementById("extract-status") as HTMLElement;
+  let extractUrl: string | null = null;
+
+  const syncExtractBitrate = () => (extractBitrate.disabled = !!AUDIO_FORMATS[extractFormat.value]?.lossless);
+  extractFormat.addEventListener("change", syncExtractBitrate);
+  void markSupportedAudioFormats(extractFormat).then(syncExtractBitrate);
+
+  async function runExtract(mode: "export" | "edit") {
+    if (!currentFile || !currentSourceInput) {
+      alert("Please load a video first.");
+      return;
+    }
+    if (!sourceHasAudio) {
+      alert("This video has no audio track.");
+      return;
+    }
+    // Handing off to the audio editor keeps it lossless; enhancing happens there
+    const spec = mode === "edit" ? AUDIO_FORMATS.wav : AUDIO_FORMATS[extractFormat.value] || AUDIO_FORMATS.mp3;
+    const enhance = mode === "export" && !fastCopyTag.checked ? voiceEnhance.getOptions() : null;
+    const dot = currentFile.name.lastIndexOf(".");
+    const baseName = `${dot > 0 ? currentFile.name.slice(0, dot) : currentFile.name}_audio`;
+
+    voiceCancelRequested = false;
+    extractExportBtn.disabled = extractEditBtn.disabled = convertBtn.disabled = true;
+    cancelBtn.style.display = "inline-block";
+    progressSection.style.display = "block";
+    outputPlaceholder.style.display = "none";
+    progressTitle.textContent = "🎵 Extracting audio...";
+    progressPercentage.textContent = "0%";
+    conversionProgress.value = 0;
+    progressTimeProcessed.textContent = "";
+    progressSpeed.textContent = "";
+    extractStatus.textContent = "";
+
+    try {
+      const file = await extractAudio({
+        input: currentSourceInput,
+        baseName,
+        spec,
+        bitrate: parseInt(extractBitrate.value) || 192000,
+        ranges: videoTrim.getRanges(),
+        enhance,
+        onStatus: (message) => (progressTitle.textContent = message),
+        onProgress: (fraction) => {
+          const pct = Math.min(100, Math.round(fraction * 100));
+          progressPercentage.textContent = `${pct}%`;
+          conversionProgress.value = pct;
+          progressTitle.textContent = `🎵 Extracting audio (${pct}%)`;
+        },
+        onConversion: (conversion) => (currentActiveConversion = conversion),
+        isCancelled: () => voiceCancelRequested,
+      });
+      console.log(`🎵 Extracted audio: ${file.name} (${formatBytes(file.size)}).`);
+
+      if (mode === "edit") {
+        await handleFileLoad(file);
+        return;
+      }
+      if (extractUrl) URL.revokeObjectURL(extractUrl);
+      extractUrl = URL.createObjectURL(file);
+      const link = document.createElement("a");
+      link.href = extractUrl;
+      link.download = file.name;
+      link.textContent = "Download again";
+      extractStatus.replaceChildren(`Saved ${file.name} (${formatBytes(file.size)}). `, link);
+      link.click(); // start the download straight away; the link stays for another go
+    } catch (error: any) {
+      if (error.name === "ConversionCanceledError" || error.message?.includes("canceled")) {
+        console.warn("Audio extraction canceled.");
+      } else {
+        console.error("Audio extraction failed: ", error);
+        alert(`Audio extraction failed: ${error.message || error}`);
+      }
+    } finally {
+      extractExportBtn.disabled = extractEditBtn.disabled = convertBtn.disabled = false;
+      cancelBtn.style.display = "none";
+      progressSection.style.display = "none";
+      if (resultSection.style.display === "none") outputPlaceholder.style.display = "";
+      currentActiveConversion = null;
+    }
+  }
+  extractExportBtn.addEventListener("click", () => void runExtract("export"));
+  extractEditBtn.addEventListener("click", () => void runExtract("edit"));
 
   // --- Home: clicking the title unloads everything and returns to the entry screen ---
   const homeLink = root.getElementById("home-link") as HTMLAnchorElement;

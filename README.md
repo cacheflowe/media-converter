@@ -14,7 +14,8 @@ Features:
   trim (multiple sections joined into one clip), crop, resize, rotate, speed change /
   time-lapse (skip or motion-blur frames, pitch-preserving audio), frame-rate
   resampling (repeat or blend), audio transcode/copy/strip, **Enhance Voice**
-  (same pass as in the Audio workspace), and fast-copy (no
+  (same pass as in the Audio workspace), **Extract Audio** (export just the audio
+  track, or open it in the audio editor), and fast-copy (no
   re-encode) trims.
 - **AI for video**: 2x upscaling (Real-ESRGAN) and **RIFE** frame interpolation for
   smoother frame rates or slow motion — see below.
@@ -60,6 +61,7 @@ The exact same UI and logic build into **three targets** from one shared codebas
 | `src/toolkitCore.ts` | Core behavior and the video workspace: `mountToolkit(root, { themeElement })`, scoped to whatever root it's given (a `Document` or a `ShadowRoot`). |
 | `src/imageWorkflow.ts` | Image crop / redact / AI upscale / export workflow (also root-scoped). |
 | `src/audioWorkflow.ts` | Audio workspace: waveform, trim, transcode. |
+| `src/audioFormats.ts`, `src/audioExtract.ts`, `src/sectionJoin.ts` | Shared audio output formats; extracting a video's audio track; joining trim sections. |
 | `src/voiceEnhance.ts` | Streaming voice-mastering chain (EQ, compressor, gate, loudness) used by the audio and video workspaces. |
 | `src/neuralDenoise.ts` | AI noise reduction: Resemble denoiser (ONNX) with a JS STFT/ISTFT, run as a pre-pass. |
 | `src/imageBatchWorkflow.ts`, `src/videoBatchWorkflow.ts`, `src/batchShared.ts` | Batch modes on a shared queue / thumbnail / ZIP engine (`src/zip.ts`). |

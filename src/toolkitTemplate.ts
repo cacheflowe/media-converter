@@ -869,6 +869,45 @@ None detected</pre
                 </details>
 
                 ${enhanceVoiceCard("video")}
+
+                <!-- Extract just the audio track, as a download or straight into the audio editor -->
+                <details class="config-card" id="panel-extract-audio">
+                  <summary class="card-header">🎵 Extract Audio</summary>
+                  <div class="config-card-body">
+                    <small style="color: var(--pico-muted-color); display: block; margin-bottom: 0.75rem">
+                      Pull the audio out of this video. Follows the trim / sections above; Export also applies
+                      Enhance Voice if it's on.
+                    </small>
+                    <div class="grid" style="margin-bottom: 0.5rem">
+                      <div>
+                        <label for="extract-format">Format</label>
+                        <select id="extract-format" name="extract-format">
+                          <option value="mp3" selected>MP3 (.mp3)</option>
+                          <option value="m4a">M4A / AAC (.m4a)</option>
+                          <option value="opus">Opus (.ogg)</option>
+                          <option value="wav">WAV (.wav, lossless)</option>
+                          <option value="flac">FLAC (.flac, lossless)</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="extract-bitrate">Bitrate</label>
+                        <select id="extract-bitrate" name="extract-bitrate">
+                          <option value="128000">128 kbps</option>
+                          <option value="192000" selected>192 kbps</option>
+                          <option value="256000">256 kbps</option>
+                          <option value="320000">320 kbps</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <button type="button" id="extract-export-btn" class="secondary">⬇️ Export audio file</button>
+                      <button type="button" id="extract-edit-btn" class="secondary outline" title="Sends the audio (as lossless WAV) to the audio editor, where you can trim it and enhance the voice">
+                        ✂️ Open in audio editor
+                      </button>
+                    </div>
+                    <small id="extract-status" style="color: var(--pico-muted-color)"></small>
+                  </div>
+                </details>
             </form>
           </div>
           <!-- Column 3: output / download -->

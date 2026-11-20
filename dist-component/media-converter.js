@@ -866,6 +866,45 @@ None detected</pre
                 </details>
 
                 ${Yt("video")}
+
+                <!-- Extract just the audio track, as a download or straight into the audio editor -->
+                <details class="config-card" id="panel-extract-audio">
+                  <summary class="card-header">🎵 Extract Audio</summary>
+                  <div class="config-card-body">
+                    <small style="color: var(--pico-muted-color); display: block; margin-bottom: 0.75rem">
+                      Pull the audio out of this video. Follows the trim / sections above; Export also applies
+                      Enhance Voice if it's on.
+                    </small>
+                    <div class="grid" style="margin-bottom: 0.5rem">
+                      <div>
+                        <label for="extract-format">Format</label>
+                        <select id="extract-format" name="extract-format">
+                          <option value="mp3" selected>MP3 (.mp3)</option>
+                          <option value="m4a">M4A / AAC (.m4a)</option>
+                          <option value="opus">Opus (.ogg)</option>
+                          <option value="wav">WAV (.wav, lossless)</option>
+                          <option value="flac">FLAC (.flac, lossless)</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="extract-bitrate">Bitrate</label>
+                        <select id="extract-bitrate" name="extract-bitrate">
+                          <option value="128000">128 kbps</option>
+                          <option value="192000" selected>192 kbps</option>
+                          <option value="256000">256 kbps</option>
+                          <option value="320000">320 kbps</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <button type="button" id="extract-export-btn" class="secondary">⬇️ Export audio file</button>
+                      <button type="button" id="extract-edit-btn" class="secondary outline" title="Sends the audio (as lossless WAV) to the audio editor, where you can trim it and enhance the voice">
+                        ✂️ Open in audio editor
+                      </button>
+                    </div>
+                    <small id="extract-status" style="color: var(--pico-muted-color)"></small>
+                  </div>
+                </details>
             </form>
           </div>
           <!-- Column 3: output / download -->
@@ -9319,304 +9358,8 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		setActive: Ye
 	};
 }
-// src/trimController.ts
-var Wa = .05;
-function Ga(e) {
-	let t = e.map((e) => ({ ...e })).sort((e, t) => e.start - t.start), n = [];
-	for (let e of t) {
-		let t = n[n.length - 1];
-		t && e.start <= t.end ? t.end = Math.max(t.end, e.end) : n.push(e);
-	}
-	return n;
-}
-function Ka(e) {
-	let { media: t, enable: n, controlsGroup: r, startInput: i, endInput: a, startLabel: o, endLabel: s, selectionBar: c, onChange: l } = e, { sectionList: u, addSectionButton: d, totalLabel: f } = e, p = 0, m = !1, h = [{
-		start: 0,
-		end: 0
-	}], g = h[0], _ = [], v = c.parentElement, y = () => [...h].sort((e, t) => e.start - t.start);
-	function b() {
-		if (_.forEach((e) => e.remove()), _.length = 0, p) for (let e of h) {
-			if (e === g) continue;
-			let t = document.createElement("div");
-			t.className = "trim-ghost", t.style.left = `${e.start / p * 100}%`, t.style.width = `${(e.end - e.start) / p * 100}%`, v.insertBefore(t, c), _.push(t);
-		}
-	}
-	function x() {
-		if (u && (u.innerHTML = "", y().forEach((e, t) => {
-			let n = document.createElement("li");
-			n.className = "trim-section-row" + (e === g ? " active" : "");
-			let r = document.createElement("button");
-			r.type = "button", r.className = "trim-section-pick", r.textContent = `${t + 1}. ${e.start.toFixed(2)}s – ${e.end.toFixed(2)}s (${(e.end - e.start).toFixed(2)}s)`, r.addEventListener("click", () => w(e));
-			let i = document.createElement("button");
-			i.type = "button", i.className = "trim-section-remove", i.textContent = "✕", i.title = "Remove section", i.disabled = h.length <= 1, i.addEventListener("click", () => T(e)), n.append(r, i), u.append(n);
-		}), f)) {
-			let e = Ga(h).reduce((e, t) => e + (t.end - t.start), 0);
-			f.textContent = `${e.toFixed(2)}s`;
-		}
-	}
-	function S(e, t) {
-		o.textContent = `${e.toFixed(2)}s`, s.textContent = `${t.toFixed(2)}s`, p && (c.style.left = `${e / p * 100}%`, c.style.width = `${(t - e) / p * 100}%`), g.start = e, g.end = t, b(), x(), l?.();
-	}
-	function C() {
-		i.value = String(g.start), a.value = String(g.end), S(g.start, g.end);
-	}
-	function w(e) {
-		g = e, C(), t.pause(), t.currentTime = e.start;
-	}
-	function T(e) {
-		h.length <= 1 || (h = h.filter((t) => t !== e), g === e && (g = y()[0]), C());
-	}
-	return d?.addEventListener("click", () => {
-		if (!p) return;
-		let e = t.currentTime;
-		for (let t of y()) e >= t.start && e < t.end && (e = t.end);
-		e > p - Wa && (e = 0);
-		let n = Math.min(p, e + Math.max(1, p * .1)), r = {
-			start: e,
-			end: n
-		};
-		h.push(r), w(r);
-	}), n.addEventListener("change", () => {
-		if (n.checked) {
-			r.style.display = "block", t.pause();
-			let e = parseFloat(i.value);
-			S(e, parseFloat(a.value)), t.currentTime = e;
-		} else r.style.display = "none", l?.();
-	}), i.addEventListener("input", () => {
-		m = !0, t.pause();
-		let e = parseFloat(i.value), n = parseFloat(a.value);
-		e >= n && (e = Math.max(0, n - Wa), i.value = String(e)), i.style.zIndex = "3", a.style.zIndex = "2", S(e, n), t.currentTime = e;
-	}), a.addEventListener("input", () => {
-		m = !0, t.pause();
-		let e = parseFloat(i.value), n = parseFloat(a.value);
-		n <= e && (n = Math.min(p, e + Wa), a.value = String(n)), i.style.zIndex = "2", a.style.zIndex = "3", S(e, n), t.currentTime = n;
-	}), [i, a].forEach((e) => [
-		"change",
-		"mouseup",
-		"touchend"
-	].forEach((t) => e.addEventListener(t, () => {
-		m = !1;
-	}))), [i, a].forEach((t) => {
-		let n = null;
-		t.addEventListener("pointerdown", (e) => {
-			e.button === 0 && (e.preventDefault(), t.focus(), t.setPointerCapture(e.pointerId), n = {
-				pointerId: e.pointerId,
-				lastX: e.clientX,
-				value: parseFloat(t.value)
-			});
-		}), t.addEventListener("pointermove", (r) => {
-			if (!n || r.pointerId !== n.pointerId) return;
-			let i = t.getBoundingClientRect().width;
-			if (!i || !p) return;
-			let a = r.shiftKey ? e.fineSecondsPerPixel?.() ?? .01 : p / i;
-			n.value = Math.max(0, Math.min(p, n.value + (r.clientX - n.lastX) * a)), n.lastX = r.clientX, t.value = String(n.value), t.dispatchEvent(new Event("input", { bubbles: !0 }));
-			let o = parseFloat(t.value);
-			Math.abs(o - n.value) > .01 && (n.value = o);
-		});
-		let r = (e) => {
-			n && e.pointerId === n.pointerId && (n = null, t.dispatchEvent(new Event("change", { bubbles: !0 })));
-		};
-		t.addEventListener("pointerup", r), t.addEventListener("pointercancel", r);
-	}), t.addEventListener("timeupdate", () => {
-		if (!n.checked || m) return;
-		let e = Ga(h), r = t.currentTime;
-		if (e.some((e) => r >= e.start && r < e.end)) return;
-		let i = e.find((e) => e.start > r);
-		i && !t.paused ? t.currentTime = i.start : (t.pause(), t.currentTime = e[0].start);
-	}), t.addEventListener("play", () => {
-		if (!n.checked) return;
-		let e = Ga(h), r = t.currentTime;
-		e.some((e) => r >= e.start && r < e.end) || (t.currentTime = (e.find((e) => e.start > r) ?? e[0]).start);
-	}), {
-		setDuration(e) {
-			p = e, i.max = String(e), a.max = String(e), h = [{
-				start: 0,
-				end: e
-			}], g = h[0], C();
-		},
-		isEnabled: () => n.checked,
-		getRange: () => n.checked ? {
-			start: g.start,
-			end: g.end
-		} : null,
-		getRanges: () => n.checked ? Ga(h) : null
-	};
-}
-// src/voiceEnhance.ts
-function qa(e, t, n, r, i, a) {
-	return {
-		b0: e / r,
-		b1: t / r,
-		b2: n / r,
-		a1: i / r,
-		a2: a / r
-	};
-}
-function Ja(e, t, n = Math.SQRT1_2) {
-	let r = 2 * Math.PI * t / e, i = Math.sin(r) / (2 * n), a = Math.cos(r);
-	return qa((1 + a) / 2, -(1 + a), (1 + a) / 2, 1 + i, -2 * a, 1 - i);
-}
-function Ya(e, t, n, r) {
-	let i = 10 ** (r / 40), a = 2 * Math.PI * n / t, o = Math.cos(a), s = Math.sin(a) / 2 * Math.SQRT2, c = 2 * Math.sqrt(i) * s;
-	return e === "low" ? qa(i * (i + 1 - (i - 1) * o + c), 2 * i * (i - 1 - (i + 1) * o), i * (i + 1 - (i - 1) * o - c), i + 1 + (i - 1) * o + c, -2 * (i - 1 + (i + 1) * o), i + 1 + (i - 1) * o - c) : qa(i * (i + 1 + (i - 1) * o + c), -2 * i * (i - 1 + (i + 1) * o), i * (i + 1 + (i - 1) * o - c), i + 1 - (i - 1) * o + c, 2 * (i - 1 - (i + 1) * o), i + 1 - (i - 1) * o - c);
-}
-var Xa = class {
-	c;
-	z1 = 0;
-	z2 = 0;
-	constructor(e) {
-		this.c = e;
-	}
-	process(e) {
-		let { b0: t, b1: n, b2: r, a1: i, a2: a } = this.c, o = t * e + this.z1;
-		return this.z1 = n * e - i * o + this.z2, this.z2 = r * e - a * o, o;
-	}
-}, Za = (e) => 10 ** (e / 20), Qa = (e) => 20 * Math.log10(Math.max(e, 1e-9)), $a = -22, eo = 3, to = 8, no = -48, ro = 10, io = .005, ao = .2, oo = .89, so = .4, co = 24;
-function lo(e) {
-	let t = Math.abs(e);
-	if (t <= oo) return e;
-	let n = (t - oo) / .10999999999999999;
-	return Math.sign(e) * (oo + .10999999999999999 * Math.tanh(n));
-}
-function uo(e, t, n) {
-	let r = 0;
-	if (t) {
-		let t = e - $a, n = 1 / eo - 1;
-		t > to / 2 ? r += n * t : t > -4 && (r += n * (t + to / 2) ** 2 / 16);
-	}
-	return n && e < no && (r -= Math.min(ro, (no - e) * .5)), r;
-}
-function fo(e, t = 0, n = !0) {
-	let r = 0, i = 0, a = [], o = 0, s = 0, c = 0, l = Za(t), u = e.compress || e.gate, d = [], f = 0, p = 0, m = 0;
-	function h(t) {
-		r = t.sampleRate, i = t.numberOfChannels, s = Math.exp(-1 / (io * r)), c = Math.exp(-1 / (ao * r)), m = Math.round(so * r), a = Array.from({ length: i }, () => {
-			let t = [];
-			return e.lowCut && t.push(new Xa(Ja(r, 80))), e.eq && (t.push(new Xa(Ya("low", r, 150, 2.5))), t.push(new Xa(Ya("high", r, 5e3, 3)))), t;
-		});
-	}
-	function g(t) {
-		r || h(t);
-		let g = t.numberOfFrames, _ = [];
-		for (let e = 0; e < i; e++) {
-			let n = new Float32Array(g);
-			t.copyTo(n, {
-				planeIndex: Math.min(e, t.numberOfChannels - 1),
-				format: "f32-planar"
-			}), _.push(n);
-		}
-		for (let t = 0; t < g; t++) {
-			let r = 0;
-			for (let e = 0; e < i; e++) {
-				let n = _[e][t];
-				for (let t of a[e]) n = t.process(n);
-				_[e][t] = n;
-				let i = Math.abs(n);
-				i > r && (r = i);
-			}
-			let h = 1;
-			u && (o = r > o ? s * o + (1 - s) * r : c * o + (1 - c) * r, h = Za(uo(Qa(o), e.compress, e.gate)));
-			let g = 0;
-			for (let e = 0; e < i; e++) {
-				let r = _[e][t] * h;
-				g += r * r;
-				let i = r * l;
-				_[e][t] = n ? lo(i) : i;
-			}
-			f += g / i, ++p >= m && (d.push(f / p), f = 0, p = 0);
-		}
-		let v = new Float32Array(g * i);
-		for (let e = 0; e < i; e++) v.set(_[e], e * g);
-		return new Ee({
-			data: v,
-			format: "f32-planar",
-			numberOfChannels: i,
-			sampleRate: r,
-			timestamp: t.timestamp
-		});
-	}
-	function _() {
-		let e = d.filter((e) => Qa(Math.sqrt(e)) > -50);
-		if (!e.length) return null;
-		let t = e.reduce((e, t) => e + t, 0) / e.length, n = e.filter((e) => e > t * .1), r = n.reduce((e, t) => e + t, 0) / n.length;
-		return Qa(Math.sqrt(r));
-	}
-	return {
-		process: g,
-		measuredLoudnessDb: _
-	};
-}
-async function po(e, t, n) {
-	if (e.targetDb === null) return 0;
-	let r = fo(e, 0, !1);
-	for await (let e of t) {
-		if (n()) return e.close(), 0;
-		r.process(e).close(), e.close();
-	}
-	let i = r.measuredLoudnessDb();
-	return i === null ? 0 : Math.max(-24, Math.min(co, e.targetDb - i));
-}
-async function* mo(e, t) {
-	let n = new $e(e), r = t.length ? t : [{}];
-	for (let e of r) yield* n.samples(e.start, e.end);
-}
-function ho(e, t, n) {
-	return !e && !n ? (e) => t.process(e) : async (r) => {
-		let i = n ? n(r) : r, a = e ? await e(i) : i;
-		if (!a) return i !== r && i.close(), null;
-		let o = Array.isArray(a) ? a : [a], s = o.map((e) => {
-			let n = t.process(e);
-			return e !== r && e.close(), n;
-		});
-		return i !== r && !o.includes(i) && i.close(), Array.isArray(a) ? s : s[0];
-	};
-}
-var go = () => Object.assign(/* @__PURE__ */ Error("canceled"), { name: "ConversionCanceledError" });
-async function _o(e) {
-	let { track: t, options: n, span: r, ranges: i, onStatus: a, isCancelled: o } = e, s, c = null, l = null;
-	if (n.neuralMix !== null) {
-		if (l = await import("./neuralDenoise-CYPFwlXi.js"), c = await l.prepareDenoisedAudio(t, r, (e) => a(`🧠 ${e}`), o), o()) throw go();
-		c && (s = l.createDenoiseSubstitute(c, n.neuralMix));
-	}
-	let u = 0;
-	if (n.targetDb !== null && (a("🎙️ Measuring loudness..."), u = await po(n, c && l ? l.denoisedSamples(c, i) : mo(t, i), o), o())) throw go();
-	let d = fo(n, u);
-	return {
-		sampleRate: s ? l.DENOISER_SAMPLE_RATE : void 0,
-		gainDb: u,
-		denoised: !!s,
-		wrap: (e) => ho(e, d, s)
-	};
-}
-function vo(e, t) {
-	let n = (n) => {
-		let r = e.getElementById(`${t}-enhance-${n}`);
-		if (!r) throw Error(`DOM element not found: #${t}-enhance-${n}`);
-		return r;
-	}, r = n("enable"), i = n("controls"), a = n("neural"), o = n("neural-mix"), s = n("lowcut"), c = n("eq"), l = n("compress"), u = n("gate"), d = n("loudness");
-	r.addEventListener("change", () => {
-		i.style.display = r.checked ? "block" : "none";
-	}), a.addEventListener("change", () => {
-		o.disabled = !a.checked;
-	});
-	function f() {
-		if (!r.checked) return null;
-		let e = d.value === "off" ? null : parseFloat(d.value), t = {
-			lowCut: s.checked,
-			eq: c.checked,
-			compress: l.checked,
-			gate: u.checked,
-			targetDb: e,
-			neuralMix: a.checked ? parseFloat(o.value) : null
-		};
-		return t.lowCut || t.eq || t.compress || t.gate || e !== null || t.neuralMix !== null ? t : null;
-	}
-	return {
-		getOptions: f,
-		panel: e.getElementById(`panel-${t}-enhance`)
-	};
-}
-// src/audioWorkflow.ts
-var yo = {
+// src/audioFormats.ts
+var Wa = {
 	mp3: {
 		makeFormat: () => new Ai(),
 		codec: "mp3",
@@ -9653,7 +9396,323 @@ var yo = {
 		lossless: !0
 	}
 };
-function bo({ root: e, formatBytes: t, revealLoadedSection: n }) {
+async function Ga(e) {
+	for (let t of Array.from(e.options)) {
+		let e = Wa[t.value];
+		if (!e) continue;
+		let n = !1;
+		try {
+			n = await Ue(e.codec);
+		} catch {
+			n = !1;
+		}
+		t.disabled = !n;
+		let r = t.textContent.replace(/ — unavailable$/, "");
+		t.textContent = n ? r : `${r} — unavailable`;
+	}
+	if (e.selectedOptions[0]?.disabled) {
+		let t = Array.from(e.options).find((e) => !e.disabled);
+		t && (e.value = t.value);
+	}
+}
+// src/trimController.ts
+var Ka = .05;
+function qa(e) {
+	let t = e.map((e) => ({ ...e })).sort((e, t) => e.start - t.start), n = [];
+	for (let e of t) {
+		let t = n[n.length - 1];
+		t && e.start <= t.end ? t.end = Math.max(t.end, e.end) : n.push(e);
+	}
+	return n;
+}
+function Ja(e) {
+	let { media: t, enable: n, controlsGroup: r, startInput: i, endInput: a, startLabel: o, endLabel: s, selectionBar: c, onChange: l } = e, { sectionList: u, addSectionButton: d, totalLabel: f } = e, p = 0, m = !1, h = [{
+		start: 0,
+		end: 0
+	}], g = h[0], _ = [], v = c.parentElement, y = () => [...h].sort((e, t) => e.start - t.start);
+	function b() {
+		if (_.forEach((e) => e.remove()), _.length = 0, p) for (let e of h) {
+			if (e === g) continue;
+			let t = document.createElement("div");
+			t.className = "trim-ghost", t.style.left = `${e.start / p * 100}%`, t.style.width = `${(e.end - e.start) / p * 100}%`, v.insertBefore(t, c), _.push(t);
+		}
+	}
+	function x() {
+		if (u && (u.innerHTML = "", y().forEach((e, t) => {
+			let n = document.createElement("li");
+			n.className = "trim-section-row" + (e === g ? " active" : "");
+			let r = document.createElement("button");
+			r.type = "button", r.className = "trim-section-pick", r.textContent = `${t + 1}. ${e.start.toFixed(2)}s – ${e.end.toFixed(2)}s (${(e.end - e.start).toFixed(2)}s)`, r.addEventListener("click", () => w(e));
+			let i = document.createElement("button");
+			i.type = "button", i.className = "trim-section-remove", i.textContent = "✕", i.title = "Remove section", i.disabled = h.length <= 1, i.addEventListener("click", () => T(e)), n.append(r, i), u.append(n);
+		}), f)) {
+			let e = qa(h).reduce((e, t) => e + (t.end - t.start), 0);
+			f.textContent = `${e.toFixed(2)}s`;
+		}
+	}
+	function S(e, t) {
+		o.textContent = `${e.toFixed(2)}s`, s.textContent = `${t.toFixed(2)}s`, p && (c.style.left = `${e / p * 100}%`, c.style.width = `${(t - e) / p * 100}%`), g.start = e, g.end = t, b(), x(), l?.();
+	}
+	function C() {
+		i.value = String(g.start), a.value = String(g.end), S(g.start, g.end);
+	}
+	function w(e) {
+		g = e, C(), t.pause(), t.currentTime = e.start;
+	}
+	function T(e) {
+		h.length <= 1 || (h = h.filter((t) => t !== e), g === e && (g = y()[0]), C());
+	}
+	return d?.addEventListener("click", () => {
+		if (!p) return;
+		let e = t.currentTime;
+		for (let t of y()) e >= t.start && e < t.end && (e = t.end);
+		e > p - Ka && (e = 0);
+		let n = Math.min(p, e + Math.max(1, p * .1)), r = {
+			start: e,
+			end: n
+		};
+		h.push(r), w(r);
+	}), n.addEventListener("change", () => {
+		if (n.checked) {
+			r.style.display = "block", t.pause();
+			let e = parseFloat(i.value);
+			S(e, parseFloat(a.value)), t.currentTime = e;
+		} else r.style.display = "none", l?.();
+	}), i.addEventListener("input", () => {
+		m = !0, t.pause();
+		let e = parseFloat(i.value), n = parseFloat(a.value);
+		e >= n && (e = Math.max(0, n - Ka), i.value = String(e)), i.style.zIndex = "3", a.style.zIndex = "2", S(e, n), t.currentTime = e;
+	}), a.addEventListener("input", () => {
+		m = !0, t.pause();
+		let e = parseFloat(i.value), n = parseFloat(a.value);
+		n <= e && (n = Math.min(p, e + Ka), a.value = String(n)), i.style.zIndex = "2", a.style.zIndex = "3", S(e, n), t.currentTime = n;
+	}), [i, a].forEach((e) => [
+		"change",
+		"mouseup",
+		"touchend"
+	].forEach((t) => e.addEventListener(t, () => {
+		m = !1;
+	}))), [i, a].forEach((t) => {
+		let n = null;
+		t.addEventListener("pointerdown", (e) => {
+			e.button === 0 && (e.preventDefault(), t.focus(), t.setPointerCapture(e.pointerId), n = {
+				pointerId: e.pointerId,
+				lastX: e.clientX,
+				value: parseFloat(t.value)
+			});
+		}), t.addEventListener("pointermove", (r) => {
+			if (!n || r.pointerId !== n.pointerId) return;
+			let i = t.getBoundingClientRect().width;
+			if (!i || !p) return;
+			let a = r.shiftKey ? e.fineSecondsPerPixel?.() ?? .01 : p / i;
+			n.value = Math.max(0, Math.min(p, n.value + (r.clientX - n.lastX) * a)), n.lastX = r.clientX, t.value = String(n.value), t.dispatchEvent(new Event("input", { bubbles: !0 }));
+			let o = parseFloat(t.value);
+			Math.abs(o - n.value) > .01 && (n.value = o);
+		});
+		let r = (e) => {
+			n && e.pointerId === n.pointerId && (n = null, t.dispatchEvent(new Event("change", { bubbles: !0 })));
+		};
+		t.addEventListener("pointerup", r), t.addEventListener("pointercancel", r);
+	}), t.addEventListener("timeupdate", () => {
+		if (!n.checked || m) return;
+		let e = qa(h), r = t.currentTime;
+		if (e.some((e) => r >= e.start && r < e.end)) return;
+		let i = e.find((e) => e.start > r);
+		i && !t.paused ? t.currentTime = i.start : (t.pause(), t.currentTime = e[0].start);
+	}), t.addEventListener("play", () => {
+		if (!n.checked) return;
+		let e = qa(h), r = t.currentTime;
+		e.some((e) => r >= e.start && r < e.end) || (t.currentTime = (e.find((e) => e.start > r) ?? e[0]).start);
+	}), {
+		setDuration(e) {
+			p = e, i.max = String(e), a.max = String(e), h = [{
+				start: 0,
+				end: e
+			}], g = h[0], C();
+		},
+		isEnabled: () => n.checked,
+		getRange: () => n.checked ? {
+			start: g.start,
+			end: g.end
+		} : null,
+		getRanges: () => n.checked ? qa(h) : null
+	};
+}
+// src/voiceEnhance.ts
+function Ya(e, t, n, r, i, a) {
+	return {
+		b0: e / r,
+		b1: t / r,
+		b2: n / r,
+		a1: i / r,
+		a2: a / r
+	};
+}
+function Xa(e, t, n = Math.SQRT1_2) {
+	let r = 2 * Math.PI * t / e, i = Math.sin(r) / (2 * n), a = Math.cos(r);
+	return Ya((1 + a) / 2, -(1 + a), (1 + a) / 2, 1 + i, -2 * a, 1 - i);
+}
+function Za(e, t, n, r) {
+	let i = 10 ** (r / 40), a = 2 * Math.PI * n / t, o = Math.cos(a), s = Math.sin(a) / 2 * Math.SQRT2, c = 2 * Math.sqrt(i) * s;
+	return e === "low" ? Ya(i * (i + 1 - (i - 1) * o + c), 2 * i * (i - 1 - (i + 1) * o), i * (i + 1 - (i - 1) * o - c), i + 1 + (i - 1) * o + c, -2 * (i - 1 + (i + 1) * o), i + 1 + (i - 1) * o - c) : Ya(i * (i + 1 + (i - 1) * o + c), -2 * i * (i - 1 + (i + 1) * o), i * (i + 1 + (i - 1) * o - c), i + 1 - (i - 1) * o + c, 2 * (i - 1 - (i + 1) * o), i + 1 - (i - 1) * o - c);
+}
+var Qa = class {
+	c;
+	z1 = 0;
+	z2 = 0;
+	constructor(e) {
+		this.c = e;
+	}
+	process(e) {
+		let { b0: t, b1: n, b2: r, a1: i, a2: a } = this.c, o = t * e + this.z1;
+		return this.z1 = n * e - i * o + this.z2, this.z2 = r * e - a * o, o;
+	}
+}, $a = (e) => 10 ** (e / 20), eo = (e) => 20 * Math.log10(Math.max(e, 1e-9)), to = -22, no = 3, ro = 8, io = -48, ao = 10, oo = .005, so = .2, co = .89, lo = .4, uo = 24;
+function fo(e) {
+	let t = Math.abs(e);
+	if (t <= co) return e;
+	let n = (t - co) / .10999999999999999;
+	return Math.sign(e) * (co + .10999999999999999 * Math.tanh(n));
+}
+function po(e, t, n) {
+	let r = 0;
+	if (t) {
+		let t = e - to, n = 1 / no - 1;
+		t > ro / 2 ? r += n * t : t > -4 && (r += n * (t + ro / 2) ** 2 / 16);
+	}
+	return n && e < io && (r -= Math.min(ao, (io - e) * .5)), r;
+}
+function mo(e, t = 0, n = !0) {
+	let r = 0, i = 0, a = [], o = 0, s = 0, c = 0, l = $a(t), u = e.compress || e.gate, d = [], f = 0, p = 0, m = 0;
+	function h(t) {
+		r = t.sampleRate, i = t.numberOfChannels, s = Math.exp(-1 / (oo * r)), c = Math.exp(-1 / (so * r)), m = Math.round(lo * r), a = Array.from({ length: i }, () => {
+			let t = [];
+			return e.lowCut && t.push(new Qa(Xa(r, 80))), e.eq && (t.push(new Qa(Za("low", r, 150, 2.5))), t.push(new Qa(Za("high", r, 5e3, 3)))), t;
+		});
+	}
+	function g(t) {
+		r || h(t);
+		let g = t.numberOfFrames, _ = [];
+		for (let e = 0; e < i; e++) {
+			let n = new Float32Array(g);
+			t.copyTo(n, {
+				planeIndex: Math.min(e, t.numberOfChannels - 1),
+				format: "f32-planar"
+			}), _.push(n);
+		}
+		for (let t = 0; t < g; t++) {
+			let r = 0;
+			for (let e = 0; e < i; e++) {
+				let n = _[e][t];
+				for (let t of a[e]) n = t.process(n);
+				_[e][t] = n;
+				let i = Math.abs(n);
+				i > r && (r = i);
+			}
+			let h = 1;
+			u && (o = r > o ? s * o + (1 - s) * r : c * o + (1 - c) * r, h = $a(po(eo(o), e.compress, e.gate)));
+			let g = 0;
+			for (let e = 0; e < i; e++) {
+				let r = _[e][t] * h;
+				g += r * r;
+				let i = r * l;
+				_[e][t] = n ? fo(i) : i;
+			}
+			f += g / i, ++p >= m && (d.push(f / p), f = 0, p = 0);
+		}
+		let v = new Float32Array(g * i);
+		for (let e = 0; e < i; e++) v.set(_[e], e * g);
+		return new Ee({
+			data: v,
+			format: "f32-planar",
+			numberOfChannels: i,
+			sampleRate: r,
+			timestamp: t.timestamp
+		});
+	}
+	function _() {
+		let e = d.filter((e) => eo(Math.sqrt(e)) > -50);
+		if (!e.length) return null;
+		let t = e.reduce((e, t) => e + t, 0) / e.length, n = e.filter((e) => e > t * .1), r = n.reduce((e, t) => e + t, 0) / n.length;
+		return eo(Math.sqrt(r));
+	}
+	return {
+		process: g,
+		measuredLoudnessDb: _
+	};
+}
+async function ho(e, t, n) {
+	if (e.targetDb === null) return 0;
+	let r = mo(e, 0, !1);
+	for await (let e of t) {
+		if (n()) return e.close(), 0;
+		r.process(e).close(), e.close();
+	}
+	let i = r.measuredLoudnessDb();
+	return i === null ? 0 : Math.max(-24, Math.min(uo, e.targetDb - i));
+}
+async function* go(e, t) {
+	let n = new $e(e), r = t.length ? t : [{}];
+	for (let e of r) yield* n.samples(e.start, e.end);
+}
+function _o(e, t, n) {
+	return !e && !n ? (e) => t.process(e) : async (r) => {
+		let i = n ? n(r) : r, a = e ? await e(i) : i;
+		if (!a) return i !== r && i.close(), null;
+		let o = Array.isArray(a) ? a : [a], s = o.map((e) => {
+			let n = t.process(e);
+			return e !== r && e.close(), n;
+		});
+		return i !== r && !o.includes(i) && i.close(), Array.isArray(a) ? s : s[0];
+	};
+}
+var vo = () => Object.assign(/* @__PURE__ */ Error("canceled"), { name: "ConversionCanceledError" });
+async function yo(e) {
+	let { track: t, options: n, span: r, ranges: i, onStatus: a, isCancelled: o } = e, s, c = null, l = null;
+	if (n.neuralMix !== null) {
+		if (l = await import("./neuralDenoise-CYPFwlXi.js"), c = await l.prepareDenoisedAudio(t, r, (e) => a(`🧠 ${e}`), o), o()) throw vo();
+		c && (s = l.createDenoiseSubstitute(c, n.neuralMix));
+	}
+	let u = 0;
+	if (n.targetDb !== null && (a("🎙️ Measuring loudness..."), u = await ho(n, c && l ? l.denoisedSamples(c, i) : go(t, i), o), o())) throw vo();
+	let d = mo(n, u);
+	return {
+		sampleRate: s ? l.DENOISER_SAMPLE_RATE : void 0,
+		gainDb: u,
+		denoised: !!s,
+		wrap: (e) => _o(e, d, s)
+	};
+}
+function bo(e, t) {
+	let n = (n) => {
+		let r = e.getElementById(`${t}-enhance-${n}`);
+		if (!r) throw Error(`DOM element not found: #${t}-enhance-${n}`);
+		return r;
+	}, r = n("enable"), i = n("controls"), a = n("neural"), o = n("neural-mix"), s = n("lowcut"), c = n("eq"), l = n("compress"), u = n("gate"), d = n("loudness");
+	r.addEventListener("change", () => {
+		i.style.display = r.checked ? "block" : "none";
+	}), a.addEventListener("change", () => {
+		o.disabled = !a.checked;
+	});
+	function f() {
+		if (!r.checked) return null;
+		let e = d.value === "off" ? null : parseFloat(d.value), t = {
+			lowCut: s.checked,
+			eq: c.checked,
+			compress: l.checked,
+			gate: u.checked,
+			targetDb: e,
+			neuralMix: a.checked ? parseFloat(o.value) : null
+		};
+		return t.lowCut || t.eq || t.compress || t.gate || e !== null || t.neuralMix !== null ? t : null;
+	}
+	return {
+		getOptions: f,
+		panel: e.getElementById(`panel-${t}-enhance`)
+	};
+}
+// src/audioWorkflow.ts
+function xo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	function r(t, n) {
 		let r = e.getElementById(t);
 		if (!r) throw Error(`DOM element not found: #${t} (expected ${n})`);
@@ -9664,7 +9723,7 @@ function bo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		R &&= (URL.revokeObjectURL(R), null), oe &&= (URL.revokeObjectURL(oe), null);
 	}
 	function de() {
-		return yo[C.value] || yo.mp3;
+		return Wa[C.value] || Wa.mp3;
 	}
 	function fe() {
 		if (!F) {
@@ -9683,24 +9742,7 @@ function bo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		w.disabled = de().lossless, fe();
 	}
 	async function V() {
-		for (let e of Array.from(C.options)) {
-			let t = yo[e.value];
-			if (!t) continue;
-			let n = !1;
-			try {
-				n = await Ue(t.codec);
-			} catch {
-				n = !1;
-			}
-			e.disabled = !n;
-			let r = e.textContent.replace(/ — unavailable$/, "");
-			e.textContent = n ? r : `${r} — unavailable`;
-		}
-		if (C.selectedOptions[0]?.disabled) {
-			let e = Array.from(C.options).find((e) => !e.disabled);
-			e && (C.value = e.value);
-		}
-		B();
+		await Ga(C), B();
 	}
 	function pe() {
 		let e = o.clientWidth || 300, t = o.clientHeight || 90, n = window.devicePixelRatio || 1;
@@ -9785,7 +9827,7 @@ function bo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 			console.error("Error analyzing audio file: ", e), alert(`Could not read audio metadata: ${e.message || e}`);
 		}
 	}
-	let U = Ka({
+	let U = Ja({
 		media: i,
 		enable: h,
 		controlsGroup: g,
@@ -9799,7 +9841,7 @@ function bo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		}
 	});
 	C.addEventListener("change", B);
-	let W = vo(e, "audio");
+	let W = bo(e, "audio");
 	m.addEventListener("input", fe), m.addEventListener("change", fe), m.addEventListener("submit", async (e) => {
 		if (e.preventDefault(), !P || !ae) alert("Please load an audio file first.");
 		else {
@@ -9824,7 +9866,7 @@ function bo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 				if (c) {
 					let e = await ae.getPrimaryAudioTrack();
 					if (!e) throw Error("No audio track found.");
-					let t = await _o({
+					let t = await yo({
 						track: e,
 						options: c,
 						span: s ?? null,
@@ -9872,7 +9914,7 @@ function bo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	};
 }
 // src/zip.ts
-var xo = (() => {
+var So = (() => {
 	let e = /* @__PURE__ */ new Uint32Array(256);
 	for (let t = 0; t < 256; t++) {
 		let n = t;
@@ -9881,71 +9923,71 @@ var xo = (() => {
 	}
 	return e;
 })();
-function So(e) {
+function Co(e) {
 	let t = 4294967295;
-	for (let n = 0; n < e.length; n++) t = xo[(t ^ e[n]) & 255] ^ t >>> 8;
+	for (let n = 0; n < e.length; n++) t = So[(t ^ e[n]) & 255] ^ t >>> 8;
 	return (t ^ 4294967295) >>> 0;
 }
-var Co = (e) => new Uint8Array([e & 255, e >>> 8 & 255]), wo = (e) => new Uint8Array([
+var wo = (e) => new Uint8Array([e & 255, e >>> 8 & 255]), To = (e) => new Uint8Array([
 	e & 255,
 	e >>> 8 & 255,
 	e >>> 16 & 255,
 	e >>> 24 & 255
 ]);
-function To(e) {
+function Eo(e) {
 	let t = 0;
 	for (let n of e) t += n.length;
 	let n = new Uint8Array(t), r = 0;
 	for (let t of e) n.set(t, r), r += t.length;
 	return n;
 }
-function Eo(e) {
+function Do(e) {
 	let t = new TextEncoder(), n = [], r = [], i = 0, a = 2048;
 	for (let o of e) {
-		let e = t.encode(o.name), s = So(o.data), c = o.data.length, l = To([
-			wo(67324752),
-			Co(20),
-			Co(a),
-			Co(0),
-			Co(0),
-			Co(33),
-			wo(s),
-			wo(c),
-			wo(c),
-			Co(e.length),
-			Co(0),
+		let e = t.encode(o.name), s = Co(o.data), c = o.data.length, l = Eo([
+			To(67324752),
+			wo(20),
+			wo(a),
+			wo(0),
+			wo(0),
+			wo(33),
+			To(s),
+			To(c),
+			To(c),
+			wo(e.length),
+			wo(0),
 			e
 		]);
-		n.push(l, o.data), r.push(To([
-			wo(33639248),
-			Co(20),
-			Co(20),
-			Co(a),
-			Co(0),
-			Co(0),
-			Co(33),
-			wo(s),
-			wo(c),
-			wo(c),
-			Co(e.length),
-			Co(0),
-			Co(0),
-			Co(0),
-			Co(0),
+		n.push(l, o.data), r.push(Eo([
+			To(33639248),
+			wo(20),
+			wo(20),
+			wo(a),
 			wo(0),
-			wo(i),
+			wo(0),
+			wo(33),
+			To(s),
+			To(c),
+			To(c),
+			wo(e.length),
+			wo(0),
+			wo(0),
+			wo(0),
+			wo(0),
+			To(0),
+			To(i),
 			e
 		])), i += l.length + c;
 	}
-	let o = To(r), s = To([
-		wo(101010256),
-		Co(0),
-		Co(0),
-		Co(e.length),
-		Co(e.length),
-		wo(o.length),
-		wo(i),
-		Co(0)
+	let o = Eo(r), s = Eo([
+		To(101010256),
+		wo(0),
+		wo(0),
+		wo(e.length),
+		wo(e.length),
+		To(o.length),
+		To(i),
+		wo(0)
 	]);
 	return new Blob([
 		...n,
@@ -9954,7 +9996,7 @@ function Eo(e) {
 	], { type: "application/zip" });
 }
 // src/batchShared.ts
-function Do(e) {
+function Oo(e) {
 	let { elements: t, zipName: n, processButtonLabel: r, makeThumb: i, process: a } = e, o = [], s = [];
 	function c() {
 		o.forEach((e) => e.url && URL.revokeObjectURL(e.url)), s.forEach((e) => e.startsWith("blob:") && URL.revokeObjectURL(e)), s = [];
@@ -10023,7 +10065,7 @@ function Do(e) {
 						data: new Uint8Array(await n.blob.arrayBuffer())
 					});
 				}
-				let i = Eo(r), a = URL.createObjectURL(i), o = document.createElement("a");
+				let i = Do(r), a = URL.createObjectURL(i), o = document.createElement("a");
 				o.href = a, o.download = n, o.style.display = "none", document.body.appendChild(o), o.click(), o.remove(), setTimeout(() => URL.revokeObjectURL(a), 1e4), console.log(`📦 Zipped ${r.length} file(s) → ${va(i.size)}.`);
 			} catch (e) {
 				console.error("Failed to build zip:", e), alert(`Could not build the zip: ${e?.message || e}`);
@@ -10047,13 +10089,13 @@ function Do(e) {
 	};
 }
 // src/imageBatchWorkflow.ts
-var Oo = {
+var ko = {
 	"image/jpeg": "jpg",
 	"image/png": "png",
 	"image/webp": "webp",
 	"image/avif": "avif"
 };
-function ko({ root: e }) {
+function Ao({ root: e }) {
 	let t = (t) => e.getElementById(t), n = t("batch-out-format"), r = t("batch-quality"), i = t("batch-quality-label"), a = t("batch-enable-resize"), o = t("batch-resize-controls"), s = t("batch-maxdim-preset"), c = t("batch-maxdim");
 	function l() {
 		let e = n.value === "image/png";
@@ -10088,7 +10130,7 @@ function ko({ root: e }) {
 	}), c.addEventListener("input", () => {
 		c.value !== s.value && (s.value = "");
 	}), l();
-	let p = Do({
+	let p = Oo({
 		elements: {
 			thumbs: t("batch-thumbs"),
 			inputCount: t("batch-input-count"),
@@ -10110,7 +10152,7 @@ function ko({ root: e }) {
 		process: async (e) => {
 			let t = await _a(e);
 			try {
-				let { w: i, h: a } = d(t.width, t.height), o = Ta(t, t.width, t.height, i, a), s = n.value, c = s === "image/png" ? void 0 : parseFloat(r.value), l = Oo[s] || "jpg", p;
+				let { w: i, h: a } = d(t.width, t.height), o = Ta(t, t.width, t.height, i, a), s = n.value, c = s === "image/png" ? void 0 : parseFloat(r.value), l = ko[s] || "jpg", p;
 				try {
 					p = await f(o, s, c);
 				} catch {
@@ -10133,7 +10175,7 @@ function ko({ root: e }) {
 	};
 }
 // src/videoBatchWorkflow.ts
-function Ao(e) {
+function jo(e) {
 	return new Promise((t) => {
 		let n = document.createElement("video");
 		n.muted = !0, n.preload = "metadata", n.playsInline = !0;
@@ -10156,7 +10198,7 @@ function Ao(e) {
 		}), n.addEventListener("error", () => a(null)), setTimeout(() => a(null), 5e3), n.src = r;
 	});
 }
-function jo({ root: e }) {
+function Mo({ root: e }) {
 	let t = (t) => e.getElementById(t), n = t("vbatch-out-format"), r = t("vbatch-out-codec"), i = t("vbatch-quality"), o = t("vbatch-quality-val"), s = t("vbatch-quality-rate"), c = t("vbatch-mute"), l = t("vbatch-enable-resize"), u = t("vbatch-resize-controls"), d = t("vbatch-maxdim-preset"), f = t("vbatch-maxdim");
 	function p() {
 		let e = parseInt(i.value);
@@ -10185,7 +10227,7 @@ function jo({ root: e }) {
 	}), f.addEventListener("input", () => {
 		f.value !== d.value && (d.value = "");
 	}), p();
-	let g = Do({
+	let g = Oo({
 		elements: {
 			thumbs: t("vbatch-thumbs"),
 			inputCount: t("vbatch-input-count"),
@@ -10197,7 +10239,7 @@ function jo({ root: e }) {
 		},
 		zipName: "media-converter-videos.zip",
 		processButtonLabel: (e) => `🎬 Process All Videos (${e})`,
-		makeThumb: Ao,
+		makeThumb: jo,
 		process: async (e, t) => {
 			let o = new a({
 				formats: se,
@@ -10240,7 +10282,7 @@ function jo({ root: e }) {
 	};
 }
 // src/timelapse.ts
-function Mo(e, t, n) {
+function No(e, t, n) {
 	let r = 1 / t, i = r * .001, a = null, o = null, s = null, c = 0;
 	function l() {
 		let e = new Ft(o, {
@@ -10269,11 +10311,11 @@ function Mo(e, t, n) {
 	};
 }
 // src/audioStretch.ts
-var No = .04, Po = .012;
-function Fo(e, t) {
+var Po = .04, Fo = .012;
+function Io(e, t) {
 	let n = 0, r = 0, i = null, a = 0, o = [], s = /* @__PURE__ */ new Float32Array(), c = 0, l = 0, u = 0, d = 0, f = 0, p, m = 0, h = 0, g = [], _ = 0;
 	function v(t) {
-		n = t.sampleRate, r = t.numberOfChannels, o = Array.from({ length: r }, () => /* @__PURE__ */ new Float32Array()), u = Math.round(n * No) & -2, d = u / 2, f = Math.round(n * Po), p = new Float32Array(u);
+		n = t.sampleRate, r = t.numberOfChannels, o = Array.from({ length: r }, () => /* @__PURE__ */ new Float32Array()), u = Math.round(n * Po) & -2, d = u / 2, f = Math.round(n * Fo), p = new Float32Array(u);
 		for (let e = 0; e < u; e++) p[e] = .5 - .5 * Math.cos(2 * Math.PI * e / u);
 		g = Array.from({ length: r }, () => new Float32Array(u)), i = t.timestamp / e;
 	}
@@ -10363,20 +10405,77 @@ function Fo(e, t) {
 	}
 	return (e) => (i === null && v(e), y(e), t === "stretch" ? C() : w());
 }
+// src/sectionJoin.ts
+function Lo(e) {
+	let t = e[0].start, n = [], r = 0;
+	for (let t of e) n.push(r), r += t.end - t.start;
+	return (r) => {
+		let i = r + t, a = e.findIndex((e) => i >= e.start && i < e.end);
+		return a === -1 ? null : i - e[a].start + n[a];
+	};
+}
+function Ro(e) {
+	return (t) => {
+		let n = e(t.timestamp + t.duration / 2);
+		if (n === null) return null;
+		let r = t.clone();
+		return r.setTimestamp(Math.max(0, n - t.duration / 2)), r;
+	};
+}
+// src/audioExtract.ts
+async function zo(e) {
+	let { input: t, spec: n, ranges: r, enhance: i } = e, a = await t.getPrimaryAudioTrack();
+	if (!a) throw Error("This video has no audio track.");
+	let o = new ti(), s = new Vi({
+		format: n.makeFormat(),
+		target: o
+	}), c = {
+		forceTranscode: !0,
+		codec: n.codec
+	};
+	n.lossless || (c.bitrate = e.bitrate);
+	let l = r ? {
+		start: r[0].start,
+		end: r[r.length - 1].end
+	} : null;
+	if (r && r.length > 1 && (c.process = Ro(Lo(r))), i) {
+		let t = await yo({
+			track: a,
+			options: i,
+			span: l,
+			ranges: r ?? [],
+			onStatus: e.onStatus,
+			isCancelled: e.isCancelled
+		});
+		t.sampleRate && (c.sampleRate = t.sampleRate), c.process = t.wrap(c.process);
+	}
+	let u = await Yi.init({
+		input: t,
+		output: s,
+		video: { discard: !0 },
+		audio: c,
+		trim: l ?? void 0
+	});
+	if (!u.isValid) throw u.discardedTracks.forEach((e) => console.warn(`Track discarded: ${e.reason}`)), Error("This audio format isn't supported by your browser.");
+	u.onProgress = e.onProgress, e.onConversion(u), await u.execute();
+	let d = o.buffer;
+	if (!d) throw Error("Audio extraction produced an empty file.");
+	return new File([d], `${e.baseName}.${n.ext}`, { type: n.mime });
+}
 // src/capturePreview.ts
-var Io = (e) => {
+var Bo = (e) => {
 	try {
 		return localStorage.getItem(e) || void 0;
 	} catch {
 		return;
 	}
-}, Lo = (e, t) => {
+}, Vo = (e, t) => {
 	try {
 		localStorage.setItem(e, t);
 	} catch {}
-}, Ro = (e) => e ? { ideal: e } : void 0;
-function zo(e) {
-	let { kind: t, checkbox: n, select: r, wrap: i, constraints: a, onStream: o, onError: s, storageKey: c } = e, l = null, u = 0, d = Io(c);
+}, Ho = (e) => e ? { ideal: e } : void 0;
+function Uo(e) {
+	let { kind: t, checkbox: n, select: r, wrap: i, constraints: a, onStream: o, onError: s, storageKey: c } = e, l = null, u = 0, d = Bo(c);
 	async function f(e) {
 		let n = (await navigator.mediaDevices.enumerateDevices()).filter((e) => e.kind === t && e.deviceId !== "communications");
 		r.replaceChildren(...n.map((e, n) => {
@@ -10393,7 +10492,7 @@ function zo(e) {
 		p();
 		let e = u;
 		try {
-			let t = await navigator.mediaDevices.getUserMedia(a(Ro(r.value || d)));
+			let t = await navigator.mediaDevices.getUserMedia(a(Ho(r.value || d)));
 			if (e !== u || !n.checked) {
 				t.getTracks().forEach((e) => e.stop());
 				return;
@@ -10407,7 +10506,7 @@ function zo(e) {
 	return n.addEventListener("change", () => {
 		i.style.display = n.checked ? "" : "none", n.checked ? m() : p();
 	}), r.addEventListener("change", () => {
-		d = r.value, Lo(c, d), m();
+		d = r.value, Vo(c, d), m();
 	}), navigator.mediaDevices.addEventListener?.("devicechange", () => {
 		n.checked && l && f(r.value);
 	}), i.style.display = "none", {
@@ -10418,7 +10517,7 @@ function zo(e) {
 		}
 	};
 }
-function Bo(e, t) {
+function Wo(e, t) {
 	let n = new AudioContext(), r = n.createAnalyser();
 	r.fftSize = 1024, n.createMediaStreamSource(e).connect(r);
 	let i = new Float32Array(r.fftSize), a = window.setInterval(() => {
@@ -10433,12 +10532,12 @@ function Bo(e, t) {
 	};
 }
 // src/webcamCompositor.ts
-var Vo = {
+var Go = {
 	small: .16,
 	medium: .22,
 	large: .3
 };
-function Ho(e) {
+function Ko(e) {
 	let t = window.MediaStreamTrackProcessor;
 	if (!t) throw Error("This browser can't composite a webcam into the recording.");
 	let n = new t({ track: e }).readable.getReader(), r = null, i = !1;
@@ -10461,14 +10560,14 @@ function Ho(e) {
 		}
 	};
 }
-function Uo(e, t) {
+function qo(e, t) {
 	let n = URL.createObjectURL(new Blob([`setInterval(() => postMessage(0), ${t})`], { type: "text/javascript" })), r = new Worker(n);
 	return r.onmessage = e, () => {
 		r.terminate(), URL.revokeObjectURL(n);
 	};
 }
-function Wo(e) {
-	let { canvas: t, source: n, fps: r, corner: i, size: a, onError: o } = e, s = t.getContext("2d"), c = Ho(e.screenTrack), l = Ho(e.webcamTrack), u = null, d = 0, f = 0, p = null;
+function Jo(e) {
+	let { canvas: t, source: n, fps: r, corner: i, size: a, onError: o } = e, s = t.getContext("2d"), c = Ko(e.screenTrack), l = Ko(e.webcamTrack), u = null, d = 0, f = 0, p = null;
 	function m() {
 		let e = c.latest;
 		if (!e) return !1;
@@ -10492,7 +10591,7 @@ function Wo(e) {
 	}
 	return {
 		start() {
-			d = performance.now(), u = Uo(h, Math.max(4, Math.floor(500 / r)));
+			d = performance.now(), u = qo(h, Math.max(4, Math.floor(500 / r)));
 		},
 		async stop() {
 			u?.(), u = null, await p, c.close(), l.close();
@@ -10500,13 +10599,13 @@ function Wo(e) {
 	};
 }
 // src/screenCapture.ts
-var Go = {
+var Yo = {
 	low: Dt,
 	medium: Fe,
 	high: gt,
 	"very-high": st
 };
-function Ko() {
+function Xo() {
 	let e = document.createElement("canvas");
 	e.width = e.height = 64;
 	let t = e.getContext("2d"), n = null, r = [], i = "", a = 0;
@@ -10531,7 +10630,7 @@ function Ko() {
 		}
 	};
 }
-async function qo(e) {
+async function Zo(e) {
 	let t = document.createElement("canvas"), n = t.getContext("2d"), r = window.ImageCapture;
 	if (r) try {
 		let i = await new r(e).grabFrame();
@@ -10540,37 +10639,37 @@ async function qo(e) {
 	let i = document.createElement("video");
 	return i.muted = !0, i.playsInline = !0, i.srcObject = new MediaStream([e]), await i.play(), "requestVideoFrameCallback" in i && await new Promise((e) => i.requestVideoFrameCallback(e)), t.width = i.videoWidth, t.height = i.videoHeight, n.drawImage(i, 0, 0), i.pause(), i.srcObject = null, t;
 }
-var Jo = {
+var Qo = {
 	echoCancellation: !1,
 	noiseSuppression: !1,
 	autoGainControl: !1
-}, Yo = {
+}, $o = {
 	echoCancellation: !0,
 	noiseSuppression: !0,
 	autoGainControl: !0,
 	voiceIsolation: !0
-}, Xo = () => (/* @__PURE__ */ new Date()).toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-"), Zo = (e) => new Promise((t) => setTimeout(t, e));
-function Qo({ root: e, onCaptured: t }) {
+}, es = () => (/* @__PURE__ */ new Date()).toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-"), ts = (e) => new Promise((t) => setTimeout(t, e));
+function ns({ root: e, onCaptured: t }) {
 	let n = (t) => e.getElementById(t), r = n("screen-capture-bar"), i = n("capture-start"), a = n("capture-audio"), o = n("capture-stop"), s = n("capture-system-audio"), c = n("capture-mic"), l = n("capture-cam"), u = n("capture-cam-corner"), f = n("capture-cam-size"), p = n("capture-fps"), m = n("capture-quality"), h = n("capture-options"), g = n("capture-status"), _ = n("capture-shot"), v = n("capture-screenshot"), y = n("capture-shot-delay"), b = n("capture-options").querySelector(".capture-devices");
 	if (!navigator.mediaDevices?.getDisplayMedia) {
 		r.style.display = "none";
 		return;
 	}
-	let x = null, S = !1, C = null, w = Ko(), T = (e) => Math.max(2, Math.floor(e / 2) * 2), E = n("capture-cam-preview"), D = n("capture-mic-level"), O = null, k = zo({
+	let x = null, S = !1, C = null, w = Xo(), T = (e) => Math.max(2, Math.floor(e / 2) * 2), E = n("capture-cam-preview"), D = n("capture-mic-level"), O = null, k = Uo({
 		kind: "audioinput",
 		checkbox: c,
 		select: n("capture-mic-device"),
 		wrap: n("capture-mic-row"),
 		constraints: (e) => ({ audio: {
-			...Yo,
+			...$o,
 			deviceId: e
 		} }),
 		onStream: (e) => {
-			O?.(), O = e ? Bo(e, D) : null;
+			O?.(), O = e ? Wo(e, D) : null;
 		},
 		onError: (e) => g.textContent = e,
 		storageKey: "media-converter.mic-device"
-	}), A = zo({
+	}), A = Uo({
 		kind: "videoinput",
 		checkbox: l,
 		select: n("capture-cam-device"),
@@ -10613,11 +10712,11 @@ function Qo({ root: e, onCaptured: t }) {
 				audio: !1
 			});
 			let r = n.getVideoTracks()[0];
-			for (let t = e; t > 0; t--) g.textContent = `📸 Capturing in ${t}…`, await Zo(1e3);
-			e || await Zo(300);
-			let i = await qo(r), a = await new Promise((e) => i.toBlob(e, "image/png"));
+			for (let t = e; t > 0; t--) g.textContent = `📸 Capturing in ${t}…`, await ts(1e3);
+			e || await ts(300);
+			let i = await Zo(r), a = await new Promise((e) => i.toBlob(e, "image/png"));
 			if (!a) throw Error("Could not encode the screenshot.");
-			let o = new File([a], `screenshot_${Xo()}.png`, { type: "image/png" });
+			let o = new File([a], `screenshot_${es()}.png`, { type: "image/png" });
 			ne(o, `Screenshot ${i.width}×${i.height} (${va(o.size)}) — loaded below for editing. `), console.log(`Screenshot captured: ${o.name}, ${i.width}x${i.height}, ${va(o.size)}.`), n.getTracks().forEach((e) => e.stop()), n = null, await t(o);
 		} catch (e) {
 			e?.name === "NotAllowedError" ? g.textContent = "Screenshot was cancelled." : (console.error("Screenshot failed:", e), g.textContent = `Screenshot failed: ${e?.message || e}`);
@@ -10646,7 +10745,7 @@ function Qo({ root: e, onCaptured: t }) {
 			if (l.checked) try {
 				let r = await navigator.mediaDevices.getUserMedia({
 					video: {
-						deviceId: Ro(A.deviceId()),
+						deviceId: Ho(A.deviceId()),
 						width: { ideal: 1280 },
 						height: { ideal: 720 },
 						frameRate: { ideal: e }
@@ -10659,12 +10758,12 @@ function Qo({ root: e, onCaptured: t }) {
 			}
 			let r = await navigator.mediaDevices.getDisplayMedia({
 				video: { frameRate: { ideal: e } },
-				audio: s.checked && Jo
+				audio: s.checked && Qo
 			});
 			if (t.push(r), c.checked) try {
 				t.push(await navigator.mediaDevices.getUserMedia({ audio: {
-					...Yo,
-					deviceId: Ro(k.deviceId())
+					...$o,
+					deviceId: Ho(k.deviceId())
 				} }));
 			} catch (e) {
 				console.warn("Microphone unavailable; recording without it:", e);
@@ -10682,7 +10781,7 @@ function Qo({ root: e, onCaptured: t }) {
 			let v = _ === "avc" || _ === "av1", y = v ? new Ti({ fastStart: "in-memory" }) : new ki(), b = new ti(), S = new Vi({
 				format: y,
 				target: b
-			}), C = Go[m.value] ?? (parseFloat(m.value) || 5) * 1e6, E = [], D;
+			}), C = Yo[m.value] ?? (parseFloat(m.value) || 5) * 1e6, E = [], D;
 			if (n) {
 				let t = document.createElement("canvas");
 				t.width = p, t.height = h;
@@ -10691,14 +10790,14 @@ function Qo({ root: e, onCaptured: t }) {
 					bitrate: C,
 					contentHint: "detail"
 				});
-				S.addVideoTrack(r, { frameRate: e }), D = Wo({
+				S.addVideoTrack(r, { frameRate: e }), D = Jo({
 					canvas: t,
 					source: r,
 					screenTrack: i,
 					webcamTrack: n,
 					fps: e,
 					corner: u.value,
-					size: Vo[f.value] ?? Vo.medium,
+					size: Go[f.value] ?? Go.medium,
 					onError: (e) => {
 						console.error("Screen capture error:", e), g.textContent = `Recording error: ${e?.message || e}`, ae();
 					}
@@ -10757,13 +10856,13 @@ function Qo({ root: e, onCaptured: t }) {
 		try {
 			let t = await navigator.mediaDevices.getDisplayMedia({
 				video: !0,
-				audio: Jo
+				audio: Qo
 			});
 			if (e.push(t), !t.getAudioTracks().length && !c.checked) throw Error("No audio was shared. In the picker, choose a tab or entire screen and enable \"Share audio\".");
 			if (c.checked) try {
 				e.push(await navigator.mediaDevices.getUserMedia({ audio: {
-					...Yo,
-					deviceId: Ro(k.deviceId())
+					...$o,
+					deviceId: Ho(k.deviceId())
 				} }));
 			} catch (e) {
 				console.warn("Microphone unavailable; recording without it:", e);
@@ -10819,7 +10918,7 @@ function Qo({ root: e, onCaptured: t }) {
 			g.textContent = "Recording was empty.";
 			return;
 		}
-		let r = new File([n], `${e.prefix}_${Xo()}.${e.ext}`, { type: e.mime });
+		let r = new File([n], `${e.prefix}_${es()}.${e.ext}`, { type: e.mime });
 		ne(r, `Recorded ${va(r.size)} — loaded below for editing. `), console.log(`Screen capture finished: ${r.name}, ${va(r.size)}.`), await t(r);
 	}
 	i.addEventListener("click", () => void N()), l.addEventListener("change", () => {
@@ -10827,7 +10926,7 @@ function Qo({ root: e, onCaptured: t }) {
 	}), a.addEventListener("click", () => void P()), o.addEventListener("click", () => void ae()), v.addEventListener("click", () => void re());
 }
 // src/videoUpscale.ts
-function $o(e, t, n) {
+function rs(e, t, n) {
 	let r = document.createElement("canvas"), i = r.getContext("2d");
 	n && (r.width = n.width, r.height = n.height);
 	function a(e, t) {
@@ -10857,22 +10956,22 @@ function $o(e, t, n) {
 	};
 }
 // src/frameInterpolation.ts
-var es = {
+var is = {
 	label: "RIFE 4.9",
 	url: "https://huggingface.co/yuvraj108c/rife-onnx/resolve/64de7265b6a06637c2f2c6a92ecd1972326499fe/rife49_ensemble_True_scale_1_sim.onnx",
 	bytes: 21458882
-}, ts = 64, ns = .2;
-async function rs(e = () => {}) {
-	let { ort: t, session: n } = await Ot(es, e), r = document.createElement("canvas"), i = r.getContext("2d", { willReadFrequently: !0 }), a = document.createElement("canvas"), o = a.getContext("2d"), s = 0, c = 0, l = null, u = null;
+}, as = 64, os = .2;
+async function ss(e = () => {}) {
+	let { ort: t, session: n } = await Ot(is, e), r = document.createElement("canvas"), i = r.getContext("2d", { willReadFrequently: !0 }), a = document.createElement("canvas"), o = a.getContext("2d"), s = 0, c = 0, l = null, u = null;
 	function d(e, t, n) {
-		let a = Math.ceil(t / ts) * ts, o = Math.ceil(n / ts) * ts;
+		let a = Math.ceil(t / as) * as, o = Math.ceil(n / as) * as;
 		(r.width !== a || r.height !== o) && (r.width = a, r.height = o), i.drawImage(e, 0, 0, t, n), a > t && i.drawImage(r, t - 1, 0, 1, n, t, 0, a - t, n), o > n && i.drawImage(r, 0, n - 1, a, 1, 0, n, a, o - n);
 		let s = i.getImageData(0, 0, a, o).data, c = a * o, l = new Float32Array(3 * c);
 		for (let e = 0, t = 0; e < c; e++, t += 4) l[e] = s[t] / 255, l[c + e] = s[t + 1] / 255, l[2 * c + e] = s[t + 2] / 255;
 		return l;
 	}
 	return {
-		label: es.label,
+		label: is.label,
 		push(e, t, n) {
 			(t !== s || n !== c) && (s = t, c = n, u = null), l = u, u = d(e, t, n);
 		},
@@ -10880,7 +10979,7 @@ async function rs(e = () => {}) {
 			if (!l || !u) return !1;
 			let e = 0, t = 0;
 			for (let n = 0; n < u.length; n += 97, t++) e += Math.abs(u[n] - l[n]);
-			return e / t > ns;
+			return e / t > os;
 		},
 		async interpolate(e) {
 			if (!l || !u) throw Error("Interpolation needs two frames.");
@@ -10899,7 +10998,7 @@ async function rs(e = () => {}) {
 		}
 	};
 }
-function is(e, t, n = 1) {
+function cs(e, t, n = 1) {
 	let r = 1 / t, i = r * .001, a = null, o = 0, s = 0, c = 0, l = (e, t) => {
 		let n = e.clone();
 		return n.setTimestamp(t), n.setDuration(r), n;
@@ -10921,8 +11020,8 @@ function is(e, t, n = 1) {
 	};
 }
 // src/toolkitCore.ts
-var as = [], os = !1;
-function ss(e) {
+var ls = [], us = !1;
+function ds(e) {
 	if (typeof e != "object" || !e) return String(e);
 	try {
 		return JSON.stringify(e);
@@ -10930,19 +11029,19 @@ function ss(e) {
 		return String(e);
 	}
 }
-function cs() {
-	if (os) return;
-	os = !0;
+function fs() {
+	if (us) return;
+	us = !0;
 	let e = console.log, t = console.warn, n = console.error, r = (e, t, n) => {
-		if (n.apply(console, t), as.length === 0) return;
-		let r = (/* @__PURE__ */ new Date()).toLocaleTimeString(), i = t.map(ss).join(" ").replace(/</g, "&lt;").replace(/>/g, "&gt;"), a = "#a6e22e";
+		if (n.apply(console, t), ls.length === 0) return;
+		let r = (/* @__PURE__ */ new Date()).toLocaleTimeString(), i = t.map(ds).join(" ").replace(/</g, "&lt;").replace(/>/g, "&gt;"), a = "#a6e22e";
 		e === "warn" && (a = "#fd971f"), e === "error" && (a = "#f92672");
-		for (let e of as) e.innerHTML += `<div style="color: ${a}">[${r}] ${i}</div>`, e.scrollTop = e.scrollHeight;
+		for (let e of ls) e.innerHTML += `<div style="color: ${a}">[${r}] ${i}</div>`, e.scrollTop = e.scrollHeight;
 	};
 	console.log = (...t) => r("log", t, e), console.warn = (...e) => r("warn", e, t), console.error = (...e) => r("error", e, n);
 }
-function ls(e, { themeElement: t }) {
-	cs();
+function ps(e, { themeElement: t }) {
+	fs();
 	let n = [
 		e.getElementById("log-console"),
 		e.getElementById("log-console-img"),
@@ -10950,7 +11049,7 @@ function ls(e, { themeElement: t }) {
 		e.getElementById("log-console-batch"),
 		e.getElementById("log-console-vbatch")
 	].filter((e) => e != null);
-	n.forEach((e) => as.push(e)), [
+	n.forEach((e) => ls.push(e)), [
 		e.getElementById("clear-console-btn"),
 		e.getElementById("clear-console-btn-img"),
 		e.getElementById("clear-console-btn-audio"),
@@ -10972,7 +11071,7 @@ function ls(e, { themeElement: t }) {
 		"panel-compression",
 		"panel-rotation",
 		"panel-resample"
-	].map((t) => e.getElementById(t)), ve = e.getElementById("enable-crop-video"), J = e.getElementById("crop-controls-group"), ye = e.getElementById("crop-x"), be = e.getElementById("crop-y"), xe = e.getElementById("crop-w"), Se = e.getElementById("crop-h"), Ce = e.getElementById("crop-full"), we = e.getElementById("crop-square"), Te = e.querySelector("label[for=\"audio-mode-transcode\"]"), Ee = e.getElementById("rotate-correction"), De = e.getElementById("allow-rot-metadata"), Oe = e.getElementById("enable-fps"), ke = e.getElementById("fps-controls-group"), Ae = e.getElementById("target-fps"), je = e.getElementById("fps-mode"), Me = e.getElementById("fps-mode-wrap"), Ne = e.getElementById("enable-speed"), Pe = e.getElementById("speed-controls-group"), Ie = e.getElementById("speed-factor"), Le = e.getElementById("speed-custom-wrap"), Re = e.getElementById("speed-custom"), ze = e.getElementById("speed-frames"), Be = e.getElementById("speed-audio"), Ve = e.getElementById("speed-output-length"), He = e.getElementById("use-custom-bitrate"), Ue = e.getElementById("custom-bitrate-group"), We = e.getElementById("custom-bitrate"), Ge = e.getElementById("custom-bitrate-mbps-label"), Ke = e.getElementById("audio-mode-copy"), qe = e.getElementById("audio-mode-transcode"), Je = e.getElementById("audio-mode-mute"), Ye = e.getElementById("audio-transcode-controls"), Xe = e.getElementById("audio-codec"), Ze = e.getElementById("audio-bitrate"), Qe = e.getElementById("audio-channels"), $e = e.getElementById("audio-samplerate"), et = vo(e, "video"), tt = e.getElementById("convert-btn"), nt = e.getElementById("cancel-btn"), rt = e.getElementById("progress-section"), it = e.getElementById("progress-title"), at = e.getElementById("progress-percentage"), ot = e.getElementById("conversion-progress"), st = e.getElementById("progress-time-processed"), ct = e.getElementById("progress-speed"), lt = e.getElementById("result-section"), ut = e.getElementById("download-anchor"), dt = e.getElementById("output-size-tag"), ft = e.getElementById("output-video"), pt = e.getElementById("output-placeholder"), mt = e.getElementById("image-result-section"), ht = null, gt = null, _t = 0, vt = 0, yt = !1, bt = 0, xt = 0, St = !1, Ct = null, wt = !1, Tt = null, Et = null, Dt = null, Ot = null, kt = {
+	].map((t) => e.getElementById(t)), ve = e.getElementById("enable-crop-video"), J = e.getElementById("crop-controls-group"), ye = e.getElementById("crop-x"), be = e.getElementById("crop-y"), xe = e.getElementById("crop-w"), Se = e.getElementById("crop-h"), Ce = e.getElementById("crop-full"), we = e.getElementById("crop-square"), Te = e.querySelector("label[for=\"audio-mode-transcode\"]"), Ee = e.getElementById("rotate-correction"), De = e.getElementById("allow-rot-metadata"), Oe = e.getElementById("enable-fps"), ke = e.getElementById("fps-controls-group"), Ae = e.getElementById("target-fps"), je = e.getElementById("fps-mode"), Me = e.getElementById("fps-mode-wrap"), Ne = e.getElementById("enable-speed"), Pe = e.getElementById("speed-controls-group"), Ie = e.getElementById("speed-factor"), Le = e.getElementById("speed-custom-wrap"), Re = e.getElementById("speed-custom"), ze = e.getElementById("speed-frames"), Be = e.getElementById("speed-audio"), Ve = e.getElementById("speed-output-length"), He = e.getElementById("use-custom-bitrate"), Ue = e.getElementById("custom-bitrate-group"), We = e.getElementById("custom-bitrate"), Ge = e.getElementById("custom-bitrate-mbps-label"), Ke = e.getElementById("audio-mode-copy"), qe = e.getElementById("audio-mode-transcode"), Je = e.getElementById("audio-mode-mute"), Ye = e.getElementById("audio-transcode-controls"), Xe = e.getElementById("audio-codec"), Ze = e.getElementById("audio-bitrate"), Qe = e.getElementById("audio-channels"), $e = e.getElementById("audio-samplerate"), et = bo(e, "video"), tt = e.getElementById("convert-btn"), nt = e.getElementById("cancel-btn"), rt = e.getElementById("progress-section"), it = e.getElementById("progress-title"), at = e.getElementById("progress-percentage"), ot = e.getElementById("conversion-progress"), st = e.getElementById("progress-time-processed"), ct = e.getElementById("progress-speed"), lt = e.getElementById("result-section"), ut = e.getElementById("download-anchor"), dt = e.getElementById("output-size-tag"), ft = e.getElementById("output-video"), pt = e.getElementById("output-placeholder"), mt = e.getElementById("image-result-section"), ht = null, gt = null, _t = 0, vt = 0, yt = !1, bt = 0, xt = 0, St = !1, Ct = null, wt = !1, Tt = null, Et = null, Dt = null, Ot = null, kt = {
 		lastSample: null,
 		nextOutputTimestamp: 0,
 		isFirstFrame: !0,
@@ -11009,11 +11108,11 @@ function ls(e, { themeElement: t }) {
 		root: e,
 		formatBytes: va,
 		revealLoadedSection: Mt
-	}), Et = bo({
+	}), Et = xo({
 		root: e,
 		formatBytes: va,
 		revealLoadedSection: Mt
-	}), Dt = ko({ root: e }), Ot = jo({ root: e }), Qo({
+	}), Dt = Ao({ root: e }), Ot = Mo({ root: e }), ns({
 		root: e,
 		onCaptured: (e) => Pt([e], () => zt(e))
 	});
@@ -11152,7 +11251,7 @@ function ls(e, { themeElement: t }) {
 			console.error("An error occurred during video analysis profiling: ", e), alert(`Could not process video metadata: ${e.message || e}`);
 		}
 	}
-	let Vt = Ka({
+	let Vt = Ja({
 		media: g,
 		enable: O,
 		controlsGroup: k,
@@ -11447,13 +11546,13 @@ function ls(e, { themeElement: t }) {
 				} else ne.checked && (N.value && (a.width = $t(parseInt(N.value))), P.value && (a.height = $t(parseInt(P.value))), a.fit = I.value, console.log(`Setting resize dimensions: ${a.width}x${a.height} (${a.fit})`));
 				let e = Ut();
 				if (ce.checked) {
-					let t = Jt(), n = await rs((e) => {
+					let t = Jt(), n = await ss((e) => {
 						it.textContent = `✨ ${e}`;
 					});
-					a.process = is(n, t, e ?? 1), console.log(`✨ ${n.label} frame interpolation: ${qt(xt || 30)} source → ${e ?? 1}× speed at ${qt(t)}.`);
+					a.process = cs(n, t, e ?? 1), console.log(`✨ ${n.label} frame interpolation: ${qt(xt || 30)} source → ${e ?? 1}× speed at ${qt(t)}.`);
 				} else if (e) {
 					let t = Wt(), n = ze.value;
-					a.process = Mo(e, t, n), console.log(`Time-lapse: ${e}× speed at ${t} FPS (${n} frames).`);
+					a.process = No(e, t, n), console.log(`Time-lapse: ${e}× speed at ${t} FPS (${n} frames).`);
 				} else if (Oe.checked) {
 					let e = parseInt(Ae.value);
 					if (!isNaN(e) && e > 0) {
@@ -11502,25 +11601,15 @@ function ls(e, { themeElement: t }) {
 			let d = {}, f = Vt.getRanges(), p = bt;
 			if (f && (d.start = f[0].start, d.end = f[f.length - 1].end, p = f.reduce((e, t) => e + (t.end - t.start), 0), console.log(`Clip window enabled: ${f.map((e) => `${e.start.toFixed(2)}s–${e.end.toFixed(2)}s`).join(", ")} (output duration: ${p.toFixed(2)}s)`)), f && f.length > 1) {
 				if (o) throw Error("Joining multiple sections requires re-encoding. Turn off Fast Copy, or use a single section.");
-				let e = f[0].start, t = [], n = 0;
-				for (let e of f) t.push(n), n += e.end - e.start;
-				let r = (n) => {
-					let r = n + e, i = f.findIndex((e) => r >= e.start && r < e.end);
-					return i === -1 ? null : r - f[i].start + t[i];
-				}, i = a.process;
-				a.process = (e) => {
-					let t = r(e.timestamp);
-					return t === null ? null : (e.setTimestamp(t), i ? i(e) : e);
-				}, u.discard || (u.process = (e) => {
-					let t = r(e.timestamp + e.duration / 2);
-					if (t === null) return null;
-					let n = e.clone();
-					return n.setTimestamp(Math.max(0, t - e.duration / 2)), n;
-				}, Ke.checked && console.log("Audio will be re-encoded to join sections."));
+				let e = Lo(f), t = a.process;
+				a.process = (n) => {
+					let r = e(n.timestamp);
+					return r === null ? null : (n.setTimestamp(r), t ? t(n) : n);
+				}, u.discard || (u.process = Ro(e), Ke.checked && console.log("Audio will be re-encoded to join sections."));
 			}
 			let m = o ? null : Ut();
 			if (m && !u.discard) {
-				let e = Kt(), t = Fo(m, e), n = u.process;
+				let e = Kt(), t = Io(m, e), n = u.process;
 				u.process = async (e) => {
 					if (!n) return t(e);
 					let r = await n(e);
@@ -11534,7 +11623,7 @@ function ls(e, { themeElement: t }) {
 				let e = await gt.getPrimaryAudioTrack();
 				if (e) {
 					wt = !1;
-					let t = await _o({
+					let t = await yo({
 						track: e,
 						options: h,
 						span: f ? {
@@ -11552,7 +11641,7 @@ function ls(e, { themeElement: t }) {
 				let e = R.value, t = await Ia(e, (e) => {
 					it.textContent = `✨ ${e}`;
 				});
-				a.process = $o(t, a.process, c);
+				a.process = rs(t, a.process, c);
 				let n = a.crop?.width ?? _t, r = a.crop?.height ?? vt;
 				a.crop || l !== 90 && l !== 270 || ([n, r] = [r, n]), a.processedWidth = c?.width ?? n * 2, a.processedHeight = c?.height ?? r * 2, console.log(`✨ AI upscale (${t.label}): ${n}x${r} → ${n * 2}x${r * 2}` + (c ? `, then resized to ${c.width}x${c.height}` : ""));
 			}
@@ -11589,26 +11678,69 @@ function ls(e, { themeElement: t }) {
 	}), nt.addEventListener("click", async () => {
 		wt = !0, Ct && (console.log("Requesting cancellation of active codec processors..."), await Ct.cancel());
 	});
-	let fn = e.getElementById("home-link");
-	function pn() {
+	let fn = e.getElementById("extract-format"), pn = e.getElementById("extract-bitrate"), mn = e.getElementById("extract-export-btn"), hn = e.getElementById("extract-edit-btn"), gn = e.getElementById("extract-status"), _n = null, vn = () => pn.disabled = !!Wa[fn.value]?.lossless;
+	fn.addEventListener("change", vn), Ga(fn).then(vn);
+	async function yn(e) {
+		if (!ht || !gt) {
+			alert("Please load a video first.");
+			return;
+		}
+		if (!St) {
+			alert("This video has no audio track.");
+			return;
+		}
+		let t = e === "edit" ? Wa.wav : Wa[fn.value] || Wa.mp3, n = e === "export" && !q.checked ? et.getOptions() : null, r = ht.name.lastIndexOf("."), i = `${r > 0 ? ht.name.slice(0, r) : ht.name}_audio`;
+		wt = !1, mn.disabled = hn.disabled = tt.disabled = !0, nt.style.display = "inline-block", rt.style.display = "block", pt.style.display = "none", it.textContent = "🎵 Extracting audio...", at.textContent = "0%", ot.value = 0, st.textContent = "", ct.textContent = "", gn.textContent = "";
+		try {
+			let r = await zo({
+				input: gt,
+				baseName: i,
+				spec: t,
+				bitrate: parseInt(pn.value) || 192e3,
+				ranges: Vt.getRanges(),
+				enhance: n,
+				onStatus: (e) => it.textContent = e,
+				onProgress: (e) => {
+					let t = Math.min(100, Math.round(e * 100));
+					at.textContent = `${t}%`, ot.value = t, it.textContent = `🎵 Extracting audio (${t}%)`;
+				},
+				onConversion: (e) => Ct = e,
+				isCancelled: () => wt
+			});
+			if (console.log(`🎵 Extracted audio: ${r.name} (${va(r.size)}).`), e === "edit") {
+				await zt(r);
+				return;
+			}
+			_n && URL.revokeObjectURL(_n), _n = URL.createObjectURL(r);
+			let a = document.createElement("a");
+			a.href = _n, a.download = r.name, a.textContent = "Download again", gn.replaceChildren(`Saved ${r.name} (${va(r.size)}). `, a), a.click();
+		} catch (e) {
+			e.name === "ConversionCanceledError" || e.message?.includes("canceled") ? console.warn("Audio extraction canceled.") : (console.error("Audio extraction failed: ", e), alert(`Audio extraction failed: ${e.message || e}`));
+		} finally {
+			mn.disabled = hn.disabled = tt.disabled = !1, nt.style.display = "none", rt.style.display = "none", lt.style.display === "none" && (pt.style.display = ""), Ct = null;
+		}
+	}
+	mn.addEventListener("click", () => void yn("export")), hn.addEventListener("click", () => void yn("edit"));
+	let bn = e.getElementById("home-link");
+	function $() {
 		Ct && Ct.cancel(), Tt?.setActive(!1), Et?.setActive(!1), Tt?.dispose(), Et?.dispose(), Dt?.dispose(), Ot?.dispose(), gt &&= (gt.dispose(), null), ht = null, g.pause(), g.src && URL.revokeObjectURL(g.src), g.removeAttribute("src"), ft.src && URL.revokeObjectURL(ft.src), ft.removeAttribute("src"), lt.style.display = "none", mt.style.display = "none", l.value = "", u.style.display = "none", t.scrollIntoView({
 			behavior: "smooth",
 			block: "start"
 		});
 	}
-	fn.addEventListener("click", (e) => {
-		e.preventDefault(), pn();
+	bn.addEventListener("click", (e) => {
+		e.preventDefault(), $();
 	});
 }
 // src/component.ts
-var us = Jt.replace(/:root\b/g, ":host"), ds = "\n:host { display: block; }\n.mb-app {\n  font-family: var(--pico-font-family, system-ui, sans-serif);\n  line-height: var(--pico-line-height, 1.5);\n  color: var(--pico-color);\n  background-color: var(--pico-background-color);\n  -webkit-font-smoothing: antialiased;\n  padding: 0.5rem 1.5rem 2rem;\n}\n", fs = class extends HTMLElement {
+var ms = Jt.replace(/:root\b/g, ":host"), hs = "\n:host { display: block; }\n.mb-app {\n  font-family: var(--pico-font-family, system-ui, sans-serif);\n  line-height: var(--pico-line-height, 1.5);\n  color: var(--pico-color);\n  background-color: var(--pico-background-color);\n  -webkit-font-smoothing: antialiased;\n  padding: 0.5rem 1.5rem 2rem;\n}\n", gs = class extends HTMLElement {
 	connectedCallback() {
 		if (this.shadowRoot) return;
 		let e = this.attachShadow({ mode: "open" }), t = document.createElement("style");
-		t.textContent = us + ds, e.appendChild(t);
+		t.textContent = ms + hs, e.appendChild(t);
 		let n = document.createElement("div");
-		n.className = "mb-app", n.setAttribute("data-theme", this.getAttribute("theme") || "dark"), n.innerHTML = Xt, e.appendChild(n), ls(e, { themeElement: n });
+		n.className = "mb-app", n.setAttribute("data-theme", this.getAttribute("theme") || "dark"), n.innerHTML = Xt, e.appendChild(n), ps(e, { themeElement: n });
 	}
 };
-customElements.get("media-converter") || customElements.define("media-converter", fs), customElements.get("mediabunny-toolkit") || customElements.define("mediabunny-toolkit", class extends fs {});
-export { fs as MediaConverter };
+customElements.get("media-converter") || customElements.define("media-converter", gs), customElements.get("mediabunny-toolkit") || customElements.define("mediabunny-toolkit", class extends gs {});
+export { gs as MediaConverter };

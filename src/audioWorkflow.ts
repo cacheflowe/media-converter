@@ -5,16 +5,9 @@ import {
   Output,
   BufferTarget,
   Conversion,
-  Mp3OutputFormat,
-  Mp4OutputFormat,
-  OggOutputFormat,
-  WavOutputFormat,
-  FlacOutputFormat,
-  canEncodeAudio,
-  type OutputFormat,
   type ConversionAudioOptions,
-  type AudioCodec,
 } from "mediabunny";
+import { AUDIO_FORMATS, markSupportedAudioFormats } from "./audioFormats";
 import { formatDuration } from "./shared";
 import { createTrimController } from "./trimController";
 import { bindEnhanceControls, setupVoiceEnhance } from "./voiceEnhance";
@@ -24,22 +17,6 @@ type CreateAudioWorkflowOptions = {
   root: Document | ShadowRoot;
   formatBytes: (bytes: number, decimals?: number) => string;
   revealLoadedSection: () => void;
-};
-
-type AudioFormatSpec = {
-  makeFormat: () => OutputFormat;
-  codec: AudioCodec;
-  ext: string;
-  mime: string;
-  lossless: boolean;
-};
-
-const AUDIO_FORMATS: Record<string, AudioFormatSpec> = {
-  mp3: { makeFormat: () => new Mp3OutputFormat(), codec: "mp3", ext: "mp3", mime: "audio/mpeg", lossless: false },
-  m4a: { makeFormat: () => new Mp4OutputFormat(), codec: "aac", ext: "m4a", mime: "audio/mp4", lossless: false },
-  opus: { makeFormat: () => new OggOutputFormat(), codec: "opus", ext: "ogg", mime: "audio/ogg", lossless: false },
-  wav: { makeFormat: () => new WavOutputFormat(), codec: "pcm-s16", ext: "wav", mime: "audio/wav", lossless: true },
-  flac: { makeFormat: () => new FlacOutputFormat(), codec: "flac", ext: "flac", mime: "audio/flac", lossless: true },
 };
 
 export function createAudioWorkflow({ root, formatBytes, revealLoadedSection }: CreateAudioWorkflowOptions) {
@@ -153,23 +130,7 @@ export function createAudioWorkflow({ root, formatBytes, revealLoadedSection }: 
   // Mark output formats whose codec the browser can't encode (e.g. MP3 in Chrome)
   // and fall back to the first supported option.
   async function refreshFormatSupport() {
-    for (const opt of Array.from(outFormat.options)) {
-      const spec = AUDIO_FORMATS[opt.value];
-      if (!spec) continue;
-      let ok = false;
-      try {
-        ok = await canEncodeAudio(spec.codec);
-      } catch {
-        ok = false;
-      }
-      opt.disabled = !ok;
-      const base = opt.textContent!.replace(/ — unavailable$/, "");
-      opt.textContent = ok ? base : `${base} — unavailable`;
-    }
-    if (outFormat.selectedOptions[0]?.disabled) {
-      const firstOk = Array.from(outFormat.options).find((o) => !o.disabled);
-      if (firstOk) outFormat.value = firstOk.value;
-    }
+    await markSupportedAudioFormats(outFormat);
     updateFormatUI();
   }
 
