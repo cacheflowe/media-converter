@@ -16,7 +16,8 @@ Features:
   resampling (repeat or blend), audio transcode/copy/strip, **Enhance Voice**
   (same pass as in the Audio workspace), **Extract Audio** (export just the audio
   track, or open it in the audio editor), and fast-copy (no
-  re-encode) trims.
+  re-encode) trims, and **Export as GIF** (small, palette-optimized animated GIFs,
+  including presets for tiny LED panels — see below).
 - **AI for video**: 2x upscaling (Real-ESRGAN) and **RIFE** frame interpolation for
   smoother frame rates or slow motion — see below.
 - **Image**: crop (drag handles + loupe), resize/scale presets, redaction brush
@@ -66,6 +67,7 @@ The exact same UI and logic build into **three targets** from one shared codebas
 | `src/neuralDenoise.ts` | AI noise reduction: Resemble denoiser (ONNX) with a JS STFT/ISTFT, run as a pre-pass. |
 | `src/imageBatchWorkflow.ts`, `src/videoBatchWorkflow.ts`, `src/batchShared.ts` | Batch modes on a shared queue / thumbnail / ZIP engine (`src/zip.ts`). |
 | `src/screenCapture.ts` | Screen recording (Mediabunny MediaStream sources → MP4) and screenshots. |
+| `src/gifPanel.ts`, `src/gifExport.ts`, `src/gifEncode.ts` | Video → GIF: panel UI + presets + URL params; frame pulling (trim / crop / speed) and box downsampling; palette, frame differencing and GIF writing ([gifenc](https://github.com/mattdesl/gifenc), lazy-loaded). |
 | `src/trimController.ts`, `src/cropEditor.ts` | Trim and crop editors shared by the video, audio, and image workspaces. |
 | `src/timelapse.ts`, `src/audioStretch.ts` | Speed change / time-lapse video process hook and pitch-preserving audio stretch. |
 | `src/onnxRuntime.ts` | Shared ML runtime: lazy onnxruntime-web, WebGPU detection, model download + Cache API, session reuse. |
@@ -116,6 +118,59 @@ To preview the Pages build locally:
 ```bash
 npm run build:pages   # then open dist-pages/index.html
 ```
+
+## Export as GIF
+
+Open **🎞️ Export as GIF** in the video workspace. It follows the trim / sections, crop box
+and speed settings above it (not RIFE or AI upscale). Frames are decoded by Mediabunny, shrunk
+with an **area-average (box) filter** (every source pixel that falls in an output pixel is
+averaged, so small output doesn't alias or shimmer), resampled to the GIF frame rate, quantized
+to **one global palette** for the whole clip, and encoded with [gifenc](https://github.com/mattdesl/gifenc) (MIT).
+Pixels that haven't changed since the previous frame become transparent (disposal 1), and a frame
+where nothing changed is dropped and its time added to the previous frame's delay (GIF delays are
+10 ms units; the rounding remainder is carried forward so the total stays exact, and no delay is
+under 20 ms because browsers clamp shorter ones).
+
+Controls: preset (Tiny 320 px/10 fps/64 colors, Balanced 480/12/128, Sharp 640/15/256), width,
+height (blank = follow the aspect), frame rate (1–50), palette size, center-crop vs stretch when the
+shape differs, an optional size budget, a **change tolerance** slider, transparent unchanged pixels,
+ordered-Bayer dithering (off by default), a contrast/saturation boost (off), and loop. **Estimate
+size** encodes the first ~1.5 s and extrapolates. The result shows size (against the budget),
+frames kept/merged, duration, and a real-size plus enlarged (nearest-neighbor) preview.
+
+**Downsampling** is *Area average* by default. *Nearest (pixel-exact)* instead samples the center
+of each source block, with no scaling beforehand, so art made of whole pixel blocks (say a 32×32
+animation shown at 10×) comes back exactly, with no blended edges. For it to line up, the crop
+should cover whole blocks (draw a crop box in the Crop panel if the video has borders).
+
+### LED panel preset (32×32 / 64×32)
+
+For HUB75 LED signs that play GIFs from flash (e.g. an ESP32 using bitbank2's AnimatedGIF).
+The preset: exact **32×32** output (**64×32** has its own entry; width/height are editable) with a
+centered crop to that shape (draw a crop box in the Crop panel first to choose the region), box
+downsampling, **no dithering**, a single ≤256-color global palette with a reserved transparent
+index, merged unchanged frames, 20 fps by default, a **1.2 MB budget** with a warning when exceeded,
+and a GIF89a file with the NETSCAPE2.0 loop extension (loop forever), disposal method 1 and
+a single global color table.
+
+### URL parameters
+
+A host page can link straight into the panel with hash parameters; they're applied once a video is
+loaded (or immediately if one already is), and the GIF panel opens and scrolls into view.
+
+| Parameter | Meaning |
+|---|---|
+| `gif-preset` | `tiny`, `balanced`, `sharp`, `led32`, `led64x32` |
+| `gif-width`, `gif-height` | Output size in pixels (override the preset) |
+| `gif-fps` | Frame rate, 1–50 |
+| `gif-colors` | Palette size: 16, 32, 64, 128, 256 |
+| `gif-tolerance` | Change tolerance, 0–40 |
+| `gif-resample` | `area` (default) or `nearest` (pixel-exact) |
+| `gif-dither` | `1` / `0` |
+| `gif-budget` | Size budget in MB (`0` = none) |
+
+Example: `https://cacheflowe.github.io/media-converter/#gif-preset=led32`, or
+`#gif-preset=led64x32&gif-fps=25`.
 
 ## AI upscale
 

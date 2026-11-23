@@ -1,4 +1,16 @@
-# Media Converter — TODO / Roadmap
+# Media - [x] **Video → GIF export** ("🎞️ Export as GIF" panel, `src/gifPanel.ts`, `src/gifExport.ts`,
+      `src/gifEncode.ts`; gifenc is a lazy chunk). Mediabunny `CanvasSink` frames honoring trim
+      sections, crop and speed → area-average (box) downsampling → resampled to the GIF rate →
+      one global palette + frame differencing (transparent unchanged pixels, disposal 1) → gifenc.
+    - [x] Presets Tiny / Balanced / Sharp; manual width, height, fps, palette size, dither (off by
+          default; ordered Bayer), loop, change tolerance, contrast/saturation boost.
+    - [x] Size estimate (encodes the first ~1.5 s and extrapolates), size budget with warning,
+          kept/merged frame counts, real-size + enlarged (pixelated) preview.
+    - [x] **LED panel presets** (32×32, 64×32) for the street-sign project: center-crop to the
+          output shape, exact pixel size, no dither, ≤256 colors, merged unchanged frames with
+          exact 10 ms delay accounting (≥20 ms), 1.2 MB budget, GIF89a + NETSCAPE2.0 loop forever.
+    - [x] URL-hash deep links (`#gif-preset=led32`, …), documented in the README.
+Converter — TODO / Roadmap
 
 Working list of planned work. Loosely ordered; not all required for a first release.
 
@@ -9,19 +21,9 @@ Working list of planned work. Loosely ordered; not all required for a first rele
     - [ ] If letterboxing, apply blurred copy in the background as an alternative to black bg color
     - [ ] Think about other ways to enhance crops for social posts
 
-- [ ] **Video → GIF export (optimized for small files).**
-      A "🎞️ Export as GIF" panel in the video workspace: Mediabunny decodes frames (honoring trim +
-      crop), frames are resized/sampled to the GIF rate, then quantized + encoded with
-      [gifenc](https://github.com/mattdesl/gifenc) (MIT, ~9 KB). Avoid ffmpeg.wasm (too heavy) and
-      gifski (AGPL).
-    - [ ] Presets: Tiny (320px / 10fps / 64 colors), Balanced (480px / 12fps / 128), Sharp (640px / 15fps / 256).
-    - [ ] Manual controls: width, fps, palette size, dither (off by default; ordered Bayer if on), loop.
-    - [ ] One global palette sampled across the clip (no per-frame palette flicker, better LZW).
-    - [ ] Frame differencing: pixels unchanged from the previous frame become transparent, with a
-          "change tolerance" slider (lossy-style fuzz) — biggest win, especially for screen recordings.
-    - [ ] Size estimate by test-encoding ~1s of the clip.
-    - [ ] Later: speed/RIFE/upscale (these live in the Mediabunny process chain); maybe a "GIF-like"
-          silent looping MP4/WebM preset as a 10–20x smaller alternative.
+- [ ] **GIF export follow-ups.** The core panel is done (see Done). Still open: honoring RIFE /
+      AI upscale in the GIF (they live in the Mediabunny process chain; GIF export reads frames
+      itself), and a "GIF-like" silent looping MP4/WebM preset as a 10–20x smaller alternative.
 
 - [ ] **Add an audio track to a video.**
       Let the user pick an audio file (MP3/WAV/M4A/…) to merge into the output video — replace the
@@ -50,6 +52,17 @@ Working list of planned work. Loosely ordered; not all required for a first rele
       - Version bump in `package.json` (hosting is settled: GitHub Pages via Actions).
       - Progress UX: set `aria-busy="true"` on the output region while encoding, and show an
         indeterminate `<progress>` during init (before the first progress callback).
+
+## To explore later
+
+- [ ] **Higher-quality tab capture via Chrome's `Page.startScreenRecording`.**
+      [chrome-capture](https://github.com/paulirish/chrome-capture) (Apache-2.0) uses this DevTools
+      protocol API (Chrome 153+): Chrome encodes the tab to AV1 MP4 itself, at 60–120 fps up to 2160p,
+      with no picker prompt and no load on the recorded page. It's a Node tool that launches Chrome and
+      talks CDP, so it can't run in this frontend-only app as-is. The one frontend-compatible route
+      seems to be a companion Chrome extension (`chrome.debugger` can call the API on a real tab) that
+      hands the MP4 back to the page. Open questions: whether that's worth an extension, and whether
+      the video workspace handles AV1 MP4 input well.
 
 ## Done
 

@@ -26,6 +26,7 @@ import { createAudioSpeedProcess, type AudioSpeedMode } from "./audioStretch";
 import { bindEnhanceControls, setupVoiceEnhance } from "./voiceEnhance";
 import { createSectionAudioProcess, createSectionMapper } from "./sectionJoin";
 import { extractAudio } from "./audioExtract";
+import { createGifPanel } from "./gifPanel";
 import { AUDIO_FORMATS, markSupportedAudioFormats } from "./audioFormats";
 import { createScreenCapture } from "./screenCapture";
 import { createFrameUpscaler, getUpscaleBackend, OUTPUT_SCALE, type UpscaleModelId } from "./upscaler";
@@ -723,6 +724,7 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
 
       // Reveal controls block
       revealLoadedSection();
+      gifPanel.onVideoLoaded();
       // A new source rate may suit a different RIFE preset the next time it's enabled
       if (!enableRife.checked) delete enableRife.dataset.touched;
       updateRifeUI();
@@ -1766,10 +1768,26 @@ export function mountToolkit(root: ToolkitRoot, { themeElement }: MountToolkitOp
   extractExportBtn.addEventListener("click", () => void runExtract("export"));
   extractEditBtn.addEventListener("click", () => void runExtract("edit"));
 
+  // --- Export as GIF: reads trim / crop / speed from the panels above ---
+  const gifPanel = createGifPanel(root, {
+    getInput: () => currentSourceInput,
+    getFileName: () => currentFile?.name ?? null,
+    getSourceDuration: () => sourceVideoDuration,
+    getRegion: () =>
+      !currentSourceInput || !sourceVideoWidth
+        ? null
+        : enableCropVideo.checked && videoCrop.width && videoCrop.height
+          ? { ...videoCrop }
+          : { x: 0, y: 0, width: sourceVideoWidth, height: sourceVideoHeight },
+    getRanges: () => videoTrim.getRanges(),
+    getSpeed: () => getSpeed(),
+  });
+
   // --- Home: clicking the title unloads everything and returns to the entry screen ---
   const homeLink = root.getElementById("home-link") as HTMLAnchorElement;
 
   function goHome() {
+    gifPanel.dispose();
     if (currentActiveConversion) void currentActiveConversion.cancel();
     imageWorkflow?.setActive(false);
     audioWorkflow?.setActive(false);

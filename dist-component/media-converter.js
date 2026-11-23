@@ -1,7 +1,7 @@
 import { n as e, r as t, t as n } from "./rolldown-runtime-DfEuXgQw.js";
-import { $ as r, $t as i, A as a, An as o, At as s, B as c, Bn as l, Bt as u, C as d, Cn as f, Ct as p, D as m, Dn as h, Dt as g, E as _, En as v, Et as y, F as b, Fn as x, Ft as S, G as C, Gt as w, H as T, Ht as E, I as D, In as O, It as k, J as A, Jt as j, K as M, Kt as ee, L as te, Ln as ne, Lt as re, M as ie, Mn as N, Mt as P, N as ae, Nn as F, Nt as I, O as L, On as R, Ot as oe, P as se, Pn as ce, Pt as le, Q as z, Qt as ue, R as de, Rn as fe, Rt as B, S as V, Sn as pe, St as me, T as H, Tn as U, Tt as W, U as he, Ut as G, V as K, Vn as ge, Vt as q, W as _e, Wt as ve, X as J, Xt as ye, Y as be, Yt as xe, Z as Se, Zt as Ce, _ as we, _n as Te, _t as Ee, a as De, an as Oe, at as ke, b as Ae, bn as je, bt as Me, c as Ne, cn as Pe, ct as Fe, d as Ie, dn as Le, dt as Re, en as ze, et as Be, f as Ve, fn as He, ft as Ue, g as We, gn as Ge, gt as Ke, h as qe, hn as Je, ht as Ye, i as Xe, in as Ze, it as Qe, j as $e, jn as et, jt as tt, k as nt, kn as rt, kt as it, l as at, ln as ot, lt as st, m as ct, mn as lt, mt as ut, n as dt, nn as ft, nt as pt, o as mt, on as ht, ot as gt, p as _t, pn as vt, pt as yt, q as bt, qt as xt, r as St, rn as Ct, rt as wt, s as Tt, sn as Et, st as Dt, t as Ot, tn as kt, tt as At, u as jt, un as Y, ut as Mt, v as Nt, vn as Pt, vt as Ft, w as It, wn as Lt, wt as Rt, x as zt, xn as Bt, xt as Vt, y as Ht, yn as Ut, yt as Wt, z as Gt, zn as Kt, zt as qt } from "./onnxRuntime-DwfKOOpe.js";
+import { $ as r, $t as i, A as a, An as o, At as s, B as c, Bn as l, Bt as u, C as d, Cn as f, Ct as p, D as m, Dn as h, Dt as g, E as _, En as v, Et as y, F as b, Fn as x, Ft as S, G as C, Gt as w, H as T, Hn as E, Ht as D, I as O, In as k, It as A, J as j, Jt as M, K as ee, Kt as N, L as te, Ln as P, Lt as ne, M as re, Mn as F, Mt as I, N as L, Nn as R, Nt as z, O as B, On as ie, Ot as ae, P as oe, Pn as se, Pt as ce, Q as le, Qt as ue, R as de, Rn as V, Rt as H, S as fe, Sn as pe, St as U, T as me, Tn as W, Tt as he, U as G, Ut as K, V as ge, Vn as q, Vt as _e, W as ve, Wt as J, X as ye, Xt as be, Y as xe, Yt as Se, Z as Ce, Zt as we, _ as Te, _n as Ee, _t as De, a as Oe, an as ke, at as Ae, b as je, bn as Me, bt as Ne, c as Pe, cn as Fe, ct as Ie, d as Le, dn as Y, dt as Re, en as ze, et as Be, f as Ve, fn as He, ft as Ue, g as We, gn as Ge, gt as Ke, h as qe, hn as Je, ht as Ye, i as Xe, in as Ze, it as Qe, j as $e, jn as et, jt as tt, k as nt, kn as rt, kt as it, l as at, ln as ot, lt as st, m as ct, mn as lt, mt as ut, n as dt, nn as ft, nt as pt, o as mt, on as ht, ot as gt, p as _t, pn as vt, pt as yt, q as bt, qt as xt, r as St, rn as Ct, rt as wt, s as Tt, sn as Et, st as Dt, t as Ot, tn as kt, tt as At, u as jt, un as Mt, ut as Nt, v as Pt, vn as Ft, vt as It, w as Lt, wn as Rt, wt as zt, x as Bt, xn as Vt, xt as Ht, y as Ut, yn as Wt, yt as Gt, z as Kt, zn as qt, zt as Jt } from "./onnxRuntime-DBehIc4z.js";
 // src/style.css?inline
-var Jt = ":host,:root{--pico-font-family-emoji:\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";--pico-font-family-sans-serif:system-ui,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,Arial,\"Helvetica Neue\",sans-serif,var(--pico-font-family-emoji);--pico-font-family-monospace:ui-monospace,SFMono-Regular,\"SF Mono\",Menlo,Consolas,\"Liberation Mono\",monospace,var(--pico-font-family-emoji);--pico-font-family:var(--pico-font-family-sans-serif);--pico-line-height:1.5;--pico-font-weight:400;--pico-font-size:100%;--pico-text-underline-offset:.1rem;--pico-border-radius:.25rem;--pico-border-width:.0625rem;--pico-outline-width:.125rem;--pico-transition:.2s ease-in-out;--pico-spacing:1rem;--pico-typography-spacing-vertical:1rem;--pico-block-spacing-vertical:var(--pico-spacing);--pico-block-spacing-horizontal:var(--pico-spacing);--pico-grid-column-gap:var(--pico-spacing);--pico-grid-row-gap:var(--pico-spacing);--pico-form-element-spacing-vertical:.75rem;--pico-form-element-spacing-horizontal:1rem;--pico-group-box-shadow:0 0 0 #0000;--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-primary-focus);--pico-group-box-shadow-focus-with-input:0 0 0 .0625rem var(--pico-form-element-border-color);--pico-modal-overlay-backdrop-filter:blur(.375rem);--pico-nav-element-spacing-vertical:1rem;--pico-nav-element-spacing-horizontal:.5rem;--pico-nav-link-spacing-vertical:.5rem;--pico-nav-link-spacing-horizontal:.5rem;--pico-nav-breadcrumb-divider:\">\";--pico-icon-checkbox:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-minus:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-chevron:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-date:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-time:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolyline points='12 6 12 12 16 14'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-search:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-close:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-loading:url(\"data:image/svg+xml,%3Csvg fill='none' height='24' width='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' %3E%3Cstyle%3E g %7B animation: rotate 2s linear infinite; transform-origin: center center; %7D circle %7B stroke-dasharray: 75,100; stroke-dashoffset: -5; animation: dash 1.5s ease-in-out infinite; stroke-linecap: round; %7D @keyframes rotate %7B 0%25 %7B transform: rotate(0deg); %7D 100%25 %7B transform: rotate(360deg); %7D %7D @keyframes dash %7B 0%25 %7B stroke-dasharray: 1,100; stroke-dashoffset: 0; %7D 50%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -17.5; %7D 100%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -62; %7D %7D %3C/style%3E%3Cg%3E%3Ccircle cx='12' cy='12' r='10' fill='none' stroke='rgb(136, 145, 164)' stroke-width='4' /%3E%3C/g%3E%3C/svg%3E\")}@media (width>=576px){:host,:root{--pico-font-size:106.25%}}@media (width>=768px){:host,:root{--pico-font-size:112.5%}}@media (width>=1024px){:host,:root{--pico-font-size:118.75%}}@media (width>=1280px){:host,:root{--pico-font-size:125%}}@media (width>=1536px){:host,:root{--pico-font-size:131.25%}}a,a.contrast,a.secondary{--pico-text-decoration:underline}small{--pico-font-size:.875em}h1,h2,h3,h4,h5,h6{--pico-font-weight:700}h1{--pico-font-size:2rem;--pico-line-height:1.125;--pico-typography-spacing-top:3rem}h2{--pico-font-size:1.75rem;--pico-line-height:1.15;--pico-typography-spacing-top:2.625rem}h3{--pico-font-size:1.5rem;--pico-line-height:1.175;--pico-typography-spacing-top:2.25rem}h4{--pico-font-size:1.25rem;--pico-line-height:1.2;--pico-typography-spacing-top:1.874rem}h5{--pico-font-size:1.125rem;--pico-line-height:1.225;--pico-typography-spacing-top:1.6875rem}h6{--pico-font-size:1rem;--pico-line-height:1.25;--pico-typography-spacing-top:1.5rem}tfoot td,tfoot th,thead td,thead th{--pico-font-weight:600;--pico-border-width:.1875rem}code,kbd,pre,samp{--pico-font-family:var(--pico-font-family-monospace)}kbd{--pico-font-weight:bolder}:where(select,textarea),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-outline-width:.0625rem}[type=search]{--pico-border-radius:5rem}[type=checkbox],[type=radio]{--pico-border-width:.125rem}[type=checkbox][role=switch]{--pico-border-width:.1875rem}details.dropdown summary:not([role=button]){--pico-outline-width:.0625rem}nav details.dropdown summary:focus-visible{--pico-outline-width:.125rem}[role=search]{--pico-border-radius:5rem}:is([role=group]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus),[role=search]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is([role=group]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus),[role=search]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=submit],[role=search] button{--pico-form-element-spacing-horizontal:2rem}details summary[role=button]:not(.outline):after,[aria-busy=true]:not(input,select,textarea):is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)invert()}:host(:not([data-theme=dark])),:root:not([data-theme=dark]),[data-theme=light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--pico-background-color:#fff;--pico-color:#373c44;--pico-text-selection-color:#029ae840;--pico-muted-color:#646b79;--pico-muted-border-color:#e7eaf0;--pico-primary:#0172ad;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#0172ad80;--pico-primary-hover:#015887;--pico-primary-hover-background:#02659a;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#029ae880;--pico-primary-inverse:#fff;--pico-secondary:#5d6b89;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#5d6b8980;--pico-secondary-hover:#48536b;--pico-secondary-hover-background:#48536b;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#5d6b8940;--pico-secondary-inverse:#fff;--pico-contrast:#181c25;--pico-contrast-background:#181c25;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#181c2580;--pico-contrast-hover:#000;--pico-contrast-hover-background:#000;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-secondary-hover);--pico-contrast-focus:#5d6b8940;--pico-contrast-inverse:#fff;--pico-box-shadow:.0145rem .029rem .174rem #8191b504,.0335rem .067rem .402rem #8191b506,.0625rem .125rem .75rem #8191b508,.1125rem .225rem 1.35rem #8191b509,.2085rem .417rem 2.502rem #8191b50b,.5rem 1rem 6rem #8191b50f,0 0 0 .0625rem #8191b504;--pico-h1-color:#2d3138;--pico-h2-color:#373c44;--pico-h3-color:#424751;--pico-h4-color:#4d535e;--pico-h5-color:#5c6370;--pico-h6-color:#646b79;--pico-mark-background-color:#fde7c0;--pico-mark-color:#0f1114;--pico-ins-color:#1d6a54;--pico-del-color:#883935;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#f3f5f7;--pico-code-color:#646b79;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#fbfcfc;--pico-form-element-selected-background-color:#dfe3eb;--pico-form-element-border-color:#cfd5e2;--pico-form-element-color:#23262c;--pico-form-element-placeholder-color:var(--pico-muted-color);--pico-form-element-active-background-color:#fff;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#b86a6b;--pico-form-element-invalid-active-border-color:#c84f48;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#4c9b8a;--pico-form-element-valid-active-border-color:#279977;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#bfc7d9;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#dfe3eb;--pico-range-active-border-color:#bfc7d9;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:var(--pico-background-color);--pico-card-border-color:var(--pico-muted-border-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#fbfcfc;--pico-dropdown-background-color:#fff;--pico-dropdown-border-color:#eff1f4;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#eff1f4;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#e8eaedbf;--pico-progress-background-color:#dfe3eb;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(76, 154.5, 137.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(200.25, 79.25, 72.25)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme=dark])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme=dark]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),[data-theme=light] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}@media only screen and (prefers-color-scheme:dark){:host(:not([data-theme])),:root:not([data-theme]){--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}:host(:not([data-theme])) details summary[role=button].contrast:not(.outline):after,:root:not([data-theme]) details summary[role=button].contrast:not(.outline):after,:host(:not([data-theme])) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before,:root:not([data-theme]) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}}[data-theme=dark]{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}[data-theme=dark] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}[data-theme=dark] details summary[role=button].contrast:not(.outline):after,[data-theme=dark] [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}[type=checkbox],[type=radio],[type=range],progress{accent-color:var(--pico-primary)}*,:after,:before{box-sizing:border-box;background-repeat:no-repeat}:after,:before{-webkit-text-decoration:inherit;text-decoration:inherit;vertical-align:inherit}:where(:host),:where(:root){-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family);text-underline-offset:var(--pico-text-underline-offset);text-rendering:optimizelegibility;overflow-wrap:break-word;tab-size:4}body{width:100%;margin:0}main{display:block}body>footer,body>header,body>main{padding-block:var(--pico-block-spacing-vertical)}section{margin-bottom:var(--pico-block-spacing-vertical)}.container,.container-fluid{width:100%;padding-right:var(--pico-spacing);padding-left:var(--pico-spacing);margin-left:auto;margin-right:auto}@media (width>=576px){.container{max-width:510px;padding-left:0;padding-right:0}}@media (width>=768px){.container{max-width:700px}}@media (width>=1024px){.container{max-width:950px}}@media (width>=1280px){.container{max-width:1200px}}@media (width>=1536px){.container{max-width:1450px}}.grid{grid-column-gap:var(--pico-grid-column-gap);grid-row-gap:var(--pico-grid-row-gap);grid-template-columns:1fr;display:grid}@media (width>=768px){.grid{grid-template-columns:repeat(auto-fit,minmax(0%,1fr))}}.grid>*{min-width:0}.overflow-auto{overflow:auto}b,strong{font-weight:bolder}sub,sup{vertical-align:baseline;font-size:.75em;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}address,blockquote,dl,ol,p,pre,table,ul{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-style:normal;font-weight:var(--pico-font-weight)}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family)}h1{--pico-color:var(--pico-h1-color)}h2{--pico-color:var(--pico-h2-color)}h3{--pico-color:var(--pico-h3-color)}h4{--pico-color:var(--pico-h4-color)}h5{--pico-color:var(--pico-h5-color)}h6{--pico-color:var(--pico-h6-color)}:where(article,address,blockquote,dl,figure,form,ol,p,pre,table,ul)~:is(h1,h2,h3,h4,h5,h6){margin-top:var(--pico-typography-spacing-top)}p,hgroup{margin-bottom:var(--pico-typography-spacing-vertical)}hgroup>*{margin-top:0;margin-bottom:0}hgroup>:not(:first-child):last-child{--pico-color:var(--pico-muted-color);--pico-font-weight:unset;font-size:1rem}:where(ol,ul) li{margin-bottom:calc(var(--pico-typography-spacing-vertical) * .25)}:where(dl,ol,ul) :where(dl,ol,ul){margin:0;margin-top:calc(var(--pico-typography-spacing-vertical) * .25)}ul li{list-style:square}mark{background-color:var(--pico-mark-background-color);color:var(--pico-mark-color);vertical-align:baseline;padding:.125rem .25rem}blockquote{margin:var(--pico-typography-spacing-vertical) 0;padding:var(--pico-spacing);border-right:none;border-left:.25rem solid var(--pico-blockquote-border-color);border-inline-start:.25rem solid var(--pico-blockquote-border-color);border-inline-end:none;display:block}blockquote footer{margin-top:calc(var(--pico-typography-spacing-vertical) * .5);color:var(--pico-blockquote-footer-color)}abbr[title]{cursor:help;border-bottom:1px dotted;text-decoration:none}ins{color:var(--pico-ins-color);text-decoration:none}del{color:var(--pico-del-color)}::selection{background-color:var(--pico-text-selection-color)}:where(a:not([role=button])),[role=link]{--pico-color:var(--pico-primary);--pico-background-color:transparent;--pico-underline:var(--pico-primary-underline);background-color:var(--pico-background-color);color:var(--pico-color);-webkit-text-decoration:var(--pico-text-decoration);-webkit-text-decoration:var(--pico-text-decoration);text-decoration:var(--pico-text-decoration);-webkit-text-decoration-color:var(--pico-underline);text-decoration-color:var(--pico-underline);text-underline-offset:.125em;transition:background-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);outline:0}:where(a:not([role=button])):is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-primary-hover);--pico-underline:var(--pico-primary-hover-underline);--pico-text-decoration:underline}:where(a:not([role=button])):focus-visible,[role=link]:focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}:where(a:not([role=button])).secondary,[role=link].secondary{--pico-color:var(--pico-secondary);--pico-underline:var(--pico-secondary-underline)}:where(a:not([role=button])).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-underline:var(--pico-secondary-hover-underline)}:where(a:not([role=button])).contrast,[role=link].contrast{--pico-color:var(--pico-contrast);--pico-underline:var(--pico-contrast-underline)}:where(a:not([role=button])).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-underline:var(--pico-contrast-hover-underline)}a[role=button]{display:inline-block}button{text-transform:none;margin:0;font-family:inherit;overflow:visible}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[role=button],[type=button],[type=reset],[type=submit],button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[type=file]::file-selector-button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[role=button]:is(:hover,:active,:focus),[role=button][aria-current]:not([aria-current=false]),[type=button]:is(:hover,:active,:focus),[type=button][aria-current]:not([aria-current=false]),[type=reset]:is(:hover,:active,:focus),[type=reset][aria-current]:not([aria-current=false]),[type=submit]:is(:hover,:active,:focus),[type=submit][aria-current]:not([aria-current=false]),button:is(:hover,:active,:focus),button[aria-current]:not([aria-current=false]){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[role=button]:focus,[role=button][aria-current]:not([aria-current=false]):focus,[type=button]:focus,[type=button][aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus,[type=submit]:focus,[type=submit][aria-current]:not([aria-current=false]):focus,button:focus,button[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=button],[type=reset],[type=submit]{margin-bottom:var(--pico-spacing)}:is(button,[type=submit],[type=button],[role=button]).secondary,[type=reset]{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}[type=file]::file-selector-button{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}:is(button,[type=submit],[type=button],[role=button]).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}:is(button,[type=submit],[type=button],[role=button]).secondary:focus,:is(button,[type=submit],[type=button],[role=button]).secondary[aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is(button,[type=submit],[type=button],[role=button]).contrast{--pico-background-color:var(--pico-contrast-background);--pico-border-color:var(--pico-contrast-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-contrast-hover-background);--pico-border-color:var(--pico-contrast-hover-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:focus,:is(button,[type=submit],[type=button],[role=button]).contrast[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}:is(button,[type=submit],[type=button],[role=button]).outline,[type=reset].outline{--pico-background-color:transparent;--pico-color:var(--pico-primary);--pico-border-color:var(--pico-primary)}:is(button,[type=submit],[type=button],[role=button]).outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:transparent;--pico-color:var(--pico-primary-hover);--pico-border-color:var(--pico-primary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary,[type=reset].outline{--pico-color:var(--pico-secondary);--pico-border-color:var(--pico-secondary)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-border-color:var(--pico-secondary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast{--pico-color:var(--pico-contrast);--pico-border-color:var(--pico-contrast)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-border-color:var(--pico-contrast-hover)}:where(button,[type=submit],[type=reset],[type=button],[role=button])[disabled],:where(fieldset[disabled]) :is(button,[type=submit],[type=button],[type=reset],[role=button]){opacity:.5;pointer-events:none}:where(table){border-collapse:collapse;border-spacing:0;text-indent:0;width:100%}td,th{padding:calc(var(--pico-spacing)/ 2) var(--pico-spacing);border-bottom:var(--pico-border-width) solid var(--pico-table-border-color);background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);text-align:left;text-align:start}tfoot td,tfoot th{border-top:var(--pico-border-width) solid var(--pico-table-border-color);border-bottom:0}table.striped tbody tr:nth-child(odd) td,table.striped tbody tr:nth-child(odd) th{background-color:var(--pico-table-row-stripped-background-color)}:where(audio,canvas,iframe,img,svg,video){vertical-align:middle}audio,video{display:inline-block}audio:not([controls]){height:0;display:none}:where(iframe){border-style:none}img{border-style:none;max-width:100%;height:auto}:where(svg:not([fill])){fill:currentColor}svg:not(:host),svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-size:.875em;font-family:var(--pico-font-family)}pre code,pre samp{font-size:inherit;font-family:inherit}pre{-ms-overflow-style:scrollbar;overflow:auto}code,kbd,pre,samp{border-radius:var(--pico-border-radius);background:var(--pico-code-background-color);color:var(--pico-code-color);font-weight:var(--pico-font-weight);line-height:initial}code,kbd,samp{padding:.375rem;display:inline-block}pre{margin-bottom:var(--pico-spacing);display:block;overflow-x:auto}pre>code,pre>samp{padding:var(--pico-spacing);line-height:var(--pico-line-height);background:0 0;display:block}kbd{background-color:var(--pico-code-kbd-background-color);color:var(--pico-code-kbd-color);vertical-align:baseline}figure{margin:0;padding:0;display:block}figure figcaption{padding:calc(var(--pico-spacing) * .5) 0;color:var(--pico-muted-color)}hr{height:0;margin:var(--pico-typography-spacing-vertical) 0;border:0;border-top:1px solid var(--pico-muted-border-color);color:inherit}[hidden],template{display:none!important}canvas{display:inline-block}input,optgroup,select,textarea{font-size:1rem;line-height:var(--pico-line-height);letter-spacing:inherit;margin:0;font-family:inherit}input{overflow:visible}select{text-transform:none}legend{max-width:100%;color:inherit;white-space:normal;padding:0}textarea{overflow:auto}[type=checkbox],[type=radio]{padding:0}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:0}:-moz-ui-invalid{box-shadow:none}::-ms-expand{display:none}[type=file],[type=range]{border-width:0;padding:0}input:not([type=checkbox],[type=radio],[type=range]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2)}fieldset{width:100%;margin:0;margin-bottom:var(--pico-spacing);border:0;padding:0}fieldset legend,label{margin-bottom:calc(var(--pico-spacing) * .375);color:var(--pico-color);font-weight:var(--pico-form-label-font-weight,var(--pico-font-weight));display:block}fieldset legend{margin-bottom:calc(var(--pico-spacing) * .5)}button[type=submit],input:not([type=checkbox],[type=radio]),select,textarea{width:100%}input:not([type=checkbox],[type=radio],[type=range],[type=file]),select,textarea{appearance:none;padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal)}input,select,textarea{--pico-background-color:var(--pico-form-element-background-color);--pico-border-color:var(--pico-form-element-border-color);--pico-color:var(--pico-form-element-color);--pico-box-shadow:none;border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[readonly]):is(:active,:focus){--pico-background-color:var(--pico-form-element-active-background-color)}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[role=switch],[readonly]):is(:active,:focus){--pico-border-color:var(--pico-form-element-active-border-color)}:where(select,textarea):not([readonly]):focus,input:not([type=submit],[type=button],[type=reset],[type=range],[type=file],[readonly]):focus{--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}:where(fieldset[disabled]) :is(input:not([type=submit],[type=button],[type=reset]),select,textarea),input:not([type=submit],[type=button],[type=reset])[disabled],label[aria-disabled=true],select[disabled],textarea[disabled]{opacity:var(--pico-form-element-disabled-opacity);pointer-events:none}label[aria-disabled=true] input[disabled]{opacity:1}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid]{padding-left:var(--pico-form-element-spacing-horizontal);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important;padding-inline-start:var(--pico-form-element-spacing-horizontal)!important;padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=false]:not(select){background-image:var(--pico-icon-valid)}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=true]:not(select){background-image:var(--pico-icon-invalid)}:where(input,select,textarea)[aria-invalid=false]{--pico-border-color:var(--pico-form-element-valid-border-color)}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus){--pico-border-color:var(--pico-form-element-valid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-valid-focus-color)!important}:where(input,select,textarea)[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus){--pico-border-color:var(--pico-form-element-invalid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-invalid-focus-color)!important}[dir=rtl] :where(input,select,textarea):not([type=checkbox],[type=radio]):is([aria-invalid],[aria-invalid=true],[aria-invalid=false]){background-position:.75rem}input::placeholder,select:invalid,textarea::placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}textarea::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input:not([type=checkbox],[type=radio]),select,textarea{margin-bottom:var(--pico-spacing)}select::-ms-expand{background-color:#0000;border:0}select:not([multiple],[size]){padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem);padding-left:var(--pico-form-element-spacing-horizontal);background-image:var(--pico-icon-chevron);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-inline-start:var(--pico-form-element-spacing-horizontal);padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)}select[multiple] option:checked{background:var(--pico-form-element-selected-background-color);color:var(--pico-form-element-color)}[dir=rtl] select:not([multiple],[size]){background-position:.75rem}textarea{resize:vertical;display:block}textarea[aria-invalid]{--pico-icon-height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);background-position:right .75rem top!important;background-size:1rem var(--pico-icon-height)!important}:where(input,select,textarea,fieldset,.grid)+small{width:100%;margin-top:calc(var(--pico-spacing) * -.75);margin-bottom:var(--pico-spacing);color:var(--pico-muted-color);display:block}:where(input,select,textarea,fieldset,.grid)[aria-invalid=false]+small{color:var(--pico-ins-color)}:where(input,select,textarea,fieldset,.grid)[aria-invalid=true]+small{color:var(--pico-del-color)}label>:where(input,select,textarea){margin-top:calc(var(--pico-spacing) * .25)}label:has([type=checkbox],[type=radio]){cursor:pointer;width:fit-content}[type=checkbox],[type=radio]{appearance:none;margin-top:-.125em;border-width:var(--pico-border-width);vertical-align:middle;cursor:pointer;width:1.25em;height:1.25em;margin-inline-end:.5em}[type=checkbox]::-ms-check{display:none}[type=radio]::-ms-check{display:none}[type=checkbox]:checked,[type=checkbox]:checked:active,[type=checkbox]:checked:focus,[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-checkbox);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=checkbox]~label,[type=radio]~label{cursor:pointer;margin-bottom:0;display:inline-block}[type=checkbox]~label:not(:last-of-type),[type=radio]~label:not(:last-of-type){margin-inline-end:1em}[type=checkbox]:indeterminate{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-minus);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=radio]{border-radius:50%}[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-inverse);background-image:none;border-width:.35em}[type=checkbox][role=switch]{--pico-background-color:var(--pico-switch-background-color);--pico-color:var(--pico-switch-color);border:var(--pico-border-width) solid var(--pico-border-color);background-color:var(--pico-background-color);border-radius:1.25em;width:2.25em;height:1.25em;line-height:1.25em}[type=checkbox][role=switch]:not([aria-invalid]){--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:before{aspect-ratio:1;background-color:var(--pico-color);height:100%;box-shadow:var(--pico-switch-thumb-box-shadow);content:\"\";border-radius:50%;transition:margin .1s ease-in-out;display:block}[type=checkbox][role=switch]:focus{--pico-background-color:var(--pico-switch-background-color);--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:checked{--pico-background-color:var(--pico-switch-checked-background-color);--pico-border-color:var(--pico-switch-checked-background-color);background-image:none}[type=checkbox][role=switch]:checked:before{margin-inline-start:1em}[type=checkbox][role=switch][disabled]{--pico-background-color:var(--pico-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus{--pico-background-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true]{--pico-background-color:var(--pico-form-element-invalid-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus,[type=radio][aria-invalid=false]:checked,[type=radio][aria-invalid=false]:checked:active,[type=radio][aria-invalid=false]:checked:focus{--pico-border-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true],[type=radio]:checked:active[aria-invalid=true],[type=radio]:checked:focus[aria-invalid=true],[type=radio]:checked[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}[type=color]::-webkit-color-swatch-wrapper{padding:0}[type=color]::-moz-focus-inner{padding:0}[type=color]::-webkit-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}[type=color]::-moz-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}input:not([type=checkbox],[type=radio],[type=range],[type=file]):is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){--pico-icon-position:.75rem;--pico-icon-width:1rem;padding-right:calc(var(--pico-icon-width) + var(--pico-icon-position));background-image:var(--pico-icon-date);background-position:center right var(--pico-icon-position);background-size:var(--pico-icon-width) auto;background-repeat:no-repeat}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=time]{background-image:var(--pico-icon-time)}[type=date]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=datetime-local]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=month]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=time]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=week]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}@-moz-document url-prefix(){[type=date],[type=datetime-local],[type=month],[type=time],[type=week]{padding-right:var(--pico-form-element-spacing-horizontal)!important;background-image:none!important}}[dir=rtl] :is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){text-align:right}[type=file]{--pico-color:var(--pico-muted-color);margin-left:calc(var(--pico-outline-width) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) 0;padding-left:var(--pico-outline-width);background:0 0;border:0;border-radius:0}[type=file]::file-selector-button{margin-right:calc(var(--pico-spacing)/ 2);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal)}[type=file]:is(:hover,:active,:focus)::file-selector-button{--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border)}[type=file]:focus::file-selector-button{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=range]{appearance:none;background:0 0;width:100%;height:1.25rem}[type=range]::-webkit-slider-runnable-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-webkit-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-moz-range-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-moz-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-ms-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-ms-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-webkit-slider-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-webkit-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-moz-range-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-moz-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-ms-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-ms-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]:active,[type=range]:focus-within{--pico-range-border-color:var(--pico-range-active-border-color);--pico-range-thumb-color:var(--pico-range-thumb-active-color)}[type=range]:active::-webkit-slider-thumb{transform:scale(1.25)}[type=range]:active::-moz-range-thumb{transform:scale(1.25)}[type=range]:active::-ms-thumb{transform:scale(1.25)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-image:var(--pico-icon-search);background-position:center left calc(var(--pico-form-element-spacing-horizontal) + .125rem);background-repeat:no-repeat;background-size:1rem;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:1.125rem,right .75rem center;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)!important}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=false]{background-image:var(--pico-icon-search),var(--pico-icon-valid)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=true]{background-image:var(--pico-icon-search),var(--pico-icon-invalid)}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-position:right 1.125rem center}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:right 1.125rem center,.75rem}details{margin-bottom:var(--pico-spacing);display:block}details summary{cursor:pointer;transition:color var(--pico-transition);line-height:1rem;list-style-type:none}details summary:not([role]){color:var(--pico-accordion-close-summary-color)}details summary::-webkit-details-marker{display:none}details summary::marker{display:none}details summary::-moz-list-bullet{list-style-type:none}details summary:after{width:1rem;height:1rem;float:right;background-image:var(--pico-icon-chevron);content:\"\";transition:transform var(--pico-transition);background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:calc(var(--pico-spacing,1rem) * .5);display:block;transform:rotate(-90deg)}details summary:focus{outline:0}details summary:focus:not([role]){color:var(--pico-accordion-active-summary-color)}details summary:focus-visible:not([role]){outline:var(--pico-outline-width) solid var(--pico-primary-focus);outline-offset:calc(var(--pico-spacing,1rem) * .5);color:var(--pico-primary)}details summary[role=button]{text-align:left;width:100%}details summary[role=button]:after{height:calc(1rem * var(--pico-line-height,1.5))}details[open]>summary{margin-bottom:var(--pico-spacing)}details[open]>summary:not([role]):not(:focus){color:var(--pico-accordion-open-summary-color)}details[open]>summary:after{transform:rotate(0)}[dir=rtl] details summary{text-align:right}[dir=rtl] details summary:after{float:left;background-position:0}article{margin-bottom:var(--pico-block-spacing-vertical);padding:var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);border-radius:var(--pico-border-radius);background:var(--pico-card-background-color);box-shadow:var(--pico-card-box-shadow)}article>footer,article>header{margin-right:calc(var(--pico-block-spacing-horizontal) * -1);margin-left:calc(var(--pico-block-spacing-horizontal) * -1);padding:calc(var(--pico-block-spacing-vertical) * .66) var(--pico-block-spacing-horizontal);background-color:var(--pico-card-sectioning-background-color)}article>header{margin-top:calc(var(--pico-block-spacing-vertical) * -1);margin-bottom:var(--pico-block-spacing-vertical);border-bottom:var(--pico-border-width) solid var(--pico-card-border-color);border-top-right-radius:var(--pico-border-radius);border-top-left-radius:var(--pico-border-radius)}article>footer{margin-top:var(--pico-block-spacing-vertical);margin-bottom:calc(var(--pico-block-spacing-vertical) * -1);border-top:var(--pico-border-width) solid var(--pico-card-border-color);border-bottom-right-radius:var(--pico-border-radius);border-bottom-left-radius:var(--pico-border-radius)}details.dropdown{border-bottom:none;position:relative}details.dropdown>a:after,details.dropdown>button:after,details.dropdown>summary:after{width:1rem;height:calc(1rem * var(--pico-line-height,1.5));float:right;background-image:var(--pico-icon-chevron);content:\"\";background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:.25rem;display:block;transform:rotate(0)translate(.2rem)}nav details.dropdown{margin-bottom:0}details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-form-element-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-form-element-background-color);color:var(--pico-form-element-placeholder-color);line-height:inherit;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition)}details.dropdown>summary:not([role]):active,details.dropdown>summary:not([role]):focus{border-color:var(--pico-form-element-active-border-color);background-color:var(--pico-form-element-active-background-color)}details.dropdown>summary:not([role]):focus{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}details.dropdown>summary:not([role]):focus-visible{outline:0}details.dropdown>summary:not([role])[aria-invalid=false]{--pico-form-element-border-color:var(--pico-form-element-valid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-valid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-valid-focus-color)}details.dropdown>summary:not([role])[aria-invalid=true]{--pico-form-element-border-color:var(--pico-form-element-invalid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-invalid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-invalid-focus-color)}nav details.dropdown{margin:calc(var(--pico-nav-element-spacing-vertical) * -1) 0;display:inline}nav details.dropdown>summary:after{transform:rotate(0)translate(0)}nav details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-nav-link-spacing-vertical) * 2);padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav details.dropdown>summary:not([role]):focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}details.dropdown>summary+ul{z-index:99;width:100%;min-width:fit-content;margin:0;margin-top:var(--pico-outline-width);border:var(--pico-border-width) solid var(--pico-dropdown-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-dropdown-background-color);box-shadow:var(--pico-dropdown-box-shadow);color:var(--pico-dropdown-color);white-space:nowrap;opacity:0;transition:opacity var(--pico-transition),transform 0s ease-in-out 1s;flex-direction:column;padding:0;display:flex;position:absolute;left:0}details.dropdown>summary+ul[dir=rtl]{left:auto;right:0}details.dropdown>summary+ul li{width:100%;padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);margin-bottom:0;list-style:none}details.dropdown>summary+ul li:first-of-type{margin-top:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li:last-of-type{margin-bottom:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li a{margin:calc(var(--pico-form-element-spacing-vertical) * -.5) calc(var(--pico-form-element-spacing-horizontal) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);color:var(--pico-dropdown-color);text-overflow:ellipsis;border-radius:0;text-decoration:none;display:block;overflow:hidden}details.dropdown>summary+ul li a:active,details.dropdown>summary+ul li a:focus,details.dropdown>summary+ul li a:focus-visible,details.dropdown>summary+ul li a:hover,details.dropdown>summary+ul li a[aria-current]:not([aria-current=false]){background-color:var(--pico-dropdown-hover-background-color)}details.dropdown>summary+ul li label{width:100%}details.dropdown>summary+ul li:has(label):hover{background-color:var(--pico-dropdown-hover-background-color)}details.dropdown[open]>summary{margin-bottom:0}details.dropdown[open]>summary+ul{opacity:1;transition:opacity var(--pico-transition),transform 0s ease-in-out 0s;transform:scaleY(1)}details.dropdown[open]>summary:before{z-index:1;content:\"\";cursor:default;background:0 0;width:100vw;height:100vh;display:block;position:fixed;inset:0}label>details.dropdown{margin-top:calc(var(--pico-spacing) * .25)}[role=group],[role=search]{width:100%;margin-bottom:var(--pico-spacing);border-radius:var(--pico-border-radius);box-shadow:var(--pico-group-box-shadow,0 0 0 transparent);vertical-align:middle;transition:box-shadow var(--pico-transition);display:inline-flex;position:relative}[role=group] input:not([type=checkbox],[type=radio]),[role=group] select,[role=group]>*,[role=search] input:not([type=checkbox],[type=radio]),[role=search] select,[role=search]>*{flex:auto;margin-bottom:0;position:relative}[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=group]>:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child),[role=search]>:not(:first-child){border-top-left-radius:0;border-bottom-left-radius:0;margin-left:0}[role=group] input:not([type=checkbox],[type=radio]):not(:last-child),[role=group] select:not(:last-child),[role=group]>:not(:last-child),[role=search] input:not([type=checkbox],[type=radio]):not(:last-child),[role=search] select:not(:last-child),[role=search]>:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0}[role=group] input:not([type=checkbox],[type=radio]):focus,[role=group] select:focus,[role=group]>:focus,[role=search] input:not([type=checkbox],[type=radio]):focus,[role=search] select:focus,[role=search]>:focus{z-index:2}[role=group] [role=button]:not(:first-child),[role=group] [type=button]:not(:first-child),[role=group] [type=reset]:not(:first-child),[role=group] [type=submit]:not(:first-child),[role=group] button:not(:first-child),[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=search] [role=button]:not(:first-child),[role=search] [type=button]:not(:first-child),[role=search] [type=reset]:not(:first-child),[role=search] [type=submit]:not(:first-child),[role=search] button:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child){margin-left:calc(var(--pico-border-width) * -1)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=reset],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=reset],[role=search] [type=submit],[role=search] button{width:auto}@supports selector(:has(*)){:is([role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus),[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-button)}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}:is([role=group]:has(input:not([type=submit],[type=button]):focus,select:focus),[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-input)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group] [role=button]:focus,[role=group] [type=button]:focus,[role=group] [type=reset]:focus,[role=group] [type=submit]:focus,[role=group] button:focus,[role=search] [role=button]:focus,[role=search] [type=button]:focus,[role=search] [type=reset]:focus,[role=search] [type=submit]:focus,[role=search] button:focus{box-shadow:none}}[role=search]>:first-child{border-top-left-radius:5rem;border-bottom-left-radius:5rem}[role=search]>:last-child{border-top-right-radius:5rem;border-bottom-right-radius:5rem}[aria-busy=true]:not(input,select,textarea,html,form){white-space:nowrap}[aria-busy=true]:not(input,select,textarea,html,form):before{background-image:var(--pico-icon-loading);content:\"\";vertical-align:-.125em;background-repeat:no-repeat;background-size:1em;width:1em;height:1em;display:inline-block}[aria-busy=true]:not(input,select,textarea,html,form):not(:empty):before{margin-inline-end:calc(var(--pico-spacing) * .5)}[aria-busy=true]:not(input,select,textarea,html,form):empty{text-align:center}[role=button][aria-busy=true],[type=button][aria-busy=true],[type=reset][aria-busy=true],[type=submit][aria-busy=true],a[aria-busy=true],button[aria-busy=true]{pointer-events:none}:host,:root{--pico-scrollbar-width:0px}dialog{z-index:999;width:inherit;min-width:100%;height:inherit;min-height:100%;-webkit-backdrop-filter:var(--pico-modal-overlay-backdrop-filter);backdrop-filter:var(--pico-modal-overlay-backdrop-filter);background-color:var(--pico-modal-overlay-background-color);color:var(--pico-color);border:0;justify-content:center;align-items:center;padding:0;display:flex;position:fixed;inset:0}dialog>article{width:100%;max-height:calc(100vh - var(--pico-spacing) * 2);margin:var(--pico-spacing);overflow:auto}@media (width>=576px){dialog>article{max-width:510px}}@media (width>=768px){dialog>article{max-width:700px}}dialog>article>header>*{margin-bottom:0}dialog>article>header .close,dialog>article>header :is(a,button)[rel=prev]{margin:0;margin-left:var(--pico-spacing);float:right;padding:0}dialog>article>footer{text-align:right}dialog>article>footer [role=button],dialog>article>footer button{margin-bottom:0}dialog>article>footer [role=button]:not(:first-of-type),dialog>article>footer button:not(:first-of-type){margin-left:calc(var(--pico-spacing) * .5)}dialog>article .close,dialog>article :is(a,button)[rel=prev]{width:1rem;height:1rem;margin-top:calc(var(--pico-spacing) * -1);margin-bottom:var(--pico-spacing);background-image:var(--pico-icon-close);opacity:.5;transition:opacity var(--pico-transition);background-color:#0000;background-position:50%;background-repeat:no-repeat;background-size:auto 1rem;border:none;margin-left:auto;display:block}dialog>article .close:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),dialog>article :is(a,button)[rel=prev]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){opacity:1}dialog:not([open]),dialog[open=false]{display:none}.modal-is-open{padding-right:var(--pico-scrollbar-width,0);pointer-events:none;touch-action:none;overflow:hidden}.modal-is-open dialog{pointer-events:auto;touch-action:auto}:where(.modal-is-opening,.modal-is-closing) dialog,:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-duration:.2s;animation-timing-function:ease-in-out;animation-fill-mode:both}:where(.modal-is-opening,.modal-is-closing) dialog{animation-name:modal-overlay;animation-duration:.8s}:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-name:modal;animation-delay:.2s}.modal-is-closing dialog,.modal-is-closing dialog>article{animation-direction:reverse;animation-delay:0s}@keyframes modal-overlay{0%{-webkit-backdrop-filter:none;backdrop-filter:none;background-color:#0000}}@keyframes modal{0%{opacity:0;transform:translateY(-100%)}}:where(nav li):before{float:left;content:\"​\"}nav,nav ul{display:flex}nav{justify-content:space-between;overflow:visible}nav ol,nav ul{align-items:center;margin-bottom:0;padding:0;list-style:none}nav ol:first-of-type,nav ul:first-of-type{margin-left:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav ol:last-of-type,nav ul:last-of-type{margin-right:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav li{padding:var(--pico-nav-element-spacing-vertical) var(--pico-nav-element-spacing-horizontal);margin:0;display:inline-block}nav li :where(a,[role=link]){margin:calc(var(--pico-nav-link-spacing-vertical) * -1) calc(var(--pico-nav-link-spacing-horizontal) * -1);padding:var(--pico-nav-link-spacing-vertical) var(--pico-nav-link-spacing-horizontal);border-radius:var(--pico-border-radius);display:inline-block}nav li :where(a,[role=link]):not(:hover){text-decoration:none}nav li [role=button],nav li [type=button],nav li button,nav li input:not([type=checkbox],[type=radio],[type=range],[type=file]),nav li select{height:auto;margin-right:inherit;margin-bottom:0;margin-left:inherit;padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb]{justify-content:start;align-items:center}nav[aria-label=breadcrumb] ul li:not(:first-child){margin-inline-start:var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb] ul li a{margin:calc(var(--pico-nav-link-spacing-vertical) * -1) 0;margin-inline-start:calc(var(--pico-nav-link-spacing-horizontal) * -1)}nav[aria-label=breadcrumb] ul li:not(:last-child):after{width:calc(var(--pico-nav-link-spacing-horizontal) * 4);margin:0 calc(var(--pico-nav-link-spacing-horizontal) * -1);content:var(--pico-nav-breadcrumb-divider);color:var(--pico-muted-color);text-align:center;white-space:nowrap;text-decoration:none;display:inline-block;position:absolute}nav[aria-label=breadcrumb] a[aria-current]:not([aria-current=false]){color:inherit;pointer-events:none;background-color:#0000;text-decoration:none}aside li,aside nav,aside ol,aside ul{display:block}aside li{padding:calc(var(--pico-nav-element-spacing-vertical) * .5) var(--pico-nav-element-spacing-horizontal)}aside li a{display:block}aside li [role=button]{margin:inherit}[dir=rtl] nav[aria-label=breadcrumb] ul li:not(:last-child) :after{content:\"\\\\\"}progress{vertical-align:baseline;appearance:none;width:100%;height:.5rem;margin-bottom:calc(var(--pico-spacing) * .5);border-radius:var(--pico-border-radius);background-color:var(--pico-progress-background-color);color:var(--pico-progress-color);border:0;display:inline-block;overflow:hidden}progress::-webkit-progress-bar{border-radius:var(--pico-border-radius);background:0 0}progress[value]::-webkit-progress-value{background-color:var(--pico-progress-color);-webkit-transition:inline-size var(--pico-transition);transition:inline-size var(--pico-transition)}progress::-moz-progress-bar{background-color:var(--pico-progress-color)}@media (prefers-reduced-motion:no-preference){progress:indeterminate{background:var(--pico-progress-background-color) linear-gradient(to right,var(--pico-progress-color) 30%,var(--pico-progress-background-color) 30%) top left/150% 150% no-repeat;animation:1s linear infinite progress-indeterminate}progress:indeterminate[value]::-webkit-progress-value{background-color:#0000}progress:indeterminate::-moz-progress-bar{background-color:#0000}[dir=rtl] progress:indeterminate{animation-direction:reverse}}@keyframes progress-indeterminate{0%{background-position:200% 0}to{background-position:-200% 0}}[data-tooltip]{position:relative}[data-tooltip]:not(a,button,input,[role=button]){cursor:help;border-bottom:1px dotted;text-decoration:none}[data-tooltip]:after,[data-tooltip]:before,[data-tooltip][data-placement=top]:after,[data-tooltip][data-placement=top]:before{z-index:99;border-radius:var(--pico-border-radius);background:var(--pico-tooltip-background-color);content:attr(data-tooltip);color:var(--pico-tooltip-color);font-style:normal;font-weight:var(--pico-font-weight);text-overflow:ellipsis;white-space:nowrap;opacity:0;pointer-events:none;padding:.25rem .5rem;font-size:.875rem;text-decoration:none;display:block;position:absolute;bottom:100%;left:50%;overflow:hidden;transform:translate(-50%,-.25rem)}[data-tooltip]:after,[data-tooltip][data-placement=top]:after{content:\"\";color:var(--pico-tooltip-background-color);background-color:#0000;border-top:.3rem solid;border-left:.3rem solid #0000;border-right:.3rem solid #0000;border-radius:0;padding:0;transform:translate(-50%)}[data-tooltip][data-placement=bottom]:after,[data-tooltip][data-placement=bottom]:before{top:100%;bottom:auto;transform:translate(-50%,.25rem)}[data-tooltip][data-placement=bottom]:after{border:.3rem solid #0000;border-bottom-color:currentColor;transform:translate(-50%,-.3rem)}[data-tooltip][data-placement=left]:after,[data-tooltip][data-placement=left]:before{inset:50% 100% auto auto;transform:translate(-.25rem,-50%)}[data-tooltip][data-placement=left]:after{border:.3rem solid #0000;border-left-color:currentColor;transform:translate(.3rem,-50%)}[data-tooltip][data-placement=right]:after,[data-tooltip][data-placement=right]:before{inset:50% auto auto 100%;transform:translate(.25rem,-50%)}[data-tooltip][data-placement=right]:after{border:.3rem solid #0000;border-right-color:currentColor;transform:translate(-.3rem,-50%)}[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{opacity:1}@media (hover:hover) and (pointer:fine){[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{--pico-tooltip-slide-to:translate(-50%, -.25rem);opacity:0;animation-name:tooltip-slide;animation-duration:.2s;animation-fill-mode:forwards;transform:translate(-50%,.75rem)}[data-tooltip]:focus:after,[data-tooltip]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, 0rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.25rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:focus:before,[data-tooltip][data-placement=bottom]:hover:after,[data-tooltip][data-placement=bottom]:hover:before{--pico-tooltip-slide-to:translate(-50%, .25rem);animation-name:tooltip-slide;transform:translate(-50%,-.75rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, -.3rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.5rem)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:focus:before,[data-tooltip][data-placement=left]:hover:after,[data-tooltip][data-placement=left]:hover:before{--pico-tooltip-slide-to:translate(-.25rem, -50%);animation-name:tooltip-slide;transform:translate(.75rem,-50%)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:hover:after{--pico-tooltip-caret-slide-to:translate(.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(.05rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:focus:before,[data-tooltip][data-placement=right]:hover:after,[data-tooltip][data-placement=right]:hover:before{--pico-tooltip-slide-to:translate(.25rem, -50%);animation-name:tooltip-slide;transform:translate(-.75rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:hover:after{--pico-tooltip-caret-slide-to:translate(-.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(-.05rem,-50%)}}@keyframes tooltip-slide{to{transform:var(--pico-tooltip-slide-to);opacity:1}}@keyframes tooltip-caret-slide{50%{opacity:0}to{transform:var(--pico-tooltip-caret-slide-to);opacity:1}}[aria-controls]{cursor:pointer}[aria-disabled=true],[disabled]{cursor:not-allowed}[aria-hidden=false][hidden]{display:initial}[aria-hidden=false][hidden]:not(:focus){clip:rect(0,0,0,0);position:absolute}[tabindex],a,area,button,input,label,select,summary,textarea{-ms-touch-action:manipulation}[dir=rtl]{direction:rtl}@media (prefers-reduced-motion:reduce){:not([aria-busy=true]),:not([aria-busy=true]):after,:not([aria-busy=true]):before{background-attachment:initial!important;scroll-behavior:auto!important;transition-duration:0s!important;transition-delay:0s!important;animation-duration:1ms!important;animation-iteration-count:1!important;animation-delay:-1ms!important}}:root{--primary-color:#ff6b81}body{padding:.5rem 1.5rem 2rem}#dropzone{border:3px dashed var(--pico-muted-border-color);text-align:center;background-color:var(--pico-card-background-color);cursor:pointer;border-radius:12px;margin-bottom:2rem;padding:40px 20px;transition:all .3s}#dropzone.dragging{border-color:var(--pico-primary-background);background-color:#ff6b810d;box-shadow:0 0 15px #ff6b8126}#dropzone svg{color:var(--pico-muted-color);margin-bottom:1rem;transition:color .3s}#dropzone.dragging svg{color:var(--pico-primary-background)}#dropzone-status{margin:0;font-weight:600;display:none}#dropzone.loading{cursor:progress;border-color:var(--pico-primary-background)}#dropzone.loading svg{color:var(--pico-primary-background)}#dropzone.loading #dropzone-status{display:block}#dropzone.loading h3,#dropzone.loading .dropzone-hint,#dropzone.loading small{display:none}.entry-grid{--entry-text-color:var(--pico-color);flex-direction:column;gap:.75rem;margin-bottom:2rem;display:flex}.entry-grid #dropzone{color:var(--entry-text-color);margin-bottom:0}.entry-grid #dropzone,.entry-grid .capture-card{align-self:center;width:100%;max-width:760px}.capture-card{text-align:center;border:2px dashed var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;flex-direction:column;align-items:center;gap:.75rem;padding:16px 20px;transition:all .3s;display:flex}.capture-intro{flex-direction:column;align-items:center;gap:.35rem;display:flex}.capture-intro svg{color:var(--pico-muted-color);flex-shrink:0;transition:color .3s}.capture-card h3{margin:0;font-size:1rem}.capture-card .capture-subtitle{color:var(--pico-muted-color);margin:0;font-size:.8rem}.capture-actions{flex-wrap:wrap;justify-content:center;align-items:center;gap:.6rem 1rem;display:flex}.capture-card button{margin:0;padding:.4rem 1rem;font-size:.9rem}.capture-card.is-recording{background-color:#e5484d0d;border-color:#e5484d;box-shadow:0 0 15px #e5484d26}.capture-card.is-recording .capture-intro svg{color:#e5484d;animation:1.4s ease-in-out infinite capture-pulse}@keyframes capture-pulse{50%{opacity:.45}}.capture-options{flex-wrap:wrap;justify-content:center;align-items:center;gap:.4rem 1rem;font-size:.85rem;display:flex}.capture-options label{align-items:center;gap:.35rem;margin:0;display:inline-flex}.capture-options input[type=checkbox]{margin:0}.capture-devices{flex-wrap:wrap;flex-basis:100%;justify-content:center;gap:.5rem 1.25rem;display:flex}.capture-device-row{align-items:center;gap:.5rem;display:inline-flex}.capture-device-row select{max-width:14rem}.capture-meter{background:var(--pico-muted-border-color);border-radius:4px;width:90px;height:8px;overflow:hidden}.capture-meter>span{background:#30a46c;width:0;height:100%;display:block}.capture-cam-preview{aspect-ratio:16/9;object-fit:cover;background:#000;border-radius:6px;width:112px}.capture-options select,.capture-shot select{width:auto;height:auto;margin:0;padding:.25rem 2rem .25rem .6rem;font-size:.85rem}.capture-shot{align-items:center;gap:.4rem;display:inline-flex}.capture-status{color:var(--pico-muted-color);font-size:.85rem}.capture-status:empty{display:none}.capture-card.is-recording .capture-status{color:#e5484d;font-variant-numeric:tabular-nums;font-weight:600}#video-file-input{display:none}.video-container{border-radius:8px;width:100%;display:block;position:relative;overflow:hidden;box-shadow:0 4px 12px #00000040}.video-container video{width:100%;height:auto;display:block}.crop-overlay{z-index:2;pointer-events:none;position:absolute;inset:0;overflow:hidden}.crop-box{box-sizing:border-box;border:2px solid var(--primary-color,#ff6b81);pointer-events:none;position:absolute;box-shadow:0 0 0 9999px #00000073}.crop-handle,.crop-move{box-sizing:border-box;background:var(--primary-color,#ff6b81);pointer-events:auto;touch-action:none;border:2px solid #fff;border-radius:50%;position:absolute}.crop-handle{border-radius:3px;width:16px;height:16px}.crop-handle:before,.crop-move:before{content:\"\";position:absolute;inset:-8px}.crop-move{cursor:move;background:#00000059;width:18px;height:18px;margin:-9px 0 0 -9px;top:50%;left:50%}.crop-overlay.is-passive .crop-handle,.crop-overlay.is-passive .crop-move{display:none}.crop-loupe{z-index:1000;pointer-events:none;border:2px solid var(--primary-color,#ff6b81);background:#111;border-radius:6px;width:168px;position:fixed;overflow:hidden;box-shadow:0 6px 18px #00000073}.crop-overlay .crop-loupe canvas{width:168px;height:168px;display:block;position:static}.crop-loupe-label{color:#fff;white-space:pre;background:#000000bf;padding:2px 6px;font-family:monospace;font-size:.7rem;line-height:1.35}.crop-handle[data-handle=nw]{cursor:nwse-resize;top:-2px;left:-2px}.crop-handle[data-handle=ne]{cursor:nesw-resize;top:-2px;right:-2px}.crop-handle[data-handle=sw]{cursor:nesw-resize;bottom:-2px;left:-2px}.crop-handle[data-handle=se]{cursor:nwse-resize;bottom:-2px;right:-2px}.meta-grid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.75rem;margin-bottom:1.5rem;display:grid}.meta-item{background:var(--pico-card-background-color);border:1px solid var(--pico-muted-border-color);border-radius:6px;padding:.5rem .75rem;font-size:.85rem}.meta-label{color:var(--pico-muted-color);text-transform:uppercase;letter-spacing:.5px;font-size:.75rem;font-weight:700;display:block}.slider-group{margin-bottom:1.5rem}.slider-group label{justify-content:space-between;align-items:center;font-weight:500;display:flex}.time-val{background:var(--pico-code-background-color);border-radius:4px;padding:2px 6px;font-family:monospace;font-size:.85rem;display:inline-block}.time-val-primary{background:var(--pico-primary-background);color:var(--pico-primary-inverse)}.trim-visualizer{background-color:var(--pico-muted-border-color);border:1px solid var(--pico-muted-border-color);border-radius:10px;height:20px;margin:1.5rem 0;position:relative;overflow:hidden}.trim-selection{border-left:2px solid var(--pico-primary-background);border-right:2px solid var(--pico-primary-background);background-color:#ff6b8159;height:100%;transition:all .1s;position:absolute;top:0}.trim-ghost{background-color:#ff6b812e;border-left:1px solid #ff6b8199;border-right:1px solid #ff6b8199;height:100%;position:absolute;top:0}.trim-sections-header{justify-content:space-between;align-items:center;margin-bottom:.5rem;font-size:.85rem;display:flex}.trim-section-list{--trim-row-color:var(--pico-color);margin:0 0 .75rem;padding:0;list-style:none}.trim-section-row{gap:.4rem;margin-bottom:.35rem;list-style:none;display:flex}.trim-section-row button{border:1px solid var(--pico-muted-border-color);color:var(--trim-row-color);background:0 0;margin:0;padding:.3rem .6rem;font-size:.8rem}.trim-section-pick{text-align:left;flex:1;font-family:monospace}.trim-section-row.active .trim-section-pick{border-color:var(--pico-primary-background);background:#ff6b8126}.trim-section-remove:disabled{opacity:.35}#trim-add-section{width:100%;margin-bottom:.5rem;padding:.4rem .75rem;font-size:.9rem}.trim-sections-help{color:var(--pico-muted-color);font-size:.75rem;display:block}header.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);margin:-1rem -1rem 1.5rem;padding:1rem 1.5rem;font-weight:700}header.card-header.success{color:#2ecc71;background:#2ecc710d}.info-card{margin-bottom:0;padding:1rem}.result-card{border:1px solid #2ecc71;margin-bottom:2rem;padding:1rem}.success-note{background:#2ecc711a;border:1px solid #2ecc71;border-radius:8px;margin-bottom:2rem;padding:1.5rem;display:block}.success-note h3{color:#2ecc71;margin-bottom:.5rem}.download-btn{border:none;align-items:center;gap:8px;font-weight:700;display:inline-flex}.output-size{opacity:.85;margin-left:1rem;font-size:.9rem;font-weight:700}details.config-card{border:1px solid var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;margin-bottom:0;padding:0;overflow:hidden}details.config-card>summary.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);cursor:pointer;justify-content:space-between;align-items:center;gap:.75rem;margin:0;padding:1rem 1.5rem;font-weight:700;list-style:none;transition:background-color .15s;display:flex}details.config-card>summary.card-header:hover{background-color:var(--pico-muted-border-color)}details.config-card:not([open])>summary.card-header{border-bottom:none}details.config-card>summary.card-header::-webkit-details-marker{display:none}details.config-card>summary.card-header:after{content:\"\";opacity:.55;background:0 0;border:2px solid;border-top:0;border-left:0;flex:none;width:.5rem;height:.5rem;transition:transform .2s;transform:rotate(45deg)}details.config-card[open]>summary.card-header:after{transform:rotate(-135deg)}.config-card-body{padding:1.25rem 1.5rem}.settings-stack{flex-direction:column;gap:1.5rem;display:flex}.audio-waveform{background:var(--pico-card-sectioning-background-color);border:1px solid var(--pico-muted-border-color);width:100%;height:90px;color:var(--primary-color);cursor:pointer;border-radius:6px;margin-top:.75rem;display:block}.quality-readout{grid-template-columns:1fr 1fr;place-items:center start;gap:.5rem;margin-bottom:.75rem;display:grid}.quality-rate{color:var(--pico-muted-color);font-family:monospace;font-size:.85rem;font-weight:600}.size-estimate{border-top:1px dashed var(--pico-muted-border-color);margin-top:1rem;padding-top:.75rem;font-size:.9rem}.size-estimate strong{color:var(--pico-primary);font-family:monospace}.log-section{margin:0}.log-section pre{color:#a6e22e;background-color:#1a1a1a;border-radius:6px;max-height:200px;margin:0;padding:10px;font-family:Courier New,Courier,monospace;font-size:.8rem;overflow-y:auto}.theme-toggle-btn{cursor:pointer;color:inherit;background:0 0;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;padding:.5rem;transition:background-color .2s;display:inline-flex}.theme-toggle-btn:hover{background-color:var(--pico-muted-border-color)}.theme-toggle-btn svg{width:20px;height:20px}nav.brand-nav{grid-template-columns:1fr auto 1fr;align-items:center;padding:.5rem 0;display:grid}nav.brand-nav>ul{margin:0}nav.brand-nav>ul:first-child{grid-column:2}nav.brand-nav>ul:last-child{grid-column:3;justify-self:end}.home-link{color:inherit;text-decoration:none}.home-link:hover code{color:var(--pico-primary)}.preset-badge{background:var(--pico-primary-background);color:var(--pico-primary-inverse);vertical-align:middle;border-radius:4px;margin-left:.5rem;padding:2px 6px;font-size:.75rem}#loaded-file-section{container-type:inline-size}.workshop-layout{grid-template-columns:minmax(0,1fr);gap:1.5rem;margin-top:1.5rem;display:grid}@container (width>=720px) and (width<=1099px){.workshop-layout{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.workshop-output{grid-column:1/-1}}@container (width>=1100px){.workshop-layout{grid-template-columns:minmax(0,.95fr) minmax(0,1.15fr) minmax(0,1fr);align-items:start}}.workshop-sidebar,.workshop-main,.workshop-output{flex-direction:column;gap:1.5rem;display:flex}.rife-source{margin:.25rem 0 .6rem;font-size:.9rem}.rife-presets{flex-wrap:wrap;gap:.5rem;margin-bottom:.75rem;display:flex}.rife-presets button{flex:10rem;width:auto;margin:0;padding:.3rem .8rem;font-size:.85rem}.rife-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end;gap:.5rem .75rem;display:grid}.rife-grid .rife-audio{grid-column:1/-1}.rife-summary{border-left:3px solid var(--pico-primary-background);background:var(--pico-card-sectioning-background-color);margin:.75rem 0 .5rem;padding:.5rem .75rem;font-size:.85rem;display:block}.rife-summary.warn{border-left-color:#e5a50a}.column-heading{border-bottom:1px solid var(--pico-muted-border-color);align-items:center;gap:.6rem;margin:0 0 -.75rem;padding-bottom:.5rem;font-size:1.1rem;display:flex}.column-step{background:var(--pico-primary-background);width:1.6rem;height:1.6rem;color:var(--pico-primary-inverse);border-radius:50%;justify-content:center;align-items:center;font-size:.85rem;font-weight:700;display:inline-flex}.output-actions{flex-direction:column;gap:.5rem;display:flex}.output-actions button{width:100%;margin:0;padding:.8rem 2rem;font-size:1.1rem;font-weight:700}.batch-thumbs{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.4rem;max-height:40vh;display:grid;overflow-y:auto}.batch-thumb{aspect-ratio:1;object-fit:cover;border:1px solid var(--pico-muted-border-color);background:var(--pico-card-sectioning-background-color);border-radius:4px;width:100%}#batch-queue{flex-direction:column;gap:.5rem;max-height:60vh;display:flex;overflow-y:auto}.batch-item{border:1px solid var(--pico-muted-border-color);border-radius:6px;grid-template-columns:1fr auto auto;align-items:center;gap:.75rem;padding:.5rem .75rem;font-size:.85rem;display:grid}.batch-item-name{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.batch-item-status{color:var(--pico-muted-color);font-family:monospace;font-size:.78rem}.batch-item[data-status=done] .batch-item-status{color:#2ecc71}.batch-item[data-status=error] .batch-item-status{color:#f92672}.batch-item-dl{font-size:.78rem;font-weight:600}.output-shell{border:2px dashed var(--pico-muted-border-color);min-height:240px;color:var(--pico-muted-color);text-align:center;border-radius:12px;flex-direction:column;justify-content:center;align-items:center;gap:.75rem;padding:2rem;display:flex}.output-shell svg{opacity:.5}.output-shell p{margin:0;font-size:.9rem}.workshop-output>section{margin-top:0!important}.range-slider-wrapper{align-items:center;height:40px;margin-top:.5rem;margin-bottom:.75rem;display:flex;position:relative}.range-slider-wrapper .trim-visualizer{background-color:var(--pico-muted-border-color);z-index:1;border-radius:5px;width:100%;height:10px;margin:0;position:absolute;top:15px;left:0;right:0}.range-slider-wrapper .range-slider-input{pointer-events:none;appearance:none;width:100%;position:absolute;height:40px!important;box-shadow:none!important;background:0 0!important;border:none!important;margin:0!important;padding:0!important}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb{pointer-events:auto;appearance:none;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;margin-top:0;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-moz-range-thumb{pointer-events:auto;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-moz-range-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-webkit-slider-runnable-track{background:0 0!important;border:none!important}.range-slider-wrapper .range-slider-input::-moz-range-track{background:0 0!important;border:none!important}.image-canvas-stage{border:1px solid var(--pico-muted-border-color);cursor:crosshair;background-color:#0000;background-image:linear-gradient(45deg,#7878782e 25%,#0000 25%),linear-gradient(-45deg,#7878782e 25%,#0000 25%),linear-gradient(45deg,#0000 75%,#7878782e 75%),linear-gradient(-45deg,#0000 75%,#7878782e 75%);background-position:0 0,0 10px,10px -10px,-10px 0;background-repeat:repeat,repeat,repeat,repeat;background-size:20px 20px;background-attachment:scroll,scroll,scroll,scroll;background-origin:padding-box,padding-box,padding-box,padding-box;background-clip:border-box,border-box,border-box,border-box;border-radius:8px;width:100%;min-height:320px;position:relative;overflow:hidden}.image-toolbar{grid-template-columns:auto minmax(150px,220px) 1fr;align-items:center;gap:.65rem;margin-bottom:.75rem;display:grid}.canvas-tool-picker{flex-wrap:wrap;align-items:center;gap:.5rem 1.25rem;margin-top:.75rem;display:flex}.canvas-tool-picker .canvas-tool-label{text-transform:uppercase;letter-spacing:.5px;color:var(--pico-muted-color);font-size:.75rem;font-weight:700}.canvas-tool-picker label{cursor:pointer;align-items:center;gap:.4rem;margin:0;display:inline-flex}.canvas-tool-picker label:has(input:disabled){opacity:.45;cursor:not-allowed}.tool-badge{border:1px solid #0000;border-radius:999px;justify-self:end;padding:.3rem .55rem;font-size:.8rem;font-weight:600}.tool-badge-crop{color:#fff;background:#ff6b81d9;border-color:#ff6b81}.tool-badge-paint{color:#fff;background:#2ecc71d9;border-color:#2ecc71}@media (width<=640px){.image-toolbar{grid-template-columns:1fr}.tool-badge{justify-self:start}}.image-canvas-stage canvas{display:block;position:absolute}#image-mask-canvas{touch-action:none}.image-canvas-stage.is-crop-mode{cursor:move}.image-canvas-stage.is-paint-mode{cursor:crosshair}", Yt = (e) => `
+var Yt = ":host,:root{--pico-font-family-emoji:\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";--pico-font-family-sans-serif:system-ui,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,Arial,\"Helvetica Neue\",sans-serif,var(--pico-font-family-emoji);--pico-font-family-monospace:ui-monospace,SFMono-Regular,\"SF Mono\",Menlo,Consolas,\"Liberation Mono\",monospace,var(--pico-font-family-emoji);--pico-font-family:var(--pico-font-family-sans-serif);--pico-line-height:1.5;--pico-font-weight:400;--pico-font-size:100%;--pico-text-underline-offset:.1rem;--pico-border-radius:.25rem;--pico-border-width:.0625rem;--pico-outline-width:.125rem;--pico-transition:.2s ease-in-out;--pico-spacing:1rem;--pico-typography-spacing-vertical:1rem;--pico-block-spacing-vertical:var(--pico-spacing);--pico-block-spacing-horizontal:var(--pico-spacing);--pico-grid-column-gap:var(--pico-spacing);--pico-grid-row-gap:var(--pico-spacing);--pico-form-element-spacing-vertical:.75rem;--pico-form-element-spacing-horizontal:1rem;--pico-group-box-shadow:0 0 0 #0000;--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-primary-focus);--pico-group-box-shadow-focus-with-input:0 0 0 .0625rem var(--pico-form-element-border-color);--pico-modal-overlay-backdrop-filter:blur(.375rem);--pico-nav-element-spacing-vertical:1rem;--pico-nav-element-spacing-horizontal:.5rem;--pico-nav-link-spacing-vertical:.5rem;--pico-nav-link-spacing-horizontal:.5rem;--pico-nav-breadcrumb-divider:\">\";--pico-icon-checkbox:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-minus:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-chevron:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-date:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-time:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolyline points='12 6 12 12 16 14'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-search:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-close:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E\");--pico-icon-loading:url(\"data:image/svg+xml,%3Csvg fill='none' height='24' width='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' %3E%3Cstyle%3E g %7B animation: rotate 2s linear infinite; transform-origin: center center; %7D circle %7B stroke-dasharray: 75,100; stroke-dashoffset: -5; animation: dash 1.5s ease-in-out infinite; stroke-linecap: round; %7D @keyframes rotate %7B 0%25 %7B transform: rotate(0deg); %7D 100%25 %7B transform: rotate(360deg); %7D %7D @keyframes dash %7B 0%25 %7B stroke-dasharray: 1,100; stroke-dashoffset: 0; %7D 50%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -17.5; %7D 100%25 %7B stroke-dasharray: 44.5,100; stroke-dashoffset: -62; %7D %7D %3C/style%3E%3Cg%3E%3Ccircle cx='12' cy='12' r='10' fill='none' stroke='rgb(136, 145, 164)' stroke-width='4' /%3E%3C/g%3E%3C/svg%3E\")}@media (width>=576px){:host,:root{--pico-font-size:106.25%}}@media (width>=768px){:host,:root{--pico-font-size:112.5%}}@media (width>=1024px){:host,:root{--pico-font-size:118.75%}}@media (width>=1280px){:host,:root{--pico-font-size:125%}}@media (width>=1536px){:host,:root{--pico-font-size:131.25%}}a,a.contrast,a.secondary{--pico-text-decoration:underline}small{--pico-font-size:.875em}h1,h2,h3,h4,h5,h6{--pico-font-weight:700}h1{--pico-font-size:2rem;--pico-line-height:1.125;--pico-typography-spacing-top:3rem}h2{--pico-font-size:1.75rem;--pico-line-height:1.15;--pico-typography-spacing-top:2.625rem}h3{--pico-font-size:1.5rem;--pico-line-height:1.175;--pico-typography-spacing-top:2.25rem}h4{--pico-font-size:1.25rem;--pico-line-height:1.2;--pico-typography-spacing-top:1.874rem}h5{--pico-font-size:1.125rem;--pico-line-height:1.225;--pico-typography-spacing-top:1.6875rem}h6{--pico-font-size:1rem;--pico-line-height:1.25;--pico-typography-spacing-top:1.5rem}tfoot td,tfoot th,thead td,thead th{--pico-font-weight:600;--pico-border-width:.1875rem}code,kbd,pre,samp{--pico-font-family:var(--pico-font-family-monospace)}kbd{--pico-font-weight:bolder}:where(select,textarea),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-outline-width:.0625rem}[type=search]{--pico-border-radius:5rem}[type=checkbox],[type=radio]{--pico-border-width:.125rem}[type=checkbox][role=switch]{--pico-border-width:.1875rem}details.dropdown summary:not([role=button]){--pico-outline-width:.0625rem}nav details.dropdown summary:focus-visible{--pico-outline-width:.125rem}[role=search]{--pico-border-radius:5rem}:is([role=group]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus),[role=search]:has(button.secondary:focus,[type=submit].secondary:focus,[type=button].secondary:focus,[role=button].secondary:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is([role=group]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus),[role=search]:has(button.contrast:focus,[type=submit].contrast:focus,[type=button].contrast:focus,[role=button].contrast:focus)){--pico-group-box-shadow-focus-with-button:0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=submit],[role=search] button{--pico-form-element-spacing-horizontal:2rem}details summary[role=button]:not(.outline):after,[aria-busy=true]:not(input,select,textarea):is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)invert()}:host(:not([data-theme=dark])),:root:not([data-theme=dark]),[data-theme=light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--pico-background-color:#fff;--pico-color:#373c44;--pico-text-selection-color:#029ae840;--pico-muted-color:#646b79;--pico-muted-border-color:#e7eaf0;--pico-primary:#0172ad;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#0172ad80;--pico-primary-hover:#015887;--pico-primary-hover-background:#02659a;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#029ae880;--pico-primary-inverse:#fff;--pico-secondary:#5d6b89;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#5d6b8980;--pico-secondary-hover:#48536b;--pico-secondary-hover-background:#48536b;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#5d6b8940;--pico-secondary-inverse:#fff;--pico-contrast:#181c25;--pico-contrast-background:#181c25;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#181c2580;--pico-contrast-hover:#000;--pico-contrast-hover-background:#000;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-secondary-hover);--pico-contrast-focus:#5d6b8940;--pico-contrast-inverse:#fff;--pico-box-shadow:.0145rem .029rem .174rem #8191b504,.0335rem .067rem .402rem #8191b506,.0625rem .125rem .75rem #8191b508,.1125rem .225rem 1.35rem #8191b509,.2085rem .417rem 2.502rem #8191b50b,.5rem 1rem 6rem #8191b50f,0 0 0 .0625rem #8191b504;--pico-h1-color:#2d3138;--pico-h2-color:#373c44;--pico-h3-color:#424751;--pico-h4-color:#4d535e;--pico-h5-color:#5c6370;--pico-h6-color:#646b79;--pico-mark-background-color:#fde7c0;--pico-mark-color:#0f1114;--pico-ins-color:#1d6a54;--pico-del-color:#883935;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#f3f5f7;--pico-code-color:#646b79;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#fbfcfc;--pico-form-element-selected-background-color:#dfe3eb;--pico-form-element-border-color:#cfd5e2;--pico-form-element-color:#23262c;--pico-form-element-placeholder-color:var(--pico-muted-color);--pico-form-element-active-background-color:#fff;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#b86a6b;--pico-form-element-invalid-active-border-color:#c84f48;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#4c9b8a;--pico-form-element-valid-active-border-color:#279977;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#bfc7d9;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#dfe3eb;--pico-range-active-border-color:#bfc7d9;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:var(--pico-background-color);--pico-card-border-color:var(--pico-muted-border-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#fbfcfc;--pico-dropdown-background-color:#fff;--pico-dropdown-border-color:#eff1f4;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#eff1f4;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#e8eaedbf;--pico-progress-background-color:#dfe3eb;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(76, 154.5, 137.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(200.25, 79.25, 72.25)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme=dark])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme=dark]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),[data-theme=light] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}@media only screen and (prefers-color-scheme:dark){:host(:not([data-theme])),:root:not([data-theme]){--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}:host(:not([data-theme])) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]),:root:not([data-theme]) input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}:host(:not([data-theme])) details summary[role=button].contrast:not(.outline):after,:root:not([data-theme]) details summary[role=button].contrast:not(.outline):after,:host(:not([data-theme])) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before,:root:not([data-theme]) [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}}[data-theme=dark]{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;--pico-background-color:#13171f;--pico-color:#c2c7d0;--pico-text-selection-color:#01aaff30;--pico-muted-color:#7b8495;--pico-muted-border-color:#202632;--pico-primary:#01aaff;--pico-primary-background:#0172ad;--pico-primary-border:var(--pico-primary-background);--pico-primary-underline:#01aaff80;--pico-primary-hover:#79c0ff;--pico-primary-hover-background:#017fc0;--pico-primary-hover-border:var(--pico-primary-hover-background);--pico-primary-hover-underline:var(--pico-primary-hover);--pico-primary-focus:#01aaff60;--pico-primary-inverse:#fff;--pico-secondary:#969eaf;--pico-secondary-background:#525f7a;--pico-secondary-border:var(--pico-secondary-background);--pico-secondary-underline:#969eaf80;--pico-secondary-hover:#b3b9c5;--pico-secondary-hover-background:#5d6b89;--pico-secondary-hover-border:var(--pico-secondary-hover-background);--pico-secondary-hover-underline:var(--pico-secondary-hover);--pico-secondary-focus:#909ebe40;--pico-secondary-inverse:#fff;--pico-contrast:#dfe3eb;--pico-contrast-background:#eff1f4;--pico-contrast-border:var(--pico-contrast-background);--pico-contrast-underline:#dfe3eb80;--pico-contrast-hover:#fff;--pico-contrast-hover-background:#fff;--pico-contrast-hover-border:var(--pico-contrast-hover-background);--pico-contrast-hover-underline:var(--pico-contrast-hover);--pico-contrast-focus:#cfd5e240;--pico-contrast-inverse:#000;--pico-box-shadow:.0145rem .029rem .174rem #07090c04,.0335rem .067rem .402rem #07090c06,.0625rem .125rem .75rem #07090c08,.1125rem .225rem 1.35rem #07090c09,.2085rem .417rem 2.502rem #07090c0b,.5rem 1rem 6rem #07090c0f,0 0 0 .0625rem #07090c04;--pico-h1-color:#f0f1f3;--pico-h2-color:#e0e3e7;--pico-h3-color:#c2c7d0;--pico-h4-color:#b3b9c5;--pico-h5-color:#a4acba;--pico-h6-color:#8891a4;--pico-mark-background-color:#014063;--pico-mark-color:#fff;--pico-ins-color:#62af9a;--pico-del-color:#ce7e7b;--pico-blockquote-border-color:var(--pico-muted-border-color);--pico-blockquote-footer-color:var(--pico-muted-color);--pico-button-box-shadow:0 0 0 #0000;--pico-button-hover-box-shadow:0 0 0 #0000;--pico-table-border-color:var(--pico-muted-border-color);--pico-table-row-stripped-background-color:#6f78870a;--pico-code-background-color:#1a1f28;--pico-code-color:#8891a4;--pico-code-kbd-background-color:var(--pico-color);--pico-code-kbd-color:var(--pico-background-color);--pico-form-element-background-color:#1c212c;--pico-form-element-selected-background-color:#2a3140;--pico-form-element-border-color:#2a3140;--pico-form-element-color:#e0e3e7;--pico-form-element-placeholder-color:#8891a4;--pico-form-element-active-background-color:#1a1f28;--pico-form-element-active-border-color:var(--pico-primary-border);--pico-form-element-focus-color:var(--pico-primary-border);--pico-form-element-disabled-opacity:.5;--pico-form-element-invalid-border-color:#964a50;--pico-form-element-invalid-active-border-color:#b7403b;--pico-form-element-invalid-focus-color:var(--pico-form-element-invalid-active-border-color);--pico-form-element-valid-border-color:#2a7b6f;--pico-form-element-valid-active-border-color:#16896a;--pico-form-element-valid-focus-color:var(--pico-form-element-valid-active-border-color);--pico-switch-background-color:#333c4e;--pico-switch-checked-background-color:var(--pico-primary-background);--pico-switch-color:#fff;--pico-switch-thumb-box-shadow:0 0 0 #0000;--pico-range-border-color:#202632;--pico-range-active-border-color:#2a3140;--pico-range-thumb-border-color:var(--pico-background-color);--pico-range-thumb-color:var(--pico-secondary-background);--pico-range-thumb-active-color:var(--pico-primary-background);--pico-accordion-border-color:var(--pico-muted-border-color);--pico-accordion-active-summary-color:var(--pico-primary-hover);--pico-accordion-close-summary-color:var(--pico-color);--pico-accordion-open-summary-color:var(--pico-muted-color);--pico-card-background-color:#181c25;--pico-card-border-color:var(--pico-card-background-color);--pico-card-box-shadow:var(--pico-box-shadow);--pico-card-sectioning-background-color:#1a1f28;--pico-dropdown-background-color:#181c25;--pico-dropdown-border-color:#202632;--pico-dropdown-box-shadow:var(--pico-box-shadow);--pico-dropdown-color:var(--pico-color);--pico-dropdown-hover-background-color:#202632;--pico-loading-spinner-opacity:.5;--pico-modal-overlay-background-color:#08090abf;--pico-progress-background-color:#202632;--pico-progress-color:var(--pico-primary-background);--pico-tooltip-background-color:var(--pico-contrast-background);--pico-tooltip-color:var(--pico-contrast-inverse);--pico-icon-valid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E\");--pico-icon-invalid:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(149.5, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E\")}[data-theme=dark] input:is([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[type=file]){--pico-form-element-focus-color:var(--pico-primary-focus)}[data-theme=dark] details summary[role=button].contrast:not(.outline):after,[data-theme=dark] [aria-busy=true]:not(input,select,textarea).contrast:is(button,[type=submit],[type=button],[type=reset],[role=button]):not(.outline):before{filter:brightness(0)}[type=checkbox],[type=radio],[type=range],progress{accent-color:var(--pico-primary)}*,:after,:before{box-sizing:border-box;background-repeat:no-repeat}:after,:before{-webkit-text-decoration:inherit;text-decoration:inherit;vertical-align:inherit}:where(:host),:where(:root){-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family);text-underline-offset:var(--pico-text-underline-offset);text-rendering:optimizelegibility;overflow-wrap:break-word;tab-size:4}body{width:100%;margin:0}main{display:block}body>footer,body>header,body>main{padding-block:var(--pico-block-spacing-vertical)}section{margin-bottom:var(--pico-block-spacing-vertical)}.container,.container-fluid{width:100%;padding-right:var(--pico-spacing);padding-left:var(--pico-spacing);margin-left:auto;margin-right:auto}@media (width>=576px){.container{max-width:510px;padding-left:0;padding-right:0}}@media (width>=768px){.container{max-width:700px}}@media (width>=1024px){.container{max-width:950px}}@media (width>=1280px){.container{max-width:1200px}}@media (width>=1536px){.container{max-width:1450px}}.grid{grid-column-gap:var(--pico-grid-column-gap);grid-row-gap:var(--pico-grid-row-gap);grid-template-columns:1fr;display:grid}@media (width>=768px){.grid{grid-template-columns:repeat(auto-fit,minmax(0%,1fr))}}.grid>*{min-width:0}.overflow-auto{overflow:auto}b,strong{font-weight:bolder}sub,sup{vertical-align:baseline;font-size:.75em;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}address,blockquote,dl,ol,p,pre,table,ul{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-style:normal;font-weight:var(--pico-font-weight)}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:var(--pico-typography-spacing-vertical);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:var(--pico-font-size);line-height:var(--pico-line-height);font-family:var(--pico-font-family)}h1{--pico-color:var(--pico-h1-color)}h2{--pico-color:var(--pico-h2-color)}h3{--pico-color:var(--pico-h3-color)}h4{--pico-color:var(--pico-h4-color)}h5{--pico-color:var(--pico-h5-color)}h6{--pico-color:var(--pico-h6-color)}:where(article,address,blockquote,dl,figure,form,ol,p,pre,table,ul)~:is(h1,h2,h3,h4,h5,h6){margin-top:var(--pico-typography-spacing-top)}p,hgroup{margin-bottom:var(--pico-typography-spacing-vertical)}hgroup>*{margin-top:0;margin-bottom:0}hgroup>:not(:first-child):last-child{--pico-color:var(--pico-muted-color);--pico-font-weight:unset;font-size:1rem}:where(ol,ul) li{margin-bottom:calc(var(--pico-typography-spacing-vertical) * .25)}:where(dl,ol,ul) :where(dl,ol,ul){margin:0;margin-top:calc(var(--pico-typography-spacing-vertical) * .25)}ul li{list-style:square}mark{background-color:var(--pico-mark-background-color);color:var(--pico-mark-color);vertical-align:baseline;padding:.125rem .25rem}blockquote{margin:var(--pico-typography-spacing-vertical) 0;padding:var(--pico-spacing);border-right:none;border-left:.25rem solid var(--pico-blockquote-border-color);border-inline-start:.25rem solid var(--pico-blockquote-border-color);border-inline-end:none;display:block}blockquote footer{margin-top:calc(var(--pico-typography-spacing-vertical) * .5);color:var(--pico-blockquote-footer-color)}abbr[title]{cursor:help;border-bottom:1px dotted;text-decoration:none}ins{color:var(--pico-ins-color);text-decoration:none}del{color:var(--pico-del-color)}::selection{background-color:var(--pico-text-selection-color)}:where(a:not([role=button])),[role=link]{--pico-color:var(--pico-primary);--pico-background-color:transparent;--pico-underline:var(--pico-primary-underline);background-color:var(--pico-background-color);color:var(--pico-color);-webkit-text-decoration:var(--pico-text-decoration);-webkit-text-decoration:var(--pico-text-decoration);text-decoration:var(--pico-text-decoration);-webkit-text-decoration-color:var(--pico-underline);text-decoration-color:var(--pico-underline);text-underline-offset:.125em;transition:background-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),color var(--pico-transition),text-decoration var(--pico-transition),box-shadow var(--pico-transition),-webkit-text-decoration var(--pico-transition);outline:0}:where(a:not([role=button])):is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-primary-hover);--pico-underline:var(--pico-primary-hover-underline);--pico-text-decoration:underline}:where(a:not([role=button])):focus-visible,[role=link]:focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}:where(a:not([role=button])).secondary,[role=link].secondary{--pico-color:var(--pico-secondary);--pico-underline:var(--pico-secondary-underline)}:where(a:not([role=button])).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-underline:var(--pico-secondary-hover-underline)}:where(a:not([role=button])).contrast,[role=link].contrast{--pico-color:var(--pico-contrast);--pico-underline:var(--pico-contrast-underline)}:where(a:not([role=button])).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[role=link].contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-underline:var(--pico-contrast-hover-underline)}a[role=button]{display:inline-block}button{text-transform:none;margin:0;font-family:inherit;overflow:visible}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[role=button],[type=button],[type=reset],[type=submit],button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[type=file]::file-selector-button{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);--pico-color:var(--pico-primary-inverse);--pico-box-shadow:var(--pico-button-box-shadow,0 0 0 #0000);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);font-size:1rem;line-height:var(--pico-line-height);text-align:center;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0;text-decoration:none}[role=button]:is(:hover,:active,:focus),[role=button][aria-current]:not([aria-current=false]),[type=button]:is(:hover,:active,:focus),[type=button][aria-current]:not([aria-current=false]),[type=reset]:is(:hover,:active,:focus),[type=reset][aria-current]:not([aria-current=false]),[type=submit]:is(:hover,:active,:focus),[type=submit][aria-current]:not([aria-current=false]),button:is(:hover,:active,:focus),button[aria-current]:not([aria-current=false]){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[type=file]::file-selector-button:is(){--pico-background-color:var(--pico-primary-hover-background);--pico-border-color:var(--pico-primary-hover-border);--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000);--pico-color:var(--pico-primary-inverse)}[role=button]:focus,[role=button][aria-current]:not([aria-current=false]):focus,[type=button]:focus,[type=button][aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus,[type=submit]:focus,[type=submit][aria-current]:not([aria-current=false]):focus,button:focus,button[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}[type=button],[type=reset],[type=submit]{margin-bottom:var(--pico-spacing)}:is(button,[type=submit],[type=button],[role=button]).secondary,[type=reset]{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}[type=file]::file-selector-button{--pico-background-color:var(--pico-secondary-background);--pico-border-color:var(--pico-secondary-border);--pico-color:var(--pico-secondary-inverse);cursor:pointer}:is(button,[type=submit],[type=button],[role=button]).secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}[type=file]::file-selector-button:is(:hover,:active,:focus){--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border);--pico-color:var(--pico-secondary-inverse)}:is(button,[type=submit],[type=button],[role=button]).secondary:focus,:is(button,[type=submit],[type=button],[role=button]).secondary[aria-current]:not([aria-current=false]):focus,[type=reset]:focus,[type=reset][aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=file]::file-selector-button:is():focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}:is(button,[type=submit],[type=button],[role=button]).contrast{--pico-background-color:var(--pico-contrast-background);--pico-border-color:var(--pico-contrast-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:var(--pico-contrast-hover-background);--pico-border-color:var(--pico-contrast-hover-border);--pico-color:var(--pico-contrast-inverse)}:is(button,[type=submit],[type=button],[role=button]).contrast:focus,:is(button,[type=submit],[type=button],[role=button]).contrast[aria-current]:not([aria-current=false]):focus{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-contrast-focus)}:is(button,[type=submit],[type=button],[role=button]).outline,[type=reset].outline{--pico-background-color:transparent;--pico-color:var(--pico-primary);--pico-border-color:var(--pico-primary)}:is(button,[type=submit],[type=button],[role=button]).outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-background-color:transparent;--pico-color:var(--pico-primary-hover);--pico-border-color:var(--pico-primary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary,[type=reset].outline{--pico-color:var(--pico-secondary);--pico-border-color:var(--pico-secondary)}:is(button,[type=submit],[type=button],[role=button]).outline.secondary:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),[type=reset].outline:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-secondary-hover);--pico-border-color:var(--pico-secondary-hover)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast{--pico-color:var(--pico-contrast);--pico-border-color:var(--pico-contrast)}:is(button,[type=submit],[type=button],[role=button]).outline.contrast:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){--pico-color:var(--pico-contrast-hover);--pico-border-color:var(--pico-contrast-hover)}:where(button,[type=submit],[type=reset],[type=button],[role=button])[disabled],:where(fieldset[disabled]) :is(button,[type=submit],[type=button],[type=reset],[role=button]){opacity:.5;pointer-events:none}:where(table){border-collapse:collapse;border-spacing:0;text-indent:0;width:100%}td,th{padding:calc(var(--pico-spacing)/ 2) var(--pico-spacing);border-bottom:var(--pico-border-width) solid var(--pico-table-border-color);background-color:var(--pico-background-color);color:var(--pico-color);font-weight:var(--pico-font-weight);text-align:left;text-align:start}tfoot td,tfoot th{border-top:var(--pico-border-width) solid var(--pico-table-border-color);border-bottom:0}table.striped tbody tr:nth-child(odd) td,table.striped tbody tr:nth-child(odd) th{background-color:var(--pico-table-row-stripped-background-color)}:where(audio,canvas,iframe,img,svg,video){vertical-align:middle}audio,video{display:inline-block}audio:not([controls]){height:0;display:none}:where(iframe){border-style:none}img{border-style:none;max-width:100%;height:auto}:where(svg:not([fill])){fill:currentColor}svg:not(:host),svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-size:.875em;font-family:var(--pico-font-family)}pre code,pre samp{font-size:inherit;font-family:inherit}pre{-ms-overflow-style:scrollbar;overflow:auto}code,kbd,pre,samp{border-radius:var(--pico-border-radius);background:var(--pico-code-background-color);color:var(--pico-code-color);font-weight:var(--pico-font-weight);line-height:initial}code,kbd,samp{padding:.375rem;display:inline-block}pre{margin-bottom:var(--pico-spacing);display:block;overflow-x:auto}pre>code,pre>samp{padding:var(--pico-spacing);line-height:var(--pico-line-height);background:0 0;display:block}kbd{background-color:var(--pico-code-kbd-background-color);color:var(--pico-code-kbd-color);vertical-align:baseline}figure{margin:0;padding:0;display:block}figure figcaption{padding:calc(var(--pico-spacing) * .5) 0;color:var(--pico-muted-color)}hr{height:0;margin:var(--pico-typography-spacing-vertical) 0;border:0;border-top:1px solid var(--pico-muted-border-color);color:inherit}[hidden],template{display:none!important}canvas{display:inline-block}input,optgroup,select,textarea{font-size:1rem;line-height:var(--pico-line-height);letter-spacing:inherit;margin:0;font-family:inherit}input{overflow:visible}select{text-transform:none}legend{max-width:100%;color:inherit;white-space:normal;padding:0}textarea{overflow:auto}[type=checkbox],[type=radio]{padding:0}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:0}:-moz-ui-invalid{box-shadow:none}::-ms-expand{display:none}[type=file],[type=range]{border-width:0;padding:0}input:not([type=checkbox],[type=radio],[type=range]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2)}fieldset{width:100%;margin:0;margin-bottom:var(--pico-spacing);border:0;padding:0}fieldset legend,label{margin-bottom:calc(var(--pico-spacing) * .375);color:var(--pico-color);font-weight:var(--pico-form-label-font-weight,var(--pico-font-weight));display:block}fieldset legend{margin-bottom:calc(var(--pico-spacing) * .5)}button[type=submit],input:not([type=checkbox],[type=radio]),select,textarea{width:100%}input:not([type=checkbox],[type=radio],[type=range],[type=file]),select,textarea{appearance:none;padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal)}input,select,textarea{--pico-background-color:var(--pico-form-element-background-color);--pico-border-color:var(--pico-form-element-border-color);--pico-color:var(--pico-form-element-color);--pico-box-shadow:none;border:var(--pico-border-width) solid var(--pico-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-background-color);box-shadow:var(--pico-box-shadow);color:var(--pico-color);font-weight:var(--pico-font-weight);transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition);outline:0}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[readonly]):is(:active,:focus){--pico-background-color:var(--pico-form-element-active-background-color)}:where(select,textarea):not([readonly]):is(:active,:focus),input:not([type=submit],[type=button],[type=reset],[role=switch],[readonly]):is(:active,:focus){--pico-border-color:var(--pico-form-element-active-border-color)}:where(select,textarea):not([readonly]):focus,input:not([type=submit],[type=button],[type=reset],[type=range],[type=file],[readonly]):focus{--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}:where(fieldset[disabled]) :is(input:not([type=submit],[type=button],[type=reset]),select,textarea),input:not([type=submit],[type=button],[type=reset])[disabled],label[aria-disabled=true],select[disabled],textarea[disabled]{opacity:var(--pico-form-element-disabled-opacity);pointer-events:none}label[aria-disabled=true] input[disabled]{opacity:1}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid]{padding-left:var(--pico-form-element-spacing-horizontal);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important;padding-inline-start:var(--pico-form-element-spacing-horizontal)!important;padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)!important}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=false]:not(select){background-image:var(--pico-icon-valid)}:where(input,select,textarea):not([type=checkbox],[type=radio],[type=date],[type=datetime-local],[type=month],[type=time],[type=week],[type=range])[aria-invalid=true]:not(select){background-image:var(--pico-icon-invalid)}:where(input,select,textarea)[aria-invalid=false]{--pico-border-color:var(--pico-form-element-valid-border-color)}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus){--pico-border-color:var(--pico-form-element-valid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=false]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-valid-focus-color)!important}:where(input,select,textarea)[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus){--pico-border-color:var(--pico-form-element-invalid-active-border-color)!important}:where(input,select,textarea)[aria-invalid=true]:is(:active,:focus):not([type=checkbox],[type=radio]){--pico-box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-invalid-focus-color)!important}[dir=rtl] :where(input,select,textarea):not([type=checkbox],[type=radio]):is([aria-invalid],[aria-invalid=true],[aria-invalid=false]){background-position:.75rem}input::placeholder,select:invalid,textarea::placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}textarea::-webkit-input-placeholder{color:var(--pico-form-element-placeholder-color);opacity:1}input:not([type=checkbox],[type=radio]),select,textarea{margin-bottom:var(--pico-spacing)}select::-ms-expand{background-color:#0000;border:0}select:not([multiple],[size]){padding-right:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem);padding-left:var(--pico-form-element-spacing-horizontal);background-image:var(--pico-icon-chevron);background-position:right .75rem center;background-repeat:no-repeat;background-size:1rem;padding-inline-start:var(--pico-form-element-spacing-horizontal);padding-inline-end:calc(var(--pico-form-element-spacing-horizontal) + 1.5rem)}select[multiple] option:checked{background:var(--pico-form-element-selected-background-color);color:var(--pico-form-element-color)}[dir=rtl] select:not([multiple],[size]){background-position:.75rem}textarea{resize:vertical;display:block}textarea[aria-invalid]{--pico-icon-height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);background-position:right .75rem top!important;background-size:1rem var(--pico-icon-height)!important}:where(input,select,textarea,fieldset,.grid)+small{width:100%;margin-top:calc(var(--pico-spacing) * -.75);margin-bottom:var(--pico-spacing);color:var(--pico-muted-color);display:block}:where(input,select,textarea,fieldset,.grid)[aria-invalid=false]+small{color:var(--pico-ins-color)}:where(input,select,textarea,fieldset,.grid)[aria-invalid=true]+small{color:var(--pico-del-color)}label>:where(input,select,textarea){margin-top:calc(var(--pico-spacing) * .25)}label:has([type=checkbox],[type=radio]){cursor:pointer;width:fit-content}[type=checkbox],[type=radio]{appearance:none;margin-top:-.125em;border-width:var(--pico-border-width);vertical-align:middle;cursor:pointer;width:1.25em;height:1.25em;margin-inline-end:.5em}[type=checkbox]::-ms-check{display:none}[type=radio]::-ms-check{display:none}[type=checkbox]:checked,[type=checkbox]:checked:active,[type=checkbox]:checked:focus,[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-checkbox);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=checkbox]~label,[type=radio]~label{cursor:pointer;margin-bottom:0;display:inline-block}[type=checkbox]~label:not(:last-of-type),[type=radio]~label:not(:last-of-type){margin-inline-end:1em}[type=checkbox]:indeterminate{--pico-background-color:var(--pico-primary-background);--pico-border-color:var(--pico-primary-border);background-image:var(--pico-icon-minus);background-position:50%;background-repeat:no-repeat;background-size:.75em}[type=radio]{border-radius:50%}[type=radio]:checked,[type=radio]:checked:active,[type=radio]:checked:focus{--pico-background-color:var(--pico-primary-inverse);background-image:none;border-width:.35em}[type=checkbox][role=switch]{--pico-background-color:var(--pico-switch-background-color);--pico-color:var(--pico-switch-color);border:var(--pico-border-width) solid var(--pico-border-color);background-color:var(--pico-background-color);border-radius:1.25em;width:2.25em;height:1.25em;line-height:1.25em}[type=checkbox][role=switch]:not([aria-invalid]){--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:before{aspect-ratio:1;background-color:var(--pico-color);height:100%;box-shadow:var(--pico-switch-thumb-box-shadow);content:\"\";border-radius:50%;transition:margin .1s ease-in-out;display:block}[type=checkbox][role=switch]:focus{--pico-background-color:var(--pico-switch-background-color);--pico-border-color:var(--pico-switch-background-color)}[type=checkbox][role=switch]:checked{--pico-background-color:var(--pico-switch-checked-background-color);--pico-border-color:var(--pico-switch-checked-background-color);background-image:none}[type=checkbox][role=switch]:checked:before{margin-inline-start:1em}[type=checkbox][role=switch][disabled]{--pico-background-color:var(--pico-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus{--pico-background-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true]{--pico-background-color:var(--pico-form-element-invalid-border-color)}[type=checkbox][aria-invalid=false]:checked,[type=checkbox][aria-invalid=false]:checked:active,[type=checkbox][aria-invalid=false]:checked:focus,[type=checkbox][role=switch][aria-invalid=false]:checked,[type=checkbox][role=switch][aria-invalid=false]:checked:active,[type=checkbox][role=switch][aria-invalid=false]:checked:focus,[type=radio][aria-invalid=false]:checked,[type=radio][aria-invalid=false]:checked:active,[type=radio][aria-invalid=false]:checked:focus{--pico-border-color:var(--pico-form-element-valid-border-color)}[type=checkbox]:checked:active[aria-invalid=true],[type=checkbox]:checked:focus[aria-invalid=true],[type=checkbox]:checked[aria-invalid=true],[type=checkbox][role=switch]:checked:active[aria-invalid=true],[type=checkbox][role=switch]:checked:focus[aria-invalid=true],[type=checkbox][role=switch]:checked[aria-invalid=true],[type=radio]:checked:active[aria-invalid=true],[type=radio]:checked:focus[aria-invalid=true],[type=radio]:checked[aria-invalid=true]{--pico-border-color:var(--pico-form-element-invalid-border-color)}[type=color]::-webkit-color-swatch-wrapper{padding:0}[type=color]::-moz-focus-inner{padding:0}[type=color]::-webkit-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}[type=color]::-moz-color-swatch{border-radius:calc(var(--pico-border-radius) * .5);border:0}input:not([type=checkbox],[type=radio],[type=range],[type=file]):is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){--pico-icon-position:.75rem;--pico-icon-width:1rem;padding-right:calc(var(--pico-icon-width) + var(--pico-icon-position));background-image:var(--pico-icon-date);background-position:center right var(--pico-icon-position);background-size:var(--pico-icon-width) auto;background-repeat:no-repeat}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=time]{background-image:var(--pico-icon-time)}[type=date]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=datetime-local]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=month]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=time]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}[type=week]::-webkit-calendar-picker-indicator{width:var(--pico-icon-width);margin-right:calc(var(--pico-icon-width) * -1);margin-left:var(--pico-icon-position);opacity:0}@-moz-document url-prefix(){[type=date],[type=datetime-local],[type=month],[type=time],[type=week]{padding-right:var(--pico-form-element-spacing-horizontal)!important;background-image:none!important}}[dir=rtl] :is([type=date],[type=datetime-local],[type=month],[type=time],[type=week]){text-align:right}[type=file]{--pico-color:var(--pico-muted-color);margin-left:calc(var(--pico-outline-width) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) 0;padding-left:var(--pico-outline-width);background:0 0;border:0;border-radius:0}[type=file]::file-selector-button{margin-right:calc(var(--pico-spacing)/ 2);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal)}[type=file]:is(:hover,:active,:focus)::file-selector-button{--pico-background-color:var(--pico-secondary-hover-background);--pico-border-color:var(--pico-secondary-hover-border)}[type=file]:focus::file-selector-button{--pico-box-shadow:var(--pico-button-hover-box-shadow,0 0 0 #0000),0 0 0 var(--pico-outline-width) var(--pico-secondary-focus)}[type=range]{appearance:none;background:0 0;width:100%;height:1.25rem}[type=range]::-webkit-slider-runnable-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-webkit-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-moz-range-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-moz-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-ms-track{border-radius:var(--pico-border-radius);background-color:var(--pico-range-border-color);width:100%;height:.375rem;-ms-transition:background-color var(--pico-transition),box-shadow var(--pico-transition);transition:background-color var(--pico-transition),box-shadow var(--pico-transition)}[type=range]::-webkit-slider-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-webkit-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-moz-range-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-moz-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]::-ms-thumb{-webkit-appearance:none;border:2px solid var(--pico-range-thumb-border-color);background-color:var(--pico-range-thumb-color);cursor:pointer;width:1.25rem;height:1.25rem;-ms-transition:background-color var(--pico-transition),transform var(--pico-transition);transition:background-color var(--pico-transition),transform var(--pico-transition);border-radius:50%;margin-top:-.4375rem}[type=range]:active,[type=range]:focus-within{--pico-range-border-color:var(--pico-range-active-border-color);--pico-range-thumb-color:var(--pico-range-thumb-active-color)}[type=range]:active::-webkit-slider-thumb{transform:scale(1.25)}[type=range]:active::-moz-range-thumb{transform:scale(1.25)}[type=range]:active::-ms-thumb{transform:scale(1.25)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-image:var(--pico-icon-search);background-position:center left calc(var(--pico-form-element-spacing-horizontal) + .125rem);background-repeat:no-repeat;background-size:1rem;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:1.125rem,right .75rem center;padding-inline-start:calc(var(--pico-form-element-spacing-horizontal) + 1.75rem)!important}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=false]{background-image:var(--pico-icon-search),var(--pico-icon-valid)}input:not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid=true]{background-image:var(--pico-icon-search),var(--pico-icon-invalid)}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search]{background-position:right 1.125rem center}[dir=rtl] :where(input):not([type=checkbox],[type=radio],[type=range],[type=file])[type=search][aria-invalid]{background-position:right 1.125rem center,.75rem}details{margin-bottom:var(--pico-spacing);display:block}details summary{cursor:pointer;transition:color var(--pico-transition);line-height:1rem;list-style-type:none}details summary:not([role]){color:var(--pico-accordion-close-summary-color)}details summary::-webkit-details-marker{display:none}details summary::marker{display:none}details summary::-moz-list-bullet{list-style-type:none}details summary:after{width:1rem;height:1rem;float:right;background-image:var(--pico-icon-chevron);content:\"\";transition:transform var(--pico-transition);background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:calc(var(--pico-spacing,1rem) * .5);display:block;transform:rotate(-90deg)}details summary:focus{outline:0}details summary:focus:not([role]){color:var(--pico-accordion-active-summary-color)}details summary:focus-visible:not([role]){outline:var(--pico-outline-width) solid var(--pico-primary-focus);outline-offset:calc(var(--pico-spacing,1rem) * .5);color:var(--pico-primary)}details summary[role=button]{text-align:left;width:100%}details summary[role=button]:after{height:calc(1rem * var(--pico-line-height,1.5))}details[open]>summary{margin-bottom:var(--pico-spacing)}details[open]>summary:not([role]):not(:focus){color:var(--pico-accordion-open-summary-color)}details[open]>summary:after{transform:rotate(0)}[dir=rtl] details summary{text-align:right}[dir=rtl] details summary:after{float:left;background-position:0}article{margin-bottom:var(--pico-block-spacing-vertical);padding:var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);border-radius:var(--pico-border-radius);background:var(--pico-card-background-color);box-shadow:var(--pico-card-box-shadow)}article>footer,article>header{margin-right:calc(var(--pico-block-spacing-horizontal) * -1);margin-left:calc(var(--pico-block-spacing-horizontal) * -1);padding:calc(var(--pico-block-spacing-vertical) * .66) var(--pico-block-spacing-horizontal);background-color:var(--pico-card-sectioning-background-color)}article>header{margin-top:calc(var(--pico-block-spacing-vertical) * -1);margin-bottom:var(--pico-block-spacing-vertical);border-bottom:var(--pico-border-width) solid var(--pico-card-border-color);border-top-right-radius:var(--pico-border-radius);border-top-left-radius:var(--pico-border-radius)}article>footer{margin-top:var(--pico-block-spacing-vertical);margin-bottom:calc(var(--pico-block-spacing-vertical) * -1);border-top:var(--pico-border-width) solid var(--pico-card-border-color);border-bottom-right-radius:var(--pico-border-radius);border-bottom-left-radius:var(--pico-border-radius)}details.dropdown{border-bottom:none;position:relative}details.dropdown>a:after,details.dropdown>button:after,details.dropdown>summary:after{width:1rem;height:calc(1rem * var(--pico-line-height,1.5));float:right;background-image:var(--pico-icon-chevron);content:\"\";background-position:100%;background-repeat:no-repeat;background-size:1rem;margin-inline-start:.25rem;display:block;transform:rotate(0)translate(.2rem)}nav details.dropdown{margin-bottom:0}details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);padding:var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);border:var(--pico-border-width) solid var(--pico-form-element-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-form-element-background-color);color:var(--pico-form-element-placeholder-color);line-height:inherit;cursor:pointer;-webkit-user-select:none;user-select:none;transition:background-color var(--pico-transition),border-color var(--pico-transition),color var(--pico-transition),box-shadow var(--pico-transition)}details.dropdown>summary:not([role]):active,details.dropdown>summary:not([role]):focus{border-color:var(--pico-form-element-active-border-color);background-color:var(--pico-form-element-active-background-color)}details.dropdown>summary:not([role]):focus{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)}details.dropdown>summary:not([role]):focus-visible{outline:0}details.dropdown>summary:not([role])[aria-invalid=false]{--pico-form-element-border-color:var(--pico-form-element-valid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-valid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-valid-focus-color)}details.dropdown>summary:not([role])[aria-invalid=true]{--pico-form-element-border-color:var(--pico-form-element-invalid-border-color);--pico-form-element-active-border-color:var(--pico-form-element-invalid-focus-color);--pico-form-element-focus-color:var(--pico-form-element-invalid-focus-color)}nav details.dropdown{margin:calc(var(--pico-nav-element-spacing-vertical) * -1) 0;display:inline}nav details.dropdown>summary:after{transform:rotate(0)translate(0)}nav details.dropdown>summary:not([role]){height:calc(1rem * var(--pico-line-height) + var(--pico-nav-link-spacing-vertical) * 2);padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav details.dropdown>summary:not([role]):focus-visible{box-shadow:0 0 0 var(--pico-outline-width) var(--pico-primary-focus)}details.dropdown>summary+ul{z-index:99;width:100%;min-width:fit-content;margin:0;margin-top:var(--pico-outline-width);border:var(--pico-border-width) solid var(--pico-dropdown-border-color);border-radius:var(--pico-border-radius);background-color:var(--pico-dropdown-background-color);box-shadow:var(--pico-dropdown-box-shadow);color:var(--pico-dropdown-color);white-space:nowrap;opacity:0;transition:opacity var(--pico-transition),transform 0s ease-in-out 1s;flex-direction:column;padding:0;display:flex;position:absolute;left:0}details.dropdown>summary+ul[dir=rtl]{left:auto;right:0}details.dropdown>summary+ul li{width:100%;padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);margin-bottom:0;list-style:none}details.dropdown>summary+ul li:first-of-type{margin-top:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li:last-of-type{margin-bottom:calc(var(--pico-form-element-spacing-vertical) * .5)}details.dropdown>summary+ul li a{margin:calc(var(--pico-form-element-spacing-vertical) * -.5) calc(var(--pico-form-element-spacing-horizontal) * -1);padding:calc(var(--pico-form-element-spacing-vertical) * .5) var(--pico-form-element-spacing-horizontal);color:var(--pico-dropdown-color);text-overflow:ellipsis;border-radius:0;text-decoration:none;display:block;overflow:hidden}details.dropdown>summary+ul li a:active,details.dropdown>summary+ul li a:focus,details.dropdown>summary+ul li a:focus-visible,details.dropdown>summary+ul li a:hover,details.dropdown>summary+ul li a[aria-current]:not([aria-current=false]){background-color:var(--pico-dropdown-hover-background-color)}details.dropdown>summary+ul li label{width:100%}details.dropdown>summary+ul li:has(label):hover{background-color:var(--pico-dropdown-hover-background-color)}details.dropdown[open]>summary{margin-bottom:0}details.dropdown[open]>summary+ul{opacity:1;transition:opacity var(--pico-transition),transform 0s ease-in-out 0s;transform:scaleY(1)}details.dropdown[open]>summary:before{z-index:1;content:\"\";cursor:default;background:0 0;width:100vw;height:100vh;display:block;position:fixed;inset:0}label>details.dropdown{margin-top:calc(var(--pico-spacing) * .25)}[role=group],[role=search]{width:100%;margin-bottom:var(--pico-spacing);border-radius:var(--pico-border-radius);box-shadow:var(--pico-group-box-shadow,0 0 0 transparent);vertical-align:middle;transition:box-shadow var(--pico-transition);display:inline-flex;position:relative}[role=group] input:not([type=checkbox],[type=radio]),[role=group] select,[role=group]>*,[role=search] input:not([type=checkbox],[type=radio]),[role=search] select,[role=search]>*{flex:auto;margin-bottom:0;position:relative}[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=group]>:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child),[role=search]>:not(:first-child){border-top-left-radius:0;border-bottom-left-radius:0;margin-left:0}[role=group] input:not([type=checkbox],[type=radio]):not(:last-child),[role=group] select:not(:last-child),[role=group]>:not(:last-child),[role=search] input:not([type=checkbox],[type=radio]):not(:last-child),[role=search] select:not(:last-child),[role=search]>:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0}[role=group] input:not([type=checkbox],[type=radio]):focus,[role=group] select:focus,[role=group]>:focus,[role=search] input:not([type=checkbox],[type=radio]):focus,[role=search] select:focus,[role=search]>:focus{z-index:2}[role=group] [role=button]:not(:first-child),[role=group] [type=button]:not(:first-child),[role=group] [type=reset]:not(:first-child),[role=group] [type=submit]:not(:first-child),[role=group] button:not(:first-child),[role=group] input:not([type=checkbox],[type=radio]):not(:first-child),[role=group] select:not(:first-child),[role=search] [role=button]:not(:first-child),[role=search] [type=button]:not(:first-child),[role=search] [type=reset]:not(:first-child),[role=search] [type=submit]:not(:first-child),[role=search] button:not(:first-child),[role=search] input:not([type=checkbox],[type=radio]):not(:first-child),[role=search] select:not(:first-child){margin-left:calc(var(--pico-border-width) * -1)}[role=group] [role=button],[role=group] [type=button],[role=group] [type=reset],[role=group] [type=submit],[role=group] button,[role=search] [role=button],[role=search] [type=button],[role=search] [type=reset],[role=search] [type=submit],[role=search] button{width:auto}@supports selector(:has(*)){:is([role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus),[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-button)}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=group]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) input:not([type=checkbox],[type=radio]){border-color:#0000}[role=search]:has(button:focus,[type=submit]:focus,[type=button]:focus,[role=button]:focus) select{border-color:#0000}:is([role=group]:has(input:not([type=submit],[type=button]):focus,select:focus),[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus)){--pico-group-box-shadow:var(--pico-group-box-shadow-focus-with-input)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [role=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=button]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) [type=submit]{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) button{--pico-button-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-border);--pico-button-hover-box-shadow:0 0 0 var(--pico-border-width) var(--pico-primary-hover-border)}[role=group] [role=button]:focus,[role=group] [type=button]:focus,[role=group] [type=reset]:focus,[role=group] [type=submit]:focus,[role=group] button:focus,[role=search] [role=button]:focus,[role=search] [type=button]:focus,[role=search] [type=reset]:focus,[role=search] [type=submit]:focus,[role=search] button:focus{box-shadow:none}}[role=search]>:first-child{border-top-left-radius:5rem;border-bottom-left-radius:5rem}[role=search]>:last-child{border-top-right-radius:5rem;border-bottom-right-radius:5rem}[aria-busy=true]:not(input,select,textarea,html,form){white-space:nowrap}[aria-busy=true]:not(input,select,textarea,html,form):before{background-image:var(--pico-icon-loading);content:\"\";vertical-align:-.125em;background-repeat:no-repeat;background-size:1em;width:1em;height:1em;display:inline-block}[aria-busy=true]:not(input,select,textarea,html,form):not(:empty):before{margin-inline-end:calc(var(--pico-spacing) * .5)}[aria-busy=true]:not(input,select,textarea,html,form):empty{text-align:center}[role=button][aria-busy=true],[type=button][aria-busy=true],[type=reset][aria-busy=true],[type=submit][aria-busy=true],a[aria-busy=true],button[aria-busy=true]{pointer-events:none}:host,:root{--pico-scrollbar-width:0px}dialog{z-index:999;width:inherit;min-width:100%;height:inherit;min-height:100%;-webkit-backdrop-filter:var(--pico-modal-overlay-backdrop-filter);backdrop-filter:var(--pico-modal-overlay-backdrop-filter);background-color:var(--pico-modal-overlay-background-color);color:var(--pico-color);border:0;justify-content:center;align-items:center;padding:0;display:flex;position:fixed;inset:0}dialog>article{width:100%;max-height:calc(100vh - var(--pico-spacing) * 2);margin:var(--pico-spacing);overflow:auto}@media (width>=576px){dialog>article{max-width:510px}}@media (width>=768px){dialog>article{max-width:700px}}dialog>article>header>*{margin-bottom:0}dialog>article>header .close,dialog>article>header :is(a,button)[rel=prev]{margin:0;margin-left:var(--pico-spacing);float:right;padding:0}dialog>article>footer{text-align:right}dialog>article>footer [role=button],dialog>article>footer button{margin-bottom:0}dialog>article>footer [role=button]:not(:first-of-type),dialog>article>footer button:not(:first-of-type){margin-left:calc(var(--pico-spacing) * .5)}dialog>article .close,dialog>article :is(a,button)[rel=prev]{width:1rem;height:1rem;margin-top:calc(var(--pico-spacing) * -1);margin-bottom:var(--pico-spacing);background-image:var(--pico-icon-close);opacity:.5;transition:opacity var(--pico-transition);background-color:#0000;background-position:50%;background-repeat:no-repeat;background-size:auto 1rem;border:none;margin-left:auto;display:block}dialog>article .close:is([aria-current]:not([aria-current=false]),:hover,:active,:focus),dialog>article :is(a,button)[rel=prev]:is([aria-current]:not([aria-current=false]),:hover,:active,:focus){opacity:1}dialog:not([open]),dialog[open=false]{display:none}.modal-is-open{padding-right:var(--pico-scrollbar-width,0);pointer-events:none;touch-action:none;overflow:hidden}.modal-is-open dialog{pointer-events:auto;touch-action:auto}:where(.modal-is-opening,.modal-is-closing) dialog,:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-duration:.2s;animation-timing-function:ease-in-out;animation-fill-mode:both}:where(.modal-is-opening,.modal-is-closing) dialog{animation-name:modal-overlay;animation-duration:.8s}:where(.modal-is-opening,.modal-is-closing) dialog>article{animation-name:modal;animation-delay:.2s}.modal-is-closing dialog,.modal-is-closing dialog>article{animation-direction:reverse;animation-delay:0s}@keyframes modal-overlay{0%{-webkit-backdrop-filter:none;backdrop-filter:none;background-color:#0000}}@keyframes modal{0%{opacity:0;transform:translateY(-100%)}}:where(nav li):before{float:left;content:\"​\"}nav,nav ul{display:flex}nav{justify-content:space-between;overflow:visible}nav ol,nav ul{align-items:center;margin-bottom:0;padding:0;list-style:none}nav ol:first-of-type,nav ul:first-of-type{margin-left:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav ol:last-of-type,nav ul:last-of-type{margin-right:calc(var(--pico-nav-element-spacing-horizontal) * -1)}nav li{padding:var(--pico-nav-element-spacing-vertical) var(--pico-nav-element-spacing-horizontal);margin:0;display:inline-block}nav li :where(a,[role=link]){margin:calc(var(--pico-nav-link-spacing-vertical) * -1) calc(var(--pico-nav-link-spacing-horizontal) * -1);padding:var(--pico-nav-link-spacing-vertical) var(--pico-nav-link-spacing-horizontal);border-radius:var(--pico-border-radius);display:inline-block}nav li :where(a,[role=link]):not(:hover){text-decoration:none}nav li [role=button],nav li [type=button],nav li button,nav li input:not([type=checkbox],[type=radio],[type=range],[type=file]),nav li select{height:auto;margin-right:inherit;margin-bottom:0;margin-left:inherit;padding:calc(var(--pico-nav-link-spacing-vertical) - var(--pico-border-width) * 2) var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb]{justify-content:start;align-items:center}nav[aria-label=breadcrumb] ul li:not(:first-child){margin-inline-start:var(--pico-nav-link-spacing-horizontal)}nav[aria-label=breadcrumb] ul li a{margin:calc(var(--pico-nav-link-spacing-vertical) * -1) 0;margin-inline-start:calc(var(--pico-nav-link-spacing-horizontal) * -1)}nav[aria-label=breadcrumb] ul li:not(:last-child):after{width:calc(var(--pico-nav-link-spacing-horizontal) * 4);margin:0 calc(var(--pico-nav-link-spacing-horizontal) * -1);content:var(--pico-nav-breadcrumb-divider);color:var(--pico-muted-color);text-align:center;white-space:nowrap;text-decoration:none;display:inline-block;position:absolute}nav[aria-label=breadcrumb] a[aria-current]:not([aria-current=false]){color:inherit;pointer-events:none;background-color:#0000;text-decoration:none}aside li,aside nav,aside ol,aside ul{display:block}aside li{padding:calc(var(--pico-nav-element-spacing-vertical) * .5) var(--pico-nav-element-spacing-horizontal)}aside li a{display:block}aside li [role=button]{margin:inherit}[dir=rtl] nav[aria-label=breadcrumb] ul li:not(:last-child) :after{content:\"\\\\\"}progress{vertical-align:baseline;appearance:none;width:100%;height:.5rem;margin-bottom:calc(var(--pico-spacing) * .5);border-radius:var(--pico-border-radius);background-color:var(--pico-progress-background-color);color:var(--pico-progress-color);border:0;display:inline-block;overflow:hidden}progress::-webkit-progress-bar{border-radius:var(--pico-border-radius);background:0 0}progress[value]::-webkit-progress-value{background-color:var(--pico-progress-color);-webkit-transition:inline-size var(--pico-transition);transition:inline-size var(--pico-transition)}progress::-moz-progress-bar{background-color:var(--pico-progress-color)}@media (prefers-reduced-motion:no-preference){progress:indeterminate{background:var(--pico-progress-background-color) linear-gradient(to right,var(--pico-progress-color) 30%,var(--pico-progress-background-color) 30%) top left/150% 150% no-repeat;animation:1s linear infinite progress-indeterminate}progress:indeterminate[value]::-webkit-progress-value{background-color:#0000}progress:indeterminate::-moz-progress-bar{background-color:#0000}[dir=rtl] progress:indeterminate{animation-direction:reverse}}@keyframes progress-indeterminate{0%{background-position:200% 0}to{background-position:-200% 0}}[data-tooltip]{position:relative}[data-tooltip]:not(a,button,input,[role=button]){cursor:help;border-bottom:1px dotted;text-decoration:none}[data-tooltip]:after,[data-tooltip]:before,[data-tooltip][data-placement=top]:after,[data-tooltip][data-placement=top]:before{z-index:99;border-radius:var(--pico-border-radius);background:var(--pico-tooltip-background-color);content:attr(data-tooltip);color:var(--pico-tooltip-color);font-style:normal;font-weight:var(--pico-font-weight);text-overflow:ellipsis;white-space:nowrap;opacity:0;pointer-events:none;padding:.25rem .5rem;font-size:.875rem;text-decoration:none;display:block;position:absolute;bottom:100%;left:50%;overflow:hidden;transform:translate(-50%,-.25rem)}[data-tooltip]:after,[data-tooltip][data-placement=top]:after{content:\"\";color:var(--pico-tooltip-background-color);background-color:#0000;border-top:.3rem solid;border-left:.3rem solid #0000;border-right:.3rem solid #0000;border-radius:0;padding:0;transform:translate(-50%)}[data-tooltip][data-placement=bottom]:after,[data-tooltip][data-placement=bottom]:before{top:100%;bottom:auto;transform:translate(-50%,.25rem)}[data-tooltip][data-placement=bottom]:after{border:.3rem solid #0000;border-bottom-color:currentColor;transform:translate(-50%,-.3rem)}[data-tooltip][data-placement=left]:after,[data-tooltip][data-placement=left]:before{inset:50% 100% auto auto;transform:translate(-.25rem,-50%)}[data-tooltip][data-placement=left]:after{border:.3rem solid #0000;border-left-color:currentColor;transform:translate(.3rem,-50%)}[data-tooltip][data-placement=right]:after,[data-tooltip][data-placement=right]:before{inset:50% auto auto 100%;transform:translate(.25rem,-50%)}[data-tooltip][data-placement=right]:after{border:.3rem solid #0000;border-right-color:currentColor;transform:translate(-.3rem,-50%)}[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{opacity:1}@media (hover:hover) and (pointer:fine){[data-tooltip]:focus:after,[data-tooltip]:focus:before,[data-tooltip]:hover:after,[data-tooltip]:hover:before{--pico-tooltip-slide-to:translate(-50%, -.25rem);opacity:0;animation-name:tooltip-slide;animation-duration:.2s;animation-fill-mode:forwards;transform:translate(-50%,.75rem)}[data-tooltip]:focus:after,[data-tooltip]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, 0rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.25rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:focus:before,[data-tooltip][data-placement=bottom]:hover:after,[data-tooltip][data-placement=bottom]:hover:before{--pico-tooltip-slide-to:translate(-50%, .25rem);animation-name:tooltip-slide;transform:translate(-50%,-.75rem)}[data-tooltip][data-placement=bottom]:focus:after,[data-tooltip][data-placement=bottom]:hover:after{--pico-tooltip-caret-slide-to:translate(-50%, -.3rem);animation-name:tooltip-caret-slide;transform:translate(-50%,-.5rem)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:focus:before,[data-tooltip][data-placement=left]:hover:after,[data-tooltip][data-placement=left]:hover:before{--pico-tooltip-slide-to:translate(-.25rem, -50%);animation-name:tooltip-slide;transform:translate(.75rem,-50%)}[data-tooltip][data-placement=left]:focus:after,[data-tooltip][data-placement=left]:hover:after{--pico-tooltip-caret-slide-to:translate(.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(.05rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:focus:before,[data-tooltip][data-placement=right]:hover:after,[data-tooltip][data-placement=right]:hover:before{--pico-tooltip-slide-to:translate(.25rem, -50%);animation-name:tooltip-slide;transform:translate(-.75rem,-50%)}[data-tooltip][data-placement=right]:focus:after,[data-tooltip][data-placement=right]:hover:after{--pico-tooltip-caret-slide-to:translate(-.3rem, -50%);animation-name:tooltip-caret-slide;transform:translate(-.05rem,-50%)}}@keyframes tooltip-slide{to{transform:var(--pico-tooltip-slide-to);opacity:1}}@keyframes tooltip-caret-slide{50%{opacity:0}to{transform:var(--pico-tooltip-caret-slide-to);opacity:1}}[aria-controls]{cursor:pointer}[aria-disabled=true],[disabled]{cursor:not-allowed}[aria-hidden=false][hidden]{display:initial}[aria-hidden=false][hidden]:not(:focus){clip:rect(0,0,0,0);position:absolute}[tabindex],a,area,button,input,label,select,summary,textarea{-ms-touch-action:manipulation}[dir=rtl]{direction:rtl}@media (prefers-reduced-motion:reduce){:not([aria-busy=true]),:not([aria-busy=true]):after,:not([aria-busy=true]):before{background-attachment:initial!important;scroll-behavior:auto!important;transition-duration:0s!important;transition-delay:0s!important;animation-duration:1ms!important;animation-iteration-count:1!important;animation-delay:-1ms!important}}:root{--primary-color:#ff6b81}body{padding:.5rem 1.5rem 2rem}#dropzone{border:3px dashed var(--pico-muted-border-color);text-align:center;background-color:var(--pico-card-background-color);cursor:pointer;border-radius:12px;margin-bottom:2rem;padding:40px 20px;transition:all .3s}#dropzone.dragging{border-color:var(--pico-primary-background);background-color:#ff6b810d;box-shadow:0 0 15px #ff6b8126}#dropzone svg{color:var(--pico-muted-color);margin-bottom:1rem;transition:color .3s}#dropzone.dragging svg{color:var(--pico-primary-background)}#dropzone-status{margin:0;font-weight:600;display:none}#dropzone.loading{cursor:progress;border-color:var(--pico-primary-background)}#dropzone.loading svg{color:var(--pico-primary-background)}#dropzone.loading #dropzone-status{display:block}#dropzone.loading h3,#dropzone.loading .dropzone-hint,#dropzone.loading small{display:none}.entry-grid{--entry-text-color:var(--pico-color);flex-direction:column;gap:.75rem;margin-bottom:2rem;display:flex}.entry-grid #dropzone{color:var(--entry-text-color);margin-bottom:0}.entry-grid #dropzone,.entry-grid .capture-card{align-self:center;width:100%;max-width:760px}.capture-card{text-align:center;border:2px dashed var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;flex-direction:column;align-items:center;gap:.75rem;padding:16px 20px;transition:all .3s;display:flex}.capture-intro{flex-direction:column;align-items:center;gap:.35rem;display:flex}.capture-intro svg{color:var(--pico-muted-color);flex-shrink:0;transition:color .3s}.capture-card h3{margin:0;font-size:1rem}.capture-card .capture-subtitle{color:var(--pico-muted-color);margin:0;font-size:.8rem}.capture-actions{flex-wrap:wrap;justify-content:center;align-items:center;gap:.6rem 1rem;display:flex}.capture-card button{margin:0;padding:.4rem 1rem;font-size:.9rem}.capture-card.is-recording{background-color:#e5484d0d;border-color:#e5484d;box-shadow:0 0 15px #e5484d26}.capture-card.is-recording .capture-intro svg{color:#e5484d;animation:1.4s ease-in-out infinite capture-pulse}@keyframes capture-pulse{50%{opacity:.45}}.capture-options{flex-wrap:wrap;justify-content:center;align-items:center;gap:.4rem 1rem;font-size:.85rem;display:flex}.capture-options label{align-items:center;gap:.35rem;margin:0;display:inline-flex}.capture-options input[type=checkbox]{margin:0}.capture-devices{flex-wrap:wrap;flex-basis:100%;justify-content:center;gap:.5rem 1.25rem;display:flex}.capture-device-row{align-items:center;gap:.5rem;display:inline-flex}.capture-device-row select{max-width:14rem}.capture-meter{background:var(--pico-muted-border-color);border-radius:4px;width:90px;height:8px;overflow:hidden}.capture-meter>span{background:#30a46c;width:0;height:100%;display:block}.capture-cam-preview{aspect-ratio:16/9;object-fit:cover;background:#000;border-radius:6px;width:112px}.capture-options select,.capture-shot select{width:auto;height:auto;margin:0;padding:.25rem 2rem .25rem .6rem;font-size:.85rem}.capture-shot{align-items:center;gap:.4rem;display:inline-flex}.capture-status{color:var(--pico-muted-color);font-size:.85rem}.capture-status:empty{display:none}.capture-card.is-recording .capture-status{color:#e5484d;font-variant-numeric:tabular-nums;font-weight:600}#video-file-input{display:none}.video-container{border-radius:8px;width:100%;display:block;position:relative;overflow:hidden;box-shadow:0 4px 12px #00000040}.video-container video{width:100%;height:auto;display:block}.crop-overlay{z-index:2;pointer-events:none;position:absolute;inset:0;overflow:hidden}.crop-box{box-sizing:border-box;border:2px solid var(--primary-color,#ff6b81);pointer-events:none;position:absolute;box-shadow:0 0 0 9999px #00000073}.crop-handle,.crop-move{box-sizing:border-box;background:var(--primary-color,#ff6b81);pointer-events:auto;touch-action:none;border:2px solid #fff;border-radius:50%;position:absolute}.crop-handle{border-radius:3px;width:16px;height:16px}.crop-handle:before,.crop-move:before{content:\"\";position:absolute;inset:-8px}.crop-move{cursor:move;background:#00000059;width:18px;height:18px;margin:-9px 0 0 -9px;top:50%;left:50%}.crop-overlay.is-passive .crop-handle,.crop-overlay.is-passive .crop-move{display:none}.crop-loupe{z-index:1000;pointer-events:none;border:2px solid var(--primary-color,#ff6b81);background:#111;border-radius:6px;width:168px;position:fixed;overflow:hidden;box-shadow:0 6px 18px #00000073}.crop-overlay .crop-loupe canvas{width:168px;height:168px;display:block;position:static}.crop-loupe-label{color:#fff;white-space:pre;background:#000000bf;padding:2px 6px;font-family:monospace;font-size:.7rem;line-height:1.35}.crop-handle[data-handle=nw]{cursor:nwse-resize;top:-2px;left:-2px}.crop-handle[data-handle=ne]{cursor:nesw-resize;top:-2px;right:-2px}.crop-handle[data-handle=sw]{cursor:nesw-resize;bottom:-2px;left:-2px}.crop-handle[data-handle=se]{cursor:nwse-resize;bottom:-2px;right:-2px}.meta-grid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.75rem;margin-bottom:1.5rem;display:grid}.meta-item{background:var(--pico-card-background-color);border:1px solid var(--pico-muted-border-color);border-radius:6px;padding:.5rem .75rem;font-size:.85rem}.meta-label{color:var(--pico-muted-color);text-transform:uppercase;letter-spacing:.5px;font-size:.75rem;font-weight:700;display:block}.slider-group{margin-bottom:1.5rem}.slider-group label{justify-content:space-between;align-items:center;font-weight:500;display:flex}.time-val{background:var(--pico-code-background-color);border-radius:4px;padding:2px 6px;font-family:monospace;font-size:.85rem;display:inline-block}.time-val-primary{background:var(--pico-primary-background);color:var(--pico-primary-inverse)}.trim-visualizer{background-color:var(--pico-muted-border-color);border:1px solid var(--pico-muted-border-color);border-radius:10px;height:20px;margin:1.5rem 0;position:relative;overflow:hidden}.trim-selection{border-left:2px solid var(--pico-primary-background);border-right:2px solid var(--pico-primary-background);background-color:#ff6b8159;height:100%;transition:all .1s;position:absolute;top:0}.trim-ghost{background-color:#ff6b812e;border-left:1px solid #ff6b8199;border-right:1px solid #ff6b8199;height:100%;position:absolute;top:0}.trim-sections-header{justify-content:space-between;align-items:center;margin-bottom:.5rem;font-size:.85rem;display:flex}.trim-section-list{--trim-row-color:var(--pico-color);margin:0 0 .75rem;padding:0;list-style:none}.trim-section-row{gap:.4rem;margin-bottom:.35rem;list-style:none;display:flex}.trim-section-row button{border:1px solid var(--pico-muted-border-color);color:var(--trim-row-color);background:0 0;margin:0;padding:.3rem .6rem;font-size:.8rem}.trim-section-pick{text-align:left;flex:1;font-family:monospace}.trim-section-row.active .trim-section-pick{border-color:var(--pico-primary-background);background:#ff6b8126}.trim-section-remove:disabled{opacity:.35}#trim-add-section{width:100%;margin-bottom:.5rem;padding:.4rem .75rem;font-size:.9rem}.trim-sections-help{color:var(--pico-muted-color);font-size:.75rem;display:block}header.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);margin:-1rem -1rem 1.5rem;padding:1rem 1.5rem;font-weight:700}header.card-header.success{color:#2ecc71;background:#2ecc710d}.info-card{margin-bottom:0;padding:1rem}.result-card{border:1px solid #2ecc71;margin-bottom:2rem;padding:1rem}.success-note{background:#2ecc711a;border:1px solid #2ecc71;border-radius:8px;margin-bottom:2rem;padding:1.5rem;display:block}.success-note h3{color:#2ecc71;margin-bottom:.5rem}.download-btn{border:none;align-items:center;gap:8px;font-weight:700;display:inline-flex}.output-size{opacity:.85;margin-left:1rem;font-size:.9rem;font-weight:700}details.config-card{border:1px solid var(--pico-muted-border-color);background-color:var(--pico-card-background-color);border-radius:12px;margin-bottom:0;padding:0;overflow:hidden}details.config-card>summary.card-header{background-color:var(--pico-card-sectioning-background-color);border-bottom:1px solid var(--pico-muted-border-color);cursor:pointer;justify-content:space-between;align-items:center;gap:.75rem;margin:0;padding:1rem 1.5rem;font-weight:700;list-style:none;transition:background-color .15s;display:flex}details.config-card>summary.card-header:hover{background-color:var(--pico-muted-border-color)}details.config-card:not([open])>summary.card-header{border-bottom:none}details.config-card>summary.card-header::-webkit-details-marker{display:none}details.config-card>summary.card-header:after{content:\"\";opacity:.55;background:0 0;border:2px solid;border-top:0;border-left:0;flex:none;width:.5rem;height:.5rem;transition:transform .2s;transform:rotate(45deg)}details.config-card[open]>summary.card-header:after{transform:rotate(-135deg)}.config-card-body{padding:1.25rem 1.5rem}.settings-stack{flex-direction:column;gap:1.5rem;display:flex}.audio-waveform{background:var(--pico-card-sectioning-background-color);border:1px solid var(--pico-muted-border-color);width:100%;height:90px;color:var(--primary-color);cursor:pointer;border-radius:6px;margin-top:.75rem;display:block}.quality-readout{grid-template-columns:1fr 1fr;place-items:center start;gap:.5rem;margin-bottom:.75rem;display:grid}.quality-rate{color:var(--pico-muted-color);font-family:monospace;font-size:.85rem;font-weight:600}.size-estimate{border-top:1px dashed var(--pico-muted-border-color);margin-top:1rem;padding-top:.75rem;font-size:.9rem}.size-estimate strong{color:var(--pico-primary);font-family:monospace}.log-section{margin:0}.log-section pre{color:#a6e22e;background-color:#1a1a1a;border-radius:6px;max-height:200px;margin:0;padding:10px;font-family:Courier New,Courier,monospace;font-size:.8rem;overflow-y:auto}.theme-toggle-btn{cursor:pointer;color:inherit;background:0 0;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;padding:.5rem;transition:background-color .2s;display:inline-flex}.theme-toggle-btn:hover{background-color:var(--pico-muted-border-color)}.theme-toggle-btn svg{width:20px;height:20px}nav.brand-nav{grid-template-columns:1fr auto 1fr;align-items:center;padding:.5rem 0;display:grid}nav.brand-nav>ul{margin:0}nav.brand-nav>ul:first-child{grid-column:2}nav.brand-nav>ul:last-child{grid-column:3;justify-self:end}.home-link{color:inherit;text-decoration:none}.home-link:hover code{color:var(--pico-primary)}.preset-badge{background:var(--pico-primary-background);color:var(--pico-primary-inverse);vertical-align:middle;border-radius:4px;margin-left:.5rem;padding:2px 6px;font-size:.75rem}#loaded-file-section{container-type:inline-size}.workshop-layout{grid-template-columns:minmax(0,1fr);gap:1.5rem;margin-top:1.5rem;display:grid}@container (width>=720px) and (width<=1099px){.workshop-layout{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.workshop-output{grid-column:1/-1}}@container (width>=1100px){.workshop-layout{grid-template-columns:minmax(0,.95fr) minmax(0,1.15fr) minmax(0,1fr);align-items:start}}.workshop-sidebar,.workshop-main,.workshop-output{flex-direction:column;gap:1.5rem;display:flex}.rife-source{margin:.25rem 0 .6rem;font-size:.9rem}.rife-presets{flex-wrap:wrap;gap:.5rem;margin-bottom:.75rem;display:flex}.rife-presets button{flex:10rem;width:auto;margin:0;padding:.3rem .8rem;font-size:.85rem}.rife-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end;gap:.5rem .75rem;display:grid}.rife-grid .rife-audio{grid-column:1/-1}.rife-summary{border-left:3px solid var(--pico-primary-background);background:var(--pico-card-sectioning-background-color);margin:.75rem 0 .5rem;padding:.5rem .75rem;font-size:.85rem;display:block}.rife-summary.warn{border-left-color:#e5a50a}.column-heading{border-bottom:1px solid var(--pico-muted-border-color);align-items:center;gap:.6rem;margin:0 0 -.75rem;padding-bottom:.5rem;font-size:1.1rem;display:flex}.column-step{background:var(--pico-primary-background);width:1.6rem;height:1.6rem;color:var(--pico-primary-inverse);border-radius:50%;justify-content:center;align-items:center;font-size:.85rem;font-weight:700;display:inline-flex}.output-actions{flex-direction:column;gap:.5rem;display:flex}.output-actions button{width:100%;margin:0;padding:.8rem 2rem;font-size:1.1rem;font-weight:700}.batch-thumbs{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.4rem;max-height:40vh;display:grid;overflow-y:auto}.batch-thumb{aspect-ratio:1;object-fit:cover;border:1px solid var(--pico-muted-border-color);background:var(--pico-card-sectioning-background-color);border-radius:4px;width:100%}#batch-queue{flex-direction:column;gap:.5rem;max-height:60vh;display:flex;overflow-y:auto}.batch-item{border:1px solid var(--pico-muted-border-color);border-radius:6px;grid-template-columns:1fr auto auto;align-items:center;gap:.75rem;padding:.5rem .75rem;font-size:.85rem;display:grid}.batch-item-name{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.batch-item-status{color:var(--pico-muted-color);font-family:monospace;font-size:.78rem}.batch-item[data-status=done] .batch-item-status{color:#2ecc71}.batch-item[data-status=error] .batch-item-status{color:#f92672}.batch-item-dl{font-size:.78rem;font-weight:600}.output-shell{border:2px dashed var(--pico-muted-border-color);min-height:240px;color:var(--pico-muted-color);text-align:center;border-radius:12px;flex-direction:column;justify-content:center;align-items:center;gap:.75rem;padding:2rem;display:flex}.output-shell svg{opacity:.5}.output-shell p{margin:0;font-size:.9rem}.workshop-output>section{margin-top:0!important}.range-slider-wrapper{align-items:center;height:40px;margin-top:.5rem;margin-bottom:.75rem;display:flex;position:relative}.range-slider-wrapper .trim-visualizer{background-color:var(--pico-muted-border-color);z-index:1;border-radius:5px;width:100%;height:10px;margin:0;position:absolute;top:15px;left:0;right:0}.range-slider-wrapper .range-slider-input{pointer-events:none;appearance:none;width:100%;position:absolute;height:40px!important;box-shadow:none!important;background:0 0!important;border:none!important;margin:0!important;padding:0!important}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb{pointer-events:auto;appearance:none;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;margin-top:0;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-webkit-slider-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-moz-range-thumb{pointer-events:auto;background:var(--pico-primary-background,#ff6b81);cursor:pointer;border:2.5px solid #fff;border-radius:50%;width:20px;height:20px;transition:transform .12s;box-shadow:0 1.5px 5px #00000073}.range-slider-wrapper .range-slider-input::-moz-range-thumb:hover{transform:scale(1.22)}.range-slider-wrapper .range-slider-input::-webkit-slider-runnable-track{background:0 0!important;border:none!important}.range-slider-wrapper .range-slider-input::-moz-range-track{background:0 0!important;border:none!important}.image-canvas-stage{border:1px solid var(--pico-muted-border-color);cursor:crosshair;background-color:#0000;background-image:linear-gradient(45deg,#7878782e 25%,#0000 25%),linear-gradient(-45deg,#7878782e 25%,#0000 25%),linear-gradient(45deg,#0000 75%,#7878782e 75%),linear-gradient(-45deg,#0000 75%,#7878782e 75%);background-position:0 0,0 10px,10px -10px,-10px 0;background-repeat:repeat,repeat,repeat,repeat;background-size:20px 20px;background-attachment:scroll,scroll,scroll,scroll;background-origin:padding-box,padding-box,padding-box,padding-box;background-clip:border-box,border-box,border-box,border-box;border-radius:8px;width:100%;min-height:320px;position:relative;overflow:hidden}.image-toolbar{grid-template-columns:auto minmax(150px,220px) 1fr;align-items:center;gap:.65rem;margin-bottom:.75rem;display:grid}.canvas-tool-picker{flex-wrap:wrap;align-items:center;gap:.5rem 1.25rem;margin-top:.75rem;display:flex}.canvas-tool-picker .canvas-tool-label{text-transform:uppercase;letter-spacing:.5px;color:var(--pico-muted-color);font-size:.75rem;font-weight:700}.canvas-tool-picker label{cursor:pointer;align-items:center;gap:.4rem;margin:0;display:inline-flex}.canvas-tool-picker label:has(input:disabled){opacity:.45;cursor:not-allowed}.tool-badge{border:1px solid #0000;border-radius:999px;justify-self:end;padding:.3rem .55rem;font-size:.8rem;font-weight:600}.tool-badge-crop{color:#fff;background:#ff6b81d9;border-color:#ff6b81}.tool-badge-paint{color:#fff;background:#2ecc71d9;border-color:#2ecc71}@media (width<=640px){.image-toolbar{grid-template-columns:1fr}.tool-badge{justify-self:start}}.image-canvas-stage canvas{display:block;position:absolute}#image-mask-canvas{touch-action:none}.image-canvas-stage.is-crop-mode{cursor:move}.image-canvas-stage.is-paint-mode{cursor:crosshair}", Xt = (e) => `
 <details class="config-card" id="panel-${e}-enhance">
                 <summary class="card-header">🎙️ Enhance Voice</summary>
                 <div class="config-card-body">
@@ -52,7 +52,7 @@ var Jt = ":host,:root{--pico-font-family-emoji:\"Apple Color Emoji\",\"Segoe UI 
                     </small>
                   </div>
                 </div>
-              </details>`, Xt = `
+              </details>`, Zt = `
 <nav class="brand-nav">
       <ul>
         <li>
@@ -865,7 +865,7 @@ None detected</pre
                   </div>
                 </details>
 
-                ${Yt("video")}
+                ${Xt("video")}
 
                 <!-- Extract just the audio track, as a download or straight into the audio editor -->
                 <details class="config-card" id="panel-extract-audio">
@@ -903,6 +903,114 @@ None detected</pre
                       </button>
                     </div>
                     <small id="extract-status" style="color: var(--pico-muted-color)"></small>
+                  </div>
+                </details>
+
+                <!-- Animated GIF export: honors trim, crop and speed from the panels above -->
+                <details class="config-card" id="panel-gif">
+                  <summary class="card-header">🎞️ Export as GIF</summary>
+                  <div class="config-card-body">
+                    <small style="color: var(--pico-muted-color); display: block; margin-bottom: 0.75rem">
+                      Makes an animated GIF from this video. Follows the trim / sections, crop box and speed set above.
+                      Frames are area-averaged down, share one palette, and unchanged pixels are skipped to keep it small.
+                    </small>
+                    <label for="gif-preset">Preset</label>
+                    <select id="gif-preset" name="gif-preset">
+                      <option value="tiny">Tiny (320 px, 10 fps, 64 colors)</option>
+                      <option value="balanced" selected>Balanced (480 px, 12 fps, 128 colors)</option>
+                      <option value="sharp">Sharp (640 px, 15 fps, 256 colors)</option>
+                      <option value="led32">LED panel 32×32</option>
+                      <option value="led64x32">LED panel 64×32</option>
+                      <option value="custom" disabled>Custom</option>
+                    </select>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <div>
+                        <label for="gif-width">Width (px)</label>
+                        <input type="number" id="gif-width" min="1" max="1920" step="1" value="480" />
+                      </div>
+                      <div>
+                        <label for="gif-height">Height (px)</label>
+                        <input type="number" id="gif-height" min="1" max="1920" step="1" placeholder="auto" />
+                      </div>
+                      <div>
+                        <label for="gif-fps">Frame rate</label>
+                        <input type="number" id="gif-fps" min="1" max="50" step="1" value="12" />
+                      </div>
+                    </div>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <div>
+                        <label for="gif-colors">Palette</label>
+                        <select id="gif-colors" name="gif-colors">
+                          <option value="16">16 colors</option>
+                          <option value="32">32 colors</option>
+                          <option value="64">64 colors</option>
+                          <option value="128" selected>128 colors</option>
+                          <option value="256">256 colors</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="gif-fit">Shape mismatch</label>
+                        <select id="gif-fit" name="gif-fit">
+                          <option value="fill" selected>Center-crop to fill</option>
+                          <option value="stretch">Stretch</option>
+                        </select>
+                      </div>
+                    </div>
+                    <label for="gif-resample">Downsampling</label>
+                    <select id="gif-resample" name="gif-resample">
+                      <option value="area" selected>Area average (smooth)</option>
+                      <option value="nearest">Nearest (pixel-exact, for pixel-block art)</option>
+                    </select>
+                    <label for="gif-budget">Size budget (MB, 0 = none)</label>
+                    <input type="number" id="gif-budget" min="0" max="100" step="0.1" value="0" />
+                    <label for="gif-tolerance">
+                      Change tolerance: <span id="gif-tolerance-val">8</span>
+                      <input type="range" id="gif-tolerance" min="0" max="40" step="1" value="8" />
+                    </label>
+                    <small style="color: var(--pico-muted-color); display: block; margin: -0.5rem 0 0.75rem">
+                      Pixels (and whole frames) that change less than this are kept as they were. Higher = smaller file.
+                    </small>
+                    <fieldset style="margin-bottom: 0.5rem">
+                      <label for="gif-diff">
+                        <input type="checkbox" id="gif-diff" checked />
+                        Skip unchanged pixels (transparent)
+                      </label>
+                      <label for="gif-dither">
+                        <input type="checkbox" id="gif-dither" />
+                        Dither (ordered Bayer; usually shimmers at tiny sizes)
+                      </label>
+                      <label for="gif-punch">
+                        <input type="checkbox" id="gif-punch" />
+                        Boost contrast &amp; saturation slightly
+                      </label>
+                      <label for="gif-loop">
+                        <input type="checkbox" id="gif-loop" checked />
+                        Loop forever
+                      </label>
+                    </fieldset>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <button type="button" id="gif-export-btn" class="secondary">🎞️ Create GIF</button>
+                      <button type="button" id="gif-estimate-btn" class="secondary outline" title="Encodes the first second or two and extrapolates">
+                        📏 Estimate size
+                      </button>
+                    </div>
+                    <button type="button" id="gif-cancel-btn" class="secondary outline" style="display: none">🛑 Cancel</button>
+                    <progress id="gif-progress" value="0" max="100" style="display: none"></progress>
+                    <small id="gif-status" style="color: var(--pico-muted-color); display: block" role="status"></small>
+                    <div id="gif-result" style="display: none; margin-top: 0.75rem">
+                      <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start">
+                        <figure style="margin: 0">
+                          <img id="gif-preview-real" alt="GIF preview at actual size" style="image-rendering: pixelated; display: block; background: #000" />
+                          <figcaption><small id="gif-real-caption">Actual size</small></figcaption>
+                        </figure>
+                        <figure id="gif-zoom-fig" style="margin: 0">
+                          <img id="gif-preview-zoom" alt="GIF preview enlarged" style="image-rendering: pixelated; display: block; background: #000" />
+                          <figcaption><small id="gif-zoom-caption">Enlarged</small></figcaption>
+                        </figure>
+                      </div>
+                      <div id="gif-stats" style="margin: 0.75rem 0 0.5rem; font-size: 0.85rem"></div>
+                      <a id="gif-download" role="button" class="secondary" href="#" download="animation.gif">⬇️ Download GIF</a>
+                    </div>
                   </div>
                 </details>
             </form>
@@ -1469,7 +1577,7 @@ None detected</pre
                 </div>
               </details>
 
-              ${Yt("audio")}
+              ${Xt("audio")}
 
               <details class="config-card" id="panel-audio-output">
                 <summary class="card-header">🎧 Output Format & Encoding</summary>
@@ -1834,16 +1942,16 @@ None detected</pre
     >
       <p>Powered by <strong>WebCodecs</strong> & <strong>MediaBunny</strong>. Built by Cacheflowe 👋</p>
     </footer>
-`, Zt = /<(?:(\d{2}):)?(\d{2}):(\d{2}).(\d{3})>/g, Qt = /(?:(\d{2}):)?(\d{2}):(\d{2}).(\d{3})/, $t = (e) => {
-	let t = Qt.exec(e);
+`, Qt = /<(?:(\d{2}):)?(\d{2}):(\d{2}).(\d{3})>/g, $t = /(?:(\d{2}):)?(\d{2}):(\d{2}).(\d{3})/, en = (e) => {
+	let t = $t.exec(e);
 	if (!t) throw Error("Expected match.");
 	return 36e5 * Number(t[1] || "0") + 6e4 * Number(t[2]) + 1e3 * Number(t[3]) + Number(t[4]);
-}, en = (e) => {
+}, tn = (e) => {
 	let t = Math.floor(e / 36e5), n = Math.floor(e % 36e5 / 6e4), r = Math.floor(e % 6e4 / 1e3), i = e % 1e3;
 	return t.toString().padStart(2, "0") + ":" + n.toString().padStart(2, "0") + ":" + r.toString().padStart(2, "0") + "." + i.toString().padStart(3, "0");
-}, tn = class {
+}, nn = class {
 	constructor(e) {
-		this.mutex = new Ct(), this.trackTimestampInfo = /* @__PURE__ */ new WeakMap(), this.output = e;
+		this.mutex = new Ze(), this.trackTimestampInfo = /* @__PURE__ */ new WeakMap(), this.output = e;
 	}
 	onTrackClose(e) {}
 	validateTimestamp(e, t, n) {
@@ -1859,24 +1967,24 @@ None detected</pre
 			}, this.trackTimestampInfo.set(e, r);
 		}
 	}
-}, nn = /* #__PURE__ */ new Uint8Array([
+}, rn = /* #__PURE__ */ new Uint8Array([
 	102,
 	76,
 	97,
 	67
-]), rn = 38, an = 34, on = class extends tn {
+]), an = 38, on = 34, sn = class extends nn {
 	constructor(e, t) {
 		super(e), this.metadataWritten = !1, this.blockSizes = [], this.frameSizes = [], this.sampleRate = null, this.channels = null, this.bitsPerSample = null, this.format = t;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
-		this.writer = await this.output._getRootWriter(!!this.format._options.appendOnly), this.writer.write(nn);
+		this.writer = await this.output._getRootWriter(!!this.format._options.appendOnly), this.writer.write(rn);
 		let t = this.output.tracks[0];
 		Y(t?.isAudioTrack()), t.metadata.decoderConfig && (qe({ decoderConfig: t.metadata.decoderConfig }, t.source._codec), this.applyDecoderConfig(t.metadata.decoderConfig)), e();
 	}
 	applyDecoderConfig(e) {
 		Y(e.description), this.sampleRate = e.sampleRate, this.channels = e.numberOfChannels;
-		let t = new ye(Kt(e.description));
+		let t = new we(l(e.description));
 		t.skipBits(167), this.bitsPerSample = t.readBits(5) + 1, this.format._options.appendOnly && this.writeHeader({
 			minimumBlockSize: 16,
 			maximumBlockSize: 65535,
@@ -1888,29 +1996,29 @@ None detected</pre
 			totalSamples: 0
 		});
 	}
-	writeHeader({ bitsPerSample: e, minimumBlockSize: t, maximumBlockSize: n, minimumFrameSize: r, maximumFrameSize: a, sampleRate: o, channels: s, totalSamples: c }) {
+	writeHeader({ bitsPerSample: e, minimumBlockSize: t, maximumBlockSize: n, minimumFrameSize: r, maximumFrameSize: i, sampleRate: a, channels: o, totalSamples: s }) {
 		Y(this.writer.getPos() === 4);
-		let l = !i(this.output._metadataTags), u = new ye(/* @__PURE__ */ new Uint8Array(4));
-		u.writeBits(1, Number(!l)), u.writeBits(7, me.STREAMINFO), u.writeBits(24, an), this.writer.write(u.bytes);
-		let d = new ye(/* @__PURE__ */ new Uint8Array(18));
-		if (d.writeBits(16, t), d.writeBits(16, n), d.writeBits(24, r), d.writeBits(24, a), d.writeBits(20, o), d.writeBits(3, s - 1), d.writeBits(5, e - 1), c >= 2 ** 32) throw Error("This muxer only supports writing up to 2 ** 32 samples");
-		d.writeBits(4, 0), d.writeBits(32, c), this.writer.write(d.bytes), this.writer.write(/* @__PURE__ */ new Uint8Array(16));
+		let c = !ze(this.output._metadataTags), l = new we(/* @__PURE__ */ new Uint8Array(4));
+		l.writeBits(1, Number(!c)), l.writeBits(7, p.STREAMINFO), l.writeBits(24, on), this.writer.write(l.bytes);
+		let u = new we(/* @__PURE__ */ new Uint8Array(18));
+		if (u.writeBits(16, t), u.writeBits(16, n), u.writeBits(24, r), u.writeBits(24, i), u.writeBits(20, a), u.writeBits(3, o - 1), u.writeBits(5, e - 1), s >= 2 ** 32) throw Error("This muxer only supports writing up to 2 ** 32 samples");
+		u.writeBits(4, 0), u.writeBits(32, s), this.writer.write(u.bytes), this.writer.write(/* @__PURE__ */ new Uint8Array(16));
 	}
 	writePictureBlock(e) {
-		let t = 32 + e.mimeType.length + (e.description?.length ?? 0) + e.data.length, n = new Uint8Array(t), r = 0, i = fe(n);
-		i.setUint32(r, e.kind === "coverFront" ? 3 : e.kind === "coverBack" ? 4 : 0), r += 4, i.setUint32(r, e.mimeType.length), r += 4, n.set(O.encode(e.mimeType), 8), r += e.mimeType.length, i.setUint32(r, e.description?.length ?? 0), r += 4, n.set(O.encode(e.description ?? ""), r), r += e.description?.length ?? 0, r += 16, i.setUint32(r, e.data.length), r += 4, n.set(e.data, r), r += e.data.length, Y(r === t);
-		let a = new ye(/* @__PURE__ */ new Uint8Array(4));
-		a.writeBits(1, 0), a.writeBits(7, me.PICTURE), a.writeBits(24, t), this.writer.write(a.bytes), this.writer.write(n);
+		let t = 32 + e.mimeType.length + (e.description?.length ?? 0) + e.data.length, n = new Uint8Array(t), r = 0, i = qt(n);
+		i.setUint32(r, e.kind === "coverFront" ? 3 : e.kind === "coverBack" ? 4 : 0), r += 4, i.setUint32(r, e.mimeType.length), r += 4, n.set(P.encode(e.mimeType), 8), r += e.mimeType.length, i.setUint32(r, e.description?.length ?? 0), r += 4, n.set(P.encode(e.description ?? ""), r), r += e.description?.length ?? 0, r += 16, i.setUint32(r, e.data.length), r += 4, n.set(e.data, r), r += e.data.length, Y(r === t);
+		let a = new we(/* @__PURE__ */ new Uint8Array(4));
+		a.writeBits(1, 0), a.writeBits(7, p.PICTURE), a.writeBits(24, t), this.writer.write(a.bytes), this.writer.write(n);
 	}
 	writeVorbisCommentAndPictureBlock() {
-		if (this.format._options.appendOnly || this.writer.seek(rn + nn.byteLength), i(this.output._metadataTags)) {
+		if (this.format._options.appendOnly || this.writer.seek(an + rn.byteLength), ze(this.output._metadataTags)) {
 			this.metadataWritten = !0;
 			return;
 		}
 		let e = this.output._metadataTags.images ?? [];
 		for (let t of e) this.writePictureBlock(t);
-		let t = W(/* @__PURE__ */ new Uint8Array(), this.output._metadataTags, !1), n = new ye(/* @__PURE__ */ new Uint8Array(4));
-		n.writeBits(1, 1), n.writeBits(7, me.VORBIS_COMMENT), n.writeBits(24, t.length), this.writer.write(n.bytes), this.writer.write(t), this.metadataWritten = !0;
+		let t = y(/* @__PURE__ */ new Uint8Array(), this.output._metadataTags, !1), n = new we(/* @__PURE__ */ new Uint8Array(4));
+		n.writeBits(1, 1), n.writeBits(7, p.VORBIS_COMMENT), n.writeBits(24, t.length), this.writer.write(n.bytes), this.writer.write(t), this.metadataWritten = !0;
 	}
 	async getMimeType() {
 		return "audio/flac";
@@ -1922,15 +2030,15 @@ None detected</pre
 		let r = await this.mutex.acquire();
 		try {
 			this.validateTimestamp(e, t.timestamp, t.type === "key"), this.sampleRate === null && (qe(n, e.source._codec), Y(n), Y(n.decoderConfig), this.applyDecoderConfig(n.decoderConfig)), this.metadataWritten || this.writeVorbisCommentAndPictureBlock();
-			let r = L.tempFromBytes(t.data);
+			let r = B.tempFromBytes(t.data);
 			r.skip(2);
-			let i = nt(r, 2), a = new ye(i), o = te(a.readBits(4));
+			let i = nt(r, 2), a = new we(i), o = de(a.readBits(4));
 			if (o === null) throw Error("Invalid FLAC frame: Invalid block size.");
-			Gt(r);
-			let s = de(r, o);
+			c(r);
+			let s = Kt(r, o);
 			this.format._options.appendOnly || (this.blockSizes.push(s), this.frameSizes.push(t.data.length));
-			let c = this.writer.getPos();
-			this.writer.write(t.data), this.format._options.onFrame && this.format._options.onFrame(t.data, c), await this.writer.flush();
+			let l = this.writer.getPos();
+			this.writer.write(t.data), this.format._options.onFrame && this.format._options.onFrame(t.data, l), await this.writer.flush();
 		} finally {
 			r();
 		}
@@ -1957,7 +2065,7 @@ None detected</pre
 		}
 		e();
 	}
-}, sn = class {
+}, cn = class {
 	constructor(e) {
 		this.writer = e, this.helper = /* @__PURE__ */ new Uint8Array(8), this.helperView = new DataView(this.helper.buffer), this.offsets = /* @__PURE__ */ new WeakMap();
 	}
@@ -2000,21 +2108,21 @@ None detected</pre
 			return t;
 		}
 	}
-}, X = /* #__PURE__ */ new Uint8Array(8), cn = /* #__PURE__ */ new DataView(X.buffer), ln = (e) => [(e % 256 + 256) % 256], Z = (e) => (cn.setUint16(0, e, !1), [X[0], X[1]]), un = (e) => (cn.setInt16(0, e, !1), [X[0], X[1]]), dn = (e) => (cn.setUint32(0, e, !1), [
+}, X = /* #__PURE__ */ new Uint8Array(8), ln = /* #__PURE__ */ new DataView(X.buffer), un = (e) => [(e % 256 + 256) % 256], Z = (e) => (ln.setUint16(0, e, !1), [X[0], X[1]]), dn = (e) => (ln.setInt16(0, e, !1), [X[0], X[1]]), fn = (e) => (ln.setUint32(0, e, !1), [
 	X[1],
 	X[2],
 	X[3]
-]), Q = (e) => (cn.setUint32(0, e, !1), [
+]), Q = (e) => (ln.setUint32(0, e, !1), [
 	X[0],
 	X[1],
 	X[2],
 	X[3]
-]), fn = (e) => (cn.setInt32(0, e, !1), [
+]), pn = (e) => (ln.setInt32(0, e, !1), [
 	X[0],
 	X[1],
 	X[2],
 	X[3]
-]), pn = (e) => (cn.setUint32(0, Math.floor(e / 2 ** 32), !1), cn.setUint32(4, e, !1), [
+]), mn = (e) => (ln.setUint32(0, Math.floor(e / 2 ** 32), !1), ln.setUint32(4, e, !1), [
 	X[0],
 	X[1],
 	X[2],
@@ -2023,7 +2131,7 @@ None detected</pre
 	X[5],
 	X[6],
 	X[7]
-]), mn = (e) => (cn.setInt32(0, Math.floor(e / 2 ** 32), !1), cn.setUint32(4, e, !1), [
+]), hn = (e) => (ln.setInt32(0, Math.floor(e / 2 ** 32), !1), ln.setUint32(4, e, !1), [
 	X[0],
 	X[1],
 	X[2],
@@ -2032,133 +2140,133 @@ None detected</pre
 	X[5],
 	X[6],
 	X[7]
-]), hn = (e) => (cn.setInt16(0, 256 * e, !1), [X[0], X[1]]), gn = (e) => (cn.setInt32(0, 2 ** 16 * e, !1), [
+]), gn = (e) => (ln.setInt16(0, 256 * e, !1), [X[0], X[1]]), _n = (e) => (ln.setInt32(0, 2 ** 16 * e, !1), [
 	X[0],
 	X[1],
 	X[2],
 	X[3]
-]), _n = (e) => (cn.setInt32(0, 2 ** 30 * e, !1), [
+]), vn = (e) => (ln.setInt32(0, 2 ** 30 * e, !1), [
 	X[0],
 	X[1],
 	X[2],
 	X[3]
-]), vn = (e, t) => {
+]), yn = (e, t) => {
 	let n = [], r = e;
 	do {
 		let e = r & 127;
 		r >>= 7, n.length > 0 && (e |= 128), n.push(e), t !== void 0 && t--;
 	} while (r > 0 || t);
 	return n.reverse();
-}, yn = (e, t = !1) => {
+}, bn = (e, t = !1) => {
 	let n = Array(e.length).fill(null).map((t, n) => e.charCodeAt(n));
 	return t && n.push(0), n;
-}, bn = (e) => [
-	gn(e[0]),
-	gn(e[1]),
-	_n(e[2]),
-	gn(e[3]),
-	gn(e[4]),
-	_n(e[5]),
-	gn(e[6]),
-	gn(e[7]),
-	_n(e[8])
+}, xn = (e) => [
+	_n(e[0]),
+	_n(e[1]),
+	vn(e[2]),
+	_n(e[3]),
+	_n(e[4]),
+	vn(e[5]),
+	_n(e[6]),
+	_n(e[7]),
+	vn(e[8])
 ], $ = (e, t, n) => ({
 	type: e,
 	contents: t && new Uint8Array(t.flat(10)),
 	children: n
-}), xn = (e, t, n, r, i) => $(e, [
-	ln(t),
-	dn(n),
+}), Sn = (e, t, n, r, i) => $(e, [
+	un(t),
+	fn(n),
 	r ?? []
-], i), Sn = (e) => e.isQuickTime ? $("ftyp", [
-	yn("qt  "),
+], i), Cn = (e) => e.isQuickTime ? $("ftyp", [
+	bn("qt  "),
 	Q(512),
-	yn("qt  ")
+	bn("qt  ")
 ]) : e.fragmented ? e.cmaf ? $("ftyp", [
-	yn("iso5"),
+	bn("iso5"),
 	Q(512),
-	yn("iso5"),
-	yn("iso6"),
-	yn("mp41"),
-	yn("cmfc"),
-	yn("dash")
+	bn("iso5"),
+	bn("iso6"),
+	bn("mp41"),
+	bn("cmfc"),
+	bn("dash")
 ]) : $("ftyp", [
-	yn("iso5"),
+	bn("iso5"),
 	Q(512),
-	yn("iso5"),
-	yn("iso6"),
-	yn("mp41")
+	bn("iso5"),
+	bn("iso6"),
+	bn("mp41")
 ]) : $("ftyp", [
-	yn("isom"),
+	bn("isom"),
 	Q(512),
-	yn("isom"),
-	e.holdsAvc ? yn("avc1") : [],
-	yn("mp41")
-]), Cn = () => $("styp", [
-	yn("iso5"),
+	bn("isom"),
+	e.holdsAvc ? bn("avc1") : [],
+	bn("mp41")
+]), wn = () => $("styp", [
+	bn("iso5"),
 	Q(0),
-	yn("iso5"),
-	yn("iso6"),
-	yn("mp41"),
-	yn("cmfc"),
-	yn("dash")
-]), wn = (e, t) => {
+	bn("iso5"),
+	bn("iso6"),
+	bn("mp41"),
+	bn("cmfc"),
+	bn("dash")
+]), Tn = (e, t) => {
 	let n = Math.max(0, e.minWrittenTimestamp), r = Math.max(0, e.maxWrittenEndTimestamp - n);
-	return Number.isFinite(r) || (r = 0), xn("sidx", 1, 0, [
+	return Number.isFinite(r) || (r = 0), Sn("sidx", 1, 0, [
 		Q(1),
-		Q(ai),
-		pn(ci(n, ai)),
-		pn(0),
+		Q(oi),
+		mn(li(n, oi)),
+		mn(0),
 		Z(0),
 		Z(1),
 		Q(t & 2147483647),
-		Q(ci(r, ai)),
+		Q(li(r, oi)),
 		Q(0)
 	]);
-}, Tn = (e) => ({
+}, En = (e) => ({
 	type: "mdat",
 	largeSize: e
-}), En = (e) => ({
+}), Dn = (e) => ({
 	type: "free",
 	size: e
-}), Dn = (e) => $("moov", void 0, [
-	On(e.creationTime, e.trackDatas),
-	...e.trackDatas.map((t) => kn(t, e.creationTime)),
-	e.isFragmented ? br(e.trackDatas) : null,
-	Fr(e)
-]), On = (e, t) => {
-	let n = Math.max(0, ...t.map((e) => Math.max(0, ci(li(e), ai) + ci(e.startTimestampOffset ?? 0, ai)))), r = Math.max(0, ...t.map((e) => e.track.id)) + 1, i = !U(e) || !U(n), a = i ? pn : Q;
-	return xn("mvhd", +i, 0, [
+}), On = (e) => $("moov", void 0, [
+	kn(e.creationTime, e.trackDatas),
+	...e.trackDatas.map((t) => An(t, e.creationTime)),
+	e.isFragmented ? xr(e.trackDatas) : null,
+	Ir(e)
+]), kn = (e, t) => {
+	let n = Math.max(0, ...t.map((e) => Math.max(0, li(ui(e), oi) + li(e.startTimestampOffset ?? 0, oi)))), r = Math.max(0, ...t.map((e) => e.track.id)) + 1, i = !v(e) || !v(n), a = i ? mn : Q;
+	return Sn("mvhd", +i, 0, [
 		a(e),
 		a(e),
-		Q(ai),
+		Q(oi),
 		a(n),
+		_n(1),
 		gn(1),
-		hn(1),
 		Array(10).fill(0),
-		bn(ht),
+		xn(Et),
 		Array(24).fill(0),
 		Q(r)
 	]);
-}, kn = (e, t) => {
-	let n = si(e), r = e.startTimestampOffset !== null && e.startTimestampOffset !== 0;
-	return $("trak", void 0, [
-		An(e, t),
-		r ? jn(e) : null,
-		Mn(e, t),
-		n.name === void 0 ? null : $("udta", void 0, [$("name", [...O.encode(n.name)])])
-	]);
 }, An = (e, t) => {
-	let n = Math.max(0, ci(li(e), ai) + ci(e.startTimestampOffset ?? 0, ai)), r = !U(t) || !U(n), i = r ? pn : Q, a;
+	let n = ci(e), r = e.startTimestampOffset !== null && e.startTimestampOffset !== 0;
+	return $("trak", void 0, [
+		jn(e, t),
+		r ? Mn(e) : null,
+		Nn(e, t),
+		n.name === void 0 ? null : $("udta", void 0, [$("name", [...P.encode(n.name)])])
+	]);
+}, jn = (e, t) => {
+	let n = Math.max(0, li(ui(e), oi) + li(e.startTimestampOffset ?? 0, oi)), r = !v(t) || !v(n), i = r ? mn : Q, a;
 	if (e.type === "video" && e.track.metadata.transformationMatrix) a = e.track.metadata.transformationMatrix;
 	else if (e.type === "video") {
-		let { rotation: t, flip: n } = e.track.metadata, r = R(et(t ?? 0), F(n ? -1 : 1, 1));
-		a = vt(r, e.info.width, e.info.height);
-	} else a = ht;
+		let { rotation: t, flip: n } = e.track.metadata, r = rt(F(t ?? 0), se(n ? -1 : 1, 1));
+		a = lt(r, e.info.width, e.info.height);
+	} else a = Et;
 	let o = 2;
 	e.track.metadata.disposition?.default !== !1 && (o |= 1);
-	let s = e.type === "video" ? 0 : e.type === "audio" ? 1 : e.type === "subtitle" ? 2 : Le(e);
-	return xn("tkhd", +r, o, [
+	let s = e.type === "video" ? 0 : e.type === "audio" ? 1 : e.type === "subtitle" ? 2 : He(e);
+	return Sn("tkhd", +r, o, [
 		i(t),
 		i(t),
 		Q(e.track.id),
@@ -2167,99 +2275,99 @@ None detected</pre
 		Array(8).fill(0),
 		Z(0),
 		Z(s),
-		hn(+(e.type === "audio")),
+		gn(+(e.type === "audio")),
 		Z(0),
-		bn(a),
-		gn(e.type === "video" ? e.info.width : 0),
-		gn(e.type === "video" ? e.info.height : 0)
+		xn(a),
+		_n(e.type === "video" ? e.info.width : 0),
+		_n(e.type === "video" ? e.info.height : 0)
 	]);
-}, jn = (e) => {
+}, Mn = (e) => {
 	let t = e.startTimestampOffset;
 	if (Y(t !== null), t > 0) {
-		let n = ci(t, ai), r = ci(li(e), ai), i = !U(n) || !U(r), a = i ? pn : Q, o = i ? mn : fn;
-		return $("edts", void 0, [xn("elst", +!!i, 0, [
+		let n = li(t, oi), r = li(ui(e), oi), i = !v(n) || !v(r), a = i ? mn : Q, o = i ? hn : pn;
+		return $("edts", void 0, [Sn("elst", +!!i, 0, [
 			Q(2),
 			a(n),
 			o(-1),
-			gn(1),
+			_n(1),
 			a(r),
 			o(0),
-			gn(1)
+			_n(1)
 		])]);
 	}
 	{
-		let n = ci(-t, e.timescale), r = Math.max(0, ci(li(e), ai) + ci(t, ai)), i = !je(n) || !U(r), a = i ? pn : Q, o = i ? mn : fn;
-		return $("edts", void 0, [xn("elst", +!!i, 0, [
+		let n = li(-t, e.timescale), r = Math.max(0, li(ui(e), oi) + li(t, oi)), i = !Vt(n) || !v(r), a = i ? mn : Q, o = i ? hn : pn;
+		return $("edts", void 0, [Sn("elst", +!!i, 0, [
 			Q(1),
 			a(r),
 			o(n),
-			gn(1)
+			_n(1)
 		])]);
 	}
-}, Mn = (e, t) => $("mdia", void 0, [
-	Nn(e, t),
-	In(!0, Pn[e.type], Fn[e.type]),
-	Ln(e)
-]), Nn = (e, t) => {
-	let n = ci(li(e), e.timescale), r = !U(t) || !U(n), i = r ? pn : Q;
-	return xn("mdhd", +r, 0, [
+}, Nn = (e, t) => $("mdia", void 0, [
+	Pn(e, t),
+	Ln(!0, Fn[e.type], In[e.type]),
+	Rn(e)
+]), Pn = (e, t) => {
+	let n = li(ui(e), e.timescale), r = !v(t) || !v(n), i = r ? mn : Q;
+	return Sn("mdhd", +r, 0, [
 		i(t),
 		i(t),
 		Q(e.timescale),
 		i(n),
-		Z(Xr(e.track.metadata.languageCode ?? "und")),
+		Z(Zr(e.track.metadata.languageCode ?? "und")),
 		Z(0)
 	]);
-}, Pn = {
+}, Fn = {
 	video: "vide",
 	audio: "soun",
 	subtitle: "text"
-}, Fn = {
+}, In = {
 	video: "MediabunnyVideoHandler",
 	audio: "MediabunnySoundHandler",
 	subtitle: "MediabunnyTextHandler"
-}, In = (e, t, n, r = "\0\0\0\0") => xn("hdlr", 0, 0, [
-	e ? yn("mhlr") : Q(0),
-	yn(t),
-	yn(r),
+}, Ln = (e, t, n, r = "\0\0\0\0") => Sn("hdlr", 0, 0, [
+	e ? bn("mhlr") : Q(0),
+	bn(t),
+	bn(r),
 	Q(0),
 	Q(0),
-	yn(n, !0)
-]), Ln = (e) => $("minf", void 0, [
-	Rn[e.type](),
-	zn(),
-	Hn(e)
-]), Rn = {
-	video: () => xn("vmhd", 0, 1, [
+	bn(n, !0)
+]), Rn = (e) => $("minf", void 0, [
+	zn[e.type](),
+	Bn(),
+	Un(e)
+]), zn = {
+	video: () => Sn("vmhd", 0, 1, [
 		Z(0),
 		Z(0),
 		Z(0),
 		Z(0)
 	]),
-	audio: () => xn("smhd", 0, 0, [Z(0), Z(0)]),
-	subtitle: () => xn("nmhd", 0, 0)
-}, zn = () => $("dinf", void 0, [Bn()]), Bn = () => xn("dref", 0, 0, [Q(1)], [Vn()]), Vn = () => xn("url ", 0, 1), Hn = (e) => {
+	audio: () => Sn("smhd", 0, 0, [Z(0), Z(0)]),
+	subtitle: () => Sn("nmhd", 0, 0)
+}, Bn = () => $("dinf", void 0, [Vn()]), Vn = () => Sn("dref", 0, 0, [Q(1)], [Hn()]), Hn = () => Sn("url ", 0, 1), Un = (e) => {
 	let t = e.compositionTimeOffsetTable.length > 1 || e.compositionTimeOffsetTable.some((e) => e.sampleCompositionTimeOffset !== 0);
 	return $("stbl", void 0, [
-		Un(e),
-		fr(e),
-		t ? _r(e) : null,
+		Wn(e),
+		pr(e),
 		t ? vr(e) : null,
-		mr(e),
+		t ? yr(e) : null,
 		hr(e),
 		gr(e),
-		pr(e),
-		...yr(e.samples, !1)
+		_r(e),
+		mr(e),
+		...br(e.samples, !1)
 	]);
-}, Un = (e) => {
+}, Wn = (e) => {
 	let t;
-	if (e.type === "video") t = Wn(Wr(e.track.source._codec, e.info.decoderConfig.codec), e);
+	if (e.type === "video") t = Gn(Gr(e.track.source._codec, e.info.decoderConfig.codec), e);
 	else if (e.type === "audio") {
-		let n = Kr(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime);
-		Y(n), t = Qn(n, e);
-	} else e.type === "subtitle" && (t = ur(Jr[e.track.source._codec], e));
-	return Y(t), xn("stsd", 0, 0, [Q(1)], [t]);
-}, Wn = (e, t) => $(e, [
+		let n = qr(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime);
+		Y(n), t = $n(n, e);
+	} else e.type === "subtitle" && (t = dr(Yr[e.track.source._codec], e));
+	return Y(t), Sn("stsd", 0, 0, [Q(1)], [t]);
+}, Gn = (e, t) => $(e, [
 	[
 		,
 		,
@@ -2278,42 +2386,42 @@ None detected</pre
 	Q(4718592),
 	Q(0),
 	Z(1),
-	ln(B.length),
-	yn(B),
-	Array(31 - B.length).fill(0),
+	un(Jt.length),
+	bn(Jt),
+	Array(31 - Jt.length).fill(0),
 	Z(t.info.hasAlphaChannel ? 32 : 24),
-	un(65535)
+	dn(65535)
 ], [
-	Gr[t.track.source._codec]?.(t) ?? null,
-	Kn(t),
-	Je(t.info.decoderConfig.colorSpace) ? null : qn(t),
-	Gn(t)
-]), Gn = (e) => e.avgBitrate === 0 && e.maxBitrate === 0 ? null : $("btrt", [
+	Kr[t.track.source._codec]?.(t) ?? null,
+	qn(t),
+	Ge(t.info.decoderConfig.colorSpace) ? null : Jn(t),
+	Kn(t)
+]), Kn = (e) => e.avgBitrate === 0 && e.maxBitrate === 0 ? null : $("btrt", [
 	Q(0),
 	Q(e.maxBitrate),
 	Q(e.avgBitrate)
-]), Kn = (e) => e.info.pixelAspectRatio.num === e.info.pixelAspectRatio.den ? null : $("pasp", [Q(e.info.pixelAspectRatio.num), Q(e.info.pixelAspectRatio.den)]), qn = (e) => {
+]), qn = (e) => e.info.pixelAspectRatio.num === e.info.pixelAspectRatio.den ? null : $("pasp", [Q(e.info.pixelAspectRatio.num), Q(e.info.pixelAspectRatio.den)]), Jn = (e) => {
 	let t = e.info.decoderConfig.colorSpace;
 	return $("colr", [
-		yn(e.muxer.isQuickTime ? "nclc" : "nclx"),
-		Z(t?.primaries == null ? 2 : Ze[t.primaries]),
-		Z(t?.transfer == null ? 2 : ot[t.transfer]),
-		Z(t?.matrix == null ? 2 : Et[t.matrix]),
-		e.muxer.isQuickTime ? [] : ln(!!t?.fullRange << 7)
+		bn(e.muxer.isQuickTime ? "nclc" : "nclx"),
+		Z(t?.primaries == null ? 2 : ke[t.primaries]),
+		Z(t?.transfer == null ? 2 : Mt[t.transfer]),
+		Z(t?.matrix == null ? 2 : Fe[t.matrix]),
+		e.muxer.isQuickTime ? [] : un(!!t?.fullRange << 7)
 	]);
-}, Jn = (e) => e.info.decoderConfig && $("avcC", [...Kt(e.info.decoderConfig.description)]), Yn = (e) => e.info.decoderConfig && $("hvcC", [...Kt(e.info.decoderConfig.description)]), Xn = (e) => {
+}, Yn = (e) => e.info.decoderConfig && $("avcC", [...l(e.info.decoderConfig.description)]), Xn = (e) => e.info.decoderConfig && $("hvcC", [...l(e.info.decoderConfig.description)]), Zn = (e) => {
 	if (!e.info.decoderConfig) return null;
-	let t = e.info.decoderConfig, n = t.codec.split("."), r = Number(n[1]), i = Number(n[2]), a = Number(n[3]), o = n[4] ? Number(n[4]) : 1, s = n[8] ? Number(n[8]) : Number(t.colorSpace?.fullRange ?? 0), c = (a << 4) + (o << 1) + s, l = n[5] ? Number(n[5]) : t.colorSpace?.primaries ? Ze[t.colorSpace.primaries] : 1, u = n[6] ? Number(n[6]) : t.colorSpace?.transfer ? ot[t.colorSpace.transfer] : 1, d = n[7] ? Number(n[7]) : t.colorSpace?.matrix ? Et[t.colorSpace.matrix] : 1;
-	return xn("vpcC", 1, 0, [
-		ln(r),
-		ln(i),
-		ln(c),
-		ln(l),
-		ln(u),
-		ln(d),
+	let t = e.info.decoderConfig, n = t.codec.split("."), r = Number(n[1]), i = Number(n[2]), a = Number(n[3]), o = n[4] ? Number(n[4]) : 1, s = n[8] ? Number(n[8]) : Number(t.colorSpace?.fullRange ?? 0), c = (a << 4) + (o << 1) + s, l = n[5] ? Number(n[5]) : t.colorSpace?.primaries ? ke[t.colorSpace.primaries] : 1, u = n[6] ? Number(n[6]) : t.colorSpace?.transfer ? Mt[t.colorSpace.transfer] : 1, d = n[7] ? Number(n[7]) : t.colorSpace?.matrix ? Fe[t.colorSpace.matrix] : 1;
+	return Sn("vpcC", 1, 0, [
+		un(r),
+		un(i),
+		un(c),
+		un(l),
+		un(u),
+		un(d),
 		Z(0)
 	]);
-}, Zn = (e) => $("av1C", jt(e.info.decoderConfig.codec)), Qn = (e, t) => {
+}, Qn = (e) => $("av1C", jt(e.info.decoderConfig.codec)), $n = (e, t) => {
 	let n = 0, r, i = 16, a = Tt.includes(t.track.source._codec);
 	if (a) {
 		let e = t.track.source._codec, { sampleSize: r } = ct(e);
@@ -2355,7 +2463,7 @@ None detected</pre
 			Q(0),
 			Z(t.info.numberOfChannels),
 			Z(Math.min(i, 16)),
-			un(e),
+			dn(e),
 			Z(0),
 			Z(t.info.sampleRate < 2 ** 16 ? t.info.sampleRate : 0),
 			Z(0),
@@ -2371,8 +2479,8 @@ None detected</pre
 			Q(2)
 		];
 	}
-	return $(e, r, [qr(t.track.source._codec, t.muxer.isQuickTime)?.(t) ?? null, Gn(t)]);
-}, $n = (e) => {
+	return $(e, r, [Jr(t.track.source._codec, t.muxer.isQuickTime)?.(t) ?? null, Kn(t)]);
+}, er = (e) => {
 	let t;
 	switch (e.track.source._codec) {
 		case "aac":
@@ -2387,121 +2495,121 @@ None detected</pre
 		default: throw Error(`Unhandled audio codec: ${e.track.source._codec}`);
 	}
 	let n = [
-		...ln(t),
-		...ln(21),
-		...dn(0),
+		...un(t),
+		...un(21),
+		...fn(0),
 		...Q(e.maxBitrate),
 		...Q(e.avgBitrate)
 	];
 	if (e.info.decoderConfig.description) {
-		let t = Kt(e.info.decoderConfig.description);
+		let t = l(e.info.decoderConfig.description);
 		n = [
 			...n,
-			...ln(5),
-			...vn(t.byteLength),
+			...un(5),
+			...yn(t.byteLength),
 			...t
 		];
 	}
 	return n = [
 		...Z(1),
-		...ln(0),
-		...ln(4),
-		...vn(n.length),
+		...un(0),
+		...un(4),
+		...yn(n.length),
 		...n,
-		...ln(6),
-		...ln(1),
-		...ln(2)
+		...un(6),
+		...un(1),
+		...un(2)
 	], n = [
-		...ln(3),
-		...vn(n.length),
+		...un(3),
+		...yn(n.length),
 		...n
-	], xn("esds", 0, 0, n);
-}, er = (e) => $("wave", void 0, [
-	tr(e),
+	], Sn("esds", 0, 0, n);
+}, tr = (e) => $("wave", void 0, [
 	nr(e),
+	rr(e),
 	$("\0\0\0\0")
-]), tr = (e) => $("frma", [yn(Kr(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime))]), nr = (e) => {
+]), nr = (e) => $("frma", [bn(qr(e.track.source._codec, e.info.decoderConfig.codec, e.muxer.isQuickTime))]), rr = (e) => {
 	let { littleEndian: t } = ct(e.track.source._codec);
 	return $("enda", [Z(+t)]);
-}, rr = (e) => {
+}, ir = (e) => {
 	let t = e.info.numberOfChannels, n = 312, r = e.info.sampleRate, i = 0, a = 0, o = /* @__PURE__ */ new Uint8Array(), s = e.info.decoderConfig?.description;
 	if (s) {
 		Y(s.byteLength >= 18);
-		let e = Kt(s), c = le(e);
+		let e = l(s), c = S(e);
 		t = c.outputChannelCount, n = c.preSkip, r = c.inputSampleRate, i = c.outputGain, a = c.channelMappingFamily, c.channelMappingTable && (o = c.channelMappingTable);
 	}
 	return $("dOps", [
-		ln(0),
-		ln(t),
+		un(0),
+		un(t),
 		Z(n),
 		Q(r),
-		un(i),
-		ln(a),
+		dn(i),
+		un(a),
 		...o
 	]);
-}, ir = (e) => {
-	let t = e.info.decoderConfig?.description;
-	return Y(t), xn("dfLa", 0, 0, [...Kt(t).subarray(4)]);
 }, ar = (e) => {
-	let { littleEndian: t, sampleSize: n } = ct(e.track.source._codec);
-	return xn("pcmC", 0, 0, [ln(+t), ln(8 * n)]);
+	let t = e.info.decoderConfig?.description;
+	return Y(t), Sn("dfLa", 0, 0, [...l(t).subarray(4)]);
 }, or = (e) => {
-	Y(e.info.primingPacket);
-	let t = s(e.info.primingPacket.data);
-	if (!t) throw Error("Couldn't extract AC-3 frame info from the audio packet. Ensure the packets contain valid AC-3 sync frames (as specified in ETSI TS 102 366).");
-	let n = /* @__PURE__ */ new Uint8Array(3), r = new ye(n);
-	return r.writeBits(2, t.fscod), r.writeBits(5, t.bsid), r.writeBits(3, t.bsmod), r.writeBits(3, t.acmod), r.writeBits(1, t.lfeon), r.writeBits(5, t.bitRateCode), r.writeBits(5, 0), $("dac3", [...n]);
+	let { littleEndian: t, sampleSize: n } = ct(e.track.source._codec);
+	return Sn("pcmC", 0, 0, [un(+t), un(8 * n)]);
 }, sr = (e) => {
 	Y(e.info.primingPacket);
-	let t = P(e.info.primingPacket.data);
+	let t = tt(e.info.primingPacket.data);
+	if (!t) throw Error("Couldn't extract AC-3 frame info from the audio packet. Ensure the packets contain valid AC-3 sync frames (as specified in ETSI TS 102 366).");
+	let n = /* @__PURE__ */ new Uint8Array(3), r = new we(n);
+	return r.writeBits(2, t.fscod), r.writeBits(5, t.bsid), r.writeBits(3, t.bsmod), r.writeBits(3, t.acmod), r.writeBits(1, t.lfeon), r.writeBits(5, t.bitRateCode), r.writeBits(5, 0), $("dac3", [...n]);
+}, cr = (e) => {
+	Y(e.info.primingPacket);
+	let t = z(e.info.primingPacket.data);
 	if (!t) throw Error("Couldn't extract E-AC-3 frame info from the audio packet. Ensure the packets contain valid E-AC-3 sync frames (as specified in ETSI TS 102 366).");
 	let n = 16;
 	for (let e of t.substreams) n += 23, e.numDepSub > 0 ? n += 9 : n += 1;
-	let r = Math.ceil(n / 8), i = new Uint8Array(r), a = new ye(i);
+	let r = Math.ceil(n / 8), i = new Uint8Array(r), a = new we(i);
 	a.writeBits(13, t.dataRate), a.writeBits(3, t.substreams.length - 1);
 	for (let e of t.substreams) a.writeBits(2, e.fscod), a.writeBits(5, e.bsid), a.writeBits(1, 0), a.writeBits(1, 0), a.writeBits(3, e.bsmod), a.writeBits(3, e.acmod), a.writeBits(1, e.lfeon), a.writeBits(3, 0), a.writeBits(4, e.numDepSub), e.numDepSub > 0 ? a.writeBits(9, e.chanLoc) : a.writeBits(1, 0);
 	return $("dec3", [...i]);
-}, cr = (e) => {
-	Y(e.info.primingPacket);
-	let t = tt(e.info.primingPacket.data);
-	if (!t) throw Error("Couldn't extract DTS frame info from the audio packet. Ensure the packets contain valid DTS frames as specified in ETSI TS 102 114.");
-	return $("ddts", [...p(t)]);
 }, lr = (e) => {
 	Y(e.info.primingPacket);
+	let t = I(e.info.primingPacket.data);
+	if (!t) throw Error("Couldn't extract DTS frame info from the audio packet. Ensure the packets contain valid DTS frames as specified in ETSI TS 102 114.");
+	return $("ddts", [...zt(t)]);
+}, ur = (e) => {
+	Y(e.info.primingPacket);
 	let t = e.info.primingPacket.data;
-	if (y("truehd", t) !== "key") throw Error("Couldn't extract TrueHD stream info from the audio packet. Ensure the first packet is an access unit carrying a major sync.");
-	let n = fe(t), r = n.getUint32(8), i = n.getUint16(18) & 32767;
+	if (g("truehd", t) !== "key") throw Error("Couldn't extract TrueHD stream info from the audio packet. Ensure the first packet is an access unit carrying a major sync.");
+	let n = qt(t), r = n.getUint32(8), i = n.getUint16(18) & 32767;
 	return $("dmlp", [
 		Q(r),
 		Z(i << 1),
 		Q(0)
 	]);
-}, ur = (e, t) => $(e, [[
+}, dr = (e, t) => $(e, [[
 	,
 	,
 	,
 	,
 	,
 	,
-].fill(0), Z(1)], [Yr[t.track.source._codec](t), Gn(t)]), dr = (e) => $("vttC", [...O.encode(e.info.config.description)]), fr = (e) => xn("stts", 0, 0, [Q(e.timeToSampleTable.length), e.timeToSampleTable.map((e) => [Q(e.sampleCount), Q(e.sampleDelta)])]), pr = (e) => {
+].fill(0), Z(1)], [Xr[t.track.source._codec](t), Kn(t)]), fr = (e) => $("vttC", [...P.encode(e.info.config.description)]), pr = (e) => Sn("stts", 0, 0, [Q(e.timeToSampleTable.length), e.timeToSampleTable.map((e) => [Q(e.sampleCount), Q(e.sampleDelta)])]), mr = (e) => {
 	if (e.samples.every((e) => e.type === "key")) return null;
 	let t = [...e.samples.entries()].filter(([, e]) => e.type === "key");
-	return xn("stss", 0, 0, [Q(t.length), t.map(([e]) => Q(e + 1))]);
-}, mr = (e) => xn("stsc", 0, 0, [Q(e.compactlyCodedChunkTable.length), e.compactlyCodedChunkTable.map((e) => [
+	return Sn("stss", 0, 0, [Q(t.length), t.map(([e]) => Q(e + 1))]);
+}, hr = (e) => Sn("stsc", 0, 0, [Q(e.compactlyCodedChunkTable.length), e.compactlyCodedChunkTable.map((e) => [
 	Q(e.firstChunk),
 	Q(e.samplesPerChunk),
 	Q(1)
-])]), hr = (e) => {
+])]), gr = (e) => {
 	if (e.type === "audio" && e.info.requiresPcmTransformation) {
 		let { sampleSize: t } = ct(e.track.source._codec);
-		return xn("stsz", 0, 0, [Q(t * e.info.numberOfChannels), Q(e.samples.reduce((t, n) => t + ci(n.duration, e.timescale), 0))]);
+		return Sn("stsz", 0, 0, [Q(t * e.info.numberOfChannels), Q(e.samples.reduce((t, n) => t + li(n.duration, e.timescale), 0))]);
 	}
-	return xn("stsz", 0, 0, [
+	return Sn("stsz", 0, 0, [
 		Q(0),
 		Q(e.samples.length),
 		e.samples.map((e) => Q(e.size))
 	]);
-}, gr = (e) => e.finalizedChunks.length > 0 && h(e.finalizedChunks).offset >= 2 ** 32 ? xn("co64", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => pn(e.offset))]) : xn("stco", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => Q(e.offset))]), _r = (e) => xn("ctts", 1, 0, [Q(e.compositionTimeOffsetTable.length), e.compositionTimeOffsetTable.map((e) => [Q(e.sampleCount), fn(e.sampleCompositionTimeOffset)])]), vr = (e) => {
+}, _r = (e) => e.finalizedChunks.length > 0 && ie(e.finalizedChunks).offset >= 2 ** 32 ? Sn("co64", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => mn(e.offset))]) : Sn("stco", 0, 0, [Q(e.finalizedChunks.length), e.finalizedChunks.map((e) => Q(e.offset))]), vr = (e) => Sn("ctts", 1, 0, [Q(e.compositionTimeOffsetTable.length), e.compositionTimeOffsetTable.map((e) => [Q(e.sampleCount), pn(e.sampleCompositionTimeOffset)])]), yr = (e) => {
 	if (Y(e.compositionTimeOffsetTable.length > 0), e.samples.length === 0) return null;
 	let t = Infinity, n = -Infinity, r = Infinity, i = -Infinity;
 	for (let r = 0; r < e.compositionTimeOffsetTable.length; r++) {
@@ -2510,17 +2618,17 @@ None detected</pre
 	}
 	for (let t = 0; t < e.samples.length; t++) {
 		let n = e.samples[t];
-		r = Math.min(r, ci(n.timestamp, e.timescale)), i = Math.max(i, ci(n.timestamp + n.duration, e.timescale));
+		r = Math.min(r, li(n.timestamp, e.timescale)), i = Math.max(i, li(n.timestamp + n.duration, e.timescale));
 	}
 	let a = Math.max(-t, 0);
-	return i >= 2 ** 31 ? null : xn("cslg", 0, 0, [
-		fn(a),
-		fn(t),
-		fn(n),
-		fn(r),
-		fn(i)
+	return i >= 2 ** 31 ? null : Sn("cslg", 0, 0, [
+		pn(a),
+		pn(t),
+		pn(n),
+		pn(r),
+		pn(i)
 	]);
-}, yr = (e, t) => {
+}, br = (e, t) => {
 	let n = [];
 	for (let t of e) if (n.length === 0) n.push({
 		sampleCount: 1,
@@ -2536,49 +2644,49 @@ None detected</pre
 	let r = n.filter((e) => e.prerollSamples !== 0);
 	if (r.length === 0) return [];
 	let i = t ? 65537 : 1;
-	return [xn("sgpd", 1, 0, [
-		yn("roll"),
+	return [Sn("sgpd", 1, 0, [
+		bn("roll"),
 		Q(2),
 		Q(r.length),
-		...r.map((e) => un(e.prerollSamples))
-	]), xn("sbgp", 0, 0, [
-		yn("roll"),
+		...r.map((e) => dn(e.prerollSamples))
+	]), Sn("sbgp", 0, 0, [
+		bn("roll"),
 		Q(n.length),
 		...n.map((e) => [Q(e.sampleCount), Q(e.prerollSamples === 0 ? 0 : i++)])
 	])];
-}, br = (e) => $("mvex", void 0, e.map(xr)), xr = (e) => xn("trex", 0, 0, [
+}, xr = (e) => $("mvex", void 0, e.map(Sr)), Sr = (e) => Sn("trex", 0, 0, [
 	Q(e.track.id),
 	Q(1),
 	Q(0),
 	Q(0),
 	Q(0)
-]), Sr = (e, t) => $("moof", void 0, [Cr(e), ...t.map(Tr)]), Cr = (e) => xn("mfhd", 0, 0, [Q(e)]), wr = (e) => {
+]), Cr = (e, t) => $("moof", void 0, [wr(e), ...t.map(Er)]), wr = (e) => Sn("mfhd", 0, 0, [Q(e)]), Tr = (e) => {
 	let t = 0, n = 0, r = e.type === "delta";
 	return n |= +r, t |= r ? 1 : 2, t << 24 | n << 16;
-}, Tr = (e) => $("traf", void 0, [
-	Er(e),
+}, Er = (e) => $("traf", void 0, [
 	Dr(e),
 	Or(e),
-	...yr(e.currentChunk.samples, !0)
-]), Er = (e) => {
+	kr(e),
+	...br(e.currentChunk.samples, !0)
+]), Dr = (e) => {
 	Y(e.currentChunk);
 	let t = 0;
 	t |= 8, t |= 16, t |= 32, t |= 131072;
 	let n = e.currentChunk.samples[1] ?? e.currentChunk.samples[0], r = {
 		duration: n.timescaleUnitsToNextSample,
 		size: n.size,
-		flags: wr(n)
+		flags: Tr(n)
 	};
-	return xn("tfhd", 0, t, [
+	return Sn("tfhd", 0, t, [
 		Q(e.track.id),
 		Q(r.duration),
 		Q(r.size),
 		Q(r.flags)
 	]);
-}, Dr = (e) => (Y(e.currentChunk), xn("tfdt", 1, 0, [pn(ci(e.currentChunk.startTimestamp, e.timescale))])), Or = (e) => {
+}, Or = (e) => (Y(e.currentChunk), Sn("tfdt", 1, 0, [mn(li(e.currentChunk.startTimestamp, e.timescale))])), kr = (e) => {
 	Y(e.currentChunk);
-	let t = e.currentChunk.samples.map((e) => e.timescaleUnitsToNextSample), n = e.currentChunk.samples.map((e) => e.size), r = e.currentChunk.samples.map(wr), i = e.currentChunk.samples.map((t) => ci(t.timestamp - t.decodeTimestamp, e.timescale)), a = new Set(t), o = new Set(n), s = new Set(r), c = new Set(i), l = s.size === 2 && r[0] !== r[1], u = a.size > 1, d = o.size > 1, f = !l && s.size > 1, p = c.size > 1 || [...c].some((e) => e !== 0), m = 0;
-	return m |= 1, m |= 4 * l, m |= 256 * u, m |= 512 * d, m |= 1024 * f, m |= 2048 * p, xn("trun", 1, m, [
+	let t = e.currentChunk.samples.map((e) => e.timescaleUnitsToNextSample), n = e.currentChunk.samples.map((e) => e.size), r = e.currentChunk.samples.map(Tr), i = e.currentChunk.samples.map((t) => li(t.timestamp - t.decodeTimestamp, e.timescale)), a = new Set(t), o = new Set(n), s = new Set(r), c = new Set(i), l = s.size === 2 && r[0] !== r[1], u = a.size > 1, d = o.size > 1, f = !l && s.size > 1, p = c.size > 1 || [...c].some((e) => e !== 0), m = 0;
+	return m |= 1, m |= 4 * l, m |= 256 * u, m |= 512 * d, m |= 1024 * f, m |= 2048 * p, Sn("trun", 1, m, [
 		Q(e.currentChunk.samples.length),
 		Q(e.currentChunk.offset - e.currentChunk.moofOffset || 0),
 		l ? Q(r[0]) : [],
@@ -2586,73 +2694,73 @@ None detected</pre
 			u ? Q(t[a]) : [],
 			d ? Q(n[a]) : [],
 			f ? Q(r[a]) : [],
-			p ? fn(i[a]) : []
+			p ? pn(i[a]) : []
 		])
 	]);
-}, kr = (e) => $("mfra", void 0, [...e.map(Ar), jr()]), Ar = (e) => {
+}, Ar = (e) => $("mfra", void 0, [...e.map(jr), Mr()]), jr = (e) => {
 	let t = [];
 	for (let n of e.finalizedChunks) {
 		let r = n.samples.findIndex((e) => e.type === "key");
 		if (r === -1) continue;
 		let i = n.samples[r];
 		t.push([
-			pn(ci(i.timestamp, e.timescale)),
-			pn(n.moofOffset),
+			mn(li(i.timestamp, e.timescale)),
+			mn(n.moofOffset),
 			Q(n.trafIndex + 1),
 			Q(1),
 			Q(r + 1)
 		]);
 	}
-	return xn("tfra", 1, 0, [
+	return Sn("tfra", 1, 0, [
 		Q(e.track.id),
 		Q(63),
 		Q(t.length),
 		t
 	]);
-}, jr = () => xn("mfro", 0, 0, [Q(0)]), Mr = () => $("vtte"), Nr = (e, t, n, r, i) => $("vttc", void 0, [
-	i === null ? null : $("vsid", [fn(i)]),
-	n === null ? null : $("iden", [...O.encode(n)]),
-	t === null ? null : $("ctim", [...O.encode(en(t))]),
-	r === null ? null : $("sttg", [...O.encode(r)]),
-	$("payl", [...O.encode(e)])
-]), Pr = (e) => $("vtta", [...O.encode(e)]), Fr = (e) => {
+}, Mr = () => Sn("mfro", 0, 0, [Q(0)]), Nr = () => $("vtte"), Pr = (e, t, n, r, i) => $("vttc", void 0, [
+	i === null ? null : $("vsid", [pn(i)]),
+	n === null ? null : $("iden", [...P.encode(n)]),
+	t === null ? null : $("ctim", [...P.encode(tn(t))]),
+	r === null ? null : $("sttg", [...P.encode(r)]),
+	$("payl", [...P.encode(e)])
+]), Fr = (e) => $("vtta", [...P.encode(e)]), Ir = (e) => {
 	let t = [], n = e.format._options.metadataFormat ?? "auto", r = e.output._metadataTags;
 	if (n === "mdir" || n === "auto" && !e.isQuickTime) {
-		let e = Vr(r);
-		e && t.push(e);
-	} else if (n === "mdta") {
 		let e = Hr(r);
 		e && t.push(e);
-	} else (n === "udta" || n === "auto" && e.isQuickTime) && Ir(t, e.output._metadataTags);
+	} else if (n === "mdta") {
+		let e = Ur(r);
+		e && t.push(e);
+	} else (n === "udta" || n === "auto" && e.isQuickTime) && Lr(t, e.output._metadataTags);
 	return t.length === 0 ? null : $("udta", void 0, t);
-}, Ir = (e, t) => {
-	for (let { key: n, value: r } of v(t)) switch (n) {
+}, Lr = (e, t) => {
+	for (let { key: n, value: r } of h(t)) switch (n) {
 		case "title":
-			e.push(Lr("©nam", r));
+			e.push(Rr("©nam", r));
 			break;
 		case "description":
-			e.push(Lr("©des", r));
+			e.push(Rr("©des", r));
 			break;
 		case "artist":
-			e.push(Lr("©ART", r));
+			e.push(Rr("©ART", r));
 			break;
 		case "album":
-			e.push(Lr("©alb", r));
+			e.push(Rr("©alb", r));
 			break;
 		case "albumArtist":
-			e.push(Lr("albr", r));
+			e.push(Rr("albr", r));
 			break;
 		case "genre":
-			e.push(Lr("©gen", r));
+			e.push(Rr("©gen", r));
 			break;
 		case "date":
-			e.push(Lr("©day", r.toISOString().slice(0, 10)));
+			e.push(Rr("©day", r.toISOString().slice(0, 10)));
 			break;
 		case "comment":
-			e.push(Lr("©cmt", r));
+			e.push(Rr("©cmt", r));
 			break;
 		case "lyrics":
-			e.push(Lr("©lyr", r));
+			e.push(Rr("©lyr", r));
 			break;
 		case "raw": break;
 		case "creationTime": break;
@@ -2662,70 +2770,70 @@ None detected</pre
 		case "tracksTotal":
 		case "beatsPerMinute":
 		case "images": break;
-		default: Le(n);
+		default: He(n);
 	}
 	if (t.raw) for (let n in t.raw) {
 		let r = t.raw[n];
-		r == null || n.length !== 4 || e.some((e) => e.type === n) || (typeof r == "string" ? e.push(Lr(n, r)) : r instanceof Uint8Array && e.push($(n, Array.from(r))));
+		r == null || n.length !== 4 || e.some((e) => e.type === n) || (typeof r == "string" ? e.push(Rr(n, r)) : r instanceof Uint8Array && e.push($(n, Array.from(r))));
 	}
-}, Lr = (e, t) => {
-	let n = O.encode(t);
+}, Rr = (e, t) => {
+	let n = P.encode(t);
 	return $(e, [
 		Z(n.length),
-		Z(Xr("und")),
+		Z(Zr("und")),
 		Array.from(n)
 	]);
-}, Rr = {
+}, zr = {
 	"image/jpeg": 13,
 	"image/png": 14,
 	"image/bmp": 27
-}, zr = /* @__PURE__ */ new Set([
+}, Br = /* @__PURE__ */ new Set([
 	"HMMT",
 	"loci",
 	"chpl"
-]), Br = (e, t) => {
+]), Vr = (e, t) => {
 	let n = [];
-	for (let { key: r, value: i } of v(e)) switch (r) {
+	for (let { key: r, value: i } of h(e)) switch (r) {
 		case "title":
 			n.push({
 				key: t ? "title" : "©nam",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "description":
 			n.push({
 				key: t ? "description" : "©des",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "artist":
 			n.push({
 				key: t ? "artist" : "©ART",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "album":
 			n.push({
 				key: t ? "album" : "©alb",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "albumArtist":
 			n.push({
 				key: t ? "album_artist" : "aART",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "comment":
 			n.push({
 				key: t ? "comment" : "©cmt",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "genre":
 			n.push({
 				key: t ? "genre" : "©gen",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "beatsPerMinute":
@@ -2741,20 +2849,20 @@ None detected</pre
 		case "lyrics":
 			n.push({
 				key: t ? "lyrics" : "©lyr",
-				value: Ur(i)
+				value: Wr(i)
 			});
 			break;
 		case "date":
 			n.push({
 				key: t ? "date" : "©day",
-				value: Ur(i.toISOString().slice(0, 10))
+				value: Wr(i.toISOString().slice(0, 10))
 			});
 			break;
 		case "images":
 			for (let e of i) e.kind === "coverFront" && n.push({
 				key: "covr",
 				value: $("data", [
-					Q(Rr[e.mimeType] ?? 0),
+					Q(zr[e.mimeType] ?? 0),
 					Q(0),
 					Array.from(e.data)
 				])
@@ -2765,7 +2873,7 @@ None detected</pre
 				let t = e.tracksTotal === void 0 ? i.toString() : `${i}/${e.tracksTotal}`;
 				n.push({
 					key: "track",
-					value: Ur(t)
+					value: Wr(t)
 				});
 			} else n.push({
 				key: "trkn",
@@ -2796,45 +2904,45 @@ None detected</pre
 		case "discsTotal": break;
 		case "raw": break;
 		case "creationTime": break;
-		default: Le(r);
+		default: He(r);
 	}
 	if (e.raw) for (let r in e.raw) {
-		let i = e.raw[r];
-		i == null || !t && (r.length !== 4 || zr.has(r)) || n.some((e) => e.key === r) || (typeof i == "string" ? n.push({
+		let a = e.raw[r];
+		a == null || !t && (r.length !== 4 || Br.has(r)) || n.some((e) => e.key === r) || (typeof a == "string" ? n.push({
 			key: r,
-			value: Ur(i)
-		}) : i instanceof Uint8Array ? n.push({
+			value: Wr(a)
+		}) : a instanceof Uint8Array ? n.push({
 			key: r,
 			value: $("data", [
 				Q(0),
 				Q(0),
-				Array.from(i)
+				Array.from(a)
 			])
-		}) : i instanceof ue && n.push({
+		}) : a instanceof i && n.push({
 			key: r,
 			value: $("data", [
-				Q(Rr[i.mimeType] ?? 0),
+				Q(zr[a.mimeType] ?? 0),
 				Q(0),
-				Array.from(i.data)
+				Array.from(a.data)
 			])
 		}));
 	}
 	return n;
-}, Vr = (e) => {
-	let t = Br(e, !1);
-	return t.length === 0 ? null : xn("meta", 0, 0, void 0, [In(!1, "mdir", "", "appl"), $("ilst", void 0, t.map((e) => $(e.key, void 0, [e.value])))]);
 }, Hr = (e) => {
-	let t = Br(e, !0);
+	let t = Vr(e, !1);
+	return t.length === 0 ? null : Sn("meta", 0, 0, void 0, [Ln(!1, "mdir", "", "appl"), $("ilst", void 0, t.map((e) => $(e.key, void 0, [e.value])))]);
+}, Ur = (e) => {
+	let t = Vr(e, !0);
 	return t.length === 0 ? null : $("meta", void 0, [
-		In(!1, "mdta", ""),
-		xn("keys", 0, 0, [Q(t.length)], t.map((e) => $("mdta", [...O.encode(e.key)]))),
+		Ln(!1, "mdta", ""),
+		Sn("keys", 0, 0, [Q(t.length)], t.map((e) => $("mdta", [...P.encode(e.key)]))),
 		$("ilst", void 0, t.map((e, t) => $(String.fromCharCode(...Q(t + 1)), void 0, [e.value])))
 	]);
-}, Ur = (e) => $("data", [
+}, Wr = (e) => $("data", [
 	Q(1),
 	Q(0),
-	...O.encode(e)
-]), Wr = (e, t) => {
+	...P.encode(e)
+]), Gr = (e, t) => {
 	switch (e) {
 		case "avc": return t.startsWith("avc3") ? "avc3" : "avc1";
 		case "hevc": return "hvc1";
@@ -2843,14 +2951,14 @@ None detected</pre
 		case "av1": return "av01";
 		case "prores": return t;
 	}
-}, Gr = {
-	avc: Jn,
-	hevc: Yn,
-	vp8: Xn,
-	vp9: Xn,
-	av1: Zn,
+}, Kr = {
+	avc: Yn,
+	hevc: Xn,
+	vp8: Zn,
+	vp9: Zn,
+	av1: Qn,
 	prores: null
-}, Kr = (e, t, n) => {
+}, qr = (e, t, n) => {
 	switch (e) {
 		case "aac": return "mp4a";
 		case "mp3": return "mp4a";
@@ -2890,47 +2998,47 @@ None detected</pre
 		case "pcm-f64": return "fpcm";
 		case "pcm-f64be": return "fpcm";
 	}
-}, qr = (e, t) => {
+}, Jr = (e, t) => {
 	switch (e) {
-		case "aac": return $n;
-		case "mp3": return $n;
-		case "opus": return rr;
-		case "vorbis": return $n;
-		case "flac": return ir;
-		case "ac3": return or;
-		case "eac3": return sr;
-		case "dts": return cr;
-		case "truehd": return lr;
+		case "aac": return er;
+		case "mp3": return er;
+		case "opus": return ir;
+		case "vorbis": return er;
+		case "flac": return ar;
+		case "ac3": return sr;
+		case "eac3": return cr;
+		case "dts": return lr;
+		case "truehd": return ur;
 	}
 	if (t) switch (e) {
-		case "pcm-s24": return er;
-		case "pcm-s24be": return er;
-		case "pcm-s32": return er;
-		case "pcm-s32be": return er;
-		case "pcm-f32": return er;
-		case "pcm-f32be": return er;
-		case "pcm-f64": return er;
-		case "pcm-f64be": return er;
+		case "pcm-s24": return tr;
+		case "pcm-s24be": return tr;
+		case "pcm-s32": return tr;
+		case "pcm-s32be": return tr;
+		case "pcm-f32": return tr;
+		case "pcm-f32be": return tr;
+		case "pcm-f64": return tr;
+		case "pcm-f64be": return tr;
 	}
 	else switch (e) {
-		case "pcm-s16": return ar;
-		case "pcm-s16be": return ar;
-		case "pcm-s24": return ar;
-		case "pcm-s24be": return ar;
-		case "pcm-s32": return ar;
-		case "pcm-s32be": return ar;
-		case "pcm-f32": return ar;
-		case "pcm-f32be": return ar;
-		case "pcm-f64": return ar;
-		case "pcm-f64be": return ar;
+		case "pcm-s16": return or;
+		case "pcm-s16be": return or;
+		case "pcm-s24": return or;
+		case "pcm-s24be": return or;
+		case "pcm-s32": return or;
+		case "pcm-s32be": return or;
+		case "pcm-f32": return or;
+		case "pcm-f32be": return or;
+		case "pcm-f64": return or;
+		case "pcm-f64be": return or;
 	}
 	return null;
-}, Jr = { webvtt: "wvtt" }, Yr = { webvtt: dr }, Xr = (e) => {
+}, Yr = { webvtt: "wvtt" }, Xr = { webvtt: fr }, Zr = (e) => {
 	Y(e.length === 3);
 	let t = 0;
 	for (let n = 0; n < 3; n++) t <<= 5, t += e.charCodeAt(n) - 96;
 	return t;
-}, Zr = class {
+}, Qr = class {
 	constructor(e, t) {
 		if (this.finalized = !1, this.started = !1, this.pos = 0, this.trackedWrites = null, this.trackedStart = -1, this.trackedEnd = -1, e._writerAcquired) throw Error("Can't have multiple Writers for the same Target.");
 		this.target = e, e._setMonotonicity(t), e._writerAcquired = !0;
@@ -2981,8 +3089,8 @@ None detected</pre
 		return this.trackedWrites = null, e;
 	}
 };
-D();
-var Qr = class extends Oe {
+te();
+var $r = class extends ht {
 	constructor() {
 		super(...arguments), this._writerAcquired = !1, this._monotonicity = null, this.onwrite = null;
 	}
@@ -2997,18 +3105,18 @@ var Qr = class extends Oe {
 	}
 	slice(e) {
 		if (!Number.isInteger(e) || e < 0) throw TypeError("offset must be a non-negative integer.");
-		return new ri(this, e);
+		return new ii(this, e);
 	}
-}, $r = 2 ** 16, ei = 2 ** 32, ti = class extends Qr {
+}, ei = 2 ** 16, ti = 2 ** 32, ni = class extends $r {
 	constructor(e = {}) {
 		if (super(), this.buffer = null, this._maxPos = 0, !e || typeof e != "object") throw TypeError("BufferTarget options, when provided, must be an object.");
 		if (e.onFinalize !== void 0 && typeof e.onFinalize != "function") throw TypeError("options.onFinalize, when provided, must be a function.");
 		if (this._options = e, this._supportsResize = "resize" in /* @__PURE__ */ new ArrayBuffer(0), this._supportsResize) try {
-			this._buffer = new ArrayBuffer($r, { maxByteLength: ei });
+			this._buffer = new ArrayBuffer(ei, { maxByteLength: ti });
 		} catch {
-			this._buffer = new ArrayBuffer($r), this._supportsResize = !1;
+			this._buffer = new ArrayBuffer(ei), this._supportsResize = !1;
 		}
-		else this._buffer = new ArrayBuffer($r);
+		else this._buffer = new ArrayBuffer(ei);
 		this._bytes = new Uint8Array(this._buffer);
 	}
 	_ensureSize(e) {
@@ -3016,7 +3124,7 @@ var Qr = class extends Oe {
 		let t = this._buffer.byteLength;
 		for (; t < e;) t *= 2;
 		if (t !== this._buffer.byteLength) {
-			if (t > ei) throw Error(`ArrayBuffer exceeded maximum size of ${ei} bytes. Please consider using another target.`);
+			if (t > ti) throw Error(`ArrayBuffer exceeded maximum size of ${ti} bytes. Please consider using another target.`);
 			if (this._supportsResize) this._buffer.resize(t);
 			else {
 				let e = new ArrayBuffer(t), n = new Uint8Array(e);
@@ -3036,7 +3144,7 @@ var Qr = class extends Oe {
 	_getSlice(e, t) {
 		return Y(this._bytes), this._bytes.slice(e, t);
 	}
-}, ni = class extends Qr {
+}, ri = class extends $r {
 	_start() {}
 	_write(e, t) {
 		this._dispatchWrite(t, t + e.byteLength);
@@ -3046,7 +3154,7 @@ var Qr = class extends Oe {
 		this._emit("finalized");
 	}
 	async _close() {}
-}, ri = class extends Qr {
+}, ii = class extends $r {
 	constructor(e, t) {
 		super(), this._baseTarget = e, this._offset = t;
 	}
@@ -3064,18 +3172,18 @@ var Qr = class extends Oe {
 	_setMonotonicity(e) {
 		super._setMonotonicity(e), this._baseTarget._setMonotonicity(e);
 	}
-}, ii = class {
+}, ai = class {
 	constructor(e, t) {
 		if (this.rootPath = e, this.getTarget = t, typeof e != "string") throw TypeError("rootPath must be a string.");
 		if (typeof t != "function") throw TypeError("getTarget must be a function.");
 	}
-}, ai = 57600, oi = .5, si = (e) => {
+}, oi = 57600, si = .5, ci = (e) => {
 	let t = {}, n = e.track;
 	return n.metadata.name !== void 0 && (t.name = n.metadata.name), t;
-}, ci = (e, t, n = !0) => {
+}, li = (e, t, n = !0) => {
 	let r = e * t;
 	return n ? Math.round(r) : r;
-}, li = (e) => {
+}, ui = (e) => {
 	if (e.samples.length === 0) return 0;
 	let t = Infinity, n = -Infinity;
 	for (let r = 0; r < e.samples.length; r++) {
@@ -3083,22 +3191,22 @@ var Qr = class extends Oe {
 		i.timestamp < t && (t = i.timestamp), i.timestamp + i.duration > n && (n = i.timestamp + i.duration);
 	}
 	return t === Infinity ? 0 : n - t;
-}, ui = class extends tn {
+}, di = class extends nn {
 	constructor(e, t) {
-		super(e), this.writer = null, this.boxWriter = null, this.initWriter = null, this.initBoxWriter = null, this.auxTarget = new ti(), this.auxWriter = new Zr(this.auxTarget, !1), this.auxBoxWriter = new sn(this.auxWriter), this.mdat = null, this.ftypSize = null, this.trackDatas = [], this.allTracksKnown = o(), this.finalizedChunks = [], this.wroteFragmentedHeader = !1, this.nextFragmentNumber = 1, this.maxWrittenTimestamp = -Infinity, this.minWrittenTimestamp = Infinity, this.maxWrittenEndTimestamp = -Infinity, this.segmentHeaderSize = null, this.format = t, this.formatOptions = { ...t._options }, this.isQuickTime = t instanceof Di, this.isCmaf = t instanceof Ei, this.minimumFragmentDuration = this.formatOptions.minimumFragmentDuration ?? (t instanceof Ei ? Infinity : 1), this.auxWriter.start();
+		super(e), this.writer = null, this.boxWriter = null, this.initWriter = null, this.initBoxWriter = null, this.auxTarget = new ni(), this.auxWriter = new Qr(this.auxTarget, !1), this.auxBoxWriter = new cn(this.auxWriter), this.mdat = null, this.ftypSize = null, this.trackDatas = [], this.allTracksKnown = et(), this.finalizedChunks = [], this.wroteFragmentedHeader = !1, this.nextFragmentNumber = 1, this.maxWrittenTimestamp = -Infinity, this.minWrittenTimestamp = Infinity, this.maxWrittenEndTimestamp = -Infinity, this.segmentHeaderSize = null, this.format = t, this.formatOptions = { ...t._options }, this.isQuickTime = t instanceof Oi, this.isCmaf = t instanceof Di, this.minimumFragmentDuration = this.formatOptions.minimumFragmentDuration ?? (t instanceof Di ? Infinity : 1), this.auxWriter.start();
 	}
 	async start() {
 		let e = await this.mutex.acquire(), t = this.output._metadataTags.creationTime === void 0 ? /* @__PURE__ */ new Date() : this.output._metadataTags.creationTime;
-		if (this.creationTime = t ? Math.floor(t.getTime() / 1e3) + wt : 0, t && this.creationTime <= 0) throw Error("creationTime must be after 1904-01-01T00:00:00Z for MP4/QuickTime files.");
-		if (this.isCmaf ? (this.fastStart = "fragmented", this.isFragmented = !0) : (this.writer = await this.output._getRootWriter((e) => this.formatOptions.fastStart === void 0 ? e instanceof ti : this.formatOptions.fastStart === "fragmented"), this.boxWriter = new sn(this.writer), this.fastStart = this.formatOptions.fastStart ?? (this.writer.target instanceof ti && "in-memory"), this.isFragmented = this.fastStart === "fragmented"), this.isCmaf) {
+		if (this.creationTime = t ? Math.floor(t.getTime() / 1e3) + Qe : 0, t && this.creationTime <= 0) throw Error("creationTime must be after 1904-01-01T00:00:00Z for MP4/QuickTime files.");
+		if (this.isCmaf ? (this.fastStart = "fragmented", this.isFragmented = !0) : (this.writer = await this.output._getRootWriter((e) => this.formatOptions.fastStart === void 0 ? e instanceof ni : this.formatOptions.fastStart === "fragmented"), this.boxWriter = new cn(this.writer), this.fastStart = this.formatOptions.fastStart ?? (this.writer.target instanceof ni && "in-memory"), this.isFragmented = this.fastStart === "fragmented"), this.isCmaf) {
 			if (!this.output._hasInitTarget()) throw Error("CMAF outputs require the initTarget field in OutputOptions to be set; the init segment will be written to it.");
-			let e = new Zr(await this.output._getInitTarget(), !0);
-			e.start(), this.initWriter = e, this.initBoxWriter = new sn(e);
+			let e = new Qr(await this.output._getInitTarget(), !0);
+			e.start(), this.initWriter = e, this.initBoxWriter = new cn(e);
 		}
 		let n = this.output.tracks.some((e) => e.isVideoTrack() && e.source._codec === "avc");
 		{
 			let e = this.initBoxWriter ?? this.boxWriter;
-			if (Y(e), this.formatOptions.onFtyp && e.writer.startTrackingWrites(), e.writeBox(Sn({
+			if (Y(e), this.formatOptions.onFtyp && e.writer.startTrackingWrites(), e.writeBox(Cn({
 				isQuickTime: this.isQuickTime,
 				holdsAvc: n,
 				fragmented: this.isFragmented,
@@ -3114,7 +3222,7 @@ var Qr = class extends Oe {
 				if (e.metadata.maximumPacketCount === void 0) throw Error("All tracks must specify maximumPacketCount in their metadata when using fastStart: 'reserve'.");
 				if (e.metadata.maximumPacketCount > 2 ** 32 - 1) throw Error(`Track #${e.id} has a maximumPacketCount of ${e.metadata.maximumPacketCount}, which exceeds the maximum of ${2 ** 32 - 1} packets per track that a non-fragmented file can hold.`);
 			}
-			else this.isFragmented || (Y(this.writer), Y(this.boxWriter), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = Tn(!0), this.boxWriter.writeBox(this.mdat));
+			else this.isFragmented || (Y(this.writer), Y(this.boxWriter), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = En(!0), this.boxWriter.writeBox(this.mdat));
 		}
 		await this.writer?.flush();
 		for (let e of this.output.tracks) e.isVideoTrack() && e.metadata.decoderConfig ? this.getVideoTrackData(e, e.metadata.primingPacket ?? null, { decoderConfig: e.metadata.decoderConfig }) : e.isAudioTrack() && e.metadata.decoderConfig && this.getAudioTrackData(e, e.metadata.primingPacket ?? null, { decoderConfig: e.metadata.decoderConfig });
@@ -3127,7 +3235,7 @@ var Qr = class extends Oe {
 	async getMimeType() {
 		await this.allTracksKnown.promise;
 		let e = this.trackDatas.map((e) => e.type === "video" || e.type === "audio" ? e.info.decoderConfig.codec : { webvtt: "wvtt" }[e.track.source._codec]);
-		return Qe({
+		return Ae({
 			isQuickTime: this.isQuickTime,
 			hasVideo: this.trackDatas.some((e) => e.type === "video"),
 			hasAudio: this.trackDatas.some((e) => e.type === "audio"),
@@ -3137,25 +3245,25 @@ var Qr = class extends Oe {
 	getVideoTrackData(e, t, n) {
 		let r = this.trackDatas.find((t) => t.track === e);
 		if (r) return r;
-		we(n, e.source._codec), Y(n), Y(n.decoderConfig);
+		Te(n, e.source._codec), Y(n), Y(n.decoderConfig);
 		let i = { ...n.decoderConfig };
 		Y(i.codedWidth !== void 0), Y(i.codedHeight !== void 0);
 		let a = !1;
 		if (e.source._codec === "avc" && !i.description) {
 			if (!t) throw Error("No AVC description provided; you must therefore provide a priming packet.");
-			let e = g(t.data);
+			let e = ae(t.data);
 			if (!e) throw Error("Couldn't extract an AVCDecoderConfigurationRecord from the AVC packet. Make sure the packets are in Annex B format (as specified in ITU-T-REC-H.264) when not providing a description, or provide a description (must be an AVCDecoderConfigurationRecord as specified in ISO 14496-15) and ensure the packets are in AVCC format.");
-			i.description = k(e), a = !0;
+			i.description = ne(e), a = !0;
 		} else if (e.source._codec === "hevc" && !i.description) {
 			if (!t) throw Error("No HEVC description provided; you must therefore provide a priming packet.");
-			let e = oe(t.data);
+			let e = it(t.data);
 			if (!e) throw Error("Couldn't extract an HEVCDecoderConfigurationRecord from the HEVC packet. Make sure the packets are in Annex B format (as specified in ITU-T-REC-H.265) when not providing a description, or provide a description (must be an HEVCDecoderConfigurationRecord as specified in ISO 14496-15) and ensure the packets are in HEVC format.");
-			i.description = re(e), a = !0;
+			i.description = H(e), a = !0;
 		}
-		let o = Te(1 / (e.metadata.frameRate ?? 57600), 1e6).den, s = i.displayAspectWidth, c = i.displayAspectHeight, l = s === void 0 || c === void 0 ? {
+		let o = Ft(1 / (e.metadata.frameRate ?? 57600), 1e6).den, s = i.displayAspectWidth, c = i.displayAspectHeight, l = s === void 0 || c === void 0 ? {
 			num: 1,
 			den: 1
-		} : x({
+		} : k({
 			num: s * i.codedHeight,
 			den: c * i.codedWidth
 		}), u = i.codec === "ap4h" || i.codec === "ap4x", d = {
@@ -3195,11 +3303,11 @@ var Qr = class extends Oe {
 		let i = { ...n.decoderConfig }, a = !1;
 		if (e.source._codec === "aac" && !i.description) {
 			if (!t) throw Error("No AAC description provided; you must therefore provide a priming packet.");
-			let e = c(L.tempFromBytes(t.data));
+			let e = ge(B.tempFromBytes(t.data));
 			if (!e) throw Error("Couldn't parse ADTS header from the AAC packet. Make sure the packets are in ADTS format (as specified in ISO 13818-7) when not providing a description, or provide a description (must be an AudioSpecificConfig as specified in ISO 14496-3) and ensure the packets are raw AAC data.");
-			let n = j[e.samplingFrequencyIndex], r = xt[e.channelConfiguration];
+			let n = Se[e.samplingFrequencyIndex], r = M[e.channelConfiguration];
 			if (n === void 0 || r === void 0) throw Error("Invalid ADTS frame header.");
-			i.description = xe({
+			i.description = be({
 				objectType: e.objectType,
 				outputSampleRate: n,
 				outputNumberOfChannels: r
@@ -3282,9 +3390,9 @@ var Qr = class extends Oe {
 		try {
 			let r = this.getVideoTrackData(e, t, n), i = t.data;
 			if (r.info.requiresAnnexBTransformation) {
-				let e = [...it(i)].map((e) => i.subarray(e.offset, e.offset + e.length));
+				let e = [...s(i)].map((e) => i.subarray(e.offset, e.offset + e.length));
 				if (e.length === 0) throw Error("Failed to transform packet data. Make sure all packets are provided in Annex B format, as specified in ITU-T-REC-H.264 and ITU-T-REC-H.265.");
-				i = Rt(e, 4);
+				i = he(e, 4);
 			}
 			this.validateTimestamp(r.track, t.timestamp, t.type === "key");
 			let a = this.createSampleForTrack(r, i, t.timestamp, t.duration, t.type, 0);
@@ -3298,7 +3406,7 @@ var Qr = class extends Oe {
 		try {
 			let r = this.getAudioTrackData(e, t, n), i = t.data;
 			if (r.info.requiresAdtsStripping) {
-				let e = c(L.tempFromBytes(i));
+				let e = ge(B.tempFromBytes(i));
 				if (!e) throw Error("Expected ADTS frame, didn't get one.");
 				let t = e.crcCheck === null ? 7 : 9;
 				i = i.subarray(t);
@@ -3317,24 +3425,24 @@ var Qr = class extends Oe {
 				}
 				r.info.expectedNextPcmPacketTimestamp = a + o;
 			}
-			let { preroll: s } = r.info, l = 0;
-			if (e.source._codec === "aac" || e.source._codec === "vorbis") l = -Math.min(1, s.packetCount);
-			else if (e.source._codec === "mp3") l = -Math.min(2, s.packetCount);
+			let { preroll: s } = r.info, c = 0;
+			if (e.source._codec === "aac" || e.source._codec === "vorbis") c = -Math.min(1, s.packetCount);
+			else if (e.source._codec === "mp3") c = -Math.min(2, s.packetCount);
 			else if (e.source._codec === "opus") {
-				let e = Math.round(De * mt);
-				l = -s.audioSampleDurationHistory.length;
-				let t = S(i);
+				let e = Math.round(Oe * mt);
+				c = -s.audioSampleDurationHistory.length;
+				let t = A(i);
 				for (s.accumulatedAudioSamples += t.durationInSamples, s.audioSampleDurationHistory.push(t.durationInSamples); s.accumulatedAudioSamples - s.audioSampleDurationHistory[0] >= e;) s.accumulatedAudioSamples -= s.audioSampleDurationHistory.shift(), Y(s.audioSampleDurationHistory.length > 0);
 			}
 			s.packetCount++;
-			let u = this.createSampleForTrack(r, i, a, o, t.type, l);
-			await this.registerSample(r, u);
+			let l = this.createSampleForTrack(r, i, a, o, t.type, c);
+			await this.registerSample(r, l);
 		} finally {
 			r();
 		}
 	}
 	async padWithSilence(e, t, n) {
-		let r = ci(n, e.timescale);
+		let r = li(n, e.timescale);
 		if (n = r / e.timescale, r > 0) {
 			let { sampleSize: i, silentValue: a } = ct(e.info.decoderConfig.codec), o = r * e.info.numberOfChannels, s = new Uint8Array(i * o).fill(a), c = this.createSampleForTrack(e, new Uint8Array(s.buffer), t, n, "key", 0);
 			await this.registerSample(e, c);
@@ -3359,7 +3467,7 @@ var Qr = class extends Oe {
 			if (t < a) break;
 			if (e.lastCueEndTimestamp < i) {
 				this.auxWriter.seek(0);
-				let t = Mr();
+				let t = Nr();
 				this.auxBoxWriter.writeBox(t);
 				let n = this.auxTarget._getSlice(0, this.auxWriter.getPos()), r = this.createSampleForTrack(e, n, e.lastCueEndTimestamp, i - e.lastCueEndTimestamp, "key", 0);
 				await this.registerSample(e, r), e.lastCueEndTimestamp = i;
@@ -3368,13 +3476,13 @@ var Qr = class extends Oe {
 			for (let t = 0; t < e.cueQueue.length; t++) {
 				let n = e.cueQueue[t];
 				if (n.timestamp >= a) break;
-				Zt.lastIndex = 0;
-				let r = Zt.test(n.text), o = n.timestamp + n.duration, s = e.cueToSourceId.get(n);
+				Qt.lastIndex = 0;
+				let r = Qt.test(n.text), o = n.timestamp + n.duration, s = e.cueToSourceId.get(n);
 				if (s === void 0 && a < o && (s = e.nextSourceId++, e.cueToSourceId.set(n, s)), n.notes) {
-					let e = Pr(n.notes);
+					let e = Fr(n.notes);
 					this.auxBoxWriter.writeBox(e);
 				}
-				let c = Nr(n.text, r ? i : null, n.identifier ?? null, n.settings ?? null, s ?? null);
+				let c = Pr(n.text, r ? i : null, n.identifier ?? null, n.settings ?? null, s ?? null);
 				this.auxBoxWriter.writeBox(c), o === a && e.cueQueue.splice(t--, 1);
 			}
 			let o = this.auxTarget._getSlice(0, this.auxWriter.getPos()), s = this.createSampleForTrack(e, o, i, a - i, "key", 0);
@@ -3389,7 +3497,7 @@ var Qr = class extends Oe {
 			data: t,
 			size: t.byteLength,
 			type: i,
-			timescaleUnitsToNextSample: ci(r, e.timescale),
+			timescaleUnitsToNextSample: li(r, e.timescale),
 			prerollSamples: a
 		};
 	}
@@ -3399,7 +3507,7 @@ var Qr = class extends Oe {
 			Y(!this.isFragmented), e.startTimestampOffset ??= e.timestampProcessingQueue[0].timestamp;
 			let t = 0;
 			for (let n = 0; n < e.timestampProcessingQueue.length; n++) {
-				let r = e.timestampProcessingQueue[n], i = ci(r.duration, e.timescale);
+				let r = e.timestampProcessingQueue[n], i = li(r.duration, e.timescale);
 				t += i;
 			}
 			if (e.timeToSampleTable.length === 0) e.timeToSampleTable.push({
@@ -3407,7 +3515,7 @@ var Qr = class extends Oe {
 				sampleDelta: 1
 			});
 			else {
-				let n = h(e.timeToSampleTable);
+				let n = ie(e.timeToSampleTable);
 				n.sampleCount += t;
 			}
 			e.timestampProcessingQueue.length = 0;
@@ -3418,12 +3526,12 @@ var Qr = class extends Oe {
 		for (let t = 0; t < e.timestampProcessingQueue.length; t++) {
 			let r = e.timestampProcessingQueue[t];
 			r.decodeTimestamp = n[t];
-			let i = ci(r.timestamp - r.decodeTimestamp, e.timescale), a = ci(r.duration, e.timescale);
+			let i = li(r.timestamp - r.decodeTimestamp, e.timescale), a = li(r.duration, e.timescale);
 			if (e.lastTimescaleUnits !== null) {
 				Y(e.lastSample);
-				let t = ci(r.decodeTimestamp, e.timescale, !1), n = Math.round(t - e.lastTimescaleUnits);
+				let t = li(r.decodeTimestamp, e.timescale, !1), n = Math.round(t - e.lastTimescaleUnits);
 				if (Y(n >= 0), e.lastTimescaleUnits += n, e.lastSample.timescaleUnitsToNextSample = n, !this.isFragmented) {
-					let t = h(e.timeToSampleTable);
+					let t = ie(e.timeToSampleTable);
 					if (Y(t), t.sampleCount === 1) {
 						t.sampleDelta = n;
 						let r = e.timeToSampleTable[e.timeToSampleTable.length - 2];
@@ -3436,13 +3544,13 @@ var Qr = class extends Oe {
 						sampleCount: 1,
 						sampleDelta: a
 					});
-					let r = h(e.compositionTimeOffsetTable);
+					let r = ie(e.compositionTimeOffsetTable);
 					Y(r), r.sampleCompositionTimeOffset === i ? r.sampleCount++ : e.compositionTimeOffsetTable.push({
 						sampleCount: 1,
 						sampleCompositionTimeOffset: i
 					});
 				}
-			} else e.lastTimescaleUnits = ci(r.decodeTimestamp, e.timescale, !1), this.isFragmented || (e.timeToSampleTable.push({
+			} else e.lastTimescaleUnits = li(r.decodeTimestamp, e.timescale, !1), this.isFragmented || (e.timeToSampleTable.push({
 				sampleCount: 1,
 				sampleDelta: a
 			}), e.compositionTimeOffsetTable.push({
@@ -3453,7 +3561,7 @@ var Qr = class extends Oe {
 		}
 		if (e.timestampProcessingQueue.length = 0, Y(e.lastSample), Y(e.lastTimescaleUnits !== null), t !== void 0 && e.lastSample.timescaleUnitsToNextSample === 0) {
 			Y(t.type === "key");
-			let n = ci(t.timestamp, e.timescale, !1), r = Math.round(n - e.lastTimescaleUnits);
+			let n = li(t.timestamp, e.timescale, !1), r = Math.round(n - e.lastTimescaleUnits);
 			e.lastSample.timescaleUnitsToNextSample = r;
 		}
 	}
@@ -3477,11 +3585,11 @@ var Qr = class extends Oe {
 					return r ? r.type === "key" : n.closed;
 				});
 				r >= this.minimumFragmentDuration && i && t.timestamp > this.maxWrittenTimestamp && (n = !0, await this.finalizeFragment());
-			} else n = r >= oi;
+			} else n = r >= si;
 		}
 		if (n) {
 			if (!this.isFragmented) {
-				let e = this.trackDatas.filter((e) => e.currentChunk && t.timestamp - e.currentChunk.startTimestamp >= oi).sort((e, t) => e.currentChunk.startTimestamp - t.currentChunk.startTimestamp);
+				let e = this.trackDatas.filter((e) => e.currentChunk && t.timestamp - e.currentChunk.startTimestamp >= si).sort((e, t) => e.currentChunk.startTimestamp - t.currentChunk.startTimestamp);
 				for (let t of e) await this.finalizeCurrentChunk(t);
 			}
 			e.currentChunk = {
@@ -3499,7 +3607,7 @@ var Qr = class extends Oe {
 		let t = e.currentChunk;
 		Y(t), e.currentChunk = null, e.finalizedChunks.push(t), this.finalizedChunks.push(t);
 		let n = t.samples.length;
-		if (e.type === "audio" && e.info.requiresPcmTransformation && (n = t.samples.reduce((t, n) => t + ci(n.duration, e.timescale), 0)), (e.compactlyCodedChunkTable.length === 0 || h(e.compactlyCodedChunkTable).samplesPerChunk !== n) && e.compactlyCodedChunkTable.push({
+		if (e.type === "audio" && e.info.requiresPcmTransformation && (n = t.samples.reduce((t, n) => t + li(n.duration, e.timescale), 0)), (e.compactlyCodedChunkTable.length === 0 || ie(e.compactlyCodedChunkTable).samplesPerChunk !== n) && e.compactlyCodedChunkTable.push({
 			firstChunk: e.finalizedChunks.length,
 			samplesPerChunk: n
 		}), this.fastStart === "in-memory") t.offset = 0;
@@ -3529,14 +3637,14 @@ var Qr = class extends Oe {
 			this.wroteFragmentedHeader = !0;
 			let e = this.initBoxWriter ?? this.boxWriter;
 			Y(e), this.formatOptions.onMoov && e.writer.startTrackingWrites(), this.ensureOneEnabledTrack();
-			let t = Dn(this);
+			let t = On(this);
 			if (e.writeBox(t), this.formatOptions.onMoov) {
 				let { data: t, start: n } = e.writer.stopTrackingWrites();
 				this.formatOptions.onMoov(t, n);
 			}
 			if (this.isCmaf) {
-				Y(this.initWriter), await this.initWriter.flush(), await this.initWriter.finalize(), this.writer = await this.output._getRootWriter(!0), this.boxWriter = new sn(this.writer);
-				let e = this.boxWriter.measureBox(Cn()), t = this.boxWriter.measureBox(wn(this, 0));
+				Y(this.initWriter), await this.initWriter.flush(), await this.initWriter.finalize(), this.writer = await this.output._getRootWriter(!0), this.boxWriter = new cn(this.writer);
+				let e = this.boxWriter.measureBox(wn()), t = this.boxWriter.measureBox(Tn(this, 0));
 				this.segmentHeaderSize = e + t, this.writer.seek(this.segmentHeaderSize);
 			}
 		}
@@ -3546,7 +3654,7 @@ var Qr = class extends Oe {
 			e && await this.writer.flush();
 			return;
 		}
-		let n = this.nextFragmentNumber++, r = Sr(n, t), i = this.writer.getPos(), a = i + this.boxWriter.measureBox(r), o = a + 8, s = Infinity;
+		let n = this.nextFragmentNumber++, r = Cr(n, t), i = this.writer.getPos(), a = i + this.boxWriter.measureBox(r), o = a + 8, s = Infinity;
 		for (let e = 0; e < t.length; e++) {
 			let n = t[e];
 			Y(n.currentChunk), Y(n.startTimestampOffset !== null), n.currentChunk.offset = o, n.currentChunk.moofOffset = i, n.currentChunk.trafIndex = e, n.currentChunk.startTimestamp -= n.startTimestampOffset;
@@ -3556,13 +3664,13 @@ var Qr = class extends Oe {
 		let c = o - a, l = c >= 2 ** 32;
 		if (l) for (let e of t) e.currentChunk.offset += 8;
 		this.formatOptions.onMoof && this.writer.startTrackingWrites();
-		let u = Sr(n, t);
+		let u = Cr(n, t);
 		if (this.boxWriter.writeBox(u), this.formatOptions.onMoof) {
 			let { data: e, start: t } = this.writer.stopTrackingWrites();
 			this.formatOptions.onMoof(e, t, s);
 		}
 		Y(this.writer.getPos() === a), this.formatOptions.onMdat && this.writer.startTrackingWrites();
-		let d = Tn(l);
+		let d = En(l);
 		d.size = c, this.boxWriter.writeBox(d), this.writer.seek(a + (l ? 16 : 8));
 		for (let e of t) for (let t of e.currentChunk.samples) this.writer.write(t.data), t.data = null;
 		if (this.formatOptions.onMdat) {
@@ -3574,8 +3682,8 @@ var Qr = class extends Oe {
 	}
 	async createFastStartReserveMdat() {
 		Y(this.writer), Y(this.boxWriter), this.ensureOneEnabledTrack();
-		let e = Dn(this), t = this.boxWriter.measureBox(e) + this.computeSampleTableSizeUpperBound() + 4096;
-		Y(this.ftypSize !== null), this.writer.seek(this.ftypSize + t), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = Tn(!0), this.boxWriter.writeBox(this.mdat);
+		let e = On(this), t = this.boxWriter.measureBox(e) + this.computeSampleTableSizeUpperBound() + 4096;
+		Y(this.ftypSize !== null), this.writer.seek(this.ftypSize + t), this.formatOptions.onMdat && this.writer.startTrackingWrites(), this.mdat = En(!0), this.boxWriter.writeBox(this.mdat);
 	}
 	computeSampleTableSizeUpperBound() {
 		Y(this.fastStart === "reserve");
@@ -3625,7 +3733,7 @@ var Qr = class extends Oe {
 			let e = this.trackDatas.filter((e) => e.currentChunk).sort((e, t) => e.currentChunk.startTimestamp - t.currentChunk.startTimestamp);
 			for (let t of e) await this.finalizeCurrentChunk(t);
 			for (let e of this.trackDatas) {
-				let t = li(e);
+				let t = ui(e);
 				if (t > 0) {
 					let n = 0;
 					for (let t of e.samples) n += t.size;
@@ -3644,10 +3752,10 @@ var Qr = class extends Oe {
 			}
 		}
 		if (Y(this.writer), Y(this.boxWriter), this.fastStart === "in-memory") {
-			this.mdat = Tn(!1);
+			this.mdat = En(!1);
 			let e;
 			for (let t = 0; t < 2; t++) {
-				let t = Dn(this), n = this.boxWriter.measureBox(t);
+				let t = On(this), n = this.boxWriter.measureBox(t);
 				e = this.boxWriter.measureBox(this.mdat);
 				let r = this.writer.getPos() + n + e;
 				for (let t of this.finalizedChunks) {
@@ -3658,7 +3766,7 @@ var Qr = class extends Oe {
 				e >= 2 ** 32 && (this.mdat.largeSize = !0);
 			}
 			this.formatOptions.onMoov && this.writer.startTrackingWrites();
-			let t = Dn(this);
+			let t = On(this);
 			if (this.boxWriter.writeBox(t), this.formatOptions.onMoov) {
 				let { data: e, start: t } = this.writer.stopTrackingWrites();
 				this.formatOptions.onMoov(e, t);
@@ -3672,9 +3780,9 @@ var Qr = class extends Oe {
 		} else if (this.isFragmented) {
 			if (this.isCmaf) {
 				let e = this.segmentHeaderSize === null ? 0 : this.writer.getPos() - this.segmentHeaderSize;
-				this.writer.seek(0), this.boxWriter.writeBox(Cn()), this.boxWriter.writeBox(wn(this, e));
+				this.writer.seek(0), this.boxWriter.writeBox(wn()), this.boxWriter.writeBox(Tn(this, e));
 			} else {
-				let e = this.writer.getPos(), t = kr(this.trackDatas);
+				let e = this.writer.getPos(), t = Ar(this.trackDatas);
 				this.boxWriter.writeBox(t);
 				let n = this.writer.getPos() - e;
 				this.writer.seek(this.writer.getPos() - 4), this.boxWriter.writeU32(n);
@@ -3688,12 +3796,12 @@ var Qr = class extends Oe {
 				let { data: e, start: t } = this.writer.stopTrackingWrites();
 				this.formatOptions.onMdat(e, t);
 			}
-			let n = Dn(this);
+			let n = On(this);
 			if (this.fastStart === "reserve") {
 				Y(this.ftypSize !== null);
 				let e = this.boxWriter.offsets.get(this.mdat) - this.ftypSize, t = this.boxWriter.measureBox(n);
 				if (t + 8 > e) throw Error(`The moov box (${t} bytes) plus a free box (8 bytes) exceed the space reserved for them (${e} bytes) with fastStart: 'reserve'. This is a bug; please report it.`);
-				this.writer.seek(this.ftypSize), this.formatOptions.onMoov && this.writer.startTrackingWrites(), this.boxWriter.writeBox(n), this.boxWriter.writeBox(En(e - t));
+				this.writer.seek(this.ftypSize), this.formatOptions.onMoov && this.writer.startTrackingWrites(), this.boxWriter.writeBox(n), this.boxWriter.writeBox(Dn(e - t));
 			} else this.formatOptions.onMoov && this.writer.startTrackingWrites(), this.boxWriter.writeBox(n);
 			if (this.formatOptions.onMoov) {
 				let { data: e, start: t } = this.writer.stopTrackingWrites();
@@ -3702,51 +3810,51 @@ var Qr = class extends Oe {
 		}
 		e();
 	}
-}, di = -(2 ** 15), fi = 2 ** 15 - 1, pi = 6, mi = 5, hi = {
+}, fi = -(2 ** 15), pi = 2 ** 15 - 1, mi = 6, hi = 5, gi = {
 	video: 1,
 	audio: 2,
 	subtitle: 17
-}, gi = class extends tn {
+}, _i = class extends nn {
 	constructor(e, t) {
-		super(e), this.trackDatas = [], this.allTracksKnown = o(), this.segment = null, this.segmentInfo = null, this.seekHead = null, this.tracksElement = null, this.tagsElement = null, this.attachmentsElement = null, this.segmentDuration = null, this.cues = null, this.currentClusterBlocks = [], this.currentClusterStartMsTimestamp = null, this.currentClusterMaxMsTimestamp = null, this.startTimestamp = Infinity, this.endTimestamp = -Infinity, this.warnedAboutTooNegativeTimestamp = !1, this.format = t;
+		super(e), this.trackDatas = [], this.allTracksKnown = et(), this.segment = null, this.segmentInfo = null, this.seekHead = null, this.tracksElement = null, this.tagsElement = null, this.attachmentsElement = null, this.segmentDuration = null, this.cues = null, this.currentClusterBlocks = [], this.currentClusterStartMsTimestamp = null, this.currentClusterMaxMsTimestamp = null, this.startTimestamp = Infinity, this.endTimestamp = -Infinity, this.warnedAboutTooNegativeTimestamp = !1, this.format = t;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
-		this.writer = await this.output._getRootWriter(!!this.format._options.appendOnly), this.ebmlWriter = new At(this.writer), this.writeEBMLHeader(), this.createSegmentInfo(), this.createCues(), await this.writer.flush();
+		this.writer = await this.output._getRootWriter(!!this.format._options.appendOnly), this.ebmlWriter = new pt(this.writer), this.writeEBMLHeader(), this.createSegmentInfo(), this.createCues(), await this.writer.flush();
 		for (let e of this.output.tracks) e.isVideoTrack() && e.metadata.decoderConfig ? this.getVideoTrackData(e, e.metadata.primingPacket ?? null, { decoderConfig: e.metadata.decoderConfig }) : e.isAudioTrack() && e.metadata.decoderConfig && this.getAudioTrackData(e, e.metadata.primingPacket ?? null, { decoderConfig: e.metadata.decoderConfig });
 		e();
 	}
 	writeEBMLHeader() {
 		this.format._options.onEbmlHeader && this.writer.startTrackingWrites();
 		let e = {
-			id: z.EBML,
+			id: r.EBML,
 			data: [
 				{
-					id: z.EBMLVersion,
+					id: r.EBMLVersion,
 					data: 1
 				},
 				{
-					id: z.EBMLReadVersion,
+					id: r.EBMLReadVersion,
 					data: 1
 				},
 				{
-					id: z.EBMLMaxIDLength,
+					id: r.EBMLMaxIDLength,
 					data: 4
 				},
 				{
-					id: z.EBMLMaxSizeLength,
+					id: r.EBMLMaxSizeLength,
 					data: 8
 				},
 				{
-					id: z.DocType,
-					data: this.format instanceof ki ? "webm" : "matroska"
+					id: r.DocType,
+					data: this.format instanceof Ai ? "webm" : "matroska"
 				},
 				{
-					id: z.DocTypeVersion,
+					id: r.DocTypeVersion,
 					data: 4
 				},
 				{
-					id: z.DocTypeReadVersion,
+					id: r.DocTypeReadVersion,
 					data: 2
 				}
 			]
@@ -3768,200 +3876,200 @@ var Qr = class extends Oe {
 			73,
 			169,
 			102
-		]), r = new Uint8Array([
+		]), i = new Uint8Array([
 			22,
 			84,
 			174,
 			107
-		]), i = new Uint8Array([
+		]), a = new Uint8Array([
 			25,
 			65,
 			164,
 			105
-		]), a = new Uint8Array([
+		]), o = new Uint8Array([
 			18,
 			84,
 			195,
 			103
-		]), o = {
-			id: z.SeekHead,
+		]), s = {
+			id: r.SeekHead,
 			data: [
 				{
-					id: z.Seek,
+					id: r.Seek,
 					data: [{
-						id: z.SeekID,
+						id: r.SeekID,
 						data: n
 					}, {
-						id: z.SeekPosition,
+						id: r.SeekPosition,
 						size: 5,
 						data: e ? this.ebmlWriter.offsets.get(this.segmentInfo) - this.segmentDataOffset : 0
 					}]
 				},
 				{
-					id: z.Seek,
+					id: r.Seek,
 					data: [{
-						id: z.SeekID,
-						data: r
+						id: r.SeekID,
+						data: i
 					}, {
-						id: z.SeekPosition,
+						id: r.SeekPosition,
 						size: 5,
 						data: e ? this.ebmlWriter.offsets.get(this.tracksElement) - this.segmentDataOffset : 0
 					}]
 				},
 				this.attachmentsElement ? {
-					id: z.Seek,
+					id: r.Seek,
 					data: [{
-						id: z.SeekID,
-						data: i
+						id: r.SeekID,
+						data: a
 					}, {
-						id: z.SeekPosition,
+						id: r.SeekPosition,
 						size: 5,
 						data: e ? this.ebmlWriter.offsets.get(this.attachmentsElement) - this.segmentDataOffset : 0
 					}]
 				} : null,
 				this.tagsElement ? {
-					id: z.Seek,
+					id: r.Seek,
 					data: [{
-						id: z.SeekID,
-						data: a
+						id: r.SeekID,
+						data: o
 					}, {
-						id: z.SeekPosition,
+						id: r.SeekPosition,
 						size: 5,
 						data: e ? this.ebmlWriter.offsets.get(this.tagsElement) - this.segmentDataOffset : 0
 					}]
 				} : null,
 				{
-					id: z.Seek,
+					id: r.Seek,
 					data: [{
-						id: z.SeekID,
+						id: r.SeekID,
 						data: t
 					}, {
-						id: z.SeekPosition,
+						id: r.SeekPosition,
 						size: 5,
 						data: e ? this.ebmlWriter.offsets.get(this.cues) - this.segmentDataOffset : 0
 					}]
 				}
 			]
 		};
-		this.seekHead = o;
+		this.seekHead = s;
 	}
 	createSegmentInfo() {
 		let e = {
-			id: z.Duration,
-			data: new Se(0)
+			id: r.Duration,
+			data: new le(0)
 		};
 		this.segmentDuration = e;
 		let t = this.output._metadataTags.creationTime === void 0 ? /* @__PURE__ */ new Date() : this.output._metadataTags.creationTime, n = null;
 		if (t) {
-			let e = 1000000n * BigInt(t.getTime() - pt);
+			let e = 1000000n * BigInt(t.getTime() - wt);
 			if (BigInt.asIntN(64, e) !== e) throw Error("creationTime is out of the range representable by Matroska files.");
 			n = {
-				id: z.DateUTC,
+				id: r.DateUTC,
 				size: 8,
 				data: BigInt.asUintN(64, e)
 			};
 		}
-		let r = {
-			id: z.Info,
+		let i = {
+			id: r.Info,
 			data: [
 				{
-					id: z.TimestampScale,
+					id: r.TimestampScale,
 					data: 1e6
 				},
 				this.format._options.appendOnly ? null : e,
 				n,
 				{
-					id: z.MuxingApp,
-					data: B
+					id: r.MuxingApp,
+					data: Jt
 				},
 				{
-					id: z.WritingApp,
-					data: B
+					id: r.WritingApp,
+					data: Jt
 				}
 			]
 		};
-		this.segmentInfo = r;
+		this.segmentInfo = i;
 	}
 	createTracks() {
 		let e = {
-			id: z.Tracks,
+			id: r.Tracks,
 			data: []
 		};
 		this.tracksElement = e;
 		for (let t of this.trackDatas) {
-			let n = be[t.track.source._codec];
+			let n = ye[t.track.source._codec];
 			Y(n), t.type === "audio" && t.track.source._codec === "dts" && (t.info.decoderConfig.codec === "dtse" ? n = "A_DTS/EXPRESS" : t.info.decoderConfig.codec === "dtsl" && (n = "A_DTS/LOSSLESS"));
-			let r = 0;
+			let i = 0;
 			if (t.type === "audio") {
 				let e = Ve(t.track.source._codec, t.info.decoderConfig);
-				r = Math.round(1e9 * e);
+				i = Math.round(1e9 * e);
 			}
 			e.data.push({
-				id: z.TrackEntry,
+				id: r.TrackEntry,
 				data: [
 					{
-						id: z.TrackNumber,
+						id: r.TrackNumber,
 						data: t.track.id
 					},
 					{
-						id: z.TrackUID,
+						id: r.TrackUID,
 						data: t.track.id
 					},
 					{
-						id: z.TrackType,
-						data: hi[t.type]
+						id: r.TrackType,
+						data: gi[t.type]
 					},
 					t.track.metadata.disposition?.default === !1 ? {
-						id: z.FlagDefault,
+						id: r.FlagDefault,
 						data: 0
 					} : null,
 					t.track.metadata.disposition?.forced ? {
-						id: z.FlagForced,
+						id: r.FlagForced,
 						data: 1
 					} : null,
 					t.track.metadata.disposition?.hearingImpaired ? {
-						id: z.FlagHearingImpaired,
+						id: r.FlagHearingImpaired,
 						data: 1
 					} : null,
 					t.track.metadata.disposition?.visuallyImpaired ? {
-						id: z.FlagVisualImpaired,
+						id: r.FlagVisualImpaired,
 						data: 1
 					} : null,
 					t.track.metadata.disposition?.original ? {
-						id: z.FlagOriginal,
+						id: r.FlagOriginal,
 						data: 1
 					} : null,
 					t.track.metadata.disposition?.commentary ? {
-						id: z.FlagCommentary,
+						id: r.FlagCommentary,
 						data: 1
 					} : null,
 					{
-						id: z.FlagLacing,
+						id: r.FlagLacing,
 						data: 0
 					},
 					{
-						id: z.Language,
+						id: r.Language,
 						data: t.track.metadata.languageCode ?? "und"
 					},
 					{
-						id: z.CodecID,
+						id: r.CodecID,
 						data: n
 					},
 					t.codecPrivate ? {
-						id: z.CodecPrivate,
-						data: Kt(t.codecPrivate)
+						id: r.CodecPrivate,
+						data: l(t.codecPrivate)
 					} : null,
 					t.type === "audio" && t.info.codecDelay ? {
-						id: z.CodecDelay,
+						id: r.CodecDelay,
 						data: Math.round(1e9 * t.info.codecDelay)
 					} : null,
-					r > 0 ? {
-						id: z.SeekPreRoll,
-						data: r
+					i > 0 ? {
+						id: r.SeekPreRoll,
+						data: i
 					} : null,
 					t.track.metadata.name === void 0 ? null : {
-						id: z.Name,
-						data: new Be(t.track.metadata.name)
+						id: r.Name,
+						data: new At(t.track.metadata.name)
 					},
 					t.type === "video" ? this.videoSpecificTrackInfo(t) : null,
 					t.type === "audio" ? this.audioSpecificTrackInfo(t) : null,
@@ -3971,103 +4079,103 @@ var Qr = class extends Oe {
 		}
 	}
 	videoSpecificTrackInfo(e) {
-		let { frameRate: t, transformationMatrix: n } = e.track.metadata, r = [t ? {
-			id: z.DefaultDuration,
+		let { frameRate: t, transformationMatrix: n } = e.track.metadata, i = [t ? {
+			id: r.DefaultDuration,
 			data: 1e9 / t
-		} : null], i, a, o;
+		} : null], a, s, c;
 		if (n) {
-			i = Pt(n);
-			let e = R(et(-i), n);
-			a = Math.sign(e[0]), o = Math.sign(e[4]), o === -1 && (o = 1, a = -a, i = rt(i + 180));
-		} else i = e.track.metadata.rotation ?? 0, a = e.track.metadata.flip ? -1 : 1, o = 1;
-		let s = i ? rt(a === -1 ? i : -i) : 0, c = Math.round(Math.acos(a) * Pe), l = Math.round(Math.acos(o) * Pe), u = !!e.info.aspectRatio && e.info.aspectRatio.num * e.info.height !== e.info.aspectRatio.den * e.info.width, d = e.info.decoderConfig.colorSpace, f = {
-			id: z.Video,
+			a = Wt(n);
+			let e = rt(F(-a), n);
+			s = Math.sign(e[0]), c = Math.sign(e[4]), c === -1 && (c = 1, s = -s, a = o(a + 180));
+		} else a = e.track.metadata.rotation ?? 0, s = e.track.metadata.flip ? -1 : 1, c = 1;
+		let l = a ? o(s === -1 ? a : -a) : 0, u = Math.round(Math.acos(s) * ot), d = Math.round(Math.acos(c) * ot), f = !!e.info.aspectRatio && e.info.aspectRatio.num * e.info.height !== e.info.aspectRatio.den * e.info.width, p = e.info.decoderConfig.colorSpace, m = {
+			id: r.Video,
 			data: [
 				{
-					id: z.PixelWidth,
+					id: r.PixelWidth,
 					data: e.info.width
 				},
 				{
-					id: z.PixelHeight,
+					id: r.PixelHeight,
 					data: e.info.height
 				},
-				u ? {
-					id: z.DisplayWidth,
+				f ? {
+					id: r.DisplayWidth,
 					data: e.info.aspectRatio.num
 				} : null,
-				u ? {
-					id: z.DisplayHeight,
+				f ? {
+					id: r.DisplayHeight,
 					data: e.info.aspectRatio.den
 				} : null,
-				u ? {
-					id: z.DisplayUnit,
+				f ? {
+					id: r.DisplayUnit,
 					data: 3
 				} : null,
 				e.info.alphaMode ? {
-					id: z.AlphaMode,
+					id: r.AlphaMode,
 					data: 1
 				} : null,
-				Je(d) ? null : {
-					id: z.Colour,
+				Ge(p) ? null : {
+					id: r.Colour,
 					data: [
 						{
-							id: z.MatrixCoefficients,
-							data: d?.matrix == null ? 2 : Et[d.matrix]
+							id: r.MatrixCoefficients,
+							data: p?.matrix == null ? 2 : Fe[p.matrix]
 						},
 						{
-							id: z.TransferCharacteristics,
-							data: d?.transfer == null ? 2 : ot[d.transfer]
+							id: r.TransferCharacteristics,
+							data: p?.transfer == null ? 2 : Mt[p.transfer]
 						},
 						{
-							id: z.Primaries,
-							data: d?.primaries == null ? 2 : Ze[d.primaries]
+							id: r.Primaries,
+							data: p?.primaries == null ? 2 : ke[p.primaries]
 						},
 						{
-							id: z.Range,
-							data: d?.fullRange == null ? 0 : d.fullRange ? 2 : 1
+							id: r.Range,
+							data: p?.fullRange == null ? 0 : p.fullRange ? 2 : 1
 						}
 					]
 				},
-				s || c || l ? {
-					id: z.Projection,
+				l || u || d ? {
+					id: r.Projection,
 					data: [
 						{
-							id: z.ProjectionType,
+							id: r.ProjectionType,
 							data: 0
 						},
-						c ? {
-							id: z.ProjectionPoseYaw,
-							data: new J(c)
+						u ? {
+							id: r.ProjectionPoseYaw,
+							data: new Ce(u)
+						} : null,
+						d ? {
+							id: r.ProjectionPosePitch,
+							data: new Ce(d)
 						} : null,
 						l ? {
-							id: z.ProjectionPosePitch,
-							data: new J(l)
-						} : null,
-						s ? {
-							id: z.ProjectionPoseRoll,
-							data: new J((s + 180) % 360 - 180)
+							id: r.ProjectionPoseRoll,
+							data: new Ce((l + 180) % 360 - 180)
 						} : null
 					]
 				} : null
 			]
 		};
-		return r.push(f), r;
+		return i.push(m), i;
 	}
 	audioSpecificTrackInfo(e) {
 		let t = Tt.includes(e.track.source._codec) ? ct(e.track.source._codec) : null;
 		return [{
-			id: z.Audio,
+			id: r.Audio,
 			data: [
 				{
-					id: z.SamplingFrequency,
-					data: new J(e.info.sampleRate)
+					id: r.SamplingFrequency,
+					data: new Ce(e.info.sampleRate)
 				},
 				{
-					id: z.Channels,
+					id: r.Channels,
 					data: e.info.numberOfChannels
 				},
 				t ? {
-					id: z.BitDepth,
+					id: r.BitDepth,
 					data: 8 * t.sampleSize
 				} : null
 			]
@@ -4079,78 +4187,78 @@ var Qr = class extends Oe {
 	maybeCreateTags() {
 		let e = [], t = (t, n) => {
 			e.push({
-				id: z.SimpleTag,
+				id: r.SimpleTag,
 				data: [{
-					id: z.TagName,
-					data: new Be(t)
+					id: r.TagName,
+					data: new At(t)
 				}, typeof n == "string" ? {
-					id: z.TagString,
-					data: new Be(n)
+					id: r.TagString,
+					data: new At(n)
 				} : {
-					id: z.TagBinary,
+					id: r.TagBinary,
 					data: n
 				}]
 			});
-		}, n = this.output._metadataTags, r = /* @__PURE__ */ new Set();
-		for (let { key: e, value: i } of v(n)) switch (e) {
+		}, n = this.output._metadataTags, i = /* @__PURE__ */ new Set();
+		for (let { key: e, value: r } of h(n)) switch (e) {
 			case "title":
-				t("TITLE", i), r.add("TITLE");
+				t("TITLE", r), i.add("TITLE");
 				break;
 			case "description":
-				t("DESCRIPTION", i), r.add("DESCRIPTION");
+				t("DESCRIPTION", r), i.add("DESCRIPTION");
 				break;
 			case "artist":
-				t("ARTIST", i), r.add("ARTIST");
+				t("ARTIST", r), i.add("ARTIST");
 				break;
 			case "album":
-				t("ALBUM", i), r.add("ALBUM");
+				t("ALBUM", r), i.add("ALBUM");
 				break;
 			case "albumArtist":
-				t("ALBUM_ARTIST", i), r.add("ALBUM_ARTIST");
+				t("ALBUM_ARTIST", r), i.add("ALBUM_ARTIST");
 				break;
 			case "genre":
-				t("GENRE", i), r.add("GENRE");
+				t("GENRE", r), i.add("GENRE");
 				break;
 			case "beatsPerMinute":
-				t("BPM", i.toString()), r.add("BPM");
+				t("BPM", r.toString()), i.add("BPM");
 				break;
 			case "comment":
-				t("COMMENT", i), r.add("COMMENT");
+				t("COMMENT", r), i.add("COMMENT");
 				break;
 			case "lyrics":
-				t("LYRICS", i), r.add("LYRICS");
+				t("LYRICS", r), i.add("LYRICS");
 				break;
 			case "date":
-				t("DATE", i.toISOString().slice(0, 10)), r.add("DATE");
+				t("DATE", r.toISOString().slice(0, 10)), i.add("DATE");
 				break;
 			case "trackNumber":
-				t("PART_NUMBER", n.tracksTotal === void 0 ? i.toString() : `${i}/${n.tracksTotal}`), r.add("PART_NUMBER");
+				t("PART_NUMBER", n.tracksTotal === void 0 ? r.toString() : `${r}/${n.tracksTotal}`), i.add("PART_NUMBER");
 				break;
 			case "discNumber":
-				t("DISC", n.discsTotal === void 0 ? i.toString() : `${i}/${n.discsTotal}`), r.add("DISC");
+				t("DISC", n.discsTotal === void 0 ? r.toString() : `${r}/${n.discsTotal}`), i.add("DISC");
 				break;
 			case "tracksTotal":
 			case "discsTotal": break;
 			case "images":
 			case "raw":
 			case "creationTime": break;
-			default: Le(e);
+			default: He(e);
 		}
 		if (n.raw) for (let e in n.raw) {
-			let i = n.raw[e];
-			i == null || r.has(e) || (typeof i == "string" || i instanceof Uint8Array) && t(e, i);
+			let r = n.raw[e];
+			r == null || i.has(e) || (typeof r == "string" || r instanceof Uint8Array) && t(e, r);
 		}
 		e.length !== 0 && (this.tagsElement = {
-			id: z.Tags,
+			id: r.Tags,
 			data: [{
-				id: z.Tag,
+				id: r.Tag,
 				data: [{
-					id: z.Targets,
+					id: r.Targets,
 					data: [{
-						id: z.TargetTypeValue,
+						id: r.TargetTypeValue,
 						data: 50
 					}, {
-						id: z.TargetType,
+						id: r.TargetType,
 						data: "MOVIE"
 					}]
 				}, ...e]
@@ -4158,77 +4266,77 @@ var Qr = class extends Oe {
 		});
 	}
 	maybeCreateAttachments() {
-		let e = this.output._metadataTags, t = [], n = /* @__PURE__ */ new Set(), r = e.images ?? [];
-		for (let e of r) {
-			let r = e.name;
-			r === void 0 && (r = (e.kind === "coverFront" ? "cover" : e.kind === "coverBack" ? "back" : "image") + (Ut(e.mimeType) ?? ""));
-			let i;
+		let e = this.output._metadataTags, t = [], n = /* @__PURE__ */ new Set(), i = e.images ?? [];
+		for (let e of i) {
+			let i = e.name;
+			i === void 0 && (i = (e.kind === "coverFront" ? "cover" : e.kind === "coverBack" ? "back" : "image") + (Me(e.mimeType) ?? ""));
+			let a;
 			for (;;) {
-				i = 0n;
-				for (let e = 0; e < 8; e++) i <<= 8n, i |= BigInt(Math.floor(Math.random() * 256));
-				if (i !== 0n && !n.has(i)) break;
+				a = 0n;
+				for (let e = 0; e < 8; e++) a <<= 8n, a |= BigInt(Math.floor(Math.random() * 256));
+				if (a !== 0n && !n.has(a)) break;
 			}
-			n.add(i), t.push({
-				id: z.AttachedFile,
+			n.add(a), t.push({
+				id: r.AttachedFile,
 				data: [
 					e.description === void 0 ? null : {
-						id: z.FileDescription,
-						data: new Be(e.description)
+						id: r.FileDescription,
+						data: new At(e.description)
 					},
 					{
-						id: z.FileName,
-						data: new Be(r)
+						id: r.FileName,
+						data: new At(i)
 					},
 					{
-						id: z.FileMediaType,
+						id: r.FileMediaType,
 						data: e.mimeType
 					},
 					{
-						id: z.FileData,
+						id: r.FileData,
 						data: e.data
 					},
 					{
-						id: z.FileUID,
-						data: i
+						id: r.FileUID,
+						data: a
 					}
 				]
 			});
 		}
-		for (let [n, i] of Object.entries(e.raw ?? {})) i instanceof Ce && /^\d+$/.test(n) && (r.find((e) => e.mimeType === i.mimeType && l(e.data, i.data)) || t.push({
-			id: z.AttachedFile,
+		for (let [n, a] of Object.entries(e.raw ?? {})) a instanceof ue && /^\d+$/.test(n) && (i.find((e) => e.mimeType === a.mimeType && q(e.data, a.data)) || t.push({
+			id: r.AttachedFile,
 			data: [
-				i.description === void 0 ? null : {
-					id: z.FileDescription,
-					data: new Be(i.description)
+				a.description === void 0 ? null : {
+					id: r.FileDescription,
+					data: new At(a.description)
 				},
 				{
-					id: z.FileName,
-					data: new Be(i.name ?? "")
+					id: r.FileName,
+					data: new At(a.name ?? "")
 				},
 				{
-					id: z.FileMediaType,
-					data: i.mimeType ?? ""
+					id: r.FileMediaType,
+					data: a.mimeType ?? ""
 				},
 				{
-					id: z.FileData,
-					data: i.data
+					id: r.FileData,
+					data: a.data
 				},
 				{
-					id: z.FileUID,
+					id: r.FileUID,
 					data: BigInt(n)
 				}
 			]
 		}));
 		t.length !== 0 && (this.attachmentsElement = {
-			id: z.Attachments,
+			id: r.Attachments,
 			data: t
 		});
 	}
 	createSegment() {
 		this.createTracks(), this.maybeCreateTags(), this.maybeCreateAttachments(), this.maybeCreateSeekHead(!1);
 		let e = {
-			id: z.Segment,
-			size: this.format._options.appendOnly ? -1 : pi,
+			id: r.Segment,
+			size: this.format._options.appendOnly ? -1 : mi,
 			data: [
 				this.seekHead,
 				this.segmentInfo,
@@ -4244,7 +4352,7 @@ var Qr = class extends Oe {
 	}
 	createCues() {
 		this.cues = {
-			id: z.Cues,
+			id: r.Cues,
 			data: []
 		};
 	}
@@ -4258,8 +4366,8 @@ var Qr = class extends Oe {
 	async getMimeType() {
 		await this.allTracksKnown.promise;
 		let e = this.trackDatas.map((e) => e.type === "video" || e.type === "audio" ? e.info.decoderConfig.codec : { webvtt: "wvtt" }[e.track.source._codec]);
-		return A({
-			isWebM: this.format instanceof ki,
+		return xe({
+			isWebM: this.format instanceof Ai,
 			hasVideo: this.trackDatas.some((e) => e.type === "video"),
 			hasAudio: this.trackDatas.some((e) => e.type === "audio"),
 			codecStrings: e
@@ -4268,8 +4376,8 @@ var Qr = class extends Oe {
 	getVideoTrackData(e, t, n) {
 		let r = this.trackDatas.find((t) => t.track === e);
 		if (r) return r;
-		we(n, e.source._codec), Y(n), Y(n.decoderConfig), Y(n.decoderConfig.codedWidth !== void 0), Y(n.decoderConfig.codedHeight !== void 0);
-		let i = n.decoderConfig.displayAspectWidth, a = n.decoderConfig.displayAspectHeight, o = i === void 0 || a === void 0 ? null : x({
+		Te(n, e.source._codec), Y(n), Y(n.decoderConfig), Y(n.decoderConfig.codedWidth !== void 0), Y(n.decoderConfig.codedHeight !== void 0);
+		let i = n.decoderConfig.displayAspectWidth, a = n.decoderConfig.displayAspectHeight, o = i === void 0 || a === void 0 ? null : k({
 			num: i,
 			den: a
 		}), s = {
@@ -4287,7 +4395,7 @@ var Qr = class extends Oe {
 			codecPrivate: n.decoderConfig.description ?? null,
 			closed: !1
 		};
-		return e.source._codec === "vp9" ? s.codecPrivate = new Uint8Array(Ie(s.info.decoderConfig.codec)) : e.source._codec === "av1" ? s.codecPrivate = new Uint8Array(jt(s.info.decoderConfig.codec)) : e.source._codec === "prores" && (s.codecPrivate = O.encode(n.decoderConfig.codec)), this.trackDatas.push(s), this.trackDatas.sort((e, t) => e.track.id - t.track.id), this.allTracksAreKnown() && this.allTracksKnown.resolve(), s;
+		return e.source._codec === "vp9" ? s.codecPrivate = new Uint8Array(Le(s.info.decoderConfig.codec)) : e.source._codec === "av1" ? s.codecPrivate = new Uint8Array(jt(s.info.decoderConfig.codec)) : e.source._codec === "prores" && (s.codecPrivate = P.encode(n.decoderConfig.codec)), this.trackDatas.push(s), this.trackDatas.sort((e, t) => e.track.id - t.track.id), this.allTracksAreKnown() && this.allTracksKnown.resolve(), s;
 	}
 	getAudioTrackData(e, t, n) {
 		let r = this.trackDatas.find((t) => t.track === e);
@@ -4296,11 +4404,11 @@ var Qr = class extends Oe {
 		let i = { ...n.decoderConfig }, a = !1;
 		if (e.source._codec === "aac" && !i.description) {
 			if (!t) throw Error("No AAC description provided; you must therefore provide a priming packet.");
-			let e = c(L.tempFromBytes(t.data));
+			let e = ge(B.tempFromBytes(t.data));
 			if (!e) throw Error("Couldn't parse ADTS header from the AAC packet. Make sure the packets are in ADTS format (as specified in ISO 13818-7) when not providing a description, or provide a description (must be an AudioSpecificConfig as specified in ISO 14496-3) and ensure the packets are raw AAC data.");
-			let n = j[e.samplingFrequencyIndex], r = xt[e.channelConfiguration];
+			let n = Se[e.samplingFrequencyIndex], r = M[e.channelConfiguration];
 			if (n === void 0 || r === void 0) throw Error("Invalid ADTS frame header.");
-			i.description = xe({
+			i.description = be({
 				objectType: e.objectType,
 				outputSampleRate: n,
 				outputNumberOfChannels: r
@@ -4333,7 +4441,7 @@ var Qr = class extends Oe {
 			info: { config: t.config },
 			chunkQueue: [],
 			lastWrittenMsTimestamp: null,
-			codecPrivate: O.encode(t.config.description),
+			codecPrivate: P.encode(t.config.description),
 			closed: !1
 		};
 		return this.trackDatas.push(r), this.trackDatas.sort((e, t) => e.track.id - t.track.id), this.allTracksAreKnown() && this.allTracksKnown.resolve(), r;
@@ -4351,7 +4459,7 @@ var Qr = class extends Oe {
 			let a = t.type === "key";
 			this.validateTimestamp(r.track, t.timestamp, a);
 			let o = t.timestamp, s = t.duration;
-			e.metadata.frameRate !== void 0 && (o = N(o, e.metadata.frameRate), s = N(s, e.metadata.frameRate));
+			e.metadata.frameRate !== void 0 && (o = R(o, e.metadata.frameRate), s = R(s, e.metadata.frameRate));
 			let c = r.info.alphaMode ? t.sideData.alpha ?? null : null, l = this.createInternalChunk(i, o, s, t.type, c);
 			e.source._codec === "vp9" && this.fixVP9ColorSpace(r, l), r.chunkQueue.push(l), await this.interleaveChunks();
 		} finally {
@@ -4363,7 +4471,7 @@ var Qr = class extends Oe {
 		try {
 			let r = this.getAudioTrackData(e, t, n), i = t.data;
 			if (r.info.requiresAdtsStripping) {
-				let e = c(L.tempFromBytes(i));
+				let e = ge(B.tempFromBytes(i));
 				if (!e) throw Error("Expected ADTS frame, didn't get one.");
 				let t = e.crcCheck === null ? 7 : 9;
 				i = i.subarray(t);
@@ -4382,8 +4490,8 @@ var Qr = class extends Oe {
 			let r = this.getSubtitleTrackData(e, n);
 			this.validateTimestamp(r.track, t.timestamp, !0);
 			let i = t.text, a = Math.round(t.timestamp * 1e3);
-			Zt.lastIndex = 0, i = i.replace(Zt, (e) => `<${en($t(e.slice(1, -1)) - a)}>`);
-			let o = O.encode(i), s = `${t.settings ?? ""}\n${t.identifier ?? ""}\n${t.notes ?? ""}`, c = this.createInternalChunk(o, t.timestamp, t.duration, "key", s.trim() ? O.encode(s) : null);
+			Qt.lastIndex = 0, i = i.replace(Qt, (e) => `<${tn(en(e.slice(1, -1)) - a)}>`);
+			let o = P.encode(i), s = `${t.settings ?? ""}\n${t.identifier ?? ""}\n${t.notes ?? ""}`, c = this.createInternalChunk(o, t.timestamp, t.duration, "key", s.trim() ? P.encode(s) : null);
 			r.chunkQueue.push(c), await this.interleaveChunks();
 		} finally {
 			r();
@@ -4406,7 +4514,7 @@ var Qr = class extends Oe {
 	}
 	fixVP9ColorSpace(e, t) {
 		if (t.type !== "key" || !e.info.decoderConfig.colorSpace || !e.info.decoderConfig.colorSpace.matrix) return;
-		let n = new ye(t.data);
+		let n = new we(t.data);
 		n.skipBits(2);
 		let r = n.readBits(1), i = (n.readBits(1) << 1) + r;
 		if (i === 3 && n.skipBits(1), n.readBits(1) || n.readBits(1) !== 0 || (n.skipBits(2), n.readBits(24) !== 4817730)) return;
@@ -4417,7 +4525,7 @@ var Qr = class extends Oe {
 			bt470bg: 1,
 			smpte170m: 3
 		}[e.info.decoderConfig.colorSpace.matrix];
-		ge(t.data, n.pos, n.pos + 3, a);
+		E(t.data, n.pos, n.pos + 3, a);
 	}
 	createInternalChunk(e, t, n, r, i = null) {
 		return {
@@ -4439,12 +4547,12 @@ var Qr = class extends Oe {
 		else {
 			Y(this.currentClusterMaxMsTimestamp !== null);
 			let e = n - this.currentClusterStartMsTimestamp;
-			i = r && n > this.currentClusterMaxMsTimestamp && e >= 1e3 * (this.format._options.minimumClusterDuration ?? 1) || e > fi;
+			i = r && n > this.currentClusterMaxMsTimestamp && e >= 1e3 * (this.format._options.minimumClusterDuration ?? 1) || e > pi;
 		}
-		if (i && this.startNewCluster(n), n - this.currentClusterStartMsTimestamp < di) {
+		if (i && this.startNewCluster(n), n - this.currentClusterStartMsTimestamp < fi) {
 			if (!this.warnedAboutTooNegativeTimestamp) {
-				let e = this.format instanceof ki ? "WebM" : "Matroska";
-				ft._warn(`Packets had to be discarded because their timestamp is too negative to represent in ${e}.`), this.warnedAboutTooNegativeTimestamp = !0;
+				let e = this.format instanceof Ai ? "WebM" : "Matroska";
+				Ct._warn(`Packets had to be discarded because their timestamp is too negative to represent in ${e}.`), this.warnedAboutTooNegativeTimestamp = !0;
 			}
 		} else this.currentClusterBlocks.push({
 			trackData: e,
@@ -4462,44 +4570,44 @@ var Qr = class extends Oe {
 		Y(this.currentClusterStartMsTimestamp !== null);
 		let e = this.currentClusterStartMsTimestamp, t = /* @__PURE__ */ new Map(), n = /* @__PURE__ */ new Map();
 		for (let e of this.currentClusterBlocks) e.chunk.type === "key" && !t.has(e.trackData) && t.set(e.trackData, e), n.set(e.trackData, e);
-		let r = /* @__PURE__ */ new Map();
-		for (let t of this.currentClusterBlocks) r.set(t, this.createBlockElement(t, e, n.get(t.trackData) === t));
-		let i = {
-			id: z.Cluster,
-			size: this.format._options.appendOnly ? -1 : mi,
+		let i = /* @__PURE__ */ new Map();
+		for (let t of this.currentClusterBlocks) i.set(t, this.createBlockElement(t, e, n.get(t.trackData) === t));
+		let a = {
+			id: r.Cluster,
+			size: this.format._options.appendOnly ? -1 : hi,
 			data: [{
-				id: z.Timestamp,
+				id: r.Timestamp,
 				data: e
-			}, ...r.values()]
+			}, ...i.values()]
 		};
-		if (this.format._options.onCluster && this.writer.startTrackingWrites(), this.ebmlWriter.writeEBML(i), this.currentClusterBlocks = [], this.format._options.onCluster) {
+		if (this.format._options.onCluster && this.writer.startTrackingWrites(), this.ebmlWriter.writeEBML(a), this.currentClusterBlocks = [], this.format._options.onCluster) {
 			let { data: t, start: n } = this.writer.stopTrackingWrites();
 			this.format._options.onCluster(t, n, e / 1e3);
 		}
-		let a = this.ebmlWriter.offsets.get(i) - this.segmentDataOffset, o = this.ebmlWriter.dataOffsets.get(i), s = /* @__PURE__ */ new Map();
-		for (let e of t.values()) s.has(e.msTimestamp) || s.set(e.msTimestamp, []), s.get(e.msTimestamp).push(e);
-		let c = [...s.entries()].sort((e, t) => e[0] - t[0]);
-		for (let [e, t] of c) Y(this.cues), this.cues.data.push({
-			id: z.CuePoint,
+		let o = this.ebmlWriter.offsets.get(a) - this.segmentDataOffset, s = this.ebmlWriter.dataOffsets.get(a), c = /* @__PURE__ */ new Map();
+		for (let e of t.values()) c.has(e.msTimestamp) || c.set(e.msTimestamp, []), c.get(e.msTimestamp).push(e);
+		let l = [...c.entries()].sort((e, t) => e[0] - t[0]);
+		for (let [e, t] of l) Y(this.cues), this.cues.data.push({
+			id: r.CuePoint,
 			data: [{
-				id: z.CueTime,
+				id: r.CueTime,
 				data: Math.max(0, e)
 			}, ...t.map((e) => {
-				let t = this.ebmlWriter.offsets.get(r.get(e));
+				let t = this.ebmlWriter.offsets.get(i.get(e));
 				return {
-					id: z.CueTrackPositions,
+					id: r.CueTrackPositions,
 					data: [
 						{
-							id: z.CueTrack,
+							id: r.CueTrack,
 							data: e.trackData.track.id
 						},
 						{
-							id: z.CueClusterPosition,
-							data: a
+							id: r.CueClusterPosition,
+							data: o
 						},
 						{
-							id: z.CueRelativePosition,
-							data: t - o
+							id: r.CueRelativePosition,
+							data: t - s
 						}
 					]
 				};
@@ -4511,36 +4619,36 @@ var Qr = class extends Oe {
 		c.setUint8(0, 128 | i.track.id), c.setInt16(1, o - t, !1);
 		let l = Math.round(1e3 * a.duration);
 		return a.additions || i.type === "subtitle" || n && l > 0 ? {
-			id: z.BlockGroup,
+			id: r.BlockGroup,
 			data: [
 				{
-					id: z.Block,
+					id: r.Block,
 					data: [s, a.data]
 				},
 				a.type === "delta" ? {
-					id: z.ReferenceBlock,
-					data: new r(e.previousMsTimestamp - o)
+					id: r.ReferenceBlock,
+					data: new Be(e.previousMsTimestamp - o)
 				} : null,
 				a.additions ? {
-					id: z.BlockAdditions,
+					id: r.BlockAdditions,
 					data: [{
-						id: z.BlockMore,
+						id: r.BlockMore,
 						data: [{
-							id: z.BlockAddID,
+							id: r.BlockAddID,
 							data: 1
 						}, {
-							id: z.BlockAdditional,
+							id: r.BlockAdditional,
 							data: a.additions
 						}]
 					}]
 				} : null,
 				l > 0 ? {
-					id: z.BlockDuration,
+					id: r.BlockDuration,
 					data: l
 				} : null
 			]
 		} : (c.setUint8(3, Number(a.type === "key") << 7), {
-			id: z.SimpleBlock,
+			id: r.SimpleBlock,
 			data: [s, a.data]
 		});
 	}
@@ -4554,13 +4662,13 @@ var Qr = class extends Oe {
 		for (let e of this.trackDatas) e.closed = !0;
 		if (this.segment || this.createSegment(), await this.interleaveChunks(!0), this.currentClusterStartMsTimestamp !== null && this.writeCurrentCluster(), Y(this.cues), this.ebmlWriter.writeEBML(this.cues), !this.format._options.appendOnly) {
 			let e = this.writer.getPos() - this.segmentDataOffset;
-			this.writer.seek(this.ebmlWriter.offsets.get(this.segment) + 4), this.ebmlWriter.writeVarInt(e, pi);
+			this.writer.seek(this.ebmlWriter.offsets.get(this.segment) + 4), this.ebmlWriter.writeVarInt(e, mi);
 			let t = this.startTimestamp === Infinity ? 0 : this.endTimestamp;
-			this.segmentDuration.data = new Se(t), this.writer.seek(this.ebmlWriter.offsets.get(this.segmentDuration)), this.ebmlWriter.writeEBML(this.segmentDuration), Y(this.seekHead), this.writer.seek(this.ebmlWriter.offsets.get(this.seekHead)), this.maybeCreateSeekHead(!0), this.ebmlWriter.writeEBML(this.seekHead);
+			this.segmentDuration.data = new le(t), this.writer.seek(this.ebmlWriter.offsets.get(this.segmentDuration)), this.ebmlWriter.writeEBML(this.segmentDuration), Y(this.seekHead), this.writer.seek(this.ebmlWriter.offsets.get(this.seekHead)), this.maybeCreateSeekHead(!0), this.ebmlWriter.writeEBML(this.seekHead);
 		}
 		e();
 	}
-}, _i = class {
+}, vi = class {
 	constructor(e) {
 		this.writer = e, this.helper = /* @__PURE__ */ new Uint8Array(8), this.helperView = new DataView(this.helper.buffer), this.crc = 0;
 	}
@@ -4579,19 +4687,19 @@ var Qr = class extends Oe {
 		this.crc = 0;
 		let n = 224 | e.mpegVersionId << 3 | e.layer << 1, r;
 		r = e.mpegVersionId & 2 && e.mpegVersionId & 1 ? 0 : 1;
-		let i = w(e.mpegVersionId, e.channel), a = e.encoderDelayInSamples === null ? 155 : i + 8 + 4 + 4 + 100 + 36, o = -1, s = r * 16 * 4 + e.layer * 16;
+		let i = N(e.mpegVersionId, e.channel), a = e.encoderDelayInSamples === null ? 155 : i + 8 + 4 + 4 + 100 + 36, o = -1, s = r * 16 * 4 + e.layer * 16;
 		for (let t = 0; t < 16; t++) {
-			let n = u[s + t];
-			if (ve(r, e.layer, 1e3 * n, e.sampleRate, 0) >= a) {
+			let n = _e[s + t];
+			if (w(r, e.layer, 1e3 * n, e.sampleRate, 0) >= a) {
 				o = t;
 				break;
 			}
 		}
 		if (o === -1) throw Error("No suitable bitrate found.");
 		let c = o << 4 | e.frequencyIndex << 2, l = e.channel << 6 | e.modeExtension << 4 | e.copyright << 3 | e.original << 2 | e.emphasis;
-		this.helper[0] = 255, this.helper[1] = n, this.helper[2] = c, this.helper[3] = l, this.writeAndUpdateCrc(this.helper.subarray(0, 4)), this.writeAndUpdateCrc(new Uint8Array(i - 4)), this.writeU32(e.isCbr ? qt : E);
+		this.helper[0] = 255, this.helper[1] = n, this.helper[2] = c, this.helper[3] = l, this.writeAndUpdateCrc(this.helper.subarray(0, 4)), this.writeAndUpdateCrc(new Uint8Array(i - 4)), this.writeU32(e.isCbr ? u : K);
 		let d = 0;
-		if (e.frameCount !== null && (d |= G.FrameCount), e.fileSize !== null && (d |= G.FileSize), e.toc !== null && (d |= G.Toc), this.writeU32(d), this.writeU32(e.frameCount ?? 0), this.writeU32(e.fileSize ?? 0), this.writeAndUpdateCrc(e.toc ?? /* @__PURE__ */ new Uint8Array(100)), e.encoderDelayInSamples !== null) {
+		if (e.frameCount !== null && (d |= J.FrameCount), e.fileSize !== null && (d |= J.FileSize), e.toc !== null && (d |= J.Toc), this.writeU32(d), this.writeU32(e.frameCount ?? 0), this.writeU32(e.fileSize ?? 0), this.writeAndUpdateCrc(e.toc ?? /* @__PURE__ */ new Uint8Array(100)), e.encoderDelayInSamples !== null) {
 			let t = /* @__PURE__ */ new Uint8Array(36);
 			t.set([
 				76,
@@ -4600,16 +4708,16 @@ var Qr = class extends Oe {
 				69
 			]), t[21] = e.encoderDelayInSamples >> 4, t[22] = (e.encoderDelayInSamples & 15) << 4 | 2, t[23] = 17, this.writeAndUpdateCrc(t.subarray(0, 34)), new DataView(t.buffer).setUint16(34, this.crc), this.writer.write(t.subarray(34));
 		}
-		let f = u[s + o], p = ve(r, e.layer, 1e3 * f, e.sampleRate, 0);
+		let f = _e[s + o], p = w(r, e.layer, 1e3 * f, e.sampleRate, 0);
 		this.writer.write(new Uint8Array(t + p - this.writer.getPos()));
 	}
-}, vi = class extends tn {
+}, yi = class extends nn {
 	constructor(e, t) {
 		super(e), this.xingFrameData = null, this.frameCount = 0, this.frameBitrate = null, this.hasVariableBitrate = !1, this.framePositions = [], this.xingFramePos = null, this.format = t, this.writeXingHeader = t._options.xingHeader !== !1;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
-		this.writer = await this.output._getRootWriter(!this.writeXingHeader), this.mp3Writer = new _i(this.writer), i(this.output._metadataTags) || new bt(this.writer).writeId3V2Tag(this.output._metadataTags), e();
+		this.writer = await this.output._getRootWriter(!this.writeXingHeader), this.mp3Writer = new vi(this.writer), ze(this.output._metadataTags) || new j(this.writer).writeId3V2Tag(this.output._metadataTags), e();
 	}
 	async getMimeType() {
 		return "audio/mpeg";
@@ -4621,12 +4729,12 @@ var Qr = class extends Oe {
 		let n = await this.mutex.acquire();
 		try {
 			if (this.writeXingHeader) {
-				let e = fe(t.data);
+				let e = qt(t.data);
 				if (e.byteLength < 4) throw Error("Invalid MP3 header in sample.");
-				let n = e.getUint32(0, !1), r = ee(n, null).header;
+				let n = e.getUint32(0, !1), r = xt(n, null).header;
 				if (!r) throw Error("Invalid MP3 header in sample.");
 				if (!this.xingFrameData) {
-					let n = w(r.mpegVersionId, r.channel);
+					let n = N(r.mpegVersionId, r.channel);
 					if (e.byteLength >= n + 4) {
 						let t = e.getUint32(n, !1);
 						if (t === 1483304551 || t === 1231971951) return;
@@ -4667,9 +4775,9 @@ var Qr = class extends Oe {
 			Y(e?.isAudioTrack());
 			let t = e.metadata.primingPacket;
 			if (t) {
-				let e = fe(t.data);
+				let e = qt(t.data);
 				if (e.byteLength < 4) throw Error("Invalid MP3 header in priming packet.");
-				let n = e.getUint32(0, !1), r = ee(n, null).header;
+				let n = e.getUint32(0, !1), r = xt(n, null).header;
 				if (!r) throw Error("Invalid MP3 header in priming packet.");
 				this.xingFrameData = {
 					mpegVersionId: r.mpegVersionId,
@@ -4693,7 +4801,7 @@ var Qr = class extends Oe {
 					2,
 					0
 				], i = null, a = -1;
-				for (let e = 0; e < r.length; e++) if (a = q.indexOf(t << e), a !== -1) {
+				for (let e = 0; e < r.length; e++) if (a = D.indexOf(t << e), a !== -1) {
 					i = r[e];
 					break;
 				}
@@ -4735,9 +4843,9 @@ var Qr = class extends Oe {
 		}
 		e();
 	}
-}, yi = 8192, bi = class extends tn {
+}, bi = 8192, xi = class extends nn {
 	constructor(e, t) {
-		super(e), this.trackDatas = [], this.bosPagesWritten = !1, this.allTracksKnown = o(), this.pageBytes = new Uint8Array(T), this.pageView = new DataView(this.pageBytes.buffer), this.format = t;
+		super(e), this.trackDatas = [], this.bosPagesWritten = !1, this.allTracksKnown = et(), this.pageBytes = new Uint8Array(G), this.pageView = new DataView(this.pageBytes.buffer), this.format = t;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
@@ -4746,7 +4854,7 @@ var Qr = class extends Oe {
 		e();
 	}
 	async getMimeType() {
-		return await this.allTracksKnown.promise, _e({ codecStrings: this.trackDatas.map((e) => e.codecInfo.codec) });
+		return await this.allTracksKnown.promise, C({ codecStrings: this.trackDatas.map((e) => e.codecInfo.codec) });
 	}
 	addEncodedVideoPacket() {
 		throw Error("Video tracks are not supported.");
@@ -4787,7 +4895,7 @@ var Qr = class extends Oe {
 	queueHeaderPackets(e, t) {
 		if (Y(t.decoderConfig), e.track.source._codec === "vorbis") {
 			Y(t.decoderConfig.description);
-			let n = Kt(t.decoderConfig.description);
+			let n = l(t.decoderConfig.description);
 			if (n[0] !== 2) throw TypeError("First byte of Vorbis decoder description must be 2.");
 			let r = 1, i = () => {
 				let e = 0;
@@ -4800,9 +4908,9 @@ var Qr = class extends Oe {
 			if (n.length - r <= 0) throw TypeError("Vorbis decoder description is too short.");
 			let s = n.subarray(r, r += a);
 			r += o;
-			let c = n.subarray(r), l = /* @__PURE__ */ new Uint8Array(7);
-			l[0] = 3, l[1] = 118, l[2] = 111, l[3] = 114, l[4] = 98, l[5] = 105, l[6] = 115;
-			let u = W(l, this.output._metadataTags, !0);
+			let c = n.subarray(r), u = /* @__PURE__ */ new Uint8Array(7);
+			u[0] = 3, u[1] = 118, u[2] = 111, u[3] = 114, u[4] = 98, u[5] = 105, u[6] = 115;
+			let d = y(u, this.output._metadataTags, !0);
 			e.packetQueue.push({
 				data: s,
 				timestampInSamples: 0,
@@ -4810,7 +4918,7 @@ var Qr = class extends Oe {
 				trimmedDurationInSamples: 0,
 				forcePageFlush: !0
 			}, {
-				data: u,
+				data: d,
 				timestampInSamples: 0,
 				durationInSamples: 0,
 				trimmedDurationInSamples: 0,
@@ -4822,16 +4930,16 @@ var Qr = class extends Oe {
 				trimmedDurationInSamples: 0,
 				forcePageFlush: !0
 			});
-			let d = fe(s).getUint8(28);
+			let f = qt(s).getUint8(28);
 			e.codecInfo.vorbisInfo = {
-				blocksizes: [1 << (d & 15), 1 << (d >> 4)],
-				modeBlockflags: I(c).modeBlockflags
+				blocksizes: [1 << (f & 15), 1 << (f >> 4)],
+				modeBlockflags: ce(c).modeBlockflags
 			};
 		} else if (e.track.source._codec === "opus") {
 			if (!t.decoderConfig.description) throw TypeError("For Ogg, Opus decoder description is required.");
-			let n = Kt(t.decoderConfig.description), r = /* @__PURE__ */ new Uint8Array(8), i = fe(r);
+			let n = l(t.decoderConfig.description), r = /* @__PURE__ */ new Uint8Array(8), i = qt(r);
 			i.setUint32(0, 1332770163, !1), i.setUint32(4, 1415669619, !1);
-			let a = W(r, this.output._metadataTags, !0);
+			let a = y(r, this.output._metadataTags, !0);
 			e.packetQueue.push({
 				data: n,
 				timestampInSamples: 0,
@@ -4844,7 +4952,7 @@ var Qr = class extends Oe {
 				durationInSamples: 0,
 				trimmedDurationInSamples: 0,
 				forcePageFlush: !0
-			}), e.codecInfo.opusInfo = { preSkip: le(n).preSkip };
+			}), e.codecInfo.opusInfo = { preSkip: S(n).preSkip };
 		}
 	}
 	async addEncodedAudioPacket(e, t, n) {
@@ -4852,14 +4960,14 @@ var Qr = class extends Oe {
 		try {
 			let r = this.getTrackData(e, n);
 			this.validateTimestamp(r.track, t.timestamp, t.type === "key");
-			let { durationInSamples: i, vorbisBlockSize: a } = M(t.data, r.codecInfo, r.vorbisLastBlocksize);
+			let { durationInSamples: i, vorbisBlockSize: a } = bt(t.data, r.codecInfo, r.vorbisLastBlocksize);
 			if (r.startOffsetInSamples === null) {
 				let e = Math.round(t.timestamp * r.internalSampleRate), n = r.codecInfo.opusInfo?.preSkip ?? 0, a = r.codecInfo.codec === "vorbis" ? -i : -n, o = Math.max(e, a);
 				r.startOffsetInSamples = o - a, r.currentTimestampInSamples = o + n;
 			}
 			let o = r.currentTimestampInSamples;
 			r.currentTimestampInSamples += i, r.vorbisLastBlocksize = a;
-			let s = t.duration > 0 ? lt(Math.round(t.duration * r.internalSampleRate), 0, i) : i, c = r.startOffsetInSamples > 0 && r.audioPacketCount === 1;
+			let s = t.duration > 0 ? Je(Math.round(t.duration * r.internalSampleRate), 0, i) : i, c = r.startOffsetInSamples > 0 && r.audioPacketCount === 1;
 			r.audioPacketCount++, r.packetQueue.push({
 				data: t.data,
 				timestampInSamples: o,
@@ -4919,17 +5027,17 @@ var Qr = class extends Oe {
 			i -= 255;
 		}
 		let s = t.data.subarray(a);
-		e.currentPageData.push(s), e.currentPageSize += s.length, e.currentGranulePosition = r, (e.currentPageSize >= yi || t.forcePageFlush) && this.writePage(e, n);
+		e.currentPageData.push(s), e.currentPageSize += s.length, e.currentGranulePosition = r, (e.currentPageSize >= bi || t.forcePageFlush) && this.writePage(e, n);
 	}
 	writePage(e, t) {
-		this.pageView.setUint32(0, he, !0), this.pageView.setUint8(4, 0);
+		this.pageView.setUint32(0, ve, !0), this.pageView.setUint8(4, 0);
 		let n = 0;
 		e.currentPageStartsWithFreshPacket || (n |= 1), e.pagesWritten === 0 && (n |= 2), t && (n |= 4), this.pageView.setUint8(5, n);
 		let r = e.currentLacingValues.every((e) => e === 255) ? -1 : e.currentGranulePosition;
-		ce(this.pageView, 6, r, !0), this.pageView.setUint32(14, e.serialNumber, !0), this.pageView.setUint32(18, e.pagesWritten, !0), this.pageView.setUint32(22, 0, !0), this.pageView.setUint8(26, e.currentLacingValues.length), this.pageBytes.set(e.currentLacingValues, 27);
+		x(this.pageView, 6, r, !0), this.pageView.setUint32(14, e.serialNumber, !0), this.pageView.setUint32(18, e.pagesWritten, !0), this.pageView.setUint32(22, 0, !0), this.pageView.setUint8(26, e.currentLacingValues.length), this.pageBytes.set(e.currentLacingValues, 27);
 		let i = 27 + e.currentLacingValues.length;
 		for (let t of e.currentPageData) this.pageBytes.set(t, i), i += t.length;
-		let a = this.pageBytes.subarray(0, i), o = C(a);
+		let a = this.pageBytes.subarray(0, i), o = ee(a);
 		if (this.pageView.setUint32(22, o, !0), e.pagesWritten++, e.currentLacingValues.length = 0, e.currentPageData.length = 0, e.currentPageSize = 27, e.currentPageStartsWithFreshPacket = !0, e.currentPageStartTimestampInSamples = e.currentGranulePosition, this.format._options.onPage && this.writer.startTrackingWrites(), this.writer.write(a), this.format._options.onPage) {
 			let { data: t, start: n } = this.writer.stopTrackingWrites();
 			this.format._options.onPage(t, n, e.track.source);
@@ -4947,7 +5055,7 @@ var Qr = class extends Oe {
 		for (let e of this.trackDatas) e.currentLacingValues.length > 0 && this.writePage(e, !0);
 		e();
 	}
-}, xi = class {
+}, Si = class {
 	constructor(e) {
 		this.writer = e, this.helper = /* @__PURE__ */ new Uint8Array(8), this.helperView = new DataView(this.helper.buffer);
 	}
@@ -4961,15 +5069,15 @@ var Qr = class extends Oe {
 		this.helperView.setUint32(0, e, !0), this.helperView.setUint32(4, Math.floor(e / 2 ** 32), !0), this.writer.write(this.helper);
 	}
 	writeAscii(e) {
-		this.writer.write(O.encode(e));
+		this.writer.write(P.encode(e));
 	}
-}, Si = class extends tn {
+}, Ci = class extends nn {
 	constructor(e, t) {
 		super(e), this.headerWritten = !1, this.dataSize = 0, this.sampleRate = null, this.sampleCount = 0, this.riffSizePos = null, this.dataSizePos = null, this.ds64RiffSizePos = null, this.ds64DataSizePos = null, this.ds64SampleCountPos = null, this.format = t, this.isRf64 = !!t._options.large;
 	}
 	async start() {
 		let e = await this.mutex.acquire();
-		this.writer = await this.output._getRootWriter(!1), this.riffWriter = new xi(this.writer);
+		this.writer = await this.output._getRootWriter(!1), this.riffWriter = new Si(this.writer);
 		let t = this.output.tracks[0];
 		Y(t?.isAudioTrack()), t.metadata.decoderConfig && (qe({ decoderConfig: t.metadata.decoderConfig }, t.source._codec), this.writeHeader(t, t.metadata.decoderConfig), this.sampleRate = t.metadata.decoderConfig.sampleRate, this.headerWritten = !0), e();
 	}
@@ -4993,12 +5101,12 @@ var Qr = class extends Oe {
 	}
 	writeHeader(e, t) {
 		this.format._options.onHeader && this.writer.startTrackingWrites();
-		let n, r = e.source._codec, a = ct(r);
-		n = a.dataType === "ulaw" ? K.MULAW : a.dataType === "alaw" ? K.ALAW : a.dataType === "float" ? K.IEEE_FLOAT : K.PCM;
-		let o = t.numberOfChannels, s = t.sampleRate, c = a.sampleSize * o;
-		if (this.riffWriter.writeAscii(this.isRf64 ? "RF64" : "RIFF"), this.isRf64 ? this.riffWriter.writeU32(4294967295) : (this.riffSizePos = this.writer.getPos(), this.riffWriter.writeU32(0)), this.riffWriter.writeAscii("WAVE"), this.isRf64 && (this.riffWriter.writeAscii("ds64"), this.riffWriter.writeU32(28), this.ds64RiffSizePos = this.writer.getPos(), this.riffWriter.writeU64(0), this.ds64DataSizePos = this.writer.getPos(), this.riffWriter.writeU64(0), this.ds64SampleCountPos = this.writer.getPos(), this.riffWriter.writeU64(0), this.riffWriter.writeU32(0)), this.riffWriter.writeAscii("fmt "), this.riffWriter.writeU32(16), this.riffWriter.writeU16(n), this.riffWriter.writeU16(o), this.riffWriter.writeU32(s), this.riffWriter.writeU32(s * c), this.riffWriter.writeU16(c), this.riffWriter.writeU16(8 * a.sampleSize), !i(this.output._metadataTags)) {
+		let n, r = e.source._codec, i = ct(r);
+		n = i.dataType === "ulaw" ? T.MULAW : i.dataType === "alaw" ? T.ALAW : i.dataType === "float" ? T.IEEE_FLOAT : T.PCM;
+		let a = t.numberOfChannels, o = t.sampleRate, s = i.sampleSize * a;
+		if (this.riffWriter.writeAscii(this.isRf64 ? "RF64" : "RIFF"), this.isRf64 ? this.riffWriter.writeU32(4294967295) : (this.riffSizePos = this.writer.getPos(), this.riffWriter.writeU32(0)), this.riffWriter.writeAscii("WAVE"), this.isRf64 && (this.riffWriter.writeAscii("ds64"), this.riffWriter.writeU32(28), this.ds64RiffSizePos = this.writer.getPos(), this.riffWriter.writeU64(0), this.ds64DataSizePos = this.writer.getPos(), this.riffWriter.writeU64(0), this.ds64SampleCountPos = this.writer.getPos(), this.riffWriter.writeU64(0), this.riffWriter.writeU32(0)), this.riffWriter.writeAscii("fmt "), this.riffWriter.writeU32(16), this.riffWriter.writeU16(n), this.riffWriter.writeU16(a), this.riffWriter.writeU32(o), this.riffWriter.writeU32(o * s), this.riffWriter.writeU16(s), this.riffWriter.writeU16(8 * i.sampleSize), !ze(this.output._metadataTags)) {
 			let e = this.format._options.metadataFormat ?? "info";
-			e === "info" ? this.writeInfoChunk(this.output._metadataTags) : e === "id3" ? this.writeId3Chunk(this.output._metadataTags) : Le(e);
+			e === "info" ? this.writeInfoChunk(this.output._metadataTags) : e === "id3" ? this.writeId3Chunk(this.output._metadataTags) : He(e);
 		}
 		if (this.riffWriter.writeAscii("data"), this.isRf64 ? this.riffWriter.writeU32(4294967295) : (this.dataSizePos = this.writer.getPos(), this.riffWriter.writeU32(0)), this.format._options.onHeader) {
 			let { data: e, start: t } = this.writer.stopTrackingWrites();
@@ -5009,15 +5117,15 @@ var Qr = class extends Oe {
 		let t = this.writer.getPos();
 		this.riffWriter.writeAscii("LIST"), this.riffWriter.writeU32(0), this.riffWriter.writeAscii("INFO");
 		let n = /* @__PURE__ */ new Set(), r = (e, t) => {
-			if (!pe(t)) {
-				ft._warn(`Didn't write tag '${e}' because '${t}' is not ISO 8859-1-compatible.`);
+			if (!f(t)) {
+				Ct._warn(`Didn't write tag '${e}' because '${t}' is not ISO 8859-1-compatible.`);
 				return;
 			}
 			let r = t.length + 1, i = new Uint8Array(r);
 			for (let e = 0; e < t.length; e++) i[e] = t.charCodeAt(e);
 			this.riffWriter.writeAscii(e), this.riffWriter.writeU32(r), this.writer.write(i), r & 1 && this.writer.write(/* @__PURE__ */ new Uint8Array(1)), n.add(e);
 		};
-		for (let { key: t, value: i } of v(e)) switch (t) {
+		for (let { key: t, value: i } of h(e)) switch (t) {
 			case "title":
 				r("INAM", i), n.add("INAM");
 				break;
@@ -5049,7 +5157,7 @@ var Qr = class extends Oe {
 			case "images":
 			case "creationTime": break;
 			case "raw": break;
-			default: Le(t);
+			default: He(t);
 		}
 		if (e.raw) for (let t in e.raw) {
 			let i = e.raw[t];
@@ -5061,7 +5169,7 @@ var Qr = class extends Oe {
 	writeId3Chunk(e) {
 		let t = this.writer.getPos();
 		this.riffWriter.writeAscii("ID3 "), this.riffWriter.writeU32(0);
-		let n = new bt(this.writer).writeId3V2Tag(e), r = this.writer.getPos();
+		let n = new j(this.writer).writeId3V2Tag(e), r = this.writer.getPos();
 		this.writer.seek(t + 4), this.riffWriter.writeU32(n), this.writer.seek(r), n & 1 && this.writer.write(/* @__PURE__ */ new Uint8Array(1));
 	}
 	async finalize() {
@@ -5070,7 +5178,7 @@ var Qr = class extends Oe {
 		let t = this.writer.getPos();
 		this.isRf64 ? (Y(this.ds64RiffSizePos !== null), this.writer.seek(this.ds64RiffSizePos), this.riffWriter.writeU64(t - 8), Y(this.ds64DataSizePos !== null), this.writer.seek(this.ds64DataSizePos), this.riffWriter.writeU64(this.dataSize), Y(this.ds64SampleCountPos !== null), this.writer.seek(this.ds64SampleCountPos), this.riffWriter.writeU64(this.sampleCount)) : (Y(this.riffSizePos !== null), this.writer.seek(this.riffSizePos), this.riffWriter.writeU32(t - 8), Y(this.dataSizePos !== null), this.writer.seek(this.dataSizePos), this.riffWriter.writeU32(this.dataSize)), e();
 	}
-}, Ci = class {
+}, wi = class {
 	get supportsVideoRotationMetadata() {
 		return this.supportsVideoTransformationMetadata;
 	}
@@ -5084,7 +5192,7 @@ var Qr = class extends Oe {
 		return this.getSupportedCodecs().filter((e) => St.includes(e));
 	}
 	getSupportedSubtitleCodecs() {
-		return this.getSupportedCodecs().filter((e) => Ne.includes(e));
+		return this.getSupportedCodecs().filter((e) => Pe.includes(e));
 	}
 	_codecUnsupportedHint(e) {
 		return "";
@@ -5092,7 +5200,7 @@ var Qr = class extends Oe {
 	_isFragmentedIsobmff() {
 		return !1;
 	}
-}, wi = class extends Ci {
+}, Ti = class extends wi {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.fastStart !== void 0 && ![
@@ -5101,7 +5209,7 @@ var Qr = class extends Oe {
 			"reserve",
 			"fragmented"
 		].includes(e.fastStart)) throw TypeError("options.fastStart, when provided, must be false, 'in-memory', 'reserve', or 'fragmented'.");
-		if (e.minimumFragmentDuration !== void 0 && (!f(e.minimumFragmentDuration) || e.minimumFragmentDuration < 0)) throw TypeError("options.minimumFragmentDuration, when provided, must be a non-negative number.");
+		if (e.minimumFragmentDuration !== void 0 && (!Rt(e.minimumFragmentDuration) || e.minimumFragmentDuration < 0)) throw TypeError("options.minimumFragmentDuration, when provided, must be a non-negative number.");
 		if (e.onFtyp !== void 0 && typeof e.onFtyp != "function") throw TypeError("options.onFtyp, when provided, must be a function.");
 		if (e.onMoov !== void 0 && typeof e.onMoov != "function") throw TypeError("options.onMoov, when provided, must be a function.");
 		if (e.onMdat !== void 0 && typeof e.onMdat != "function") throw TypeError("options.onMdat, when provided, must be a function.");
@@ -5148,12 +5256,12 @@ var Qr = class extends Oe {
 		return this._options.fastStart === "reserve";
 	}
 	_createMuxer(e) {
-		return new ui(e, this);
+		return new di(e, this);
 	}
 	_isFragmentedIsobmff() {
 		return this._options.fastStart === "fragmented";
 	}
-}, Ti = class extends wi {
+}, Ei = class extends Ti {
 	constructor(e) {
 		super(e);
 	}
@@ -5180,13 +5288,13 @@ var Qr = class extends Oe {
 			"pcm-f32be",
 			"pcm-f64",
 			"pcm-f64be",
-			...Ne
+			...Pe
 		];
 	}
 	_codecUnsupportedHint(e) {
-		return new Di().getSupportedCodecs().includes(e) ? " Switching to MOV will grant support for this codec." : "";
+		return new Oi().getSupportedCodecs().includes(e) ? " Switching to MOV will grant support for this codec." : "";
 	}
-}, Ei = class extends wi {
+}, Di = class extends Ti {
 	constructor(e) {
 		super(e);
 	}
@@ -5213,10 +5321,10 @@ var Qr = class extends Oe {
 			"pcm-f32be",
 			"pcm-f64",
 			"pcm-f64be",
-			...Ne
+			...Pe
 		];
 	}
-}, Di = class extends wi {
+}, Oi = class extends Ti {
 	constructor(e) {
 		super(e);
 	}
@@ -5233,20 +5341,20 @@ var Qr = class extends Oe {
 		return [...at, ...St];
 	}
 	_codecUnsupportedHint(e) {
-		return new Ti().getSupportedCodecs().includes(e) ? " Switching to MP4 will grant support for this codec." : "";
+		return new Ei().getSupportedCodecs().includes(e) ? " Switching to MP4 will grant support for this codec." : "";
 	}
-}, Oi = class extends Ci {
+}, ki = class extends wi {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.appendOnly !== void 0 && typeof e.appendOnly != "boolean") throw TypeError("options.appendOnly, when provided, must be a boolean.");
-		if (e.minimumClusterDuration !== void 0 && (!f(e.minimumClusterDuration) || e.minimumClusterDuration < 0)) throw TypeError("options.minimumClusterDuration, when provided, must be a non-negative number.");
+		if (e.minimumClusterDuration !== void 0 && (!Rt(e.minimumClusterDuration) || e.minimumClusterDuration < 0)) throw TypeError("options.minimumClusterDuration, when provided, must be a non-negative number.");
 		if (e.onEbmlHeader !== void 0 && typeof e.onEbmlHeader != "function") throw TypeError("options.onEbmlHeader, when provided, must be a function.");
 		if (e.onSegmentHeader !== void 0 && typeof e.onSegmentHeader != "function") throw TypeError("options.onHeader, when provided, must be a function.");
 		if (e.onCluster !== void 0 && typeof e.onCluster != "function") throw TypeError("options.onCluster, when provided, must be a function.");
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new gi(e, this);
+		return new _i(e, this);
 	}
 	get _name() {
 		return "Matroska";
@@ -5288,7 +5396,7 @@ var Qr = class extends Oe {
 				"ulaw",
 				"alaw"
 			].includes(e)),
-			...Ne
+			...Pe
 		];
 	}
 	get supportsVideoTransformationMetadata() {
@@ -5300,7 +5408,7 @@ var Qr = class extends Oe {
 	get negativeTimestampSupport() {
 		return "prefer-non-negative";
 	}
-}, ki = class extends Oi {
+}, Ai = class extends ki {
 	constructor(e) {
 		super(e);
 	}
@@ -5312,7 +5420,7 @@ var Qr = class extends Oe {
 				"av1"
 			].includes(e)),
 			...St.filter((e) => ["opus", "vorbis"].includes(e)),
-			...Ne
+			...Pe
 		];
 	}
 	get _name() {
@@ -5325,9 +5433,9 @@ var Qr = class extends Oe {
 		return "video/webm";
 	}
 	_codecUnsupportedHint(e) {
-		return new Oi().getSupportedCodecs().includes(e) ? " Switching to MKV will grant support for this codec." : "";
+		return new ki().getSupportedCodecs().includes(e) ? " Switching to MKV will grant support for this codec." : "";
 	}
-}, Ai = class extends Ci {
+}, ji = class extends wi {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.xingHeader !== void 0 && typeof e.xingHeader != "boolean") throw TypeError("options.xingHeader, when provided, must be a boolean.");
@@ -5335,7 +5443,7 @@ var Qr = class extends Oe {
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new vi(e, this);
+		return new yi(e, this);
 	}
 	get _name() {
 		return "MP3";
@@ -5378,7 +5486,7 @@ var Qr = class extends Oe {
 	get negativeTimestampSupport() {
 		return null;
 	}
-}, ji = class extends Ci {
+}, Mi = class extends wi {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.large !== void 0 && typeof e.large != "boolean") throw TypeError("options.large, when provided, must be a boolean.");
@@ -5387,7 +5495,7 @@ var Qr = class extends Oe {
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new Si(e, this);
+		return new Ci(e, this);
 	}
 	get _name() {
 		return "WAVE";
@@ -5439,15 +5547,15 @@ var Qr = class extends Oe {
 	get negativeTimestampSupport() {
 		return null;
 	}
-}, Mi = class extends Ci {
+}, Ni = class extends wi {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
-		if (e.maximumPageDuration !== void 0 && (!f(e.maximumPageDuration) || e.maximumPageDuration <= 0)) throw TypeError("options.maximumPageDuration, when provided, must be a positive number.");
+		if (e.maximumPageDuration !== void 0 && (!Rt(e.maximumPageDuration) || e.maximumPageDuration <= 0)) throw TypeError("options.maximumPageDuration, when provided, must be a positive number.");
 		if (e.onPage !== void 0 && typeof e.onPage != "function") throw TypeError("options.onPage, when provided, must be a function.");
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new bi(e, this);
+		return new xi(e, this);
 	}
 	get _name() {
 		return "Ogg";
@@ -5491,14 +5599,14 @@ var Qr = class extends Oe {
 	get negativeTimestampSupport() {
 		return "none";
 	}
-}, Ni = class extends Ci {
+}, Pi = class extends wi {
 	constructor(e = {}) {
 		if (!e || typeof e != "object") throw TypeError("options must be an object.");
 		if (e.appendOnly !== void 0 && typeof e.appendOnly != "boolean") throw TypeError("options.appendOnly, when provided, must be a boolean.");
 		super(), this._options = e;
 	}
 	_createMuxer(e) {
-		return new on(e, this);
+		return new sn(e, this);
 	}
 	get _name() {
 		return "FLAC";
@@ -5541,11 +5649,11 @@ var Qr = class extends Oe {
 	get negativeTimestampSupport() {
 		return null;
 	}
-}, Pi = [
+}, Fi = [
 	"video",
 	"audio",
 	"subtitle"
-], Fi = class e {
+], Ii = class e {
 	constructor(e, t, n, r, i) {
 		this.id = e, this.output = t, this.type = n, this.source = r, this.metadata = i;
 	}
@@ -5561,23 +5669,23 @@ var Qr = class extends Oe {
 	canBePairedWith(t) {
 		if (!(t instanceof e)) throw TypeError("other must be an OutputTrack.");
 		if (this === t) return !1;
-		let n = ne(this.metadata.group), r = ne(t.metadata.group);
+		let n = V(this.metadata.group), r = V(t.metadata.group);
 		for (let e of n) if (this.type !== t.type && r.some((t) => e === t) || r.some((t) => e._pairedGroups.has(t))) return !0;
 		return !1;
 	}
-}, Ii = class extends Fi {
+}, Li = class extends Ii {
 	constructor(e, t, n, r) {
 		super(e, t, "video", n, r);
 	}
-}, Li = class extends Fi {
+}, Ri = class extends Ii {
 	constructor(e, t, n, r) {
 		super(e, t, "audio", n, r);
 	}
-}, Ri = class extends Fi {
+}, zi = class extends Ii {
 	constructor(e, t, n, r) {
 		super(e, t, "subtitle", n, r);
 	}
-}, zi = class e {
+}, Bi = class e {
 	constructor() {
 		this._pairedGroups = /* @__PURE__ */ new Set();
 	}
@@ -5586,40 +5694,40 @@ var Qr = class extends Oe {
 		if (this === t) throw TypeError("Cannot pair a group with itself.");
 		this._pairedGroups.add(t), t._pairedGroups.add(this);
 	}
-}, Bi = (e) => {
+}, Vi = (e) => {
 	if (!e || typeof e != "object") throw TypeError("metadata must be an object.");
-	if (e.languageCode !== void 0 && !Bt(e.languageCode)) throw TypeError("metadata.languageCode, when provided, must be a three-letter, ISO 639-2/T language code.");
+	if (e.languageCode !== void 0 && !pe(e.languageCode)) throw TypeError("metadata.languageCode, when provided, must be a three-letter, ISO 639-2/T language code.");
 	if (e.name !== void 0 && typeof e.name != "string") throw TypeError("metadata.name, when provided, must be a string.");
-	if (e.disposition !== void 0 && kt(e.disposition), e.maximumPacketCount !== void 0 && (!Number.isInteger(e.maximumPacketCount) || e.maximumPacketCount < 0)) throw TypeError("metadata.maximumPacketCount, when provided, must be a non-negative integer.");
+	if (e.disposition !== void 0 && ft(e.disposition), e.maximumPacketCount !== void 0 && (!Number.isInteger(e.maximumPacketCount) || e.maximumPacketCount < 0)) throw TypeError("metadata.maximumPacketCount, when provided, must be a non-negative integer.");
 	if (e.bitrate !== void 0 && (!Number.isFinite(e.bitrate) || e.bitrate < 0)) throw TypeError("metadata.bitrate, when provided, must be a non-negative number.");
 	if (e.averageBitrate !== void 0 && (!Number.isFinite(e.averageBitrate) || e.averageBitrate < 0)) throw TypeError("metadata.averageBitrate, when provided, must be a non-negative number.");
-	if (e.group !== void 0 && !(e.group instanceof zi) && (!Array.isArray(e.group) || e.group.some((e) => !(e instanceof zi)))) throw TypeError("metadata.group, when provided, must be an OutputTrackGroup instance or an array of OutputTrackGroup instances.");
-}, Vi = class extends Oe {
+	if (e.group !== void 0 && !(e.group instanceof Bi) && (!Array.isArray(e.group) || e.group.some((e) => !(e instanceof Bi)))) throw TypeError("metadata.group, when provided, must be an OutputTrackGroup instance or an array of OutputTrackGroup instances.");
+}, Hi = class extends ht {
 	get target() {
 		let e = "Output.target cannot be used when using PathedTarget with an async callback. Use the 'target' event instead.";
 		if (this._rootTargetPromise) throw TypeError(e);
 		let t = this._getRootTarget();
-		if (Lt(t)) throw TypeError(e);
+		if (W(t)) throw TypeError(e);
 		return t;
 	}
 	constructor(e) {
-		if (super(), this.state = "pending", this.defaultTrackGroup = new zi(), this.tracks = [], this._onFinalize = null, this._unfinalizedTargets = /* @__PURE__ */ new Set(), this._rootWriterPromise = null, this._startPromise = null, this._cancelPromise = null, this._finalizePromise = null, this._mutex = new Ct(), this._metadataTags = {}, this._rootTarget = null, this._rootTargetPromise = null, this._firstMediaStreamTimestamp = null, !e || typeof e != "object") throw TypeError("options must be an object.");
-		if (!(e.format instanceof Ci)) throw TypeError("options.format must be an OutputFormat.");
-		if (!(e.target instanceof Qr || e.target instanceof ii)) throw TypeError("options.target must be a Target or a PathedTarget.");
-		if (e.target instanceof Qr && this._rememberTarget(e.target), e.initTarget !== void 0 && !(e.initTarget instanceof Qr) && typeof e.initTarget != "function") throw Error("options.initTarget, when provided, must be a Target or a function that returns or resolves to a Target.");
+		if (super(), this.state = "pending", this.defaultTrackGroup = new Bi(), this.tracks = [], this._onFinalize = null, this._unfinalizedTargets = /* @__PURE__ */ new Set(), this._rootWriterPromise = null, this._startPromise = null, this._cancelPromise = null, this._finalizePromise = null, this._mutex = new Ze(), this._metadataTags = {}, this._rootTarget = null, this._rootTargetPromise = null, this._firstMediaStreamTimestamp = null, !e || typeof e != "object") throw TypeError("options must be an object.");
+		if (!(e.format instanceof wi)) throw TypeError("options.format must be an OutputFormat.");
+		if (!(e.target instanceof $r || e.target instanceof ai)) throw TypeError("options.target must be a Target or a PathedTarget.");
+		if (e.target instanceof $r && this._rememberTarget(e.target), e.initTarget !== void 0 && !(e.initTarget instanceof $r) && typeof e.initTarget != "function") throw Error("options.initTarget, when provided, must be a Target or a function that returns or resolves to a Target.");
 		if (e.onFinalize !== void 0 && typeof e.onFinalize != "function") throw TypeError("options.onFinalize, when provided, must be a function.");
-		this.format = e.format, this._target = e.target, this._onFinalize = e.onFinalize ?? null, this._initTarget = e.initTarget ?? null, this._initTarget instanceof Qr && this._rememberTarget(this._initTarget), this._muxer = e.format._createMuxer(this);
+		this.format = e.format, this._target = e.target, this._onFinalize = e.onFinalize ?? null, this._initTarget = e.initTarget ?? null, this._initTarget instanceof $r && this._rememberTarget(this._initTarget), this._muxer = e.format._createMuxer(this);
 	}
 	_getTargetValidated(e) {
-		Y(this._target instanceof ii);
+		Y(this._target instanceof ai);
 		let t = this._target.getTarget(e), n = (e) => {
-			if (!(e instanceof Qr)) throw TypeError("getTarget must return a Target.");
+			if (!(e instanceof $r)) throw TypeError("getTarget must return a Target.");
 			return e;
 		};
-		return Lt(t) ? t.then(n) : n(t);
+		return W(t) ? t.then(n) : n(t);
 	}
 	async _getTarget(e) {
-		Y(this._target instanceof ii);
+		Y(this._target instanceof ai);
 		let t = await this._getTargetValidated(e);
 		return this._emit("target", {
 			target: t,
@@ -5631,7 +5739,7 @@ var Qr = class extends Oe {
 		this._unfinalizedTargets.add(e), e.on("finalized", () => this._unfinalizedTargets.delete(e), { once: !0 });
 	}
 	async _getInitTarget() {
-		if (Y(this._initTarget !== null), this._initTarget instanceof Qr) return this._initTarget;
+		if (Y(this._initTarget !== null), this._initTarget instanceof $r) return this._initTarget;
 		let e = await this._initTarget();
 		return this.state === "canceled" ? await e._close() : this._rememberTarget(e), e;
 	}
@@ -5641,7 +5749,7 @@ var Qr = class extends Oe {
 	_getRootTarget() {
 		if (this._rootTarget) return this._rootTarget;
 		if (this._rootTargetPromise) return this._rootTargetPromise;
-		if (this._target instanceof Qr) return this._emit("target", {
+		if (this._target instanceof $r) return this._emit("target", {
 			target: this._target,
 			request: null,
 			isRoot: !0
@@ -5655,17 +5763,17 @@ var Qr = class extends Oe {
 			request: e,
 			isRoot: !0
 		}), this._rootTarget = t, t);
-		return Lt(t) ? this._rootTargetPromise = t.then(n) : n(t);
+		return W(t) ? this._rootTargetPromise = t.then(n) : n(t);
 	}
 	_getRootWriter(e) {
 		return this._rootWriterPromise ??= (async () => {
-			let t = await this._getRootTarget(), n = new Zr(t, typeof e == "boolean" ? e : e(t));
+			let t = await this._getRootTarget(), n = new Qr(t, typeof e == "boolean" ? e : e(t));
 			return n.start(), n;
 		})();
 	}
 	addVideoTrack(e, t = {}) {
 		if (!(e instanceof m)) throw TypeError("source must be a VideoSource.");
-		if (Bi(t), t.rotation !== void 0 && ![
+		if (Vi(t), t.rotation !== void 0 && ![
 			0,
 			90,
 			180,
@@ -5676,30 +5784,30 @@ var Qr = class extends Oe {
 		if (t.frameRate !== void 0 && (!Number.isFinite(t.frameRate) || t.frameRate <= 0)) throw TypeError(`Invalid video frame rate: ${t.frameRate}. Must be a positive number.`);
 		if (t.hasOnlyKeyPackets !== void 0 && typeof t.hasOnlyKeyPackets != "boolean") throw TypeError("metadata.hasOnlyKeyPackets, when provided, must be a boolean.");
 		if (t.canBeTransparent !== void 0 && typeof t.canBeTransparent != "boolean") throw TypeError("metadata.canBeTransparent, when provided, must be a boolean.");
-		if (t.decoderConfig !== void 0 && we({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
-			if (!(t.primingPacket instanceof ke)) throw TypeError("metadata.primingPacket, when provided, must be an EncodedPacket.");
-			if (t.decoderConfig === void 0) throw TypeError("metadata.primingPacket can only be provided alongside metadata.decoderConfig.");
-		}
-		let n = { ...t };
-		return n.group ??= this.defaultTrackGroup, this._addTrack(new Ii(this.tracks.length + 1, this, e, n));
-	}
-	addAudioTrack(e, t = {}) {
-		if (!(e instanceof Ht)) throw TypeError("source must be an AudioSource.");
-		if (Bi(t), t.decoderConfig !== void 0 && qe({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
-			if (!(t.primingPacket instanceof ke)) throw TypeError("metadata.primingPacket, when provided, must be an EncodedPacket.");
+		if (t.decoderConfig !== void 0 && Te({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
+			if (!(t.primingPacket instanceof gt)) throw TypeError("metadata.primingPacket, when provided, must be an EncodedPacket.");
 			if (t.decoderConfig === void 0) throw TypeError("metadata.primingPacket can only be provided alongside metadata.decoderConfig.");
 		}
 		let n = { ...t };
 		return n.group ??= this.defaultTrackGroup, this._addTrack(new Li(this.tracks.length + 1, this, e, n));
 	}
-	addSubtitleTrack(e, t = {}) {
-		if (!(e instanceof H)) throw TypeError("source must be a SubtitleSource.");
-		Bi(t);
+	addAudioTrack(e, t = {}) {
+		if (!(e instanceof Ut)) throw TypeError("source must be an AudioSource.");
+		if (Vi(t), t.decoderConfig !== void 0 && qe({ decoderConfig: t.decoderConfig }, e._codec), t.primingPacket !== void 0) {
+			if (!(t.primingPacket instanceof gt)) throw TypeError("metadata.primingPacket, when provided, must be an EncodedPacket.");
+			if (t.decoderConfig === void 0) throw TypeError("metadata.primingPacket can only be provided alongside metadata.decoderConfig.");
+		}
 		let n = { ...t };
 		return n.group ??= this.defaultTrackGroup, this._addTrack(new Ri(this.tracks.length + 1, this, e, n));
 	}
+	addSubtitleTrack(e, t = {}) {
+		if (!(e instanceof me)) throw TypeError("source must be a SubtitleSource.");
+		Vi(t);
+		let n = { ...t };
+		return n.group ??= this.defaultTrackGroup, this._addTrack(new zi(this.tracks.length + 1, this, e, n));
+	}
 	setMetadataTags(e) {
-		if (ze(e), this.state !== "pending") throw Error("Cannot set metadata tags after output has been started or canceled.");
+		if (kt(e), this.state !== "pending") throw Error("Cannot set metadata tags after output has been started or canceled.");
 		this._metadataTags = e;
 	}
 	_addTrack(e) {
@@ -5726,20 +5834,20 @@ var Qr = class extends Oe {
 	}
 	hasEnoughTracks() {
 		let e = this.format.getSupportedTrackCounts();
-		for (let t of Pi) if (this.tracks.reduce((e, n) => e + +(n.type === t), 0) < e[t].min) return !1;
+		for (let t of Fi) if (this.tracks.reduce((e, n) => e + +(n.type === t), 0) < e[t].min) return !1;
 		let t = e.total.min;
 		return !(this.tracks.length < t);
 	}
 	async start() {
 		let e = this.format.getSupportedTrackCounts();
-		for (let t of Pi) {
+		for (let t of Fi) {
 			let n = this.tracks.reduce((e, n) => e + +(n.type === t), 0), r = e[t].min;
 			if (n < r) throw Error(r === e[t].max ? `${this.format._name} requires exactly ${r} ${t} track${r === 1 ? "" : "s"}.` : `${this.format._name} requires at least ${r} ${t} track${r === 1 ? "" : "s"}.`);
 		}
 		let t = e.total.min;
 		if (this.tracks.length < t) throw Error(t === e.total.max ? `${this.format._name} requires exactly ${t} track${t === 1 ? "" : "s"}.` : `${this.format._name} requires at least ${t} track${t === 1 ? "" : "s"}.`);
 		if (this.state === "canceled") throw Error("Output has been canceled.");
-		return this._startPromise ? (ft._warn("Output has already been started."), this._startPromise) : this._startPromise = (async () => {
+		return this._startPromise ? (Ct._warn("Output has already been started."), this._startPromise) : this._startPromise = (async () => {
 			this.state = "started";
 			let e = this._mutex.acquire();
 			try {
@@ -5756,7 +5864,7 @@ var Qr = class extends Oe {
 	}
 	async cancel() {
 		if (this.state === "canceled") return this._cancelPromise ?? void 0;
-		if (this.state === "finalizing" || this.state === "finalized") this.state === "finalized" && ft._warn("Output has already been finalized.");
+		if (this.state === "finalizing" || this.state === "finalized") this.state === "finalized" && Ct._warn("Output has already been finalized.");
 		else return this._cancelPromise = (async () => {
 			this.state = "canceled";
 			let e = await this._mutex.acquire();
@@ -5771,7 +5879,7 @@ var Qr = class extends Oe {
 	async finalize() {
 		if (this.state === "pending") throw Error("Cannot finalize before starting.");
 		if (this.state === "canceled") throw Error("Cannot finalize after canceling.");
-		return this._finalizePromise ? (ft._warn("Output has already been finalized."), this._finalizePromise) : this._finalizePromise = (async () => {
+		return this._finalizePromise ? (Ct._warn("Output has already been finalized."), this._finalizePromise) : this._finalizePromise = (async () => {
 			this.state = "finalizing";
 			let e = await this._mutex.acquire();
 			try {
@@ -5788,7 +5896,7 @@ var Qr = class extends Oe {
 			}
 		})();
 	}
-}, Hi = function(e, t, n) {
+}, Ui = function(e, t, n) {
 	if (t != null) {
 		if (typeof t != "object" && typeof t != "function") throw TypeError("Object expected.");
 		var r, i;
@@ -5814,7 +5922,7 @@ var Qr = class extends Oe {
 		});
 	} else n && e.stack.push({ async: !0 });
 	return t;
-}, Ui = (function(e) {
+}, Wi = (function(e) {
 	return function(t) {
 		function n(n) {
 			t.error = t.hasError ? new e(n, t.error, "An error was suppressed during disposal.") : n, t.hasError = !0;
@@ -5840,15 +5948,15 @@ var Qr = class extends Oe {
 })(typeof SuppressedError == "function" ? SuppressedError : function(e, t, n) {
 	var r = Error(n);
 	return r.name = "SuppressedError", r.error = e, r.suppressed = t, r;
-}), Wi = (e) => {
+}), Gi = (e) => {
 	if (!e || typeof e != "object") throw TypeError("options.video, when provided, must be an object.");
 	if (e?.discard !== void 0 && typeof e.discard != "boolean") throw TypeError("options.video.discard, when provided, must be a boolean.");
 	if (e?.forceTranscode !== void 0 && typeof e.forceTranscode != "boolean") throw TypeError("options.video.forceTranscode, when provided, must be a boolean.");
 	if (e?.codec !== void 0 && !at.includes(e.codec)) throw TypeError(`options.video.codec, when provided, must be one of: ${at.join(", ")}.`);
 	let t = e?.bitrate;
-	if (e?.quality !== void 0 && !(e.quality instanceof Re)) throw TypeError("options.video.quality, when provided, must be a Quality.");
+	if (e?.quality !== void 0 && !(e.quality instanceof Ue)) throw TypeError("options.video.quality, when provided, must be a Quality.");
 	if (e?.quality !== void 0 && t !== void 0) throw TypeError("options.video.quality and options.video.bitrate cannot both be provided.");
-	if (t !== void 0 && !(t instanceof Re) && (!Number.isInteger(t) || t <= 0)) throw TypeError("options.video.bitrate, when provided, must be a positive integer or a quality.");
+	if (t !== void 0 && !(t instanceof Ue) && (!Number.isInteger(t) || t <= 0)) throw TypeError("options.video.bitrate, when provided, must be a positive integer or a quality.");
 	if (e?.width !== void 0 && (!Number.isInteger(e.width) || e.width <= 0)) throw TypeError("options.video.width, when provided, must be a positive integer.");
 	if (e?.height !== void 0 && (!Number.isInteger(e.height) || e.height <= 0)) throw TypeError("options.video.height, when provided, must be a positive integer.");
 	if (e?.fit !== void 0 && ![
@@ -5866,7 +5974,7 @@ var Qr = class extends Oe {
 	if (e?.flip !== void 0 && typeof e.flip != "boolean") throw TypeError("options.video.flip, when provided, must be a boolean.");
 	if (e?.allowTransformationMetadata !== void 0 && typeof e.allowTransformationMetadata != "boolean") throw TypeError("options.video.allowTransformationMetadata, when provided, must be a boolean.");
 	if (e?.allowRotationMetadata !== void 0 && typeof e.allowRotationMetadata != "boolean") throw TypeError("options.video.allowRotationMetadata, when provided, must be a boolean.");
-	if (e?.crop !== void 0 && Vt(e.crop, "options.video."), e?.frameRate !== void 0 && (!Number.isFinite(e.frameRate) || e.frameRate <= 0)) throw TypeError("options.video.frameRate, when provided, must be a finite positive number.");
+	if (e?.crop !== void 0 && U(e.crop, "options.video."), e?.frameRate !== void 0 && (!Number.isFinite(e.frameRate) || e.frameRate <= 0)) throw TypeError("options.video.frameRate, when provided, must be a finite positive number.");
 	if (e?.alpha !== void 0 && !["discard", "keep"].includes(e.alpha)) throw TypeError("options.video.alpha, when provided, must be either 'discard' or 'keep'.");
 	if (e?.keyFrameInterval !== void 0 && (!Number.isFinite(e.keyFrameInterval) || e.keyFrameInterval < 0)) throw TypeError("options.video.keyFrameInterval, when provided, must be a non-negative number.");
 	if (e?.process !== void 0 && typeof e.process != "function") throw TypeError("options.video.process, when provided, must be a function.");
@@ -5877,17 +5985,17 @@ var Qr = class extends Oe {
 		"prefer-hardware",
 		"prefer-software"
 	].includes(e.hardwareAcceleration)) throw TypeError("options.video.hardwareAcceleration, when provided, must be 'no-preference', 'prefer-hardware' or 'prefer-software'.");
-	if (e?.group !== void 0 && !(e.group instanceof zi || Array.isArray(e.group) && e.group.every((e) => e instanceof zi))) throw TypeError("options.video.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
+	if (e?.group !== void 0 && !(e.group instanceof Bi || Array.isArray(e.group) && e.group.every((e) => e instanceof Bi))) throw TypeError("options.video.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
 	if (e?.maximumPacketCount !== void 0 && (!Number.isInteger(e.maximumPacketCount) || e.maximumPacketCount < 0)) throw TypeError("options.video.maximumPacketCount, when provided, must be a non-negative integer.");
-}, Gi = (e) => {
+}, Ki = (e) => {
 	if (!e || typeof e != "object") throw TypeError("options.audio, when provided, must be an object.");
 	if (e?.discard !== void 0 && typeof e.discard != "boolean") throw TypeError("options.audio.discard, when provided, must be a boolean.");
 	if (e?.forceTranscode !== void 0 && typeof e.forceTranscode != "boolean") throw TypeError("options.audio.forceTranscode, when provided, must be a boolean.");
 	if (e?.codec !== void 0 && !St.includes(e.codec)) throw TypeError(`options.audio.codec, when provided, must be one of: ${St.join(", ")}.`);
 	let t = e?.bitrate;
-	if (e?.quality !== void 0 && !(e.quality instanceof Re)) throw TypeError("options.audio.quality, when provided, must be a Quality.");
+	if (e?.quality !== void 0 && !(e.quality instanceof Ue)) throw TypeError("options.audio.quality, when provided, must be a Quality.");
 	if (e?.quality !== void 0 && t !== void 0) throw TypeError("options.audio.quality and options.audio.bitrate cannot both be provided.");
-	if (t !== void 0 && !(t instanceof Re) && (!Number.isInteger(t) || t <= 0)) throw TypeError("options.audio.bitrate, when provided, must be a positive integer or a quality.");
+	if (t !== void 0 && !(t instanceof Ue) && (!Number.isInteger(t) || t <= 0)) throw TypeError("options.audio.bitrate, when provided, must be a positive integer or a quality.");
 	if (e?.numberOfChannels !== void 0 && (!Number.isInteger(e.numberOfChannels) || e.numberOfChannels <= 0)) throw TypeError("options.audio.numberOfChannels, when provided, must be a positive integer.");
 	if (e?.sampleRate !== void 0 && (!Number.isInteger(e.sampleRate) || e.sampleRate <= 0)) throw TypeError("options.audio.sampleRate, when provided, must be a positive integer.");
 	if (e?.sampleFormat !== void 0 && ![
@@ -5899,9 +6007,9 @@ var Qr = class extends Oe {
 	if (e?.process !== void 0 && typeof e.process != "function") throw TypeError("options.audio.process, when provided, must be a function.");
 	if (e?.processedNumberOfChannels !== void 0 && (!Number.isInteger(e.processedNumberOfChannels) || e.processedNumberOfChannels <= 0)) throw TypeError("options.audio.processedNumberOfChannels, when provided, must be a positive integer.");
 	if (e?.processedSampleRate !== void 0 && (!Number.isInteger(e.processedSampleRate) || e.processedSampleRate <= 0)) throw TypeError("options.audio.processedSampleRate, when provided, must be a positive integer.");
-	if (e?.group !== void 0 && !(e.group instanceof zi || Array.isArray(e.group) && e.group.every((e) => e instanceof zi))) throw TypeError("options.audio.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
+	if (e?.group !== void 0 && !(e.group instanceof Bi || Array.isArray(e.group) && e.group.every((e) => e instanceof Bi))) throw TypeError("options.audio.group, when provided, must be an OutputTrackGroup or an array of OutputTrackGroups.");
 	if (e?.maximumPacketCount !== void 0 && (!Number.isInteger(e.maximumPacketCount) || e.maximumPacketCount < 0)) throw TypeError("options.audio.maximumPacketCount, when provided, must be a non-negative integer.");
-}, Ki = 2, qi = 48e3, Ji = 256, Yi = class e {
+}, qi = 2, Ji = 48e3, Yi = 256, Xi = class e {
 	get state() {
 		return this._state;
 	}
@@ -5910,17 +6018,17 @@ var Qr = class extends Oe {
 		return await n._init(), n;
 	}
 	constructor(e) {
-		if (this._state = "idle", this._timestampOffset = 0, this._timestampOffsetAdjusted = !1, this._copyTimestampPossible = /* @__PURE__ */ new Map(), this._copyStartPackets = /* @__PURE__ */ new Map(), this._trackDurations = /* @__PURE__ */ new Map(), this._nextOutputTrackId = 0, this._outputTrackIds = [], this._outputOwnTrackGroups = [], this._trackPumps = [], this._composable = !1, this._executed = !1, this._executionUntil = Infinity, this._pauseRequested = !1, this._synchronizer = new Qi(this), this._totalDuration = null, this._maxTimestamps = /* @__PURE__ */ new Map(), this.onProgress = void 0, this._computeProgress = !1, this._lastProgress = 0, this._lastProcessedTime = 0, this.isValid = !1, this.utilizedTracks = [], this.discardedTracks = [], !e || typeof e != "object") throw TypeError("options must be an object.");
+		if (this._state = "idle", this._timestampOffset = 0, this._timestampOffsetAdjusted = !1, this._copyTimestampPossible = /* @__PURE__ */ new Map(), this._copyStartPackets = /* @__PURE__ */ new Map(), this._trackDurations = /* @__PURE__ */ new Map(), this._nextOutputTrackId = 0, this._outputTrackIds = [], this._outputOwnTrackGroups = [], this._trackPumps = [], this._composable = !1, this._executed = !1, this._executionUntil = Infinity, this._pauseRequested = !1, this._synchronizer = new $i(this), this._totalDuration = null, this._maxTimestamps = /* @__PURE__ */ new Map(), this.onProgress = void 0, this._computeProgress = !1, this._lastProgress = 0, this._lastProcessedTime = 0, this.isValid = !1, this.utilizedTracks = [], this.discardedTracks = [], !e || typeof e != "object") throw TypeError("options must be an object.");
 		if (!(e.input instanceof a)) throw TypeError("options.input must be an Input.");
-		if (!(e.output instanceof Vi)) throw TypeError("options.output must be an Output.");
+		if (!(e.output instanceof Hi)) throw TypeError("options.output must be an Output.");
 		if (e.tracks !== void 0 && e.tracks !== "all" && e.tracks !== "primary") throw TypeError("options.tracks, when provided, must be either 'all' or 'primary'.");
 		if (e.composable !== void 0 && typeof e.composable != "boolean") throw TypeError("options.composable, when provided, must be a boolean.");
 		if (e.copy !== void 0 && e.copy !== !1) {
 			if (!e.copy || typeof e.copy != "object") throw TypeError("options.copy, when provided, must be an object or false.");
 			if (e.copy.mode !== void 0 && !["forced", "preferred"].includes(e.copy.mode)) throw TypeError("options.copy.mode, when provided, must be 'forced' or 'preferred'.");
-			if (e.copy.shiftTolerance !== void 0 && (!f(e.copy.shiftTolerance) || e.copy.shiftTolerance < 0)) throw TypeError("options.copy.shiftTolerance, when provided, must be a non-negative number.");
+			if (e.copy.shiftTolerance !== void 0 && (!Rt(e.copy.shiftTolerance) || e.copy.shiftTolerance < 0)) throw TypeError("options.copy.shiftTolerance, when provided, must be a non-negative number.");
 			if (e.copy.boundaryPolicy !== void 0 && !["expand", "shrink"].includes(e.copy.boundaryPolicy)) throw TypeError("options.copy.boundaryPolicy, when provided, must be 'expand' or 'shrink'.");
-			if (e.copy.boundaryTolerance !== void 0 && (!f(e.copy.boundaryTolerance) || e.copy.boundaryTolerance < 0)) throw TypeError("options.copy.boundaryTolerance, when provided, must be a non-negative number.");
+			if (e.copy.boundaryTolerance !== void 0 && (!Rt(e.copy.boundaryTolerance) || e.copy.boundaryTolerance < 0)) throw TypeError("options.copy.boundaryTolerance, when provided, must be a non-negative number.");
 		}
 		let t = e.composable ?? !1;
 		if (t) {
@@ -5928,24 +6036,24 @@ var Qr = class extends Oe {
 			if (e.output.state !== "pending") throw TypeError("options.output must not have been started yet.");
 		} else if (e.output.tracks.length > 0 || Object.keys(e.output._metadataTags).length > 0 || e.output.state !== "pending") throw TypeError("options.output must be fresh: no tracks or metadata tags added and not started.");
 		if (e.video !== void 0 && typeof e.video != "function") {
-			if (Array.isArray(e.video)) for (let t of e.video) Wi(t);
-			else Wi(e.video);
+			if (Array.isArray(e.video)) for (let t of e.video) Gi(t);
+			else Gi(e.video);
 		}
 		if (e.audio !== void 0 && typeof e.audio != "function") {
-			if (Array.isArray(e.audio)) for (let t of e.audio) Gi(t);
-			else Gi(e.audio);
+			if (Array.isArray(e.audio)) for (let t of e.audio) Ki(t);
+			else Ki(e.audio);
 		}
 		if (e.trim !== void 0 && (!e.trim || typeof e.trim != "object")) throw TypeError("options.trim, when provided, must be an object.");
 		if (e.trim?.start !== void 0 && !Number.isFinite(e.trim.start)) throw TypeError("options.trim.start, when provided, must be a finite number.");
-		if (e.trim?.end !== void 0 && !f(e.trim.end)) throw TypeError("options.trim.end, when provided, must be a number.");
+		if (e.trim?.end !== void 0 && !Rt(e.trim.end)) throw TypeError("options.trim.end, when provided, must be a number.");
 		if (e.trim?.start !== void 0 && e.trim.end !== void 0 && e.trim.start >= e.trim.end) throw TypeError("options.trim.start must be less than options.trim.end.");
 		if (e.tags !== void 0 && (typeof e.tags != "object" || !e.tags) && typeof e.tags != "function") throw TypeError("options.tags, when provided, must be an object or a function.");
-		if (typeof e.tags == "object" && ze(e.tags), e.showWarnings !== void 0 && typeof e.showWarnings != "boolean") throw TypeError("options.showWarnings, when provided, must be a boolean.");
+		if (typeof e.tags == "object" && kt(e.tags), e.showWarnings !== void 0 && typeof e.showWarnings != "boolean") throw TypeError("options.showWarnings, when provided, must be a boolean.");
 		this._options = e, this._copyMode = e.copy === !1 ? !1 : e.copy?.mode ?? "preferred", this._copyTimestampShiftTolerance = e.copy === !1 ? 0 : e.copy?.shiftTolerance ?? 0, this._copyBoundaryPolicy = e.copy === !1 ? "expand" : e.copy?.boundaryPolicy ?? "expand", this._copyBoundaryTolerance = e.copy === !1 ? Infinity : e.copy?.boundaryTolerance ?? Infinity, this._composable = t, this.input = e.input, this.output = e.output;
 	}
 	async _init() {
 		let e = await this.input.getFormat(), t, n = this._options.tracks;
-		n === void 0 && (n = e.name.includes("(HLS)") ? "primary" : "all"), n === "all" ? t = await this.input.getTracks() : n === "primary" ? t = [await this.input.getPrimaryVideoTrack(), await this.input.getPrimaryAudioTrack()].filter((e) => e !== null) : (Le(n), Y(!1));
+		n === void 0 && (n = e.name.includes("(HLS)") ? "primary" : "all"), n === "all" ? t = await this.input.getTracks() : n === "primary" ? t = [await this.input.getPrimaryVideoTrack(), await this.input.getPrimaryAudioTrack()].filter((e) => e !== null) : (He(n), Y(!1));
 		let r = this.output.format.getSupportedTrackCounts(), i = 1, a = 1, o = [], s = [];
 		for (let e of t) {
 			let t;
@@ -5953,8 +6061,8 @@ var Qr = class extends Oe {
 				if (this._options.video) {
 					if (typeof this._options.video == "function") {
 						let n = await this._options.video(e, i) ?? {};
-						if (Array.isArray(n)) for (let e of n) Wi(e);
-						else Wi(n);
+						if (Array.isArray(n)) for (let e of n) Gi(e);
+						else Gi(n);
 						t = Array.isArray(n) ? n : [n], i++;
 					} else t = Array.isArray(this._options.video) ? this._options.video : [this._options.video];
 				} else t = [{}];
@@ -5962,8 +6070,8 @@ var Qr = class extends Oe {
 				if (this._options.audio) {
 					if (typeof this._options.audio == "function") {
 						let n = await this._options.audio(e, a) ?? {};
-						if (Array.isArray(n)) for (let e of n) Gi(e);
-						else Gi(n);
+						if (Array.isArray(n)) for (let e of n) Ki(e);
+						else Ki(n);
 						t = Array.isArray(n) ? n : [n], a++;
 					} else t = Array.isArray(this._options.audio) ? this._options.audio : [this._options.audio];
 				} else t = [{}];
@@ -6019,14 +6127,14 @@ var Qr = class extends Oe {
 			let n;
 			if (this._options.tags) {
 				let e = typeof this._options.tags == "function" ? await this._options.tags(t) : this._options.tags;
-				ze(e), n = e;
+				kt(e), n = e;
 			} else n = t;
 			let r = e.mimeType === this.output.format.mimeType;
 			t.raw === n.raw && !r && delete n.raw, this.output.setMetadataTags(n);
 		}
 		if (this.isValid = this._composable ? !0 : this.output.hasEnoughTracks() && this.output.tracks.length > 0, this._options.showWarnings ?? !0) {
 			let e = [], t = this.discardedTracks.filter((e) => e.reason !== "discarded_by_user");
-			t.length > 0 && e.push("Some tracks had to be discarded from the conversion:", t), this.isValid || (e.length > 0 && e.push("\n\n"), e.push(this._getInvalidityExplanation().join(""))), e.length > 0 && ft._warn(...e);
+			t.length > 0 && e.push("Some tracks had to be discarded from the conversion:", t), this.isValid || (e.length > 0 && e.push("\n\n"), e.push(this._getInvalidityExplanation().join(""))), e.length > 0 && Ct._warn(...e);
 		}
 	}
 	_getInvalidityExplanation() {
@@ -6052,7 +6160,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		if (e.pauseSignal !== void 0 && !(e.pauseSignal instanceof AbortSignal)) throw TypeError("options.pauseSignal, when provided, must be an AbortSignal.");
 		if (!this.isValid) throw Error("Cannot execute this conversion because its output configuration is invalid. Make sure to always check the isValid field before executing a conversion.\n" + this._getInvalidityExplanation().join(""));
 		if (this._state === "executing") throw Error("Cannot call execute() while a previous call to execute() is still running.");
-		if (this._state === "canceled") throw new Xi();
+		if (this._state === "canceled") throw new Zi();
 		if (this._state === "done") return;
 		if (this._composable && this.output.state === "pending") throw Error("A composable conversion requires the output to be started. Call start() on the output before executing the conversion.");
 		this._state = "executing", this._executionUntil = e.until ?? Infinity, this._pauseRequested = e.pauseSignal?.aborted ?? !1;
@@ -6060,7 +6168,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 			this._state === "executing" && (this._pauseRequested = !0, this._synchronizer.resolveAll());
 		};
 		e.pauseSignal?.addEventListener("abort", t);
-		for (let e of this._trackPumps) e.done || (e.resolvers = o());
+		for (let e of this._trackPumps) e.done || (e.resolvers = et());
 		if (this._executed) for (let e of this._trackPumps) e.wake?.();
 		else {
 			this._executed = !0;
@@ -6081,13 +6189,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 		} finally {
 			e.pauseSignal?.removeEventListener("abort", t);
 		}
-		if (this._state === "canceled") throw new Xi();
+		if (this._state === "canceled") throw new Zi();
 		let n = this._trackPumps.every((e) => e.done);
 		this._state = n ? "done" : "idle", n && (this._composable || await this.output.finalize(), this._computeProgress && this.onProgress?.(1, this._lastProcessedTime));
 	}
 	async cancel() {
 		if (this._state !== "done") {
-			if (this._state === "canceled") ft._warn("Conversion already canceled.");
+			if (this._state === "canceled") Ct._warn("Conversion already canceled.");
 			else {
 				this._state = "canceled";
 				for (let e of this._trackPumps) e.wake?.();
@@ -6113,20 +6221,20 @@ Tracks were discarded because your environment is not able to encode any of the 
 			});
 			return;
 		}
-		let i, a = await e.getRotation(), o = await e.getFlip(), { rotation: s, flip: c } = Ge(a, o, t.rotate ?? 0, t.flip ?? !1), l = s, u = c, d = t.rotate || t.flip ? null : await e.getTransformationMatrix(), f = this.output.format.supportsVideoTransformationMetadata && (t.allowTransformationMetadata ?? t.allowRotationMetadata ?? !0), p = await e.getSquarePixelWidth(), m = await e.getSquarePixelHeight(), [h, g] = s % 180 == 0 ? [p, m] : [m, p], v = t.crop;
-		v &&= Wt(v, h, g);
+		let i, a = await e.getRotation(), o = await e.getFlip(), { rotation: s, flip: c } = Ee(a, o, t.rotate ?? 0, t.flip ?? !1), l = s, u = c, d = t.rotate || t.flip ? null : await e.getTransformationMatrix(), f = this.output.format.supportsVideoTransformationMetadata && (t.allowTransformationMetadata ?? t.allowRotationMetadata ?? !0), p = await e.getSquarePixelWidth(), m = await e.getSquarePixelHeight(), [h, g] = s % 180 == 0 ? [p, m] : [m, p], v = t.crop;
+		v &&= Ne(v, h, g);
 		let [y, b] = v ? [v.width, v.height] : [h, g], x = y, S = b, C = x / S;
-		t.width !== void 0 && t.height === void 0 ? (x = He(t.width), S = He(Math.round(x / C))) : t.width === void 0 && t.height !== void 0 ? (S = He(t.height), x = He(Math.round(S * C))) : t.width !== void 0 && t.height !== void 0 && (x = He(t.width), S = He(t.height));
+		t.width !== void 0 && t.height === void 0 ? (x = vt(t.width), S = vt(Math.round(x / C))) : t.width === void 0 && t.height !== void 0 ? (S = vt(t.height), x = vt(Math.round(S * C))) : t.width !== void 0 && t.height !== void 0 && (x = vt(t.width), S = vt(t.height));
 		let w = this.output.format.getSupportedVideoCodecs(), T = t.alpha ?? "discard", E = !this._copyMode || !!t.forceTranscode || !!t.frameRate || t.keyFrameInterval !== void 0 || t.process !== void 0 || t.quality !== void 0 || t.bitrate !== void 0 || !w.includes(r) || t.codec && t.codec !== r || x !== y || S !== b || s !== 0 && !f || c && !f || !!v, D = null;
 		if (!E) {
-			let t = new ie(e), n = await t.getKeyPacket(this._startTimestamp, { verifyKeyPackets: !0 }) ?? await t.getFirstKeyPacket({ verifyKeyPackets: !0 });
+			let t = new L(e), n = await t.getKeyPacket(this._startTimestamp, { verifyKeyPackets: !0 }) ?? await t.getFirstKeyPacket({ verifyKeyPackets: !0 });
 			if (n && n.timestamp < this._startTimestamp && n.timestamp + n.duration <= this._startTimestamp && this._copyBoundaryPolicy === "shrink" && (n = await t.getNextKeyPacket(n, { verifyKeyPackets: !0 })), D = n, n) {
 				let e = this._copyBoundaryPolicy === "shrink" ? Math.max(n.timestamp, this._startTimestamp) : n.timestamp;
 				if ((this._copyBoundaryPolicy === "shrink" ? e - this._startTimestamp : Math.max(this._startTimestamp - e, 0)) > this._copyBoundaryTolerance) E = !0;
 				else if (!this.output.format.supportsTimestampedMediaData) {
 					if (this._timestampOffsetAdjusted) e + this._timestampOffset !== 0 && (E = !0);
 					else {
-						let t = lt(this._startTimestamp - e, -this._copyTimestampShiftTolerance, this._copyTimestampShiftTolerance);
+						let t = Je(this._startTimestamp - e, -this._copyTimestampShiftTolerance, this._copyTimestampShiftTolerance);
 						e + t === this._startTimestamp ? (this._timestampOffset = -this._startTimestamp + t, this._timestampOffsetAdjusted = !0) : E = !0;
 					}
 				} else if (this.output.format.negativeTimestampSupport !== "full" && e < this._startTimestamp) {
@@ -6153,7 +6261,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 				return;
 			}
 			t.codec && (w = w.filter((e) => e === t.codec));
-			let r = Ke(t.quality, t.bitrate) ?? new Re("high"), a = await Ye(w, {
+			let r = De(t.quality, t.bitrate) ?? new Ue("high"), a = await Ke(w, {
 				width: t.process && t.processedWidth ? t.processedWidth : x,
 				height: t.process && t.processedHeight ? t.processedHeight : S,
 				quality: r
@@ -6184,22 +6292,22 @@ Tracks were discarded because your environment is not able to encode any of the 
 					hasError: !1
 				};
 				try {
-					let r = new Vi({
-						format: new Ti(),
-						target: new ni()
+					let r = new Hi({
+						format: new Ei(),
+						target: new ri()
 					}), i = new _(o);
 					r.addVideoTrack(i), await r.start();
-					let a = Hi(n, await new ae(e, { hardwareAcceleration: t.hardwareAcceleration }).getSample(await e.getFirstTimestamp()), !1);
+					let a = Ui(n, await new oe(e, { hardwareAcceleration: t.hardwareAcceleration }).getSample(await e.getFirstTimestamp()), !1);
 					if (a) try {
 						await i.add(a), a.close(), await r.finalize();
 					} catch (e) {
-						ft._warn("An error occurred when probing encoder support. Falling back to rerender path.", e), r.cancel(), h = !0, o.transform.force = !0;
+						Ct._warn("An error occurred when probing encoder support. Falling back to rerender path.", e), r.cancel(), h = !0, o.transform.force = !0;
 					}
 					else await r.cancel();
 				} catch (e) {
 					n.error = e, n.hasError = !0;
 				} finally {
-					Ui(n);
+					Wi(n);
 				}
 			}
 			t.frameRate && (o.transform.frameRate = t.frameRate), t.process && (o.transform.process = t.process), h && (l = 0, u = !1, d = null, o.transform.width = x, o.transform.height = S, o.transform.fit = t.fit ?? "fill", o.transform.rotate = t.rotate, o.transform.flip = t.flip, o.transform.crop = v, o.transform.alpha = T);
@@ -6209,7 +6317,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 			};
 			let C = new _(o);
 			i = C, this._registerTrackPump(async (r) => {
-				let i = new ae(e, { hardwareAcceleration: t.hardwareAcceleration });
+				let i = new oe(e, { hardwareAcceleration: t.hardwareAcceleration });
 				for await (let e of i.samples(this._startTimestamp, this._endTimestamp)) {
 					let t = {
 						stack: [],
@@ -6217,7 +6325,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 						hasError: !1
 					};
 					try {
-						let i = Hi(t, e, !1);
+						let i = Ui(t, e, !1);
 						if (this._state === "canceled") break;
 						let a = Math.max(this._startTimestamp, i.timestamp), o = Math.min(this._endTimestamp, i.timestamp + i.duration);
 						if (a >= o) continue;
@@ -6225,15 +6333,15 @@ Tracks were discarded because your environment is not able to encode any of the 
 					} catch (e) {
 						t.error = e, t.hasError = !0;
 					} finally {
-						Ui(t);
+						Wi(t);
 					}
 				}
 				C.close(), this._closeTrack(n);
 			});
 		} else {
-			let t = new V(r);
+			let t = new fe(r);
 			i = t, this._registerTrackPump(async (r) => {
-				let i = new ie(e), a = { decoderConfig: await e.getDecoderConfig() ?? void 0 }, o = null;
+				let i = new L(e), a = { decoderConfig: await e.getDecoderConfig() ?? void 0 }, o = null;
 				if (D) for await (let e of i.packets(D, void 0, { verifyKeyPackets: !0 })) {
 					if (this._state === "canceled") break;
 					if (e.timestamp >= this._endTimestamp) {
@@ -6268,25 +6376,25 @@ Tracks were discarded because your environment is not able to encode any of the 
 			});
 		}
 		let O = null;
-		!t.group && !this._composable && (O = new zi());
-		let k = await e.getLanguageCode(), A = await e.getName(), j = await e.getDisposition(), M = E ? null : await e.getBitrate(), ee = E ? null : await e.getAverageBitrate(), te = T === "keep" && await e.canBeTransparent(), ne = t.maximumPacketCount;
-		if (this.output.format.requiresMaximumPacketCount && ne === void 0) {
-			let n = t.frameRate ?? (await e.computePacketStats(Ji)).averagePacketRate, r = E ? this._startTimestamp : D?.timestamp ?? this._startTimestamp;
-			ne = await this._estimateMaximumPacketCount(e, r, n);
+		!t.group && !this._composable && (O = new Bi());
+		let k = await e.getLanguageCode(), A = await e.getName(), j = await e.getDisposition(), M = E ? null : await e.getBitrate(), ee = E ? null : await e.getAverageBitrate(), N = T === "keep" && await e.canBeTransparent(), te = t.maximumPacketCount;
+		if (this.output.format.requiresMaximumPacketCount && te === void 0) {
+			let n = t.frameRate ?? (await e.computePacketStats(Yi)).averagePacketRate, r = E ? this._startTimestamp : D?.timestamp ?? this._startTimestamp;
+			te = await this._estimateMaximumPacketCount(e, r, n);
 		}
 		this.output.addVideoTrack(i, {
 			frameRate: t.frameRate,
-			languageCode: Bt(k) ? k : void 0,
+			languageCode: pe(k) ? k : void 0,
 			name: A ?? void 0,
 			disposition: j,
 			rotation: l,
 			flip: u,
 			transformationMatrix: d ?? void 0,
-			canBeTransparent: te,
+			canBeTransparent: N,
 			group: O ?? t.group,
 			bitrate: M ?? void 0,
 			averageBitrate: ee ?? void 0,
-			maximumPacketCount: ne
+			maximumPacketCount: te
 		}), this.utilizedTracks.push(e), this._outputTrackIds.push(n), this._outputOwnTrackGroups.push(O);
 	}
 	async _processAudioTrack(e, t, n) {
@@ -6309,7 +6417,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		}
 		let i, a = await e.getNumberOfChannels(), o = await e.getSampleRate(), s = t.numberOfChannels ?? a, c = t.sampleRate ?? o, l = null, u = this.output.format.getSupportedAudioCodecs(), d = !this._copyMode || !!t.forceTranscode || !!t.quality || !!t.bitrate || s !== a || c !== o || !u.includes(r) || !!t.codec && t.codec !== r || t.process !== void 0 || t.sampleFormat !== void 0, f = null;
 		if (!d) {
-			let t = new ie(e), n = await t.getKeyPacket(this._startTimestamp, { verifyKeyPackets: !0 }) ?? await t.getFirstKeyPacket({ verifyKeyPackets: !0 });
+			let t = new L(e), n = await t.getKeyPacket(this._startTimestamp, { verifyKeyPackets: !0 }) ?? await t.getFirstKeyPacket({ verifyKeyPackets: !0 });
 			n && (this._copyBoundaryPolicy === "shrink" && n.timestamp < this._startTimestamp || this._copyBoundaryPolicy === "expand" && n.timestamp + n.duration <= this._startTimestamp) && (n = await t.getNextKeyPacket(n, { verifyKeyPackets: !0 }));
 			let r = await e.getPreRollDuration();
 			if (Y(r !== null), n && this._copyBoundaryPolicy === "expand" && r > 0 && (n = await t.getKeyPacket(n.timestamp - r, { verifyKeyPackets: !0 }) ?? await t.getFirstKeyPacket({ verifyKeyPackets: !0 })), f = n, n) {
@@ -6317,7 +6425,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 				else if (!this.output.format.supportsTimestampedMediaData) {
 					if (this._timestampOffsetAdjusted) n.timestamp + this._timestampOffset !== 0 && (d = !0);
 					else {
-						let e = lt(this._startTimestamp - n.timestamp, -this._copyTimestampShiftTolerance, this._copyTimestampShiftTolerance);
+						let e = Je(this._startTimestamp - n.timestamp, -this._copyTimestampShiftTolerance, this._copyTimestampShiftTolerance);
 						n.timestamp + e === this._startTimestamp ? (this._timestampOffset = -this._startTimestamp + e, this._timestampOffsetAdjusted = !0) : d = !0;
 					}
 				} else if (this.output.format.negativeTimestampSupport !== "full" && n.timestamp < this._startTimestamp) {
@@ -6344,18 +6452,18 @@ Tracks were discarded because your environment is not able to encode any of the 
 				return;
 			}
 			t.codec && (u = u.filter((e) => e === t.codec));
-			let r = Ke(t.quality, t.bitrate) ?? new Re("high"), d = await yt(u, {
+			let r = De(t.quality, t.bitrate) ?? new Ue("high"), d = await ut(u, {
 				numberOfChannels: t.process && t.processedNumberOfChannels ? t.processedNumberOfChannels : s,
 				sampleRate: t.process && t.processedSampleRate ? t.processedSampleRate : c,
 				quality: r
 			});
-			if (!d.some((e) => Xe.includes(e)) && u.some((e) => Xe.includes(e)) && (s !== Ki || c !== qi)) {
-				let e = (await yt(u, {
-					numberOfChannels: Ki,
-					sampleRate: qi,
+			if (!d.some((e) => Xe.includes(e)) && u.some((e) => Xe.includes(e)) && (s !== qi || c !== Ji)) {
+				let e = (await ut(u, {
+					numberOfChannels: qi,
+					sampleRate: Ji,
 					quality: r
 				})).find((e) => Xe.includes(e));
-				e && (l = e, s = Ki, c = qi);
+				e && (l = e, s = qi, c = Ji);
 			} else l = d[0] ?? null;
 			if (l === null) {
 				this.discardedTracks.push({
@@ -6378,7 +6486,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 			f.onEncodedSample = (e) => {
 				p = e.timestamp;
 			};
-			let m = new Nt(f);
+			let m = new Pt(f);
 			i = m, this._registerTrackPump(async (t) => {
 				let r = null, i = new $e(e);
 				for await (let e of i.samples(this._startTimestamp, this._endTimestamp)) {
@@ -6388,7 +6496,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 						hasError: !1
 					};
 					try {
-						let s = Hi(i, e, !1);
+						let s = Ui(i, e, !1);
 						if (this._state === "canceled") break;
 						let c = 0, l = s.numberOfFrames;
 						if (s.timestamp < this._startTimestamp && (c = Math.round((this._startTimestamp - s.timestamp) * s.sampleRate)), s.timestamp + s.duration > this._endTimestamp && (l = Math.round((this._endTimestamp - s.timestamp) * s.sampleRate)), c >= l) {
@@ -6403,7 +6511,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 								continue;
 							}
 						} else u = s;
-						let d = Hi(i, u, !1);
+						let d = Ui(i, u, !1);
 						if (d.setTimestamp(d.timestamp + this._timestampOffset), r === null && (r = this.output.format.supportsTimestampedMediaData ? 0 : Math.round(d.timestamp * o)), r > 0) {
 							let e = {
 								stack: [],
@@ -6411,9 +6519,9 @@ Tracks were discarded because your environment is not able to encode any of the 
 								hasError: !1
 							};
 							try {
-								let i = Me(s.format), c = new Uint8Array(i * r * a);
+								let i = Ht(s.format), c = new Uint8Array(i * r * a);
 								(s.format === "u8" || s.format === "u8-planar") && c.fill(128);
-								let l = Hi(e, new Ee({
+								let l = Ui(e, new It({
 									data: c,
 									format: s.format,
 									numberOfChannels: a,
@@ -6424,22 +6532,22 @@ Tracks were discarded because your environment is not able to encode any of the 
 							} catch (t) {
 								e.error = t, e.hasError = !0;
 							} finally {
-								Ui(e);
+								Wi(e);
 							}
 						}
 						await this._registerAudioSample(t, d, m, n, () => p);
 					} catch (e) {
 						i.error = e, i.hasError = !0;
 					} finally {
-						Ui(i);
+						Wi(i);
 					}
 				}
 				m.close(), this._closeTrack(n);
 			});
 		} else {
-			let t = new zt(r);
+			let t = new Bt(r);
 			i = t, this._registerTrackPump(async (r) => {
-				let i = new ie(e), a = { decoderConfig: await e.getDecoderConfig() ?? void 0 }, o = null;
+				let i = new L(e), a = { decoderConfig: await e.getDecoderConfig() ?? void 0 }, o = null;
 				if (f) for await (let e of i.packets(f)) {
 					if (this._state === "canceled" || e.timestamp >= this._endTimestamp || this._copyBoundaryPolicy === "shrink" && e.timestamp + e.duration > this._endTimestamp) break;
 					let i = e.timestamp + this._timestampOffset;
@@ -6455,16 +6563,16 @@ Tracks were discarded because your environment is not able to encode any of the 
 			});
 		}
 		let p = null;
-		!t.group && !this._composable && (p = new zi());
+		!t.group && !this._composable && (p = new Bi());
 		let m = await e.getLanguageCode(), h = await e.getName(), g = await e.getDisposition(), _ = d ? null : await e.getBitrate(), v = d ? null : await e.getAverageBitrate(), y = t.maximumPacketCount;
 		if (this.output.format.requiresMaximumPacketCount && y === void 0) {
 			let t;
-			d ? (Y(l), t = c / _t(l, c)) : t = (await e.computePacketStats(Ji)).averagePacketRate;
+			d ? (Y(l), t = c / _t(l, c)) : t = (await e.computePacketStats(Yi)).averagePacketRate;
 			let n = d ? this._startTimestamp : f?.timestamp ?? this._startTimestamp;
 			y = await this._estimateMaximumPacketCount(e, n, t);
 		}
 		this.output.addAudioTrack(i, {
-			languageCode: Bt(m) ? m : void 0,
+			languageCode: pe(m) ? m : void 0,
 			name: h ?? void 0,
 			disposition: g,
 			group: p ?? t.group,
@@ -6489,7 +6597,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 	_registerTrackPump(e) {
 		let t = {
 			done: !1,
-			resolvers: o(),
+			resolvers: et(),
 			wake: null,
 			start: () => {
 				e(t).then(() => {
@@ -6504,7 +6612,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 	async _checkpoint(e, t) {
 		for (; this._state !== "canceled" && (t >= this._executionUntil || this._pauseRequested);) {
 			e.resolvers.resolve();
-			let { promise: t, resolve: n } = o();
+			let { promise: t, resolve: n } = et();
 			e.wake = n, await t;
 		}
 	}
@@ -6517,14 +6625,14 @@ Tracks were discarded because your environment is not able to encode any of the 
 	_reportProgress() {
 		if (!this._computeProgress || this._maxTimestamps.size === 0) return;
 		Y(this._totalDuration !== null);
-		let e = Math.min(...this._maxTimestamps.values()), t = lt(e / this._totalDuration, 0, 1);
+		let e = Math.min(...this._maxTimestamps.values()), t = Je(e / this._totalDuration, 0, 1);
 		this._lastProcessedTime = e, t !== this._lastProgress && (this._lastProgress = t, this.onProgress?.(t, e));
 	}
-}, Xi = class extends Error {
+}, Zi = class extends Error {
 	constructor(e = "Conversion has been canceled.") {
 		super(e), this.name = "ConversionCanceledError";
 	}
-}, Zi = 1, Qi = class {
+}, Qi = 1, $i = class {
 	constructor(e) {
 		this.maxTimestamps = /* @__PURE__ */ new Map(), this.resolvers = [], this.conversion = e;
 	}
@@ -6535,10 +6643,10 @@ Tracks were discarded because your environment is not able to encode any of the 
 		let n = this.maxTimestamps.get(e);
 		Y(n !== void 0), this.maxTimestamps.set(e, Math.max(t, n));
 		let r = this.computeMinAndMaybeResolve();
-		return this.conversion._state === "canceled" || this.conversion._pauseRequested || t >= this.conversion._executionUntil ? !1 : t - r > Zi;
+		return this.conversion._state === "canceled" || this.conversion._pauseRequested || t >= this.conversion._executionUntil ? !1 : t - r > Qi;
 	}
 	wait(e) {
-		let { promise: t, resolve: n } = o();
+		let { promise: t, resolve: n } = et();
 		return this.resolvers.push({
 			timestamp: e,
 			resolve: n
@@ -6556,11 +6664,11 @@ Tracks were discarded because your environment is not able to encode any of the 
 		for (let [, t] of this.maxTimestamps) e = Math.min(e, t);
 		for (let t = 0; t < this.resolvers.length; t++) {
 			let n = this.resolvers[t];
-			n.timestamp - e < Zi && (n.resolve(), this.resolvers.splice(t, 1), t--);
+			n.timestamp - e < Qi && (n.resolve(), this.resolvers.splice(t, 1), t--);
 		}
 		return e;
 	}
-}, $i = /* @__PURE__ */ n(((e) => {
+}, ea = /* @__PURE__ */ n(((e) => {
 	var t = typeof Uint8Array < "u" && typeof Uint16Array < "u" && typeof Int32Array < "u";
 	function n(e, t) {
 		return Object.prototype.hasOwnProperty.call(e, t);
@@ -6599,8 +6707,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 	e.setTyped = function(t) {
 		t ? (e.Buf8 = Uint8Array, e.Buf16 = Uint16Array, e.Buf32 = Int32Array, e.assign(e, r)) : (e.Buf8 = Array, e.Buf16 = Array, e.Buf32 = Array, e.assign(e, i));
 	}, e.setTyped(t);
-})), ea = /* @__PURE__ */ n(((e) => {
-	var t = $i(), n = 4, r = 0, i = 1, a = 2;
+})), ta = /* @__PURE__ */ n(((e) => {
+	var t = ea(), n = 4, r = 0, i = 1, a = 2;
 	function o(e) {
 		for (var t = e.length; --t >= 0;) e[t] = 0;
 	}
@@ -6713,40 +6821,40 @@ Tracks were discarded because your environment is not able to encode any of the 
 	o(M);
 	var ee = Array(d - u + 1);
 	o(ee);
-	var te = Array(f);
+	var N = Array(f);
+	o(N);
+	var te = Array(h);
 	o(te);
-	var ne = Array(h);
-	o(ne);
-	function re(e, t, n, r, i) {
+	function P(e, t, n, r, i) {
 		this.static_tree = e, this.extra_bits = t, this.extra_base = n, this.elems = r, this.max_length = i, this.has_stree = e && e.length;
 	}
-	var ie, N, P;
-	function ae(e, t) {
+	var ne, re, F;
+	function I(e, t) {
 		this.dyn_tree = e, this.max_code = 0, this.stat_desc = t;
 	}
-	function F(e) {
+	function L(e) {
 		return e < 256 ? M[e] : M[256 + (e >>> 7)];
 	}
-	function I(e, t) {
+	function R(e, t) {
 		e.pending_buf[e.pending++] = t & 255, e.pending_buf[e.pending++] = t >>> 8 & 255;
 	}
-	function L(e, t, n) {
-		e.bi_valid > y - n ? (e.bi_buf |= t << e.bi_valid & 65535, I(e, e.bi_buf), e.bi_buf = t >> y - e.bi_valid, e.bi_valid += n - y) : (e.bi_buf |= t << e.bi_valid & 65535, e.bi_valid += n);
+	function z(e, t, n) {
+		e.bi_valid > y - n ? (e.bi_buf |= t << e.bi_valid & 65535, R(e, e.bi_buf), e.bi_buf = t >> y - e.bi_valid, e.bi_valid += n - y) : (e.bi_buf |= t << e.bi_valid & 65535, e.bi_valid += n);
 	}
-	function R(e, t, n) {
-		L(e, n[t * 2], n[t * 2 + 1]);
+	function B(e, t, n) {
+		z(e, n[t * 2], n[t * 2 + 1]);
 	}
-	function oe(e, t) {
+	function ie(e, t) {
 		var n = 0;
 		do
 			n |= e & 1, e >>>= 1, n <<= 1;
 		while (--t > 0);
 		return n >>> 1;
 	}
-	function se(e) {
-		e.bi_valid === 16 ? (I(e, e.bi_buf), e.bi_buf = 0, e.bi_valid = 0) : e.bi_valid >= 8 && (e.pending_buf[e.pending++] = e.bi_buf & 255, e.bi_buf >>= 8, e.bi_valid -= 8);
+	function ae(e) {
+		e.bi_valid === 16 ? (R(e, e.bi_buf), e.bi_buf = 0, e.bi_valid = 0) : e.bi_valid >= 8 && (e.pending_buf[e.pending++] = e.bi_buf & 255, e.bi_buf >>= 8, e.bi_valid -= 8);
 	}
-	function ce(e, t) {
+	function oe(e, t) {
 		var n = t.dyn_tree, r = t.max_code, i = t.stat_desc.static_tree, a = t.stat_desc.has_stree, o = t.stat_desc.extra_bits, s = t.stat_desc.extra_base, c = t.stat_desc.max_length, l, u, d, f, p, m, h = 0;
 		for (f = 0; f <= v; f++) e.bl_count[f] = 0;
 		for (n[e.heap[e.heap_max] * 2 + 1] = 0, l = e.heap_max + 1; l < _; l++) u = e.heap[l], f = n[n[u * 2 + 1] * 2 + 1] + 1, f > c && (f = c, h++), n[u * 2 + 1] = f, u > r || (e.bl_count[f]++, p = 0, u >= s && (p = o[u - s]), m = n[u * 2], e.opt_len += m * (f + p), a && (e.static_len += m * (i[u * 2 + 1] + p)));
@@ -6758,87 +6866,87 @@ Tracks were discarded because your environment is not able to encode any of the 
 			for (f = c; f !== 0; f--) for (u = e.bl_count[f]; u !== 0;) d = e.heap[--l], d > r || (n[d * 2 + 1] !== f && (e.opt_len += (f - n[d * 2 + 1]) * n[d * 2], n[d * 2 + 1] = f), u--);
 		}
 	}
-	function le(e, t, n) {
+	function se(e, t, n) {
 		for (var r = Array(v + 1), i = 0, a = 1, o; a <= v; a++) r[a] = i = i + n[a - 1] << 1;
 		for (o = 0; o <= t; o++) {
 			var s = e[o * 2 + 1];
-			s !== 0 && (e[o * 2] = oe(r[s]++, s));
+			s !== 0 && (e[o * 2] = ie(r[s]++, s));
 		}
 	}
-	function z() {
+	function ce() {
 		var e, t, n, r, i, a = Array(v + 1);
-		for (n = 0, r = 0; r < f - 1; r++) for (te[r] = n, e = 0; e < 1 << T[r]; e++) ee[n++] = r;
-		for (ee[n - 1] = r, i = 0, r = 0; r < 16; r++) for (ne[r] = i, e = 0; e < 1 << E[r]; e++) M[i++] = r;
-		for (i >>= 7; r < h; r++) for (ne[r] = i << 7, e = 0; e < 1 << E[r] - 7; e++) M[256 + i++] = r;
+		for (n = 0, r = 0; r < f - 1; r++) for (N[r] = n, e = 0; e < 1 << T[r]; e++) ee[n++] = r;
+		for (ee[n - 1] = r, i = 0, r = 0; r < 16; r++) for (te[r] = i, e = 0; e < 1 << E[r]; e++) M[i++] = r;
+		for (i >>= 7; r < h; r++) for (te[r] = i << 7, e = 0; e < 1 << E[r] - 7; e++) M[256 + i++] = r;
 		for (t = 0; t <= v; t++) a[t] = 0;
 		for (e = 0; e <= 143;) A[e * 2 + 1] = 8, e++, a[8]++;
 		for (; e <= 255;) A[e * 2 + 1] = 9, e++, a[9]++;
 		for (; e <= 279;) A[e * 2 + 1] = 7, e++, a[7]++;
 		for (; e <= 287;) A[e * 2 + 1] = 8, e++, a[8]++;
-		for (le(A, m + 1, a), e = 0; e < h; e++) j[e * 2 + 1] = 5, j[e * 2] = oe(e, 5);
-		ie = new re(A, T, p + 1, m, v), N = new re(j, E, 0, h, v), P = new re([], D, 0, g, b);
+		for (se(A, m + 1, a), e = 0; e < h; e++) j[e * 2 + 1] = 5, j[e * 2] = ie(e, 5);
+		ne = new P(A, T, p + 1, m, v), re = new P(j, E, 0, h, v), F = new P([], D, 0, g, b);
 	}
-	function ue(e) {
+	function le(e) {
 		for (var t = 0; t < m; t++) e.dyn_ltree[t * 2] = 0;
 		for (t = 0; t < h; t++) e.dyn_dtree[t * 2] = 0;
 		for (t = 0; t < g; t++) e.bl_tree[t * 2] = 0;
 		e.dyn_ltree[x * 2] = 1, e.opt_len = e.static_len = 0, e.last_lit = e.matches = 0;
 	}
-	function de(e) {
-		e.bi_valid > 8 ? I(e, e.bi_buf) : e.bi_valid > 0 && (e.pending_buf[e.pending++] = e.bi_buf), e.bi_buf = 0, e.bi_valid = 0;
+	function ue(e) {
+		e.bi_valid > 8 ? R(e, e.bi_buf) : e.bi_valid > 0 && (e.pending_buf[e.pending++] = e.bi_buf), e.bi_buf = 0, e.bi_valid = 0;
 	}
-	function fe(e, n, r, i) {
-		de(e), i && (I(e, r), I(e, ~r)), t.arraySet(e.pending_buf, e.window, n, r, e.pending), e.pending += r;
+	function de(e, n, r, i) {
+		ue(e), i && (R(e, r), R(e, ~r)), t.arraySet(e.pending_buf, e.window, n, r, e.pending), e.pending += r;
 	}
-	function B(e, t, n, r) {
+	function V(e, t, n, r) {
 		var i = t * 2, a = n * 2;
 		return e[i] < e[a] || e[i] === e[a] && r[t] <= r[n];
 	}
-	function V(e, t, n) {
-		for (var r = e.heap[n], i = n << 1; i <= e.heap_len && (i < e.heap_len && B(t, e.heap[i + 1], e.heap[i], e.depth) && i++, !B(t, r, e.heap[i], e.depth));) e.heap[n] = e.heap[i], n = i, i <<= 1;
+	function H(e, t, n) {
+		for (var r = e.heap[n], i = n << 1; i <= e.heap_len && (i < e.heap_len && V(t, e.heap[i + 1], e.heap[i], e.depth) && i++, !V(t, r, e.heap[i], e.depth));) e.heap[n] = e.heap[i], n = i, i <<= 1;
 		e.heap[n] = r;
 	}
-	function pe(e, t, n) {
+	function fe(e, t, n) {
 		var r, i, a = 0, o, s;
 		if (e.last_lit !== 0) do
-			r = e.pending_buf[e.d_buf + a * 2] << 8 | e.pending_buf[e.d_buf + a * 2 + 1], i = e.pending_buf[e.l_buf + a], a++, r === 0 ? R(e, i, t) : (o = ee[i], R(e, o + p + 1, t), s = T[o], s !== 0 && (i -= te[o], L(e, i, s)), r--, o = F(r), R(e, o, n), s = E[o], s !== 0 && (r -= ne[o], L(e, r, s)));
+			r = e.pending_buf[e.d_buf + a * 2] << 8 | e.pending_buf[e.d_buf + a * 2 + 1], i = e.pending_buf[e.l_buf + a], a++, r === 0 ? B(e, i, t) : (o = ee[i], B(e, o + p + 1, t), s = T[o], s !== 0 && (i -= N[o], z(e, i, s)), r--, o = L(r), B(e, o, n), s = E[o], s !== 0 && (r -= te[o], z(e, r, s)));
 		while (a < e.last_lit);
-		R(e, x, t);
+		B(e, x, t);
 	}
-	function me(e, t) {
+	function pe(e, t) {
 		var n = t.dyn_tree, r = t.stat_desc.static_tree, i = t.stat_desc.has_stree, a = t.stat_desc.elems, o, s, c = -1, l;
 		for (e.heap_len = 0, e.heap_max = _, o = 0; o < a; o++) n[o * 2] === 0 ? n[o * 2 + 1] = 0 : (e.heap[++e.heap_len] = c = o, e.depth[o] = 0);
 		for (; e.heap_len < 2;) l = e.heap[++e.heap_len] = c < 2 ? ++c : 0, n[l * 2] = 1, e.depth[l] = 0, e.opt_len--, i && (e.static_len -= r[l * 2 + 1]);
-		for (t.max_code = c, o = e.heap_len >> 1; o >= 1; o--) V(e, n, o);
+		for (t.max_code = c, o = e.heap_len >> 1; o >= 1; o--) H(e, n, o);
 		l = a;
 		do
-			o = e.heap[1], e.heap[1] = e.heap[e.heap_len--], V(e, n, 1), s = e.heap[1], e.heap[--e.heap_max] = o, e.heap[--e.heap_max] = s, n[l * 2] = n[o * 2] + n[s * 2], e.depth[l] = (e.depth[o] >= e.depth[s] ? e.depth[o] : e.depth[s]) + 1, n[o * 2 + 1] = n[s * 2 + 1] = l, e.heap[1] = l++, V(e, n, 1);
+			o = e.heap[1], e.heap[1] = e.heap[e.heap_len--], H(e, n, 1), s = e.heap[1], e.heap[--e.heap_max] = o, e.heap[--e.heap_max] = s, n[l * 2] = n[o * 2] + n[s * 2], e.depth[l] = (e.depth[o] >= e.depth[s] ? e.depth[o] : e.depth[s]) + 1, n[o * 2 + 1] = n[s * 2 + 1] = l, e.heap[1] = l++, H(e, n, 1);
 		while (e.heap_len >= 2);
-		e.heap[--e.heap_max] = e.heap[1], ce(e, t), le(n, c, e.bl_count);
-	}
-	function H(e, t, n) {
-		var r, i = -1, a, o = t[1], s = 0, c = 7, l = 4;
-		for (o === 0 && (c = 138, l = 3), t[(n + 1) * 2 + 1] = 65535, r = 0; r <= n; r++) a = o, o = t[(r + 1) * 2 + 1], ++s < c && a === o || (s < l ? e.bl_tree[a * 2] += s : a === 0 ? s <= 10 ? e.bl_tree[C * 2]++ : e.bl_tree[w * 2]++ : (a !== i && e.bl_tree[a * 2]++, e.bl_tree[S * 2]++), s = 0, i = a, o === 0 ? (c = 138, l = 3) : a === o ? (c = 6, l = 3) : (c = 7, l = 4));
+		e.heap[--e.heap_max] = e.heap[1], oe(e, t), se(n, c, e.bl_count);
 	}
 	function U(e, t, n) {
 		var r, i = -1, a, o = t[1], s = 0, c = 7, l = 4;
+		for (o === 0 && (c = 138, l = 3), t[(n + 1) * 2 + 1] = 65535, r = 0; r <= n; r++) a = o, o = t[(r + 1) * 2 + 1], ++s < c && a === o || (s < l ? e.bl_tree[a * 2] += s : a === 0 ? s <= 10 ? e.bl_tree[C * 2]++ : e.bl_tree[w * 2]++ : (a !== i && e.bl_tree[a * 2]++, e.bl_tree[S * 2]++), s = 0, i = a, o === 0 ? (c = 138, l = 3) : a === o ? (c = 6, l = 3) : (c = 7, l = 4));
+	}
+	function me(e, t, n) {
+		var r, i = -1, a, o = t[1], s = 0, c = 7, l = 4;
 		for (o === 0 && (c = 138, l = 3), r = 0; r <= n; r++) if (a = o, o = t[(r + 1) * 2 + 1], !(++s < c && a === o)) {
 			if (s < l) do
-				R(e, a, e.bl_tree);
+				B(e, a, e.bl_tree);
 			while (--s !== 0);
-			else a === 0 ? s <= 10 ? (R(e, C, e.bl_tree), L(e, s - 3, 3)) : (R(e, w, e.bl_tree), L(e, s - 11, 7)) : (a !== i && (R(e, a, e.bl_tree), s--), R(e, S, e.bl_tree), L(e, s - 3, 2));
+			else a === 0 ? s <= 10 ? (B(e, C, e.bl_tree), z(e, s - 3, 3)) : (B(e, w, e.bl_tree), z(e, s - 11, 7)) : (a !== i && (B(e, a, e.bl_tree), s--), B(e, S, e.bl_tree), z(e, s - 3, 2));
 			s = 0, i = a, o === 0 ? (c = 138, l = 3) : a === o ? (c = 6, l = 3) : (c = 7, l = 4);
 		}
 	}
 	function W(e) {
 		var t;
-		for (H(e, e.dyn_ltree, e.l_desc.max_code), H(e, e.dyn_dtree, e.d_desc.max_code), me(e, e.bl_desc), t = g - 1; t >= 3 && e.bl_tree[O[t] * 2 + 1] === 0; t--);
+		for (U(e, e.dyn_ltree, e.l_desc.max_code), U(e, e.dyn_dtree, e.d_desc.max_code), pe(e, e.bl_desc), t = g - 1; t >= 3 && e.bl_tree[O[t] * 2 + 1] === 0; t--);
 		return e.opt_len += 3 * (t + 1) + 5 + 5 + 4, t;
 	}
 	function he(e, t, n, r) {
 		var i;
-		for (L(e, t - 257, 5), L(e, n - 1, 5), L(e, r - 4, 4), i = 0; i < r; i++) L(e, e.bl_tree[O[i] * 2 + 1], 3);
-		U(e, e.dyn_ltree, t - 1), U(e, e.dyn_dtree, n - 1);
+		for (z(e, t - 257, 5), z(e, n - 1, 5), z(e, r - 4, 4), i = 0; i < r; i++) z(e, e.bl_tree[O[i] * 2 + 1], 3);
+		me(e, e.dyn_ltree, t - 1), me(e, e.dyn_dtree, n - 1);
 	}
 	function G(e) {
 		for (var t = 4093624447, n = 0; n <= 31; n++, t >>>= 1) if (t & 1 && e.dyn_ltree[n * 2] !== 0) return r;
@@ -6848,23 +6956,23 @@ Tracks were discarded because your environment is not able to encode any of the 
 	}
 	var K = !1;
 	function ge(e) {
-		K ||= (z(), !0), e.l_desc = new ae(e.dyn_ltree, ie), e.d_desc = new ae(e.dyn_dtree, N), e.bl_desc = new ae(e.bl_tree, P), e.bi_buf = 0, e.bi_valid = 0, ue(e);
+		K ||= (ce(), !0), e.l_desc = new I(e.dyn_ltree, ne), e.d_desc = new I(e.dyn_dtree, re), e.bl_desc = new I(e.bl_tree, F), e.bi_buf = 0, e.bi_valid = 0, le(e);
 	}
 	function q(e, t, n, r) {
-		L(e, (s << 1) + +!!r, 3), fe(e, t, n, !0);
+		z(e, (s << 1) + +!!r, 3), de(e, t, n, !0);
 	}
 	function _e(e) {
-		L(e, c << 1, 3), R(e, x, A), se(e);
+		z(e, c << 1, 3), B(e, x, A), ae(e);
 	}
 	function ve(e, t, r, i) {
 		var o, s, u = 0;
-		e.level > 0 ? (e.strm.data_type === a && (e.strm.data_type = G(e)), me(e, e.l_desc), me(e, e.d_desc), u = W(e), o = e.opt_len + 3 + 7 >>> 3, s = e.static_len + 3 + 7 >>> 3, s <= o && (o = s)) : o = s = r + 5, r + 4 <= o && t !== -1 ? q(e, t, r, i) : e.strategy === n || s === o ? (L(e, (c << 1) + +!!i, 3), pe(e, A, j)) : (L(e, (l << 1) + +!!i, 3), he(e, e.l_desc.max_code + 1, e.d_desc.max_code + 1, u + 1), pe(e, e.dyn_ltree, e.dyn_dtree)), ue(e), i && de(e);
+		e.level > 0 ? (e.strm.data_type === a && (e.strm.data_type = G(e)), pe(e, e.l_desc), pe(e, e.d_desc), u = W(e), o = e.opt_len + 3 + 7 >>> 3, s = e.static_len + 3 + 7 >>> 3, s <= o && (o = s)) : o = s = r + 5, r + 4 <= o && t !== -1 ? q(e, t, r, i) : e.strategy === n || s === o ? (z(e, (c << 1) + +!!i, 3), fe(e, A, j)) : (z(e, (l << 1) + +!!i, 3), he(e, e.l_desc.max_code + 1, e.d_desc.max_code + 1, u + 1), fe(e, e.dyn_ltree, e.dyn_dtree)), le(e), i && ue(e);
 	}
 	function J(e, t, n) {
-		return e.pending_buf[e.d_buf + e.last_lit * 2] = t >>> 8 & 255, e.pending_buf[e.d_buf + e.last_lit * 2 + 1] = t & 255, e.pending_buf[e.l_buf + e.last_lit] = n & 255, e.last_lit++, t === 0 ? e.dyn_ltree[n * 2]++ : (e.matches++, t--, e.dyn_ltree[(ee[n] + p + 1) * 2]++, e.dyn_dtree[F(t) * 2]++), e.last_lit === e.lit_bufsize - 1;
+		return e.pending_buf[e.d_buf + e.last_lit * 2] = t >>> 8 & 255, e.pending_buf[e.d_buf + e.last_lit * 2 + 1] = t & 255, e.pending_buf[e.l_buf + e.last_lit] = n & 255, e.last_lit++, t === 0 ? e.dyn_ltree[n * 2]++ : (e.matches++, t--, e.dyn_ltree[(ee[n] + p + 1) * 2]++, e.dyn_dtree[L(t) * 2]++), e.last_lit === e.lit_bufsize - 1;
 	}
 	e._tr_init = ge, e._tr_stored_block = q, e._tr_flush_block = ve, e._tr_tally = J, e._tr_align = _e;
-})), ta = /* @__PURE__ */ n(((e, t) => {
+})), na = /* @__PURE__ */ n(((e, t) => {
 	function n(e, t, n, r) {
 		for (var i = e & 65535, a = e >>> 16 & 65535, o = 0; n !== 0;) {
 			o = n > 2e3 ? 2e3 : n, n -= o;
@@ -6876,7 +6984,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return i | a << 16;
 	}
 	t.exports = n;
-})), na = /* @__PURE__ */ n(((e, t) => {
+})), ra = /* @__PURE__ */ n(((e, t) => {
 	function n() {
 		for (var e, t = [], n = 0; n < 256; n++) {
 			e = n;
@@ -6893,7 +7001,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return e ^ -1;
 	}
 	t.exports = i;
-})), ra = /* @__PURE__ */ n(((e, t) => {
+})), ia = /* @__PURE__ */ n(((e, t) => {
 	t.exports = {
 		2: "need dictionary",
 		1: "stream end",
@@ -6905,36 +7013,36 @@ Tracks were discarded because your environment is not able to encode any of the 
 		"-5": "buffer error",
 		"-6": "incompatible version"
 	};
-})), ia = /* @__PURE__ */ n(((e) => {
-	var t = $i(), n = ea(), r = ta(), i = na(), a = ra(), o = 0, s = 1, c = 3, l = 4, u = 5, d = 0, f = 1, p = -2, m = -3, h = -5, g = -1, _ = 1, v = 2, y = 3, b = 4, x = 0, S = 2, C = 8, w = 9, T = 15, E = 8, D = 286, O = 30, k = 19, A = 2 * D + 1, j = 15, M = 3, ee = 258, te = ee + M + 1, ne = 32, re = 42, ie = 69, N = 73, P = 91, ae = 103, F = 113, I = 666, L = 1, R = 2, oe = 3, se = 4, ce = 3;
-	function le(e, t) {
+})), aa = /* @__PURE__ */ n(((e) => {
+	var t = ea(), n = ta(), r = na(), i = ra(), a = ia(), o = 0, s = 1, c = 3, l = 4, u = 5, d = 0, f = 1, p = -2, m = -3, h = -5, g = -1, _ = 1, v = 2, y = 3, b = 4, x = 0, S = 2, C = 8, w = 9, T = 15, E = 8, D = 286, O = 30, k = 19, A = 2 * D + 1, j = 15, M = 3, ee = 258, N = ee + M + 1, te = 32, P = 42, ne = 69, re = 73, F = 91, I = 103, L = 113, R = 666, z = 1, B = 2, ie = 3, ae = 4, oe = 3;
+	function se(e, t) {
 		return e.msg = a[t], t;
 	}
-	function z(e) {
+	function ce(e) {
 		return (e << 1) - (e > 4 ? 9 : 0);
 	}
-	function ue(e) {
+	function le(e) {
 		for (var t = e.length; --t >= 0;) e[t] = 0;
 	}
-	function de(e) {
+	function ue(e) {
 		var n = e.state, r = n.pending;
 		r > e.avail_out && (r = e.avail_out), r !== 0 && (t.arraySet(e.output, n.pending_buf, n.pending_out, r, e.next_out), e.next_out += r, n.pending_out += r, e.total_out += r, e.avail_out -= r, n.pending -= r, n.pending === 0 && (n.pending_out = 0));
 	}
-	function fe(e, t) {
-		n._tr_flush_block(e, e.block_start >= 0 ? e.block_start : -1, e.strstart - e.block_start, t), e.block_start = e.strstart, de(e.strm);
-	}
-	function B(e, t) {
-		e.pending_buf[e.pending++] = t;
+	function de(e, t) {
+		n._tr_flush_block(e, e.block_start >= 0 ? e.block_start : -1, e.strstart - e.block_start, t), e.block_start = e.strstart, ue(e.strm);
 	}
 	function V(e, t) {
+		e.pending_buf[e.pending++] = t;
+	}
+	function H(e, t) {
 		e.pending_buf[e.pending++] = t >>> 8 & 255, e.pending_buf[e.pending++] = t & 255;
 	}
-	function pe(e, n, a, o) {
+	function fe(e, n, a, o) {
 		var s = e.avail_in;
 		return s > o && (s = o), s === 0 ? 0 : (e.avail_in -= s, t.arraySet(n, e.input, e.next_in, s, a), e.state.wrap === 1 ? e.adler = r(e.adler, n, s, a) : e.state.wrap === 2 && (e.adler = i(e.adler, n, s, a)), e.next_in += s, e.total_in += s, s);
 	}
-	function me(e, t) {
-		var n = e.max_chain_length, r = e.strstart, i, a, o = e.prev_length, s = e.nice_match, c = e.strstart > e.w_size - te ? e.strstart - (e.w_size - te) : 0, l = e.window, u = e.w_mask, d = e.prev, f = e.strstart + ee, p = l[r + o - 1], m = l[r + o];
+	function pe(e, t) {
+		var n = e.max_chain_length, r = e.strstart, i, a, o = e.prev_length, s = e.nice_match, c = e.strstart > e.w_size - N ? e.strstart - (e.w_size - N) : 0, l = e.window, u = e.w_mask, d = e.prev, f = e.strstart + ee, p = l[r + o - 1], m = l[r + o];
 		e.prev_length >= e.good_match && (n >>= 2), s > e.lookahead && (s = e.lookahead);
 		do
 			if (i = t, l[i + o] === m && l[i + o - 1] === p && l[i] === l[r] && l[++i] === l[r + 1]) {
@@ -6949,10 +7057,10 @@ Tracks were discarded because your environment is not able to encode any of the 
 		while ((t = d[t & u]) > c && --n !== 0);
 		return o <= e.lookahead ? o : e.lookahead;
 	}
-	function H(e) {
+	function U(e) {
 		var n = e.w_size, r, i, a, o, s;
 		do {
-			if (o = e.window_size - e.lookahead - e.strstart, e.strstart >= n + (n - te)) {
+			if (o = e.window_size - e.lookahead - e.strstart, e.strstart >= n + (n - N)) {
 				t.arraySet(e.window, e.window, n, n, 0), e.match_start -= n, e.strstart -= n, e.block_start -= n, i = e.hash_size, r = i;
 				do
 					a = e.head[--r], e.head[r] = a >= n ? a - n : 0;
@@ -6964,29 +7072,29 @@ Tracks were discarded because your environment is not able to encode any of the 
 				o += n;
 			}
 			if (e.strm.avail_in === 0) break;
-			if (i = pe(e.strm, e.window, e.strstart + e.lookahead, o), e.lookahead += i, e.lookahead + e.insert >= M) for (s = e.strstart - e.insert, e.ins_h = e.window[s], e.ins_h = (e.ins_h << e.hash_shift ^ e.window[s + 1]) & e.hash_mask; e.insert && (e.ins_h = (e.ins_h << e.hash_shift ^ e.window[s + M - 1]) & e.hash_mask, e.prev[s & e.w_mask] = e.head[e.ins_h], e.head[e.ins_h] = s, s++, e.insert--, !(e.lookahead + e.insert < M)););
-		} while (e.lookahead < te && e.strm.avail_in !== 0);
+			if (i = fe(e.strm, e.window, e.strstart + e.lookahead, o), e.lookahead += i, e.lookahead + e.insert >= M) for (s = e.strstart - e.insert, e.ins_h = e.window[s], e.ins_h = (e.ins_h << e.hash_shift ^ e.window[s + 1]) & e.hash_mask; e.insert && (e.ins_h = (e.ins_h << e.hash_shift ^ e.window[s + M - 1]) & e.hash_mask, e.prev[s & e.w_mask] = e.head[e.ins_h], e.head[e.ins_h] = s, s++, e.insert--, !(e.lookahead + e.insert < M)););
+		} while (e.lookahead < N && e.strm.avail_in !== 0);
 	}
-	function U(e, t) {
+	function me(e, t) {
 		var n = 65535;
 		for (n > e.pending_buf_size - 5 && (n = e.pending_buf_size - 5);;) {
 			if (e.lookahead <= 1) {
-				if (H(e), e.lookahead === 0 && t === o) return L;
+				if (U(e), e.lookahead === 0 && t === o) return z;
 				if (e.lookahead === 0) break;
 			}
 			e.strstart += e.lookahead, e.lookahead = 0;
 			var r = e.block_start + n;
-			if ((e.strstart === 0 || e.strstart >= r) && (e.lookahead = e.strstart - r, e.strstart = r, fe(e, !1), e.strm.avail_out === 0) || e.strstart - e.block_start >= e.w_size - te && (fe(e, !1), e.strm.avail_out === 0)) return L;
+			if ((e.strstart === 0 || e.strstart >= r) && (e.lookahead = e.strstart - r, e.strstart = r, de(e, !1), e.strm.avail_out === 0) || e.strstart - e.block_start >= e.w_size - N && (de(e, !1), e.strm.avail_out === 0)) return z;
 		}
-		return e.insert = 0, t === l ? (fe(e, !0), e.strm.avail_out === 0 ? oe : se) : (e.strstart > e.block_start && (fe(e, !1), e.strm.avail_out), L);
+		return e.insert = 0, t === l ? (de(e, !0), e.strm.avail_out === 0 ? ie : ae) : (e.strstart > e.block_start && (de(e, !1), e.strm.avail_out), z);
 	}
 	function W(e, t) {
 		for (var r, i;;) {
-			if (e.lookahead < te) {
-				if (H(e), e.lookahead < te && t === o) return L;
+			if (e.lookahead < N) {
+				if (U(e), e.lookahead < N && t === o) return z;
 				if (e.lookahead === 0) break;
 			}
-			if (r = 0, e.lookahead >= M && (e.ins_h = (e.ins_h << e.hash_shift ^ e.window[e.strstart + M - 1]) & e.hash_mask, r = e.prev[e.strstart & e.w_mask] = e.head[e.ins_h], e.head[e.ins_h] = e.strstart), r !== 0 && e.strstart - r <= e.w_size - te && (e.match_length = me(e, r)), e.match_length >= M) {
+			if (r = 0, e.lookahead >= M && (e.ins_h = (e.ins_h << e.hash_shift ^ e.window[e.strstart + M - 1]) & e.hash_mask, r = e.prev[e.strstart & e.w_mask] = e.head[e.ins_h], e.head[e.ins_h] = e.strstart), r !== 0 && e.strstart - r <= e.w_size - N && (e.match_length = pe(e, r)), e.match_length >= M) {
 				if (i = n._tr_tally(e, e.strstart - e.match_start, e.match_length - M), e.lookahead -= e.match_length, e.match_length <= e.max_lazy_match && e.lookahead >= M) {
 					e.match_length--;
 					do
@@ -6995,32 +7103,32 @@ Tracks were discarded because your environment is not able to encode any of the 
 					e.strstart++;
 				} else e.strstart += e.match_length, e.match_length = 0, e.ins_h = e.window[e.strstart], e.ins_h = (e.ins_h << e.hash_shift ^ e.window[e.strstart + 1]) & e.hash_mask;
 			} else i = n._tr_tally(e, 0, e.window[e.strstart]), e.lookahead--, e.strstart++;
-			if (i && (fe(e, !1), e.strm.avail_out === 0)) return L;
+			if (i && (de(e, !1), e.strm.avail_out === 0)) return z;
 		}
-		return e.insert = e.strstart < M - 1 ? e.strstart : M - 1, t === l ? (fe(e, !0), e.strm.avail_out === 0 ? oe : se) : e.last_lit && (fe(e, !1), e.strm.avail_out === 0) ? L : R;
+		return e.insert = e.strstart < M - 1 ? e.strstart : M - 1, t === l ? (de(e, !0), e.strm.avail_out === 0 ? ie : ae) : e.last_lit && (de(e, !1), e.strm.avail_out === 0) ? z : B;
 	}
 	function he(e, t) {
 		for (var r, i, a;;) {
-			if (e.lookahead < te) {
-				if (H(e), e.lookahead < te && t === o) return L;
+			if (e.lookahead < N) {
+				if (U(e), e.lookahead < N && t === o) return z;
 				if (e.lookahead === 0) break;
 			}
-			if (r = 0, e.lookahead >= M && (e.ins_h = (e.ins_h << e.hash_shift ^ e.window[e.strstart + M - 1]) & e.hash_mask, r = e.prev[e.strstart & e.w_mask] = e.head[e.ins_h], e.head[e.ins_h] = e.strstart), e.prev_length = e.match_length, e.prev_match = e.match_start, e.match_length = M - 1, r !== 0 && e.prev_length < e.max_lazy_match && e.strstart - r <= e.w_size - te && (e.match_length = me(e, r), e.match_length <= 5 && (e.strategy === _ || e.match_length === M && e.strstart - e.match_start > 4096) && (e.match_length = M - 1)), e.prev_length >= M && e.match_length <= e.prev_length) {
+			if (r = 0, e.lookahead >= M && (e.ins_h = (e.ins_h << e.hash_shift ^ e.window[e.strstart + M - 1]) & e.hash_mask, r = e.prev[e.strstart & e.w_mask] = e.head[e.ins_h], e.head[e.ins_h] = e.strstart), e.prev_length = e.match_length, e.prev_match = e.match_start, e.match_length = M - 1, r !== 0 && e.prev_length < e.max_lazy_match && e.strstart - r <= e.w_size - N && (e.match_length = pe(e, r), e.match_length <= 5 && (e.strategy === _ || e.match_length === M && e.strstart - e.match_start > 4096) && (e.match_length = M - 1)), e.prev_length >= M && e.match_length <= e.prev_length) {
 				a = e.strstart + e.lookahead - M, i = n._tr_tally(e, e.strstart - 1 - e.prev_match, e.prev_length - M), e.lookahead -= e.prev_length - 1, e.prev_length -= 2;
 				do
 					++e.strstart <= a && (e.ins_h = (e.ins_h << e.hash_shift ^ e.window[e.strstart + M - 1]) & e.hash_mask, r = e.prev[e.strstart & e.w_mask] = e.head[e.ins_h], e.head[e.ins_h] = e.strstart);
 				while (--e.prev_length !== 0);
-				if (e.match_available = 0, e.match_length = M - 1, e.strstart++, i && (fe(e, !1), e.strm.avail_out === 0)) return L;
+				if (e.match_available = 0, e.match_length = M - 1, e.strstart++, i && (de(e, !1), e.strm.avail_out === 0)) return z;
 			} else if (e.match_available) {
-				if (i = n._tr_tally(e, 0, e.window[e.strstart - 1]), i && fe(e, !1), e.strstart++, e.lookahead--, e.strm.avail_out === 0) return L;
+				if (i = n._tr_tally(e, 0, e.window[e.strstart - 1]), i && de(e, !1), e.strstart++, e.lookahead--, e.strm.avail_out === 0) return z;
 			} else e.match_available = 1, e.strstart++, e.lookahead--;
 		}
-		return e.match_available &&= (i = n._tr_tally(e, 0, e.window[e.strstart - 1]), 0), e.insert = e.strstart < M - 1 ? e.strstart : M - 1, t === l ? (fe(e, !0), e.strm.avail_out === 0 ? oe : se) : e.last_lit && (fe(e, !1), e.strm.avail_out === 0) ? L : R;
+		return e.match_available &&= (i = n._tr_tally(e, 0, e.window[e.strstart - 1]), 0), e.insert = e.strstart < M - 1 ? e.strstart : M - 1, t === l ? (de(e, !0), e.strm.avail_out === 0 ? ie : ae) : e.last_lit && (de(e, !1), e.strm.avail_out === 0) ? z : B;
 	}
 	function G(e, t) {
 		for (var r, i, a, s, c = e.window;;) {
 			if (e.lookahead <= ee) {
-				if (H(e), e.lookahead <= ee && t === o) return L;
+				if (U(e), e.lookahead <= ee && t === o) return z;
 				if (e.lookahead === 0) break;
 			}
 			if (e.match_length = 0, e.lookahead >= M && e.strstart > 0 && (a = e.strstart - 1, i = c[a], i === c[++a] && i === c[++a] && i === c[++a])) {
@@ -7029,25 +7137,25 @@ Tracks were discarded because your environment is not able to encode any of the 
 				while (i === c[++a] && i === c[++a] && i === c[++a] && i === c[++a] && i === c[++a] && i === c[++a] && i === c[++a] && i === c[++a] && a < s);
 				e.match_length = ee - (s - a), e.match_length > e.lookahead && (e.match_length = e.lookahead);
 			}
-			if (e.match_length >= M ? (r = n._tr_tally(e, 1, e.match_length - M), e.lookahead -= e.match_length, e.strstart += e.match_length, e.match_length = 0) : (r = n._tr_tally(e, 0, e.window[e.strstart]), e.lookahead--, e.strstart++), r && (fe(e, !1), e.strm.avail_out === 0)) return L;
+			if (e.match_length >= M ? (r = n._tr_tally(e, 1, e.match_length - M), e.lookahead -= e.match_length, e.strstart += e.match_length, e.match_length = 0) : (r = n._tr_tally(e, 0, e.window[e.strstart]), e.lookahead--, e.strstart++), r && (de(e, !1), e.strm.avail_out === 0)) return z;
 		}
-		return e.insert = 0, t === l ? (fe(e, !0), e.strm.avail_out === 0 ? oe : se) : e.last_lit && (fe(e, !1), e.strm.avail_out === 0) ? L : R;
+		return e.insert = 0, t === l ? (de(e, !0), e.strm.avail_out === 0 ? ie : ae) : e.last_lit && (de(e, !1), e.strm.avail_out === 0) ? z : B;
 	}
 	function K(e, t) {
 		for (var r;;) {
-			if (e.lookahead === 0 && (H(e), e.lookahead === 0)) {
-				if (t === o) return L;
+			if (e.lookahead === 0 && (U(e), e.lookahead === 0)) {
+				if (t === o) return z;
 				break;
 			}
-			if (e.match_length = 0, r = n._tr_tally(e, 0, e.window[e.strstart]), e.lookahead--, e.strstart++, r && (fe(e, !1), e.strm.avail_out === 0)) return L;
+			if (e.match_length = 0, r = n._tr_tally(e, 0, e.window[e.strstart]), e.lookahead--, e.strstart++, r && (de(e, !1), e.strm.avail_out === 0)) return z;
 		}
-		return e.insert = 0, t === l ? (fe(e, !0), e.strm.avail_out === 0 ? oe : se) : e.last_lit && (fe(e, !1), e.strm.avail_out === 0) ? L : R;
+		return e.insert = 0, t === l ? (de(e, !0), e.strm.avail_out === 0 ? ie : ae) : e.last_lit && (de(e, !1), e.strm.avail_out === 0) ? z : B;
 	}
 	function ge(e, t, n, r, i) {
 		this.good_length = e, this.max_lazy = t, this.nice_length = n, this.max_chain = r, this.func = i;
 	}
 	var q = [
-		new ge(0, 0, 0, 0, U),
+		new ge(0, 0, 0, 0, me),
 		new ge(4, 4, 8, 4, W),
 		new ge(4, 5, 16, 8, W),
 		new ge(4, 6, 32, 32, W),
@@ -7059,14 +7167,14 @@ Tracks were discarded because your environment is not able to encode any of the 
 		new ge(32, 258, 258, 4096, he)
 	];
 	function _e(e) {
-		e.window_size = 2 * e.w_size, ue(e.head), e.max_lazy_match = q[e.level].max_lazy, e.good_match = q[e.level].good_length, e.nice_match = q[e.level].nice_length, e.max_chain_length = q[e.level].max_chain, e.strstart = 0, e.block_start = 0, e.lookahead = 0, e.insert = 0, e.match_length = e.prev_length = M - 1, e.match_available = 0, e.ins_h = 0;
+		e.window_size = 2 * e.w_size, le(e.head), e.max_lazy_match = q[e.level].max_lazy, e.good_match = q[e.level].good_length, e.nice_match = q[e.level].nice_length, e.max_chain_length = q[e.level].max_chain, e.strstart = 0, e.block_start = 0, e.lookahead = 0, e.insert = 0, e.match_length = e.prev_length = M - 1, e.match_available = 0, e.ins_h = 0;
 	}
 	function ve() {
-		this.strm = null, this.status = 0, this.pending_buf = null, this.pending_buf_size = 0, this.pending_out = 0, this.pending = 0, this.wrap = 0, this.gzhead = null, this.gzindex = 0, this.method = C, this.last_flush = -1, this.w_size = 0, this.w_bits = 0, this.w_mask = 0, this.window = null, this.window_size = 0, this.prev = null, this.head = null, this.ins_h = 0, this.hash_size = 0, this.hash_bits = 0, this.hash_mask = 0, this.hash_shift = 0, this.block_start = 0, this.match_length = 0, this.prev_match = 0, this.match_available = 0, this.strstart = 0, this.match_start = 0, this.lookahead = 0, this.prev_length = 0, this.max_chain_length = 0, this.max_lazy_match = 0, this.level = 0, this.strategy = 0, this.good_match = 0, this.nice_match = 0, this.dyn_ltree = new t.Buf16(A * 2), this.dyn_dtree = new t.Buf16((2 * O + 1) * 2), this.bl_tree = new t.Buf16((2 * k + 1) * 2), ue(this.dyn_ltree), ue(this.dyn_dtree), ue(this.bl_tree), this.l_desc = null, this.d_desc = null, this.bl_desc = null, this.bl_count = new t.Buf16(j + 1), this.heap = new t.Buf16(2 * D + 1), ue(this.heap), this.heap_len = 0, this.heap_max = 0, this.depth = new t.Buf16(2 * D + 1), ue(this.depth), this.l_buf = 0, this.lit_bufsize = 0, this.last_lit = 0, this.d_buf = 0, this.opt_len = 0, this.static_len = 0, this.matches = 0, this.insert = 0, this.bi_buf = 0, this.bi_valid = 0;
+		this.strm = null, this.status = 0, this.pending_buf = null, this.pending_buf_size = 0, this.pending_out = 0, this.pending = 0, this.wrap = 0, this.gzhead = null, this.gzindex = 0, this.method = C, this.last_flush = -1, this.w_size = 0, this.w_bits = 0, this.w_mask = 0, this.window = null, this.window_size = 0, this.prev = null, this.head = null, this.ins_h = 0, this.hash_size = 0, this.hash_bits = 0, this.hash_mask = 0, this.hash_shift = 0, this.block_start = 0, this.match_length = 0, this.prev_match = 0, this.match_available = 0, this.strstart = 0, this.match_start = 0, this.lookahead = 0, this.prev_length = 0, this.max_chain_length = 0, this.max_lazy_match = 0, this.level = 0, this.strategy = 0, this.good_match = 0, this.nice_match = 0, this.dyn_ltree = new t.Buf16(A * 2), this.dyn_dtree = new t.Buf16((2 * O + 1) * 2), this.bl_tree = new t.Buf16((2 * k + 1) * 2), le(this.dyn_ltree), le(this.dyn_dtree), le(this.bl_tree), this.l_desc = null, this.d_desc = null, this.bl_desc = null, this.bl_count = new t.Buf16(j + 1), this.heap = new t.Buf16(2 * D + 1), le(this.heap), this.heap_len = 0, this.heap_max = 0, this.depth = new t.Buf16(2 * D + 1), le(this.depth), this.l_buf = 0, this.lit_bufsize = 0, this.last_lit = 0, this.d_buf = 0, this.opt_len = 0, this.static_len = 0, this.matches = 0, this.insert = 0, this.bi_buf = 0, this.bi_valid = 0;
 	}
 	function J(e) {
 		var t;
-		return !e || !e.state ? le(e, p) : (e.total_in = e.total_out = 0, e.data_type = S, t = e.state, t.pending = 0, t.pending_out = 0, t.wrap < 0 && (t.wrap = -t.wrap), t.status = t.wrap ? re : F, e.adler = t.wrap === 2 ? 0 : 1, t.last_flush = o, n._tr_init(t), d);
+		return !e || !e.state ? se(e, p) : (e.total_in = e.total_out = 0, e.data_type = S, t = e.state, t.pending = 0, t.pending_out = 0, t.wrap < 0 && (t.wrap = -t.wrap), t.status = t.wrap ? P : L, e.adler = t.wrap === 2 ? 0 : 1, t.last_flush = o, n._tr_init(t), d);
 	}
 	function ye(e) {
 		var t = J(e);
@@ -7078,7 +7186,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 	function xe(e, n, r, i, a, o) {
 		if (!e) return p;
 		var s = 1;
-		if (n === g && (n = 6), i < 0 ? (s = 0, i = -i) : i > 15 && (s = 2, i -= 16), a < 1 || a > w || r !== C || i < 8 || i > 15 || n < 0 || n > 9 || o < 0 || o > b) return le(e, p);
+		if (n === g && (n = 6), i < 0 ? (s = 0, i = -i) : i > 15 && (s = 2, i -= 16), a < 1 || a > w || r !== C || i < 8 || i > 15 || n < 0 || n > 9 || o < 0 || o > b) return se(e, p);
 		i === 8 && (i = 9);
 		var c = new ve();
 		return e.state = c, c.strm = e, c.wrap = s, c.gzhead = null, c.w_bits = i, c.w_size = 1 << c.w_bits, c.w_mask = c.w_size - 1, c.hash_bits = a + 7, c.hash_size = 1 << c.hash_bits, c.hash_mask = c.hash_size - 1, c.hash_shift = ~~((c.hash_bits + M - 1) / M), c.window = new t.Buf8(c.w_size * 2), c.head = new t.Buf16(c.hash_size), c.prev = new t.Buf16(c.w_size), c.lit_bufsize = 1 << a + 6, c.pending_buf_size = c.lit_bufsize * 4, c.pending_buf = new t.Buf8(c.pending_buf_size), c.d_buf = 1 * c.lit_bufsize, c.l_buf = 3 * c.lit_bufsize, c.level = n, c.strategy = o, c.method = r, ye(e);
@@ -7088,77 +7196,77 @@ Tracks were discarded because your environment is not able to encode any of the 
 	}
 	function Ce(e, t) {
 		var r, a, m, g;
-		if (!e || !e.state || t > u || t < 0) return e ? le(e, p) : p;
-		if (a = e.state, !e.output || !e.input && e.avail_in !== 0 || a.status === I && t !== l) return le(e, e.avail_out === 0 ? h : p);
-		if (a.strm = e, r = a.last_flush, a.last_flush = t, a.status === re) {
-			if (a.wrap === 2) e.adler = 0, B(a, 31), B(a, 139), B(a, 8), a.gzhead ? (B(a, +!!a.gzhead.text + (a.gzhead.hcrc ? 2 : 0) + (a.gzhead.extra ? 4 : 0) + (a.gzhead.name ? 8 : 0) + (a.gzhead.comment ? 16 : 0)), B(a, a.gzhead.time & 255), B(a, a.gzhead.time >> 8 & 255), B(a, a.gzhead.time >> 16 & 255), B(a, a.gzhead.time >> 24 & 255), B(a, a.level === 9 ? 2 : a.strategy >= v || a.level < 2 ? 4 : 0), B(a, a.gzhead.os & 255), a.gzhead.extra && a.gzhead.extra.length && (B(a, a.gzhead.extra.length & 255), B(a, a.gzhead.extra.length >> 8 & 255)), a.gzhead.hcrc && (e.adler = i(e.adler, a.pending_buf, a.pending, 0)), a.gzindex = 0, a.status = ie) : (B(a, 0), B(a, 0), B(a, 0), B(a, 0), B(a, 0), B(a, a.level === 9 ? 2 : a.strategy >= v || a.level < 2 ? 4 : 0), B(a, ce), a.status = F);
+		if (!e || !e.state || t > u || t < 0) return e ? se(e, p) : p;
+		if (a = e.state, !e.output || !e.input && e.avail_in !== 0 || a.status === R && t !== l) return se(e, e.avail_out === 0 ? h : p);
+		if (a.strm = e, r = a.last_flush, a.last_flush = t, a.status === P) {
+			if (a.wrap === 2) e.adler = 0, V(a, 31), V(a, 139), V(a, 8), a.gzhead ? (V(a, +!!a.gzhead.text + (a.gzhead.hcrc ? 2 : 0) + (a.gzhead.extra ? 4 : 0) + (a.gzhead.name ? 8 : 0) + (a.gzhead.comment ? 16 : 0)), V(a, a.gzhead.time & 255), V(a, a.gzhead.time >> 8 & 255), V(a, a.gzhead.time >> 16 & 255), V(a, a.gzhead.time >> 24 & 255), V(a, a.level === 9 ? 2 : a.strategy >= v || a.level < 2 ? 4 : 0), V(a, a.gzhead.os & 255), a.gzhead.extra && a.gzhead.extra.length && (V(a, a.gzhead.extra.length & 255), V(a, a.gzhead.extra.length >> 8 & 255)), a.gzhead.hcrc && (e.adler = i(e.adler, a.pending_buf, a.pending, 0)), a.gzindex = 0, a.status = ne) : (V(a, 0), V(a, 0), V(a, 0), V(a, 0), V(a, 0), V(a, a.level === 9 ? 2 : a.strategy >= v || a.level < 2 ? 4 : 0), V(a, oe), a.status = L);
 			else {
 				var _ = C + (a.w_bits - 8 << 4) << 8, b = -1;
-				b = a.strategy >= v || a.level < 2 ? 0 : a.level < 6 ? 1 : a.level === 6 ? 2 : 3, _ |= b << 6, a.strstart !== 0 && (_ |= ne), _ += 31 - _ % 31, a.status = F, V(a, _), a.strstart !== 0 && (V(a, e.adler >>> 16), V(a, e.adler & 65535)), e.adler = 1;
+				b = a.strategy >= v || a.level < 2 ? 0 : a.level < 6 ? 1 : a.level === 6 ? 2 : 3, _ |= b << 6, a.strstart !== 0 && (_ |= te), _ += 31 - _ % 31, a.status = L, H(a, _), a.strstart !== 0 && (H(a, e.adler >>> 16), H(a, e.adler & 65535)), e.adler = 1;
 			}
 		}
-		if (a.status === ie) {
+		if (a.status === ne) {
 			if (a.gzhead.extra) {
-				for (m = a.pending; a.gzindex < (a.gzhead.extra.length & 65535) && !(a.pending === a.pending_buf_size && (a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), de(e), m = a.pending, a.pending === a.pending_buf_size));) B(a, a.gzhead.extra[a.gzindex] & 255), a.gzindex++;
-				a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), a.gzindex === a.gzhead.extra.length && (a.gzindex = 0, a.status = N);
-			} else a.status = N;
+				for (m = a.pending; a.gzindex < (a.gzhead.extra.length & 65535) && !(a.pending === a.pending_buf_size && (a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), ue(e), m = a.pending, a.pending === a.pending_buf_size));) V(a, a.gzhead.extra[a.gzindex] & 255), a.gzindex++;
+				a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), a.gzindex === a.gzhead.extra.length && (a.gzindex = 0, a.status = re);
+			} else a.status = re;
 		}
-		if (a.status === N) {
+		if (a.status === re) {
 			if (a.gzhead.name) {
 				m = a.pending;
 				do {
-					if (a.pending === a.pending_buf_size && (a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), de(e), m = a.pending, a.pending === a.pending_buf_size)) {
+					if (a.pending === a.pending_buf_size && (a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), ue(e), m = a.pending, a.pending === a.pending_buf_size)) {
 						g = 1;
 						break;
 					}
-					g = a.gzindex < a.gzhead.name.length ? a.gzhead.name.charCodeAt(a.gzindex++) & 255 : 0, B(a, g);
+					g = a.gzindex < a.gzhead.name.length ? a.gzhead.name.charCodeAt(a.gzindex++) & 255 : 0, V(a, g);
 				} while (g !== 0);
-				a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), g === 0 && (a.gzindex = 0, a.status = P);
-			} else a.status = P;
+				a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), g === 0 && (a.gzindex = 0, a.status = F);
+			} else a.status = F;
 		}
-		if (a.status === P) {
+		if (a.status === F) {
 			if (a.gzhead.comment) {
 				m = a.pending;
 				do {
-					if (a.pending === a.pending_buf_size && (a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), de(e), m = a.pending, a.pending === a.pending_buf_size)) {
+					if (a.pending === a.pending_buf_size && (a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), ue(e), m = a.pending, a.pending === a.pending_buf_size)) {
 						g = 1;
 						break;
 					}
-					g = a.gzindex < a.gzhead.comment.length ? a.gzhead.comment.charCodeAt(a.gzindex++) & 255 : 0, B(a, g);
+					g = a.gzindex < a.gzhead.comment.length ? a.gzhead.comment.charCodeAt(a.gzindex++) & 255 : 0, V(a, g);
 				} while (g !== 0);
-				a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), g === 0 && (a.status = ae);
-			} else a.status = ae;
+				a.gzhead.hcrc && a.pending > m && (e.adler = i(e.adler, a.pending_buf, a.pending - m, m)), g === 0 && (a.status = I);
+			} else a.status = I;
 		}
-		if (a.status === ae && (a.gzhead.hcrc ? (a.pending + 2 > a.pending_buf_size && de(e), a.pending + 2 <= a.pending_buf_size && (B(a, e.adler & 255), B(a, e.adler >> 8 & 255), e.adler = 0, a.status = F)) : a.status = F), a.pending !== 0) {
-			if (de(e), e.avail_out === 0) return a.last_flush = -1, d;
-		} else if (e.avail_in === 0 && z(t) <= z(r) && t !== l) return le(e, h);
-		if (a.status === I && e.avail_in !== 0) return le(e, h);
-		if (e.avail_in !== 0 || a.lookahead !== 0 || t !== o && a.status !== I) {
+		if (a.status === I && (a.gzhead.hcrc ? (a.pending + 2 > a.pending_buf_size && ue(e), a.pending + 2 <= a.pending_buf_size && (V(a, e.adler & 255), V(a, e.adler >> 8 & 255), e.adler = 0, a.status = L)) : a.status = L), a.pending !== 0) {
+			if (ue(e), e.avail_out === 0) return a.last_flush = -1, d;
+		} else if (e.avail_in === 0 && ce(t) <= ce(r) && t !== l) return se(e, h);
+		if (a.status === R && e.avail_in !== 0) return se(e, h);
+		if (e.avail_in !== 0 || a.lookahead !== 0 || t !== o && a.status !== R) {
 			var x = a.strategy === v ? K(a, t) : a.strategy === y ? G(a, t) : q[a.level].func(a, t);
-			if ((x === oe || x === se) && (a.status = I), x === L || x === oe) return e.avail_out === 0 && (a.last_flush = -1), d;
-			if (x === R && (t === s ? n._tr_align(a) : t !== u && (n._tr_stored_block(a, 0, 0, !1), t === c && (ue(a.head), a.lookahead === 0 && (a.strstart = 0, a.block_start = 0, a.insert = 0))), de(e), e.avail_out === 0)) return a.last_flush = -1, d;
+			if ((x === ie || x === ae) && (a.status = R), x === z || x === ie) return e.avail_out === 0 && (a.last_flush = -1), d;
+			if (x === B && (t === s ? n._tr_align(a) : t !== u && (n._tr_stored_block(a, 0, 0, !1), t === c && (le(a.head), a.lookahead === 0 && (a.strstart = 0, a.block_start = 0, a.insert = 0))), ue(e), e.avail_out === 0)) return a.last_flush = -1, d;
 		}
-		return t === l ? a.wrap <= 0 ? f : (a.wrap === 2 ? (B(a, e.adler & 255), B(a, e.adler >> 8 & 255), B(a, e.adler >> 16 & 255), B(a, e.adler >> 24 & 255), B(a, e.total_in & 255), B(a, e.total_in >> 8 & 255), B(a, e.total_in >> 16 & 255), B(a, e.total_in >> 24 & 255)) : (V(a, e.adler >>> 16), V(a, e.adler & 65535)), de(e), a.wrap > 0 && (a.wrap = -a.wrap), a.pending === 0 ? f : d) : d;
+		return t === l ? a.wrap <= 0 ? f : (a.wrap === 2 ? (V(a, e.adler & 255), V(a, e.adler >> 8 & 255), V(a, e.adler >> 16 & 255), V(a, e.adler >> 24 & 255), V(a, e.total_in & 255), V(a, e.total_in >> 8 & 255), V(a, e.total_in >> 16 & 255), V(a, e.total_in >> 24 & 255)) : (H(a, e.adler >>> 16), H(a, e.adler & 65535)), ue(e), a.wrap > 0 && (a.wrap = -a.wrap), a.pending === 0 ? f : d) : d;
 	}
 	function we(e) {
 		var t;
-		return !e || !e.state ? p : (t = e.state.status, t !== re && t !== ie && t !== N && t !== P && t !== ae && t !== F && t !== I ? le(e, p) : (e.state = null, t === F ? le(e, m) : d));
+		return !e || !e.state ? p : (t = e.state.status, t !== P && t !== ne && t !== re && t !== F && t !== I && t !== L && t !== R ? se(e, p) : (e.state = null, t === L ? se(e, m) : d));
 	}
 	function Te(e, n) {
 		var i = n.length, a, o, s, c, l, u, f, m;
-		if (!e || !e.state || (a = e.state, c = a.wrap, c === 2 || c === 1 && a.status !== re || a.lookahead)) return p;
-		for (c === 1 && (e.adler = r(e.adler, n, i, 0)), a.wrap = 0, i >= a.w_size && (c === 0 && (ue(a.head), a.strstart = 0, a.block_start = 0, a.insert = 0), m = new t.Buf8(a.w_size), t.arraySet(m, n, i - a.w_size, a.w_size, 0), n = m, i = a.w_size), l = e.avail_in, u = e.next_in, f = e.input, e.avail_in = i, e.next_in = 0, e.input = n, H(a); a.lookahead >= M;) {
+		if (!e || !e.state || (a = e.state, c = a.wrap, c === 2 || c === 1 && a.status !== P || a.lookahead)) return p;
+		for (c === 1 && (e.adler = r(e.adler, n, i, 0)), a.wrap = 0, i >= a.w_size && (c === 0 && (le(a.head), a.strstart = 0, a.block_start = 0, a.insert = 0), m = new t.Buf8(a.w_size), t.arraySet(m, n, i - a.w_size, a.w_size, 0), n = m, i = a.w_size), l = e.avail_in, u = e.next_in, f = e.input, e.avail_in = i, e.next_in = 0, e.input = n, U(a); a.lookahead >= M;) {
 			o = a.strstart, s = a.lookahead - (M - 1);
 			do
 				a.ins_h = (a.ins_h << a.hash_shift ^ a.window[o + M - 1]) & a.hash_mask, a.prev[o & a.w_mask] = a.head[a.ins_h], a.head[a.ins_h] = o, o++;
 			while (--s);
-			a.strstart = o, a.lookahead = M - 1, H(a);
+			a.strstart = o, a.lookahead = M - 1, U(a);
 		}
 		return a.strstart += a.lookahead, a.block_start = a.strstart, a.insert = a.lookahead, a.lookahead = 0, a.match_length = a.prev_length = M - 1, a.match_available = 0, e.next_in = u, e.input = f, e.avail_in = l, a.wrap = c, d;
 	}
 	e.deflateInit = Se, e.deflateInit2 = xe, e.deflateReset = ye, e.deflateResetKeep = J, e.deflateSetHeader = be, e.deflate = Ce, e.deflateEnd = we, e.deflateSetDictionary = Te, e.deflateInfo = "pako deflate (from Nodeca project)";
-})), aa = /* @__PURE__ */ n(((e) => {
-	var t = $i(), n = !0, r = !0;
+})), oa = /* @__PURE__ */ n(((e) => {
+	var t = ea(), n = !0, r = !0;
 	try {
 		String.fromCharCode.apply(null, [0]);
 	} catch {
@@ -7200,13 +7308,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 		for (t ||= e.length, t > e.length && (t = e.length), n = t - 1; n >= 0 && (e[n] & 192) == 128;) n--;
 		return n < 0 || n === 0 ? t : n + i[e[n]] > t ? n : t;
 	};
-})), oa = /* @__PURE__ */ n(((e, t) => {
+})), sa = /* @__PURE__ */ n(((e, t) => {
 	function n() {
 		this.input = null, this.next_in = 0, this.avail_in = 0, this.total_in = 0, this.output = null, this.next_out = 0, this.avail_out = 0, this.total_out = 0, this.msg = "", this.state = null, this.data_type = 2, this.adler = 0;
 	}
 	t.exports = n;
-})), sa = /* @__PURE__ */ n(((e) => {
-	var t = ia(), n = $i(), r = aa(), i = ra(), a = oa(), o = Object.prototype.toString, s = 0, c = 4, l = 0, u = 1, d = 2, f = -1, p = 0, m = 8;
+})), ca = /* @__PURE__ */ n(((e) => {
+	var t = aa(), n = ea(), r = oa(), i = ia(), a = sa(), o = Object.prototype.toString, s = 0, c = 4, l = 0, u = 1, d = 2, f = -1, p = 0, m = 8;
 	function h(e) {
 		if (!(this instanceof h)) return new h(e);
 		this.options = n.assign({
@@ -7254,7 +7362,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return t ||= {}, t.gzip = !0, g(e, t);
 	}
 	e.Deflate = h, e.deflate = g, e.deflateRaw = _, e.gzip = v;
-})), ca = /* @__PURE__ */ n(((e, t) => {
+})), la = /* @__PURE__ */ n(((e, t) => {
 	t.exports = function(e, t) {
 		var n = e.state, r = e.next_in, i, a, o, s, c, l, u, d, f, p, m, h, g, _, v, y, b, x, S, C, w, T = e.input, E;
 		i = r + (e.avail_in - 5), a = e.next_out, E = e.output, o = a - (t - e.avail_out), s = a + (e.avail_out - 257), c = n.dmax, l = n.wsize, u = n.whave, d = n.wnext, f = n.window, p = n.hold, m = n.bits, h = n.lencode, g = n.distcode, _ = (1 << n.lenbits) - 1, v = (1 << n.distbits) - 1;
@@ -7337,8 +7445,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 		} while (r < i && a < s);
 		x = m >> 3, r -= x, m -= x << 3, p &= (1 << m) - 1, e.next_in = r, e.next_out = a, e.avail_in = r < i ? 5 + (i - r) : 5 - (r - i), e.avail_out = a < s ? 257 + (s - a) : 257 - (a - s), n.hold = p, n.bits = m;
 	};
-})), la = /* @__PURE__ */ n(((e, t) => {
-	var n = $i(), r = 15, i = 852, a = 592, o = 0, s = 1, c = 2, l = [
+})), ua = /* @__PURE__ */ n(((e, t) => {
+	var n = ea(), r = 15, i = 852, a = 592, o = 0, s = 1, c = 2, l = [
 		3,
 		4,
 		5,
@@ -7470,61 +7578,61 @@ Tracks were discarded because your environment is not able to encode any of the 
 		64
 	];
 	t.exports = function(e, t, p, m, h, g, _, v) {
-		var y = v.bits, b = 0, x = 0, S = 0, C = 0, w = 0, T = 0, E = 0, D = 0, O = 0, k = 0, A, j, M, ee, te, ne = null, re = 0, ie, N = new n.Buf16(r + 1), P = new n.Buf16(r + 1), ae = null, F = 0, I, L, R;
-		for (b = 0; b <= r; b++) N[b] = 0;
-		for (x = 0; x < m; x++) N[t[p + x]]++;
-		for (w = y, C = r; C >= 1 && N[C] === 0; C--);
+		var y = v.bits, b = 0, x = 0, S = 0, C = 0, w = 0, T = 0, E = 0, D = 0, O = 0, k = 0, A, j, M, ee, N, te = null, P = 0, ne, re = new n.Buf16(r + 1), F = new n.Buf16(r + 1), I = null, L = 0, R, z, B;
+		for (b = 0; b <= r; b++) re[b] = 0;
+		for (x = 0; x < m; x++) re[t[p + x]]++;
+		for (w = y, C = r; C >= 1 && re[C] === 0; C--);
 		if (w > C && (w = C), C === 0) return h[g++] = 20971520, h[g++] = 20971520, v.bits = 1, 0;
-		for (S = 1; S < C && N[S] === 0; S++);
-		for (w < S && (w = S), D = 1, b = 1; b <= r; b++) if (D <<= 1, D -= N[b], D < 0) return -1;
+		for (S = 1; S < C && re[S] === 0; S++);
+		for (w < S && (w = S), D = 1, b = 1; b <= r; b++) if (D <<= 1, D -= re[b], D < 0) return -1;
 		if (D > 0 && (e === o || C !== 1)) return -1;
-		for (P[1] = 0, b = 1; b < r; b++) P[b + 1] = P[b] + N[b];
-		for (x = 0; x < m; x++) t[p + x] !== 0 && (_[P[t[p + x]]++] = x);
-		if (e === o ? (ne = ae = _, ie = 19) : e === s ? (ne = l, re -= 257, ae = u, F -= 257, ie = 256) : (ne = d, ae = f, ie = -1), k = 0, x = 0, b = S, te = g, T = w, E = 0, M = -1, O = 1 << w, ee = O - 1, e === s && O > i || e === c && O > a) return 1;
+		for (F[1] = 0, b = 1; b < r; b++) F[b + 1] = F[b] + re[b];
+		for (x = 0; x < m; x++) t[p + x] !== 0 && (_[F[t[p + x]]++] = x);
+		if (e === o ? (te = I = _, ne = 19) : e === s ? (te = l, P -= 257, I = u, L -= 257, ne = 256) : (te = d, I = f, ne = -1), k = 0, x = 0, b = S, N = g, T = w, E = 0, M = -1, O = 1 << w, ee = O - 1, e === s && O > i || e === c && O > a) return 1;
 		for (;;) {
-			I = b - E, _[x] < ie ? (L = 0, R = _[x]) : _[x] > ie ? (L = ae[F + _[x]], R = ne[re + _[x]]) : (L = 96, R = 0), A = 1 << b - E, j = 1 << T, S = j;
+			R = b - E, _[x] < ne ? (z = 0, B = _[x]) : _[x] > ne ? (z = I[L + _[x]], B = te[P + _[x]]) : (z = 96, B = 0), A = 1 << b - E, j = 1 << T, S = j;
 			do
-				j -= A, h[te + (k >> E) + j] = I << 24 | L << 16 | R;
+				j -= A, h[N + (k >> E) + j] = R << 24 | z << 16 | B;
 			while (j !== 0);
 			for (A = 1 << b - 1; k & A;) A >>= 1;
-			if (A === 0 ? k = 0 : (k &= A - 1, k += A), x++, --N[b] === 0) {
+			if (A === 0 ? k = 0 : (k &= A - 1, k += A), x++, --re[b] === 0) {
 				if (b === C) break;
 				b = t[p + _[x]];
 			}
 			if (b > w && (k & ee) !== M) {
-				for (E === 0 && (E = w), te += S, T = b - E, D = 1 << T; T + E < C && (D -= N[T + E], !(D <= 0));) T++, D <<= 1;
+				for (E === 0 && (E = w), N += S, T = b - E, D = 1 << T; T + E < C && (D -= re[T + E], !(D <= 0));) T++, D <<= 1;
 				if (O += 1 << T, e === s && O > i || e === c && O > a) return 1;
-				M = k & ee, h[M] = w << 24 | T << 16 | te - g;
+				M = k & ee, h[M] = w << 24 | T << 16 | N - g;
 			}
 		}
-		return k !== 0 && (h[te + k] = b - E << 24 | 4194304), v.bits = w, 0;
+		return k !== 0 && (h[N + k] = b - E << 24 | 4194304), v.bits = w, 0;
 	};
-})), ua = /* @__PURE__ */ n(((e) => {
-	var t = $i(), n = ta(), r = na(), i = ca(), a = la(), o = 0, s = 1, c = 2, l = 4, u = 5, d = 6, f = 0, p = 1, m = 2, h = -2, g = -3, _ = -4, v = -5, y = 8, b = 1, x = 2, S = 3, C = 4, w = 5, T = 6, E = 7, D = 8, O = 9, k = 10, A = 11, j = 12, M = 13, ee = 14, te = 15, ne = 16, re = 17, ie = 18, N = 19, P = 20, ae = 21, F = 22, I = 23, L = 24, R = 25, oe = 26, se = 27, ce = 28, le = 29, z = 30, ue = 31, de = 32, fe = 852, B = 592, V = 15;
-	function pe(e) {
+})), da = /* @__PURE__ */ n(((e) => {
+	var t = ea(), n = na(), r = ra(), i = la(), a = ua(), o = 0, s = 1, c = 2, l = 4, u = 5, d = 6, f = 0, p = 1, m = 2, h = -2, g = -3, _ = -4, v = -5, y = 8, b = 1, x = 2, S = 3, C = 4, w = 5, T = 6, E = 7, D = 8, O = 9, k = 10, A = 11, j = 12, M = 13, ee = 14, N = 15, te = 16, P = 17, ne = 18, re = 19, F = 20, I = 21, L = 22, R = 23, z = 24, B = 25, ie = 26, ae = 27, oe = 28, se = 29, ce = 30, le = 31, ue = 32, de = 852, V = 592, H = 15;
+	function fe(e) {
 		return (e >>> 24 & 255) + (e >>> 8 & 65280) + ((e & 65280) << 8) + ((e & 255) << 24);
 	}
-	function me() {
+	function pe() {
 		this.mode = 0, this.last = !1, this.wrap = 0, this.havedict = !1, this.flags = 0, this.dmax = 0, this.check = 0, this.total = 0, this.head = null, this.wbits = 0, this.wsize = 0, this.whave = 0, this.wnext = 0, this.window = null, this.hold = 0, this.bits = 0, this.length = 0, this.offset = 0, this.extra = 0, this.lencode = null, this.distcode = null, this.lenbits = 0, this.distbits = 0, this.ncode = 0, this.nlen = 0, this.ndist = 0, this.have = 0, this.next = null, this.lens = new t.Buf16(320), this.work = new t.Buf16(288), this.lendyn = null, this.distdyn = null, this.sane = 0, this.back = 0, this.was = 0;
 	}
-	function H(e) {
-		var n;
-		return !e || !e.state ? h : (n = e.state, e.total_in = e.total_out = n.total = 0, e.msg = "", n.wrap && (e.adler = n.wrap & 1), n.mode = b, n.last = 0, n.havedict = 0, n.dmax = 32768, n.head = null, n.hold = 0, n.bits = 0, n.lencode = n.lendyn = new t.Buf32(fe), n.distcode = n.distdyn = new t.Buf32(B), n.sane = 1, n.back = -1, f);
-	}
 	function U(e) {
+		var n;
+		return !e || !e.state ? h : (n = e.state, e.total_in = e.total_out = n.total = 0, e.msg = "", n.wrap && (e.adler = n.wrap & 1), n.mode = b, n.last = 0, n.havedict = 0, n.dmax = 32768, n.head = null, n.hold = 0, n.bits = 0, n.lencode = n.lendyn = new t.Buf32(de), n.distcode = n.distdyn = new t.Buf32(V), n.sane = 1, n.back = -1, f);
+	}
+	function me(e) {
 		var t;
-		return !e || !e.state ? h : (t = e.state, t.wsize = 0, t.whave = 0, t.wnext = 0, H(e));
+		return !e || !e.state ? h : (t = e.state, t.wsize = 0, t.whave = 0, t.wnext = 0, U(e));
 	}
 	function W(e, t) {
 		var n, r;
-		return !e || !e.state || (r = e.state, t < 0 ? (n = 0, t = -t) : (n = (t >> 4) + 1, t < 48 && (t &= 15)), t && (t < 8 || t > 15)) ? h : (r.window !== null && r.wbits !== t && (r.window = null), r.wrap = n, r.wbits = t, U(e));
+		return !e || !e.state || (r = e.state, t < 0 ? (n = 0, t = -t) : (n = (t >> 4) + 1, t < 48 && (t &= 15)), t && (t < 8 || t > 15)) ? h : (r.window !== null && r.wbits !== t && (r.window = null), r.wrap = n, r.wbits = t, me(e));
 	}
 	function he(e, t) {
 		var n, r;
-		return e ? (r = new me(), e.state = r, r.window = null, n = W(e, t), n !== f && (e.state = null), n) : h;
+		return e ? (r = new pe(), e.state = r, r.window = null, n = W(e, t), n !== f && (e.state = null), n) : h;
 	}
 	function G(e) {
-		return he(e, V);
+		return he(e, H);
 	}
 	var K = !0, ge, q;
 	function _e(e) {
@@ -7543,8 +7651,8 @@ Tracks were discarded because your environment is not able to encode any of the 
 		var a, o = e.state;
 		return o.window === null && (o.wsize = 1 << o.wbits, o.wnext = 0, o.whave = 0, o.window = new t.Buf8(o.wsize)), i >= o.wsize ? (t.arraySet(o.window, n, r - o.wsize, o.wsize, 0), o.wnext = 0, o.whave = o.wsize) : (a = o.wsize - o.wnext, a > i && (a = i), t.arraySet(o.window, n, r - i, a, o.wnext), i -= a, i ? (t.arraySet(o.window, n, r - i, i, 0), o.wnext = i, o.whave = o.wsize) : (o.wnext += a, o.wnext === o.wsize && (o.wnext = 0), o.whave < o.wsize && (o.whave += a))), 0;
 	}
-	function J(e, fe) {
-		var B, V, me, H, U, W, he, G, K, ge, q, J, ye, be, xe = 0, Se, Ce, we, Te, Ee, De, Oe, ke, Ae = new t.Buf8(4), je, Me, Ne = [
+	function J(e, de) {
+		var V, H, pe, U, me, W, he, G, K, ge, q, J, ye, be, xe = 0, Se, Ce, we, Te, Ee, De, Oe, ke, Ae = new t.Buf8(4), je, Me, Ne = [
 			16,
 			17,
 			18,
@@ -7566,364 +7674,364 @@ Tracks were discarded because your environment is not able to encode any of the 
 			15
 		];
 		if (!e || !e.state || !e.output || !e.input && e.avail_in !== 0) return h;
-		B = e.state, B.mode === j && (B.mode = M), U = e.next_out, me = e.output, he = e.avail_out, H = e.next_in, V = e.input, W = e.avail_in, G = B.hold, K = B.bits, ge = W, q = he, ke = f;
-		inf_leave: for (;;) switch (B.mode) {
+		V = e.state, V.mode === j && (V.mode = M), me = e.next_out, pe = e.output, he = e.avail_out, U = e.next_in, H = e.input, W = e.avail_in, G = V.hold, K = V.bits, ge = W, q = he, ke = f;
+		inf_leave: for (;;) switch (V.mode) {
 			case b:
-				if (B.wrap === 0) {
-					B.mode = M;
+				if (V.wrap === 0) {
+					V.mode = M;
 					break;
 				}
 				for (; K < 16;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
-				if (B.wrap & 2 && G === 35615) {
-					B.check = 0, Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, B.check = r(B.check, Ae, 2, 0), G = 0, K = 0, B.mode = x;
+				if (V.wrap & 2 && G === 35615) {
+					V.check = 0, Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, V.check = r(V.check, Ae, 2, 0), G = 0, K = 0, V.mode = x;
 					break;
 				}
-				if (B.flags = 0, B.head && (B.head.done = !1), !(B.wrap & 1) || (((G & 255) << 8) + (G >> 8)) % 31) {
-					e.msg = "incorrect header check", B.mode = z;
+				if (V.flags = 0, V.head && (V.head.done = !1), !(V.wrap & 1) || (((G & 255) << 8) + (G >> 8)) % 31) {
+					e.msg = "incorrect header check", V.mode = ce;
 					break;
 				}
 				if ((G & 15) !== y) {
-					e.msg = "unknown compression method", B.mode = z;
+					e.msg = "unknown compression method", V.mode = ce;
 					break;
 				}
-				if (G >>>= 4, K -= 4, Oe = (G & 15) + 8, B.wbits === 0) B.wbits = Oe;
-				else if (Oe > B.wbits) {
-					e.msg = "invalid window size", B.mode = z;
+				if (G >>>= 4, K -= 4, Oe = (G & 15) + 8, V.wbits === 0) V.wbits = Oe;
+				else if (Oe > V.wbits) {
+					e.msg = "invalid window size", V.mode = ce;
 					break;
 				}
-				B.dmax = 1 << Oe, e.adler = B.check = 1, B.mode = G & 512 ? k : j, G = 0, K = 0;
+				V.dmax = 1 << Oe, e.adler = V.check = 1, V.mode = G & 512 ? k : j, G = 0, K = 0;
 				break;
 			case x:
 				for (; K < 16;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
-				if (B.flags = G, (B.flags & 255) !== y) {
-					e.msg = "unknown compression method", B.mode = z;
+				if (V.flags = G, (V.flags & 255) !== y) {
+					e.msg = "unknown compression method", V.mode = ce;
 					break;
 				}
-				if (B.flags & 57344) {
-					e.msg = "unknown header flags set", B.mode = z;
+				if (V.flags & 57344) {
+					e.msg = "unknown header flags set", V.mode = ce;
 					break;
 				}
-				B.head && (B.head.text = G >> 8 & 1), B.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, B.check = r(B.check, Ae, 2, 0)), G = 0, K = 0, B.mode = S;
+				V.head && (V.head.text = G >> 8 & 1), V.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, V.check = r(V.check, Ae, 2, 0)), G = 0, K = 0, V.mode = S;
 			case S:
 				for (; K < 32;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
-				B.head && (B.head.time = G), B.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, Ae[2] = G >>> 16 & 255, Ae[3] = G >>> 24 & 255, B.check = r(B.check, Ae, 4, 0)), G = 0, K = 0, B.mode = C;
+				V.head && (V.head.time = G), V.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, Ae[2] = G >>> 16 & 255, Ae[3] = G >>> 24 & 255, V.check = r(V.check, Ae, 4, 0)), G = 0, K = 0, V.mode = C;
 			case C:
 				for (; K < 16;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
-				B.head && (B.head.xflags = G & 255, B.head.os = G >> 8), B.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, B.check = r(B.check, Ae, 2, 0)), G = 0, K = 0, B.mode = w;
+				V.head && (V.head.xflags = G & 255, V.head.os = G >> 8), V.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, V.check = r(V.check, Ae, 2, 0)), G = 0, K = 0, V.mode = w;
 			case w:
-				if (B.flags & 1024) {
+				if (V.flags & 1024) {
 					for (; K < 16;) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					B.length = G, B.head && (B.head.extra_len = G), B.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, B.check = r(B.check, Ae, 2, 0)), G = 0, K = 0;
-				} else B.head && (B.head.extra = null);
-				B.mode = T;
+					V.length = G, V.head && (V.head.extra_len = G), V.flags & 512 && (Ae[0] = G & 255, Ae[1] = G >>> 8 & 255, V.check = r(V.check, Ae, 2, 0)), G = 0, K = 0;
+				} else V.head && (V.head.extra = null);
+				V.mode = T;
 			case T:
-				if (B.flags & 1024 && (J = B.length, J > W && (J = W), J && (B.head && (Oe = B.head.extra_len - B.length, B.head.extra || (B.head.extra = Array(B.head.extra_len)), t.arraySet(B.head.extra, V, H, J, Oe)), B.flags & 512 && (B.check = r(B.check, V, J, H)), W -= J, H += J, B.length -= J), B.length)) break inf_leave;
-				B.length = 0, B.mode = E;
+				if (V.flags & 1024 && (J = V.length, J > W && (J = W), J && (V.head && (Oe = V.head.extra_len - V.length, V.head.extra || (V.head.extra = Array(V.head.extra_len)), t.arraySet(V.head.extra, H, U, J, Oe)), V.flags & 512 && (V.check = r(V.check, H, J, U)), W -= J, U += J, V.length -= J), V.length)) break inf_leave;
+				V.length = 0, V.mode = E;
 			case E:
-				if (B.flags & 2048) {
+				if (V.flags & 2048) {
 					if (W === 0) break inf_leave;
 					J = 0;
 					do
-						Oe = V[H + J++], B.head && Oe && B.length < 65536 && (B.head.name += String.fromCharCode(Oe));
+						Oe = H[U + J++], V.head && Oe && V.length < 65536 && (V.head.name += String.fromCharCode(Oe));
 					while (Oe && J < W);
-					if (B.flags & 512 && (B.check = r(B.check, V, J, H)), W -= J, H += J, Oe) break inf_leave;
-				} else B.head && (B.head.name = null);
-				B.length = 0, B.mode = D;
+					if (V.flags & 512 && (V.check = r(V.check, H, J, U)), W -= J, U += J, Oe) break inf_leave;
+				} else V.head && (V.head.name = null);
+				V.length = 0, V.mode = D;
 			case D:
-				if (B.flags & 4096) {
+				if (V.flags & 4096) {
 					if (W === 0) break inf_leave;
 					J = 0;
 					do
-						Oe = V[H + J++], B.head && Oe && B.length < 65536 && (B.head.comment += String.fromCharCode(Oe));
+						Oe = H[U + J++], V.head && Oe && V.length < 65536 && (V.head.comment += String.fromCharCode(Oe));
 					while (Oe && J < W);
-					if (B.flags & 512 && (B.check = r(B.check, V, J, H)), W -= J, H += J, Oe) break inf_leave;
-				} else B.head && (B.head.comment = null);
-				B.mode = O;
+					if (V.flags & 512 && (V.check = r(V.check, H, J, U)), W -= J, U += J, Oe) break inf_leave;
+				} else V.head && (V.head.comment = null);
+				V.mode = O;
 			case O:
-				if (B.flags & 512) {
+				if (V.flags & 512) {
 					for (; K < 16;) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					if (G !== (B.check & 65535)) {
-						e.msg = "header crc mismatch", B.mode = z;
+					if (G !== (V.check & 65535)) {
+						e.msg = "header crc mismatch", V.mode = ce;
 						break;
 					}
 					G = 0, K = 0;
 				}
-				B.head && (B.head.hcrc = B.flags >> 9 & 1, B.head.done = !0), e.adler = B.check = 0, B.mode = j;
+				V.head && (V.head.hcrc = V.flags >> 9 & 1, V.head.done = !0), e.adler = V.check = 0, V.mode = j;
 				break;
 			case k:
 				for (; K < 32;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
-				e.adler = B.check = pe(G), G = 0, K = 0, B.mode = A;
+				e.adler = V.check = fe(G), G = 0, K = 0, V.mode = A;
 			case A:
-				if (B.havedict === 0) return e.next_out = U, e.avail_out = he, e.next_in = H, e.avail_in = W, B.hold = G, B.bits = K, m;
-				e.adler = B.check = 1, B.mode = j;
-			case j: if (fe === u || fe === d) break inf_leave;
+				if (V.havedict === 0) return e.next_out = me, e.avail_out = he, e.next_in = U, e.avail_in = W, V.hold = G, V.bits = K, m;
+				e.adler = V.check = 1, V.mode = j;
+			case j: if (de === u || de === d) break inf_leave;
 			case M:
-				if (B.last) {
-					G >>>= K & 7, K -= K & 7, B.mode = se;
+				if (V.last) {
+					G >>>= K & 7, K -= K & 7, V.mode = ae;
 					break;
 				}
 				for (; K < 3;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
-				switch (B.last = G & 1, G >>>= 1, --K, G & 3) {
+				switch (V.last = G & 1, G >>>= 1, --K, G & 3) {
 					case 0:
-						B.mode = ee;
+						V.mode = ee;
 						break;
 					case 1:
-						if (_e(B), B.mode = P, fe === d) {
+						if (_e(V), V.mode = F, de === d) {
 							G >>>= 2, K -= 2;
 							break inf_leave;
 						}
 						break;
 					case 2:
-						B.mode = re;
+						V.mode = P;
 						break;
-					case 3: e.msg = "invalid block type", B.mode = z;
+					case 3: e.msg = "invalid block type", V.mode = ce;
 				}
 				G >>>= 2, K -= 2;
 				break;
 			case ee:
 				for (G >>>= K & 7, K -= K & 7; K < 32;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
 				if ((G & 65535) != (G >>> 16 ^ 65535)) {
-					e.msg = "invalid stored block lengths", B.mode = z;
+					e.msg = "invalid stored block lengths", V.mode = ce;
 					break;
 				}
-				if (B.length = G & 65535, G = 0, K = 0, B.mode = te, fe === d) break inf_leave;
-			case te: B.mode = ne;
-			case ne:
-				if (J = B.length, J) {
+				if (V.length = G & 65535, G = 0, K = 0, V.mode = N, de === d) break inf_leave;
+			case N: V.mode = te;
+			case te:
+				if (J = V.length, J) {
 					if (J > W && (J = W), J > he && (J = he), J === 0) break inf_leave;
-					t.arraySet(me, V, H, J, U), W -= J, H += J, he -= J, U += J, B.length -= J;
+					t.arraySet(pe, H, U, J, me), W -= J, U += J, he -= J, me += J, V.length -= J;
 					break;
 				}
-				B.mode = j;
+				V.mode = j;
 				break;
-			case re:
+			case P:
 				for (; K < 14;) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
-				if (B.nlen = (G & 31) + 257, G >>>= 5, K -= 5, B.ndist = (G & 31) + 1, G >>>= 5, K -= 5, B.ncode = (G & 15) + 4, G >>>= 4, K -= 4, B.nlen > 286 || B.ndist > 30) {
-					e.msg = "too many length or distance symbols", B.mode = z;
+				if (V.nlen = (G & 31) + 257, G >>>= 5, K -= 5, V.ndist = (G & 31) + 1, G >>>= 5, K -= 5, V.ncode = (G & 15) + 4, G >>>= 4, K -= 4, V.nlen > 286 || V.ndist > 30) {
+					e.msg = "too many length or distance symbols", V.mode = ce;
 					break;
 				}
-				B.have = 0, B.mode = ie;
-			case ie:
-				for (; B.have < B.ncode;) {
+				V.have = 0, V.mode = ne;
+			case ne:
+				for (; V.have < V.ncode;) {
 					for (; K < 3;) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					B.lens[Ne[B.have++]] = G & 7, G >>>= 3, K -= 3;
+					V.lens[Ne[V.have++]] = G & 7, G >>>= 3, K -= 3;
 				}
-				for (; B.have < 19;) B.lens[Ne[B.have++]] = 0;
-				if (B.lencode = B.lendyn, B.lenbits = 7, je = { bits: B.lenbits }, ke = a(o, B.lens, 0, 19, B.lencode, 0, B.work, je), B.lenbits = je.bits, ke) {
-					e.msg = "invalid code lengths set", B.mode = z;
+				for (; V.have < 19;) V.lens[Ne[V.have++]] = 0;
+				if (V.lencode = V.lendyn, V.lenbits = 7, je = { bits: V.lenbits }, ke = a(o, V.lens, 0, 19, V.lencode, 0, V.work, je), V.lenbits = je.bits, ke) {
+					e.msg = "invalid code lengths set", V.mode = ce;
 					break;
 				}
-				B.have = 0, B.mode = N;
-			case N:
-				for (; B.have < B.nlen + B.ndist;) {
-					for (; xe = B.lencode[G & (1 << B.lenbits) - 1], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Se <= K);) {
+				V.have = 0, V.mode = re;
+			case re:
+				for (; V.have < V.nlen + V.ndist;) {
+					for (; xe = V.lencode[G & (1 << V.lenbits) - 1], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Se <= K);) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					if (we < 16) G >>>= Se, K -= Se, B.lens[B.have++] = we;
+					if (we < 16) G >>>= Se, K -= Se, V.lens[V.have++] = we;
 					else {
 						if (we === 16) {
 							for (Me = Se + 2; K < Me;) {
 								if (W === 0) break inf_leave;
-								W--, G += V[H++] << K, K += 8;
+								W--, G += H[U++] << K, K += 8;
 							}
-							if (G >>>= Se, K -= Se, B.have === 0) {
-								e.msg = "invalid bit length repeat", B.mode = z;
+							if (G >>>= Se, K -= Se, V.have === 0) {
+								e.msg = "invalid bit length repeat", V.mode = ce;
 								break;
 							}
-							Oe = B.lens[B.have - 1], J = 3 + (G & 3), G >>>= 2, K -= 2;
+							Oe = V.lens[V.have - 1], J = 3 + (G & 3), G >>>= 2, K -= 2;
 						} else if (we === 17) {
 							for (Me = Se + 3; K < Me;) {
 								if (W === 0) break inf_leave;
-								W--, G += V[H++] << K, K += 8;
+								W--, G += H[U++] << K, K += 8;
 							}
 							G >>>= Se, K -= Se, Oe = 0, J = 3 + (G & 7), G >>>= 3, K -= 3;
 						} else {
 							for (Me = Se + 7; K < Me;) {
 								if (W === 0) break inf_leave;
-								W--, G += V[H++] << K, K += 8;
+								W--, G += H[U++] << K, K += 8;
 							}
 							G >>>= Se, K -= Se, Oe = 0, J = 11 + (G & 127), G >>>= 7, K -= 7;
 						}
-						if (B.have + J > B.nlen + B.ndist) {
-							e.msg = "invalid bit length repeat", B.mode = z;
+						if (V.have + J > V.nlen + V.ndist) {
+							e.msg = "invalid bit length repeat", V.mode = ce;
 							break;
 						}
-						for (; J--;) B.lens[B.have++] = Oe;
+						for (; J--;) V.lens[V.have++] = Oe;
 					}
 				}
-				if (B.mode === z) break;
-				if (B.lens[256] === 0) {
-					e.msg = "invalid code -- missing end-of-block", B.mode = z;
+				if (V.mode === ce) break;
+				if (V.lens[256] === 0) {
+					e.msg = "invalid code -- missing end-of-block", V.mode = ce;
 					break;
 				}
-				if (B.lenbits = 9, je = { bits: B.lenbits }, ke = a(s, B.lens, 0, B.nlen, B.lencode, 0, B.work, je), B.lenbits = je.bits, ke) {
-					e.msg = "invalid literal/lengths set", B.mode = z;
+				if (V.lenbits = 9, je = { bits: V.lenbits }, ke = a(s, V.lens, 0, V.nlen, V.lencode, 0, V.work, je), V.lenbits = je.bits, ke) {
+					e.msg = "invalid literal/lengths set", V.mode = ce;
 					break;
 				}
-				if (B.distbits = 6, B.distcode = B.distdyn, je = { bits: B.distbits }, ke = a(c, B.lens, B.nlen, B.ndist, B.distcode, 0, B.work, je), B.distbits = je.bits, ke) {
-					e.msg = "invalid distances set", B.mode = z;
+				if (V.distbits = 6, V.distcode = V.distdyn, je = { bits: V.distbits }, ke = a(c, V.lens, V.nlen, V.ndist, V.distcode, 0, V.work, je), V.distbits = je.bits, ke) {
+					e.msg = "invalid distances set", V.mode = ce;
 					break;
 				}
-				if (B.mode = P, fe === d) break inf_leave;
-			case P: B.mode = ae;
-			case ae:
+				if (V.mode = F, de === d) break inf_leave;
+			case F: V.mode = I;
+			case I:
 				if (W >= 6 && he >= 258) {
-					e.next_out = U, e.avail_out = he, e.next_in = H, e.avail_in = W, B.hold = G, B.bits = K, i(e, q), U = e.next_out, me = e.output, he = e.avail_out, H = e.next_in, V = e.input, W = e.avail_in, G = B.hold, K = B.bits, B.mode === j && (B.back = -1);
+					e.next_out = me, e.avail_out = he, e.next_in = U, e.avail_in = W, V.hold = G, V.bits = K, i(e, q), me = e.next_out, pe = e.output, he = e.avail_out, U = e.next_in, H = e.input, W = e.avail_in, G = V.hold, K = V.bits, V.mode === j && (V.back = -1);
 					break;
 				}
-				for (B.back = 0; xe = B.lencode[G & (1 << B.lenbits) - 1], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Se <= K);) {
+				for (V.back = 0; xe = V.lencode[G & (1 << V.lenbits) - 1], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Se <= K);) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
 				if (Ce && !(Ce & 240)) {
-					for (Te = Se, Ee = Ce, De = we; xe = B.lencode[De + ((G & (1 << Te + Ee) - 1) >> Te)], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Te + Se <= K);) {
+					for (Te = Se, Ee = Ce, De = we; xe = V.lencode[De + ((G & (1 << Te + Ee) - 1) >> Te)], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Te + Se <= K);) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					G >>>= Te, K -= Te, B.back += Te;
+					G >>>= Te, K -= Te, V.back += Te;
 				}
-				if (G >>>= Se, K -= Se, B.back += Se, B.length = we, Ce === 0) {
-					B.mode = oe;
+				if (G >>>= Se, K -= Se, V.back += Se, V.length = we, Ce === 0) {
+					V.mode = ie;
 					break;
 				}
 				if (Ce & 32) {
-					B.back = -1, B.mode = j;
+					V.back = -1, V.mode = j;
 					break;
 				}
 				if (Ce & 64) {
-					e.msg = "invalid literal/length code", B.mode = z;
+					e.msg = "invalid literal/length code", V.mode = ce;
 					break;
 				}
-				B.extra = Ce & 15, B.mode = F;
-			case F:
-				if (B.extra) {
-					for (Me = B.extra; K < Me;) {
+				V.extra = Ce & 15, V.mode = L;
+			case L:
+				if (V.extra) {
+					for (Me = V.extra; K < Me;) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					B.length += G & (1 << B.extra) - 1, G >>>= B.extra, K -= B.extra, B.back += B.extra;
+					V.length += G & (1 << V.extra) - 1, G >>>= V.extra, K -= V.extra, V.back += V.extra;
 				}
-				B.was = B.length, B.mode = I;
-			case I:
-				for (; xe = B.distcode[G & (1 << B.distbits) - 1], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Se <= K);) {
+				V.was = V.length, V.mode = R;
+			case R:
+				for (; xe = V.distcode[G & (1 << V.distbits) - 1], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Se <= K);) {
 					if (W === 0) break inf_leave;
-					W--, G += V[H++] << K, K += 8;
+					W--, G += H[U++] << K, K += 8;
 				}
 				if (!(Ce & 240)) {
-					for (Te = Se, Ee = Ce, De = we; xe = B.distcode[De + ((G & (1 << Te + Ee) - 1) >> Te)], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Te + Se <= K);) {
+					for (Te = Se, Ee = Ce, De = we; xe = V.distcode[De + ((G & (1 << Te + Ee) - 1) >> Te)], Se = xe >>> 24, Ce = xe >>> 16 & 255, we = xe & 65535, !(Te + Se <= K);) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					G >>>= Te, K -= Te, B.back += Te;
+					G >>>= Te, K -= Te, V.back += Te;
 				}
-				if (G >>>= Se, K -= Se, B.back += Se, Ce & 64) {
-					e.msg = "invalid distance code", B.mode = z;
+				if (G >>>= Se, K -= Se, V.back += Se, Ce & 64) {
+					e.msg = "invalid distance code", V.mode = ce;
 					break;
 				}
-				B.offset = we, B.extra = Ce & 15, B.mode = L;
-			case L:
-				if (B.extra) {
-					for (Me = B.extra; K < Me;) {
+				V.offset = we, V.extra = Ce & 15, V.mode = z;
+			case z:
+				if (V.extra) {
+					for (Me = V.extra; K < Me;) {
 						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
+						W--, G += H[U++] << K, K += 8;
 					}
-					B.offset += G & (1 << B.extra) - 1, G >>>= B.extra, K -= B.extra, B.back += B.extra;
+					V.offset += G & (1 << V.extra) - 1, G >>>= V.extra, K -= V.extra, V.back += V.extra;
 				}
-				if (B.offset > B.dmax) {
-					e.msg = "invalid distance too far back", B.mode = z;
+				if (V.offset > V.dmax) {
+					e.msg = "invalid distance too far back", V.mode = ce;
 					break;
 				}
-				B.mode = R;
-			case R:
+				V.mode = B;
+			case B:
 				if (he === 0) break inf_leave;
-				if (J = q - he, B.offset > J) {
-					if (J = B.offset - J, J > B.whave && B.sane) {
-						e.msg = "invalid distance too far back", B.mode = z;
+				if (J = q - he, V.offset > J) {
+					if (J = V.offset - J, J > V.whave && V.sane) {
+						e.msg = "invalid distance too far back", V.mode = ce;
 						break;
 					}
-					J > B.wnext ? (J -= B.wnext, ye = B.wsize - J) : ye = B.wnext - J, J > B.length && (J = B.length), be = B.window;
-				} else be = me, ye = U - B.offset, J = B.length;
-				J > he && (J = he), he -= J, B.length -= J;
+					J > V.wnext ? (J -= V.wnext, ye = V.wsize - J) : ye = V.wnext - J, J > V.length && (J = V.length), be = V.window;
+				} else be = pe, ye = me - V.offset, J = V.length;
+				J > he && (J = he), he -= J, V.length -= J;
 				do
-					me[U++] = be[ye++];
+					pe[me++] = be[ye++];
 				while (--J);
-				B.length === 0 && (B.mode = ae);
+				V.length === 0 && (V.mode = I);
 				break;
-			case oe:
+			case ie:
 				if (he === 0) break inf_leave;
-				me[U++] = B.length, he--, B.mode = ae;
+				pe[me++] = V.length, he--, V.mode = I;
 				break;
+			case ae:
+				if (V.wrap) {
+					for (; K < 32;) {
+						if (W === 0) break inf_leave;
+						W--, G |= H[U++] << K, K += 8;
+					}
+					if (q -= he, e.total_out += q, V.total += q, q && (e.adler = V.check = V.flags ? r(V.check, pe, q, me - q) : n(V.check, pe, q, me - q)), q = he, (V.flags ? G : fe(G)) !== V.check) {
+						e.msg = "incorrect data check", V.mode = ce;
+						break;
+					}
+					G = 0, K = 0;
+				}
+				V.mode = oe;
+			case oe:
+				if (V.wrap && V.flags) {
+					for (; K < 32;) {
+						if (W === 0) break inf_leave;
+						W--, G += H[U++] << K, K += 8;
+					}
+					if (G !== (V.total | 0)) {
+						e.msg = "incorrect length check", V.mode = ce;
+						break;
+					}
+					G = 0, K = 0;
+				}
+				V.mode = se;
 			case se:
-				if (B.wrap) {
-					for (; K < 32;) {
-						if (W === 0) break inf_leave;
-						W--, G |= V[H++] << K, K += 8;
-					}
-					if (q -= he, e.total_out += q, B.total += q, q && (e.adler = B.check = B.flags ? r(B.check, me, q, U - q) : n(B.check, me, q, U - q)), q = he, (B.flags ? G : pe(G)) !== B.check) {
-						e.msg = "incorrect data check", B.mode = z;
-						break;
-					}
-					G = 0, K = 0;
-				}
-				B.mode = ce;
-			case ce:
-				if (B.wrap && B.flags) {
-					for (; K < 32;) {
-						if (W === 0) break inf_leave;
-						W--, G += V[H++] << K, K += 8;
-					}
-					if (G !== (B.total | 0)) {
-						e.msg = "incorrect length check", B.mode = z;
-						break;
-					}
-					G = 0, K = 0;
-				}
-				B.mode = le;
-			case le:
 				ke = p;
 				break inf_leave;
-			case z:
+			case ce:
 				ke = g;
 				break inf_leave;
-			case ue: return _;
-			case de:
+			case le: return _;
+			case ue:
 			default: return h;
 		}
-		return e.next_out = U, e.avail_out = he, e.next_in = H, e.avail_in = W, B.hold = G, B.bits = K, (B.wsize || q !== e.avail_out && B.mode < z && (B.mode < se || fe !== l)) && ve(e, e.output, e.next_out, q - e.avail_out) ? (B.mode = ue, _) : (ge -= e.avail_in, q -= e.avail_out, e.total_in += ge, e.total_out += q, B.total += q, B.wrap && q && (e.adler = B.check = B.flags ? r(B.check, me, q, e.next_out - q) : n(B.check, me, q, e.next_out - q)), e.data_type = B.bits + (B.last ? 64 : 0) + (B.mode === j ? 128 : 0) + (B.mode === P || B.mode === te ? 256 : 0), (ge === 0 && q === 0 || fe === l) && ke === f && (ke = v), ke);
+		return e.next_out = me, e.avail_out = he, e.next_in = U, e.avail_in = W, V.hold = G, V.bits = K, (V.wsize || q !== e.avail_out && V.mode < ce && (V.mode < ae || de !== l)) && ve(e, e.output, e.next_out, q - e.avail_out) ? (V.mode = le, _) : (ge -= e.avail_in, q -= e.avail_out, e.total_in += ge, e.total_out += q, V.total += q, V.wrap && q && (e.adler = V.check = V.flags ? r(V.check, pe, q, e.next_out - q) : n(V.check, pe, q, e.next_out - q)), e.data_type = V.bits + (V.last ? 64 : 0) + (V.mode === j ? 128 : 0) + (V.mode === F || V.mode === N ? 256 : 0), (ge === 0 && q === 0 || de === l) && ke === f && (ke = v), ke);
 	}
 	function ye(e) {
 		if (!e || !e.state) return h;
@@ -7936,10 +8044,10 @@ Tracks were discarded because your environment is not able to encode any of the 
 	}
 	function xe(e, t) {
 		var r = t.length, i, a, o;
-		return !e || !e.state || (i = e.state, i.wrap !== 0 && i.mode !== A) ? h : i.mode === A && (a = 1, a = n(a, t, r, 0), a !== i.check) ? g : (o = ve(e, t, r, r), o ? (i.mode = ue, _) : (i.havedict = 1, f));
+		return !e || !e.state || (i = e.state, i.wrap !== 0 && i.mode !== A) ? h : i.mode === A && (a = 1, a = n(a, t, r, 0), a !== i.check) ? g : (o = ve(e, t, r, r), o ? (i.mode = le, _) : (i.havedict = 1, f));
 	}
-	e.inflateReset = U, e.inflateReset2 = W, e.inflateResetKeep = H, e.inflateInit = G, e.inflateInit2 = he, e.inflate = J, e.inflateEnd = ye, e.inflateGetHeader = be, e.inflateSetDictionary = xe, e.inflateInfo = "pako inflate (from Nodeca project)";
-})), da = /* @__PURE__ */ n(((e, t) => {
+	e.inflateReset = me, e.inflateReset2 = W, e.inflateResetKeep = U, e.inflateInit = G, e.inflateInit2 = he, e.inflate = J, e.inflateEnd = ye, e.inflateGetHeader = be, e.inflateSetDictionary = xe, e.inflateInfo = "pako inflate (from Nodeca project)";
+})), fa = /* @__PURE__ */ n(((e, t) => {
 	t.exports = {
 		Z_NO_FLUSH: 0,
 		Z_PARTIAL_FLUSH: 1,
@@ -7969,13 +8077,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 		Z_UNKNOWN: 2,
 		Z_DEFLATED: 8
 	};
-})), fa = /* @__PURE__ */ n(((e, t) => {
+})), pa = /* @__PURE__ */ n(((e, t) => {
 	function n() {
 		this.text = 0, this.time = 0, this.xflags = 0, this.os = 0, this.extra = null, this.extra_len = 0, this.name = "", this.comment = "", this.hcrc = 0, this.done = !1;
 	}
 	t.exports = n;
-})), pa = /* @__PURE__ */ n(((e) => {
-	var t = ua(), n = $i(), r = aa(), i = da(), a = ra(), o = oa(), s = fa(), c = Object.prototype.toString;
+})), ma = /* @__PURE__ */ n(((e) => {
+	var t = da(), n = ea(), r = oa(), i = fa(), a = ia(), o = sa(), s = pa(), c = Object.prototype.toString;
 	function l(e) {
 		if (!(this instanceof l)) return new l(e);
 		this.options = n.assign({
@@ -8011,13 +8119,13 @@ Tracks were discarded because your environment is not able to encode any of the 
 		return t ||= {}, t.raw = !0, u(e, t);
 	}
 	e.Inflate = l, e.inflate = u, e.inflateRaw = d, e.ungzip = u;
-})), ma = /* @__PURE__ */ n(((e, t) => {
-	var n = $i().assign, r = sa(), i = pa(), a = da(), o = {};
+})), ha = /* @__PURE__ */ n(((e, t) => {
+	var n = ea().assign, r = ca(), i = ma(), a = fa(), o = {};
 	n(o, r, i, a), t.exports = o;
-})), ha = /* @__PURE__ */ t((/* @__PURE__ */ n(((t, n) => {
+})), ga = /* @__PURE__ */ t((/* @__PURE__ */ n(((t, n) => {
 	(function() {
 		var t = {}, r;
-		typeof n == "object" ? n.exports = t : window.UPNG = t, r = typeof e == "function" ? ma() : window.pako, (function(e, t) {
+		typeof n == "object" ? n.exports = t : window.UPNG = t, r = typeof e == "function" ? ha() : window.pako, (function(e, t) {
 			e.toRGBA8 = function(t) {
 				var n = t.width, r = t.height;
 				if (t.tabs.acTL == null) return [e.toRGBA8.decodeImage(t.data, n, r, t).buffer];
@@ -8425,36 +8533,36 @@ Tracks were discarded because your environment is not able to encode any of the 
 				for (var C = [], d = 0; d < t.length; d++) {
 					var w = new Uint8Array(t[d]), T = new Uint32Array(w.buffer), E = 0, D = 0, O = n, k = r, A = 0;
 					if (d != 0 && !x) {
-						for (var j = a || d == 1 || C[C.length - 2].dispose == 2 ? 1 : 2, M = 0, ee = 1e9, te = 0; te < j; te++) {
-							for (var ne = new Uint8Array(t[d - 1 - te]), re = new Uint32Array(t[d - 1 - te]), ie = n, N = r, P = -1, ae = -1, F = 0; F < r; F++) for (var I = 0; I < n; I++) {
-								var m = F * n + I;
-								T[m] != re[m] && (I < ie && (ie = I), I > P && (P = I), F < N && (N = F), F > ae && (ae = F));
+						for (var j = a || d == 1 || C[C.length - 2].dispose == 2 ? 1 : 2, M = 0, ee = 1e9, N = 0; N < j; N++) {
+							for (var te = new Uint8Array(t[d - 1 - N]), P = new Uint32Array(t[d - 1 - N]), ne = n, re = r, F = -1, I = -1, L = 0; L < r; L++) for (var R = 0; R < n; R++) {
+								var m = L * n + R;
+								T[m] != P[m] && (R < ne && (ne = R), R > F && (F = R), L < re && (re = L), L > I && (I = L));
 							}
-							var L = P == -1 ? 1 : (P - ie + 1) * (ae - N + 1);
-							L < ee && (ee = L, M = te, P == -1 ? (E = D = 0, O = k = 1) : (E = ie, D = N, O = P - ie + 1, k = ae - N + 1));
+							var z = F == -1 ? 1 : (F - ne + 1) * (I - re + 1);
+							z < ee && (ee = z, M = N, F == -1 ? (E = D = 0, O = k = 1) : (E = ne, D = re, O = F - ne + 1, k = I - re + 1));
 						}
-						var ne = new Uint8Array(t[d - 1 - M]);
+						var te = new Uint8Array(t[d - 1 - M]);
 						M == 1 && (C[C.length - 1].dispose = 2);
-						var R = new Uint8Array(O * k * 4);
-						new Uint32Array(R.buffer), e._copyTile(ne, n, r, R, O, k, -E, -D, 0), e._copyTile(w, n, r, R, O, k, -E, -D, 3) ? (e._copyTile(w, n, r, R, O, k, -E, -D, 2), A = 1) : (e._copyTile(w, n, r, R, O, k, -E, -D, 0), A = 0), w = R, T = new Uint32Array(w.buffer);
+						var B = new Uint8Array(O * k * 4);
+						new Uint32Array(B.buffer), e._copyTile(te, n, r, B, O, k, -E, -D, 0), e._copyTile(w, n, r, B, O, k, -E, -D, 3) ? (e._copyTile(w, n, r, B, O, k, -E, -D, 2), A = 1) : (e._copyTile(w, n, r, B, O, k, -E, -D, 0), A = 0), w = B, T = new Uint32Array(w.buffer);
 					}
-					var oe = 4 * O;
+					var ie = 4 * O;
 					if (S <= 256 && o == 0) {
-						oe = Math.ceil(c * O / 8);
-						for (var R = new Uint8Array(oe * k), F = 0; F < k; F++) {
-							var m = F * oe, se = F * O;
-							if (c == 8) for (var I = 0; I < O; I++) R[m + I] = g[T[se + I]];
-							else if (c == 4) for (var I = 0; I < O; I++) R[m + (I >> 1)] |= g[T[se + I]] << 4 - (I & 1) * 4;
-							else if (c == 2) for (var I = 0; I < O; I++) R[m + (I >> 2)] |= g[T[se + I]] << 6 - (I & 3) * 2;
-							else if (c == 1) for (var I = 0; I < O; I++) R[m + (I >> 3)] |= g[T[se + I]] << 7 - (I & 7) * 1;
+						ie = Math.ceil(c * O / 8);
+						for (var B = new Uint8Array(ie * k), L = 0; L < k; L++) {
+							var m = L * ie, ae = L * O;
+							if (c == 8) for (var R = 0; R < O; R++) B[m + R] = g[T[ae + R]];
+							else if (c == 4) for (var R = 0; R < O; R++) B[m + (R >> 1)] |= g[T[ae + R]] << 4 - (R & 1) * 4;
+							else if (c == 2) for (var R = 0; R < O; R++) B[m + (R >> 2)] |= g[T[ae + R]] << 6 - (R & 3) * 2;
+							else if (c == 1) for (var R = 0; R < O; R++) B[m + (R >> 3)] |= g[T[ae + R]] << 7 - (R & 7) * 1;
 						}
-						w = R, s = 3, l = 1;
+						w = B, s = 3, l = 1;
 					} else if (h == 0 && t.length == 1) {
-						for (var R = new Uint8Array(O * k * 3), ce = O * k, m = 0; m < ce; m++) {
-							var le = m * 3, z = m * 4;
-							R[le] = w[z], R[le + 1] = w[z + 1], R[le + 2] = w[z + 2];
+						for (var B = new Uint8Array(O * k * 3), oe = O * k, m = 0; m < oe; m++) {
+							var se = m * 3, ce = m * 4;
+							B[se] = w[ce], B[se + 1] = w[ce + 1], B[se + 2] = w[ce + 2];
 						}
-						w = R, s = 2, l = 3, oe = 3 * O;
+						w = B, s = 2, l = 3, ie = 3 * O;
 					}
 					C.push({
 						rect: {
@@ -8464,7 +8572,7 @@ Tracks were discarded because your environment is not able to encode any of the 
 							height: k
 						},
 						img: w,
-						bpl: oe,
+						bpl: ie,
 						bpp: l,
 						blend: A,
 						dispose: +!!x
@@ -8713,14 +8821,14 @@ Tracks were discarded because your environment is not able to encode any of the 
 		})(t, r);
 	})();
 })))(), 1);
-function ga(e) {
+function _a(e) {
 	return /^image\/hei[cf]/i.test(e.type) || /\.(heic|heif)$/i.test(e.name);
 }
-async function _a(e) {
+async function va(e) {
 	try {
 		return await createImageBitmap(e);
 	} catch (t) {
-		if (!ga(e)) throw t;
+		if (!_a(e)) throw t;
 		console.log(`Decoding HEIC image "${e.name}" with libheif…`);
 		let { heicTo: n } = await import("./heic-to-B_DOc4XS.js");
 		return await n({
@@ -8729,7 +8837,7 @@ async function _a(e) {
 		});
 	}
 }
-function va(e, t = 2) {
+function ya(e, t = 2) {
 	if (e === 0) return "0 Bytes";
 	let n = 1024, r = t < 0 ? 0 : t, i = [
 		"Bytes",
@@ -8740,43 +8848,43 @@ function va(e, t = 2) {
 	], a = Math.floor(Math.log(e) / Math.log(n));
 	return parseFloat((e / n ** a).toFixed(r)) + " " + i[a];
 }
-function ya(e) {
+function ba(e) {
 	if (isNaN(e) || !isFinite(e)) return "0:00";
 	let t = Math.floor(e / 60), n = Math.floor(e % 60), r = Math.floor(e % 1 * 100);
 	return `${t}:${n.toString().padStart(2, "0")}.${r.toString().padStart(2, "0")}`;
 }
-var ba = {
-	1: Mt,
-	2: Dt,
-	3: Fe,
-	4: gt,
-	5: st
-}, xa = {
+var xa = {
+	1: Re,
+	2: Ie,
+	3: st,
+	4: Dt,
+	5: Nt
+}, Sa = {
 	1: "Very Low",
 	2: "Low",
 	3: "Medium",
 	4: "High",
 	5: "Very High"
-}, Sa = {
+}, Ca = {
 	1: "Prioritizes hyper-compression over quality. Ideal for lightweight previews.",
 	2: "Aggressive compression. Noticeable reduction in metadata and detail.",
 	3: "Balanced bitrate and visual fidelity for typical social/web sharing.",
 	4: "Excellent visual density. Great for standard professional distribution.",
 	5: "Preserves maximum fine detail and frames. Generates large files."
-}, Ca = {
+}, wa = {
 	1: "~600 kbps",
 	2: "~1.5 Mbps",
 	3: "~3.5 Mbps",
 	4: "~7.5 Mbps",
 	5: "~15 Mbps"
-}, wa = {
+}, Ta = {
 	1: .6,
 	2: 1.5,
 	3: 3.5,
 	4: 7.5,
 	5: 15
 };
-function Ta(e, t, n, r, i) {
+function Ea(e, t, n, r, i) {
 	let a = e, o = t, s = n;
 	for (; o > r * 2 || s > i * 2;) {
 		let e = Math.max(r, Math.round(o / 2)), t = Math.max(i, Math.round(s / 2)), n = document.createElement("canvas");
@@ -8789,7 +8897,7 @@ function Ta(e, t, n, r, i) {
 	let l = c.getContext("2d");
 	return l.imageSmoothingEnabled = !0, l.imageSmoothingQuality = "high", l.drawImage(a, 0, 0, o, s, 0, 0, r, i), c;
 }
-function Ea(e, t) {
+function Da(e, t) {
 	let n = t === "mp4" ? [{
 		value: "avc",
 		label: "H.264 / AVC (High compatibility)"
@@ -8815,20 +8923,20 @@ function Ea(e, t) {
 		r.value = t.value, r.textContent = t.label, n === 0 && (r.selected = !0), e.appendChild(r);
 	});
 }
-function Da(e) {
+function Oa(e) {
 	return e === "webm" ? {
-		format: new ki(),
+		format: new Ai(),
 		mime: "video/webm",
 		ext: "webm"
 	} : {
-		format: new Ti(),
+		format: new Ei(),
 		mime: "video/mp4",
 		ext: "mp4"
 	};
 }
 // src/cropEditor.ts
-var Oa = 168, ka = 28;
-function Aa(e) {
+var ka = 168, Aa = 28;
+function ja(e) {
 	let { container: t, getSourceSize: n, getCrop: r, setCrop: i, getLoupeSource: a } = e, o = e.minSize ?? 8, s = document.createElement("div");
 	s.className = "crop-overlay", s.style.display = "none";
 	let c = document.createElement("div");
@@ -8865,7 +8973,7 @@ function Aa(e) {
 		if (!f) return;
 		let e = a(), { width: i, height: o } = n(), s = t.getBoundingClientRect();
 		if (!e || !i || !o || !s.width) return;
-		let c = window.devicePixelRatio || 1, l = Math.max(1, Math.ceil(s.width / i)), p = Oa;
+		let c = window.devicePixelRatio || 1, l = Math.max(1, Math.ceil(s.width / i)), p = ka;
 		u.width !== p * c && (u.width = p * c, u.height = p * c);
 		let h = u.getContext("2d");
 		h.setTransform(c * l, 0, 0, c * l, 0, 0), h.imageSmoothingEnabled = !1;
@@ -8875,8 +8983,8 @@ function Aa(e) {
 		D > T && O > E && h.drawImage(e, T * C, E * w, (D - T) * C, (O - E) * w, T - y, E - b, D - T, O - E), h.strokeStyle = "rgba(255, 107, 129, 0.95)", h.lineWidth = 1 / l, h.strokeRect(g.x - y, g.y - b, g.width, g.height), h.strokeStyle = "rgba(255, 255, 255, 0.6)", h.beginPath(), h.moveTo(_.x - y, 0), h.lineTo(_.x - y, v), h.moveTo(0, _.y - b), h.lineTo(v, _.y - b), h.stroke(), d.textContent = `corner ${_.x}, ${_.y} · ${l * 100}%\ncrop ${g.width}×${g.height}`;
 	}
 	function g(e, t, n) {
-		let r = Oa, i = l.offsetHeight || 204, a = e === "nw" || e === "sw", o = e === "nw" || e === "ne", s = a ? t - r - ka : t + ka, c = o ? n - i - ka : n + ka;
-		s < 8 && (s = t + ka), s + r > window.innerWidth - 8 && (s = t - r - ka), c < 8 && (c = n + ka), c + i > window.innerHeight - 8 && (c = n - i - ka), l.style.left = `${Math.max(8, s)}px`, l.style.top = `${Math.max(8, c)}px`;
+		let r = ka, i = l.offsetHeight || 204, a = e === "nw" || e === "sw", o = e === "nw" || e === "ne", s = a ? t - r - Aa : t + Aa, c = o ? n - i - Aa : n + Aa;
+		s < 8 && (s = t + Aa), s + r > window.innerWidth - 8 && (s = t - r - Aa), c < 8 && (c = n + Aa), c + i > window.innerHeight - 8 && (c = n - i - Aa), l.style.left = `${Math.max(8, s)}px`, l.style.top = `${Math.max(8, c)}px`;
 	}
 	c.addEventListener("pointerdown", (e) => {
 		let t = e.target.dataset?.handle;
@@ -8926,7 +9034,7 @@ function Aa(e) {
 		}
 	};
 }
-var ja = {
+var Ma = {
 	quality: {
 		label: "Real-ESRGAN x2plus",
 		url: "https://huggingface.co/SceneWorks/real-esrgan-onnx/resolve/09f741bac80a246b407da3ee902bf5f3291b602f/real_esrgan_x2.onnx",
@@ -8941,9 +9049,9 @@ var ja = {
 		scale: 4,
 		tileSize: 256
 	}
-}, Ma = 16, Na = 64e6, Pa = 16384, Fa = dt;
-async function Ia(e, t = () => {}) {
-	let n = ja[e], { ort: r, session: i } = await Ot(n, t), a = i.inputNames[0], o = i.outputNames[0], s = document.createElement("canvas"), c = s.getContext("2d", { willReadFrequently: !0 }), l = document.createElement("canvas"), u = l.getContext("2d"), d = document.createElement("canvas"), f = d.getContext("2d"), p = document.createElement("canvas"), m = p.getContext("2d");
+}, Na = 16, Pa = 64e6, Fa = 16384, Ia = dt;
+async function La(e, t = () => {}) {
+	let n = Ma[e], { ort: r, session: i } = await Ot(n, t), a = i.inputNames[0], o = i.outputNames[0], s = document.createElement("canvas"), c = s.getContext("2d", { willReadFrequently: !0 }), l = document.createElement("canvas"), u = l.getContext("2d"), d = document.createElement("canvas"), f = d.getContext("2d"), p = document.createElement("canvas"), m = p.getContext("2d");
 	async function h(e, t, h, g) {
 		let _ = t + t % 2, v = h + h % 2;
 		(s.width !== _ || s.height !== v) && (s.width = _, s.height = v), c.clearRect(0, 0, _, v), c.drawImage(e, 0, 0, t, h), _ > t && c.drawImage(s, t - 1, 0, 1, h, t, 0, 1, h), v > h && c.drawImage(s, 0, h - 1, _, 1, 0, h, _, 1);
@@ -8953,7 +9061,7 @@ async function Ia(e, t = () => {}) {
 		for (let e = 0; e < C; e++) for (let t = 0; t < S; t++) {
 			let n = e * S + t;
 			g?.(`Upscaling… tile ${n + 1}/${w}`, n / w);
-			let s = t * b, c = e * b, l = Math.min(b, _ - s), d = Math.min(b, v - c), f = Math.max(0, s - Ma), h = Math.max(0, c - Ma), C = Math.min(_, s + l + Ma) - f, T = Math.min(v, c + d + Ma) - h, E = C * T, D = new Float32Array(3 * E);
+			let s = t * b, c = e * b, l = Math.min(b, _ - s), d = Math.min(b, v - c), f = Math.max(0, s - Na), h = Math.max(0, c - Na), C = Math.min(_, s + l + Na) - f, T = Math.min(v, c + d + Na) - h, E = C * T, D = new Float32Array(3 * E);
 			for (let e = 0; e < T; e++) {
 				let t = ((h + e) * _ + f) * 4, n = e * C;
 				for (let e = 0; e < C; e++, t += 4, n++) D[n] = y[t] / 255, D[E + n] = y[t + 1] / 255, D[2 * E + n] = y[t + 2] / 255;
@@ -8963,9 +9071,9 @@ async function Ia(e, t = () => {}) {
 				3,
 				T,
 				C
-			]), k = (await i.run({ [a]: O }))[o], A = k.data, j = C * x, M = T * x, ee = j * M, te = new ImageData(j, M), ne = te.data;
-			for (let e = 0, t = 0; e < ee; e++, t += 4) ne[t] = A[e] * 255, ne[t + 1] = A[ee + e] * 255, ne[t + 2] = A[2 * ee + e] * 255, ne[t + 3] = 255;
-			O.dispose(), k.dispose(), (p.width !== j || p.height !== M) && (p.width = j, p.height = M), m.putImageData(te, 0, 0), u.drawImage(p, (s - f) * x, (c - h) * x, l * x, d * x, s * 2, c * 2, l * 2, d * 2);
+			]), k = (await i.run({ [a]: O }))[o], A = k.data, j = C * x, M = T * x, ee = j * M, N = new ImageData(j, M), te = N.data;
+			for (let e = 0, t = 0; e < ee; e++, t += 4) te[t] = A[e] * 255, te[t + 1] = A[ee + e] * 255, te[t + 2] = A[2 * ee + e] * 255, te[t + 3] = 255;
+			O.dispose(), k.dispose(), (p.width !== j || p.height !== M) && (p.width = j, p.height = M), m.putImageData(N, 0, 0), u.drawImage(p, (s - f) * x, (c - h) * x, l * x, d * x, s * 2, c * 2, l * 2, d * 2);
 		}
 		return _ === t && v === h ? l : (d.width = t * 2, d.height = h * 2, f.drawImage(l, 0, 0), d);
 	}
@@ -8974,11 +9082,11 @@ async function Ia(e, t = () => {}) {
 		upscale: h
 	};
 }
-async function La(e, t, n = () => {}) {
+async function Ra(e, t, n = () => {}) {
 	let r = e.width, i = e.height, a = r * 2, o = i * 2;
-	if (a > Pa || o > Pa || a * o > Na) throw Error(`Upscaled output (${a}×${o}) would be too large for the browser. Crop or downsize the image first.`);
-	let s = await Ia(t, n), c = performance.now(), l = await s.upscale(e, r, i, n), u = e.getContext("2d").getImageData(0, 0, r, i).data;
-	if (Ra(u)) {
+	if (a > Fa || o > Fa || a * o > Pa) throw Error(`Upscaled output (${a}×${o}) would be too large for the browser. Crop or downsize the image first.`);
+	let s = await La(t, n), c = performance.now(), l = await s.upscale(e, r, i, n), u = e.getContext("2d").getImageData(0, 0, r, i).data;
+	if (za(u)) {
 		let t = document.createElement("canvas");
 		t.width = a, t.height = o;
 		let n = t.getContext("2d");
@@ -8989,36 +9097,36 @@ async function La(e, t, n = () => {}) {
 	}
 	return console.log(`AI upscale (${s.label}): ${r}×${i} → ${a}×${o} in ${((performance.now() - c) / 1e3).toFixed(1)}s`), n("Upscale complete", 1), l;
 }
-function Ra(e) {
+function za(e) {
 	for (let t = 3; t < e.length; t += 4) if (e[t] < 255) return !0;
 	return !1;
 }
 // src/imageWorkflow.ts
-var za = 8, Ba = 1, Va = 4, Ha = 4;
-function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
+var Ba = 8, Va = 1, Ha = 4, Ua = 4;
+function Wa({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	function r(t, n) {
 		let r = e.getElementById(t);
 		if (!r) throw Error(`DOM element not found: #${t} (expected ${n})`);
 		return r;
 	}
-	let i = r("image-canvas-stage", "div#image-canvas-stage"), a = r("image-preview-canvas", "canvas#image-preview-canvas"), o = r("image-mask-canvas", "canvas#image-mask-canvas"), s = r("img-meta-name", "span#img-meta-name"), c = r("img-meta-size", "span#img-meta-size"), l = r("img-meta-resolution", "span#img-meta-resolution"), u = r("img-meta-aspect", "span#img-meta-aspect"), d = r("img-meta-type", "span#img-meta-type"), f = r("img-enable-crop", "input#img-enable-crop"), p = r("img-tool-crop", "input#img-tool-crop"), m = r("img-tool-paint", "input#img-tool-paint"), h = r("img-crop-x", "input#img-crop-x"), g = r("img-crop-y", "input#img-crop-y"), _ = r("img-crop-width", "input#img-crop-width"), v = r("img-crop-height", "input#img-crop-height"), y = r("img-crop-full", "button#img-crop-full"), b = r("img-crop-square", "button#img-crop-square"), x = r("img-enable-resize", "input#img-enable-resize"), S = r("img-out-width", "input#img-out-width"), C = r("img-out-height", "input#img-out-height"), w = r("img-scale-preset", "select#img-scale-preset"), T = r("img-maxdim-preset", "select#img-maxdim-preset"), E = r("img-lock-aspect", "input#img-lock-aspect"), D = r("img-resize-status", "small#img-resize-status"), O = r("img-enable-upscale", "input#img-enable-upscale"), k = r("img-upscale-model", "select#img-upscale-model"), A = r("img-upscale-status", "small#img-upscale-status"), j = r("img-enable-blur", "input#img-enable-blur"), M = r("img-redaction-mode", "select#img-redaction-mode"), ee = r("img-brush-size", "input#img-brush-size"), te = r("img-blur-strength", "input#img-blur-strength"), ne = r("img-erase-mode", "input#img-erase-mode"), re = r("img-clear-mask", "button#img-clear-mask"), ie = r("img-out-format", "select#img-out-format"), N = r("img-quality", "input#img-quality"), P = r("img-quality-label", "span#img-quality-label"), ae = r("img-base64-colors", "select#img-base64-colors"), F = r("image-copy-base64-btn", "button#image-copy-base64-btn"), I = r("image-copy-base64-status", "small#image-copy-base64-status"), L = r("image-base64-preview-wrap", "div#image-base64-preview-wrap"), R = r("image-base64-preview", "img#image-base64-preview"), oe = r("image-base64-output", "textarea#image-base64-output"), se = r("image-form", "form#image-form"), ce = r("image-process-btn", "button#image-process-btn"), le = r("image-result-section", "section#image-result-section"), z = r("image-output-placeholder", "div#image-output-placeholder"), ue = r("image-download-anchor", "a#image-download-anchor"), de = r("image-output-size-tag", "span#image-output-size-tag"), fe = r("image-output-preview", "img#image-output-preview"), B = null, V = null, pe = null, me = null, H = 0, U = 0, W = null, he = null, G = !1, K = null, ge = !1, q = {
+	let i = r("image-canvas-stage", "div#image-canvas-stage"), a = r("image-preview-canvas", "canvas#image-preview-canvas"), o = r("image-mask-canvas", "canvas#image-mask-canvas"), s = r("img-meta-name", "span#img-meta-name"), c = r("img-meta-size", "span#img-meta-size"), l = r("img-meta-resolution", "span#img-meta-resolution"), u = r("img-meta-aspect", "span#img-meta-aspect"), d = r("img-meta-type", "span#img-meta-type"), f = r("img-enable-crop", "input#img-enable-crop"), p = r("img-tool-crop", "input#img-tool-crop"), m = r("img-tool-paint", "input#img-tool-paint"), h = r("img-crop-x", "input#img-crop-x"), g = r("img-crop-y", "input#img-crop-y"), _ = r("img-crop-width", "input#img-crop-width"), v = r("img-crop-height", "input#img-crop-height"), y = r("img-crop-full", "button#img-crop-full"), b = r("img-crop-square", "button#img-crop-square"), x = r("img-enable-resize", "input#img-enable-resize"), S = r("img-out-width", "input#img-out-width"), C = r("img-out-height", "input#img-out-height"), w = r("img-scale-preset", "select#img-scale-preset"), T = r("img-maxdim-preset", "select#img-maxdim-preset"), E = r("img-lock-aspect", "input#img-lock-aspect"), D = r("img-resize-status", "small#img-resize-status"), O = r("img-enable-upscale", "input#img-enable-upscale"), k = r("img-upscale-model", "select#img-upscale-model"), A = r("img-upscale-status", "small#img-upscale-status"), j = r("img-enable-blur", "input#img-enable-blur"), M = r("img-redaction-mode", "select#img-redaction-mode"), ee = r("img-brush-size", "input#img-brush-size"), N = r("img-blur-strength", "input#img-blur-strength"), te = r("img-erase-mode", "input#img-erase-mode"), P = r("img-clear-mask", "button#img-clear-mask"), ne = r("img-out-format", "select#img-out-format"), re = r("img-quality", "input#img-quality"), F = r("img-quality-label", "span#img-quality-label"), I = r("img-base64-colors", "select#img-base64-colors"), L = r("image-copy-base64-btn", "button#image-copy-base64-btn"), R = r("image-copy-base64-status", "small#image-copy-base64-status"), z = r("image-base64-preview-wrap", "div#image-base64-preview-wrap"), B = r("image-base64-preview", "img#image-base64-preview"), ie = r("image-base64-output", "textarea#image-base64-output"), ae = r("image-form", "form#image-form"), oe = r("image-process-btn", "button#image-process-btn"), se = r("image-result-section", "section#image-result-section"), ce = r("image-output-placeholder", "div#image-output-placeholder"), le = r("image-download-anchor", "a#image-download-anchor"), ue = r("image-output-size-tag", "span#image-output-size-tag"), de = r("image-output-preview", "img#image-output-preview"), V = null, H = null, fe = null, pe = null, U = 0, me = 0, W = null, he = null, G = !1, K = null, ge = !1, q = {
 		scale: 1,
 		offsetX: 0,
 		offsetY: 0,
 		drawWidth: 0,
 		drawHeight: 0
-	}, _e = null, ve = Aa({
+	}, _e = null, ve = ja({
 		container: i,
 		getSourceSize: () => ({
-			width: H,
-			height: U
+			width: U,
+			height: me
 		}),
 		getCrop: () => be(),
 		setCrop: (e) => {
 			we(e), Ne(), ve.render();
 		},
-		getLoupeSource: () => V,
-		minSize: za
+		getLoupeSource: () => H,
+		minSize: Ba
 	});
 	function J() {
 		W &&= (URL.revokeObjectURL(W), null), he &&= (URL.revokeObjectURL(he), null);
@@ -9027,7 +9135,7 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		return Math.min(n, Math.max(t, Math.round(e)));
 	}
 	function be() {
-		if (!H || !U) return {
+		if (!U || !me) return {
 			x: 0,
 			y: 0,
 			width: 1,
@@ -9036,10 +9144,10 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		if (!f.checked) return {
 			x: 0,
 			y: 0,
-			width: H,
-			height: U
+			width: U,
+			height: me
 		};
-		let e = ye(parseInt(h.value) || 0, 0, H - 1), t = ye(parseInt(g.value) || 0, 0, U - 1), n = ye(parseInt(_.value) || H, 1, H - e), r = ye(parseInt(v.value) || U, 1, U - t);
+		let e = ye(parseInt(h.value) || 0, 0, U - 1), t = ye(parseInt(g.value) || 0, 0, me - 1), n = ye(parseInt(_.value) || U, 1, U - e), r = ye(parseInt(v.value) || me, 1, me - t);
 		return h.value = String(e), g.value = String(t), _.value = String(n), v.value = String(r), {
 			x: e,
 			y: t,
@@ -9067,7 +9175,7 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		};
 	}
 	function we(e) {
-		let t = ye(e.x, 0, Math.max(0, H - 1)), n = ye(e.y, 0, Math.max(0, U - 1)), r = ye(e.width, 1, Math.max(1, H - t)), i = ye(e.height, 1, Math.max(1, U - n));
+		let t = ye(e.x, 0, Math.max(0, U - 1)), n = ye(e.y, 0, Math.max(0, me - 1)), r = ye(e.width, 1, Math.max(1, U - t)), i = ye(e.height, 1, Math.max(1, me - n));
 		h.value = String(t), g.value = String(n), _.value = String(r), v.value = String(i);
 	}
 	function Te(e, t) {
@@ -9078,13 +9186,13 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	}
 	function Ee() {
 		let e = o.getContext("2d");
-		e.clearRect(0, 0, o.width, o.height), pe && j.checked && e.drawImage(pe, 0, 0, o.width, o.height);
+		e.clearRect(0, 0, o.width, o.height), fe && j.checked && e.drawImage(fe, 0, 0, o.width, o.height);
 	}
 	function De() {
-		if (!V) return;
+		if (!H) return;
 		let e = i.getBoundingClientRect(), t = Math.max(1, Math.floor(e.width));
 		if (t <= 1) return;
-		let n = t / H, r = t, s = Math.max(1, Math.floor(U * n));
+		let n = t / U, r = t, s = Math.max(1, Math.floor(me * n));
 		i.style.minHeight = "0", i.style.height = `${s}px`, q = {
 			scale: n,
 			offsetX: 0,
@@ -9093,25 +9201,25 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 			drawHeight: s
 		}, xe(r, s), a.style.left = "0px", a.style.top = "0px", o.style.left = "0px", o.style.top = "0px";
 		let c = a.getContext("2d");
-		c.clearRect(0, 0, r, s), c.drawImage(V, 0, 0, r, s), ve.setVisible(f.checked), Ee();
+		c.clearRect(0, 0, r, s), c.drawImage(H, 0, 0, r, s), ve.setVisible(f.checked), Ee();
 	}
 	function Oe() {
-		me && pe && (me.clearRect(0, 0, pe.width, pe.height), Ee());
+		pe && fe && (pe.clearRect(0, 0, fe.width, fe.height), Ee());
 	}
 	function ke(e, t) {
 		let n = Ce(e, t), r = n.x, i = n.y, { offsetX: a, offsetY: o, scale: s, drawWidth: c, drawHeight: l } = q;
 		return r < a || i < o || r > a + c || i > o + l ? null : {
-			x: ye((r - a) / s, 0, H - 1),
-			y: ye((i - o) / s, 0, U - 1)
+			x: ye((r - a) / s, 0, U - 1),
+			y: ye((i - o) / s, 0, me - 1)
 		};
 	}
 	function Ae(e, t) {
-		if (!me) return;
+		if (!pe) return;
 		let n = parseInt(ee.value) || 40;
-		me.save(), me.lineCap = "round", me.lineJoin = "round", me.lineWidth = Math.max(2, n / Math.max(.1, q.scale)), me.globalCompositeOperation = ne.checked ? "destination-out" : "source-over", me.strokeStyle = "rgba(255, 72, 72, 0.82)", me.beginPath(), me.moveTo(e.x, e.y), me.lineTo(t.x, t.y), me.stroke(), me.restore(), Ee();
+		pe.save(), pe.lineCap = "round", pe.lineJoin = "round", pe.lineWidth = Math.max(2, n / Math.max(.1, q.scale)), pe.globalCompositeOperation = te.checked ? "destination-out" : "source-over", pe.strokeStyle = "rgba(255, 72, 72, 0.82)", pe.beginPath(), pe.moveTo(e.x, e.y), pe.lineTo(t.x, t.y), pe.stroke(), pe.restore(), Ee();
 	}
 	function je() {
-		h.value = "0", g.value = "0", _.value = String(H || 1), v.value = String(U || 1), Ne();
+		h.value = "0", g.value = "0", _.value = String(U || 1), v.value = String(me || 1), Ne();
 	}
 	function Me() {
 		let e = be(), t = O.checked ? 2 : 1;
@@ -9144,21 +9252,21 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		let t = Math.max(1, parseInt(S.value) || e.width), n = Math.max(1, parseInt(C.value) || e.height);
 		D.textContent = `Resize is on — output will be scaled to ${t}×${n}.`;
 	}
-	function Re() {
-		let e = parseFloat(N.value).toFixed(2);
-		P.textContent = ie.value === "image/png" ? "Lossless" : e, N.disabled = ie.value === "image/png";
+	function Y() {
+		let e = parseFloat(re.value).toFixed(2);
+		F.textContent = ne.value === "image/png" ? "Lossless" : e, re.disabled = ne.value === "image/png";
 	}
-	function ze(e) {
+	function Re(e) {
 		if (!Number.isFinite(e) || e <= 0) return;
 		let t = be(), n = Math.max(1, Math.round(t.width * e)), r = Math.max(1, Math.round(t.height * e));
 		x.checked = !0, S.value = String(n), C.value = String(r), Le();
 	}
-	function Be(e) {
+	function ze(e) {
 		if (!Number.isFinite(e) || e <= 0) return;
 		let t = be(), n = Math.max(t.width, t.height), r = n > 0 ? e / n : 1, i = Math.max(1, Math.round(t.width * r)), a = Math.max(1, Math.round(t.height * r));
 		x.checked = !0, S.value = String(i), C.value = String(a), Le();
 	}
-	function Ve(e) {
+	function Be(e) {
 		if (!_e) return;
 		let { handle: t, startPoint: n, startCrop: r } = _e, i = e.x - n.x, a = e.y - n.y;
 		if (t === "move") {
@@ -9174,26 +9282,26 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		we({
 			x: o,
 			y: s,
-			width: Math.max(za, c - o),
-			height: Math.max(za, l - s)
+			width: Math.max(Ba, c - o),
+			height: Math.max(Ba, l - s)
 		});
 	}
-	function He(e) {
+	function Ve(e) {
 		return e === "image/png" ? "png" : e === "image/webp" ? "webp" : e === "image/avif" ? "avif" : "jpg";
 	}
-	async function Ue() {
-		if (!V) throw Error("Please load an image first.");
+	async function He() {
+		if (!H) throw Error("Please load an image first.");
 		let e = be(), t = document.createElement("canvas");
 		t.width = e.width, t.height = e.height;
 		let n = t.getContext("2d");
-		if (n.drawImage(V, e.x, e.y, e.width, e.height, 0, 0, e.width, e.height), j.checked && pe && me) {
-			let r = Math.max(Ba, parseInt(te.value) || Va), i = document.createElement("canvas");
-			i.width = e.width, i.height = e.height, i.getContext("2d").drawImage(pe, e.x, e.y, e.width, e.height, 0, 0, e.width, e.height);
+		if (n.drawImage(H, e.x, e.y, e.width, e.height, 0, 0, e.width, e.height), j.checked && fe && pe) {
+			let r = Math.max(Va, parseInt(N.value) || Ha), i = document.createElement("canvas");
+			i.width = e.width, i.height = e.height, i.getContext("2d").drawImage(fe, e.x, e.y, e.width, e.height, 0, 0, e.width, e.height);
 			let a = document.createElement("canvas");
 			a.width = e.width, a.height = e.height;
 			let o = a.getContext("2d");
 			if (M.value === "pixelate") {
-				let n = Math.max(Ha, r), i = Math.max(1, Math.round(e.width / n)), a = Math.max(1, Math.round(e.height / n)), s = document.createElement("canvas");
+				let n = Math.max(Ua, r), i = Math.max(1, Math.round(e.width / n)), a = Math.max(1, Math.round(e.height / n)), s = document.createElement("canvas");
 				s.width = i, s.height = a;
 				let c = s.getContext("2d");
 				c.imageSmoothingEnabled = !1, c.drawImage(t, 0, 0, i, a), o.imageSmoothingEnabled = !1, o.drawImage(s, 0, 0, i, a, 0, 0, e.width, e.height);
@@ -9206,45 +9314,45 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		let r = t;
 		if (O.checked) {
 			let e = k.value;
-			r = await La(t, e, (e, t) => {
-				A.textContent = e, ce.textContent = t === void 0 ? e : `${e.replace(/….*$/, "…")} ${Math.round(t * 100)}%`;
+			r = await Ra(t, e, (e, t) => {
+				A.textContent = e, oe.textContent = t === void 0 ? e : `${e.replace(/….*$/, "…")} ${Math.round(t * 100)}%`;
 			});
 		}
 		if (x.checked) {
 			let e = Math.max(1, parseInt(S.value) || r.width), t = Math.max(1, parseInt(C.value) || r.height);
-			r = Ta(r, r.width, r.height, e, t);
+			r = Ea(r, r.width, r.height, e, t);
 		}
 		return r;
 	}
-	async function We(e) {
-		let t = ce.textContent;
-		ce.disabled = !0, F.disabled = !0, ce.setAttribute("aria-busy", "true");
+	async function Ue(e) {
+		let t = oe.textContent;
+		oe.disabled = !0, L.disabled = !0, oe.setAttribute("aria-busy", "true");
 		try {
 			return await e();
 		} finally {
-			ce.disabled = !1, F.disabled = !1, ce.removeAttribute("aria-busy"), ce.textContent = t, O.checked && Ge();
+			oe.disabled = !1, L.disabled = !1, oe.removeAttribute("aria-busy"), oe.textContent = t, O.checked && We();
 		}
 	}
-	async function Ge() {
-		let e = await Fa();
+	async function We() {
+		let e = await Ia();
 		A.textContent = e === "webgpu" ? "Runs locally on your GPU (WebGPU). The model downloads once on first use and is cached." : "⚠️ WebGPU isn't available in this browser, so upscaling will run on the CPU and be very slow.";
 	}
-	async function Ke(e, t, n) {
+	async function Ge(e, t, n) {
 		return await new Promise((r, i) => {
 			e.toBlob((e) => {
 				e ? r(e) : i(/* @__PURE__ */ Error("Could not encode output image."));
 			}, t, n);
 		});
 	}
-	function qe() {
-		V &&= (V.close(), null), pe = null, me = null, H = 0, U = 0, B = null, G = !1, K = null, _e = null, J();
+	function Ke() {
+		H &&= (H.close(), null), fe = null, pe = null, U = 0, me = 0, V = null, G = !1, K = null, _e = null, J();
 	}
-	async function Je(e) {
-		qe(), B = e, le.style.display = "none", z.style.display = "", L.style.display = "none", I.textContent = "", W = URL.createObjectURL(e), V = await _a(e), H = V.width, U = V.height, pe = document.createElement("canvas"), pe.width = H, pe.height = U, me = pe.getContext("2d"), s.textContent = e.name, c.textContent = t(e.size), l.textContent = `${H}x${U}`, u.textContent = `${(H / U).toFixed(2)}:1`, d.textContent = e.type || "image/*", fe.src = "", je(), Oe(), Ie(), Re(), Le(), n(), De(), requestAnimationFrame(() => {
+	async function qe(e) {
+		Ke(), V = e, se.style.display = "none", ce.style.display = "", z.style.display = "none", R.textContent = "", W = URL.createObjectURL(e), H = await va(e), U = H.width, me = H.height, fe = document.createElement("canvas"), fe.width = U, fe.height = me, pe = fe.getContext("2d"), s.textContent = e.name, c.textContent = t(e.size), l.textContent = `${U}x${me}`, u.textContent = `${(U / me).toFixed(2)}:1`, d.textContent = e.type || "image/*", de.src = "", je(), Oe(), Ie(), Y(), Le(), n(), De(), requestAnimationFrame(() => {
 			De();
-		}), console.log(`Loaded image file: "${e.name}" (${H}x${U})`);
+		}), console.log(`Loaded image file: "${e.name}" (${U}x${me})`);
 	}
-	function Ye(e) {
+	function Je(e) {
 		ge = e, Fe();
 	}
 	[
@@ -9261,18 +9369,18 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	}), p.addEventListener("change", Fe), m.addEventListener("change", Fe), y.addEventListener("click", () => {
 		je(), De();
 	}), b.addEventListener("click", () => {
-		let e = Math.min(H, U), t = Math.floor((H - e) / 2), n = Math.floor((U - e) / 2);
+		let e = Math.min(U, me), t = Math.floor((U - e) / 2), n = Math.floor((me - e) / 2);
 		h.value = String(t), g.value = String(n), _.value = String(e), v.value = String(e), Ne(), De();
 	}), x.addEventListener("change", () => {
 		Ne();
 	}), O.addEventListener("change", () => {
-		x.checked ? Le() : Ne(), O.checked && Ge();
+		x.checked ? Le() : Ne(), O.checked && We();
 	}), w.addEventListener("change", () => {
 		let e = parseFloat(w.value);
-		Number.isNaN(e) || ze(e);
+		Number.isNaN(e) || Re(e);
 	}), T.addEventListener("change", () => {
 		let e = parseInt(T.value);
-		Number.isNaN(e) || Be(e);
+		Number.isNaN(e) || ze(e);
 	}), S.addEventListener("input", () => {
 		if (x.checked = !0, E.checked) {
 			let e = be(), t = parseInt(S.value) || e.width, n = e.width / e.height;
@@ -9287,14 +9395,14 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		Le();
 	}), j.addEventListener("change", () => {
 		Ie(), Ee();
-	}), re.addEventListener("click", () => {
+	}), P.addEventListener("click", () => {
 		Oe();
-	}), ie.addEventListener("change", () => {
-		Re();
-	}), N.addEventListener("input", () => {
-		Re();
+	}), ne.addEventListener("change", () => {
+		Y();
+	}), re.addEventListener("input", () => {
+		Y();
 	}), o.addEventListener("pointerdown", (e) => {
-		if (!V) return;
+		if (!H) return;
 		let t = ke(e.clientX, e.clientY);
 		if (!t) return;
 		let n = Pe();
@@ -9314,95 +9422,95 @@ function Ua({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		o.setPointerCapture(e.pointerId);
 	}), o.addEventListener("pointermove", (e) => {
 		let t = ke(e.clientX, e.clientY);
-		t && (_e ? (Ve(t), Ne(), De()) : G && K && (Ae(K, t), K = t));
+		t && (_e ? (Be(t), Ne(), De()) : G && K && (Ae(K, t), K = t));
 	});
-	let Xe = () => {
+	let Ye = () => {
 		G = !1, K = null, _e = null;
-	}, Ze = (e) => {
-		e?.pointerId !== void 0 && o.releasePointerCapture(e.pointerId), Xe();
+	}, Xe = (e) => {
+		e?.pointerId !== void 0 && o.releasePointerCapture(e.pointerId), Ye();
 	};
-	return o.addEventListener("pointerup", Ze), o.addEventListener("pointercancel", Ze), o.addEventListener("pointerleave", Xe), window.addEventListener("resize", () => {
+	return o.addEventListener("pointerup", Xe), o.addEventListener("pointercancel", Xe), o.addEventListener("pointerleave", Ye), window.addEventListener("resize", () => {
 		ge && De();
-	}), se.addEventListener("submit", async (e) => {
-		if (e.preventDefault(), !B || !V) alert("Please load an image first.");
+	}), ae.addEventListener("submit", async (e) => {
+		if (e.preventDefault(), !V || !H) alert("Please load an image first.");
 		else try {
-			let e = await We(Ue), n = ie.value, r = n === "image/png" ? void 0 : parseFloat(N.value), i;
+			let e = await Ue(He), n = ne.value, r = n === "image/png" ? void 0 : parseFloat(re.value), i;
 			try {
-				i = await Ke(e, n, r);
+				i = await Ge(e, n, r);
 			} catch {
-				console.warn(`Primary output format ${n} was unsupported. Falling back to JPEG.`), i = await Ke(e, "image/jpeg", .9);
+				console.warn(`Primary output format ${n} was unsupported. Falling back to JPEG.`), i = await Ge(e, "image/jpeg", .9);
 			}
 			he && URL.revokeObjectURL(he), he = URL.createObjectURL(i);
-			let a = He(i.type || n), o = B.name.lastIndexOf("."), s = o > 0 ? B.name.slice(0, o) : B.name;
-			ue.href = he, ue.download = `${s}_web_export.${a}`, de.textContent = `Size: ${t(i.size)}`, fe.src = he, z.style.display = "none", le.style.display = "block", le.scrollIntoView({ behavior: "smooth" }), console.log(`Image processing complete. Output: ${t(i.size)} (${a.toUpperCase()})`);
+			let a = Ve(i.type || n), o = V.name.lastIndexOf("."), s = o > 0 ? V.name.slice(0, o) : V.name;
+			le.href = he, le.download = `${s}_web_export.${a}`, ue.textContent = `Size: ${t(i.size)}`, de.src = he, ce.style.display = "none", se.style.display = "block", se.scrollIntoView({ behavior: "smooth" }), console.log(`Image processing complete. Output: ${t(i.size)} (${a.toUpperCase()})`);
 		} catch (e) {
 			console.error("Image processing failed:", e), alert(`Image processing failed: ${e.message || e}`);
 		}
-	}), F.addEventListener("click", async () => {
-		if (!B || !V) alert("Please load an image first.");
+	}), L.addEventListener("click", async () => {
+		if (!V || !H) alert("Please load an image first.");
 		else {
-			I.textContent = "Quantizing…";
+			R.textContent = "Quantizing…";
 			try {
-				let e = await We(Ue), n = e.getContext("2d").getImageData(0, 0, e.width, e.height), r = parseInt(ae.value, 10), i = ha.default.encode([n.data.buffer], e.width, e.height, r), a = new Blob([i], { type: "image/png" }), o = await new Promise((e, t) => {
+				let e = await Ue(He), n = e.getContext("2d").getImageData(0, 0, e.width, e.height), r = parseInt(I.value, 10), i = ga.default.encode([n.data.buffer], e.width, e.height, r), a = new Blob([i], { type: "image/png" }), o = await new Promise((e, t) => {
 					let n = new FileReader();
 					n.onload = () => e(n.result), n.onerror = () => t(n.error), n.readAsDataURL(a);
 				});
-				await navigator.clipboard.writeText(o), R.src = o, oe.value = o, L.style.display = "block", I.textContent = `Copied base64 PNG string to clipboard — ${r} colors, ${t(a.size)} PNG (${e.width}×${e.height}).`, console.log(`Copied lightweight base64 PNG to clipboard: ${t(a.size)}, ${r} colors.`);
+				await navigator.clipboard.writeText(o), B.src = o, ie.value = o, z.style.display = "block", R.textContent = `Copied base64 PNG string to clipboard — ${r} colors, ${t(a.size)} PNG (${e.width}×${e.height}).`, console.log(`Copied lightweight base64 PNG to clipboard: ${t(a.size)}, ${r} colors.`);
 			} catch (e) {
-				console.error("Base64 PNG conversion failed:", e), I.textContent = `Failed: ${e.message || e}`;
+				console.error("Base64 PNG conversion failed:", e), R.textContent = `Failed: ${e.message || e}`;
 			}
 		}
-	}), Re(), Ie(), {
-		load: Je,
-		dispose: qe,
-		setActive: Ye
+	}), Y(), Ie(), {
+		load: qe,
+		dispose: Ke,
+		setActive: Je
 	};
 }
 // src/audioFormats.ts
-var Wa = {
+var Ga = {
 	mp3: {
-		makeFormat: () => new Ai(),
+		makeFormat: () => new ji(),
 		codec: "mp3",
 		ext: "mp3",
 		mime: "audio/mpeg",
 		lossless: !1
 	},
 	m4a: {
-		makeFormat: () => new Ti(),
+		makeFormat: () => new Ei(),
 		codec: "aac",
 		ext: "m4a",
 		mime: "audio/mp4",
 		lossless: !1
 	},
 	opus: {
-		makeFormat: () => new Mi(),
+		makeFormat: () => new Ni(),
 		codec: "opus",
 		ext: "ogg",
 		mime: "audio/ogg",
 		lossless: !1
 	},
 	wav: {
-		makeFormat: () => new ji(),
+		makeFormat: () => new Mi(),
 		codec: "pcm-s16",
 		ext: "wav",
 		mime: "audio/wav",
 		lossless: !0
 	},
 	flac: {
-		makeFormat: () => new Ni(),
+		makeFormat: () => new Pi(),
 		codec: "flac",
 		ext: "flac",
 		mime: "audio/flac",
 		lossless: !0
 	}
 };
-async function Ga(e) {
+async function Ka(e) {
 	for (let t of Array.from(e.options)) {
-		let e = Wa[t.value];
+		let e = Ga[t.value];
 		if (!e) continue;
 		let n = !1;
 		try {
-			n = await Ue(e.codec);
+			n = await yt(e.codec);
 		} catch {
 			n = !1;
 		}
@@ -9416,8 +9524,8 @@ async function Ga(e) {
 	}
 }
 // src/trimController.ts
-var Ka = .05;
-function qa(e) {
+var qa = .05;
+function Ja(e) {
 	let t = e.map((e) => ({ ...e })).sort((e, t) => e.start - t.start), n = [];
 	for (let e of t) {
 		let t = n[n.length - 1];
@@ -9425,7 +9533,7 @@ function qa(e) {
 	}
 	return n;
 }
-function Ja(e) {
+function Ya(e) {
 	let { media: t, enable: n, controlsGroup: r, startInput: i, endInput: a, startLabel: o, endLabel: s, selectionBar: c, onChange: l } = e, { sectionList: u, addSectionButton: d, totalLabel: f } = e, p = 0, m = !1, h = [{
 		start: 0,
 		end: 0
@@ -9446,7 +9554,7 @@ function Ja(e) {
 			let i = document.createElement("button");
 			i.type = "button", i.className = "trim-section-remove", i.textContent = "✕", i.title = "Remove section", i.disabled = h.length <= 1, i.addEventListener("click", () => T(e)), n.append(r, i), u.append(n);
 		}), f)) {
-			let e = qa(h).reduce((e, t) => e + (t.end - t.start), 0);
+			let e = Ja(h).reduce((e, t) => e + (t.end - t.start), 0);
 			f.textContent = `${e.toFixed(2)}s`;
 		}
 	}
@@ -9466,7 +9574,7 @@ function Ja(e) {
 		if (!p) return;
 		let e = t.currentTime;
 		for (let t of y()) e >= t.start && e < t.end && (e = t.end);
-		e > p - Ka && (e = 0);
+		e > p - qa && (e = 0);
 		let n = Math.min(p, e + Math.max(1, p * .1)), r = {
 			start: e,
 			end: n
@@ -9481,11 +9589,11 @@ function Ja(e) {
 	}), i.addEventListener("input", () => {
 		m = !0, t.pause();
 		let e = parseFloat(i.value), n = parseFloat(a.value);
-		e >= n && (e = Math.max(0, n - Ka), i.value = String(e)), i.style.zIndex = "3", a.style.zIndex = "2", S(e, n), t.currentTime = e;
+		e >= n && (e = Math.max(0, n - qa), i.value = String(e)), i.style.zIndex = "3", a.style.zIndex = "2", S(e, n), t.currentTime = e;
 	}), a.addEventListener("input", () => {
 		m = !0, t.pause();
 		let e = parseFloat(i.value), n = parseFloat(a.value);
-		n <= e && (n = Math.min(p, e + Ka), a.value = String(n)), i.style.zIndex = "2", a.style.zIndex = "3", S(e, n), t.currentTime = n;
+		n <= e && (n = Math.min(p, e + qa), a.value = String(n)), i.style.zIndex = "2", a.style.zIndex = "3", S(e, n), t.currentTime = n;
 	}), [i, a].forEach((e) => [
 		"change",
 		"mouseup",
@@ -9515,13 +9623,13 @@ function Ja(e) {
 		t.addEventListener("pointerup", r), t.addEventListener("pointercancel", r);
 	}), t.addEventListener("timeupdate", () => {
 		if (!n.checked || m) return;
-		let e = qa(h), r = t.currentTime;
+		let e = Ja(h), r = t.currentTime;
 		if (e.some((e) => r >= e.start && r < e.end)) return;
 		let i = e.find((e) => e.start > r);
 		i && !t.paused ? t.currentTime = i.start : (t.pause(), t.currentTime = e[0].start);
 	}), t.addEventListener("play", () => {
 		if (!n.checked) return;
-		let e = qa(h), r = t.currentTime;
+		let e = Ja(h), r = t.currentTime;
 		e.some((e) => r >= e.start && r < e.end) || (t.currentTime = (e.find((e) => e.start > r) ?? e[0]).start);
 	}), {
 		setDuration(e) {
@@ -9535,11 +9643,11 @@ function Ja(e) {
 			start: g.start,
 			end: g.end
 		} : null,
-		getRanges: () => n.checked ? qa(h) : null
+		getRanges: () => n.checked ? Ja(h) : null
 	};
 }
 // src/voiceEnhance.ts
-function Ya(e, t, n, r, i, a) {
+function Xa(e, t, n, r, i, a) {
 	return {
 		b0: e / r,
 		b1: t / r,
@@ -9548,15 +9656,15 @@ function Ya(e, t, n, r, i, a) {
 		a2: a / r
 	};
 }
-function Xa(e, t, n = Math.SQRT1_2) {
+function Za(e, t, n = Math.SQRT1_2) {
 	let r = 2 * Math.PI * t / e, i = Math.sin(r) / (2 * n), a = Math.cos(r);
-	return Ya((1 + a) / 2, -(1 + a), (1 + a) / 2, 1 + i, -2 * a, 1 - i);
+	return Xa((1 + a) / 2, -(1 + a), (1 + a) / 2, 1 + i, -2 * a, 1 - i);
 }
-function Za(e, t, n, r) {
+function Qa(e, t, n, r) {
 	let i = 10 ** (r / 40), a = 2 * Math.PI * n / t, o = Math.cos(a), s = Math.sin(a) / 2 * Math.SQRT2, c = 2 * Math.sqrt(i) * s;
-	return e === "low" ? Ya(i * (i + 1 - (i - 1) * o + c), 2 * i * (i - 1 - (i + 1) * o), i * (i + 1 - (i - 1) * o - c), i + 1 + (i - 1) * o + c, -2 * (i - 1 + (i + 1) * o), i + 1 + (i - 1) * o - c) : Ya(i * (i + 1 + (i - 1) * o + c), -2 * i * (i - 1 + (i + 1) * o), i * (i + 1 + (i - 1) * o - c), i + 1 - (i - 1) * o + c, 2 * (i - 1 - (i + 1) * o), i + 1 - (i - 1) * o - c);
+	return e === "low" ? Xa(i * (i + 1 - (i - 1) * o + c), 2 * i * (i - 1 - (i + 1) * o), i * (i + 1 - (i - 1) * o - c), i + 1 + (i - 1) * o + c, -2 * (i - 1 + (i + 1) * o), i + 1 + (i - 1) * o - c) : Xa(i * (i + 1 + (i - 1) * o + c), -2 * i * (i - 1 + (i + 1) * o), i * (i + 1 + (i - 1) * o - c), i + 1 - (i - 1) * o + c, 2 * (i - 1 - (i + 1) * o), i + 1 - (i - 1) * o - c);
 }
-var Qa = class {
+var $a = class {
 	c;
 	z1 = 0;
 	z2 = 0;
@@ -9567,27 +9675,27 @@ var Qa = class {
 		let { b0: t, b1: n, b2: r, a1: i, a2: a } = this.c, o = t * e + this.z1;
 		return this.z1 = n * e - i * o + this.z2, this.z2 = r * e - a * o, o;
 	}
-}, $a = (e) => 10 ** (e / 20), eo = (e) => 20 * Math.log10(Math.max(e, 1e-9)), to = -22, no = 3, ro = 8, io = -48, ao = 10, oo = .005, so = .2, co = .89, lo = .4, uo = 24;
-function fo(e) {
+}, eo = (e) => 10 ** (e / 20), to = (e) => 20 * Math.log10(Math.max(e, 1e-9)), no = -22, ro = 3, io = 8, ao = -48, oo = 10, so = .005, co = .2, lo = .89, uo = .4, fo = 24;
+function po(e) {
 	let t = Math.abs(e);
-	if (t <= co) return e;
-	let n = (t - co) / .10999999999999999;
-	return Math.sign(e) * (co + .10999999999999999 * Math.tanh(n));
+	if (t <= lo) return e;
+	let n = (t - lo) / .10999999999999999;
+	return Math.sign(e) * (lo + .10999999999999999 * Math.tanh(n));
 }
-function po(e, t, n) {
+function mo(e, t, n) {
 	let r = 0;
 	if (t) {
-		let t = e - to, n = 1 / no - 1;
-		t > ro / 2 ? r += n * t : t > -4 && (r += n * (t + ro / 2) ** 2 / 16);
+		let t = e - no, n = 1 / ro - 1;
+		t > io / 2 ? r += n * t : t > -4 && (r += n * (t + io / 2) ** 2 / 16);
 	}
-	return n && e < io && (r -= Math.min(ao, (io - e) * .5)), r;
+	return n && e < ao && (r -= Math.min(oo, (ao - e) * .5)), r;
 }
-function mo(e, t = 0, n = !0) {
-	let r = 0, i = 0, a = [], o = 0, s = 0, c = 0, l = $a(t), u = e.compress || e.gate, d = [], f = 0, p = 0, m = 0;
+function ho(e, t = 0, n = !0) {
+	let r = 0, i = 0, a = [], o = 0, s = 0, c = 0, l = eo(t), u = e.compress || e.gate, d = [], f = 0, p = 0, m = 0;
 	function h(t) {
-		r = t.sampleRate, i = t.numberOfChannels, s = Math.exp(-1 / (oo * r)), c = Math.exp(-1 / (so * r)), m = Math.round(lo * r), a = Array.from({ length: i }, () => {
+		r = t.sampleRate, i = t.numberOfChannels, s = Math.exp(-1 / (so * r)), c = Math.exp(-1 / (co * r)), m = Math.round(uo * r), a = Array.from({ length: i }, () => {
 			let t = [];
-			return e.lowCut && t.push(new Qa(Xa(r, 80))), e.eq && (t.push(new Qa(Za("low", r, 150, 2.5))), t.push(new Qa(Za("high", r, 5e3, 3)))), t;
+			return e.lowCut && t.push(new $a(Za(r, 80))), e.eq && (t.push(new $a(Qa("low", r, 150, 2.5))), t.push(new $a(Qa("high", r, 5e3, 3)))), t;
 		});
 	}
 	function g(t) {
@@ -9610,19 +9718,19 @@ function mo(e, t = 0, n = !0) {
 				i > r && (r = i);
 			}
 			let h = 1;
-			u && (o = r > o ? s * o + (1 - s) * r : c * o + (1 - c) * r, h = $a(po(eo(o), e.compress, e.gate)));
+			u && (o = r > o ? s * o + (1 - s) * r : c * o + (1 - c) * r, h = eo(mo(to(o), e.compress, e.gate)));
 			let g = 0;
 			for (let e = 0; e < i; e++) {
 				let r = _[e][t] * h;
 				g += r * r;
 				let i = r * l;
-				_[e][t] = n ? fo(i) : i;
+				_[e][t] = n ? po(i) : i;
 			}
 			f += g / i, ++p >= m && (d.push(f / p), f = 0, p = 0);
 		}
 		let v = new Float32Array(g * i);
 		for (let e = 0; e < i; e++) v.set(_[e], e * g);
-		return new Ee({
+		return new It({
 			data: v,
 			format: "f32-planar",
 			numberOfChannels: i,
@@ -9631,31 +9739,31 @@ function mo(e, t = 0, n = !0) {
 		});
 	}
 	function _() {
-		let e = d.filter((e) => eo(Math.sqrt(e)) > -50);
+		let e = d.filter((e) => to(Math.sqrt(e)) > -50);
 		if (!e.length) return null;
 		let t = e.reduce((e, t) => e + t, 0) / e.length, n = e.filter((e) => e > t * .1), r = n.reduce((e, t) => e + t, 0) / n.length;
-		return eo(Math.sqrt(r));
+		return to(Math.sqrt(r));
 	}
 	return {
 		process: g,
 		measuredLoudnessDb: _
 	};
 }
-async function ho(e, t, n) {
+async function go(e, t, n) {
 	if (e.targetDb === null) return 0;
-	let r = mo(e, 0, !1);
+	let r = ho(e, 0, !1);
 	for await (let e of t) {
 		if (n()) return e.close(), 0;
 		r.process(e).close(), e.close();
 	}
 	let i = r.measuredLoudnessDb();
-	return i === null ? 0 : Math.max(-24, Math.min(uo, e.targetDb - i));
+	return i === null ? 0 : Math.max(-24, Math.min(fo, e.targetDb - i));
 }
-async function* go(e, t) {
+async function* _o(e, t) {
 	let n = new $e(e), r = t.length ? t : [{}];
 	for (let e of r) yield* n.samples(e.start, e.end);
 }
-function _o(e, t, n) {
+function vo(e, t, n) {
 	return !e && !n ? (e) => t.process(e) : async (r) => {
 		let i = n ? n(r) : r, a = e ? await e(i) : i;
 		if (!a) return i !== r && i.close(), null;
@@ -9666,24 +9774,24 @@ function _o(e, t, n) {
 		return i !== r && !o.includes(i) && i.close(), Array.isArray(a) ? s : s[0];
 	};
 }
-var vo = () => Object.assign(/* @__PURE__ */ Error("canceled"), { name: "ConversionCanceledError" });
-async function yo(e) {
+var yo = () => Object.assign(/* @__PURE__ */ Error("canceled"), { name: "ConversionCanceledError" });
+async function bo(e) {
 	let { track: t, options: n, span: r, ranges: i, onStatus: a, isCancelled: o } = e, s, c = null, l = null;
 	if (n.neuralMix !== null) {
-		if (l = await import("./neuralDenoise-CYPFwlXi.js"), c = await l.prepareDenoisedAudio(t, r, (e) => a(`🧠 ${e}`), o), o()) throw vo();
+		if (l = await import("./neuralDenoise-DXr6m3zb.js"), c = await l.prepareDenoisedAudio(t, r, (e) => a(`🧠 ${e}`), o), o()) throw yo();
 		c && (s = l.createDenoiseSubstitute(c, n.neuralMix));
 	}
 	let u = 0;
-	if (n.targetDb !== null && (a("🎙️ Measuring loudness..."), u = await ho(n, c && l ? l.denoisedSamples(c, i) : go(t, i), o), o())) throw vo();
-	let d = mo(n, u);
+	if (n.targetDb !== null && (a("🎙️ Measuring loudness..."), u = await go(n, c && l ? l.denoisedSamples(c, i) : _o(t, i), o), o())) throw yo();
+	let d = ho(n, u);
 	return {
 		sampleRate: s ? l.DENOISER_SAMPLE_RATE : void 0,
 		gainDb: u,
 		denoised: !!s,
-		wrap: (e) => _o(e, d, s)
+		wrap: (e) => vo(e, d, s)
 	};
 }
-function bo(e, t) {
+function xo(e, t) {
 	let n = (n) => {
 		let r = e.getElementById(`${t}-enhance-${n}`);
 		if (!r) throw Error(`DOM element not found: #${t}-enhance-${n}`);
@@ -9712,72 +9820,72 @@ function bo(e, t) {
 	};
 }
 // src/audioWorkflow.ts
-function xo({ root: e, formatBytes: t, revealLoadedSection: n }) {
+function So({ root: e, formatBytes: t, revealLoadedSection: n }) {
 	function r(t, n) {
 		let r = e.getElementById(t);
 		if (!r) throw Error(`DOM element not found: #${t} (expected ${n})`);
 		return r;
 	}
-	let i = r("audio-preview", "audio#audio-preview"), o = r("audio-waveform", "canvas#audio-waveform"), s = r("audio-meta-name", "span"), c = r("audio-meta-size", "span"), l = r("audio-meta-duration", "span"), u = r("audio-meta-codec", "span"), d = r("audio-meta-samplerate", "span"), f = r("audio-meta-channels", "span"), p = r("audio-meta-bitrate", "span"), m = r("audio-form", "form#audio-form"), h = r("audio-enable-trim", "input"), g = r("audio-trim-controls", "div"), _ = r("audio-trim-start", "input"), v = r("audio-trim-end", "input"), y = r("audio-trim-start-val", "span"), x = r("audio-trim-end-val", "span"), S = r("audio-trim-selection-bar", "div"), C = r("audio-out-format", "select"), w = r("audio-out-bitrate", "select"), T = r("audio-out-samplerate", "select"), E = r("audio-out-channels", "select"), D = r("audio-process-btn", "button"), O = r("audio-cancel-btn", "button"), k = r("audio-size-estimate", "strong"), A = r("audio-output-placeholder", "div"), j = r("audio-progress-section", "section"), M = r("audio-progress-title", "span"), ee = r("audio-progress-pct", "strong"), te = r("audio-progress", "progress"), ne = r("audio-result-section", "section"), re = r("audio-output-preview", "audio"), ie = r("audio-download-anchor", "a"), N = r("audio-output-size-tag", "span"), P = null, ae = null, F = 0, I = null, L = !1, R = null, oe = null, ce = [], le = null, z = 0;
+	let i = r("audio-preview", "audio#audio-preview"), o = r("audio-waveform", "canvas#audio-waveform"), s = r("audio-meta-name", "span"), c = r("audio-meta-size", "span"), l = r("audio-meta-duration", "span"), u = r("audio-meta-codec", "span"), d = r("audio-meta-samplerate", "span"), f = r("audio-meta-channels", "span"), p = r("audio-meta-bitrate", "span"), m = r("audio-form", "form#audio-form"), h = r("audio-enable-trim", "input"), g = r("audio-trim-controls", "div"), _ = r("audio-trim-start", "input"), v = r("audio-trim-end", "input"), y = r("audio-trim-start-val", "span"), x = r("audio-trim-end-val", "span"), S = r("audio-trim-selection-bar", "div"), C = r("audio-out-format", "select"), w = r("audio-out-bitrate", "select"), T = r("audio-out-samplerate", "select"), E = r("audio-out-channels", "select"), D = r("audio-process-btn", "button"), k = r("audio-cancel-btn", "button"), A = r("audio-size-estimate", "strong"), j = r("audio-output-placeholder", "div"), M = r("audio-progress-section", "section"), ee = r("audio-progress-title", "span"), N = r("audio-progress-pct", "strong"), te = r("audio-progress", "progress"), P = r("audio-result-section", "section"), ne = r("audio-output-preview", "audio"), re = r("audio-download-anchor", "a"), F = r("audio-output-size-tag", "span"), I = null, L = null, R = 0, z = null, B = !1, ie = null, ae = null, oe = [], se = null, ce = 0;
+	function le() {
+		ie &&= (URL.revokeObjectURL(ie), null), ae &&= (URL.revokeObjectURL(ae), null);
+	}
 	function ue() {
-		R &&= (URL.revokeObjectURL(R), null), oe &&= (URL.revokeObjectURL(oe), null);
+		return Ga[C.value] || Ga.mp3;
 	}
 	function de() {
-		return Wa[C.value] || Wa.mp3;
-	}
-	function fe() {
-		if (!F) {
-			k.textContent = "—";
+		if (!R) {
+			A.textContent = "—";
 			return;
 		}
-		let e = F;
+		let e = R;
 		if (h.checked) {
 			let t = parseFloat(_.value), n = parseFloat(v.value);
 			!isNaN(t) && !isNaN(n) && n > t && (e = n - t);
 		}
-		let n = de(), r;
-		r = n.ext === "wav" ? (parseInt(T.value) || 44100) * (parseInt(E.value) || 2) * 2 * e : n.lossless ? (parseInt(T.value) || 44100) * (parseInt(E.value) || 2) * 2 * e * .6 : (parseInt(w.value) || 192e3) * e / 8, k.textContent = "≈ " + t(r);
+		let n = ue(), r;
+		r = n.ext === "wav" ? (parseInt(T.value) || 44100) * (parseInt(E.value) || 2) * 2 * e : n.lossless ? (parseInt(T.value) || 44100) * (parseInt(E.value) || 2) * 2 * e * .6 : (parseInt(w.value) || 192e3) * e / 8, A.textContent = "≈ " + t(r);
 	}
-	function B() {
-		w.disabled = de().lossless, fe();
+	function V() {
+		w.disabled = ue().lossless, de();
 	}
-	async function V() {
-		await Ga(C), B();
+	async function H() {
+		await Ka(C), V();
 	}
-	function pe() {
+	function fe() {
 		let e = o.clientWidth || 300, t = o.clientHeight || 90, n = window.devicePixelRatio || 1;
 		o.width = Math.round(e * n), o.height = Math.round(t * n);
 		let r = o.getContext("2d");
 		if (!r) return;
 		r.setTransform(n, 0, 0, n, 0, 0), r.clearRect(0, 0, e, t);
 		let a = t / 2, s = a - 2, c = getComputedStyle(o).color || "#ff6b81";
-		if (ce.length) {
+		if (oe.length) {
 			r.fillStyle = c;
-			let t = ce.length;
+			let t = oe.length;
 			for (let n = 0; n < e; n++) {
-				let i = ce[Math.floor(n / e * t)] || {
+				let i = oe[Math.floor(n / e * t)] || {
 					min: 0,
 					max: 0
 				}, o = a - i.max * s, c = a - i.min * s;
 				r.fillRect(n, o, 1, Math.max(1, c - o));
 			}
 		}
-		if (h.checked && F) {
-			let n = parseFloat(_.value) / F * e, i = parseFloat(v.value) / F * e;
+		if (h.checked && R) {
+			let n = parseFloat(_.value) / R * e, i = parseFloat(v.value) / R * e;
 			r.fillStyle = "rgba(0, 0, 0, 0.5)", r.fillRect(0, 0, Math.max(0, n), t), r.fillRect(Math.min(e, i), 0, e - Math.min(e, i), t), r.strokeStyle = c, r.lineWidth = 1, r.strokeRect(n + .5, .5, Math.max(0, i - n) - 1, t - 1);
 		}
-		if (F && i.currentTime > 0) {
-			let n = i.currentTime / F * e;
+		if (R && i.currentTime > 0) {
+			let n = i.currentTime / R * e;
 			r.fillStyle = "rgba(255, 255, 255, 0.85)", r.fillRect(n, 0, 1.5, t);
 		}
 	}
-	async function me(e, t) {
-		ce = [], pe();
+	async function pe(e, t) {
+		oe = [], fe();
 		try {
 			let n = await e.arrayBuffer();
-			le ||= new (window.AudioContext || window.webkitAudioContext)();
-			let r = await le.decodeAudioData(n);
-			if (t !== z) return;
+			se ||= new (window.AudioContext || window.webkitAudioContext)();
+			let r = await se.decodeAudioData(n);
+			if (t !== ce) return;
 			let i = r.getChannelData(0), a = Math.max(1, Math.floor(i.length / 800)), o = [];
 			for (let e = 0; e < 800; e++) {
 				let t = 1, n = -1, r = e * a, s = Math.min(i.length, r + a);
@@ -9793,41 +9901,41 @@ function xo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 					max: 0
 				});
 			}
-			ce = o, pe();
+			oe = o, fe();
 		} catch (e) {
 			console.warn("Could not render audio waveform (format may be undecodable by WebAudio):", e);
 		}
 	}
 	o.addEventListener("click", (e) => {
-		if (!F) return;
+		if (!R) return;
 		let t = o.getBoundingClientRect(), n = Math.max(0, Math.min(1, (e.clientX - t.left) / t.width));
-		i.currentTime = n * F, pe();
-	}), i.addEventListener("timeupdate", () => pe()), window.addEventListener("resize", () => pe());
-	async function H(e) {
-		he(), P = e, ne.style.display = "none", A.style.display = "", j.style.display = "none", R = URL.createObjectURL(e), i.src = R, me(e, ++z), s.textContent = e.name, c.textContent = t(e.size);
+		i.currentTime = n * R, fe();
+	}), i.addEventListener("timeupdate", () => fe()), window.addEventListener("resize", () => fe());
+	async function U(e) {
+		he(), I = e, P.style.display = "none", j.style.display = "", M.style.display = "none", ie = URL.createObjectURL(e), i.src = ie, pe(e, ++ce), s.textContent = e.name, c.textContent = t(e.size);
 		try {
-			ae = new a({
-				formats: se,
-				source: new b(e)
+			L = new a({
+				formats: b,
+				source: new O(e)
 			});
-			let t = await ae.getFormat();
+			let t = await L.getFormat();
 			console.log(`Detected audio container: ${t.name} (${t.mimeType})`);
-			let r = await ae.getPrimaryAudioTrack();
+			let r = await L.getPrimaryAudioTrack();
 			if (!r) {
 				u.textContent = "No audio track", console.warn("No audio track found in this file."), n();
 				return;
 			}
 			let i = await r.getCodec();
-			if (F = await ae.computeDuration(), u.textContent = String(i || "unknown").toUpperCase(), l.textContent = ya(F), d.textContent = r.sampleRate ? `${r.sampleRate.toLocaleString()} Hz` : "-", f.textContent = String(r.numberOfChannels || "-"), F > 0) {
-				let t = e.size * 8 / F / 1e3;
+			if (R = await L.computeDuration(), u.textContent = String(i || "unknown").toUpperCase(), l.textContent = ba(R), d.textContent = r.sampleRate ? `${r.sampleRate.toLocaleString()} Hz` : "-", f.textContent = String(r.numberOfChannels || "-"), R > 0) {
+				let t = e.size * 8 / R / 1e3;
 				p.textContent = `~${Math.round(t)} kbps`;
 			} else p.textContent = "-";
-			U.setDuration(F), console.log(`Loaded audio: "${e.name}" — ${ya(F)}, ${r.sampleRate}Hz, ${r.numberOfChannels}ch.`), n(), B();
+			me.setDuration(R), console.log(`Loaded audio: "${e.name}" — ${ba(R)}, ${r.sampleRate}Hz, ${r.numberOfChannels}ch.`), n(), V();
 		} catch (e) {
 			console.error("Error analyzing audio file: ", e), alert(`Could not read audio metadata: ${e.message || e}`);
 		}
 	}
-	let U = Ja({
+	let me = Ya({
 		media: i,
 		enable: h,
 		controlsGroup: g,
@@ -9837,17 +9945,17 @@ function xo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 		endLabel: x,
 		selectionBar: S,
 		onChange: () => {
-			pe(), fe();
+			fe(), de();
 		}
 	});
-	C.addEventListener("change", B);
-	let W = bo(e, "audio");
-	m.addEventListener("input", fe), m.addEventListener("change", fe), m.addEventListener("submit", async (e) => {
-		if (e.preventDefault(), !P || !ae) alert("Please load an audio file first.");
+	C.addEventListener("change", V);
+	let W = xo(e, "audio");
+	m.addEventListener("input", de), m.addEventListener("change", de), m.addEventListener("submit", async (e) => {
+		if (e.preventDefault(), !I || !L) alert("Please load an audio file first.");
 		else {
-			D.style.display = "none", O.style.display = "inline-block", L = !1, j.style.display = "block", ne.style.display = "none", A.style.display = "none", te.value = 0, ee.textContent = "0%", M.textContent = "🎵 Initializing audio pipeline...";
+			D.style.display = "none", k.style.display = "inline-block", B = !1, M.style.display = "block", P.style.display = "none", j.style.display = "none", te.value = 0, N.textContent = "0%", ee.textContent = "🎵 Initializing audio pipeline...";
 			try {
-				let e = de(), n = new ti(), r = new Vi({
+				let e = ue(), n = new ni(), r = new Hi({
 					format: e.makeFormat(),
 					target: n
 				}), i = {
@@ -9859,62 +9967,62 @@ function xo({ root: e, formatBytes: t, revealLoadedSection: n }) {
 				a > 0 && (i.sampleRate = a);
 				let o = parseInt(E.value);
 				o > 0 && (i.numberOfChannels = o);
-				let s = h.checked && F ? {
+				let s = h.checked && R ? {
 					start: parseFloat(_.value),
 					end: parseFloat(v.value)
 				} : void 0, c = W.getOptions();
 				if (c) {
-					let e = await ae.getPrimaryAudioTrack();
+					let e = await L.getPrimaryAudioTrack();
 					if (!e) throw Error("No audio track found.");
-					let t = await yo({
+					let t = await bo({
 						track: e,
 						options: c,
 						span: s ?? null,
 						ranges: s ? [s] : [],
-						onStatus: (e) => M.textContent = e,
-						isCancelled: () => L
+						onStatus: (e) => ee.textContent = e,
+						isCancelled: () => B
 					});
-					t.sampleRate && (i.sampleRate && i.sampleRate !== t.sampleRate && console.log(`🧠 AI noise reduction works at ${t.sampleRate} Hz; overriding the ${i.sampleRate} Hz output setting.`), i.sampleRate = t.sampleRate), i.process = t.wrap(i.process), console.log(`🎙️ Voice enhance on${t.denoised ? " (AI noise reduction)" : ""}${c.targetDb === null ? "" : `, loudness gain ${t.gainDb >= 0 ? "+" : ""}${t.gainDb.toFixed(1)} dB`}.`), M.textContent = "🎵 Initializing audio pipeline...";
+					t.sampleRate && (i.sampleRate && i.sampleRate !== t.sampleRate && console.log(`🧠 AI noise reduction works at ${t.sampleRate} Hz; overriding the ${i.sampleRate} Hz output setting.`), i.sampleRate = t.sampleRate), i.process = t.wrap(i.process), console.log(`🎙️ Voice enhance on${t.denoised ? " (AI noise reduction)" : ""}${c.targetDb === null ? "" : `, loudness gain ${t.gainDb >= 0 ? "+" : ""}${t.gainDb.toFixed(1)} dB`}.`), ee.textContent = "🎵 Initializing audio pipeline...";
 				}
-				if (I = await Yi.init({
-					input: ae,
+				if (z = await Xi.init({
+					input: L,
 					output: r,
 					audio: i,
 					trim: s
-				}), !I.isValid) throw I.discardedTracks.forEach((e) => console.warn(`Track discarded: ${e.reason}`)), Error("This audio format/codec combination is not supported.");
-				I.onProgress = (e) => {
+				}), !z.isValid) throw z.discardedTracks.forEach((e) => console.warn(`Track discarded: ${e.reason}`)), Error("This audio format/codec combination is not supported.");
+				z.onProgress = (e) => {
 					let t = Math.min(100, Math.round(e * 100));
-					te.value = t, ee.textContent = `${t}%`, M.textContent = `🎵 Transcoding audio (${t}%)`;
-				}, console.log(`🚀 Converting audio to ${e.ext.toUpperCase()} (${e.codec})...`), await I.execute();
+					te.value = t, N.textContent = `${t}%`, ee.textContent = `🎵 Transcoding audio (${t}%)`;
+				}, console.log(`🚀 Converting audio to ${e.ext.toUpperCase()} (${e.codec})...`), await z.execute();
 				let l = n.buffer;
 				if (!l) throw Error("Conversion produced an empty buffer.");
 				let u = new Blob([l], { type: e.mime });
-				oe && URL.revokeObjectURL(oe), oe = URL.createObjectURL(u);
-				let d = P.name.lastIndexOf("."), f = d > 0 ? P.name.slice(0, d) : P.name;
-				ie.href = oe, ie.download = `${f}_web_export.${e.ext}`, re.src = oe, N.textContent = `Size: ${t(u.size)}`, console.log(`🎉 Audio conversion complete! Output: ${t(u.size)} (${e.ext.toUpperCase()}).`), ne.style.display = "block", ne.scrollIntoView({ behavior: "smooth" });
+				ae && URL.revokeObjectURL(ae), ae = URL.createObjectURL(u);
+				let d = I.name.lastIndexOf("."), f = d > 0 ? I.name.slice(0, d) : I.name;
+				re.href = ae, re.download = `${f}_web_export.${e.ext}`, ne.src = ae, F.textContent = `Size: ${t(u.size)}`, console.log(`🎉 Audio conversion complete! Output: ${t(u.size)} (${e.ext.toUpperCase()}).`), P.style.display = "block", P.scrollIntoView({ behavior: "smooth" });
 			} catch (e) {
 				e.name === "ConversionCanceledError" || e.message?.includes("canceled") ? console.warn("Audio conversion canceled.") : (console.error("Audio conversion failed: ", e), alert(`Audio conversion failed: ${e.message || e}`));
 			} finally {
-				D.style.display = "inline-block", O.style.display = "none", j.style.display = "none", ne.style.display === "none" && (A.style.display = ""), I = null;
+				D.style.display = "inline-block", k.style.display = "none", M.style.display = "none", P.style.display === "none" && (j.style.display = ""), z = null;
 			}
 		}
-	}), O.addEventListener("click", async () => {
-		L = !0, I && (console.log("Requesting cancellation of audio conversion..."), await I.cancel());
+	}), k.addEventListener("click", async () => {
+		B = !0, z && (console.log("Requesting cancellation of audio conversion..."), await z.cancel());
 	});
 	function he() {
-		ae &&= (ae.dispose(), null), ue(), i.removeAttribute("src"), re.removeAttribute("src"), F = 0, P = null, z++, ce = [], pe();
+		L &&= (L.dispose(), null), le(), i.removeAttribute("src"), ne.removeAttribute("src"), R = 0, I = null, ce++, oe = [], fe();
 	}
 	function G(e) {
 		e || i.pause();
 	}
-	return B(), V(), {
-		load: H,
+	return V(), H(), {
+		load: U,
 		dispose: he,
 		setActive: G
 	};
 }
 // src/zip.ts
-var So = (() => {
+var Co = (() => {
 	let e = /* @__PURE__ */ new Uint32Array(256);
 	for (let t = 0; t < 256; t++) {
 		let n = t;
@@ -9923,71 +10031,71 @@ var So = (() => {
 	}
 	return e;
 })();
-function Co(e) {
+function wo(e) {
 	let t = 4294967295;
-	for (let n = 0; n < e.length; n++) t = So[(t ^ e[n]) & 255] ^ t >>> 8;
+	for (let n = 0; n < e.length; n++) t = Co[(t ^ e[n]) & 255] ^ t >>> 8;
 	return (t ^ 4294967295) >>> 0;
 }
-var wo = (e) => new Uint8Array([e & 255, e >>> 8 & 255]), To = (e) => new Uint8Array([
+var To = (e) => new Uint8Array([e & 255, e >>> 8 & 255]), Eo = (e) => new Uint8Array([
 	e & 255,
 	e >>> 8 & 255,
 	e >>> 16 & 255,
 	e >>> 24 & 255
 ]);
-function Eo(e) {
+function Do(e) {
 	let t = 0;
 	for (let n of e) t += n.length;
 	let n = new Uint8Array(t), r = 0;
 	for (let t of e) n.set(t, r), r += t.length;
 	return n;
 }
-function Do(e) {
+function Oo(e) {
 	let t = new TextEncoder(), n = [], r = [], i = 0, a = 2048;
 	for (let o of e) {
-		let e = t.encode(o.name), s = Co(o.data), c = o.data.length, l = Eo([
-			To(67324752),
-			wo(20),
-			wo(a),
-			wo(0),
-			wo(0),
-			wo(33),
-			To(s),
-			To(c),
-			To(c),
-			wo(e.length),
-			wo(0),
+		let e = t.encode(o.name), s = wo(o.data), c = o.data.length, l = Do([
+			Eo(67324752),
+			To(20),
+			To(a),
+			To(0),
+			To(0),
+			To(33),
+			Eo(s),
+			Eo(c),
+			Eo(c),
+			To(e.length),
+			To(0),
 			e
 		]);
-		n.push(l, o.data), r.push(Eo([
-			To(33639248),
-			wo(20),
-			wo(20),
-			wo(a),
-			wo(0),
-			wo(0),
-			wo(33),
-			To(s),
-			To(c),
-			To(c),
-			wo(e.length),
-			wo(0),
-			wo(0),
-			wo(0),
-			wo(0),
+		n.push(l, o.data), r.push(Do([
+			Eo(33639248),
+			To(20),
+			To(20),
+			To(a),
 			To(0),
-			To(i),
+			To(0),
+			To(33),
+			Eo(s),
+			Eo(c),
+			Eo(c),
+			To(e.length),
+			To(0),
+			To(0),
+			To(0),
+			To(0),
+			Eo(0),
+			Eo(i),
 			e
 		])), i += l.length + c;
 	}
-	let o = Eo(r), s = Eo([
-		To(101010256),
-		wo(0),
-		wo(0),
-		wo(e.length),
-		wo(e.length),
-		To(o.length),
-		To(i),
-		wo(0)
+	let o = Do(r), s = Do([
+		Eo(101010256),
+		To(0),
+		To(0),
+		To(e.length),
+		To(e.length),
+		Eo(o.length),
+		Eo(i),
+		To(0)
 	]);
 	return new Blob([
 		...n,
@@ -9996,13 +10104,13 @@ function Do(e) {
 	], { type: "application/zip" });
 }
 // src/batchShared.ts
-function Oo(e) {
+function ko(e) {
 	let { elements: t, zipName: n, processButtonLabel: r, makeThumb: i, process: a } = e, o = [], s = [];
 	function c() {
 		o.forEach((e) => e.url && URL.revokeObjectURL(e.url)), s.forEach((e) => e.startsWith("blob:") && URL.revokeObjectURL(e)), s = [];
 	}
 	function l(e) {
-		return e.status === "pending" ? "Pending" : e.status === "processing" ? `Processing… ${Math.round(e.progress * 100)}%` : e.status === "error" ? `Error: ${e.error || "failed"}` : e.blob ? va(e.blob.size) : "Done";
+		return e.status === "pending" ? "Pending" : e.status === "processing" ? `Processing… ${Math.round(e.progress * 100)}%` : e.status === "error" ? `Error: ${e.error || "failed"}` : e.blob ? ya(e.blob.size) : "Done";
 	}
 	function u() {
 		t.count.textContent = String(o.length), t.queue.innerHTML = "", o.forEach((e, n) => {
@@ -10022,7 +10130,7 @@ function Oo(e) {
 		t.thumbs.innerHTML = "";
 		let n = 0;
 		for (let t of e) n += t.size;
-		t.inputCount.textContent = String(e.length), t.totalSize.textContent = va(n);
+		t.inputCount.textContent = String(e.length), t.totalSize.textContent = ya(n);
 		for (let n of e) {
 			let e = document.createElement("img");
 			e.className = "batch-thumb", e.alt = n.name, e.title = n.name, t.thumbs.appendChild(e), i(n).then((t) => {
@@ -10065,8 +10173,8 @@ function Oo(e) {
 						data: new Uint8Array(await n.blob.arrayBuffer())
 					});
 				}
-				let i = Do(r), a = URL.createObjectURL(i), o = document.createElement("a");
-				o.href = a, o.download = n, o.style.display = "none", document.body.appendChild(o), o.click(), o.remove(), setTimeout(() => URL.revokeObjectURL(a), 1e4), console.log(`📦 Zipped ${r.length} file(s) → ${va(i.size)}.`);
+				let i = Oo(r), a = URL.createObjectURL(i), o = document.createElement("a");
+				o.href = a, o.download = n, o.style.display = "none", document.body.appendChild(o), o.click(), o.remove(), setTimeout(() => URL.revokeObjectURL(a), 1e4), console.log(`📦 Zipped ${r.length} file(s) → ${ya(i.size)}.`);
 			} catch (e) {
 				console.error("Failed to build zip:", e), alert(`Could not build the zip: ${e?.message || e}`);
 			} finally {
@@ -10089,13 +10197,13 @@ function Oo(e) {
 	};
 }
 // src/imageBatchWorkflow.ts
-var ko = {
+var Ao = {
 	"image/jpeg": "jpg",
 	"image/png": "png",
 	"image/webp": "webp",
 	"image/avif": "avif"
 };
-function Ao({ root: e }) {
+function jo({ root: e }) {
 	let t = (t) => e.getElementById(t), n = t("batch-out-format"), r = t("batch-quality"), i = t("batch-quality-label"), a = t("batch-enable-resize"), o = t("batch-resize-controls"), s = t("batch-maxdim-preset"), c = t("batch-maxdim");
 	function l() {
 		let e = n.value === "image/png";
@@ -10130,7 +10238,7 @@ function Ao({ root: e }) {
 	}), c.addEventListener("input", () => {
 		c.value !== s.value && (s.value = "");
 	}), l();
-	let p = Oo({
+	let p = ko({
 		elements: {
 			thumbs: t("batch-thumbs"),
 			inputCount: t("batch-input-count"),
@@ -10143,16 +10251,16 @@ function Ao({ root: e }) {
 		zipName: "media-converter-images.zip",
 		processButtonLabel: (e) => `🖼️ Process All Images (${e})`,
 		makeThumb: async (e) => {
-			if (!ga(e)) return URL.createObjectURL(e);
-			let t = await _a(e), n = Math.min(1, 320 / Math.max(t.width, t.height)), r = Ta(t, t.width, t.height, Math.max(1, Math.round(t.width * n)), Math.max(1, Math.round(t.height * n)));
+			if (!_a(e)) return URL.createObjectURL(e);
+			let t = await va(e), n = Math.min(1, 320 / Math.max(t.width, t.height)), r = Ea(t, t.width, t.height, Math.max(1, Math.round(t.width * n)), Math.max(1, Math.round(t.height * n)));
 			t.close();
 			let i = await f(r, "image/jpeg", .85);
 			return URL.createObjectURL(i);
 		},
 		process: async (e) => {
-			let t = await _a(e);
+			let t = await va(e);
 			try {
-				let { w: i, h: a } = d(t.width, t.height), o = Ta(t, t.width, t.height, i, a), s = n.value, c = s === "image/png" ? void 0 : parseFloat(r.value), l = ko[s] || "jpg", p;
+				let { w: i, h: a } = d(t.width, t.height), o = Ea(t, t.width, t.height, i, a), s = n.value, c = s === "image/png" ? void 0 : parseFloat(r.value), l = Ao[s] || "jpg", p;
 				try {
 					p = await f(o, s, c);
 				} catch {
@@ -10175,7 +10283,7 @@ function Ao({ root: e }) {
 	};
 }
 // src/videoBatchWorkflow.ts
-function jo(e) {
+function Mo(e) {
 	return new Promise((t) => {
 		let n = document.createElement("video");
 		n.muted = !0, n.preload = "metadata", n.playsInline = !0;
@@ -10198,11 +10306,11 @@ function jo(e) {
 		}), n.addEventListener("error", () => a(null)), setTimeout(() => a(null), 5e3), n.src = r;
 	});
 }
-function Mo({ root: e }) {
+function No({ root: e }) {
 	let t = (t) => e.getElementById(t), n = t("vbatch-out-format"), r = t("vbatch-out-codec"), i = t("vbatch-quality"), o = t("vbatch-quality-val"), s = t("vbatch-quality-rate"), c = t("vbatch-mute"), l = t("vbatch-enable-resize"), u = t("vbatch-resize-controls"), d = t("vbatch-maxdim-preset"), f = t("vbatch-maxdim");
 	function p() {
 		let e = parseInt(i.value);
-		o.textContent = xa[e] || "Medium", s.textContent = Ca[e] || "";
+		o.textContent = Sa[e] || "Medium", s.textContent = wa[e] || "";
 	}
 	function m() {
 		if (!l.checked) return null;
@@ -10220,14 +10328,14 @@ function Mo({ root: e }) {
 			h: Math.max(2, Math.round(t * i) & -2)
 		};
 	}
-	n.addEventListener("change", () => Ea(r, n.value)), i.addEventListener("input", p), l.addEventListener("change", () => {
+	n.addEventListener("change", () => Da(r, n.value)), i.addEventListener("input", p), l.addEventListener("change", () => {
 		u.style.display = l.checked ? "block" : "none";
 	}), d.addEventListener("change", () => {
 		d.value && (f.value = d.value);
 	}), f.addEventListener("input", () => {
 		f.value !== d.value && (d.value = "");
 	}), p();
-	let g = Oo({
+	let g = ko({
 		elements: {
 			thumbs: t("vbatch-thumbs"),
 			inputCount: t("vbatch-input-count"),
@@ -10239,23 +10347,23 @@ function Mo({ root: e }) {
 		},
 		zipName: "media-converter-videos.zip",
 		processButtonLabel: (e) => `🎬 Process All Videos (${e})`,
-		makeThumb: jo,
+		makeThumb: Mo,
 		process: async (e, t) => {
 			let o = new a({
-				formats: se,
-				source: new b(e)
+				formats: b,
+				source: new O(e)
 			});
 			try {
-				let a = await o.getPrimaryVideoTrack(), s = a ? await a.getDisplayWidth() : 0, l = a ? await a.getDisplayHeight() : 0, u = Da(n.value), d = new Vi({
+				let a = await o.getPrimaryVideoTrack(), s = a ? await a.getDisplayWidth() : 0, l = a ? await a.getDisplayHeight() : 0, u = Oa(n.value), d = new Hi({
 					format: u.format,
-					target: new ti()
+					target: new ni()
 				}), f = {
 					forceTranscode: !0,
 					codec: r.value,
-					bitrate: ba[parseInt(i.value)] || ba[3]
+					bitrate: xa[parseInt(i.value)] || xa[3]
 				}, p = h(s, l);
 				p && (f.width = p.w, f.height = p.h, f.fit = "contain");
-				let g = c.checked ? { discard: !0 } : { forceTranscode: !1 }, _ = await Yi.init({
+				let g = c.checked ? { discard: !0 } : { forceTranscode: !1 }, _ = await Xi.init({
 					input: o,
 					output: d,
 					video: f,
@@ -10282,10 +10390,10 @@ function Mo({ root: e }) {
 	};
 }
 // src/timelapse.ts
-function No(e, t, n) {
+function Po(e, t, n) {
 	let r = 1 / t, i = r * .001, a = null, o = null, s = null, c = 0;
 	function l() {
-		let e = new Ft(o, {
+		let e = new Gt(o, {
 			timestamp: a,
 			duration: r
 		});
@@ -10311,11 +10419,11 @@ function No(e, t, n) {
 	};
 }
 // src/audioStretch.ts
-var Po = .04, Fo = .012;
-function Io(e, t) {
+var Fo = .04, Io = .012;
+function Lo(e, t) {
 	let n = 0, r = 0, i = null, a = 0, o = [], s = /* @__PURE__ */ new Float32Array(), c = 0, l = 0, u = 0, d = 0, f = 0, p, m = 0, h = 0, g = [], _ = 0;
 	function v(t) {
-		n = t.sampleRate, r = t.numberOfChannels, o = Array.from({ length: r }, () => /* @__PURE__ */ new Float32Array()), u = Math.round(n * Po) & -2, d = u / 2, f = Math.round(n * Fo), p = new Float32Array(u);
+		n = t.sampleRate, r = t.numberOfChannels, o = Array.from({ length: r }, () => /* @__PURE__ */ new Float32Array()), u = Math.round(n * Fo) & -2, d = u / 2, f = Math.round(n * Io), p = new Float32Array(u);
 		for (let e = 0; e < u; e++) p[e] = .5 - .5 * Math.cos(2 * Math.PI * e / u);
 		g = Array.from({ length: r }, () => new Float32Array(u)), i = t.timestamp / e;
 	}
@@ -10353,7 +10461,7 @@ function Io(e, t) {
 	function S(e, t) {
 		let o = new Float32Array(t * r);
 		for (let n = 0; n < r; n++) o.set(e[n].subarray(0, t), n * t);
-		let s = new Ee({
+		let s = new It({
 			data: o,
 			format: "f32-planar",
 			numberOfChannels: r,
@@ -10406,7 +10514,7 @@ function Io(e, t) {
 	return (e) => (i === null && v(e), y(e), t === "stretch" ? C() : w());
 }
 // src/sectionJoin.ts
-function Lo(e) {
+function Ro(e) {
 	let t = e[0].start, n = [], r = 0;
 	for (let t of e) n.push(r), r += t.end - t.start;
 	return (r) => {
@@ -10414,7 +10522,7 @@ function Lo(e) {
 		return a === -1 ? null : i - e[a].start + n[a];
 	};
 }
-function Ro(e) {
+function zo(e) {
 	return (t) => {
 		let n = e(t.timestamp + t.duration / 2);
 		if (n === null) return null;
@@ -10423,10 +10531,10 @@ function Ro(e) {
 	};
 }
 // src/audioExtract.ts
-async function zo(e) {
+async function Bo(e) {
 	let { input: t, spec: n, ranges: r, enhance: i } = e, a = await t.getPrimaryAudioTrack();
 	if (!a) throw Error("This video has no audio track.");
-	let o = new ti(), s = new Vi({
+	let o = new ni(), s = new Hi({
 		format: n.makeFormat(),
 		target: o
 	}), c = {
@@ -10438,8 +10546,8 @@ async function zo(e) {
 		start: r[0].start,
 		end: r[r.length - 1].end
 	} : null;
-	if (r && r.length > 1 && (c.process = Ro(Lo(r))), i) {
-		let t = await yo({
+	if (r && r.length > 1 && (c.process = zo(Ro(r))), i) {
+		let t = await bo({
 			track: a,
 			options: i,
 			span: l,
@@ -10449,7 +10557,7 @@ async function zo(e) {
 		});
 		t.sampleRate && (c.sampleRate = t.sampleRate), c.process = t.wrap(c.process);
 	}
-	let u = await Yi.init({
+	let u = await Xi.init({
 		input: t,
 		output: s,
 		video: { discard: !0 },
@@ -10462,20 +10570,490 @@ async function zo(e) {
 	if (!d) throw Error("Audio extraction produced an empty file.");
 	return new File([d], `${e.baseName}.${n.ext}`, { type: n.mime });
 }
+var Vo = [
+	0,
+	8,
+	2,
+	10,
+	12,
+	4,
+	14,
+	6,
+	3,
+	11,
+	1,
+	9,
+	15,
+	7,
+	13,
+	5
+];
+function Ho(e, t) {
+	let n = e / t, r = new Int32Array(t), i = [];
+	for (let a = 0; a < t; a++) {
+		let t = a * n, o = (a + 1) * n, s = Math.min(e - 1, Math.floor(t)), c = Math.max(s + 1, Math.min(e, Math.ceil(o - 1e-9))), l = new Float32Array(c - s), u = 0;
+		for (let e = s; e < c; e++) {
+			let n = Math.max(0, Math.min(e + 1, o) - Math.max(e, t));
+			l[e - s] = n, u += n;
+		}
+		u <= 0 && (l[0] = u = 1);
+		for (let e = 0; e < l.length; e++) l[e] /= u;
+		r[a] = s, i.push(l);
+	}
+	return {
+		starts: r,
+		weights: i
+	};
+}
+function Uo(e, t, n, r, i = "area") {
+	if (i === "nearest") return Wo(e, t, n, r);
+	let a = Ho(e, n), o = Ho(t, r), s = new Float32Array(n * t * 3);
+	return (i, c) => {
+		for (let r = 0; r < t; r++) {
+			let t = r * e * 4;
+			for (let e = 0; e < n; e++) {
+				let o = a.starts[e], c = a.weights[e], l = 0, u = 0, d = 0;
+				for (let e = 0; e < c.length; e++) {
+					let n = t + (o + e) * 4, r = c[e];
+					l += r * i[n], u += r * i[n + 1], d += r * i[n + 2];
+				}
+				let f = (r * n + e) * 3;
+				s[f] = l, s[f + 1] = u, s[f + 2] = d;
+			}
+		}
+		let l = new Uint8Array(n * r * 3);
+		for (let e = 0; e < r; e++) {
+			let t = o.starts[e], r = o.weights[e];
+			for (let i = 0; i < n; i++) {
+				let a = 0, o = 0, u = 0;
+				for (let e = 0; e < r.length; e++) {
+					let c = ((t + e) * n + i) * 3, l = r[e];
+					a += l * s[c], o += l * s[c + 1], u += l * s[c + 2];
+				}
+				if (c) {
+					let e = .299 * a + .587 * o + .114 * u;
+					a = (e + (a - e) * 1.25 - 128) * 1.1 + 128, o = (e + (o - e) * 1.25 - 128) * 1.1 + 128, u = (e + (u - e) * 1.25 - 128) * 1.1 + 128;
+				}
+				let d = (e * n + i) * 3;
+				l[d] = a < 0 ? 0 : a > 255 ? 255 : Math.round(a), l[d + 1] = o < 0 ? 0 : o > 255 ? 255 : Math.round(o), l[d + 2] = u < 0 ? 0 : u > 255 ? 255 : Math.round(u);
+			}
+		}
+		return l;
+	};
+}
+function Wo(e, t, n, r) {
+	let i = new Int32Array(n), a = new Int32Array(r);
+	for (let t = 0; t < n; t++) i[t] = Math.min(e - 1, Math.floor((t + .5) * e / n));
+	for (let e = 0; e < r; e++) a[e] = Math.min(t - 1, Math.floor((e + .5) * t / r));
+	return (t, o) => {
+		let s = new Uint8Array(n * r * 3);
+		for (let c = 0; c < r; c++) for (let r = 0; r < n; r++) {
+			let l = (a[c] * e + i[r]) * 4, u = t[l], d = t[l + 1], f = t[l + 2];
+			if (o) {
+				let e = .299 * u + .587 * d + .114 * f;
+				u = (e + (u - e) * 1.25 - 128) * 1.1 + 128, d = (e + (d - e) * 1.25 - 128) * 1.1 + 128, f = (e + (f - e) * 1.25 - 128) * 1.1 + 128, u = u < 0 ? 0 : u > 255 ? 255 : Math.round(u), d = d < 0 ? 0 : d > 255 ? 255 : Math.round(d), f = f < 0 ? 0 : f > 255 ? 255 : Math.round(f);
+			}
+			let p = (c * n + r) * 3;
+			s[p] = u, s[p + 1] = d, s[p + 2] = f;
+		}
+		return s;
+	};
+}
+var Go = () => new Promise((e) => setTimeout(e, 0));
+async function Ko(e, n, r, i, a = {}) {
+	let o = await import("./gifenc-CYiZ_4j1.js").then((e) => /* @__PURE__ */ t(e.default, 1)), { GIFEncoder: s, quantize: c } = "GIFEncoder" in o ? o : o.default, { width: l, height: u } = i, d = l * u, f = n.length;
+	if (!e.length || !f) throw Error("No frames to encode.");
+	let p = () => {
+		if (a.isCancelled?.()) throw Error("GIF export canceled.");
+	}, m = Math.max(2, Math.min(256, Math.round(i.colors))), h = i.diff ? m - 1 : m, g = e.length * d, _ = Math.max(1, Math.floor(g / 16e4)), v = new Uint8Array(Math.ceil(g / _) * 4), y = 0;
+	for (let t = 0; t < e.length; t++) {
+		let n = e[t];
+		for (let e = t % _; e < d; e += _) v[y++] = n[e * 3], v[y++] = n[e * 3 + 1], v[y++] = n[e * 3 + 2], v[y++] = 255;
+	}
+	let b = c(v.subarray(0, y), Math.max(1, h), { format: "rgb565" }).map((e) => [
+		e[0],
+		e[1],
+		e[2]
+	]);
+	for (; b.length < 2 - !!i.diff;) b.push([
+		0,
+		0,
+		0
+	]);
+	let x = b.length, S = -1;
+	i.diff && (S = b.length, b.push([
+		0,
+		0,
+		0
+	])), p();
+	let C = new Int16Array(1 << 18).fill(-1), w = (e, t, n) => {
+		e = e < 0 ? 0 : e > 255 ? 255 : e, t = t < 0 ? 0 : t > 255 ? 255 : t, n = n < 0 ? 0 : n > 255 ? 255 : n;
+		let r = e >> 2 << 12 | t >> 2 << 6 | n >> 2, i = C[r];
+		if (i >= 0) return i;
+		let a = e >> 2 << 2 | 2, o = t >> 2 << 2 | 2, s = n >> 2 << 2 | 2, c = Infinity;
+		i = 0;
+		for (let e = 0; e < x; e++) {
+			let t = b[e], n = (t[0] - a) ** 2 + (t[1] - o) ** 2 + (t[2] - s) ** 2;
+			n < c && (c = n, i = e);
+		}
+		return C[r] = i, i;
+	}, T = 255 / Math.cbrt(x), E = i.tolerance * i.tolerance, D = [], O = new Uint8Array(d), k = -1;
+	for (let t = 0; t < f; t++) {
+		let o = n[t];
+		if (o === k) {
+			D[D.length - 1].time += r;
+			continue;
+		}
+		k = o;
+		let s = e[o], c = D.length === 0, u = new Uint8Array(d), m = 0;
+		for (let e = 0, t = 0; e < d; e++, t += 3) {
+			let n = s[t], r = s[t + 1], a = s[t + 2], o;
+			if (i.dither) {
+				let t = (Vo[(e / l & 3) * 4 + (e % l & 3)] / 16 - .5) * T;
+				o = w(n + t, r + t, a + t);
+			} else o = w(n, r, a);
+			let d = !1;
+			if (!c) {
+				let t = O[e];
+				if (t === o) d = !0;
+				else if (E > 0) {
+					let e = b[t];
+					d = (e[0] - n) ** 2 + (e[1] - r) ** 2 + (e[2] - a) ** 2 <= E;
+				}
+			}
+			d ? u[e] = i.diff ? S : O[e] : (u[e] = o, O[e] = o, m++);
+		}
+		!c && m === 0 ? D[D.length - 1].time += r : D.push({
+			diffIdx: u,
+			fullIdx: O.slice(),
+			time: r
+		}), t % 8 == 0 && (a.onProgress?.(t / f * .8), p(), await Go());
+	}
+	let A = [], j = 0, M = 0;
+	for (let e of D) {
+		j += e.time;
+		let t = Math.min(65535, Math.max(2, Math.round(j * 100) - M));
+		A.push(t), M += t;
+	}
+	let ee = s(), N = Math.max(2, Math.min(8, Math.ceil(Math.log2(b.length))));
+	return D.forEach((e, t) => {
+		ee.writeFrame(i.diff ? e.diffIdx : e.fullIdx, l, u, {
+			palette: t === 0 ? b : void 0,
+			delay: A[t] * 10,
+			repeat: i.loop ? 0 : -1,
+			transparent: i.diff && t > 0,
+			transparentIndex: S >= 0 ? S : 0,
+			dispose: +!!i.diff,
+			colorDepth: N
+		});
+	}), ee.finish(), a.onProgress?.(1), {
+		bytes: ee.bytes(),
+		kept: D.length,
+		dropped: f - D.length,
+		slots: f,
+		delays: A,
+		duration: M / 100,
+		paletteSize: b.length,
+		transparentIndex: i.diff && D.length > 1 ? S : -1
+	};
+}
+var qo = 4e3;
+function Jo(e, t, n, r) {
+	let i = Math.max(1, Math.round(t)), a = Math.max(1, Math.round(n > 0 ? n : i * e.height / e.width)), { x: o, y: s, width: c, height: l } = e;
+	if (r === "fill") {
+		let e = i / a;
+		if (c / l > e) {
+			let t = Math.max(1, Math.round(l * e));
+			o += Math.floor((c - t) / 2), c = t;
+		} else {
+			let t = Math.max(1, Math.round(c / e));
+			s += Math.floor((l - t) / 2), l = t;
+		}
+	}
+	return {
+		outW: i,
+		outH: a,
+		rect: {
+			x: o,
+			y: s,
+			width: c,
+			height: l
+		}
+	};
+}
+async function Yo(e) {
+	let t = await e.input.getPrimaryVideoTrack();
+	if (!t) throw Error("This file has no video track.");
+	let n = () => !!e.isCancelled?.(), r = () => /* @__PURE__ */ Error("GIF export canceled."), { outW: i, outH: a, rect: o } = Jo(e.region, e.width, e.height, e.fit), s = e.speed && e.speed > 0 ? e.speed : 1, c = e.ranges ?? [{
+		start: await t.getFirstTimestamp(),
+		end: e.sourceDuration
+	}], l = c.reduce((e, t) => e + (t.end - t.start), 0) / s;
+	e.limitSeconds && e.limitSeconds < l && (l = e.limitSeconds);
+	let u = Math.max(1, Math.min(50, e.fps)), d = Math.max(50, Math.min(qo, Math.floor(3e8 / (i * a * 3)))), f = Math.max(1, Math.round(l * u));
+	f > d && console.warn(`GIF: ${f} frames requested, limiting to ${d} (lowering the frame rate).`);
+	let p = Math.min(d, f), m = l / p, h = Math.max(640, Math.max(i, a) * 3), g = e.resample === "nearest" ? 1 : Math.min(1, h / Math.max(o.width, o.height)), _ = new re(t, {
+		crop: {
+			left: o.x,
+			top: o.y,
+			width: o.width,
+			height: o.height
+		},
+		width: Math.max(1, Math.round(o.width * g)),
+		height: Math.max(1, Math.round(o.height * g)),
+		fit: "fill"
+	}), v = [], y = new Int32Array(p), b = 0, x = null, S = null, C = null, w = (t) => {
+		x && x.width === t.width && x.height === t.height || (x = document.createElement("canvas"), x.width = t.width, x.height = t.height, S = x.getContext("2d", { willReadFrequently: !0 }), C = Uo(t.width, t.height, i, a, e.resample)), S.drawImage(t, 0, 0);
+		let n = S.getImageData(0, 0, t.width, t.height).data;
+		return C(n, e.punch);
+	}, T = null, E = (e) => {
+		if (!T) return;
+		let t = -1;
+		for (; b < p && b * m < e - 1e-9;) t < 0 && (v.push(w(T)), t = v.length - 1), y[b++] = t;
+	}, D = 0, O = !1;
+	outer: for (let t of c) {
+		for await (let i of _.canvases(t.start, t.end)) {
+			if (n()) throw r();
+			let a = Math.max(D, i.timestamp - t.start + D), o = O ? a / s : 0;
+			if (o >= l) break outer;
+			E(o), T = i.canvas, O = !0, e.onProgress?.(b / p * .7), b % 16 == 0 && await new Promise((e) => setTimeout(e, 0));
+		}
+		D += t.end - t.start;
+	}
+	if (E(Infinity), !v.length) throw Error("No video frames could be decoded for this range.");
+	for (; b < p;) y[b++] = v.length - 1;
+	if (n()) throw r();
+	let k = await Ko(v, y, m, {
+		width: i,
+		height: a,
+		colors: e.colors,
+		dither: e.dither,
+		diff: e.diff,
+		tolerance: e.tolerance,
+		loop: e.loop
+	}, {
+		onProgress: (t) => e.onProgress?.(.7 + t * .3),
+		isCancelled: n
+	});
+	return {
+		...k,
+		blob: new Blob([k.bytes], { type: "image/gif" }),
+		width: i,
+		height: a,
+		clipDuration: l
+	};
+}
+// src/gifPanel.ts
+var Xo = {
+	width: 480,
+	height: 0,
+	fps: 12,
+	colors: 128,
+	tolerance: 8,
+	fit: "fill",
+	resample: "area",
+	dither: !1,
+	diff: !0,
+	punch: !1,
+	loop: !0,
+	budgetMB: 0
+}, Zo = {
+	...Xo,
+	width: 32,
+	height: 32,
+	fps: 20,
+	colors: 256,
+	budgetMB: 1.2
+}, Qo = {
+	tiny: {
+		...Xo,
+		width: 320,
+		fps: 10,
+		colors: 64,
+		tolerance: 10
+	},
+	balanced: { ...Xo },
+	sharp: {
+		...Xo,
+		width: 640,
+		fps: 15,
+		colors: 256,
+		tolerance: 6
+	},
+	led32: { ...Zo },
+	led64x32: {
+		...Zo,
+		width: 64,
+		height: 32
+	}
+};
+function $o(e) {
+	let t = new URLSearchParams(e.replace(/^#/, ""));
+	if (![
+		"gif-preset",
+		"gif-resample",
+		"gif-width",
+		"gif-height",
+		"gif-fps",
+		"gif-colors",
+		"gif-tolerance",
+		"gif-dither",
+		"gif-budget"
+	].some((e) => t.has(e))) return null;
+	let n = (e) => {
+		let n = parseFloat(t.get(e) ?? "");
+		return Number.isFinite(n) ? n : void 0;
+	}, r = {}, i = (e, t) => {
+		t !== void 0 && (r[e] = t);
+	};
+	i("width", n("gif-width")), i("height", n("gif-height")), i("fps", n("gif-fps")), i("colors", n("gif-colors")), i("tolerance", n("gif-tolerance")), i("budgetMB", n("gif-budget"));
+	let a = t.get("gif-resample");
+	(a === "area" || a === "nearest") && (r.resample = a), t.has("gif-dither") && i("dither", t.get("gif-dither") === "1" || t.get("gif-dither") === "true");
+	let o = t.get("gif-preset");
+	return {
+		preset: o && Qo[o] ? o : null,
+		overrides: r
+	};
+}
+function es(e, t) {
+	let n = (t) => e.getElementById(t), r = n("panel-gif"), i = n("gif-preset"), a = n("gif-width"), o = n("gif-height"), s = n("gif-fps"), c = n("gif-colors"), l = n("gif-fit"), u = n("gif-resample"), d = n("gif-budget"), f = n("gif-tolerance"), p = n("gif-tolerance-val"), m = n("gif-diff"), h = n("gif-dither"), g = n("gif-punch"), _ = n("gif-loop"), v = n("gif-export-btn"), y = n("gif-estimate-btn"), b = n("gif-cancel-btn"), x = n("gif-progress"), S = n("gif-status"), C = n("gif-result"), w = n("gif-preview-real"), T = n("gif-preview-zoom"), E = n("gif-zoom-fig"), D = n("gif-real-caption"), O = n("gif-zoom-caption"), k = n("gif-stats"), A = n("gif-download"), j = null, M = !1, ee = !1, N = $o(window.location.hash);
+	function te(e) {
+		a.value = String(e.width), o.value = e.height ? String(e.height) : "", s.value = String(e.fps), c.value = String(e.colors), l.value = e.fit, u.value = e.resample, d.value = String(e.budgetMB), f.value = String(e.tolerance), p.textContent = String(e.tolerance), m.checked = e.diff, h.checked = e.dither, g.checked = e.punch, _.checked = e.loop;
+	}
+	function P() {
+		let e = i.querySelector("option[value=\"custom\"]");
+		e.disabled = !1, i.value = "custom";
+	}
+	i.addEventListener("change", () => {
+		let e = Qo[i.value];
+		e && te(e);
+	}), [
+		a,
+		o,
+		s,
+		c,
+		l,
+		u,
+		d,
+		f,
+		m,
+		h,
+		g,
+		_
+	].forEach((e) => e.addEventListener("change", P)), [
+		a,
+		o,
+		s,
+		d
+	].forEach((e) => e.addEventListener("input", P)), f.addEventListener("input", () => {
+		p.textContent = f.value, P();
+	});
+	function ne(e) {
+		te({
+			...Qo[e.preset ?? i.value] ?? Xo,
+			...e.overrides
+		}), e.preset && (i.value = e.preset), Object.keys(e.overrides).length && P(), r.open = !0, r.scrollIntoView({
+			behavior: "smooth",
+			block: "start"
+		}), console.log(`🎞️ GIF panel opened from the URL${e.preset ? ` (preset: ${e.preset})` : ""}.`);
+	}
+	window.addEventListener("hashchange", () => {
+		let e = $o(window.location.hash);
+		e && (t.getInput() ? ne(e) : N = e);
+	});
+	function re() {
+		C.style.display = "none", j && URL.revokeObjectURL(j), j = null, w.removeAttribute("src"), T.removeAttribute("src"), S.textContent = "";
+	}
+	function F(e) {
+		let n = t.getInput(), r = t.getRegion();
+		return !n || !r ? null : {
+			input: n,
+			sourceDuration: t.getSourceDuration(),
+			region: r,
+			ranges: t.getRanges(),
+			speed: t.getSpeed(),
+			width: Math.max(1, parseInt(a.value) || 1),
+			height: Math.max(0, parseInt(o.value) || 0),
+			fit: l.value,
+			fps: Math.max(1, Math.min(50, parseFloat(s.value) || 10)),
+			resample: u.value,
+			colors: parseInt(c.value) || 128,
+			dither: h.checked,
+			diff: m.checked,
+			tolerance: parseInt(f.value) || 0,
+			loop: _.checked,
+			punch: g.checked,
+			limitSeconds: e,
+			isCancelled: () => M
+		};
+	}
+	function I(e) {
+		return (e.ranges ? e.ranges.reduce((e, t) => e + (t.end - t.start), 0) : e.sourceDuration) / (e.speed ?? 1);
+	}
+	let L = () => Math.max(0, parseFloat(d.value) || 0) * 1e6, R = (e) => `${(e / 1e6).toFixed(2)} MB`;
+	function z(e, t = "") {
+		ee = e, v.disabled = y.disabled = e, b.style.display = e ? "" : "none", x.style.display = e ? "" : "none", e && (x.value = 0, S.style.color = "", S.textContent = t);
+	}
+	async function B(e) {
+		if (ee) return;
+		let t = F();
+		if (!t) {
+			alert("Please load a video first.");
+			return;
+		}
+		let n = I(t), r = F(e ? Math.min(1.5, n) : void 0);
+		r.onProgress = (e) => x.value = Math.round(e * 100), M = !1, e || re(), z(!0, e ? "Encoding a short sample…" : "Creating GIF…");
+		try {
+			let t = await Yo(r);
+			if (e) {
+				let e = t.blob.size * (n / Math.max(.01, t.clipDuration)), r = L();
+				S.style.color = r && e > r ? "var(--pico-del-color, #c0392b)" : "", S.textContent = `Estimated size ≈ ${R(e)} (rough, from the first ${t.clipDuration.toFixed(1)} s of ${n.toFixed(1)} s)` + (r ? e > r ? ` — likely over the ${R(r)} budget.` : ` — within the ${R(r)} budget.` : ".");
+			} else ie(t, r);
+		} catch (e) {
+			String(e?.message).includes("canceled") ? S.textContent = "Canceled." : (console.error("GIF export failed: ", e), S.style.color = "var(--pico-del-color, #c0392b)", S.textContent = `GIF export failed: ${e?.message || e}`);
+		} finally {
+			z(!1);
+		}
+	}
+	function ie(e, n) {
+		j = URL.createObjectURL(e.blob);
+		let r = (t.getFileName() ?? "video").replace(/\.[^.]+$/, "");
+		if (A.href = j, A.download = `${r}_${e.width}x${e.height}.gif`, w.src = j, w.style.width = `${e.width}px`, w.style.maxWidth = "100%", w.style.height = "auto", D.textContent = `Actual size (${e.width}×${e.height})`, e.width <= 160) {
+			let t = Math.max(2, Math.floor(320 / e.width));
+			T.src = j, T.style.width = `${e.width * t}px`, T.style.maxWidth = "100%", T.style.height = "auto", O.textContent = `Enlarged ${t}×`, E.style.display = "";
+		} else E.style.display = "none";
+		let i = L(), a = e.blob.size, o = [];
+		if (i) {
+			let e = a > i;
+			o.push(`<strong style="color: ${e ? "var(--pico-del-color, #c0392b)" : "inherit"}">${e ? "⚠️ " : "✅ "}${R(a)} of ${R(i)} budget (${Math.round(a / i * 100)}%)${e ? ` — over by ${R(a - i)}. Try fewer colors, a lower frame rate, a higher tolerance or a shorter clip.` : ""}</strong>`);
+		} else o.push(`<strong>${R(a)}</strong> (${ya(a)})`);
+		o.push(`${e.kept} frame${e.kept === 1 ? "" : "s"} kept, ${e.dropped} merged (of ${e.slots}) · ${e.duration.toFixed(2)} s${n.loop ? ", loops" : ", plays once"} · ${e.paletteSize} palette entries${e.transparentIndex >= 0 ? " (incl. transparent)" : ""}`), k.innerHTML = o.join("<br>"), S.style.color = "", S.textContent = `Done: ${ba(e.duration)} at ~${(e.slots / e.duration).toFixed(1)} fps.`, C.style.display = "", console.log(`🎞️ GIF ${e.width}x${e.height}: ${ya(a)}, ${e.kept}/${e.slots} frames kept, ${e.duration.toFixed(2)} s.`);
+	}
+	return v.addEventListener("click", () => void B(!1)), y.addEventListener("click", () => void B(!0)), b.addEventListener("click", () => M = !0), {
+		onVideoLoaded() {
+			if (re(), N) {
+				let e = N;
+				N = null, ne(e);
+			}
+		},
+		dispose() {
+			M = !0, re();
+		}
+	};
+}
 // src/capturePreview.ts
-var Bo = (e) => {
+var ts = (e) => {
 	try {
 		return localStorage.getItem(e) || void 0;
 	} catch {
 		return;
 	}
-}, Vo = (e, t) => {
+}, ns = (e, t) => {
 	try {
 		localStorage.setItem(e, t);
 	} catch {}
-}, Ho = (e) => e ? { ideal: e } : void 0;
-function Uo(e) {
-	let { kind: t, checkbox: n, select: r, wrap: i, constraints: a, onStream: o, onError: s, storageKey: c } = e, l = null, u = 0, d = Bo(c);
+}, rs = (e) => e ? { ideal: e } : void 0;
+function is(e) {
+	let { kind: t, checkbox: n, select: r, wrap: i, constraints: a, onStream: o, onError: s, storageKey: c } = e, l = null, u = 0, d = ts(c);
 	async function f(e) {
 		let n = (await navigator.mediaDevices.enumerateDevices()).filter((e) => e.kind === t && e.deviceId !== "communications");
 		r.replaceChildren(...n.map((e, n) => {
@@ -10492,7 +11070,7 @@ function Uo(e) {
 		p();
 		let e = u;
 		try {
-			let t = await navigator.mediaDevices.getUserMedia(a(Ho(r.value || d)));
+			let t = await navigator.mediaDevices.getUserMedia(a(rs(r.value || d)));
 			if (e !== u || !n.checked) {
 				t.getTracks().forEach((e) => e.stop());
 				return;
@@ -10506,7 +11084,7 @@ function Uo(e) {
 	return n.addEventListener("change", () => {
 		i.style.display = n.checked ? "" : "none", n.checked ? m() : p();
 	}), r.addEventListener("change", () => {
-		d = r.value, Vo(c, d), m();
+		d = r.value, ns(c, d), m();
 	}), navigator.mediaDevices.addEventListener?.("devicechange", () => {
 		n.checked && l && f(r.value);
 	}), i.style.display = "none", {
@@ -10517,7 +11095,7 @@ function Uo(e) {
 		}
 	};
 }
-function Wo(e, t) {
+function as(e, t) {
 	let n = new AudioContext(), r = n.createAnalyser();
 	r.fftSize = 1024, n.createMediaStreamSource(e).connect(r);
 	let i = new Float32Array(r.fftSize), a = window.setInterval(() => {
@@ -10532,12 +11110,12 @@ function Wo(e, t) {
 	};
 }
 // src/webcamCompositor.ts
-var Go = {
+var os = {
 	small: .16,
 	medium: .22,
 	large: .3
 };
-function Ko(e) {
+function ss(e) {
 	let t = window.MediaStreamTrackProcessor;
 	if (!t) throw Error("This browser can't composite a webcam into the recording.");
 	let n = new t({ track: e }).readable.getReader(), r = null, i = !1;
@@ -10560,14 +11138,14 @@ function Ko(e) {
 		}
 	};
 }
-function qo(e, t) {
+function cs(e, t) {
 	let n = URL.createObjectURL(new Blob([`setInterval(() => postMessage(0), ${t})`], { type: "text/javascript" })), r = new Worker(n);
 	return r.onmessage = e, () => {
 		r.terminate(), URL.revokeObjectURL(n);
 	};
 }
-function Jo(e) {
-	let { canvas: t, source: n, fps: r, corner: i, size: a, onError: o } = e, s = t.getContext("2d"), c = Ko(e.screenTrack), l = Ko(e.webcamTrack), u = null, d = 0, f = 0, p = null;
+function ls(e) {
+	let { canvas: t, source: n, fps: r, corner: i, size: a, onError: o } = e, s = t.getContext("2d"), c = ss(e.screenTrack), l = ss(e.webcamTrack), u = null, d = 0, f = 0, p = null;
 	function m() {
 		let e = c.latest;
 		if (!e) return !1;
@@ -10591,7 +11169,7 @@ function Jo(e) {
 	}
 	return {
 		start() {
-			d = performance.now(), u = qo(h, Math.max(4, Math.floor(500 / r)));
+			d = performance.now(), u = cs(h, Math.max(4, Math.floor(500 / r)));
 		},
 		async stop() {
 			u?.(), u = null, await p, c.close(), l.close();
@@ -10599,13 +11177,13 @@ function Jo(e) {
 	};
 }
 // src/screenCapture.ts
-var Yo = {
-	low: Dt,
-	medium: Fe,
-	high: gt,
-	"very-high": st
+var us = {
+	low: Ie,
+	medium: st,
+	high: Dt,
+	"very-high": Nt
 };
-function Xo() {
+function ds() {
 	let e = document.createElement("canvas");
 	e.width = e.height = 64;
 	let t = e.getContext("2d"), n = null, r = [], i = "", a = 0;
@@ -10620,7 +11198,7 @@ function Xo() {
 			let t = () => {
 				let t = performance.now();
 				o(t);
-				let n = ya((t - e) / 1e3).replace(/\.\d+$/, "");
+				let n = ba((t - e) / 1e3).replace(/\.\d+$/, "");
 				document.title = `● ${n} · ${i}`;
 			};
 			t(), a = window.setInterval(t, 100);
@@ -10630,7 +11208,7 @@ function Xo() {
 		}
 	};
 }
-async function Zo(e) {
+async function fs(e) {
 	let t = document.createElement("canvas"), n = t.getContext("2d"), r = window.ImageCapture;
 	if (r) try {
 		let i = await new r(e).grabFrame();
@@ -10639,37 +11217,37 @@ async function Zo(e) {
 	let i = document.createElement("video");
 	return i.muted = !0, i.playsInline = !0, i.srcObject = new MediaStream([e]), await i.play(), "requestVideoFrameCallback" in i && await new Promise((e) => i.requestVideoFrameCallback(e)), t.width = i.videoWidth, t.height = i.videoHeight, n.drawImage(i, 0, 0), i.pause(), i.srcObject = null, t;
 }
-var Qo = {
+var ps = {
 	echoCancellation: !1,
 	noiseSuppression: !1,
 	autoGainControl: !1
-}, $o = {
+}, ms = {
 	echoCancellation: !0,
 	noiseSuppression: !0,
 	autoGainControl: !0,
 	voiceIsolation: !0
-}, es = () => (/* @__PURE__ */ new Date()).toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-"), ts = (e) => new Promise((t) => setTimeout(t, e));
-function ns({ root: e, onCaptured: t }) {
+}, hs = () => (/* @__PURE__ */ new Date()).toISOString().slice(0, 19).replace("T", "_").replace(/:/g, "-"), gs = (e) => new Promise((t) => setTimeout(t, e));
+function _s({ root: e, onCaptured: t }) {
 	let n = (t) => e.getElementById(t), r = n("screen-capture-bar"), i = n("capture-start"), a = n("capture-audio"), o = n("capture-stop"), s = n("capture-system-audio"), c = n("capture-mic"), l = n("capture-cam"), u = n("capture-cam-corner"), f = n("capture-cam-size"), p = n("capture-fps"), m = n("capture-quality"), h = n("capture-options"), g = n("capture-status"), _ = n("capture-shot"), v = n("capture-screenshot"), y = n("capture-shot-delay"), b = n("capture-options").querySelector(".capture-devices");
 	if (!navigator.mediaDevices?.getDisplayMedia) {
 		r.style.display = "none";
 		return;
 	}
-	let x = null, S = !1, C = null, w = Xo(), T = (e) => Math.max(2, Math.floor(e / 2) * 2), E = n("capture-cam-preview"), D = n("capture-mic-level"), O = null, k = Uo({
+	let x = null, S = !1, C = null, w = ds(), T = (e) => Math.max(2, Math.floor(e / 2) * 2), E = n("capture-cam-preview"), D = n("capture-mic-level"), O = null, k = is({
 		kind: "audioinput",
 		checkbox: c,
 		select: n("capture-mic-device"),
 		wrap: n("capture-mic-row"),
 		constraints: (e) => ({ audio: {
-			...$o,
+			...ms,
 			deviceId: e
 		} }),
 		onStream: (e) => {
-			O?.(), O = e ? Wo(e, D) : null;
+			O?.(), O = e ? as(e, D) : null;
 		},
 		onError: (e) => g.textContent = e,
 		storageKey: "media-converter.mic-device"
-	}), A = Uo({
+	}), A = is({
 		kind: "videoinput",
 		checkbox: l,
 		select: n("capture-cam-device"),
@@ -10694,15 +11272,15 @@ function ns({ root: e, onCaptured: t }) {
 	}, ee = () => {
 		k.resume(), A.resume();
 	};
-	function te(e) {
+	function N(e) {
 		i.style.display = e ? "none" : "", a.style.display = e ? "none" : "", h.style.display = e ? "none" : "", o.style.display = e ? "" : "none", _.style.display = e ? "none" : "", r.classList.toggle("is-recording", e), e || ee();
 	}
-	function ne(e, t) {
+	function te(e, t) {
 		C && URL.revokeObjectURL(C), C = URL.createObjectURL(e);
 		let n = document.createElement("a");
 		n.href = C, n.download = e.name, n.textContent = e.type.startsWith("image/") ? "Download screenshot" : "Download recording", g.replaceChildren(t, n);
 	}
-	async function re() {
+	async function P() {
 		if (x) return;
 		let e = parseInt(y.value) || 0, n = null;
 		v.disabled = i.disabled = a.disabled = !0;
@@ -10712,19 +11290,19 @@ function ns({ root: e, onCaptured: t }) {
 				audio: !1
 			});
 			let r = n.getVideoTracks()[0];
-			for (let t = e; t > 0; t--) g.textContent = `📸 Capturing in ${t}…`, await ts(1e3);
-			e || await ts(300);
-			let i = await Zo(r), a = await new Promise((e) => i.toBlob(e, "image/png"));
+			for (let t = e; t > 0; t--) g.textContent = `📸 Capturing in ${t}…`, await gs(1e3);
+			e || await gs(300);
+			let i = await fs(r), a = await new Promise((e) => i.toBlob(e, "image/png"));
 			if (!a) throw Error("Could not encode the screenshot.");
-			let o = new File([a], `screenshot_${es()}.png`, { type: "image/png" });
-			ne(o, `Screenshot ${i.width}×${i.height} (${va(o.size)}) — loaded below for editing. `), console.log(`Screenshot captured: ${o.name}, ${i.width}x${i.height}, ${va(o.size)}.`), n.getTracks().forEach((e) => e.stop()), n = null, await t(o);
+			let o = new File([a], `screenshot_${hs()}.png`, { type: "image/png" });
+			te(o, `Screenshot ${i.width}×${i.height} (${ya(o.size)}) — loaded below for editing. `), console.log(`Screenshot captured: ${o.name}, ${i.width}x${i.height}, ${ya(o.size)}.`), n.getTracks().forEach((e) => e.stop()), n = null, await t(o);
 		} catch (e) {
 			e?.name === "NotAllowedError" ? g.textContent = "Screenshot was cancelled." : (console.error("Screenshot failed:", e), g.textContent = `Screenshot failed: ${e?.message || e}`);
 		} finally {
 			n?.getTracks().forEach((e) => e.stop()), v.disabled = i.disabled = a.disabled = !1;
 		}
 	}
-	function ie(e) {
+	function ne(e) {
 		if (e.length <= 1) return {
 			track: e[0] ?? null,
 			audioContext: null
@@ -10736,7 +11314,7 @@ function ns({ root: e, onCaptured: t }) {
 			audioContext: t
 		};
 	}
-	async function N() {
+	async function re() {
 		if (x) return;
 		let e = parseInt(p.value) || 30, t = [];
 		M();
@@ -10745,7 +11323,7 @@ function ns({ root: e, onCaptured: t }) {
 			if (l.checked) try {
 				let r = await navigator.mediaDevices.getUserMedia({
 					video: {
-						deviceId: Ho(A.deviceId()),
+						deviceId: rs(A.deviceId()),
 						width: { ideal: 1280 },
 						height: { ideal: 720 },
 						frameRate: { ideal: e }
@@ -10758,17 +11336,17 @@ function ns({ root: e, onCaptured: t }) {
 			}
 			let r = await navigator.mediaDevices.getDisplayMedia({
 				video: { frameRate: { ideal: e } },
-				audio: s.checked && Qo
+				audio: s.checked && ps
 			});
 			if (t.push(r), c.checked) try {
 				t.push(await navigator.mediaDevices.getUserMedia({ audio: {
-					...$o,
-					deviceId: Ho(k.deviceId())
+					...ms,
+					deviceId: rs(k.deviceId())
 				} }));
 			} catch (e) {
 				console.warn("Microphone unavailable; recording without it:", e);
 			}
-			let i = r.getVideoTracks()[0], { width: a = 1920, height: o = 1080 } = i.getSettings(), p = T(a), h = T(o), _ = await Ye([
+			let i = r.getVideoTracks()[0], { width: a = 1920, height: o = 1080 } = i.getSettings(), p = T(a), h = T(o), _ = await Ke([
 				"avc",
 				"vp9",
 				"av1",
@@ -10778,32 +11356,32 @@ function ns({ root: e, onCaptured: t }) {
 				height: h
 			});
 			if (!_) throw Error("This browser can't encode video at this size.");
-			let v = _ === "avc" || _ === "av1", y = v ? new Ti({ fastStart: "in-memory" }) : new ki(), b = new ti(), S = new Vi({
+			let v = _ === "avc" || _ === "av1", y = v ? new Ei({ fastStart: "in-memory" }) : new Ai(), b = new ni(), S = new Hi({
 				format: y,
 				target: b
-			}), C = Yo[m.value] ?? (parseFloat(m.value) || 5) * 1e6, E = [], D;
+			}), C = us[m.value] ?? (parseFloat(m.value) || 5) * 1e6, E = [], D;
 			if (n) {
 				let t = document.createElement("canvas");
 				t.width = p, t.height = h;
-				let r = new Ae(t, {
+				let r = new je(t, {
 					codec: _,
 					bitrate: C,
 					contentHint: "detail"
 				});
-				S.addVideoTrack(r, { frameRate: e }), D = Jo({
+				S.addVideoTrack(r, { frameRate: e }), D = ls({
 					canvas: t,
 					source: r,
 					screenTrack: i,
 					webcamTrack: n,
 					fps: e,
 					corner: u.value,
-					size: Go[f.value] ?? Go.medium,
+					size: os[f.value] ?? os.medium,
 					onError: (e) => {
-						console.error("Screen capture error:", e), g.textContent = `Recording error: ${e?.message || e}`, ae();
+						console.error("Screen capture error:", e), g.textContent = `Recording error: ${e?.message || e}`, I();
 					}
 				});
 			} else {
-				let t = new It(i, {
+				let t = new Lt(i, {
 					codec: _,
 					bitrate: C,
 					contentHint: "detail",
@@ -10816,9 +11394,9 @@ function ns({ root: e, onCaptured: t }) {
 				}, { frameRate: e });
 				S.addVideoTrack(t, { frameRate: e }), E.push(t.errorPromise);
 			}
-			let O = t.flatMap((e) => e.getAudioTracks()), { track: j, audioContext: M } = ie(O);
+			let O = t.flatMap((e) => e.getAudioTracks()), { track: j, audioContext: M } = ne(O);
 			if (j) {
-				let e = await ut(v ? ["aac", "opus"] : ["opus"]);
+				let e = await Ye(v ? ["aac", "opus"] : ["opus"]);
 				if (e) {
 					let t = new d(j, {
 						codec: e,
@@ -10828,7 +11406,7 @@ function ns({ root: e, onCaptured: t }) {
 				}
 			}
 			Promise.race(E).catch((e) => {
-				console.error("Screen capture error:", e), g.textContent = `Recording error: ${e?.message || e}`, ae();
+				console.error("Screen capture error:", e), g.textContent = `Recording error: ${e?.message || e}`, I();
 			}), await S.start();
 			let ee = performance.now();
 			x = {
@@ -10842,40 +11420,40 @@ function ns({ root: e, onCaptured: t }) {
 				prefix: "screen-capture",
 				compositor: D,
 				timer: window.setInterval(() => {
-					g.textContent = `● Recording ${ya((performance.now() - ee) / 1e3).replace(/\.\d+$/, "")}`;
+					g.textContent = `● Recording ${ba((performance.now() - ee) / 1e3).replace(/\.\d+$/, "")}`;
 				}, 250)
-			}, D?.start(), g.textContent = "● Recording 0:00", te(!0), w.start(ee), console.log(`Screen capture started: ${p}x${h} @ ${e} fps, ${_} (${m.selectedOptions[0]?.text})${n ? " + webcam" : ""}${j ? ` + ${O.length > 1 ? "mixed " : ""}audio` : ", no audio"}.`), i.addEventListener("ended", () => void ae());
+			}, D?.start(), g.textContent = "● Recording 0:00", N(!0), w.start(ee), console.log(`Screen capture started: ${p}x${h} @ ${e} fps, ${_} (${m.selectedOptions[0]?.text})${n ? " + webcam" : ""}${j ? ` + ${O.length > 1 ? "mixed " : ""}audio` : ", no audio"}.`), i.addEventListener("ended", () => void I());
 		} catch (e) {
 			t.forEach((e) => e.getTracks().forEach((e) => e.stop())), ee(), e?.name === "NotAllowedError" ? g.textContent = "Screen capture was cancelled." : (console.error("Screen capture failed:", e), g.textContent = `Screen capture failed: ${e?.message || e}`);
 		}
 	}
-	async function P() {
+	async function F() {
 		if (x) return;
 		let e = [];
 		M();
 		try {
 			let t = await navigator.mediaDevices.getDisplayMedia({
 				video: !0,
-				audio: Qo
+				audio: ps
 			});
 			if (e.push(t), !t.getAudioTracks().length && !c.checked) throw Error("No audio was shared. In the picker, choose a tab or entire screen and enable \"Share audio\".");
 			if (c.checked) try {
 				e.push(await navigator.mediaDevices.getUserMedia({ audio: {
-					...$o,
-					deviceId: Ho(k.deviceId())
+					...ms,
+					deviceId: rs(k.deviceId())
 				} }));
 			} catch (e) {
 				console.warn("Microphone unavailable; recording without it:", e);
 			}
-			let n = e.flatMap((e) => e.getAudioTracks()), { track: r, audioContext: i } = ie(n);
+			let n = e.flatMap((e) => e.getAudioTracks()), { track: r, audioContext: i } = ne(n);
 			if (!r) throw Error("No audio source is available.");
-			let a = await ut([
+			let a = await Ye([
 				"pcm-s16",
 				"opus",
 				"aac"
 			]);
 			if (!a) throw Error("This browser can't encode audio.");
-			let o = a === "pcm-s16", s = a === "opus", l = o ? new ji() : s ? new ki() : new Ti({ fastStart: "in-memory" }), u = new ti(), f = new Vi({
+			let o = a === "pcm-s16", s = a === "opus", l = o ? new Mi() : s ? new Ai() : new Ei({ fastStart: "in-memory" }), u = new ni(), f = new Hi({
 				format: l,
 				target: u
 			}), p = new d(r, {
@@ -10883,7 +11461,7 @@ function ns({ root: e, onCaptured: t }) {
 				bitrate: 192e3
 			});
 			f.addAudioTrack(p), p.errorPromise.catch((e) => {
-				console.error("Audio capture error:", e), g.textContent = `Recording error: ${e?.message || e}`, ae();
+				console.error("Audio capture error:", e), g.textContent = `Recording error: ${e?.message || e}`, I();
 			}), await f.start();
 			let m = performance.now();
 			x = {
@@ -10896,14 +11474,14 @@ function ns({ root: e, onCaptured: t }) {
 				mime: o ? "audio/wav" : s ? "audio/webm" : "audio/mp4",
 				prefix: "audio-capture",
 				timer: window.setInterval(() => {
-					g.textContent = `● Recording audio ${ya((performance.now() - m) / 1e3).replace(/\.\d+$/, "")}`;
+					g.textContent = `● Recording audio ${ba((performance.now() - m) / 1e3).replace(/\.\d+$/, "")}`;
 				}, 250)
-			}, g.textContent = "● Recording audio 0:00", te(!0), w.start(m), console.log(`Audio capture started: ${a}${n.length > 1 ? ", mixed sources" : ""}.`), t.getTracks().forEach((e) => e.addEventListener("ended", () => void ae()));
+			}, g.textContent = "● Recording audio 0:00", N(!0), w.start(m), console.log(`Audio capture started: ${a}${n.length > 1 ? ", mixed sources" : ""}.`), t.getTracks().forEach((e) => e.addEventListener("ended", () => void I()));
 		} catch (t) {
 			e.forEach((e) => e.getTracks().forEach((e) => e.stop())), ee(), t?.name === "NotAllowedError" ? g.textContent = "Audio capture was cancelled." : (console.error("Audio capture failed:", t), g.textContent = `Audio capture failed: ${t?.message || t}`);
 		}
 	}
-	async function ae() {
+	async function I() {
 		if (!x || S) return;
 		S = !0;
 		let e = x;
@@ -10911,22 +11489,22 @@ function ns({ root: e, onCaptured: t }) {
 		try {
 			await e.compositor?.stop(), await e.output.finalize();
 		} finally {
-			e.streams.forEach((e) => e.getTracks().forEach((e) => e.stop())), e.audioContext?.close(), x = null, S = !1, te(!1);
+			e.streams.forEach((e) => e.getTracks().forEach((e) => e.stop())), e.audioContext?.close(), x = null, S = !1, N(!1);
 		}
 		let n = e.target.buffer;
 		if (!n) {
 			g.textContent = "Recording was empty.";
 			return;
 		}
-		let r = new File([n], `${e.prefix}_${es()}.${e.ext}`, { type: e.mime });
-		ne(r, `Recorded ${va(r.size)} — loaded below for editing. `), console.log(`Screen capture finished: ${r.name}, ${va(r.size)}.`), await t(r);
+		let r = new File([n], `${e.prefix}_${hs()}.${e.ext}`, { type: e.mime });
+		te(r, `Recorded ${ya(r.size)} — loaded below for editing. `), console.log(`Screen capture finished: ${r.name}, ${ya(r.size)}.`), await t(r);
 	}
-	i.addEventListener("click", () => void N()), l.addEventListener("change", () => {
+	i.addEventListener("click", () => void re()), l.addEventListener("change", () => {
 		u.disabled = f.disabled = !l.checked;
-	}), a.addEventListener("click", () => void P()), o.addEventListener("click", () => void ae()), v.addEventListener("click", () => void re());
+	}), a.addEventListener("click", () => void F()), o.addEventListener("click", () => void I()), v.addEventListener("click", () => void P());
 }
 // src/videoUpscale.ts
-function rs(e, t, n) {
+function vs(e, t, n) {
 	let r = document.createElement("canvas"), i = r.getContext("2d");
 	n && (r.width = n.width, r.height = n.height);
 	function a(e, t) {
@@ -10939,9 +11517,9 @@ function rs(e, t, n) {
 	}
 	async function o(t, r) {
 		let i, o, s, c = r.timestamp, l = r.duration;
-		t instanceof Ft ? (i = t.toCanvasImageSource(), o = t.displayWidth, s = t.displayHeight, c = t.timestamp, l = t.duration) : (i = t, o = t.width, s = t.height);
+		t instanceof Gt ? (i = t.toCanvasImageSource(), o = t.displayWidth, s = t.displayHeight, c = t.timestamp, l = t.duration) : (i = t, o = t.width, s = t.height);
 		let u = await e.upscale(i, o, s);
-		return n && (u = a(u, n)), t instanceof Ft && t !== r && t.close(), new Ft(u, {
+		return n && (u = a(u, n)), t instanceof Gt && t !== r && t.close(), new Gt(u, {
 			timestamp: c,
 			duration: l
 		});
@@ -10956,22 +11534,22 @@ function rs(e, t, n) {
 	};
 }
 // src/frameInterpolation.ts
-var is = {
+var ys = {
 	label: "RIFE 4.9",
 	url: "https://huggingface.co/yuvraj108c/rife-onnx/resolve/64de7265b6a06637c2f2c6a92ecd1972326499fe/rife49_ensemble_True_scale_1_sim.onnx",
 	bytes: 21458882
-}, as = 64, os = .2;
-async function ss(e = () => {}) {
-	let { ort: t, session: n } = await Ot(is, e), r = document.createElement("canvas"), i = r.getContext("2d", { willReadFrequently: !0 }), a = document.createElement("canvas"), o = a.getContext("2d"), s = 0, c = 0, l = null, u = null;
+}, bs = 64, xs = .2;
+async function Ss(e = () => {}) {
+	let { ort: t, session: n } = await Ot(ys, e), r = document.createElement("canvas"), i = r.getContext("2d", { willReadFrequently: !0 }), a = document.createElement("canvas"), o = a.getContext("2d"), s = 0, c = 0, l = null, u = null;
 	function d(e, t, n) {
-		let a = Math.ceil(t / as) * as, o = Math.ceil(n / as) * as;
+		let a = Math.ceil(t / bs) * bs, o = Math.ceil(n / bs) * bs;
 		(r.width !== a || r.height !== o) && (r.width = a, r.height = o), i.drawImage(e, 0, 0, t, n), a > t && i.drawImage(r, t - 1, 0, 1, n, t, 0, a - t, n), o > n && i.drawImage(r, 0, n - 1, a, 1, 0, n, a, o - n);
 		let s = i.getImageData(0, 0, a, o).data, c = a * o, l = new Float32Array(3 * c);
 		for (let e = 0, t = 0; e < c; e++, t += 4) l[e] = s[t] / 255, l[c + e] = s[t + 1] / 255, l[2 * c + e] = s[t + 2] / 255;
 		return l;
 	}
 	return {
-		label: is.label,
+		label: ys.label,
 		push(e, t, n) {
 			(t !== s || n !== c) && (s = t, c = n, u = null), l = u, u = d(e, t, n);
 		},
@@ -10979,7 +11557,7 @@ async function ss(e = () => {}) {
 			if (!l || !u) return !1;
 			let e = 0, t = 0;
 			for (let n = 0; n < u.length; n += 97, t++) e += Math.abs(u[n] - l[n]);
-			return e / t > os;
+			return e / t > xs;
 		},
 		async interpolate(e) {
 			if (!l || !u) throw Error("Interpolation needs two frames.");
@@ -10998,7 +11576,7 @@ async function ss(e = () => {}) {
 		}
 	};
 }
-function cs(e, t, n = 1) {
+function Cs(e, t, n = 1) {
 	let r = 1 / t, i = r * .001, a = null, o = 0, s = 0, c = 0, l = (e, t) => {
 		let n = e.clone();
 		return n.setTimestamp(t), n.setDuration(r), n;
@@ -11011,7 +11589,7 @@ function cs(e, t, n = 1) {
 		let p = [];
 		for (; s <= u + i;) {
 			let n = d > 0 ? Math.min(1, Math.max(0, (s - o) / d)) : 1;
-			n < .02 || f && n < .5 ? p.push(l(a, s)) : n > .98 || f ? p.push(l(t, s)) : p.push(new Ft(await e.interpolate(n), {
+			n < .02 || f && n < .5 ? p.push(l(a, s)) : n > .98 || f ? p.push(l(t, s)) : p.push(new Gt(await e.interpolate(n), {
 				timestamp: s,
 				duration: r
 			})), s += r;
@@ -11020,8 +11598,8 @@ function cs(e, t, n = 1) {
 	};
 }
 // src/toolkitCore.ts
-var ls = [], us = !1;
-function ds(e) {
+var ws = [], Ts = !1;
+function Es(e) {
 	if (typeof e != "object" || !e) return String(e);
 	try {
 		return JSON.stringify(e);
@@ -11029,19 +11607,19 @@ function ds(e) {
 		return String(e);
 	}
 }
-function fs() {
-	if (us) return;
-	us = !0;
+function Ds() {
+	if (Ts) return;
+	Ts = !0;
 	let e = console.log, t = console.warn, n = console.error, r = (e, t, n) => {
-		if (n.apply(console, t), ls.length === 0) return;
-		let r = (/* @__PURE__ */ new Date()).toLocaleTimeString(), i = t.map(ds).join(" ").replace(/</g, "&lt;").replace(/>/g, "&gt;"), a = "#a6e22e";
+		if (n.apply(console, t), ws.length === 0) return;
+		let r = (/* @__PURE__ */ new Date()).toLocaleTimeString(), i = t.map(Es).join(" ").replace(/</g, "&lt;").replace(/>/g, "&gt;"), a = "#a6e22e";
 		e === "warn" && (a = "#fd971f"), e === "error" && (a = "#f92672");
-		for (let e of ls) e.innerHTML += `<div style="color: ${a}">[${r}] ${i}</div>`, e.scrollTop = e.scrollHeight;
+		for (let e of ws) e.innerHTML += `<div style="color: ${a}">[${r}] ${i}</div>`, e.scrollTop = e.scrollHeight;
 	};
 	console.log = (...t) => r("log", t, e), console.warn = (...e) => r("warn", e, t), console.error = (...e) => r("error", e, n);
 }
-function ps(e, { themeElement: t }) {
-	fs();
+function Os(e, { themeElement: t }) {
+	Ds();
 	let n = [
 		e.getElementById("log-console"),
 		e.getElementById("log-console-img"),
@@ -11049,7 +11627,7 @@ function ps(e, { themeElement: t }) {
 		e.getElementById("log-console-batch"),
 		e.getElementById("log-console-vbatch")
 	].filter((e) => e != null);
-	n.forEach((e) => ls.push(e)), [
+	n.forEach((e) => ws.push(e)), [
 		e.getElementById("clear-console-btn"),
 		e.getElementById("clear-console-btn-img"),
 		e.getElementById("clear-console-btn-audio"),
@@ -11062,7 +11640,7 @@ function ps(e, { themeElement: t }) {
 			});
 		});
 	});
-	let r = e.getElementById("theme-toggle"), i = e.getElementById("theme-icon-moon"), o = e.getElementById("theme-icon-sun"), s = e.getElementById("dropzone"), c = e.getElementById("dropzone-status"), l = e.getElementById("video-file-input"), u = e.getElementById("loaded-file-section"), d = e.getElementById("video-workspace"), f = e.getElementById("image-workspace"), p = e.getElementById("audio-workspace"), m = e.getElementById("batch-workspace"), h = e.getElementById("video-batch-workspace"), g = e.getElementById("preview-video"), _ = e.getElementById("meta-name"), v = e.getElementById("meta-size"), y = e.getElementById("meta-duration"), x = e.getElementById("meta-resolution"), S = e.getElementById("meta-aspect"), C = e.getElementById("meta-vcodec"), w = e.getElementById("meta-fps"), T = e.getElementById("meta-atrack"), E = e.getElementById("meta-tags"), D = e.getElementById("conversion-form"), O = e.getElementById("enable-trim"), k = e.getElementById("trim-controls-group"), A = e.getElementById("trim-start"), j = e.getElementById("trim-end"), M = e.getElementById("trim-start-val"), ee = e.getElementById("trim-end-val"), te = e.getElementById("trim-selection-bar"), ne = e.getElementById("enable-resize"), re = e.getElementById("resize-controls-group"), ie = e.getElementById("resize-preset"), N = e.getElementById("resize-width"), P = e.getElementById("resize-height"), F = e.getElementById("preserve-aspect"), I = e.getElementById("resize-fit"), L = e.getElementById("enable-upscale"), R = e.getElementById("upscale-model"), oe = e.getElementById("upscale-status"), ce = e.getElementById("enable-rife"), le = e.getElementById("rife-controls-group"), z = e.getElementById("rife-source-fps"), ue = e.getElementById("rife-speed"), de = e.getElementById("rife-fps"), fe = e.getElementById("rife-audio-wrap"), B = e.getElementById("rife-audio"), V = e.getElementById("rife-summary"), pe = e.getElementById("rife-preset-smooth"), me = e.getElementById("rife-preset-slowmo"), H = e.getElementById("panel-resample"), U = e.getElementById("out-format"), W = e.getElementById("out-vcodec"), he = e.getElementById("out-quality"), G = e.getElementById("out-quality-val"), K = e.getElementById("out-quality-rate"), ge = e.getElementById("quality-help"), q = e.getElementById("fast-copy-tag"), _e = [
+	let r = e.getElementById("theme-toggle"), i = e.getElementById("theme-icon-moon"), o = e.getElementById("theme-icon-sun"), s = e.getElementById("dropzone"), c = e.getElementById("dropzone-status"), l = e.getElementById("video-file-input"), u = e.getElementById("loaded-file-section"), d = e.getElementById("video-workspace"), f = e.getElementById("image-workspace"), p = e.getElementById("audio-workspace"), m = e.getElementById("batch-workspace"), h = e.getElementById("video-batch-workspace"), g = e.getElementById("preview-video"), _ = e.getElementById("meta-name"), v = e.getElementById("meta-size"), y = e.getElementById("meta-duration"), x = e.getElementById("meta-resolution"), S = e.getElementById("meta-aspect"), C = e.getElementById("meta-vcodec"), w = e.getElementById("meta-fps"), T = e.getElementById("meta-atrack"), E = e.getElementById("meta-tags"), D = e.getElementById("conversion-form"), k = e.getElementById("enable-trim"), A = e.getElementById("trim-controls-group"), j = e.getElementById("trim-start"), M = e.getElementById("trim-end"), ee = e.getElementById("trim-start-val"), N = e.getElementById("trim-end-val"), te = e.getElementById("trim-selection-bar"), P = e.getElementById("enable-resize"), ne = e.getElementById("resize-controls-group"), re = e.getElementById("resize-preset"), F = e.getElementById("resize-width"), I = e.getElementById("resize-height"), L = e.getElementById("preserve-aspect"), R = e.getElementById("resize-fit"), z = e.getElementById("enable-upscale"), B = e.getElementById("upscale-model"), ie = e.getElementById("upscale-status"), ae = e.getElementById("enable-rife"), se = e.getElementById("rife-controls-group"), ce = e.getElementById("rife-source-fps"), le = e.getElementById("rife-speed"), ue = e.getElementById("rife-fps"), de = e.getElementById("rife-audio-wrap"), V = e.getElementById("rife-audio"), H = e.getElementById("rife-summary"), fe = e.getElementById("rife-preset-smooth"), pe = e.getElementById("rife-preset-slowmo"), U = e.getElementById("panel-resample"), me = e.getElementById("out-format"), W = e.getElementById("out-vcodec"), he = e.getElementById("out-quality"), G = e.getElementById("out-quality-val"), K = e.getElementById("out-quality-rate"), ge = e.getElementById("quality-help"), q = e.getElementById("fast-copy-tag"), _e = [
 		"panel-crop",
 		"panel-upscale",
 		"panel-rife",
@@ -11071,18 +11649,18 @@ function ps(e, { themeElement: t }) {
 		"panel-compression",
 		"panel-rotation",
 		"panel-resample"
-	].map((t) => e.getElementById(t)), ve = e.getElementById("enable-crop-video"), J = e.getElementById("crop-controls-group"), ye = e.getElementById("crop-x"), be = e.getElementById("crop-y"), xe = e.getElementById("crop-w"), Se = e.getElementById("crop-h"), Ce = e.getElementById("crop-full"), we = e.getElementById("crop-square"), Te = e.querySelector("label[for=\"audio-mode-transcode\"]"), Ee = e.getElementById("rotate-correction"), De = e.getElementById("allow-rot-metadata"), Oe = e.getElementById("enable-fps"), ke = e.getElementById("fps-controls-group"), Ae = e.getElementById("target-fps"), je = e.getElementById("fps-mode"), Me = e.getElementById("fps-mode-wrap"), Ne = e.getElementById("enable-speed"), Pe = e.getElementById("speed-controls-group"), Ie = e.getElementById("speed-factor"), Le = e.getElementById("speed-custom-wrap"), Re = e.getElementById("speed-custom"), ze = e.getElementById("speed-frames"), Be = e.getElementById("speed-audio"), Ve = e.getElementById("speed-output-length"), He = e.getElementById("use-custom-bitrate"), Ue = e.getElementById("custom-bitrate-group"), We = e.getElementById("custom-bitrate"), Ge = e.getElementById("custom-bitrate-mbps-label"), Ke = e.getElementById("audio-mode-copy"), qe = e.getElementById("audio-mode-transcode"), Je = e.getElementById("audio-mode-mute"), Ye = e.getElementById("audio-transcode-controls"), Xe = e.getElementById("audio-codec"), Ze = e.getElementById("audio-bitrate"), Qe = e.getElementById("audio-channels"), $e = e.getElementById("audio-samplerate"), et = bo(e, "video"), tt = e.getElementById("convert-btn"), nt = e.getElementById("cancel-btn"), rt = e.getElementById("progress-section"), it = e.getElementById("progress-title"), at = e.getElementById("progress-percentage"), ot = e.getElementById("conversion-progress"), st = e.getElementById("progress-time-processed"), ct = e.getElementById("progress-speed"), lt = e.getElementById("result-section"), ut = e.getElementById("download-anchor"), dt = e.getElementById("output-size-tag"), ft = e.getElementById("output-video"), pt = e.getElementById("output-placeholder"), mt = e.getElementById("image-result-section"), ht = null, gt = null, _t = 0, vt = 0, yt = !1, bt = 0, xt = 0, St = !1, Ct = null, wt = !1, Tt = null, Et = null, Dt = null, Ot = null, kt = {
+	].map((t) => e.getElementById(t)), ve = e.getElementById("enable-crop-video"), J = e.getElementById("crop-controls-group"), ye = e.getElementById("crop-x"), be = e.getElementById("crop-y"), xe = e.getElementById("crop-w"), Se = e.getElementById("crop-h"), Ce = e.getElementById("crop-full"), we = e.getElementById("crop-square"), Te = e.querySelector("label[for=\"audio-mode-transcode\"]"), Ee = e.getElementById("rotate-correction"), De = e.getElementById("allow-rot-metadata"), Oe = e.getElementById("enable-fps"), ke = e.getElementById("fps-controls-group"), Ae = e.getElementById("target-fps"), je = e.getElementById("fps-mode"), Me = e.getElementById("fps-mode-wrap"), Ne = e.getElementById("enable-speed"), Pe = e.getElementById("speed-controls-group"), Fe = e.getElementById("speed-factor"), Ie = e.getElementById("speed-custom-wrap"), Le = e.getElementById("speed-custom"), Y = e.getElementById("speed-frames"), Re = e.getElementById("speed-audio"), ze = e.getElementById("speed-output-length"), Be = e.getElementById("use-custom-bitrate"), Ve = e.getElementById("custom-bitrate-group"), He = e.getElementById("custom-bitrate"), Ue = e.getElementById("custom-bitrate-mbps-label"), We = e.getElementById("audio-mode-copy"), Ge = e.getElementById("audio-mode-transcode"), Ke = e.getElementById("audio-mode-mute"), qe = e.getElementById("audio-transcode-controls"), Je = e.getElementById("audio-codec"), Ye = e.getElementById("audio-bitrate"), Xe = e.getElementById("audio-channels"), Ze = e.getElementById("audio-samplerate"), Qe = xo(e, "video"), $e = e.getElementById("convert-btn"), et = e.getElementById("cancel-btn"), tt = e.getElementById("progress-section"), nt = e.getElementById("progress-title"), rt = e.getElementById("progress-percentage"), it = e.getElementById("conversion-progress"), at = e.getElementById("progress-time-processed"), ot = e.getElementById("progress-speed"), ct = e.getElementById("result-section"), lt = e.getElementById("download-anchor"), ut = e.getElementById("output-size-tag"), dt = e.getElementById("output-video"), ft = e.getElementById("output-placeholder"), pt = e.getElementById("image-result-section"), mt = null, ht = null, gt = 0, _t = 0, vt = !1, yt = 0, bt = 0, xt = !1, St = null, Ct = !1, wt = null, Tt = null, Et = null, Dt = null, Ot = {
 		lastSample: null,
 		nextOutputTimestamp: 0,
 		isFirstFrame: !0,
 		blendCanvas: null,
 		blendCtx: null
 	};
-	function At() {
-		if (kt.lastSample) try {
-			kt.lastSample.close();
+	function kt() {
+		if (Ot.lastSample) try {
+			Ot.lastSample.close();
 		} catch {}
-		kt = {
+		Ot = {
 			lastSample: null,
 			nextOutputTimestamp: 0,
 			isFirstFrame: !0,
@@ -11090,35 +11668,35 @@ function ps(e, { themeElement: t }) {
 			blendCtx: null
 		};
 	}
-	function jt() {
+	function At() {
 		let e = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-		t.setAttribute("data-theme", e), Y(e);
+		t.setAttribute("data-theme", e), jt(e);
 	}
-	function Y(e) {
+	function jt(e) {
 		e === "dark" ? (i.style.display = "none", o.style.display = "inline-block") : (i.style.display = "inline-block", o.style.display = "none");
 	}
 	r.addEventListener("click", () => {
 		let e = (t.getAttribute("data-theme") || "light") === "light" ? "dark" : "light";
-		t.setAttribute("data-theme", e), localStorage.setItem("theme", e), Y(e);
-	}), jt();
+		t.setAttribute("data-theme", e), localStorage.setItem("theme", e), jt(e);
+	}), At();
 	function Mt() {
 		u.style.display = "block", u.scrollIntoView({ behavior: "smooth" });
 	}
-	Tt = Ua({
+	wt = Wa({
 		root: e,
-		formatBytes: va,
+		formatBytes: ya,
 		revealLoadedSection: Mt
-	}), Et = xo({
+	}), Tt = So({
 		root: e,
-		formatBytes: va,
+		formatBytes: ya,
 		revealLoadedSection: Mt
-	}), Dt = Ao({ root: e }), Ot = Mo({ root: e }), ns({
+	}), Et = jo({ root: e }), Dt = No({ root: e }), _s({
 		root: e,
 		onCaptured: (e) => Pt([e], () => zt(e))
 	});
 	let Nt = !1;
 	async function Pt(e, t) {
-		Nt = !0, c.textContent = e.length > 1 ? `Loading ${e.length} files…` : `Loading ${e[0].name} (${va(e[0].size)})…`, s.classList.add("loading"), await new Promise((e) => requestAnimationFrame(() => setTimeout(e)));
+		Nt = !0, c.textContent = e.length > 1 ? `Loading ${e.length} files…` : `Loading ${e[0].name} (${ya(e[0].size)})…`, s.classList.add("loading"), await new Promise((e) => requestAnimationFrame(() => setTimeout(e)));
 		try {
 			await t();
 		} finally {
@@ -11159,9 +11737,9 @@ function ps(e, { themeElement: t }) {
 			return;
 		}
 		let t = e.filter((e) => Lt(e) === "image"), n = e.filter((e) => Lt(e) === "video"), r = () => {
-			Tt?.dispose(), Et?.dispose(), gt &&= (gt.dispose(), null);
+			wt?.dispose(), Tt?.dispose(), ht &&= (ht.dispose(), null);
 		};
-		n.length >= 2 ? (Rt("vbatch"), r(), Ot?.start(n), Mt(), n.length < e.length && console.warn(`Video batch: ${e.length - n.length} non-video file(s) were ignored.`)) : t.length >= 2 ? (Rt("batch"), r(), Dt?.start(t), Mt(), t.length < e.length && console.warn(`Image batch: ${e.length - t.length} non-image file(s) were ignored.`)) : await zt(e[0]);
+		n.length >= 2 ? (Rt("vbatch"), r(), Dt?.start(n), Mt(), n.length < e.length && console.warn(`Video batch: ${e.length - n.length} non-video file(s) were ignored.`)) : t.length >= 2 ? (Rt("batch"), r(), Et?.start(t), Mt(), t.length < e.length && console.warn(`Image batch: ${e.length - t.length} non-image file(s) were ignored.`)) : await zt(e[0]);
 	}
 	function Lt(e) {
 		if (e.type.startsWith("video/")) return "video";
@@ -11196,158 +11774,158 @@ function ps(e, { themeElement: t }) {
 		].some((e) => t.endsWith(e)) ? "audio" : null;
 	}
 	function Rt(e) {
-		d.style.display = e === "video" ? "grid" : "none", f.style.display = e === "image" ? "grid" : "none", p.style.display = e === "audio" ? "grid" : "none", m.style.display = e === "batch" ? "block" : "none", h.style.display = e === "vbatch" ? "block" : "none", rt.style.display = "none", lt.style.display = "none", pt.style.display = "", mt.style.display = "none", Tt?.setActive(e === "image"), Et?.setActive(e === "audio"), e !== "batch" && Dt?.dispose(), e !== "vbatch" && Ot?.dispose();
+		d.style.display = e === "video" ? "grid" : "none", f.style.display = e === "image" ? "grid" : "none", p.style.display = e === "audio" ? "grid" : "none", m.style.display = e === "batch" ? "block" : "none", h.style.display = e === "vbatch" ? "block" : "none", tt.style.display = "none", ct.style.display = "none", ft.style.display = "", pt.style.display = "none", wt?.setActive(e === "image"), Tt?.setActive(e === "audio"), e !== "batch" && Et?.dispose(), e !== "vbatch" && Dt?.dispose();
 	}
 	async function zt(e) {
 		let t = Lt(e);
-		t ? (gt && t !== "video" && (gt.dispose(), gt = null), t === "video" ? await Bt(e) : t === "image" ? (Rt("image"), Et?.dispose(), await Tt?.load(e)) : (Rt("audio"), Tt?.dispose(), await Et?.load(e))) : alert("Unsupported file type. Please load a video, image, or audio file.");
+		t ? (ht && t !== "video" && (ht.dispose(), ht = null), t === "video" ? await Bt(e) : t === "image" ? (Rt("image"), Tt?.dispose(), await wt?.load(e)) : (Rt("audio"), wt?.dispose(), await Tt?.load(e))) : alert("Unsupported file type. Please load a video, image, or audio file.");
 	}
 	async function Bt(e) {
-		ht = e, Rt("video"), console.log(`Loading video file: "${e.name}" (${va(e.size)})`), Tt?.dispose(), Et?.dispose(), lt.style.display = "none", ft.src && URL.revokeObjectURL(ft.src), ft.src = "";
+		mt = e, Rt("video"), console.log(`Loading video file: "${e.name}" (${ya(e.size)})`), wt?.dispose(), Tt?.dispose(), ct.style.display = "none", dt.src && URL.revokeObjectURL(dt.src), dt.src = "";
 		let t = URL.createObjectURL(e);
-		g.src = t, _.textContent = e.name, v.textContent = va(e.size);
+		g.src = t, _.textContent = e.name, v.textContent = ya(e.size);
 		try {
-			gt && gt.dispose(), gt = new a({
-				formats: se,
-				source: new b(e)
-			}), await gt.canRead() || console.warn("Input format is unrecognized by MediaBunny. Transcoding might fail depending on engine codecs.");
-			let t = await gt.getFormat();
+			ht && ht.dispose(), ht = new a({
+				formats: b,
+				source: new O(e)
+			}), await ht.canRead() || console.warn("Input format is unrecognized by MediaBunny. Transcoding might fail depending on engine codecs.");
+			let t = await ht.getFormat();
 			console.log(`Detected Container Format: ${t.name} (MimeType: ${t.mimeType})`);
-			let n = await gt.getVideoTracks(), r = await gt.getAudioTracks();
+			let n = await ht.getVideoTracks(), r = await ht.getAudioTracks();
 			console.log(`Detected: ${n.length} video track(s) and ${r.length} audio track(s).`);
-			let i = await gt.getPrimaryVideoTrack();
+			let i = await ht.getPrimaryVideoTrack();
 			if (i) {
-				_t = await i.getDisplayWidth(), vt = await i.getDisplayHeight();
-				let e = await i.getCodec(), t = await i.getCodedWidth(), n = await i.getCodedHeight(), a = await i.getRotation(), o = _t, s = vt;
-				yt = !1;
+				gt = await i.getDisplayWidth(), _t = await i.getDisplayHeight();
+				let e = await i.getCodec(), t = await i.getCodedWidth(), n = await i.getCodedHeight(), a = await i.getRotation(), o = gt, s = _t;
+				vt = !1;
 				try {
-					let e = await new ae(i).getSample(await i.getFirstTimestamp());
-					e && ((e.displayWidth !== o || e.displayHeight !== s) && (_t = e.displayWidth, vt = e.displayHeight, yt = !0, console.warn(`Container declares ${o}x${s} but frames decode at ${_t}x${vt}. Using the decoded size.`)), e.close());
+					let e = await new oe(i).getSample(await i.getFirstTimestamp());
+					e && ((e.displayWidth !== o || e.displayHeight !== s) && (gt = e.displayWidth, _t = e.displayHeight, vt = !0, console.warn(`Container declares ${o}x${s} but frames decode at ${gt}x${_t}. Using the decoded size.`)), e.close());
 				} catch (e) {
 					console.warn("Could not decode a frame to verify video dimensions:", e);
 				}
-				bt = await gt.computeDuration(), y.textContent = ya(bt), x.textContent = yt ? `${_t}x${vt} (container says ${o}x${s})` : `${_t}x${vt}`, S.textContent = `${(_t / vt).toFixed(2)}:1`, C.textContent = String(e).toUpperCase();
+				yt = await ht.computeDuration(), y.textContent = ba(yt), x.textContent = vt ? `${gt}x${_t} (container says ${o}x${s})` : `${gt}x${_t}`, S.textContent = `${(gt / _t).toFixed(2)}:1`, C.textContent = String(e).toUpperCase();
 				try {
 					let e = await i.computePacketStats(300);
-					e && e.averagePacketRate ? (xt = e.averagePacketRate, w.textContent = `${e.averagePacketRate.toFixed(2)} fps`, console.log(`Computed original FPS estimate: ${e.averagePacketRate} fps from prefix stats.`)) : w.textContent = "Unknown";
+					e && e.averagePacketRate ? (bt = e.averagePacketRate, w.textContent = `${e.averagePacketRate.toFixed(2)} fps`, console.log(`Computed original FPS estimate: ${e.averagePacketRate} fps from prefix stats.`)) : w.textContent = "Unknown";
 				} catch (e) {
 					console.warn("Could not compute primary video packet stats for FPS metadata:", e), w.textContent = "Unknown";
 				}
-				St = r.length > 0, T.textContent = r.length > 0 ? `${r.length} track(s)` : "Muted / None", console.log(`Video details: ${t}x${n} coded dimensions, display size ${_t}x${vt}, natural rotation: ${a}°`), N.value = String(_t), P.value = String(vt), nn = {
-					w: _t,
-					h: vt
-				}, N.max = String(_t * 2), P.max = String(vt * 2), Vt.setDuration(bt), ln();
+				xt = r.length > 0, T.textContent = r.length > 0 ? `${r.length} track(s)` : "Muted / None", console.log(`Video details: ${t}x${n} coded dimensions, display size ${gt}x${_t}, natural rotation: ${a}°`), F.value = String(gt), I.value = String(_t), nn = {
+					w: gt,
+					h: _t
+				}, F.max = String(gt * 2), I.max = String(_t * 2), Vt.setDuration(yt), ln();
 			} else console.warn("No video track detected inside this clip! Options might behave differently."), x.textContent = "Audio Only", S.textContent = "-", C.textContent = "-";
 			try {
-				let e = await gt.getMetadataTags(), t = {};
-				for (let [n, r] of Object.entries(e)) t[n] = r instanceof Uint8Array ? `[Binary Array: ${va(r.length)}]` : Array.isArray(r) ? `[Array of ${r.length} entries]` : r;
+				let e = await ht.getMetadataTags(), t = {};
+				for (let [n, r] of Object.entries(e)) t[n] = r instanceof Uint8Array ? `[Binary Array: ${ya(r.length)}]` : Array.isArray(r) ? `[Array of ${r.length} entries]` : r;
 				let n = Object.keys(t).length > 0 ? JSON.stringify(t, null, 2) : "No tags parsed from metadata container.";
 				E.textContent = n;
 			} catch {
 				E.textContent = "Unabled to parse metadata block tags.";
 			}
-			Mt(), ce.checked || delete ce.dataset.touched, Xt(), dn();
+			Mt(), bn.onVideoLoaded(), ae.checked || delete ae.dataset.touched, Xt(), dn();
 		} catch (e) {
 			console.error("An error occurred during video analysis profiling: ", e), alert(`Could not process video metadata: ${e.message || e}`);
 		}
 	}
-	let Vt = Ja({
+	let Vt = Ya({
 		media: g,
-		enable: O,
-		controlsGroup: k,
-		startInput: A,
-		endInput: j,
-		startLabel: M,
-		endLabel: ee,
+		enable: k,
+		controlsGroup: A,
+		startInput: j,
+		endInput: M,
+		startLabel: ee,
+		endLabel: N,
 		selectionBar: te,
 		sectionList: e.getElementById("trim-section-list"),
 		addSectionButton: e.getElementById("trim-add-section"),
 		totalLabel: e.getElementById("trim-total"),
-		fineSecondsPerPixel: () => 1 / (xt || 30),
+		fineSecondsPerPixel: () => 1 / (bt || 30),
 		onChange: () => dn()
 	});
 	function Ht() {
-		let e = He.checked;
-		Ue.style.display = e ? "block" : "none", he.disabled = e, G.style.opacity = e ? "0.4" : "", K.style.opacity = e ? "0.4" : "";
+		let e = Be.checked;
+		Ve.style.display = e ? "block" : "none", he.disabled = e, G.style.opacity = e ? "0.4" : "", K.style.opacity = e ? "0.4" : "";
 	}
-	He.addEventListener("change", () => {
+	Be.addEventListener("change", () => {
 		Ht(), dn();
-	}), Ht(), We.addEventListener("input", () => {
-		let e = parseInt(We.value);
+	}), Ht(), He.addEventListener("input", () => {
+		let e = parseInt(He.value);
 		if (!isNaN(e) && e > 0) {
 			let t = e / 1e6;
-			Ge.textContent = `${t.toFixed(2)} Mbps`;
-		} else Ge.textContent = "- Mbps";
+			Ue.textContent = `${t.toFixed(2)} Mbps`;
+		} else Ue.textContent = "- Mbps";
 	}), Oe.addEventListener("change", () => {
 		ke.style.display = Oe.checked ? "block" : "none";
 	});
 	function Ut() {
-		if (ce.checked) {
-			let e = parseFloat(ue.value);
+		if (ae.checked) {
+			let e = parseFloat(le.value);
 			return e > 0 && e !== 1 ? e : null;
 		}
 		if (!Ne.checked) return null;
-		let e = Ie.value === "custom" ? parseFloat(Re.value) : parseFloat(Ie.value);
+		let e = Fe.value === "custom" ? parseFloat(Le.value) : parseFloat(Fe.value);
 		return e > 0 && e !== 1 ? e : null;
 	}
 	function Wt() {
-		if (ce.checked) return Jt();
+		if (ae.checked) return Jt();
 		if (Oe.checked) {
 			let e = parseInt(Ae.value);
 			if (e > 0) return e;
 		}
-		return Math.min(60, Math.round(xt) || 30);
+		return Math.min(60, Math.round(bt) || 30);
 	}
 	function Gt() {
-		Pe.style.display = Ne.checked ? "block" : "none", Le.style.display = Ie.value === "custom" ? "" : "none", Me.style.display = Ut() ? "none" : "";
+		Pe.style.display = Ne.checked ? "block" : "none", Ie.style.display = Fe.value === "custom" ? "" : "none", Me.style.display = Ut() ? "none" : "";
 	}
 	[
 		Ne,
-		Ie,
-		Re
-	].forEach((e) => e.addEventListener(e === Re ? "input" : "change", Gt));
+		Fe,
+		Le
+	].forEach((e) => e.addEventListener(e === Le ? "input" : "change", Gt));
 	function Kt() {
-		return ce.checked ? B.value : Be.value;
+		return ae.checked ? V.value : Re.value;
 	}
 	let qt = (e) => `${Math.abs(e - Math.round(e)) < .01 ? Math.round(e) : e.toFixed(2)} fps`;
 	function Jt() {
-		return de.value === "source" ? xt || 30 : parseInt(de.value);
+		return ue.value === "source" ? bt || 30 : parseInt(ue.value);
 	}
 	function Yt(e) {
-		let t = xt || 30;
-		e === "smooth" ? (ue.value = "1", de.value = t < 50 ? "60" : "120") : (ue.value = "0.5", de.value = "source"), Xt(), dn();
+		let t = bt || 30;
+		e === "smooth" ? (le.value = "1", ue.value = t < 50 ? "60" : "120") : (le.value = "0.5", ue.value = "source"), Xt(), dn();
 	}
 	function Xt() {
-		let e = ce.checked && !q.checked;
-		le.style.display = ce.checked ? "block" : "none", H.style.display = e || q.checked ? "none" : "", Gt();
-		let t = xt || 0;
-		z.textContent = t ? qt(t) : "unknown (assuming 30 fps)";
-		let n = parseFloat(ue.value) || 1;
-		fe.style.display = n === 1 ? "none" : "";
+		let e = ae.checked && !q.checked;
+		se.style.display = ae.checked ? "block" : "none", U.style.display = e || q.checked ? "none" : "", Gt();
+		let t = bt || 0;
+		ce.textContent = t ? qt(t) : "unknown (assuming 30 fps)";
+		let n = parseFloat(le.value) || 1;
+		de.style.display = n === 1 ? "none" : "";
 		let r = Jt(), i = r / ((t || 30) * n), a = Math.round(i) - 1, o = `${qt(t || 30)} source → ${n === 1 ? "same speed" : `${n}× speed`} at ${qt(r)}: `;
-		i <= 1.01 ? (o += "no in-between frames are needed — RIFE won't add anything. Lower the speed or raise the frame rate.", V.classList.add("warn")) : (o += Math.abs(i - Math.round(i)) < .05 ? `RIFE adds ${a} new frame${a === 1 ? "" : "s"} between each source pair (${Math.round(i)}× frames).` : `RIFE synthesizes ~${(i - 1).toFixed(1)} new frames per source frame (${i.toFixed(2)}× frames).`, V.classList.remove("warn")), bt && n !== 1 && (o += ` Length ${ya(bt)} → ${ya(bt / n)}.`), V.textContent = o;
+		i <= 1.01 ? (o += "no in-between frames are needed — RIFE won't add anything. Lower the speed or raise the frame rate.", H.classList.add("warn")) : (o += Math.abs(i - Math.round(i)) < .05 ? `RIFE adds ${a} new frame${a === 1 ? "" : "s"} between each source pair (${Math.round(i)}× frames).` : `RIFE synthesizes ~${(i - 1).toFixed(1)} new frames per source frame (${i.toFixed(2)}× frames).`, H.classList.remove("warn")), yt && n !== 1 && (o += ` Length ${ba(yt)} → ${ba(yt / n)}.`), H.textContent = o;
 	}
-	ce.addEventListener("change", () => {
-		ce.checked && !ce.dataset.touched && (ce.dataset.touched = "1", Yt((xt || 30) >= 50 ? "slowmo" : "smooth")), Xt();
-	}), [ue, de].forEach((e) => e.addEventListener("change", Xt)), pe.addEventListener("click", () => Yt("smooth")), me.addEventListener("click", () => Yt("slowmo")), ne.addEventListener("change", () => {
-		re.style.display = ne.checked ? "block" : "none";
+	ae.addEventListener("change", () => {
+		ae.checked && !ae.dataset.touched && (ae.dataset.touched = "1", Yt((bt || 30) >= 50 ? "slowmo" : "smooth")), Xt();
+	}), [le, ue].forEach((e) => e.addEventListener("change", Xt)), fe.addEventListener("click", () => Yt("smooth")), pe.addEventListener("click", () => Yt("slowmo")), P.addEventListener("change", () => {
+		ne.style.display = P.checked ? "block" : "none";
 	});
 	function Zt() {
-		let e = L.checked ? 2 : 1;
+		let e = z.checked ? 2 : 1;
 		return ve.checked && an.width && an.height ? {
 			w: an.width * e,
 			h: an.height * e
 		} : {
-			w: _t * e,
-			h: vt * e
+			w: gt * e,
+			h: _t * e
 		};
 	}
 	async function Qt() {
-		if (rn(), dn(), !L.checked) return;
-		let e = await Fa();
-		oe.textContent = e === "webgpu" ? "Every frame is upscaled on your GPU, so expect well below real time. Applied after crop and before resize; the model downloads once and is cached." : "⚠️ WebGPU isn't available in this browser, so every frame would be upscaled on the CPU — extremely slow.";
+		if (rn(), dn(), !z.checked) return;
+		let e = await Ia();
+		ie.textContent = e === "webgpu" ? "Every frame is upscaled on your GPU, so expect well below real time. Applied after crop and before resize; the model downloads once and is cached." : "⚠️ WebGPU isn't available in this browser, so every frame would be upscaled on the CPU — extremely slow.";
 	}
-	L.addEventListener("change", Qt);
+	z.addEventListener("change", Qt);
 	let $t = (e) => Math.max(2, Math.round(e / 2) * 2);
 	function en(e) {
 		let { w: t, h: n } = Zt();
@@ -11362,33 +11940,33 @@ function ps(e, { themeElement: t }) {
 		h: 0
 	};
 	function rn() {
-		let e = Zt(), t = parseInt(N.value), n = parseInt(P.value);
-		!t || !n || t === nn.w && n === nn.h ? (N.value = String(e.w), P.value = String(e.h)) : F.checked && (P.value = String(en(t))), nn = e;
+		let e = Zt(), t = parseInt(F.value), n = parseInt(I.value);
+		!t || !n || t === nn.w && n === nn.h ? (F.value = String(e.w), I.value = String(e.h)) : L.checked && (I.value = String(en(t))), nn = e;
 	}
-	N.addEventListener("input", () => {
-		if (F.checked && N.value) {
-			let e = parseInt(N.value);
-			e > 0 && (P.value = String(en(e)));
+	F.addEventListener("input", () => {
+		if (L.checked && F.value) {
+			let e = parseInt(F.value);
+			e > 0 && (I.value = String(en(e)));
 		}
-	}), P.addEventListener("input", () => {
-		if (F.checked && P.value) {
-			let e = parseInt(P.value);
-			e > 0 && (N.value = String(tn(e)));
+	}), I.addEventListener("input", () => {
+		if (L.checked && I.value) {
+			let e = parseInt(I.value);
+			e > 0 && (F.value = String(tn(e)));
 		}
-	}), ie.addEventListener("change", () => {
-		let e = ie.value;
-		if (e === "custom") N.disabled = !1, P.disabled = !1;
+	}), re.addEventListener("change", () => {
+		let e = re.value;
+		if (e === "custom") F.disabled = !1, I.disabled = !1;
 		else if (e.startsWith("square")) {
 			let t = e === "square-1080" ? 1080 : 720;
-			N.value = String(t), P.value = String(t), F.checked = !1;
+			F.value = String(t), I.value = String(t), L.checked = !1;
 		} else {
 			let t = parseInt(e);
-			N.value = String(t), P.value = String(en(t)), F.checked = !0;
+			F.value = String(t), I.value = String(en(t)), L.checked = !0;
 		}
-	}), F.addEventListener("change", () => {
-		if (F.checked && N.value) {
-			let e = parseInt(N.value);
-			e > 0 && (P.value = String(en(e)));
+	}), L.addEventListener("change", () => {
+		if (L.checked && F.value) {
+			let e = parseInt(F.value);
+			e > 0 && (I.value = String(en(e)));
 		}
 	});
 	let an = {
@@ -11398,7 +11976,7 @@ function ps(e, { themeElement: t }) {
 		height: 0
 	}, on = (e) => Math.floor(e / 2) * 2;
 	function sn(e) {
-		let t = _t, n = vt, r = Math.max(0, Math.min(Math.round(e.x), Math.max(0, t - 8))), i = Math.max(0, Math.min(Math.round(e.y), Math.max(0, n - 8)));
+		let t = gt, n = _t, r = Math.max(0, Math.min(Math.round(e.x), Math.max(0, t - 8))), i = Math.max(0, Math.min(Math.round(e.y), Math.max(0, n - 8)));
 		return {
 			x: r,
 			y: i,
@@ -11406,31 +11984,31 @@ function ps(e, { themeElement: t }) {
 			height: on(Math.max(8, Math.min(Math.round(e.height), n - i)))
 		};
 	}
-	let X = Aa({
+	let cn = ja({
 		container: g.parentElement,
 		getSourceSize: () => ({
-			width: _t,
-			height: vt
+			width: gt,
+			height: _t
 		}),
 		getCrop: () => an,
-		setCrop: (e) => cn(e),
+		setCrop: (e) => X(e),
 		getLoupeSource: () => g.videoWidth ? g : null,
 		minSize: 8
 	});
-	function cn(e) {
-		an = sn(e), ye.value = String(an.x), be.value = String(an.y), xe.value = String(an.width), Se.value = String(an.height), X.render(), rn(), dn();
+	function X(e) {
+		an = sn(e), ye.value = String(an.x), be.value = String(an.y), xe.value = String(an.width), Se.value = String(an.height), cn.render(), rn(), dn();
 	}
 	function ln() {
-		cn({
+		X({
 			x: 0,
 			y: 0,
-			width: _t,
-			height: vt
+			width: gt,
+			height: _t
 		});
 	}
 	ve.addEventListener("change", () => {
 		let e = ve.checked;
-		J.style.display = e ? "block" : "none", !e || an.width && an.height || ln(), X.setVisible(e), rn(), dn();
+		J.style.display = e ? "block" : "none", !e || an.width && an.height || ln(), cn.setVisible(e), rn(), dn();
 	}), [
 		ye,
 		be,
@@ -11438,7 +12016,7 @@ function ps(e, { themeElement: t }) {
 		Se
 	].forEach((e) => {
 		e.addEventListener("input", () => {
-			cn({
+			X({
 				x: parseInt(ye.value) || 0,
 				y: parseInt(be.value) || 0,
 				width: parseInt(xe.value) || 8,
@@ -11446,113 +12024,113 @@ function ps(e, { themeElement: t }) {
 			});
 		});
 	}), Ce.addEventListener("click", () => ln()), we.addEventListener("click", () => {
-		let e = Math.min(_t, vt);
-		cn({
-			x: Math.floor((_t - e) / 2),
-			y: Math.floor((vt - e) / 2),
+		let e = Math.min(gt, _t);
+		X({
+			x: Math.floor((gt - e) / 2),
+			y: Math.floor((_t - e) / 2),
 			width: e,
 			height: e
 		});
-	}), U.addEventListener("change", () => {
-		Ea(W, U.value);
+	}), me.addEventListener("change", () => {
+		Da(W, me.value);
 	});
-	function Z() {
+	function un() {
 		let e = parseInt(he.value);
-		G.textContent = xa[e] || "Medium", K && (K.textContent = Ca[e] || ""), ge.textContent = Sa[e] || "";
+		G.textContent = Sa[e] || "Medium", K && (K.textContent = wa[e] || ""), ge.textContent = Ca[e] || "";
 	}
-	he.addEventListener("input", Z), Z();
-	let un = e.getElementById("size-estimate");
+	he.addEventListener("input", un), un();
+	let Z = e.getElementById("size-estimate");
 	function dn() {
-		if (!un) return;
+		if (!Z) return;
 		if (q.checked) {
-			un.textContent = "≈ source size (stream copy, no re-encode)";
+			Z.textContent = "≈ source size (stream copy, no re-encode)";
 			return;
 		}
-		if (!bt) {
-			un.textContent = "—";
+		if (!yt) {
+			Z.textContent = "—";
 			return;
 		}
-		let e = bt, t = Vt.getRanges();
+		let e = yt, t = Vt.getRanges();
 		t && (e = t.reduce((e, t) => e + (t.end - t.start), 0));
-		let n = _t, r = vt;
-		if (ve.checked && an.width && an.height && (n = an.width, r = an.height), L.checked && (n *= 2, r *= 2), ne.checked) {
-			let e = parseInt(N.value), t = parseInt(P.value);
+		let n = gt, r = _t;
+		if (ve.checked && an.width && an.height && (n = an.width, r = an.height), z.checked && (n *= 2, r *= 2), P.checked) {
+			let e = parseInt(F.value), t = parseInt(I.value);
 			e > 0 && (n = e), t > 0 && (r = t);
 		}
-		let i = xt || 30;
-		if (ce.checked) i = Jt();
+		let i = bt || 30;
+		if (ae.checked) i = Jt();
 		else if (Oe.checked) {
 			let e = parseInt(Ae.value);
 			e > 0 && (i = e);
 		}
 		let a = Ut();
-		a && (e /= a, i = Wt()), Ve.textContent = ya(e) + (a ? ` at ${a}×` : "");
+		a && (e /= a, i = Wt()), ze.textContent = ba(e) + (a ? ` at ${a}×` : "");
 		let o;
-		if (He.checked) o = parseInt(We.value) || 0;
+		if (Be.checked) o = parseInt(He.value) || 0;
 		else {
-			let e = wa[parseInt(he.value)] ?? 3.5, t = n && r ? n * r / 2073600 : 1, a = i / 30;
+			let e = Ta[parseInt(he.value)] ?? 3.5, t = n && r ? n * r / 2073600 : 1, a = i / 30;
 			o = e * 1e6 * t * a;
 		}
 		let s = 0;
-		qe.checked ? s = parseInt(Ze.value) || 0 : Ke.checked && St && (s = 128e3);
+		Ge.checked ? s = parseInt(Ye.value) || 0 : We.checked && xt && (s = 128e3);
 		let c = (o + s) * e / 8;
-		un.textContent = "≈ " + va(c);
+		Z.textContent = "≈ " + ya(c);
 	}
 	D.addEventListener("input", dn), D.addEventListener("change", dn);
-	function Q() {
+	function fn() {
 		let e = q.checked;
 		_e.forEach((t) => {
 			t && (t.style.display = e ? "none" : "");
-		}), Te && (Te.style.display = e ? "none" : ""), et.panel && (et.panel.style.display = e ? "none" : ""), e && qe.checked && (Ke.checked = !0, Ye.style.display = "none"), Xt();
+		}), Te && (Te.style.display = e ? "none" : ""), Qe.panel && (Qe.panel.style.display = e ? "none" : ""), e && Ge.checked && (We.checked = !0, qe.style.display = "none"), Xt();
 	}
-	q.addEventListener("change", Q), Q(), Ke.addEventListener("change", () => Ye.style.display = "none"), Je.addEventListener("change", () => Ye.style.display = "none"), qe.addEventListener("change", () => Ye.style.display = "block"), D.addEventListener("submit", async (e) => {
-		if (e.preventDefault(), !ht || !gt) {
+	q.addEventListener("change", fn), fn(), We.addEventListener("change", () => qe.style.display = "none"), Ke.addEventListener("change", () => qe.style.display = "none"), Ge.addEventListener("change", () => qe.style.display = "block"), D.addEventListener("submit", async (e) => {
+		if (e.preventDefault(), !mt || !ht) {
 			alert("Please load a source media file before executing transcription.");
 			return;
 		}
-		At(), tt.style.display = "none", nt.style.display = "inline-block", rt.style.display = "block", lt.style.display = "none", pt.style.display = "none", it.textContent = "🐰 Initializing conversion pipeline...", at.textContent = "0%", ot.value = 0, st.textContent = "Processed Time: 0s / 0s";
+		kt(), $e.style.display = "none", et.style.display = "inline-block", tt.style.display = "block", ct.style.display = "none", ft.style.display = "none", nt.textContent = "🐰 Initializing conversion pipeline...", rt.textContent = "0%", it.value = 0, at.textContent = "Processed Time: 0s / 0s";
 		let t = performance.now();
 		try {
-			let e = U.value === "mp4", n = e ? new Ti() : new ki(), r = new ti(), i = new Vi({
+			let e = me.value === "mp4", n = e ? new Ei() : new Ai(), r = new ni(), i = new Hi({
 				format: n,
 				target: r
-			}), a = {}, o = q.checked, s = !o && L.checked, c = null;
+			}), a = {}, o = q.checked, s = !o && z.checked, c = null;
 			if (o) console.log("⚡ Fast Copy trim mode enabled. Omitting size / quality alterations."), a.forceTranscode = !1;
 			else {
-				if (a.forceTranscode = !0, a.codec = W.value, He.checked) {
-					let e = parseInt(We.value);
-					!isNaN(e) && e > 1e3 ? (a.bitrate = e, console.log(`Using custom target video bitrate: ${(e / 1e6).toFixed(2)} Mbps (${e} bps)`)) : (a.bitrate = Fe, console.log("Custom bitrate was invalid. Defaulting to Medium Preset Quality."));
+				if (a.forceTranscode = !0, a.codec = W.value, Be.checked) {
+					let e = parseInt(He.value);
+					!isNaN(e) && e > 1e3 ? (a.bitrate = e, console.log(`Using custom target video bitrate: ${(e / 1e6).toFixed(2)} Mbps (${e} bps)`)) : (a.bitrate = st, console.log("Custom bitrate was invalid. Defaulting to Medium Preset Quality."));
 				} else {
 					let e = parseInt(he.value);
-					a.bitrate = ba[e] || Fe, console.log(`Using video quality preset level: ${e} (${xa[e] || "Medium"})`);
+					a.bitrate = xa[e] || st, console.log(`Using video quality preset level: ${e} (${Sa[e] || "Medium"})`);
 				}
 				if (ve.checked ? (a.crop = {
 					left: an.x,
 					top: an.y,
 					width: an.width,
 					height: an.height
-				}, console.log(`Cropping frame to ${an.width}x${an.height} at (${an.x}, ${an.y}).`)) : !ne.checked && (yt || _t % 2 || vt % 2) && (a.crop = {
+				}, console.log(`Cropping frame to ${an.width}x${an.height} at (${an.x}, ${an.y}).`)) : !P.checked && (vt || gt % 2 || _t % 2) && (a.crop = {
 					left: 0,
 					top: 0,
-					width: on(_t),
-					height: on(vt)
-				}, console.log(`Pinning output to ${a.crop.width}x${a.crop.height} (decoded ${_t}x${vt}).`)), ne.checked && s) {
-					let e = parseInt(N.value), t = parseInt(P.value);
+					width: on(gt),
+					height: on(_t)
+				}, console.log(`Pinning output to ${a.crop.width}x${a.crop.height} (decoded ${gt}x${_t}).`)), P.checked && s) {
+					let e = parseInt(F.value), t = parseInt(I.value);
 					(e > 0 || t > 0) && (c = {
 						width: $t(e > 0 ? e : tn(t)),
 						height: $t(t > 0 ? t : en(e)),
-						fit: I.value
+						fit: R.value
 					}, console.log(`Resizing upscaled frames to ${c.width}x${c.height} (${c.fit})`));
-				} else ne.checked && (N.value && (a.width = $t(parseInt(N.value))), P.value && (a.height = $t(parseInt(P.value))), a.fit = I.value, console.log(`Setting resize dimensions: ${a.width}x${a.height} (${a.fit})`));
+				} else P.checked && (F.value && (a.width = $t(parseInt(F.value))), I.value && (a.height = $t(parseInt(I.value))), a.fit = R.value, console.log(`Setting resize dimensions: ${a.width}x${a.height} (${a.fit})`));
 				let e = Ut();
-				if (ce.checked) {
-					let t = Jt(), n = await ss((e) => {
-						it.textContent = `✨ ${e}`;
+				if (ae.checked) {
+					let t = Jt(), n = await Ss((e) => {
+						nt.textContent = `✨ ${e}`;
 					});
-					a.process = cs(n, t, e ?? 1), console.log(`✨ ${n.label} frame interpolation: ${qt(xt || 30)} source → ${e ?? 1}× speed at ${qt(t)}.`);
+					a.process = Cs(n, t, e ?? 1), console.log(`✨ ${n.label} frame interpolation: ${qt(bt || 30)} source → ${e ?? 1}× speed at ${qt(t)}.`);
 				} else if (e) {
-					let t = Wt(), n = ze.value;
-					a.process = No(e, t, n), console.log(`Time-lapse: ${e}× speed at ${t} FPS (${n} frames).`);
+					let t = Wt(), n = Y.value;
+					a.process = Po(e, t, n), console.log(`Time-lapse: ${e}× speed at ${t} FPS (${n} frames).`);
 				} else if (Oe.checked) {
 					let e = parseInt(Ae.value);
 					if (!isNaN(e) && e > 0) {
@@ -11560,16 +12138,16 @@ function ps(e, { themeElement: t }) {
 							let t = 1 / e;
 							console.log(`Setting up hardware-accelerated Bidirectional Frame Blending at ${e} FPS.`), a.process = async (e) => {
 								let n = e.codedWidth, r = e.codedHeight;
-								if (kt.isFirstFrame) {
-									kt.isFirstFrame = !1, kt.nextOutputTimestamp = e.timestamp, kt.lastSample = e.clone(), kt.blendCanvas = document.createElement("canvas"), kt.blendCanvas.width = n, kt.blendCanvas.height = r, kt.blendCtx = kt.blendCanvas.getContext("2d");
+								if (Ot.isFirstFrame) {
+									Ot.isFirstFrame = !1, Ot.nextOutputTimestamp = e.timestamp, Ot.lastSample = e.clone(), Ot.blendCanvas = document.createElement("canvas"), Ot.blendCanvas.width = n, Ot.blendCanvas.height = r, Ot.blendCtx = Ot.blendCanvas.getContext("2d");
 									let i = e.clone();
-									return i.setTimestamp(kt.nextOutputTimestamp), i.setDuration(t), kt.nextOutputTimestamp += t, [i];
+									return i.setTimestamp(Ot.nextOutputTimestamp), i.setDuration(t), Ot.nextOutputTimestamp += t, [i];
 								}
-								let i = kt.lastSample, a = e, o = i.timestamp, s = a.timestamp, c = s - o, l = [];
-								for (; kt.nextOutputTimestamp <= s;) {
-									let s = kt.nextOutputTimestamp, u = 0;
+								let i = Ot.lastSample, a = e, o = i.timestamp, s = a.timestamp, c = s - o, l = [];
+								for (; Ot.nextOutputTimestamp <= s;) {
+									let s = Ot.nextOutputTimestamp, u = 0;
 									c > 0 && (u = (s - o) / c), u = Math.max(0, Math.min(1, u));
-									let d = u * u * (3 - 2 * u), f = kt.blendCanvas, p = kt.blendCtx;
+									let d = u * u * (3 - 2 * u), f = Ot.blendCanvas, p = Ot.blendCtx;
 									p.clearRect(0, 0, n, r);
 									let m = i.toVideoFrame(), h = a.toVideoFrame();
 									p.globalAlpha = 1, p.drawImage(m, 0, 0, n, r), p.globalAlpha = d, p.drawImage(h, 0, 0, n, r), m.close(), h.close();
@@ -11577,9 +12155,9 @@ function ps(e, { themeElement: t }) {
 										timestamp: s,
 										duration: t
 									});
-									l.push(g), kt.nextOutputTimestamp += t;
+									l.push(g), Ot.nextOutputTimestamp += t;
 								}
-								return i.close(), kt.lastSample = a.clone(), l;
+								return i.close(), Ot.lastSample = a.clone(), l;
 							};
 						} else a.frameRate = e, console.log(`Setting output target frame rate: ${e} FPS (continuous repeating mode).`);
 					}
@@ -11588,28 +12166,28 @@ function ps(e, { themeElement: t }) {
 			let l = parseInt(Ee.value);
 			l !== 0 && (a.rotate = l, a.forceTranscode = !0, console.log(`Applying manual rotation adjustment: ${l}° CW.`)), a.allowRotationMetadata = De.checked;
 			let u = {};
-			if (Je.checked) console.log("🔇 Mutex setting: Stripping entire audio stream from output."), u.discard = !0;
+			if (Ke.checked) console.log("🔇 Mutex setting: Stripping entire audio stream from output."), u.discard = !0;
 			else if (!o && Ut() && Kt() === "remove") console.log("🔇 Speed change is on with audio set to Remove: dropping the audio track."), u.discard = !0;
-			else if (Ke.checked) console.log("⚡ Audio block: Direct pass-through copy selected."), u.forceTranscode = !1;
-			else if (qe.checked) {
-				u.forceTranscode = !0, u.codec = Xe.value, u.bitrate = parseInt(Ze.value);
-				let e = parseInt(Qe.value);
+			else if (We.checked) console.log("⚡ Audio block: Direct pass-through copy selected."), u.forceTranscode = !1;
+			else if (Ge.checked) {
+				u.forceTranscode = !0, u.codec = Je.value, u.bitrate = parseInt(Ye.value);
+				let e = parseInt(Xe.value);
 				e > 0 && (u.numberOfChannels = e);
-				let t = parseInt($e.value);
-				t > 0 && (u.sampleRate = t), console.log(`Transcoding Audio Stream: ${u.codec} at ${parseInt(Ze.value) / 1e3}kbps, SampleRate: ${t || "Original"}, Channels: ${e || "Original"}`);
+				let t = parseInt(Ze.value);
+				t > 0 && (u.sampleRate = t), console.log(`Transcoding Audio Stream: ${u.codec} at ${parseInt(Ye.value) / 1e3}kbps, SampleRate: ${t || "Original"}, Channels: ${e || "Original"}`);
 			}
-			let d = {}, f = Vt.getRanges(), p = bt;
+			let d = {}, f = Vt.getRanges(), p = yt;
 			if (f && (d.start = f[0].start, d.end = f[f.length - 1].end, p = f.reduce((e, t) => e + (t.end - t.start), 0), console.log(`Clip window enabled: ${f.map((e) => `${e.start.toFixed(2)}s–${e.end.toFixed(2)}s`).join(", ")} (output duration: ${p.toFixed(2)}s)`)), f && f.length > 1) {
 				if (o) throw Error("Joining multiple sections requires re-encoding. Turn off Fast Copy, or use a single section.");
-				let e = Lo(f), t = a.process;
+				let e = Ro(f), t = a.process;
 				a.process = (n) => {
 					let r = e(n.timestamp);
 					return r === null ? null : (n.setTimestamp(r), t ? t(n) : n);
-				}, u.discard || (u.process = Ro(e), Ke.checked && console.log("Audio will be re-encoded to join sections."));
+				}, u.discard || (u.process = zo(e), We.checked && console.log("Audio will be re-encoded to join sections."));
 			}
 			let m = o ? null : Ut();
 			if (m && !u.discard) {
-				let e = Kt(), t = Io(m, e), n = u.process;
+				let e = Kt(), t = Lo(m, e), n = u.process;
 				u.process = async (e) => {
 					if (!n) return t(e);
 					let r = await n(e);
@@ -11618,12 +12196,12 @@ function ps(e, { themeElement: t }) {
 					return r.close(), i;
 				}, console.log(`Audio ${e === "stretch" ? "time-stretched (pitch kept)" : "resampled (pitch shifts)"} to ${m}× speed.`);
 			}
-			let h = !o && !u.discard && St ? et.getOptions() : null;
+			let h = !o && !u.discard && xt ? Qe.getOptions() : null;
 			if (h) {
-				let e = await gt.getPrimaryAudioTrack();
+				let e = await ht.getPrimaryAudioTrack();
 				if (e) {
-					wt = !1;
-					let t = await yo({
+					Ct = !1;
+					let t = await bo({
 						track: e,
 						options: h,
 						span: f ? {
@@ -11631,116 +12209,128 @@ function ps(e, { themeElement: t }) {
 							end: f[f.length - 1].end
 						} : null,
 						ranges: f ?? [],
-						onStatus: (e) => it.textContent = e,
-						isCancelled: () => wt
+						onStatus: (e) => nt.textContent = e,
+						isCancelled: () => Ct
 					});
 					t.sampleRate && (u.sampleRate && u.sampleRate !== t.sampleRate && console.log(`🧠 AI noise reduction works at ${t.sampleRate} Hz; overriding the ${u.sampleRate} Hz output setting.`), u.sampleRate = t.sampleRate), u.forceTranscode = !0, u.process = t.wrap(u.process), console.log(`🎙️ Voice enhance on (audio is re-encoded)${t.denoised ? " with AI noise reduction" : ""}${h.targetDb === null ? "" : `, loudness gain ${t.gainDb >= 0 ? "+" : ""}${t.gainDb.toFixed(1)} dB`}.`);
 				}
 			}
 			if (s) {
-				let e = R.value, t = await Ia(e, (e) => {
-					it.textContent = `✨ ${e}`;
+				let e = B.value, t = await La(e, (e) => {
+					nt.textContent = `✨ ${e}`;
 				});
-				a.process = rs(t, a.process, c);
-				let n = a.crop?.width ?? _t, r = a.crop?.height ?? vt;
+				a.process = vs(t, a.process, c);
+				let n = a.crop?.width ?? gt, r = a.crop?.height ?? _t;
 				a.crop || l !== 90 && l !== 270 || ([n, r] = [r, n]), a.processedWidth = c?.width ?? n * 2, a.processedHeight = c?.height ?? r * 2, console.log(`✨ AI upscale (${t.label}): ${n}x${r} → ${n * 2}x${r * 2}` + (c ? `, then resized to ${c.width}x${c.height}` : ""));
 			}
-			if (Ct = await Yi.init({
-				input: gt,
+			if (St = await Xi.init({
+				input: ht,
 				output: i,
 				video: a,
 				audio: u,
-				trim: O.checked ? d : void 0
-			}), !Ct.isValid) throw console.error("Transcode pipeline validation failed!"), Ct.discardedTracks.forEach((e) => {
+				trim: k.checked ? d : void 0
+			}), !St.isValid) throw console.error("Transcode pipeline validation failed!"), St.discardedTracks.forEach((e) => {
 				console.warn(`Track ${e.track.id} discarded. Reason: ${e.reason}`);
 			}), Error("Chosen tracks make for an invalid or unsupported file conversion combination.");
-			let g = f ? d.end - d.start : bt;
-			Ct.onProgress = (e, n) => {
+			let g = f ? d.end - d.start : yt;
+			St.onProgress = (e, n) => {
 				let r = Math.min(100, Math.round(e * 100));
-				at.textContent = `${r}%`, ot.value = r, it.textContent = `🐰 Transcoding active clip frames (${r}%)`, st.textContent = `Processed Time: ${n.toFixed(1)}s / ${g.toFixed(1)}s`;
+				rt.textContent = `${r}%`, it.value = r, nt.textContent = `🐰 Transcoding active clip frames (${r}%)`, at.textContent = `Processed Time: ${n.toFixed(1)}s / ${g.toFixed(1)}s`;
 				let i = (performance.now() - t) / 1e3;
 				if (n > 0) {
 					let e = n / i;
-					ct.textContent = `Processing speed: ${e.toFixed(2)}x real-time`;
+					ot.textContent = `Processing speed: ${e.toFixed(2)}x real-time`;
 				}
-			}, console.log("🚀 Launching conversion backend. Please wait..."), await Ct.execute();
+			}, console.log("🚀 Launching conversion backend. Please wait..."), await St.execute();
 			let _ = r.buffer;
 			if (!_) throw Error("Conversion processed but target buffer remains empty!");
 			let v = e ? "video/mp4" : "video/webm", y = e ? "mp4" : "webm", b = new Blob([_], { type: v }), x = URL.createObjectURL(b);
-			ut.href = x;
-			let S = ht.name.lastIndexOf("."), C = S > 0 ? ht.name.slice(0, S) : ht.name;
-			ut.download = `${C}_web_export.${y}`, dt.textContent = `Size: ${va(b.size)}`, ft.src = x, console.log(`🎉 Transcoding successfully finished! Outfile Size: ${va(b.size)}.`), lt.style.display = "block", lt.scrollIntoView({ behavior: "smooth" });
+			lt.href = x;
+			let S = mt.name.lastIndexOf("."), C = S > 0 ? mt.name.slice(0, S) : mt.name;
+			lt.download = `${C}_web_export.${y}`, ut.textContent = `Size: ${ya(b.size)}`, dt.src = x, console.log(`🎉 Transcoding successfully finished! Outfile Size: ${ya(b.size)}.`), ct.style.display = "block", ct.scrollIntoView({ behavior: "smooth" });
 		} catch (e) {
 			e.name === "ConversionCanceledError" || e.message?.includes("canceled") ? console.warn("Transcoding canceled by the operator.") : (console.error("Transcoder failure: ", e), alert(`Conversion failure: ${e.message || e}`));
 		} finally {
-			At(), tt.style.display = "inline-block", nt.style.display = "none", rt.style.display = "none", lt.style.display === "none" && (pt.style.display = ""), Ct = null;
+			kt(), $e.style.display = "inline-block", et.style.display = "none", tt.style.display = "none", ct.style.display === "none" && (ft.style.display = ""), St = null;
 		}
-	}), nt.addEventListener("click", async () => {
-		wt = !0, Ct && (console.log("Requesting cancellation of active codec processors..."), await Ct.cancel());
+	}), et.addEventListener("click", async () => {
+		Ct = !0, St && (console.log("Requesting cancellation of active codec processors..."), await St.cancel());
 	});
-	let fn = e.getElementById("extract-format"), pn = e.getElementById("extract-bitrate"), mn = e.getElementById("extract-export-btn"), hn = e.getElementById("extract-edit-btn"), gn = e.getElementById("extract-status"), _n = null, vn = () => pn.disabled = !!Wa[fn.value]?.lossless;
-	fn.addEventListener("change", vn), Ga(fn).then(vn);
+	let Q = e.getElementById("extract-format"), pn = e.getElementById("extract-bitrate"), mn = e.getElementById("extract-export-btn"), hn = e.getElementById("extract-edit-btn"), gn = e.getElementById("extract-status"), _n = null, vn = () => pn.disabled = !!Ga[Q.value]?.lossless;
+	Q.addEventListener("change", vn), Ka(Q).then(vn);
 	async function yn(e) {
-		if (!ht || !gt) {
+		if (!mt || !ht) {
 			alert("Please load a video first.");
 			return;
 		}
-		if (!St) {
+		if (!xt) {
 			alert("This video has no audio track.");
 			return;
 		}
-		let t = e === "edit" ? Wa.wav : Wa[fn.value] || Wa.mp3, n = e === "export" && !q.checked ? et.getOptions() : null, r = ht.name.lastIndexOf("."), i = `${r > 0 ? ht.name.slice(0, r) : ht.name}_audio`;
-		wt = !1, mn.disabled = hn.disabled = tt.disabled = !0, nt.style.display = "inline-block", rt.style.display = "block", pt.style.display = "none", it.textContent = "🎵 Extracting audio...", at.textContent = "0%", ot.value = 0, st.textContent = "", ct.textContent = "", gn.textContent = "";
+		let t = e === "edit" ? Ga.wav : Ga[Q.value] || Ga.mp3, n = e === "export" && !q.checked ? Qe.getOptions() : null, r = mt.name.lastIndexOf("."), i = `${r > 0 ? mt.name.slice(0, r) : mt.name}_audio`;
+		Ct = !1, mn.disabled = hn.disabled = $e.disabled = !0, et.style.display = "inline-block", tt.style.display = "block", ft.style.display = "none", nt.textContent = "🎵 Extracting audio...", rt.textContent = "0%", it.value = 0, at.textContent = "", ot.textContent = "", gn.textContent = "";
 		try {
-			let r = await zo({
-				input: gt,
+			let r = await Bo({
+				input: ht,
 				baseName: i,
 				spec: t,
 				bitrate: parseInt(pn.value) || 192e3,
 				ranges: Vt.getRanges(),
 				enhance: n,
-				onStatus: (e) => it.textContent = e,
+				onStatus: (e) => nt.textContent = e,
 				onProgress: (e) => {
 					let t = Math.min(100, Math.round(e * 100));
-					at.textContent = `${t}%`, ot.value = t, it.textContent = `🎵 Extracting audio (${t}%)`;
+					rt.textContent = `${t}%`, it.value = t, nt.textContent = `🎵 Extracting audio (${t}%)`;
 				},
-				onConversion: (e) => Ct = e,
-				isCancelled: () => wt
+				onConversion: (e) => St = e,
+				isCancelled: () => Ct
 			});
-			if (console.log(`🎵 Extracted audio: ${r.name} (${va(r.size)}).`), e === "edit") {
+			if (console.log(`🎵 Extracted audio: ${r.name} (${ya(r.size)}).`), e === "edit") {
 				await zt(r);
 				return;
 			}
 			_n && URL.revokeObjectURL(_n), _n = URL.createObjectURL(r);
 			let a = document.createElement("a");
-			a.href = _n, a.download = r.name, a.textContent = "Download again", gn.replaceChildren(`Saved ${r.name} (${va(r.size)}). `, a), a.click();
+			a.href = _n, a.download = r.name, a.textContent = "Download again", gn.replaceChildren(`Saved ${r.name} (${ya(r.size)}). `, a), a.click();
 		} catch (e) {
 			e.name === "ConversionCanceledError" || e.message?.includes("canceled") ? console.warn("Audio extraction canceled.") : (console.error("Audio extraction failed: ", e), alert(`Audio extraction failed: ${e.message || e}`));
 		} finally {
-			mn.disabled = hn.disabled = tt.disabled = !1, nt.style.display = "none", rt.style.display = "none", lt.style.display === "none" && (pt.style.display = ""), Ct = null;
+			mn.disabled = hn.disabled = $e.disabled = !1, et.style.display = "none", tt.style.display = "none", ct.style.display === "none" && (ft.style.display = ""), St = null;
 		}
 	}
 	mn.addEventListener("click", () => void yn("export")), hn.addEventListener("click", () => void yn("edit"));
-	let bn = e.getElementById("home-link");
+	let bn = es(e, {
+		getInput: () => ht,
+		getFileName: () => mt?.name ?? null,
+		getSourceDuration: () => yt,
+		getRegion: () => !ht || !gt ? null : ve.checked && an.width && an.height ? { ...an } : {
+			x: 0,
+			y: 0,
+			width: gt,
+			height: _t
+		},
+		getRanges: () => Vt.getRanges(),
+		getSpeed: () => Ut()
+	}), xn = e.getElementById("home-link");
 	function $() {
-		Ct && Ct.cancel(), Tt?.setActive(!1), Et?.setActive(!1), Tt?.dispose(), Et?.dispose(), Dt?.dispose(), Ot?.dispose(), gt &&= (gt.dispose(), null), ht = null, g.pause(), g.src && URL.revokeObjectURL(g.src), g.removeAttribute("src"), ft.src && URL.revokeObjectURL(ft.src), ft.removeAttribute("src"), lt.style.display = "none", mt.style.display = "none", l.value = "", u.style.display = "none", t.scrollIntoView({
+		bn.dispose(), St && St.cancel(), wt?.setActive(!1), Tt?.setActive(!1), wt?.dispose(), Tt?.dispose(), Et?.dispose(), Dt?.dispose(), ht &&= (ht.dispose(), null), mt = null, g.pause(), g.src && URL.revokeObjectURL(g.src), g.removeAttribute("src"), dt.src && URL.revokeObjectURL(dt.src), dt.removeAttribute("src"), ct.style.display = "none", pt.style.display = "none", l.value = "", u.style.display = "none", t.scrollIntoView({
 			behavior: "smooth",
 			block: "start"
 		});
 	}
-	bn.addEventListener("click", (e) => {
+	xn.addEventListener("click", (e) => {
 		e.preventDefault(), $();
 	});
 }
 // src/component.ts
-var ms = Jt.replace(/:root\b/g, ":host"), hs = "\n:host { display: block; }\n.mb-app {\n  font-family: var(--pico-font-family, system-ui, sans-serif);\n  line-height: var(--pico-line-height, 1.5);\n  color: var(--pico-color);\n  background-color: var(--pico-background-color);\n  -webkit-font-smoothing: antialiased;\n  padding: 0.5rem 1.5rem 2rem;\n}\n", gs = class extends HTMLElement {
+var ks = Yt.replace(/:root\b/g, ":host"), As = "\n:host { display: block; }\n.mb-app {\n  font-family: var(--pico-font-family, system-ui, sans-serif);\n  line-height: var(--pico-line-height, 1.5);\n  color: var(--pico-color);\n  background-color: var(--pico-background-color);\n  -webkit-font-smoothing: antialiased;\n  padding: 0.5rem 1.5rem 2rem;\n}\n", js = class extends HTMLElement {
 	connectedCallback() {
 		if (this.shadowRoot) return;
 		let e = this.attachShadow({ mode: "open" }), t = document.createElement("style");
-		t.textContent = ms + hs, e.appendChild(t);
+		t.textContent = ks + As, e.appendChild(t);
 		let n = document.createElement("div");
-		n.className = "mb-app", n.setAttribute("data-theme", this.getAttribute("theme") || "dark"), n.innerHTML = Xt, e.appendChild(n), ps(e, { themeElement: n });
+		n.className = "mb-app", n.setAttribute("data-theme", this.getAttribute("theme") || "dark"), n.innerHTML = Zt, e.appendChild(n), Os(e, { themeElement: n });
 	}
 };
-customElements.get("media-converter") || customElements.define("media-converter", gs), customElements.get("mediabunny-toolkit") || customElements.define("mediabunny-toolkit", class extends gs {});
-export { gs as MediaConverter };
+customElements.get("media-converter") || customElements.define("media-converter", js), customElements.get("mediabunny-toolkit") || customElements.define("mediabunny-toolkit", class extends js {});
+export { js as MediaConverter };

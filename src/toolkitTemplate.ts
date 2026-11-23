@@ -908,6 +908,114 @@ None detected</pre
                     <small id="extract-status" style="color: var(--pico-muted-color)"></small>
                   </div>
                 </details>
+
+                <!-- Animated GIF export: honors trim, crop and speed from the panels above -->
+                <details class="config-card" id="panel-gif">
+                  <summary class="card-header">🎞️ Export as GIF</summary>
+                  <div class="config-card-body">
+                    <small style="color: var(--pico-muted-color); display: block; margin-bottom: 0.75rem">
+                      Makes an animated GIF from this video. Follows the trim / sections, crop box and speed set above.
+                      Frames are area-averaged down, share one palette, and unchanged pixels are skipped to keep it small.
+                    </small>
+                    <label for="gif-preset">Preset</label>
+                    <select id="gif-preset" name="gif-preset">
+                      <option value="tiny">Tiny (320 px, 10 fps, 64 colors)</option>
+                      <option value="balanced" selected>Balanced (480 px, 12 fps, 128 colors)</option>
+                      <option value="sharp">Sharp (640 px, 15 fps, 256 colors)</option>
+                      <option value="led32">LED panel 32×32</option>
+                      <option value="led64x32">LED panel 64×32</option>
+                      <option value="custom" disabled>Custom</option>
+                    </select>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <div>
+                        <label for="gif-width">Width (px)</label>
+                        <input type="number" id="gif-width" min="1" max="1920" step="1" value="480" />
+                      </div>
+                      <div>
+                        <label for="gif-height">Height (px)</label>
+                        <input type="number" id="gif-height" min="1" max="1920" step="1" placeholder="auto" />
+                      </div>
+                      <div>
+                        <label for="gif-fps">Frame rate</label>
+                        <input type="number" id="gif-fps" min="1" max="50" step="1" value="12" />
+                      </div>
+                    </div>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <div>
+                        <label for="gif-colors">Palette</label>
+                        <select id="gif-colors" name="gif-colors">
+                          <option value="16">16 colors</option>
+                          <option value="32">32 colors</option>
+                          <option value="64">64 colors</option>
+                          <option value="128" selected>128 colors</option>
+                          <option value="256">256 colors</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="gif-fit">Shape mismatch</label>
+                        <select id="gif-fit" name="gif-fit">
+                          <option value="fill" selected>Center-crop to fill</option>
+                          <option value="stretch">Stretch</option>
+                        </select>
+                      </div>
+                    </div>
+                    <label for="gif-resample">Downsampling</label>
+                    <select id="gif-resample" name="gif-resample">
+                      <option value="area" selected>Area average (smooth)</option>
+                      <option value="nearest">Nearest (pixel-exact, for pixel-block art)</option>
+                    </select>
+                    <label for="gif-budget">Size budget (MB, 0 = none)</label>
+                    <input type="number" id="gif-budget" min="0" max="100" step="0.1" value="0" />
+                    <label for="gif-tolerance">
+                      Change tolerance: <span id="gif-tolerance-val">8</span>
+                      <input type="range" id="gif-tolerance" min="0" max="40" step="1" value="8" />
+                    </label>
+                    <small style="color: var(--pico-muted-color); display: block; margin: -0.5rem 0 0.75rem">
+                      Pixels (and whole frames) that change less than this are kept as they were. Higher = smaller file.
+                    </small>
+                    <fieldset style="margin-bottom: 0.5rem">
+                      <label for="gif-diff">
+                        <input type="checkbox" id="gif-diff" checked />
+                        Skip unchanged pixels (transparent)
+                      </label>
+                      <label for="gif-dither">
+                        <input type="checkbox" id="gif-dither" />
+                        Dither (ordered Bayer; usually shimmers at tiny sizes)
+                      </label>
+                      <label for="gif-punch">
+                        <input type="checkbox" id="gif-punch" />
+                        Boost contrast &amp; saturation slightly
+                      </label>
+                      <label for="gif-loop">
+                        <input type="checkbox" id="gif-loop" checked />
+                        Loop forever
+                      </label>
+                    </fieldset>
+                    <div class="grid" style="margin-bottom: 0.25rem">
+                      <button type="button" id="gif-export-btn" class="secondary">🎞️ Create GIF</button>
+                      <button type="button" id="gif-estimate-btn" class="secondary outline" title="Encodes the first second or two and extrapolates">
+                        📏 Estimate size
+                      </button>
+                    </div>
+                    <button type="button" id="gif-cancel-btn" class="secondary outline" style="display: none">🛑 Cancel</button>
+                    <progress id="gif-progress" value="0" max="100" style="display: none"></progress>
+                    <small id="gif-status" style="color: var(--pico-muted-color); display: block" role="status"></small>
+                    <div id="gif-result" style="display: none; margin-top: 0.75rem">
+                      <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start">
+                        <figure style="margin: 0">
+                          <img id="gif-preview-real" alt="GIF preview at actual size" style="image-rendering: pixelated; display: block; background: #000" />
+                          <figcaption><small id="gif-real-caption">Actual size</small></figcaption>
+                        </figure>
+                        <figure id="gif-zoom-fig" style="margin: 0">
+                          <img id="gif-preview-zoom" alt="GIF preview enlarged" style="image-rendering: pixelated; display: block; background: #000" />
+                          <figcaption><small id="gif-zoom-caption">Enlarged</small></figcaption>
+                        </figure>
+                      </div>
+                      <div id="gif-stats" style="margin: 0.75rem 0 0.5rem; font-size: 0.85rem"></div>
+                      <a id="gif-download" role="button" class="secondary" href="#" download="animation.gif">⬇️ Download GIF</a>
+                    </div>
+                  </div>
+                </details>
             </form>
           </div>
           <!-- Column 3: output / download -->

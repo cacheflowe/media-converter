@@ -1,4 +1,4 @@
-import { _t as e, j as t, t as n } from "./onnxRuntime-DwfKOOpe.js";
+import { j as e, t, vt as n } from "./onnxRuntime-DBehIc4z.js";
 // src/neuralDenoise.ts
 var r = 44100, i = {
 	label: "Resemble denoiser",
@@ -118,12 +118,12 @@ async function h(e, t, n) {
 		frames: o.frames
 	}, a.length, t).subarray(0, n.length);
 }
-async function g(e, t, a) {
-	t("Loading AI denoiser…");
-	let s = await n(i, t), d = new u(o), f = c * r, p = Math.round(l * r), m = 507150, g = new Float32Array(e.length), _ = Math.max(1, Math.ceil(Math.max(0, e.length - p) / m));
-	for (let n = 0, r = 0; r < e.length; n++, r += m) {
+async function g(e, n, a) {
+	n("Loading AI denoiser…");
+	let s = await t(i, n), d = new u(o), f = c * r, p = Math.round(l * r), m = 507150, g = new Float32Array(e.length), _ = Math.max(1, Math.ceil(Math.max(0, e.length - p) / m));
+	for (let t = 0, r = 0; r < e.length; t++, r += m) {
 		if (a()) return g;
-		t(`Reducing noise… ${Math.round(n / _ * 100)}%`, n / _);
+		n(`Reducing noise… ${Math.round(t / _ * 100)}%`, t / _);
 		let i = Math.min(e.length, r + f), o = e.slice(r, i), c = 1e-7;
 		for (let e of o) c = Math.max(c, Math.abs(e));
 		for (let e = 0; e < o.length; e++) o[e] /= c;
@@ -134,7 +134,7 @@ async function g(e, t, a) {
 		}
 		if (u) break;
 	}
-	return t("Reducing noise… 100%", 1), g;
+	return n("Reducing noise… 100%", 1), g;
 }
 async function _(e, t, n) {
 	if (t === n || !e.length) return e;
@@ -143,9 +143,9 @@ async function _(e, t, n) {
 	let a = r.createBufferSource();
 	return a.buffer = i, a.connect(r.destination), a.start(), (await r.startRendering()).getChannelData(0);
 }
-async function v(e, n, i, a) {
+async function v(t, n, i, a) {
 	i("Decoding audio…");
-	let o = new t(e), s = [], c = 0, l = r, u = null;
+	let o = new e(t), s = [], c = 0, l = r, u = null;
 	for await (let e of o.samples(n?.start, n?.end)) {
 		if (a()) return e.close(), null;
 		l = e.sampleRate;
@@ -174,24 +174,24 @@ async function v(e, n, i, a) {
 		start: u ?? 0
 	};
 }
-function y(t, n) {
+function y(e, t) {
 	let i = 0, a = !1;
 	return (o) => {
 		let s = o.numberOfFrames, c = o.numberOfChannels;
 		if (o.sampleRate !== 44100) return a || console.warn(`AI denoise skipped: audio is ${o.sampleRate} Hz, expected ${r} Hz.`), a = !0, o.clone();
 		let l = new Float32Array(s * c), u = new Float32Array(s);
-		for (let e = 0; e < c; e++) {
+		for (let n = 0; n < c; n++) {
 			o.copyTo(u, {
-				planeIndex: e,
+				planeIndex: n,
 				format: "f32-planar"
 			});
-			let r = e * s;
-			for (let e = 0; e < s; e++) {
-				let a = t.pcm[i + e] ?? 0;
-				l[r + e] = n * a + (1 - n) * u[e];
+			let r = n * s;
+			for (let n = 0; n < s; n++) {
+				let a = e.pcm[i + n] ?? 0;
+				l[r + n] = t * a + (1 - t) * u[n];
 			}
 		}
-		return i += s, new e({
+		return i += s, new n({
 			data: l,
 			format: "f32-planar",
 			numberOfChannels: c,
@@ -200,21 +200,21 @@ function y(t, n) {
 		});
 	};
 }
-async function* b(t, n) {
-	let i = 4096, a = n.length ? n : [{
-		start: t.start,
-		end: t.start + t.pcm.length / r
+async function* b(e, t) {
+	let i = 4096, a = t.length ? t : [{
+		start: e.start,
+		end: e.start + e.pcm.length / r
 	}];
-	for (let n of a) {
-		let a = Math.max(0, Math.round((n.start - t.start) * r)), o = Math.min(t.pcm.length, Math.round((n.end - t.start) * r));
-		for (let n = a; n < o; n += i) {
-			let a = t.pcm.slice(n, Math.min(o, n + i));
-			yield new e({
+	for (let t of a) {
+		let a = Math.max(0, Math.round((t.start - e.start) * r)), o = Math.min(e.pcm.length, Math.round((t.end - e.start) * r));
+		for (let t = a; t < o; t += i) {
+			let a = e.pcm.slice(t, Math.min(o, t + i));
+			yield new n({
 				data: a,
 				format: "f32-planar",
 				numberOfChannels: 1,
 				sampleRate: r,
-				timestamp: n / r
+				timestamp: t / r
 			});
 		}
 	}
